@@ -108,19 +108,33 @@ Con el desglose por tipo de válvula, que es como se habla de válvulas en una p
   <div><b>{usd(d["total_usd"])}</b>capítulo 84.81 completo</div>
   <div><b>{d["total_items"]:,}</b>ítems importados</div>
   <div><b>{d["n_importadores"]:,}</b>importadores activos</div>
-  <div><b>88%</b>sin marca declarada</div>
+  <div><b>US$396,6M</b>mercado de válvulas</div>
 </div>
 
 <div class="correccion">
-  <b>Corrección de una cifra anterior.</b> El cruce general del catálogo había medido válvulas en
-  <b>US${con_marca/1e6:,.1f}M</b>. Ese número es real pero es <b>otra cosa</b>: es el valor de las
-  importaciones que declaran una marca de fabricante del rubro. En válvulas, el <b>88% del valor no
-  declara marca reconocible</b> — entra como "válvula" a secas o con marcas genéricas sin fabricante
-  identificable. El capítulo completo mueve <b>{usd(d["total_usd"])}</b>.
-  <br><br>
-  <b>Cuál usar para qué.</b> Para dimensionar el mercado: <b>{usd(d["total_usd"])}</b>.
-  Para saber contra quién se compite: <b>{usd(con_marca)}</b>, que es donde hay marca con nombre.
-  El filtro por marca sirve para medir competencia, no tamaño.
+  <b>Corrección de la cifra que veníamos usando.</b> El cruce general del catálogo medía válvulas en
+  <b>US${usd(con_marca)}</b>. Ese número corresponde a <b>una sola de las tres cosas</b> que trae el
+  capítulo, y confundirlas hacía parecer el mercado ocho veces más chico de lo que es.
+</div>
+
+<p>El capítulo arancelario 84.81 mezcla tres cosas distintas, y hay que separarlas antes de hablar
+de mercado:</p>
+<table>
+  <tr><th>Categoría</th><th class="num">Valor</th><th class="num">%</th><th>Qué es</th></tr>
+  <tr><td><b>Válvulas con marca del rubro</b></td><td class="num">US$62,7M</td><td class="num">14%</td>
+      <td>Competencia identificable: Bray, Valmet, Emerson, Danfoss</td></tr>
+  <tr><td><b>Válvulas sin marca del rubro</b></td><td class="num">US$333,9M</td><td class="num">73%</td>
+      <td><b>El mercado real</b>, con fabricante no declarado o marca genérica</td></tr>
+  <tr><td><b>Ruido de otros rubros</b></td><td class="num">US$58,4M</td><td class="num">13%</td>
+      <td>No son válvulas de proceso: Caterpillar US$27,1M, Cummins US$5,4M, Doosan US$5,0M</td></tr>
+  <tr><td><b>Capítulo 84.81 completo</b></td><td class="num">US$455,0M</td><td class="num">100%</td>
+      <td>Suma de las tres</td></tr>
+</table>
+<div class="aviso">
+  <b>El número que hay que usar.</b> Mercado de válvulas en Chile 2025 ≈ <b>US$396,6M</b>
+  (las categorías 1 y 2: válvulas con y sin marca del rubro). El capítulo completo
+  (US$455,0M) sobreestima porque incluye repuestos de automoción que usan las mismas partidas.
+  Y los US$53,8M que se reportaban antes subestiman gravemente porque cuentan solo el 14% con marca.
 </div>
 
 <h2>El mercado por tipo de válvula</h2>

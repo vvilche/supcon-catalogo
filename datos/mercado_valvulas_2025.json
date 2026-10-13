@@ -890,5 +890,39 @@
    2915766.54
   ]
  ],
- "n_importadores": 626
+ "n_importadores": 626,
+ "desglose_corregido": {
+  "a_valvulas_con_marca_rubro_usd": 62700000,
+  "b_valvulas_sin_marca_rubro_usd": 333900000,
+  "c_ruido_otros_rubros_usd": 58400000,
+  "total_capitulo_usd": 455000000,
+  "mercado_valvulas_a_mas_b_usd": 396600000,
+  "nota": "El capítulo 84.81 trae tres cosas mezcladas: válvulas con marca de fabricante del rubro (competencia identificable), válvulas sin marca del rubro (mercado real cuyo fabricante no se declara), y ruido de otros rubros (Caterpillar, Cummins, Doosan: repuestos de automoción que usan partidas de válvulas). Medir el mercado exige separar las tres. El cruce general del catálogo reportó US$53,8M porque contaba solo la categoría (a).",
+  "ruido_principal": [
+   [
+    "CATERPILLAR",
+    27090000
+   ],
+   [
+    "CUMMINS",
+    5440000
+   ],
+   [
+    "DOOSAN",
+    4960000
+   ],
+   [
+    "SENSI DACQUA",
+    3910000
+   ],
+   [
+    "EPCM",
+    2920000
+   ],
+   [
+    "KOMATSU",
+    2810000
+   ]
+  ]
+ }
 }
