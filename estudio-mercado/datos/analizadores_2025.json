@@ -1,0 +1,3673 @@
+{
+ "anio": 2025,
+ "total_proceso_usd": 86815277.62,
+ "total_revisar_usd": 39413727.37,
+ "total_excluido_usd": 45192831.51,
+ "glosas": {
+  "90271010": "Analizadores de gases o humos (detectores de gas, analizadores de combustion)",
+  "90271090": "Los demas analizadores de gases o humos",
+  "90272000": "Cromatografos y aparatos de electroforesis",
+  "90273000": "Espectrometros, espectrofotometros y espectrografos (opticos UV, IR, absorcion atomica)",
+  "90275000": "Los demas aparatos que utilizan radiaciones opticas (UV, visible, IR)",
+  "90278000": "Los demas instrumentos y aparatos (pH, conductividad, oxigeno disuelto)",
+  "90278100": "Espectrometros de masa",
+  "90278900": "Los demas",
+  "90278999": "Los demas",
+  "90279000": "Microtomos; partes y accesorios de los anteriores",
+  "90279090": "Las demas partes y accesorios"
+ },
+ "por_subpartida": {
+  "90278999": {
+   "cif": 30139885.88,
+   "items": 2598,
+   "marcas": [
+    [
+     "ENDRESS + HAUSER",
+     1817353.6200000003
+    ],
+    [
+     "THERMO ELECTRON-F",
+     1798610.52
+    ],
+    [
+     "CIDRA-F",
+     1695686.9000000001
+    ],
+    [
+     "METSO-F",
+     1529759.1
+    ],
+    [
+     "ENDRESS +HAUSER",
+     1389520.6099999992
+    ],
+    [
+     "S.A.I.-F",
+     798001.77
+    ],
+    [
+     "B.D.C.-F",
+     688104.5099999999
+    ],
+    [
+     "PAC-F",
+     513888.79999999993
+    ],
+    [
+     "LECO-F",
+     465046.05999999994
+    ],
+    [
+     "HACH",
+     395613.9800000001
+    ],
+    [
+     "AGILENT-F",
+     384928.67
+    ],
+    [
+     "CORESCAN,MODELO LA2202, COMPL",
+     318997.23
+    ],
+    [
+     "BIOFIRE-F~ HTFA-ASY-0003~COMPL",
+     313496.16
+    ],
+    [
+     "MINDRAY~ CL-2600I~ PARA ANALIS",
+     303356.45
+    ],
+    [
+     "SNIBE-F",
+     296489.85
+    ],
+    [
+     "METER-F",
+     287781.74000000005
+    ],
+    [
+     "CIDRA~ MODELO G2-D W~ CYCLONET",
+     273042.28
+    ],
+    [
+     "MINDRAY~ BC-780R~ CON SUS ACCE",
+     268827.26
+    ],
+    [
+     "EK-F",
+     265680.46
+    ],
+    [
+     "MINDRAY~ BS-620M~ PARA ANALISI",
+     242664.02000000002
+    ],
+    [
+     "SYSMEX",
+     237891.24
+    ],
+    [
+     "TELEDYNE-F",
+     232329.16
+    ],
+    [
+     "FOSS-F",
+     229909.25
+    ],
+    [
+     "AESKU~ HELIOS, IOS-1000~ AUTOM",
+     204802.11
+    ],
+    [
+     "IENER LAB-F~ CMD600I X1 COMPLE",
+     194080.4
+    ]
+   ]
+  },
+  "90271010": {
+   "cif": 13013588.54,
+   "items": 1346,
+   "marcas": [
+    [
+     "MSA-F",
+     1961579.7399999998
+    ],
+    [
+     "H.A.I.-F~ ELECTRONICO~ INALAMB",
+     462255.0599999999
+    ],
+    [
+     "LO CYNOPROBE, ELECTRONICO~ PAR",
+     414277.92
+    ],
+    [
+     "TELEDYNE-F",
+     373707.98999999993
+    ],
+    [
+     "S.C.-F",
+     308062.44
+    ],
+    [
+     "HONEYWELL~ DETECTOR MULTIGAS~",
+     261144.54
+    ],
+    [
+     "HONEYWELL-F",
+     258678.82
+    ],
+    [
+     "HONEYWELL",
+     256066.88
+    ],
+    [
+     "AMETEK~ WDG-VOC1C \t ~ OXIGENO",
+     249464.5
+    ],
+    [
+     "DANFOSS",
+     235655.51
+    ],
+    [
+     "RM-F",
+     215317.07
+    ],
+    [
+     "AMETEK~ MOD.888, INCLUYE AMETE",
+     211053.19
+    ],
+    [
+     "RONICOS~ PARA USO EN LABORATOR",
+     204509.46000000002
+    ],
+    [
+     "LI-COR-F",
+     183802.59999999998
+    ],
+    [
+     "DRAGER-F",
+     162010.3
+    ],
+    [
+     "VOLVO",
+     156110.80000000008
+    ],
+    [
+     "AMETEK-F~ COMBUSTIBLES EN GASE",
+     154737.43
+    ],
+    [
+     "THERMO ENVIRONMENTAL-F",
+     136715.02000000002
+    ],
+    [
+     "ROSEMOUNT-F",
+     131431.15000000002
+    ],
+    [
+     "DURAG-F",
+     129603.41000000003
+    ],
+    [
+     "SENKO-F",
+     121181.29
+    ],
+    [
+     "DRAGER - F",
+     118567.83
+    ],
+    [
+     "RAE",
+     113745.14000000001
+    ],
+    [
+     "SEWERIN",
+     109768.4
+    ],
+    [
+     "TESTO",
+     105942.73999999999
+    ]
+   ]
+  },
+  "90273000": {
+   "cif": 10986587.12,
+   "items": 463,
+   "marcas": [
+    [
+     "KT-KINETICS-F",
+     977196.45
+    ],
+    [
+     "AT-F",
+     744370.1499999999
+    ],
+    [
+     "908 DEVICES-F",
+     552013.48
+    ],
+    [
+     "GE VERNOA",
+     352994.37
+    ],
+    [
+     "BRUKER-F",
+     316090.36000000004
+    ],
+    [
+     "AB SCIEX",
+     301072.62
+    ],
+    [
+     "METSO-F",
+     246478.86999999994
+    ],
+    [
+     "SHIMADZU",
+     240994.26
+    ],
+    [
+     "BUCHI",
+     193523.09999999998
+    ],
+    [
+     "B.D.S.S.-F",
+     157936.71
+    ],
+    [
+     "B.D.C.-F",
+     157518.37
+    ],
+    [
+     "ELECTRONICO~ PARA ANALISIS QU",
+     157256.83
+    ],
+    [
+     "GNR-F",
+     156752.27
+    ],
+    [
+     "GNR-F~ R4 ROTROIL~ CON SUS PAR",
+     154280.8
+    ],
+    [
+     "SPECTRO SCIENTIFIC",
+     149219.05
+    ],
+    [
+     "MARCA PERKINELMER",
+     148160.02000000002
+    ],
+    [
+     "PERKINELMER-F",
+     147447.61000000002
+    ],
+    [
+     "GENERAL ELECTRIC",
+     141378.26
+    ],
+    [
+     "~ PARA DETERMINACION DE METALE",
+     135806.25
+    ],
+    [
+     "HACH COMPANY-F",
+     119466.43000000001
+    ],
+    [
+     "JASCO",
+     100432.8
+    ],
+    [
+     "CO~ INSTRUME. P/DETERMINACION",
+     98419.68
+    ],
+    [
+     "LUMO-F",
+     96032.31
+    ],
+    [
+     "LORENTZEN & WETTRE",
+     87546.91
+    ],
+    [
+     "X1~INSTRUMENTOS PARA ANALISIS",
+     86676.25
+    ]
+   ]
+  },
+  "90275000": {
+   "cif": 11225291.38,
+   "items": 903,
+   "marcas": [
+    [
+     "FLIR",
+     754779.8400000001
+    ],
+    [
+     "ENDRESS + HAUSER",
+     608371.3400000001
+    ],
+    [
+     "HACH-F",
+     473519.0899999999
+    ],
+    [
+     "FLUKE",
+     459613.73000000004
+    ],
+    [
+     "ALAVA-F",
+     377620.19
+    ],
+    [
+     "HACH",
+     289457.29999999993
+    ],
+    [
+     "HACH COMPANY-F",
+     268350.86000000004
+    ],
+    [
+     "A.S.G.-F",
+     268086.48
+    ],
+    [
+     "AGILENT-F",
+     239170.24
+    ],
+    [
+     "YHLO-F",
+     228152.52000000002
+    ],
+    [
+     "REFEYN",
+     211853.23
+    ],
+    [
+     "LIFE TECHONOLOGIES-F",
+     203465.65
+    ],
+    [
+     "AGILENT.-F",
+     202560.5
+    ],
+    [
+     "ELEMENT BIOSCIENCES, INC.",
+     190650.64
+    ],
+    [
+     "MALVERN PANALYTICAL",
+     185750.44
+    ],
+    [
+     "FLUKE-F",
+     179483.64
+    ],
+    [
+     "INSTRUMENTATION-F",
+     162342.79
+    ],
+    [
+     "HYPERFLASH",
+     156264.98
+    ],
+    [
+     "MALVERN-F",
+     155885.0
+    ],
+    [
+     "5010~ DE USO INDUSTRIAL",
+     154836.07
+    ],
+    [
+     "FE-F~ LUMINEX 200~ POR RADIACI",
+     153520.64
+    ],
+    [
+     "ECTRONICO, DIGITAL~ SISTEMA LC",
+     147809.5
+    ],
+    [
+     "RETANA-F",
+     145930.65
+    ],
+    [
+     "ZYBIO-F",
+     141356.01
+    ],
+    [
+     "DIATRON~ DE ACCESO ALEATORIO T",
+     127244.67
+    ]
+   ]
+  },
+  "90271090": {
+   "cif": 3808572.99,
+   "items": 766,
+   "marcas": [
+    [
+     "DRAGER - F",
+     325826.4799999999
+    ],
+    [
+     "DANFOSS",
+     255835.51000000004
+    ],
+    [
+     "GENERAL ELECTRIC",
+     168370.23
+    ],
+    [
+     "SCANIA-F",
+     145290.53
+    ],
+    [
+     "PC-F",
+     124207.86000000002
+    ],
+    [
+     "BOSCH-F~MONTADO~  DE LOS TIPOS",
+     113771.31
+    ],
+    [
+     "DRAGER-F",
+     107729.97
+    ],
+    [
+     "SOLTEX-F~ WDG-VC, DE GASES~ US",
+     104095.81
+    ],
+    [
+     "SST SENSING-F",
+     94231.92000000001
+    ],
+    [
+     "NTRO-F",
+     84012.08999999998
+    ],
+    [
+     "GE VERNOVA",
+     71066.32
+    ],
+    [
+     "ADVANCED MICRO INSTRUMENTS-F",
+     66230.51000000001
+    ],
+    [
+     "ZHIXIN-F",
+     64382.64
+    ],
+    [
+     "KT-KINETICS-F",
+     58500.51
+    ],
+    [
+     "US-F~ COMPLETO CON SUS ACCESOR",
+     55795.06
+    ],
+    [
+     "S ELLONA-F MODELO WT1 - ITEM 1",
+     50151.2
+    ],
+    [
+     "SENSIDYNE-F",
+     46703.66
+    ],
+    [
+     "EMERSON-F",
+     46428.130000000005
+    ],
+    [
+     "MINEARC-F",
+     44844.729999999996
+    ],
+    [
+     "HONEYWELL-F",
+     43910.42
+    ],
+    [
+     "ISOLCELL-F",
+     41712.91
+    ],
+    [
+     "S.E.-F~ SPACELOGIC TC900~ USO",
+     41613.439999999995
+    ],
+    [
+     "MASCHINENFABRIK REINHAUSEN-F",
+     39817.979999999996
+    ],
+    [
+     "DAIMLER-F",
+     38299.04
+    ],
+    [
+     "BEIJING JWGB INSTRUMENTS-F",
+     36500.0
+    ]
+   ]
+  },
+  "90279090": {
+   "cif": 10469661.68,
+   "items": 2878,
+   "marcas": [
+    [
+     "WATERS-F",
+     674545.6000000002
+    ],
+    [
+     "R.D.I.-F",
+     308795.13000000006
+    ],
+    [
+     "PHENOMENEX-F",
+     303428.0900000001
+    ],
+    [
+     "RM-F",
+     285014.6599999999
+    ],
+    [
+     "R.D.G.-F",
+     277263.4699999999
+    ],
+    [
+     "HACH-F",
+     208815.55999999994
+    ],
+    [
+     "HACH COMPANY-F",
+     194511.71999999994
+    ],
+    [
+     "ENDRESS +HAUSER",
+     186697.36000000002
+    ],
+    [
+     "R.M.-F",
+     182438.18000000005
+    ],
+    [
+     "PRESENS-S",
+     161185.00999999998
+    ],
+    [
+     "SENSOREX-F",
+     134460.21
+    ],
+    [
+     "ENDRESS HAUSER",
+     125565.92
+    ],
+    [
+     "WATERS",
+     124887.31999999999
+    ],
+    [
+     "DRAGER-F",
+     124569.13999999998
+    ],
+    [
+     "AMETEK-F",
+     123315.02999999998
+    ],
+    [
+     "KT-KINETICS-F",
+     120438.73
+    ],
+    [
+     "HACH",
+     112498.34999999999
+    ],
+    [
+     "SIEMENS",
+     112187.23999999998
+    ],
+    [
+     "ENDRESS + HAUSER",
+     110847.15
+    ],
+    [
+     "PERKINELMER",
+     100669.78
+    ],
+    [
+     "XYLEM-F",
+     100173.55000000002
+    ],
+    [
+     "SPECTRO-F",
+     96514.95
+    ],
+    [
+     "N SONDA, LOS DEMAS",
+     90063.27
+    ],
+    [
+     "HERAEUS-F",
+     86673.97
+    ],
+    [
+     "TESTO",
+     79908.96
+    ]
+   ]
+  },
+  "90278100": {
+   "cif": 1731914.63,
+   "items": 32,
+   "marcas": [
+    [
+     "N.I.L.-F",
+     806840.0
+    ],
+    [
+     "A.T.-F",
+     214117.63
+    ],
+    [
+     "F~ IMAGEN GEO~ QUE TRABAJA MED",
+     197846.7
+    ],
+    [
+     "A-F~ DE MASA, MODELO: AUTOF TX",
+     133196.56
+    ],
+    [
+     "ANALYTIK JENA",
+     128063.31
+    ],
+    [
+     "PFEIFFER-F",
+     84523.11
+    ],
+    [
+     "CATERPILLAR",
+     47176.09
+    ],
+    [
+     "F~ GSD 350 O1~ USADO PARA ANAL",
+     42740.57
+    ],
+    [
+     "AT-F",
+     31004.95
+    ],
+    [
+     "R.D.I.-F",
+     24600.65
+    ],
+    [
+     "XIEBANG (SH) LV ZHIPIN",
+     12023.57
+    ],
+    [
+     "F~ ELECTRONICO~ PARA ANALISISD",
+     4780.78
+    ],
+    [
+     "SA~ PARA USO INDUSTRIAL~",
+     3465.57
+    ],
+    [
+     "DISTECH CONTROLS INC",
+     1535.14
+    ]
+   ]
+  },
+  "90272000": {
+   "cif": 5439775.4,
+   "items": 152,
+   "marcas": [
+    [
+     "SHIMADZU",
+     413238.26000000007
+    ],
+    [
+     "THERMO FISHER",
+     364103.08999999997
+    ],
+    [
+     "XEVO TQ ABSOLUTE XR~ EQUIPO P",
+     292434.65
+    ],
+    [
+     "THERMO FISHER-F",
+     282932.13
+    ],
+    [
+     "PAC-F",
+     282400.95999999996
+    ],
+    [
+     "VWR-F",
+     273323.33
+    ],
+    [
+     "AXELSEMRAU",
+     257073.93
+    ],
+    [
+     "WATERS",
+     230443.22999999998
+    ],
+    [
+     "AGQ-F",
+     178311.14
+    ],
+    [
+     "AGILENT",
+     175288.22999999998
+    ],
+    [
+     "AT-F",
+     166131.18
+    ],
+    [
+     "NALISIS DE CLORURO USO EN LABO",
+     157011.5
+    ],
+    [
+     "ARKRAY",
+     154548.11000000002
+    ],
+    [
+     "SHIMADZU.-F",
+     139160.93
+    ],
+    [
+     "ARKRAY-F",
+     135926.09
+    ],
+    [
+     "WASOON-ECE INSTRUMENTATION-F",
+     123733.71
+    ],
+    [
+     "THERMO ELECTRON NORTH AMERICA",
+     89372.5
+    ],
+    [
+     "YOKOGAWA-F",
+     88970.9
+    ],
+    [
+     "A.T.-F",
+     87877.41000000002
+    ],
+    [
+     "SOCRATE S.P.A-F",
+     75659.23
+    ],
+    [
+     "00D/7890B ~ USADO ~ COMPLETO ,",
+     73420.14
+    ],
+    [
+     "JASCO.-F",
+     63031.6
+    ],
+    [
+     "TC-F",
+     61090.61
+    ],
+    [
+     "Q.S.-F",
+     59972.0
+    ],
+    [
+     "NIRA",
+     54820.17
+    ]
+   ]
+  }
+ },
+ "por_pais": {
+  "225": 24030323.749999944,
+  "563": 13230953.089999985,
+  "336": 8894141.599999987,
+  "510": 3822951.3199999975,
+  "504": 3601681.4899999984,
+  "406": 2593656.22,
+  "331": 2408093.8200000008,
+  "512": 2221418.6399999997,
+  "506": 2069094.0000000007,
+  "507": 1950878.7500000002,
+  "216": 1645758.2699999998,
+  "511": 1639543.489999999,
+  "332": 1577389.6599999995,
+  "508": 1539788.4599999993,
+  "505": 1415886.0100000007,
+  "519": 1311531.7600000005,
+  "517": 1272152.4700000011,
+  "226": 1183816.8500000003,
+  "329": 1159144.1999999997,
+  "515": 1155807.65,
+  "904": 1014116.2900000002,
+  "223": 929655.6700000002,
+  "333": 667016.1499999999,
+  "220": 640461.0600000002,
+  "549": 553355.5300000001,
+  "319": 512103.92000000016,
+  "219": 507177.11999999994,
+  "509": 487168.7099999999,
+  "530": 436628.56,
+  "514": 327852.65
+ },
+ "por_mes": {
+  "abril 2025": 6665651.240000008,
+  "enero 2025": 7012084.6000000015,
+  "febrero 2025": 6240115.440000002,
+  "mayo 2025": 6307821.509999997,
+  "noviembre 2025": 8865015.350000013,
+  "octubre 2025": 7924011.049999996,
+  "septiembre 2025": 6814438.350000004,
+  "agosto 2025": 7352282.530000002,
+  "diciembre 2025": 9671797.26,
+  "julio 2025": 7786426.430000013,
+  "junio 2025": 5945483.659999997,
+  "marzo 2025": 6230150.199999999
+ },
+ "detalle_muestra": [
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 6917.93,
+   "nombre": "SIN-CODIGO      ~SENSOR REGISTRADOR INALAMBRICO",
+   "marca": "GIATEC-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 2787.82,
+   "nombre": "SIN-CODIGO      ~SENSOR REGISTRADOR INALAMBRICO",
+   "marca": "GIATEC-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 10226.55,
+   "nombre": "SIN-CODIGO      ~ ANALIZADOR~ ACS-F~ ELECTRONICO~",
+   "marca": "LOS DEMAS APARATOS PARA ANALIS"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271010",
+   "cif": 10280.0,
+   "nombre": "SIN-CODIGO      ~ANALIZADOR DE GASES",
+   "marca": "QED ENVIRONMENTAL-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90273000",
+   "cif": 4889.54,
+   "nombre": "SIN-CODIGO      ~ESPECTROFOTOMETRO",
+   "marca": "H.A.I.C.LTD-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90275000",
+   "cif": 190650.64,
+   "nombre": "SIN-CODIGO      ~ANALIZADOR DE SECUENCIACION",
+   "marca": "ELEMENT BIOSCIENCES, INC."
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 5906.1,
+   "nombre": "SIN-CODIGO      ~ VISCOSIMETROS~ IKA-F~ ROTAVISC L",
+   "marca": "O VI~ COMPLETO, CON SUS ACCESO"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 2442.37,
+   "nombre": "SIN-CODIGO      ~ VISCOSIMETROS~ IKA-F~ ROTAVISC L",
+   "marca": "O VI~ COMPLETO, CON SUS ACCESO"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90273000",
+   "cif": 3795.59,
+   "nombre": "SIN-CODIGO      ~ESPECTROFOTOMETRO",
+   "marca": "S.M.I.C-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90273000",
+   "cif": 6774.41,
+   "nombre": "SIN-CODIGO      ~ESPECTROFOTOMETRO",
+   "marca": "S.M.I.C.LTD-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271010",
+   "cif": 15114.88,
+   "nombre": "42IHL-BNSSPCA   ~ANALIZADOR DETECTOR",
+   "marca": "THERMO ENVIRONMENTAL-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271010",
+   "cif": 12505.71,
+   "nombre": "410I-BSPECA     ~EQUIPO ANALIZADOR DE GASES",
+   "marca": "THERMO ENVIRONMENTAL-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271090",
+   "cif": 4167.34,
+   "nombre": "F-950           ~ANALIZADOR DE GAS",
+   "marca": "FELIX-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 2072.21,
+   "nombre": "07990005        ~SONDA TOMA MUESTRA",
+   "marca": "THERMO-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90275000",
+   "cif": 9457.92,
+   "nombre": "H-M400300ES     ~REGISTRADOR DE FUGAS DE GAS",
+   "marca": "METREX"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 1253.24,
+   "nombre": "H-100060        ~SONDA DE INSPECCION",
+   "marca": "QED-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 1386.99,
+   "nombre": "H-100011        ~SONDA DE INSPECCION",
+   "marca": "QED-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90275000",
+   "cif": 9280.35,
+   "nombre": "3000TAXL        ~ANALIZADOR DE OXIGENO",
+   "marca": "TELEDYNE-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271010",
+   "cif": 1929.54,
+   "nombre": "DETECTOR-       ~DETECTOR DE GAS",
+   "marca": "ZHEJIANG HAORUI-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 9139.75,
+   "nombre": "104678-00       ~SENSOR",
+   "marca": "THERMO ENVIRONMENTAL"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271010",
+   "cif": 13159.33,
+   "nombre": "43IHL-BNCA      ~ANALIZADOR DE GASES",
+   "marca": "THERMO ELECTRON-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271010",
+   "cif": 26161.46,
+   "nombre": "BWC2-H          ~ANALIZADOR DETECTOR",
+   "marca": "HONEYWELL-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 2250.42,
+   "nombre": "G10PMP          ~SONDA CO2",
+   "marca": "OXYGUARD"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271010",
+   "cif": 2222.92,
+   "nombre": "H05DO-25        ~MEDIDOR OXIGENO Y TEMPERATURA",
+   "marca": "OXYGUARD"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271010",
+   "cif": 590.42,
+   "nombre": "129625-L3       ~DETECTOR MONOGAS",
+   "marca": "HONEYWELL-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 3620.1,
+   "nombre": "SIN-CODIGO      ~SENSOR DE OXIGENO",
+   "marca": "AGRATECHNIEK-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 462.69,
+   "nombre": "SNB-2           ~VISCOSIMETRO",
+   "marca": "NINGBO-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271090",
+   "cif": 3445.04,
+   "nombre": "SOLO823         ~KIT TEST DETECTOR",
+   "marca": "SDI FIRE LLC-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271090",
+   "cif": 4680.56,
+   "nombre": "SOLO330024      ~KIT TEST DETECTOR",
+   "marca": "SDI FIRE LLC-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 14649.86,
+   "nombre": "H2S/CH4S        ~SENSORES",
+   "marca": "SUEZ ARIA TEC.-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 1975.08,
+   "nombre": "SDM-39          ~SONDA DE MEDIDA",
+   "marca": "KPM ANALYTICS-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 89.2,
+   "nombre": "07127162001     ~SONDA DE MUESTREO",
+   "marca": "R.D.G.-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278100",
+   "cif": 1658.81,
+   "nombre": "04625412070     ~ANALIZADOR HEMATOLOGICO",
+   "marca": "R.D.I.-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 99.39,
+   "nombre": "09969772001     ~ELECTRODO",
+   "marca": "R.D.I.-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 816.92,
+   "nombre": "03111644180     ~MICRO-ELECTRODOS",
+   "marca": "R.D.I.-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 4273.25,
+   "nombre": "03111679180     ~MICRO-ELECTRODOS",
+   "marca": "R.D.I.-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 40375.53,
+   "nombre": "09687432001     ~EQUIPO ANALIZADOR",
+   "marca": "S.A.I.-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 40375.53,
+   "nombre": "09687432001     ~EQUIPO ANALIZADOR",
+   "marca": "S.A.I.-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 125439.87,
+   "nombre": "CC286297        ~EQUIPO ANALIZADOR",
+   "marca": "S.A.I.-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 12717.15,
+   "nombre": "09205675001.    ~EQUIPO ANALIZADOR",
+   "marca": "R.D.-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 12717.15,
+   "nombre": "09205675001.    ~EQUIPO ANALIZADOR",
+   "marca": "R.D.-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 12717.15,
+   "nombre": "09205675001.    ~EQUIPO ANALIZADOR",
+   "marca": "R.D.-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 12717.15,
+   "nombre": "09205675001.    ~EQUIPO ANALIZADOR",
+   "marca": "R.D.-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 125.06,
+   "nombre": "03110451180     ~MICRO ELECTRODOS",
+   "marca": "R.D.I.-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 370.65,
+   "nombre": "03111598180     ~MICRO ELECTRODOS",
+   "marca": "R.D.I.-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 2052.91,
+   "nombre": "03111695180     ~MICRO-ELECTRODOS",
+   "marca": "R.D.I.-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 306.09,
+   "nombre": "03261085184     ~MICRO-ELECTRODOS",
+   "marca": "R.D.I.-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 876.84,
+   "nombre": "04901126190     ~EQUIPO ANALIZADOR PORTATIL",
+   "marca": "R.D.I.-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 59.78,
+   "nombre": "110-10          ~VISCOSIMETRO",
+   "marca": "O.T.E.-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 551.86,
+   "nombre": "21043862001     ~MICRO ELECTRODOS",
+   "marca": "R.D.I.-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 284.55,
+   "nombre": "09906622001     ~MODULO PORTA ELECTRODO",
+   "marca": "R.D.G.-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 21048.72,
+   "nombre": "05151643001     ~CELDA DE MEDICION",
+   "marca": "R.D.G.-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 907.57,
+   "nombre": "08239711001     ~SONDA",
+   "marca": "R.D.G.-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 244493.26,
+   "nombre": "CC286297        ~EQUIPO ANALIZADOR",
+   "marca": "S.A.I.-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278100",
+   "cif": 1658.81,
+   "nombre": "04625412070     ~ANALIZADOR HEMATOLOGICO",
+   "marca": "R.D.I.-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 551.86,
+   "nombre": "21043862001     ~MICRO ELECTRODOS",
+   "marca": "R.D.I.-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 8442.01,
+   "nombre": "PF-CAP-C-00420  ~ SENSOR~ AQUALOBO-F~ PF-CAP-C-004",
+   "marca": "20~ PARA USO INDUSTRIAL~"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 7594.22,
+   "nombre": "PF-CAP-C-00420  ~SENSOR",
+   "marca": "AQUALOBO-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 6439.39,
+   "nombre": "CML18           ~ANALIZADOR DE HUMEDAD",
+   "marca": "ENDRESS +HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 12521.6,
+   "nombre": "MMP60           ~MEDIDOR DE HUMEDAD",
+   "marca": "ENDRESS + HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 5820.48,
+   "nombre": "MMP40           ~MEDIDOR DE HUMEDAD",
+   "marca": "ENDRESS + HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 3604.71,
+   "nombre": "CSOL            ~ANALIZADOR DE FISURAS",
+   "marca": "ENDRESS+HAUSER-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 3661.25,
+   "nombre": "CYC25           ~ANALIZADOR DE FISURAS",
+   "marca": "ENDRESS-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 3491.81,
+   "nombre": "CLS50           ~ANALIZADOR",
+   "marca": "ENDRESS+HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90275000",
+   "cif": 3418.13,
+   "nombre": "CUS51D          ~ANALIZADOR DE FANGOS",
+   "marca": "ENDRESS + HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 4487.23,
+   "nombre": "CPS11E          ~ANALIZADOR DE HUMEDAD",
+   "marca": "ENDRESS +HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 3310.72,
+   "nombre": "CM448           ~MEDIDOR DE PH",
+   "marca": "ENDRESS + HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 3166.41,
+   "nombre": "CPS11E          ~ANALIZADOR DE HUMEDAD",
+   "marca": "ENDRESS +HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90275000",
+   "cif": 2413.12,
+   "nombre": "CUS52D          ~ANALIZADOR",
+   "marca": "ENDRESS + HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 5186.74,
+   "nombre": "CM448           ~MEDIDOR DE PH",
+   "marca": "ENDRESS + HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90275000",
+   "cif": 3174.48,
+   "nombre": "CUS52D          ~ANALIZADOR",
+   "marca": "ENDRESS + HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 1793.28,
+   "nombre": "CCS51E          ~ANALIZADOR DE HUMEDAD",
+   "marca": "ENDRESS +HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 1234.93,
+   "nombre": "CLS82E          ~SENSOR CONDUCTIVIDAD",
+   "marca": "ENDRESS + HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 3980.21,
+   "nombre": "CLS21E          ~ANALIZADOR",
+   "marca": "ENDRESS + HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271010",
+   "cif": 12564.61,
+   "nombre": "SIN-CODIGO      ~SENSOR",
+   "marca": "FRANATECH-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 23072.4,
+   "nombre": "CM444           ~MEDIDOR DE PH",
+   "marca": "ENDRESS + HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 17049.27,
+   "nombre": "CPF81E          ~ANALIZADOR DE FISURAS",
+   "marca": "ENDRESS +HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 10541.35,
+   "nombre": "CPS11E          ~ANALIZADOR DE HUMEDAD",
+   "marca": "ENDRESS +HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 4312.38,
+   "nombre": "CM442           ~MEDIDOR DE PH",
+   "marca": "ENDRESS + HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 3638.98,
+   "nombre": "CM42            ~MEDIDOR DE PH",
+   "marca": "ENDRESS + HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 2158.68,
+   "nombre": "CPA450          ~PORTA SONDAS",
+   "marca": "ENDRESS + HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 1894.56,
+   "nombre": "CM442           ~MEDIDOR DE PH",
+   "marca": "ENDRESS + HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 2624.84,
+   "nombre": "CPS11E          ~SENSOR",
+   "marca": "ENDRESS + HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 1185.86,
+   "nombre": "CPF82E          ~ANALIZADOR DE HUMEDAD",
+   "marca": "ENDRESS +HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 1634.83,
+   "nombre": "CLS82E          ~SENSOR CONDUCTIVIDAD",
+   "marca": "ENDRESS + HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90275000",
+   "cif": 30596.07,
+   "nombre": "CUS71D          ~ANALIZADOR DE FANGOS",
+   "marca": "ENDRESS + HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 1001.8,
+   "nombre": "FTL325N         ~ANALIZADOR DE FISURAS",
+   "marca": "ENDRESS +HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 2186.79,
+   "nombre": "CM42            ~MEDIDOR DE PH",
+   "marca": "ENDRESS + HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 444.8,
+   "nombre": "CPS11           ~ANALIZADOR DE HUMEDAD",
+   "marca": "ENDRESS +HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90275000",
+   "cif": 6303.41,
+   "nombre": "CUS71D          ~ANALIZADOR DE FANGOS",
+   "marca": "ENDRESS + HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 720.58,
+   "nombre": "CML18           ~ANALIZADOR DE HUMEDAD",
+   "marca": "ENDRESS +HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 10228.09,
+   "nombre": "CPF81E          ~ANALIZADOR DE FISURAS",
+   "marca": "ENDRESS +HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 4994.37,
+   "nombre": "CPF81           ~ANALIZADOR DE FISURAS",
+   "marca": "ENDRESS +HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 4121.29,
+   "nombre": "CM42            ~MEDIDOR DE PH",
+   "marca": "ENDRESS + HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 3409.36,
+   "nombre": "CPF81           ~ANALIZADOR DE FISURAS",
+   "marca": "ENDRESS +HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 3094.85,
+   "nombre": "CM444           ~MEDIDOR DE PH",
+   "marca": "ENDRESS + HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 3469.34,
+   "nombre": "CM42            ~MEDIDOR DE PH",
+   "marca": "ENDRESS + HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 4273.05,
+   "nombre": "CM42            ~MEDIDOR DE PH",
+   "marca": "ENDRESS + HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 2060.64,
+   "nombre": "CM42            ~MEDIDOR DE PH",
+   "marca": "ENDRESS + HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 1634.28,
+   "nombre": "CM442           ~MEDIDOR DE PH",
+   "marca": "ENDRESS + HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 1549.96,
+   "nombre": "CPF81E          ~ANALIZADOR DE FISURAS",
+   "marca": "ENDRESS +HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 1033.31,
+   "nombre": "CPF81E          ~ANALIZADOR DE FISURAS",
+   "marca": "ENDRESS +HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 1316.04,
+   "nombre": "CM444           ~MEDIDOR DE PH",
+   "marca": "ENDRESS + HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 825.25,
+   "nombre": "CM442           ~MEDIDOR DE PH",
+   "marca": "ENDRESS + HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 508.67,
+   "nombre": "CPS11E          ~SENSOR",
+   "marca": "ENDRESS + HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 1317.57,
+   "nombre": "CPS11D          ~SENSOR",
+   "marca": "ENDRESS + HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 4117.37,
+   "nombre": "CLS54D          ~ANALIZADOR",
+   "marca": "ENDRESS + HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 3585.19,
+   "nombre": "CCS51D          ~ANALIZADOR DE HUMEDAD",
+   "marca": "ENDRESS +HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 2448.69,
+   "nombre": "CLS52           ~ANALIZADOR",
+   "marca": "ENDRESS + HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 1970.32,
+   "nombre": "CLS21           ~ANALIZADOR",
+   "marca": "ENDRESS + HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 471.89,
+   "nombre": "CLS82D          ~SENSOR CONDUCTIVIDAD",
+   "marca": "ENDRESS + HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 187.32,
+   "nombre": "CPL51E          ~ANALIZADOR",
+   "marca": "ENDRESS HAUSSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 2059.9,
+   "nombre": "0704510001      ~REFRACTOMETRO",
+   "marca": "H.W.T.D.-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 949.41,
+   "nombre": "CPM223          ~ANALIZADOR DE HUMEDAD",
+   "marca": "ENDRESS +HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 775.66,
+   "nombre": "CLS54           ~ANALIZADOR",
+   "marca": "ENDRESS + HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 1450.42,
+   "nombre": "CML18           ~ANALIZADOR DE HUMEDAD",
+   "marca": "ENDRESS +HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 1323.99,
+   "nombre": "CLS12           ~ANALIZADOR",
+   "marca": "ENDRESS + HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 8988.51,
+   "nombre": "CLS54           ~ANALIZADOR",
+   "marca": "ENDRESS + HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 1856.18,
+   "nombre": "CM42            ~MEDIDOR DE PH",
+   "marca": "ENDRESS + HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 1574.27,
+   "nombre": "CPS11           ~ANALIZADOR DE HUMEDAD",
+   "marca": "ENDRESS +HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 1452.5,
+   "nombre": "CPS92E          ~SENSOR DE PH",
+   "marca": "ENDRESS + HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 923.93,
+   "nombre": "CLS15D          ~ANALIZADOR",
+   "marca": "ENDRESS + HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 17181.44,
+   "nombre": "200000024       ~SENSOR",
+   "marca": "PRESENS-S"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 754.75,
+   "nombre": "CPS91E          ~ANALIZADOR DE HUMEDAD",
+   "marca": "ENDRESS +HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90275000",
+   "cif": 3543.92,
+   "nombre": "CUS51D          ~ANALIZADOR DE FANGOS",
+   "marca": "ENDRESS + HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90275000",
+   "cif": 2096.6,
+   "nombre": "CUS52D          ~ANALIZADOR DE FANGOS",
+   "marca": "ENDRESS + HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 9494.69,
+   "nombre": "HL4TANOBATT     ~SONDA DE MEDICION",
+   "marca": "OTT HYDROMET"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 7036.16,
+   "nombre": "HLTURB          ~SENSOR DE TURBIEDAD",
+   "marca": "OTT HYDROMET"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271090",
+   "cif": 4686.36,
+   "nombre": "HLLDO           ~SENSOR DE OXIGENO",
+   "marca": "OTT HYDROMET"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 1421.88,
+   "nombre": "HLPHIREF        ~SENSOR DE PH",
+   "marca": "OTT HYDROMET"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 1275.51,
+   "nombre": "HLCOND          ~SENSOR DE CONDUCTIVIDAD",
+   "marca": "OTT HYDROMET"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 5640.06,
+   "nombre": "CM448           ~MEDIDOR DE PH",
+   "marca": "ENDRESS + HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 3407.06,
+   "nombre": "CPF81E          ~ANALIZADOR DE FISURAS",
+   "marca": "ENDRESS +HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 2367.77,
+   "nombre": "CM444           ~MEDIDOR DE PH",
+   "marca": "ENDRESS + HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 2181.08,
+   "nombre": "CM442           ~MEDIDOR DE PH",
+   "marca": "ENDRESS + HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 5679.35,
+   "nombre": "CPF81E          ~ANALIZADOR DE FISURAS",
+   "marca": "ENDRESS +HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 1792.43,
+   "nombre": "CM42            ~MEDIDOR DE PH",
+   "marca": "ENDRESS + HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 1078.86,
+   "nombre": "CLS52           ~ANALIZADOR",
+   "marca": "ENDRESS + HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 6788.04,
+   "nombre": "SIN-CODIGO      ~SENSOR DE CLOROFILA",
+   "marca": "S.Y-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 15484.11,
+   "nombre": "CPF81           ~ANALIZADOR DE FISURAS",
+   "marca": "ENDRESS +HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 5161.37,
+   "nombre": "CPF81           ~ANALIZADOR DE FISURAS",
+   "marca": "ENDRESS +HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 1548.41,
+   "nombre": "CPF81           ~ANALIZADOR DE FISURAS",
+   "marca": "ENDRESS +HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 1943.95,
+   "nombre": "CM442           ~MEDIDOR DE PH",
+   "marca": "ENDRESS + HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 1147.91,
+   "nombre": "CM442           ~MEDIDOR DE PH",
+   "marca": "ENDRESS + HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 1664.71,
+   "nombre": "CM442           ~MEDIDOR DE PH",
+   "marca": "ENDRESS + HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 987.55,
+   "nombre": "CM442           ~MEDIDOR DE PH",
+   "marca": "ENDRESS + HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 851.49,
+   "nombre": "CPF81           ~ANALIZADOR DE FISURAS",
+   "marca": "ENDRESS +HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 601.82,
+   "nombre": "CPF82           ~ANALIZADOR DE HUMEDAD",
+   "marca": "ENDRESS +HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 1629.54,
+   "nombre": "CM442           ~MEDIDOR DE PH",
+   "marca": "ENDRESS + HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 6868.04,
+   "nombre": "CPS11E          ~SENSOR DE HUMEDAD",
+   "marca": "ENDRESS + HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 1893.69,
+   "nombre": "CPS11E          ~ANALIZADOR DE HUMEDAD",
+   "marca": "ENDRESS +HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 1939.38,
+   "nombre": "CLS50D          ~ANALIZADOR",
+   "marca": "ENDRESS+HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 1607.94,
+   "nombre": "CLS15           ~ANALIZADOR",
+   "marca": "ENDRESS + HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 2027.45,
+   "nombre": "CLS54           ~ANALIZADOR",
+   "marca": "ENDRESS + HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 2180.86,
+   "nombre": "CLD134          ~ANALIZADOR DE HUMEDAD",
+   "marca": "ENDRESS +HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 9698.88,
+   "nombre": "CPF81           ~ANALIZADOR DE FISURAS",
+   "marca": "ENDRESS +HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 2065.77,
+   "nombre": "CPF81           ~ANALIZADOR DE FISURAS",
+   "marca": "ENDRESS +HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 4096.29,
+   "nombre": "CM42            ~MEDIDOR DE PH",
+   "marca": "ENDRESS + HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 880.96,
+   "nombre": "CPF81           ~ANALIZADOR DE FISURAS",
+   "marca": "ENDRESS +HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 1218.66,
+   "nombre": "CM442           ~MEDIDOR DE PH",
+   "marca": "ENDRESS + HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 1914.88,
+   "nombre": "CPA640          ~ANALIZADOR DE HUMEDAD",
+   "marca": "ENDRESS +HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 1032.89,
+   "nombre": "CPF81           ~ANALIZADOR DE FISURAS",
+   "marca": "ENDRESS +HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 548.58,
+   "nombre": "CPS11E          ~ANALIZADOR DE HUMEDAD",
+   "marca": "ENDRESS +HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 6172.26,
+   "nombre": "CLS82D          ~SENSOR CONDUCTIVIDAD",
+   "marca": "ENDRESS + HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 1044.3,
+   "nombre": "CLS21           ~ANALIZADOR",
+   "marca": "ENDRESS + HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 817.25,
+   "nombre": "CLS15E          ~ANALIZADOR",
+   "marca": "ENDRESS + HAUSER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 17089.44,
+   "nombre": "200000024       ~SENSOR",
+   "marca": "PRESENS-S"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 330.15,
+   "nombre": "SIN-CODIGO      ~ MEDIDOR DE ACIDEZ~ BIOBASE MEIHU",
+   "marca": "A-F~ BK-PH3B~ ELECTRONICO-DIGI"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90273000",
+   "cif": 38833.43,
+   "nombre": "11PM212110000   ~ESPECTOMETRO",
+   "marca": "BUCHI"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 1647.82,
+   "nombre": "107902          ~MEDIDOR",
+   "marca": "A.P.-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 1770.34,
+   "nombre": "8172BNWP        ~ELECTRODOS",
+   "marca": "THERMO-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 4382.02,
+   "nombre": "9617BNWP        ~ELECTRODO",
+   "marca": "THERMO-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90275000",
+   "cif": 1797.42,
+   "nombre": "AQ4500          ~TURBIDIMETRO ORION",
+   "marca": "THERMO FISHER SCIENTIFIC"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90275000",
+   "cif": 882.25,
+   "nombre": "AQ3010          ~TURBIDIMETRO ORION",
+   "marca": "THERMO FISHER SCIENTIFIC"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90275000",
+   "cif": 389.44,
+   "nombre": "AQ3170          ~COLORIMETRO ORION",
+   "marca": "THERMO FISHERSCIENTIFIC"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 1928.09,
+   "nombre": "083005MD        ~SONDA DE AGITACION",
+   "marca": "T.F.S.-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90273000",
+   "cif": 84672.12,
+   "nombre": "11PM232110000   ~ESPECTOMETRO",
+   "marca": "BUCHI"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 696.79,
+   "nombre": "S231486         ~SONDA",
+   "marca": "E.S.-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271010",
+   "cif": 2704.08,
+   "nombre": "2139930RN       ~SENSOR DE GASES",
+   "marca": "DAF-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 607.93,
+   "nombre": "10309439        ~ELECTRODO",
+   "marca": "SIEMENS"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271010",
+   "cif": 474.39,
+   "nombre": "BL3Z/9F472/A/   ~SENSOR",
+   "marca": "FORD"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 911.89,
+   "nombre": "10309441        ~ELECTRODO",
+   "marca": "SIEMENS"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 607.93,
+   "nombre": "10309439        ~ELECTRODO",
+   "marca": "SIEMENS"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 242.54,
+   "nombre": "10376878        ~ELECTRODO",
+   "marca": "SIEMENS"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 2211.36,
+   "nombre": "2671199         ~ELECTRODO",
+   "marca": "SIEMENS"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 607.93,
+   "nombre": "10309439        ~ELECTRODO",
+   "marca": "SIEMENS"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271010",
+   "cif": 686.27,
+   "nombre": "JN1Z/9G444/B/   ~SENSOR DE OXIGENO",
+   "marca": "FORD -F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 1024.94,
+   "nombre": "10311032        ~SENSOR",
+   "marca": "SIEMENS"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 2336.36,
+   "nombre": "10309439        ~ELECTRODO",
+   "marca": "SIEMENS"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271010",
+   "cif": 1046.64,
+   "nombre": "2293965R        ~SENSOR DE GASES",
+   "marca": "DAF-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271010",
+   "cif": 325.94,
+   "nombre": "SIN-CODIGO      ~DETECTOR ANALIZADOR",
+   "marca": "SENSIT T.-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 931.16,
+   "nombre": "186003568       ~COLUMNA CROMATOGRAFICA",
+   "marca": "WATERS-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 2407.58,
+   "nombre": "186006710       ~COLUMNA CROMATOGRAFICA",
+   "marca": "WATERS-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 1787.54,
+   "nombre": "186000422       ~COLUMNA CROMATOGRAFICA",
+   "marca": "WATERS-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 1614.55,
+   "nombre": "186002435       ~COLUMNA CROMATOGRAFICA",
+   "marca": "WATERS-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 1449.11,
+   "nombre": "WAT010290       ~COLUMNA CROMATOGRAFICA",
+   "marca": "WATERS-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 1168.35,
+   "nombre": "PSS845297       ~COLUMNA CROMATOGRAFICA",
+   "marca": "WATERS-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 467.66,
+   "nombre": "186007283       ~COLUMNA CROMATOGRAFICA",
+   "marca": "WATERS-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 5152.82,
+   "nombre": "186010877       ~DETECTOR DE MASAS",
+   "marca": "MICROMASS-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 1001.89,
+   "nombre": "671540017       ~SENSOR",
+   "marca": "P.M.C.-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 4845.68,
+   "nombre": "186003029       ~COLUMNA CROMATOGRAFICA",
+   "marca": "WATERS-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 1259.18,
+   "nombre": "GENERAL.PURPOSE ~SENSOR DE PH",
+   "marca": "GO-IN INTERNATIONAL-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 1870.87,
+   "nombre": "186006735       ~COLUMNA CROMATOGRAFICA",
+   "marca": "WATERS-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 6212.05,
+   "nombre": "186003034       ~COLUMNA CROMATOGRAFICA",
+   "marca": "WATERS-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 3295.19,
+   "nombre": "AS12S05-2546WT  ~COLUMNA CROMATOGRAFICA",
+   "marca": "YMC AMERICA-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 3818.59,
+   "nombre": "AA12S05-1546WT  ~COLUMNA CROMATOGRAFICA",
+   "marca": "YMC AMERICA-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 8146.0,
+   "nombre": "SUBT-D1         ~EQUIPO DETECTOR",
+   "marca": "CELIS BIOTECH"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90275000",
+   "cif": 568.45,
+   "nombre": "HV-FIA          ~ANALIZADOR CUANTITATIVO",
+   "marca": "HEALVET-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90275000",
+   "cif": 573.35,
+   "nombre": "HV-FIA          ~ANALIZADOR CUANTITATIVO",
+   "marca": "HEALVET-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90275000",
+   "cif": 25159.83,
+   "nombre": "FLK-TI401-PR0   ~CAMARA TERMOGRAFICA",
+   "marca": "FLUKE-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90275000",
+   "cif": 3236.8,
+   "nombre": "FLK-PTI120      ~DETECTOR DE TEMPERATURA",
+   "marca": "FLUKE"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90275000",
+   "cif": 6219.97,
+   "nombre": "FLK-TIS60       ~MEDIDOR DE TEMPERATURA",
+   "marca": "FLUKE"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90275000",
+   "cif": 3191.62,
+   "nombre": "FLK-TIS20+      ~CAMARA TERMOGRAFICA P/TEMPERAT",
+   "marca": "FLUKE"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90275000",
+   "cif": 3109.98,
+   "nombre": "FLK-TIS60       ~MEDIDOR DE TEMPERATURA",
+   "marca": "FLUKE"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90275000",
+   "cif": 3191.62,
+   "nombre": "FLK-TIS20+      ~CAMARA TERMOGRAFICA P/TEMPERAT",
+   "marca": "FLUKE"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 8034.0,
+   "nombre": "SMT-120V        ~ANALIZADOR DE BIOMETRIA",
+   "marca": "CSTCL-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90272000",
+   "cif": 92617.37,
+   "nombre": "14800402        ~CROMATOGRAFO DE GASES",
+   "marca": "THERMO FISHER"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90275000",
+   "cif": 40110.57,
+   "nombre": "FLK-TI480-PRO   ~CAMARA TERMOGRAFICA",
+   "marca": "FLUKE"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90272000",
+   "cif": 8951.1,
+   "nombre": "MI-148000-0027  ~CROMATOGRAFO",
+   "marca": "THERMO ELECTRON NORTH AMERICA"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90275000",
+   "cif": 20953.28,
+   "nombre": "IDQUBE-NIR-FR-MM~DETECTOR DE FOTONES",
+   "marca": "ID QUANTIQUE-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90275000",
+   "cif": 9930.97,
+   "nombre": "FLK-TI480       ~CAMARA TERMOGRAFICA",
+   "marca": "FLUKE"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90275000",
+   "cif": 9696.45,
+   "nombre": "FLK-PTI120      ~DETECTOR DE TEMPERATURA",
+   "marca": "FLUKE"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90275000",
+   "cif": 3068.39,
+   "nombre": "FLK-TIS55       ~MEDIDOR DE TEMPERATURA",
+   "marca": "FLUKE"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90275000",
+   "cif": 2424.11,
+   "nombre": "FLK-PTI120      ~DETECTOR DE TEMPERATURA",
+   "marca": "FLUKE"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90275000",
+   "cif": 678.13,
+   "nombre": "FLUKE-TC01A     ~CAMARA TERMOGRAFICA",
+   "marca": "FLUKE"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 14994.35,
+   "nombre": "W992            ~ANALIZADOR MOLECULAR",
+   "marca": "WONDFO"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 1886.05,
+   "nombre": "30105-254630    ~ COLUMNA DE CROMATOGRAFIA~ IMCHEM",
+   "marca": "-F~250X4.6MM 5U ODSHYPERSIL CO"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 6465.5,
+   "nombre": "00E-4252-D0     ~COLUMNA DE CROMATOGRAFIA",
+   "marca": "PHENOMENEX-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 5312.11,
+   "nombre": "00G-4252-E0     ~COLUMNA DE CROMATOGRAFIA",
+   "marca": "PHENOMENEX-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 4329.46,
+   "nombre": "00F-4263-B0     ~COLUMNA DE CROMATOGRAFIA",
+   "marca": "PHENOMENEX-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 1566.04,
+   "nombre": "0018762         ~COLUMNA DE CROMATOGRAFIA",
+   "marca": "TOSOH-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 3287.81,
+   "nombre": "00B-4423-BO     ~COLUMNA DE CROMATOGRAFIA",
+   "marca": "PHENOMENEX-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 4898.21,
+   "nombre": "00F-4453-E0     ~COLUMNA DE CROMATOGRAFIA",
+   "marca": "PHENOMENEX-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 14184.4,
+   "nombre": "00F-4252-C0     ~COLUMNA DE CROMATOGRAFIA",
+   "marca": "PHENOMENEX-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 3956.15,
+   "nombre": "35005-102130    ~COLUMNA DE CROMATOGRAFIA",
+   "marca": "IMCHEM-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 4272.55,
+   "nombre": "PF-CAP-C-00420  ~SENSOR DE CONDUCTIVIDAD",
+   "marca": "AQUALABO"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271090",
+   "cif": 3255.76,
+   "nombre": "SIN-CODIGO      ~EQUIPO ANALIZADOR DE GASES~TEXA-F",
+   "marca": "~HHGA5CP~DE VEH. PARA USO  EN"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90275000",
+   "cif": 927.35,
+   "nombre": "SIN-CODIGO      ~MULTIPARAMETRO PORTATIL",
+   "marca": "CARUS-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 1240.3,
+   "nombre": "61116000        ~SENSOR OPTICO",
+   "marca": "METROHM-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 1139.58,
+   "nombre": "29130210        ~ANALIZADOR DE PH",
+   "marca": "METROHM-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 2440.31,
+   "nombre": "60341100        ~ELECTRODOS",
+   "marca": "METROHM-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90273000",
+   "cif": 161454.7,
+   "nombre": "E4002501-00     ~ESPECTOMETRO",
+   "marca": "BRUKER-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 3548.93,
+   "nombre": "SA4000-401      ~SENSOR DE CALIBRACION",
+   "marca": "TECLAB-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 1722.0,
+   "nombre": "Y90278999       ~VISCOSIMETRO",
+   "marca": "AUSENCO-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 4562.0,
+   "nombre": "SIN-CODIGO      ~DETECTOR DE LAMPARA DUAL",
+   "marca": "YOUWEITRADING-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 3130.16,
+   "nombre": "6445            ~MEDIDOR DE HUMEDAD~SPECTRUM-F~MOD",
+   "marca": ".TDR 150.~PARA USO EN LA MEDIC"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 1671.02,
+   "nombre": "6110FS          ~MEDIDOR DE COMPACTACION~SPECTRUM-",
+   "marca": "F~MOD.SC-900.~PARA USO EN LA M"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90272000",
+   "cif": 32840.5,
+   "nombre": "7421011020      ~CROMATOGRAFO~YOUNG IN CHROMASS-F~",
+   "marca": "MOD.HPLC PDA~APARATO ELECTRICO"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 3338.9,
+   "nombre": "1201533151      ~LAMPARA~YOUNG IN CHROMASS-F~MOD.D",
+   "marca": "E DEUTERIO.~DE CROMATOGRAFOS,"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 229.55,
+   "nombre": "7422827993      ~ SENSOR",
+   "marca": "RENAULT-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90273000",
+   "cif": 287.0,
+   "nombre": "SIN-CODIGO      ~ESPECTOFOTOMETRO",
+   "marca": "ZHENSHUN-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271010",
+   "cif": 10536.54,
+   "nombre": "SIN-CODIGO      ~DETECTOR DE GASES",
+   "marca": "GFG"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90275000",
+   "cif": 672.73,
+   "nombre": "C5              ~CAMARA TERMOGRAFICA",
+   "marca": "FLIR"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 3600.0,
+   "nombre": "806800-201      ~ANALIZADOR QUIMICO",
+   "marca": "I-SENS-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 4518.47,
+   "nombre": "285102030       ~ELECTRODO",
+   "marca": "XYLEM-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 5104.23,
+   "nombre": "285106037       ~TITULADOR UNIDAD BASICA",
+   "marca": "XYLEM-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 2158.06,
+   "nombre": "05662-51        ~ELECTRODO",
+   "marca": "CP-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90273000",
+   "cif": 36617.17,
+   "nombre": "SIN-CODIGO      ~ESPECTROMETRO",
+   "marca": "HITACHI"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90273000",
+   "cif": 26274.3,
+   "nombre": "SIN-CODIGO      ~ESPECTROFOTOMETRO",
+   "marca": "THERMO-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90273000",
+   "cif": 36884.65,
+   "nombre": "SIN-CODIGO      ~ESPECTROFOTOMETRO",
+   "marca": "THERMO"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278100",
+   "cif": 39772.17,
+   "nombre": "SIN-CODIGO      ~ESPECTROMETRO DE MASA",
+   "marca": "PFEIFFER-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 32480.52,
+   "nombre": "SIN-CODIGO      ~ELECTRODOS",
+   "marca": "SPECTRO-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 5467.75,
+   "nombre": "SIN-CODIGO      ~CELDA DE FLUJO",
+   "marca": "SPECTRO-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 3742.06,
+   "nombre": "902790000       ~DISCO ELECTRODO",
+   "marca": "SPECTRO-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 5464.38,
+   "nombre": "SIN-CODIGO      ~CELDAS DE FLUJO",
+   "marca": "SPECTRO-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90273000",
+   "cif": 69448.44,
+   "nombre": "SIN-CODIGO      ~ESPECTROMETROS",
+   "marca": "SPACTRO AMETEK-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90272000",
+   "cif": 19353.0,
+   "nombre": "GC-8890         ~CROMATOGRAFO",
+   "marca": "CHONGQING TOP OIL-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 2460.17,
+   "nombre": "SIN-CODIGO      ~SONDA DETECTORA DE HELIO",
+   "marca": "PFEIFFER-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90273000",
+   "cif": 4956.29,
+   "nombre": "RRAVSP4         ~ESPECTROMETROS",
+   "marca": "PINE-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271010",
+   "cif": 76.25,
+   "nombre": "SP01.958.383    ~ DETECTOR DE GAS~ BOSCH-F~ ELECTR",
+   "marca": "ONICOS~ APARATOS DE ANALISIS F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90272000",
+   "cif": 26566.26,
+   "nombre": "YAZURA-ANALYT   ~SISTEMA ANALITICO",
+   "marca": "KNAUER-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90273000",
+   "cif": 5204.7,
+   "nombre": "NGHXRJ20E       ~ESPECTROFOTOMETROS",
+   "marca": "X-RITE-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271010",
+   "cif": 5447.89,
+   "nombre": "TSI-8532.       ~MEDIDOR DE AEROSOLES+",
+   "marca": "INTECCON-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271010",
+   "cif": 2054.62,
+   "nombre": "148H6005        ~DETECTOR DE GASES",
+   "marca": "DANFOSS-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271010",
+   "cif": 31938.55,
+   "nombre": "SGT-PH2S        ~DETECTORES DE GASES",
+   "marca": "SENKO-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271010",
+   "cif": 8592.5,
+   "nombre": "MGT-P(O2,CO,CH4(~DETECTORES DE GASES",
+   "marca": "SENKO-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271010",
+   "cif": 3214.46,
+   "nombre": "SGT-PNO2        ~DETECTORES DE GASES",
+   "marca": "SENKO-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271010",
+   "cif": 2142.97,
+   "nombre": "SGT-PNH3        ~DETECTORES DE GASES",
+   "marca": "SENKO-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271010",
+   "cif": 3925.35,
+   "nombre": "SGT-PO2         ~DETECTORES DE GASES",
+   "marca": "SENKO-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271090",
+   "cif": 912.4,
+   "nombre": "148H6006        ~DETECTOR DE GASES",
+   "marca": "DANFOSS"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271090",
+   "cif": 13097.12,
+   "nombre": "148H6040        ~DETECTOR DE GASES",
+   "marca": "DANFOSS"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 5439.97,
+   "nombre": "SQRQ076826      ~EQUIPO MEDIDOR DE ESTABILIDAD",
+   "marca": "LAFOOD-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271010",
+   "cif": 29075.26,
+   "nombre": "073G2024        ~SENSOR DE GASES",
+   "marca": "DANFOSS"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271090",
+   "cif": 2851.45,
+   "nombre": "080Z2803        ~SENSOR DETECTOR DE GASES",
+   "marca": "DANFOSS"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271010",
+   "cif": 2124.01,
+   "nombre": "TSI-7545        ~MEDIDOR CALIDAD DE AIRE",
+   "marca": "INTECCON-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271010",
+   "cif": 1197.56,
+   "nombre": "0258017178      ~SONDA LAMBDA",
+   "marca": "BBR-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271010",
+   "cif": 6768.26,
+   "nombre": "0258010038      ~SONDA LAMBDA",
+   "marca": "BBR-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 4812.41,
+   "nombre": "03-1A2B000-00007~ANALIZADOR DE HEMOGOBLINA",
+   "marca": "LIFOTRONIC"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271010",
+   "cif": 20920.64,
+   "nombre": "VEP-A00-P-UL    ~ANALIZADOR INTELIGENTE",
+   "marca": "H.F.S.-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 1735.37,
+   "nombre": "SIN-CODIGO      ~MEDIDOR DE CALIBRACION",
+   "marca": "EMCEE-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 1778.22,
+   "nombre": "622-00027-000   ~SENSOR DE HUMEDAD",
+   "marca": "CLEAVERBROOKS-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 5593.72,
+   "nombre": "10118255-1511   ~SENSOR DE OXIGENO",
+   "marca": "HAMILTON-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 493.41,
+   "nombre": "238633-1171     ~SENSOR DE PH",
+   "marca": "HAMILTON-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 1219.8,
+   "nombre": "PHC281          ~ACCES. SONDA",
+   "marca": "HACH COMPANY-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 1165.74,
+   "nombre": "ISENO           ~ACCES. SONDA ESTANDAR",
+   "marca": "HACH COMPANY-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 4446.11,
+   "nombre": "DPD1P1          ~ACCES. SENSOR",
+   "marca": "HACH COMPANY-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90275000",
+   "cif": 5389.22,
+   "nombre": "LPV444          ~APTO. TURBIDIMETRO",
+   "marca": "HACH COMPANY-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 1300.48,
+   "nombre": "CDC40101        ~ACCES. SONDA DE CONDUCTIVIDAD",
+   "marca": "HACH COMPANY-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 1846.83,
+   "nombre": "LDO101          ~ACCES. SONDA",
+   "marca": "HACH COMPANY-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90275000",
+   "cif": 1892.28,
+   "nombre": "2100Q           ~APTO. TURBIDIMETRO",
+   "marca": "HACH COMPANY-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90275000",
+   "cif": 12589.22,
+   "nombre": "LPV4459700      ~APTO. COLORIMETRO",
+   "marca": "HACH COMPANY-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90275000",
+   "cif": 8690.29,
+   "nombre": "93851           ~APTO. COLORIMETRO",
+   "marca": "HACH COMPANY-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 2737.96,
+   "nombre": "D266            ~ DETECTOR DE POROSIDAD~ ELCOMETER",
+   "marca": "LIMITED-F~ MOD. ELCOMETER 266"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271010",
+   "cif": 4589.02,
+   "nombre": "SIN-CODIGO      ~ANALIZADOR DE GASES",
+   "marca": "STFX ROOFTOP-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271010",
+   "cif": 5557.85,
+   "nombre": "SIN-CODIGO      ~ANALIZADOR DE GASES",
+   "marca": "DILO"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90273000",
+   "cif": 11795.61,
+   "nombre": "SIN-CODIGO      ~ESPECTOFOTOMETRO",
+   "marca": "HUNTERLAB"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90272000",
+   "cif": 94219.0,
+   "nombre": "AGILENT-5470    ~EQUIPO DE CROMATOGRAFIA",
+   "marca": "AGILENT"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90272000",
+   "cif": 99620.39,
+   "nombre": "ITA-24-P11      ~CROMATOGRAFO",
+   "marca": "AGQ-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 146.91,
+   "nombre": "SHELL-WATER     ~DETECTOR",
+   "marca": "WORLD FUEL-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271010",
+   "cif": 2697.0,
+   "nombre": "SIN-CODIGO      ~EQUIPO DETECTOR DE FUGAS",
+   "marca": "S.N.P.I.E.-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 122.11,
+   "nombre": "06502051        ~SONDAS",
+   "marca": "TESTO"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271010",
+   "cif": 2430.37,
+   "nombre": "06323340        ~ANALIZADORES DE GASES",
+   "marca": "TESTO"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271010",
+   "cif": 2181.43,
+   "nombre": "05643004        ~ANALIZADOR DE GASES",
+   "marca": "TESTO"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 2039.8,
+   "nombre": "03930100        ~SENSORES",
+   "marca": "TESTO"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 2888.99,
+   "nombre": "03930000        ~SENSORES",
+   "marca": "TESTO"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 2113.1,
+   "nombre": "SE554X/1-NMSN   ~SENSOR PH",
+   "marca": "K.E.M.G.-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 2249.29,
+   "nombre": "SE564X/1-NMSN   ~SENSOR CON DETECTOR TEMPERATUR",
+   "marca": "K.E.M.G.-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 2249.28,
+   "nombre": "SE564X/1-NMSN   ~SENSOR CON DETECTOR TEMPERATUR",
+   "marca": "K.E.M.G.-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 1421.39,
+   "nombre": "SE554X/2-NMSN   ~SENSOR PH",
+   "marca": "K.E.M.G.-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271090",
+   "cif": 1236.84,
+   "nombre": "60539           ~SENSOR DE OXIGENO",
+   "marca": "AH-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 69.67,
+   "nombre": "9900105096      ~SENSOR DE PH",
+   "marca": "S.SPA"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 69.67,
+   "nombre": "9900105096      ~SENSOR DE PH",
+   "marca": "S.SPA"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90272000",
+   "cif": 30429.44,
+   "nombre": "SINCOD          ~CROMATOGRAFO",
+   "marca": "OGC-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271010",
+   "cif": 1433.32,
+   "nombre": "VO22827993      ~ SENSOR",
+   "marca": "VOLVO"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271010",
+   "cif": 1165.98,
+   "nombre": "VOP22827992     ~ SENSOR",
+   "marca": "VOLVO"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271010",
+   "cif": 453.63,
+   "nombre": "VO22827995      ~ SENSOR",
+   "marca": "VOLVO"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271010",
+   "cif": 1421.46,
+   "nombre": "VO22827993      ~ SENSOR",
+   "marca": "VOLVO"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271010",
+   "cif": 1854.21,
+   "nombre": "VO22827993      ~ SENSOR",
+   "marca": "VOLVO"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271010",
+   "cif": 1431.65,
+   "nombre": "VO22827993      ~ SENSOR",
+   "marca": "VOLVO"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271010",
+   "cif": 991.97,
+   "nombre": "VO22827995      ~ SENSOR",
+   "marca": "VOLVO"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 2280.67,
+   "nombre": "392652F300      ~SENSOR PM",
+   "marca": "HYUNDAI"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 2403.21,
+   "nombre": "392652F300      ~SENSOR PM",
+   "marca": "HYUNDAI"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 1084.32,
+   "nombre": "30266943        ~MEDIDOR DE CONDUCTIVIDAD",
+   "marca": "M.T.-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 1307.23,
+   "nombre": "51344715        ~ELECTRODO",
+   "marca": "METTLER-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 2654.6,
+   "nombre": "51343101        ~SENSOR DE PH",
+   "marca": "METTLER-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90275000",
+   "cif": 4872.35,
+   "nombre": "PDB480C-AC      ~FOTODETECTOR",
+   "marca": "THORLABS"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90273000",
+   "cif": 46663.79,
+   "nombre": "910-000102      ~ESPECTROMETRO",
+   "marca": "HIPERSCAN-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 664.06,
+   "nombre": "30266626        ~MEDIDOR DE DENSIDAD",
+   "marca": "METTLERTOLEDO-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 4325.84,
+   "nombre": "51344155        ~SENSOR DE CONTROL",
+   "marca": "METTLER-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 1079.62,
+   "nombre": "1026605GH030    ~SENSOR DE OXIGENO",
+   "marca": "FORTALEZA-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 264.0,
+   "nombre": "1026321FD020    ~SENSOR DE OXIGENO",
+   "marca": "FORTALEZA-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 440.1,
+   "nombre": "3921003730      ~SENSOR DE OXIGENO",
+   "marca": "H.M.-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90273000",
+   "cif": 31035.9,
+   "nombre": "ARCOPTIX        ~ESPECTOMETRO",
+   "marca": "UNIV. TASMANIA-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 1266.0,
+   "nombre": "51344830        ~ELECTRODO ION SELECTIVO PLOMO",
+   "marca": "METTLER TOLEDO"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 1584.1,
+   "nombre": "30671567        ~MEDIDOR DE CONDUCTIVIDAD",
+   "marca": "METTLER TOLEDO"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90273000",
+   "cif": 3343.14,
+   "nombre": "51109300        ~FOTOELECTRODO",
+   "marca": "METTLER TOLEDO"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 512.13,
+   "nombre": "51344172        ~SOPORTE SENSOR",
+   "marca": "METTLER-TOLEDO.-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90272000",
+   "cif": 51998.57,
+   "nombre": "7890-5977A      ~CROMATOGRAFO",
+   "marca": "CAMACHO-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 37657.52,
+   "nombre": "CS744-MC        ~ANALIZADOR DE CARBONO-AZUFRE",
+   "marca": "LECO-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 47072.72,
+   "nombre": "CN828-MC        ~ANALIZADOR",
+   "marca": "LECO-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 10179.9,
+   "nombre": "SIN-CODIGO      ~SENSOR DE OXIGENO",
+   "marca": "VESUVIUS-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271090",
+   "cif": 63396.24,
+   "nombre": "SIN-CODIGO      ~SENSOR DE OXIGENO",
+   "marca": "NTRO-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271090",
+   "cif": 16441.05,
+   "nombre": "SIN-CODIGO      ~SENSOR DE OXIGENO",
+   "marca": "NTRO-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271090",
+   "cif": 3007.65,
+   "nombre": "SIN-CODIGO      ~ANALIZADOR DE GASES",
+   "marca": "NTRO-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271090",
+   "cif": 1167.15,
+   "nombre": "SIN-CODIGO      ~SENSOR DE OXIGENO",
+   "marca": "NTRO-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 9042.77,
+   "nombre": "SIN-CODIGO      ~MEDIDOR PORTATIL OXIGENO",
+   "marca": "BASE-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271090",
+   "cif": 187.53,
+   "nombre": "SIN-CODIGO      ~SONDA LAMBDA",
+   "marca": "TRUCKTEC-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 8095.02,
+   "nombre": "9313103         ~ MODULO ELECTRODO~ WIENER-F~ 5201",
+   "marca": "NA ELECTRODE, ISE MODULE~ PAR"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 1997.45,
+   "nombre": "9313101         ~ MODULO ELECTRODO~ WIENER LAB-F~",
+   "marca": "5204 DISPONSABLE~ PARA ANALIZA"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 9220.0,
+   "nombre": "SIN-CODIGO      ~ AUTOANALIZADOR HEMATOLOGICO~ WIE",
+   "marca": "NER LABORATORIOS-F~ COUNTER 31"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90275000",
+   "cif": 1692.19,
+   "nombre": "SINCODIGO       ~ EQUIPO ANALIZADOR HEMATOLOGICO~",
+   "marca": "BODITECH~ HEMOCHROMAPLUS~ PARA"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 8702.17,
+   "nombre": "AF26-EX         ~SENSOR DE ABSORBANCIA",
+   "marca": "OPTEX"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90275000",
+   "cif": 18074.15,
+   "nombre": "NIR-FR-MMF-LN   ~DETECTOR DE FOTONES",
+   "marca": "IDQ"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90275000",
+   "cif": 18074.15,
+   "nombre": "NIR-FR-MMF-LN   ~DETECTOR DE FOTONES",
+   "marca": "IDQ"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 13579.14,
+   "nombre": "PC901040        ~MONITOR DE EMISIONES",
+   "marca": "SINTROL-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 773.0,
+   "nombre": "MSAA-ULTX       ~SENSOR DE GAS",
+   "marca": "MSA"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 434.94,
+   "nombre": "00345930        ~SENSOR ULTRASONICO",
+   "marca": "LISEC-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 1088.39,
+   "nombre": "LCH-DHS-16A     ~ANALIZADOR DE HUMEDAD",
+   "marca": "LACHOI-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 943.79,
+   "nombre": "PH50-4          ~SENSOR DE PH",
+   "marca": "LACHOI-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271010",
+   "cif": 4455.22,
+   "nombre": "AAY80-390R-BW   ~ANALIZADOR DE GAS",
+   "marca": "HONEYWELL"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271010",
+   "cif": 1516.95,
+   "nombre": "BWS1-A2-Y       ~ANALIZADOR DE GAS",
+   "marca": "HONEYWELL"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271010",
+   "cif": 1083.38,
+   "nombre": "MCXL-XWHM-Y-NA  ~ANALIZADOR DE GAS O HUMO",
+   "marca": "HONEYWELL-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 6269.45,
+   "nombre": "AM1954550       ~SENSOR~FOXBORO~ORP101P2A5~MONTADO",
+   "marca": ", PARA USO EN EQUIPOS DE ANALI"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 6157.18,
+   "nombre": "AM1954548       ~SENSOR DE PH~FOXBORO~PH101P2A5~CO",
+   "marca": "N CABLES, PARA SUO EN EQUIPO A"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 812.81,
+   "nombre": "AM1929592       ~SENSOR~HERAEUS~1200 MM~DE TEMPERA",
+   "marca": "TURA Y OXIGENO, COMPLETO, CON"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271010",
+   "cif": 13752.15,
+   "nombre": "14241406        ~EQUIPO ANALIZADOR DE GAS~WIKA~GA1",
+   "marca": "1~DE 264 VOLTIOS, 50/60HZ, COM"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271010",
+   "cif": 26968.27,
+   "nombre": "RFW-002         ~ANALIZADOR DE HUMO",
+   "marca": "FIKE CORPORATION-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271010",
+   "cif": 8837.21,
+   "nombre": "SIN-CODIGO      ~ ANALIZADOR DE DISOLVENTES~ WINDM",
+   "marca": "OLLER-F~  DE USO EN INDUSTRIA"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 19055.6,
+   "nombre": "OPD790          ~SENSOR DE OXIGENO",
+   "marca": "DELFINO-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 6073.0,
+   "nombre": "DEC360          ~SENSOR DE SALINIDAD",
+   "marca": "DELFINO-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271090",
+   "cif": 689.96,
+   "nombre": "SIN-CODIGO      ~SENSOR NOX",
+   "marca": "LVD KRONE-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90273000",
+   "cif": 5706.78,
+   "nombre": "SIN-CODIGO      ~ESPECTOMETRO",
+   "marca": "SUNFOREST-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 634.84,
+   "nombre": "3200689161      ~MEDIDOR DE PH",
+   "marca": "HORIBA-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 501.82,
+   "nombre": "850-329         ~SENSORES",
+   "marca": "MACE-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271010",
+   "cif": 5130.2,
+   "nombre": "10211185        ~ANALIZADOR DE GASES",
+   "marca": "FRONTLINE-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90275000",
+   "cif": 10207.73,
+   "nombre": "NS-MIC-C        ~ANALIZADOR DE AGUA",
+   "marca": "SYSTEA-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 197.82,
+   "nombre": "NS-DISPOTION    ~SENSORES",
+   "marca": "SYSTEA-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90275000",
+   "cif": 1173.31,
+   "nombre": "TUB-430         ~MEDIDORES DE PH",
+   "marca": "GONDO-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90275000",
+   "cif": 2515.84,
+   "nombre": "7011            ~MEDIDORES DE PH",
+   "marca": "GONDO-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 146.97,
+   "nombre": "PY41            ~ELECTRODOS",
+   "marca": "GONDO E.-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90279090",
+   "cif": 4540.62,
+   "nombre": "SIN-CODIGO      ~SENSORES",
+   "marca": "CARL STUART G.-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90275000",
+   "cif": 1836.82,
+   "nombre": "1087            ~ANALIZADOR DE AGUA",
+   "marca": "LA MOTTE-F"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 114165.22,
+   "nombre": "HTFA-ASY-0003   ~ ANALIZADOR DE BACTERIAS",
+   "marca": "BIOFIRE-F~ HTFA-ASY-0003~COMPL"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 44318.8,
+   "nombre": "HTFA-ASY-0001   ~ ANALIZADOR DE BACTERIAS",
+   "marca": "BIOFIRE-F~ COMPLETO CON TODOSS"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271090",
+   "cif": 3356.75,
+   "nombre": "4463-D          ~ SENSOR",
+   "marca": "ENVIROSUITE-F~ KUNAK AIR PRO=P"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271010",
+   "cif": 6501.25,
+   "nombre": "AZ20            ~ ANALIZADOR DE GAS",
+   "marca": "ABB~ ELECTRONICO~ PARA MEDIR Y"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271010",
+   "cif": 2734.45,
+   "nombre": "AZ20            ~ ANALIZADOR DE GAS",
+   "marca": "ABB~ ELECTRONICO~ PARA MEDIR Y"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271010",
+   "cif": 9886.67,
+   "nombre": "V24041A         ~ DETECTOR DE GAS",
+   "marca": "ABB~ ELECTRONICO~COMPLETO~CON"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90271090",
+   "cif": 2710.82,
+   "nombre": "856666          ~ SENSOR DE OXIGENO",
+   "marca": "ABB~ 856666~ AUTOMATICO~ USO I"
+  },
+  {
+   "mes": "abril 2025",
+   "partida": "90278999",
+   "cif": 831.75,
+   "nombre": "665899          ~ SENSOR FOTOELECTRICO",
+   "marca": "BUSSE-F~ 665899~ 24VDC~ USO IN"
+  }
+ ]
+}
