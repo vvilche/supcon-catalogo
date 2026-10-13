@@ -1,0 +1,2059 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Perfiles de importador — instrumentación y automatización Chile 2025</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin:0; background:#f8fafc; color:#0f172a;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size:15px; line-height:1.55; }
+  .wrap { max-width:1180px; margin:0 auto; padding:34px 20px 70px; }
+  h1 { font-size:27px; margin:0 0 6px; letter-spacing:-.02em; }
+  .sub { color:#64748b; margin:0 0 26px; font-size:14.5px; }
+  .stats { display:grid; grid-template-columns:repeat(auto-fit,minmax(190px,1fr)); gap:12px; margin-bottom:28px; }
+  .stat { background:#fff; border:1px solid #e2e8f0; border-radius:10px; padding:15px 17px; }
+  .stat .n { font-size:23px; font-weight:700; letter-spacing:-.02em; display:block; }
+  .stat .l { font-size:12.5px; color:#64748b; text-transform:uppercase; letter-spacing:.04em; }
+  .aviso { background:#fffbeb; border:1px solid #fde68a; border-left:4px solid #d97706;
+    border-radius:8px; padding:14px 17px; margin-bottom:26px; font-size:14px; }
+  .aviso b { color:#92400e; }
+  h2 { font-size:18px; margin:34px 0 12px; letter-spacing:-.01em; }
+  .fbar { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:20px; }
+  .fbtn { cursor:pointer; }
+  .fbtn input { display:none; }
+  .fbtn span { display:inline-block; border:1px solid #cbd5e1; background:#fff; color:#334155;
+    border-radius:6px; padding:6px 11px; font-size:13px; }
+  .fbtn input:checked + span { background:#2563eb; border-color:#2563eb; color:#fff; }
+  .fbtn b { font-weight:600; opacity:.75; }
+  .perf { background:#fff; border:1px solid #e2e8f0; border-radius:11px;
+    padding:16px 18px; margin-bottom:12px; }
+  .ph { display:flex; align-items:center; gap:10px; flex-wrap:wrap; padding-bottom:11px;
+    border-bottom:1px solid #f1f5f9; }
+  .rank { font-size:12.5px; color:#94a3b8; font-weight:600; min-width:30px; }
+  .pid { font-weight:700; font-size:15px; letter-spacing:-.01em; }
+  .tag { font-size:11.5px; border:1px solid; border-radius:5px; padding:2px 8px;
+    font-weight:600; text-transform:uppercase; letter-spacing:.03em; }
+  .vol { margin-left:auto; font-weight:700; font-size:16px; letter-spacing:-.02em; }
+  .prow { display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr));
+    gap:12px; padding:13px 0 4px; }
+  .cell { display:flex; flex-direction:column; gap:2px; }
+  .k { font-size:11.5px; color:#94a3b8; text-transform:uppercase; letter-spacing:.04em; }
+  .cell b { font-size:16px; font-weight:700; letter-spacing:-.02em; }
+  .sub2, .cell .sub { font-size:12px; color:#64748b; }
+  .bar { height:5px; background:#f1f5f9; border-radius:3px; overflow:hidden; margin-top:5px; }
+  .fill { height:100%; border-radius:3px; }
+  .pfoot { display:flex; flex-wrap:wrap; gap:16px; padding-top:11px; margin-top:9px;
+    border-top:1px solid #f1f5f9; font-size:13.5px; }
+  .fam, .marcas { display:flex; align-items:center; gap:7px; }
+  .marcas { flex:1 1 100%; color:#475569; }
+  .chip { background:#f1f5f9; border-radius:5px; padding:2px 9px; font-size:12.5px;
+    font-weight:600; color:#334155; }
+  details { margin-top:11px; }
+  summary { cursor:pointer; font-size:13px; color:#2563eb; font-weight:600; }
+  .flist { list-style:none; margin:9px 0 0; padding:0; }
+  .flist li { display:flex; justify-content:space-between; padding:5px 0;
+    border-bottom:1px solid #f8fafc; font-size:13.5px; }
+  .flist b { font-variant-numeric:tabular-nums; }
+  footer { margin-top:42px; padding-top:20px; border-top:1px solid #e2e8f0;
+    font-size:13px; color:#64748b; }
+  footer code { background:#f1f5f9; padding:1px 6px; border-radius:4px; font-size:12.5px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Perfiles de importador — instrumentación y automatización</h1>
+  <p class="sub">Chile 2025 · Registro DIN de Aduanas · 1,946 importadores con actividad en el rubro</p>
+
+  <div class="stats">
+    <div class="stat"><span class="l">Importación total Chile 2025</span><span class="n">US$85,671.18M</span></div>
+    <div class="stat"><span class="l">Del rubro instrumentación</span><span class="n">US$316.90M</span></div>
+    <div class="stat"><span class="l">Importadores en el rubro</span><span class="n">1,946</span></div>
+    <div class="stat"><span class="l">Importadores totales del país</span><span class="n">16,240</span></div>
+  </div>
+
+  <div class="aviso">
+    <b>El registro no trae nombre ni RUT del importador.</b> Aduanas los omite amparada en la
+    Ley 20.285, y el Consejo para la Transparencia lo confirmó. Sí trae un
+    <code>NUM_UNICO_IMPORTADOR</code> estable por empresa (verificado: 4.720 de los 16.240
+    importadores aparecen los 12 meses del año). Por eso estos perfiles describen
+    <b>conducta</b> —qué importa, cuánto, de qué origen, con qué regularidad— y no identidad.
+    Es lo que sirve para decidir canal: distingue al especialista del importador grande que
+    compra de todo.
+  </div>
+
+  <h2>Cómo se reparte el rubro</h2>
+  <div class="prow">
+    <div class="bar"><div class="fill" style="width:52.0%;background:#d97706"></div></div><p class="sub">US$164.50M (52%) en 335 importadores grandes multirrubro</p>
+    <div class="bar"><div class="fill" style="width:34.0%;background:#2563eb"></div></div><p class="sub">US$108.60M (34%) en 74 integradores y distribuidores técnicos</p>
+    <div class="bar"><div class="fill" style="width:10.0%;background:#64748b"></div></div><p class="sub">US$30.60M (10%) en 1.532 compras menores</p>
+    <div class="bar"><div class="fill" style="width:4.0%;background:#047857"></div></div><p class="sub">US$13.20M (4%) en 5 especialistas puros de instrumentación</p>
+  </div>
+
+  <h2>Los 60 principales por volumen del rubro</h2>
+  <div class="fbar">
+    <label class="fbtn"><input type="radio" name="tipo" value="" checked><span>Todos <b>60</b></span></label>
+    <label class="fbtn"><input type="radio" name="tipo" value="IMPORTADOR GRANDE multirrubro"><span>IMPORTADOR GRANDE multirrubro <b>335</b></span></label><label class="fbtn"><input type="radio" name="tipo" value="INTEGRADOR / distribuidor técnico"><span>INTEGRADOR / distribuidor técnico <b>74</b></span></label><label class="fbtn"><input type="radio" name="tipo" value="COMPRA MENOR"><span>COMPRA MENOR <b>1532</b></span></label><label class="fbtn"><input type="radio" name="tipo" value="ESPECIALISTA en instrumentación"><span>ESPECIALISTA en instrumentación <b>5</b></span></label>
+  </div>
+  <div class="fbar"><input id="q" type="search" placeholder="Buscar por marca, familia o ID…"
+    style="flex:1;min-width:240px;padding:8px 12px;border:1px solid #cbd5e1;border-radius:7px;font-size:14px"></div>
+
+  <div id="lista">
+    <div class="perf" data-tipo="ESPECIALISTA en instrumentación" data-txt="10134 especialista en instrumentación hitachi abb control / dcs / plc / sis">
+      <div class="ph">
+        <span class="rank">#1</span>
+        <span class="pid">Importador ID 10134</span>
+        <span class="tag" style="border-color:#047857;color:#047857">ESPECIALISTA en instrumentación</span>
+        <span class="vol">US$6.50M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$6.50M</b>
+          <span class="sub">66 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$8.30M</b>
+          <span class="sub">258 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>78.3%</b>
+          <div class="bar"><div class="fill" style="width:78.3%;background:#047857"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>12/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>2</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>Las Condes</b>
+          <span class="sub">Eléctrico / electrónico, Instrumentos de medida</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Control / DCS / PLC / SIS</span></div>
+        <div class="fam"><span class="k">Origen</span> Alemania, Canadá, China, Francia</div>
+        <div class="marcas"><span class="k">Marcas</span> HITACHI, ABB</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Control / DCS / PLC / SIS</span><b>US$5.72M</b></li><li><span>Medición eléctrica y protecciones</span><b>US$455K</b></li><li><span>Fuentes y convertidores</span><b>US$169K</b></li><li><span>Analizadores de proceso</span><b>US$111K</b></li><li><span>Redes OT</span><b>US$38K</b></li></ul>
+      </details>
+    </div>
+    <div class="perf" data-tipo="IMPORTADOR GRANDE multirrubro" data-txt="36 importador grande multirrubro abb endress belden fuentes y convertidores">
+      <div class="ph">
+        <span class="rank">#2</span>
+        <span class="pid">Importador ID 36</span>
+        <span class="tag" style="border-color:#d97706;color:#d97706">IMPORTADOR GRANDE multirrubro</span>
+        <span class="vol">US$5.21M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$5.21M</b>
+          <span class="sub">409 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$75.78M</b>
+          <span class="sub">4,157 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>6.9%</b>
+          <div class="bar"><div class="fill" style="width:6.9%;background:#d97706"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>12/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>3</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>Cerro Navia</b>
+          <span class="sub">Otros, Vestuario</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Fuentes y convertidores</span></div>
+        <div class="fam"><span class="k">Origen</span> Alemania, India, China, Italia</div>
+        <div class="marcas"><span class="k">Marcas</span> ABB, ENDRESS, BELDEN</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Fuentes y convertidores</span><b>US$3.12M</b></li><li><span>Control / DCS / PLC / SIS</span><b>US$1.08M</b></li><li><span>Instrumentación (presión/temp/caudal/nivel)</span><b>US$538K</b></li><li><span>Analizadores de proceso</span><b>US$294K</b></li><li><span>Redes OT</span><b>US$153K</b></li></ul>
+      </details>
+    </div>
+    <div class="perf" data-tipo="IMPORTADOR GRANDE multirrubro" data-txt="2024 importador grande multirrubro abb sel fuentes y convertidores">
+      <div class="ph">
+        <span class="rank">#3</span>
+        <span class="pid">Importador ID 2024</span>
+        <span class="tag" style="border-color:#d97706;color:#d97706">IMPORTADOR GRANDE multirrubro</span>
+        <span class="vol">US$4.78M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$4.78M</b>
+          <span class="sub">361 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$25.31M</b>
+          <span class="sub">1,763 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>18.9%</b>
+          <div class="bar"><div class="fill" style="width:18.9%;background:#d97706"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>12/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>2</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>Las Condes</b>
+          <span class="sub">Otros, Eléctrico / electrónico</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Fuentes y convertidores</span></div>
+        <div class="fam"><span class="k">Origen</span> Japón, India, Francia, Italia</div>
+        <div class="marcas"><span class="k">Marcas</span> ABB, SEL</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Fuentes y convertidores</span><b>US$3.76M</b></li><li><span>Control / DCS / PLC / SIS</span><b>US$776K</b></li><li><span>Redes OT</span><b>US$120K</b></li><li><span>Instrumentación (presión/temp/caudal/nivel)</span><b>US$50K</b></li><li><span>Medición eléctrica y protecciones</span><b>US$36K</b></li></ul>
+      </details>
+    </div>
+    <div class="perf" data-tipo="INTEGRADOR / distribuidor técnico" data-txt="425 integrador / distribuidor técnico abb digi fuentes y convertidores">
+      <div class="ph">
+        <span class="rank">#4</span>
+        <span class="pid">Importador ID 425</span>
+        <span class="tag" style="border-color:#2563eb;color:#2563eb">INTEGRADOR / distribuidor técnico</span>
+        <span class="vol">US$4.44M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$4.44M</b>
+          <span class="sub">7 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$12.43M</b>
+          <span class="sub">367 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>35.7%</b>
+          <div class="bar"><div class="fill" style="width:35.7%;background:#2563eb"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>12/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>2</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>Las Condes</b>
+          <span class="sub">Eléctrico / electrónico, Maquinaria mecánica</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Fuentes y convertidores</span></div>
+        <div class="fam"><span class="k">Origen</span> Italia, Alemania</div>
+        <div class="marcas"><span class="k">Marcas</span> ABB, DIGI</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Fuentes y convertidores</span><b>US$2.99M</b></li><li><span>Control / DCS / PLC / SIS</span><b>US$971K</b></li><li><span>Redes OT</span><b>US$477K</b></li></ul>
+      </details>
+    </div>
+    <div class="perf" data-tipo="INTEGRADOR / distribuidor técnico" data-txt="10416 integrador / distribuidor técnico siemens control / dcs / plc / sis">
+      <div class="ph">
+        <span class="rank">#5</span>
+        <span class="pid">Importador ID 10416</span>
+        <span class="tag" style="border-color:#2563eb;color:#2563eb">INTEGRADOR / distribuidor técnico</span>
+        <span class="vol">US$4.31M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$4.31M</b>
+          <span class="sub">283 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$6.79M</b>
+          <span class="sub">818 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>63.4%</b>
+          <div class="bar"><div class="fill" style="width:63.4%;background:#2563eb"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>10/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>1</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>Las Condes</b>
+          <span class="sub">Eléctrico / electrónico, Productos químicos</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Control / DCS / PLC / SIS</span></div>
+        <div class="fam"><span class="k">Origen</span> Alemania, China, EE.UU., Taiwán</div>
+        <div class="marcas"><span class="k">Marcas</span> SIEMENS</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Control / DCS / PLC / SIS</span><b>US$3.95M</b></li><li><span>Fuentes y convertidores</span><b>US$179K</b></li><li><span>Instrumentación (presión/temp/caudal/nivel)</span><b>US$85K</b></li><li><span>Redes OT</span><b>US$72K</b></li><li><span>Medición eléctrica y protecciones</span><b>US$14K</b></li></ul>
+      </details>
+    </div>
+    <div class="perf" data-tipo="INTEGRADOR / distribuidor técnico" data-txt="11533 integrador / distribuidor técnico siemens control / dcs / plc / sis">
+      <div class="ph">
+        <span class="rank">#6</span>
+        <span class="pid">Importador ID 11533</span>
+        <span class="tag" style="border-color:#2563eb;color:#2563eb">INTEGRADOR / distribuidor técnico</span>
+        <span class="vol">US$3.84M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$3.84M</b>
+          <span class="sub">307 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$5.65M</b>
+          <span class="sub">766 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>68.0%</b>
+          <div class="bar"><div class="fill" style="width:68.0%;background:#2563eb"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>12/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>1</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>Las Condes</b>
+          <span class="sub">Eléctrico / electrónico, Instrumentos de medida</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Control / DCS / PLC / SIS</span></div>
+        <div class="fam"><span class="k">Origen</span> Alemania, China, EE.UU., Corea del Sur</div>
+        <div class="marcas"><span class="k">Marcas</span> SIEMENS</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Control / DCS / PLC / SIS</span><b>US$2.77M</b></li><li><span>Fuentes y convertidores</span><b>US$477K</b></li><li><span>Instrumentación (presión/temp/caudal/nivel)</span><b>US$438K</b></li><li><span>Redes OT</span><b>US$158K</b></li><li><span>Medición eléctrica y protecciones</span><b>US$5K</b></li></ul>
+      </details>
+    </div>
+    <div class="perf" data-tipo="INTEGRADOR / distribuidor técnico" data-txt="5700 integrador / distribuidor técnico innomotics etp siemens fuentes y convertidores">
+      <div class="ph">
+        <span class="rank">#7</span>
+        <span class="pid">Importador ID 5700</span>
+        <span class="tag" style="border-color:#2563eb;color:#2563eb">INTEGRADOR / distribuidor técnico</span>
+        <span class="vol">US$3.72M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$3.72M</b>
+          <span class="sub">22 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$8.71M</b>
+          <span class="sub">1,767 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>42.7%</b>
+          <div class="bar"><div class="fill" style="width:42.7%;background:#2563eb"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>11/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>3</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>Las Condes</b>
+          <span class="sub">Eléctrico / electrónico, Maquinaria mecánica</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Fuentes y convertidores</span></div>
+        <div class="fam"><span class="k">Origen</span> Países Bajos, China, España, Alemania</div>
+        <div class="marcas"><span class="k">Marcas</span> INNOMOTICS, ETP, SIEMENS</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Fuentes y convertidores</span><b>US$2.01M</b></li><li><span>Control / DCS / PLC / SIS</span><b>US$1.70M</b></li><li><span>Redes OT</span><b>US$981</b></li></ul>
+      </details>
+    </div>
+    <div class="perf" data-tipo="INTEGRADOR / distribuidor técnico" data-txt="6065 integrador / distribuidor técnico innomotics siemens etp fuentes y convertidores">
+      <div class="ph">
+        <span class="rank">#8</span>
+        <span class="pid">Importador ID 6065</span>
+        <span class="tag" style="border-color:#2563eb;color:#2563eb">INTEGRADOR / distribuidor técnico</span>
+        <span class="vol">US$3.24M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$3.24M</b>
+          <span class="sub">14 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$7.61M</b>
+          <span class="sub">204 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>42.6%</b>
+          <div class="bar"><div class="fill" style="width:42.6%;background:#2563eb"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>12/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>3</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>Las Condes</b>
+          <span class="sub">Eléctrico / electrónico, Otros</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Fuentes y convertidores</span></div>
+        <div class="fam"><span class="k">Origen</span> España, China, Alemania, Francia</div>
+        <div class="marcas"><span class="k">Marcas</span> INNOMOTICS, SIEMENS, ETP</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Fuentes y convertidores</span><b>US$3.05M</b></li><li><span>Control / DCS / PLC / SIS</span><b>US$190K</b></li></ul>
+      </details>
+    </div>
+    <div class="perf" data-tipo="INTEGRADOR / distribuidor técnico" data-txt="13543 integrador / distribuidor técnico hyosung control / dcs / plc / sis">
+      <div class="ph">
+        <span class="rank">#9</span>
+        <span class="pid">Importador ID 13543</span>
+        <span class="tag" style="border-color:#2563eb;color:#2563eb">INTEGRADOR / distribuidor técnico</span>
+        <span class="vol">US$3.09M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$3.09M</b>
+          <span class="sub">4 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$6.15M</b>
+          <span class="sub">132 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>50.3%</b>
+          <div class="bar"><div class="fill" style="width:50.3%;background:#2563eb"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>11/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>1</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>Las Condes</b>
+          <span class="sub">Eléctrico / electrónico, Otros</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Control / DCS / PLC / SIS</span></div>
+        <div class="fam"><span class="k">Origen</span> Corea del Sur</div>
+        <div class="marcas"><span class="k">Marcas</span> HYOSUNG</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Control / DCS / PLC / SIS</span><b>US$3.09M</b></li></ul>
+      </details>
+    </div>
+    <div class="perf" data-tipo="INTEGRADOR / distribuidor técnico" data-txt="1966 integrador / distribuidor técnico siemens control / dcs / plc / sis">
+      <div class="ph">
+        <span class="rank">#10</span>
+        <span class="pid">Importador ID 1966</span>
+        <span class="tag" style="border-color:#2563eb;color:#2563eb">INTEGRADOR / distribuidor técnico</span>
+        <span class="vol">US$3.08M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$3.08M</b>
+          <span class="sub">199 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$6.97M</b>
+          <span class="sub">664 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>44.2%</b>
+          <div class="bar"><div class="fill" style="width:44.2%;background:#2563eb"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>12/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>1</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>Las Condes</b>
+          <span class="sub">Eléctrico / electrónico, Papel</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Control / DCS / PLC / SIS</span></div>
+        <div class="fam"><span class="k">Origen</span> China, Alemania, EE.UU., Reino Unido</div>
+        <div class="marcas"><span class="k">Marcas</span> SIEMENS</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Control / DCS / PLC / SIS</span><b>US$2.65M</b></li><li><span>Instrumentación (presión/temp/caudal/nivel)</span><b>US$217K</b></li><li><span>Fuentes y convertidores</span><b>US$109K</b></li><li><span>Redes OT</span><b>US$100K</b></li><li><span>Medición eléctrica y protecciones</span><b>US$4K</b></li></ul>
+      </details>
+    </div>
+    <div class="perf" data-tipo="INTEGRADOR / distribuidor técnico" data-txt="9821 integrador / distribuidor técnico alstom control / dcs / plc / sis">
+      <div class="ph">
+        <span class="rank">#11</span>
+        <span class="pid">Importador ID 9821</span>
+        <span class="tag" style="border-color:#2563eb;color:#2563eb">INTEGRADOR / distribuidor técnico</span>
+        <span class="vol">US$2.94M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$2.94M</b>
+          <span class="sub">3 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$5.03M</b>
+          <span class="sub">245 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>58.5%</b>
+          <div class="bar"><div class="fill" style="width:58.5%;background:#2563eb"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>9/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>1</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>Santiago</b>
+          <span class="sub">Eléctrico / electrónico, Productos químicos</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Control / DCS / PLC / SIS</span></div>
+        <div class="fam"><span class="k">Origen</span> China, cód. 544, EE.UU.</div>
+        <div class="marcas"><span class="k">Marcas</span> ALSTOM</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Control / DCS / PLC / SIS</span><b>US$2.94M</b></li></ul>
+      </details>
+    </div>
+    <div class="perf" data-tipo="IMPORTADOR GRANDE multirrubro" data-txt="2094 importador grande multirrubro schneider siemens sel belden control / dcs / plc / sis">
+      <div class="ph">
+        <span class="rank">#12</span>
+        <span class="pid">Importador ID 2094</span>
+        <span class="tag" style="border-color:#d97706;color:#d97706">IMPORTADOR GRANDE multirrubro</span>
+        <span class="vol">US$2.90M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$2.90M</b>
+          <span class="sub">258 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$46.61M</b>
+          <span class="sub">5,932 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>6.2%</b>
+          <div class="bar"><div class="fill" style="width:6.2%;background:#d97706"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>12/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>4</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>Cerro Navia</b>
+          <span class="sub">Maquinaria mecánica, Eléctrico / electrónico</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Control / DCS / PLC / SIS</span></div>
+        <div class="fam"><span class="k">Origen</span> cód. 216, cód. 202, Alemania, cód. 224</div>
+        <div class="marcas"><span class="k">Marcas</span> SCHNEIDER, SIEMENS, SEL, BELDEN</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Control / DCS / PLC / SIS</span><b>US$2.47M</b></li><li><span>Fuentes y convertidores</span><b>US$300K</b></li><li><span>Medición eléctrica y protecciones</span><b>US$69K</b></li><li><span>Analizadores de proceso</span><b>US$27K</b></li><li><span>Redes OT</span><b>US$25K</b></li></ul>
+      </details>
+    </div>
+    <div class="perf" data-tipo="INTEGRADOR / distribuidor técnico" data-txt="4317 integrador / distribuidor técnico siemens sel arteche control / dcs / plc / sis">
+      <div class="ph">
+        <span class="rank">#13</span>
+        <span class="pid">Importador ID 4317</span>
+        <span class="tag" style="border-color:#2563eb;color:#2563eb">INTEGRADOR / distribuidor técnico</span>
+        <span class="vol">US$2.87M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$2.87M</b>
+          <span class="sub">12 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$8.83M</b>
+          <span class="sub">819 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>32.5%</b>
+          <div class="bar"><div class="fill" style="width:32.5%;background:#2563eb"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>12/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>3</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>cód. 13106</b>
+          <span class="sub">Caucho, Eléctrico / electrónico</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Control / DCS / PLC / SIS</span></div>
+        <div class="fam"><span class="k">Origen</span> Alemania, China</div>
+        <div class="marcas"><span class="k">Marcas</span> SIEMENS, SEL, ARTECHE</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Control / DCS / PLC / SIS</span><b>US$2.81M</b></li><li><span>Fuentes y convertidores</span><b>US$49K</b></li><li><span>Válvulas de control</span><b>US$5K</b></li><li><span>Instrumentación (presión/temp/caudal/nivel)</span><b>US$3K</b></li></ul>
+      </details>
+    </div>
+    <div class="perf" data-tipo="INTEGRADOR / distribuidor técnico" data-txt="827 integrador / distribuidor técnico siemens control / dcs / plc / sis">
+      <div class="ph">
+        <span class="rank">#14</span>
+        <span class="pid">Importador ID 827</span>
+        <span class="tag" style="border-color:#2563eb;color:#2563eb">INTEGRADOR / distribuidor técnico</span>
+        <span class="vol">US$2.85M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$2.85M</b>
+          <span class="sub">3 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$5.95M</b>
+          <span class="sub">232 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>47.9%</b>
+          <div class="bar"><div class="fill" style="width:47.9%;background:#2563eb"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>12/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>1</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>cód. 13301</b>
+          <span class="sub">Eléctrico / electrónico, Instrumentos de medida</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Control / DCS / PLC / SIS</span></div>
+        <div class="fam"><span class="k">Origen</span> Alemania</div>
+        <div class="marcas"><span class="k">Marcas</span> SIEMENS</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Control / DCS / PLC / SIS</span><b>US$2.85M</b></li></ul>
+      </details>
+    </div>
+    <div class="perf" data-tipo="INTEGRADOR / distribuidor técnico" data-txt="9113 integrador / distribuidor técnico abb control / dcs / plc / sis">
+      <div class="ph">
+        <span class="rank">#15</span>
+        <span class="pid">Importador ID 9113</span>
+        <span class="tag" style="border-color:#2563eb;color:#2563eb">INTEGRADOR / distribuidor técnico</span>
+        <span class="vol">US$2.80M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$2.80M</b>
+          <span class="sub">232 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$10.89M</b>
+          <span class="sub">875 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>25.7%</b>
+          <div class="bar"><div class="fill" style="width:25.7%;background:#2563eb"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>11/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>1</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>Las Condes</b>
+          <span class="sub">Eléctrico / electrónico, Bebidas</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Control / DCS / PLC / SIS</span></div>
+        <div class="fam"><span class="k">Origen</span> España, Italia, India, cód. 544</div>
+        <div class="marcas"><span class="k">Marcas</span> ABB</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Control / DCS / PLC / SIS</span><b>US$1.61M</b></li><li><span>Fuentes y convertidores</span><b>US$947K</b></li><li><span>Redes OT</span><b>US$149K</b></li><li><span>Instrumentación (presión/temp/caudal/nivel)</span><b>US$53K</b></li><li><span>Analizadores de proceso</span><b>US$24K</b></li></ul>
+      </details>
+    </div>
+    <div class="perf" data-tipo="INTEGRADOR / distribuidor técnico" data-txt="13170 integrador / distribuidor técnico rockwell allen control / dcs / plc / sis">
+      <div class="ph">
+        <span class="rank">#16</span>
+        <span class="pid">Importador ID 13170</span>
+        <span class="tag" style="border-color:#2563eb;color:#2563eb">INTEGRADOR / distribuidor técnico</span>
+        <span class="vol">US$2.73M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$2.73M</b>
+          <span class="sub">325 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$4.20M</b>
+          <span class="sub">834 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>65.0%</b>
+          <div class="bar"><div class="fill" style="width:65.0%;background:#2563eb"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>10/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>2</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>Las Condes</b>
+          <span class="sub">Eléctrico / electrónico, Plásticos</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Control / DCS / PLC / SIS</span></div>
+        <div class="fam"><span class="k">Origen</span> cód. 216, Francia, cód. 904, cód. 329</div>
+        <div class="marcas"><span class="k">Marcas</span> ROCKWELL, ALLEN</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Control / DCS / PLC / SIS</span><b>US$1.51M</b></li><li><span>Fuentes y convertidores</span><b>US$1.08M</b></li><li><span>Redes OT</span><b>US$135K</b></li><li><span>Medición eléctrica y protecciones</span><b>US$6K</b></li><li><span>Instrumentación (presión/temp/caudal/nivel)</span><b>US$2K</b></li></ul>
+      </details>
+    </div>
+    <div class="perf" data-tipo="INTEGRADOR / distribuidor técnico" data-txt="11031 integrador / distribuidor técnico abb emerson fisher control / dcs / plc / sis">
+      <div class="ph">
+        <span class="rank">#17</span>
+        <span class="pid">Importador ID 11031</span>
+        <span class="tag" style="border-color:#2563eb;color:#2563eb">INTEGRADOR / distribuidor técnico</span>
+        <span class="vol">US$2.67M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$2.67M</b>
+          <span class="sub">266 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$9.81M</b>
+          <span class="sub">932 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>27.3%</b>
+          <div class="bar"><div class="fill" style="width:27.3%;background:#2563eb"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>10/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>3</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>Santiago Centro</b>
+          <span class="sub">Eléctrico / electrónico, Maquinaria mecánica</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Control / DCS / PLC / SIS</span></div>
+        <div class="fam"><span class="k">Origen</span> Italia, Alemania, cód. 904, España</div>
+        <div class="marcas"><span class="k">Marcas</span> ABB, EMERSON, FISHER</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Control / DCS / PLC / SIS</span><b>US$1.27M</b></li><li><span>Fuentes y convertidores</span><b>US$1.04M</b></li><li><span>Redes OT</span><b>US$156K</b></li><li><span>Instrumentación (presión/temp/caudal/nivel)</span><b>US$99K</b></li><li><span>Válvulas de control</span><b>US$78K</b></li></ul>
+      </details>
+    </div>
+    <div class="perf" data-tipo="ESPECIALISTA en instrumentación" data-txt="11040 especialista en instrumentación rockwell allen fuentes y convertidores">
+      <div class="ph">
+        <span class="rank">#18</span>
+        <span class="pid">Importador ID 11040</span>
+        <span class="tag" style="border-color:#047857;color:#047857">ESPECIALISTA en instrumentación</span>
+        <span class="vol">US$2.62M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$2.62M</b>
+          <span class="sub">217 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$3.44M</b>
+          <span class="sub">392 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>75.9%</b>
+          <div class="bar"><div class="fill" style="width:75.9%;background:#047857"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>12/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>2</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>Las Condes</b>
+          <span class="sub">Eléctrico / electrónico, Maquinaria mecánica</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Fuentes y convertidores</span></div>
+        <div class="fam"><span class="k">Origen</span> Alemania, Francia, cód. 216, cód. 904</div>
+        <div class="marcas"><span class="k">Marcas</span> ROCKWELL, ALLEN</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Fuentes y convertidores</span><b>US$1.83M</b></li><li><span>Control / DCS / PLC / SIS</span><b>US$612K</b></li><li><span>Redes OT</span><b>US$171K</b></li><li><span>Medición eléctrica y protecciones</span><b>US$3K</b></li><li><span>Instrumentación (presión/temp/caudal/nivel)</span><b>US$2K</b></li></ul>
+      </details>
+    </div>
+    <div class="perf" data-tipo="IMPORTADOR GRANDE multirrubro" data-txt="7389 importador grande multirrubro siemens control / dcs / plc / sis">
+      <div class="ph">
+        <span class="rank">#19</span>
+        <span class="pid">Importador ID 7389</span>
+        <span class="tag" style="border-color:#d97706;color:#d97706">IMPORTADOR GRANDE multirrubro</span>
+        <span class="vol">US$2.55M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$2.55M</b>
+          <span class="sub">334 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$15.20M</b>
+          <span class="sub">1,006 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>16.7%</b>
+          <div class="bar"><div class="fill" style="width:16.7%;background:#d97706"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>11/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>1</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>cód. 13132</b>
+          <span class="sub">Vehículos y automoción, Eléctrico / electrónico</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Control / DCS / PLC / SIS</span></div>
+        <div class="fam"><span class="k">Origen</span> China, España, EE.UU., Alemania</div>
+        <div class="marcas"><span class="k">Marcas</span> SIEMENS</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Control / DCS / PLC / SIS</span><b>US$2.06M</b></li><li><span>Instrumentación (presión/temp/caudal/nivel)</span><b>US$176K</b></li><li><span>Redes OT</span><b>US$162K</b></li><li><span>Fuentes y convertidores</span><b>US$133K</b></li><li><span>Medición eléctrica y protecciones</span><b>US$16K</b></li></ul>
+      </details>
+    </div>
+    <div class="perf" data-tipo="IMPORTADOR GRANDE multirrubro" data-txt="56 importador grande multirrubro abb hirschmann fuentes y convertidores">
+      <div class="ph">
+        <span class="rank">#20</span>
+        <span class="pid">Importador ID 56</span>
+        <span class="tag" style="border-color:#d97706;color:#d97706">IMPORTADOR GRANDE multirrubro</span>
+        <span class="vol">US$2.45M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$2.45M</b>
+          <span class="sub">232 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$56.79M</b>
+          <span class="sub">9,566 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>4.3%</b>
+          <div class="bar"><div class="fill" style="width:4.3%;background:#d97706"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>12/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>2</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>Las Condes</b>
+          <span class="sub">Otros, Vehículos y automoción</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Fuentes y convertidores</span></div>
+        <div class="fam"><span class="k">Origen</span> Italia, Alemania, India, España</div>
+        <div class="marcas"><span class="k">Marcas</span> ABB, HIRSCHMANN</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Fuentes y convertidores</span><b>US$1.35M</b></li><li><span>Control / DCS / PLC / SIS</span><b>US$923K</b></li><li><span>Instrumentación (presión/temp/caudal/nivel)</span><b>US$93K</b></li><li><span>Redes OT</span><b>US$42K</b></li><li><span>Analizadores de proceso</span><b>US$24K</b></li></ul>
+      </details>
+    </div>
+    <div class="perf" data-tipo="INTEGRADOR / distribuidor técnico" data-txt="3832 integrador / distribuidor técnico etp siemens innomotics control / dcs / plc / sis">
+      <div class="ph">
+        <span class="rank">#21</span>
+        <span class="pid">Importador ID 3832</span>
+        <span class="tag" style="border-color:#2563eb;color:#2563eb">INTEGRADOR / distribuidor técnico</span>
+        <span class="vol">US$2.41M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$2.41M</b>
+          <span class="sub">22 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$8.78M</b>
+          <span class="sub">166 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>27.4%</b>
+          <div class="bar"><div class="fill" style="width:27.4%;background:#2563eb"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>10/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>3</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>Las Condes</b>
+          <span class="sub">Maquinaria mecánica, Eléctrico / electrónico</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Control / DCS / PLC / SIS</span></div>
+        <div class="fam"><span class="k">Origen</span> Países Bajos, China, Alemania, Francia</div>
+        <div class="marcas"><span class="k">Marcas</span> ETP, SIEMENS, INNOMOTICS</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Control / DCS / PLC / SIS</span><b>US$1.80M</b></li><li><span>Fuentes y convertidores</span><b>US$613K</b></li><li><span>Instrumentación (presión/temp/caudal/nivel)</span><b>US$947</b></li><li><span>Válvulas de control</span><b>US$884</b></li></ul>
+      </details>
+    </div>
+    <div class="perf" data-tipo="IMPORTADOR GRANDE multirrubro" data-txt="87 importador grande multirrubro etp innomotics siemens mts teledyne control / dcs / plc / sis">
+      <div class="ph">
+        <span class="rank">#22</span>
+        <span class="pid">Importador ID 87</span>
+        <span class="tag" style="border-color:#d97706;color:#d97706">IMPORTADOR GRANDE multirrubro</span>
+        <span class="vol">US$2.38M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$2.38M</b>
+          <span class="sub">13 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$38.32M</b>
+          <span class="sub">604 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>6.2%</b>
+          <div class="bar"><div class="fill" style="width:6.2%;background:#d97706"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>12/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>5</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>Las Condes</b>
+          <span class="sub">Eléctrico / electrónico, Otros</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Control / DCS / PLC / SIS</span></div>
+        <div class="fam"><span class="k">Origen</span> Países Bajos, España, China, Alemania</div>
+        <div class="marcas"><span class="k">Marcas</span> ETP, INNOMOTICS, SIEMENS, MTS, TELEDYNE</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Control / DCS / PLC / SIS</span><b>US$1.50M</b></li><li><span>Fuentes y convertidores</span><b>US$867K</b></li><li><span>Instrumentación (presión/temp/caudal/nivel)</span><b>US$9K</b></li><li><span>Analizadores de proceso</span><b>US$3K</b></li></ul>
+      </details>
+    </div>
+    <div class="perf" data-tipo="IMPORTADOR GRANDE multirrubro" data-txt="217 importador grande multirrubro siemens cidra control / dcs / plc / sis">
+      <div class="ph">
+        <span class="rank">#23</span>
+        <span class="pid">Importador ID 217</span>
+        <span class="tag" style="border-color:#d97706;color:#d97706">IMPORTADOR GRANDE multirrubro</span>
+        <span class="vol">US$2.33M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$2.33M</b>
+          <span class="sub">238 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$18.66M</b>
+          <span class="sub">884 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>12.5%</b>
+          <div class="bar"><div class="fill" style="width:12.5%;background:#d97706"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>12/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>2</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>Las Condes</b>
+          <span class="sub">Otros, Maquinaria mecánica</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Control / DCS / PLC / SIS</span></div>
+        <div class="fam"><span class="k">Origen</span> Alemania, China, Taiwán, Francia</div>
+        <div class="marcas"><span class="k">Marcas</span> SIEMENS, CIDRA</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Control / DCS / PLC / SIS</span><b>US$1.82M</b></li><li><span>Fuentes y convertidores</span><b>US$241K</b></li><li><span>Redes OT</span><b>US$124K</b></li><li><span>Instrumentación (presión/temp/caudal/nivel)</span><b>US$56K</b></li><li><span>Analizadores de proceso</span><b>US$51K</b></li></ul>
+      </details>
+    </div>
+    <div class="perf" data-tipo="IMPORTADOR GRANDE multirrubro" data-txt="1922 importador grande multirrubro schneider sel belden control / dcs / plc / sis">
+      <div class="ph">
+        <span class="rank">#24</span>
+        <span class="pid">Importador ID 1922</span>
+        <span class="tag" style="border-color:#d97706;color:#d97706">IMPORTADOR GRANDE multirrubro</span>
+        <span class="vol">US$2.23M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$2.23M</b>
+          <span class="sub">226 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$11.42M</b>
+          <span class="sub">3,419 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>19.5%</b>
+          <div class="bar"><div class="fill" style="width:19.5%;background:#d97706"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>12/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>3</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>Las Condes</b>
+          <span class="sub">Eléctrico / electrónico, Papel</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Control / DCS / PLC / SIS</span></div>
+        <div class="fam"><span class="k">Origen</span> cód. 202, Francia, cód. 904, Alemania</div>
+        <div class="marcas"><span class="k">Marcas</span> SCHNEIDER, SEL, BELDEN</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Control / DCS / PLC / SIS</span><b>US$1.70M</b></li><li><span>Fuentes y convertidores</span><b>US$377K</b></li><li><span>Medición eléctrica y protecciones</span><b>US$120K</b></li><li><span>Redes OT</span><b>US$30K</b></li><li><span>Válvulas de control</span><b>US$299</b></li></ul>
+      </details>
+    </div>
+    <div class="perf" data-tipo="INTEGRADOR / distribuidor técnico" data-txt="9763 integrador / distribuidor técnico abb fluke fuentes y convertidores">
+      <div class="ph">
+        <span class="rank">#25</span>
+        <span class="pid">Importador ID 9763</span>
+        <span class="tag" style="border-color:#2563eb;color:#2563eb">INTEGRADOR / distribuidor técnico</span>
+        <span class="vol">US$2.23M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$2.23M</b>
+          <span class="sub">514 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$4.93M</b>
+          <span class="sub">904 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>45.1%</b>
+          <div class="bar"><div class="fill" style="width:45.1%;background:#2563eb"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>9/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>2</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>Santiago Centro</b>
+          <span class="sub">Eléctrico / electrónico, Instrumentos de medida</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Fuentes y convertidores</span></div>
+        <div class="fam"><span class="k">Origen</span> Italia, India, Alemania, cód. 504</div>
+        <div class="marcas"><span class="k">Marcas</span> ABB, FLUKE</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Fuentes y convertidores</span><b>US$1.36M</b></li><li><span>Control / DCS / PLC / SIS</span><b>US$566K</b></li><li><span>Redes OT</span><b>US$157K</b></li><li><span>Instrumentación (presión/temp/caudal/nivel)</span><b>US$90K</b></li><li><span>Válvulas de control</span><b>US$26K</b></li></ul>
+      </details>
+    </div>
+    <div class="perf" data-tipo="INTEGRADOR / distribuidor técnico" data-txt="12613 integrador / distribuidor técnico abb fuentes y convertidores">
+      <div class="ph">
+        <span class="rank">#26</span>
+        <span class="pid">Importador ID 12613</span>
+        <span class="tag" style="border-color:#2563eb;color:#2563eb">INTEGRADOR / distribuidor técnico</span>
+        <span class="vol">US$2.18M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$2.18M</b>
+          <span class="sub">311 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$6.11M</b>
+          <span class="sub">743 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>35.7%</b>
+          <div class="bar"><div class="fill" style="width:35.7%;background:#2563eb"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>12/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>1</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>Santiago Centro</b>
+          <span class="sub">Eléctrico / electrónico, Plásticos</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Fuentes y convertidores</span></div>
+        <div class="fam"><span class="k">Origen</span> España, Italia, cód. 904, Alemania</div>
+        <div class="marcas"><span class="k">Marcas</span> ABB</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Fuentes y convertidores</span><b>US$1.09M</b></li><li><span>Control / DCS / PLC / SIS</span><b>US$855K</b></li><li><span>Redes OT</span><b>US$123K</b></li><li><span>Instrumentación (presión/temp/caudal/nivel)</span><b>US$69K</b></li><li><span>Analizadores de proceso</span><b>US$15K</b></li></ul>
+      </details>
+    </div>
+    <div class="perf" data-tipo="INTEGRADOR / distribuidor técnico" data-txt="12232 integrador / distribuidor técnico siemens control / dcs / plc / sis">
+      <div class="ph">
+        <span class="rank">#27</span>
+        <span class="pid">Importador ID 12232</span>
+        <span class="tag" style="border-color:#2563eb;color:#2563eb">INTEGRADOR / distribuidor técnico</span>
+        <span class="vol">US$2.18M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$2.18M</b>
+          <span class="sub">243 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$3.73M</b>
+          <span class="sub">841 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>58.3%</b>
+          <div class="bar"><div class="fill" style="width:58.3%;background:#2563eb"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>9/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>1</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>Las Condes</b>
+          <span class="sub">Eléctrico / electrónico, Otros</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Control / DCS / PLC / SIS</span></div>
+        <div class="fam"><span class="k">Origen</span> Alemania, China, Reino Unido, cód. 216</div>
+        <div class="marcas"><span class="k">Marcas</span> SIEMENS</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Control / DCS / PLC / SIS</span><b>US$1.80M</b></li><li><span>Fuentes y convertidores</span><b>US$193K</b></li><li><span>Redes OT</span><b>US$110K</b></li><li><span>Instrumentación (presión/temp/caudal/nivel)</span><b>US$49K</b></li><li><span>Medición eléctrica y protecciones</span><b>US$19K</b></li></ul>
+      </details>
+    </div>
+    <div class="perf" data-tipo="INTEGRADOR / distribuidor técnico" data-txt="6254 integrador / distribuidor técnico siemens control / dcs / plc / sis">
+      <div class="ph">
+        <span class="rank">#28</span>
+        <span class="pid">Importador ID 6254</span>
+        <span class="tag" style="border-color:#2563eb;color:#2563eb">INTEGRADOR / distribuidor técnico</span>
+        <span class="vol">US$2.17M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$2.17M</b>
+          <span class="sub">15 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$6.90M</b>
+          <span class="sub">321 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>31.4%</b>
+          <div class="bar"><div class="fill" style="width:31.4%;background:#2563eb"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>11/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>1</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>Las Condes</b>
+          <span class="sub">Plásticos, Eléctrico / electrónico</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Control / DCS / PLC / SIS</span></div>
+        <div class="fam"><span class="k">Origen</span> Alemania, China, Francia</div>
+        <div class="marcas"><span class="k">Marcas</span> SIEMENS</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Control / DCS / PLC / SIS</span><b>US$2.06M</b></li><li><span>Medición eléctrica y protecciones</span><b>US$53K</b></li><li><span>Válvulas de control</span><b>US$29K</b></li><li><span>Instrumentación (presión/temp/caudal/nivel)</span><b>US$12K</b></li><li><span>Redes OT</span><b>US$10K</b></li></ul>
+      </details>
+    </div>
+    <div class="perf" data-tipo="IMPORTADOR GRANDE multirrubro" data-txt="5817 importador grande multirrubro siemens teledyne control / dcs / plc / sis">
+      <div class="ph">
+        <span class="rank">#29</span>
+        <span class="pid">Importador ID 5817</span>
+        <span class="tag" style="border-color:#d97706;color:#d97706">IMPORTADOR GRANDE multirrubro</span>
+        <span class="vol">US$2.12M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$2.12M</b>
+          <span class="sub">288 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$21.02M</b>
+          <span class="sub">1,090 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>10.1%</b>
+          <div class="bar"><div class="fill" style="width:10.1%;background:#d97706"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>10/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>2</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>Santiago Centro</b>
+          <span class="sub">Eléctrico / electrónico, Minerales</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Control / DCS / PLC / SIS</span></div>
+        <div class="fam"><span class="k">Origen</span> China, España, EE.UU., Reino Unido</div>
+        <div class="marcas"><span class="k">Marcas</span> SIEMENS, TELEDYNE</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Control / DCS / PLC / SIS</span><b>US$1.34M</b></li><li><span>Fuentes y convertidores</span><b>US$356K</b></li><li><span>Instrumentación (presión/temp/caudal/nivel)</span><b>US$268K</b></li><li><span>Redes OT</span><b>US$107K</b></li><li><span>Analizadores de proceso</span><b>US$57K</b></li></ul>
+      </details>
+    </div>
+    <div class="perf" data-tipo="INTEGRADOR / distribuidor técnico" data-txt="8206 integrador / distribuidor técnico siemens doble control / dcs / plc / sis">
+      <div class="ph">
+        <span class="rank">#30</span>
+        <span class="pid">Importador ID 8206</span>
+        <span class="tag" style="border-color:#2563eb;color:#2563eb">INTEGRADOR / distribuidor técnico</span>
+        <span class="vol">US$2.12M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$2.12M</b>
+          <span class="sub">310 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$4.64M</b>
+          <span class="sub">697 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>45.8%</b>
+          <div class="bar"><div class="fill" style="width:45.8%;background:#2563eb"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>12/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>2</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>Las Condes</b>
+          <span class="sub">Eléctrico / electrónico, Instrumentos de medida</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Control / DCS / PLC / SIS</span></div>
+        <div class="fam"><span class="k">Origen</span> Alemania, EE.UU., China, Corea del Sur</div>
+        <div class="marcas"><span class="k">Marcas</span> SIEMENS, DOBLE</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Control / DCS / PLC / SIS</span><b>US$999K</b></li><li><span>Instrumentación (presión/temp/caudal/nivel)</span><b>US$497K</b></li><li><span>Fuentes y convertidores</span><b>US$363K</b></li><li><span>Redes OT</span><b>US$214K</b></li><li><span>Medición eléctrica y protecciones</span><b>US$49K</b></li></ul>
+      </details>
+    </div>
+    <div class="perf" data-tipo="IMPORTADOR GRANDE multirrubro" data-txt="13483 importador grande multirrubro weg control / dcs / plc / sis">
+      <div class="ph">
+        <span class="rank">#31</span>
+        <span class="pid">Importador ID 13483</span>
+        <span class="tag" style="border-color:#d97706;color:#d97706">IMPORTADOR GRANDE multirrubro</span>
+        <span class="vol">US$2.11M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$2.11M</b>
+          <span class="sub">13 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$30.85M</b>
+          <span class="sub">557 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>6.8%</b>
+          <div class="bar"><div class="fill" style="width:6.8%;background:#d97706"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>11/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>1</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>Las Condes</b>
+          <span class="sub">Combustibles, Eléctrico / electrónico</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Control / DCS / PLC / SIS</span></div>
+        <div class="fam"><span class="k">Origen</span> España</div>
+        <div class="marcas"><span class="k">Marcas</span> WEG</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Control / DCS / PLC / SIS</span><b>US$1.88M</b></li><li><span>Fuentes y convertidores</span><b>US$229K</b></li></ul>
+      </details>
+    </div>
+    <div class="perf" data-tipo="INTEGRADOR / distribuidor técnico" data-txt="4034 integrador / distribuidor técnico abb fuentes y convertidores">
+      <div class="ph">
+        <span class="rank">#32</span>
+        <span class="pid">Importador ID 4034</span>
+        <span class="tag" style="border-color:#2563eb;color:#2563eb">INTEGRADOR / distribuidor técnico</span>
+        <span class="vol">US$2.10M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$2.10M</b>
+          <span class="sub">255 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$6.86M</b>
+          <span class="sub">736 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>30.7%</b>
+          <div class="bar"><div class="fill" style="width:30.7%;background:#2563eb"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>12/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>1</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>Santiago Centro</b>
+          <span class="sub">Eléctrico / electrónico, Otros</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Fuentes y convertidores</span></div>
+        <div class="fam"><span class="k">Origen</span> Italia, España, Alemania, India</div>
+        <div class="marcas"><span class="k">Marcas</span> ABB</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Fuentes y convertidores</span><b>US$965K</b></li><li><span>Control / DCS / PLC / SIS</span><b>US$963K</b></li><li><span>Instrumentación (presión/temp/caudal/nivel)</span><b>US$56K</b></li><li><span>Redes OT</span><b>US$51K</b></li><li><span>Analizadores de proceso</span><b>US$35K</b></li></ul>
+      </details>
+    </div>
+    <div class="perf" data-tipo="IMPORTADOR GRANDE multirrubro" data-txt="2242 importador grande multirrubro innomotics siemens fuentes y convertidores">
+      <div class="ph">
+        <span class="rank">#33</span>
+        <span class="pid">Importador ID 2242</span>
+        <span class="tag" style="border-color:#d97706;color:#d97706">IMPORTADOR GRANDE multirrubro</span>
+        <span class="vol">US$2.04M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$2.04M</b>
+          <span class="sub">36 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$18.01M</b>
+          <span class="sub">429 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>11.3%</b>
+          <div class="bar"><div class="fill" style="width:11.3%;background:#d97706"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>12/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>2</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>Las Condes</b>
+          <span class="sub">Eléctrico / electrónico, Maquinaria mecánica</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Fuentes y convertidores</span></div>
+        <div class="fam"><span class="k">Origen</span> China, Alemania</div>
+        <div class="marcas"><span class="k">Marcas</span> INNOMOTICS, SIEMENS</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Fuentes y convertidores</span><b>US$1.50M</b></li><li><span>Control / DCS / PLC / SIS</span><b>US$427K</b></li><li><span>Redes OT</span><b>US$87K</b></li><li><span>Instrumentación (presión/temp/caudal/nivel)</span><b>US$11K</b></li><li><span>Analizadores de proceso</span><b>US$6K</b></li></ul>
+      </details>
+    </div>
+    <div class="perf" data-tipo="IMPORTADOR GRANDE multirrubro" data-txt="5666 importador grande multirrubro emerson fisher flexim micro motion rosemount válvulas de control">
+      <div class="ph">
+        <span class="rank">#34</span>
+        <span class="pid">Importador ID 5666</span>
+        <span class="tag" style="border-color:#d97706;color:#d97706">IMPORTADOR GRANDE multirrubro</span>
+        <span class="vol">US$1.97M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$1.97M</b>
+          <span class="sub">226 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$22.54M</b>
+          <span class="sub">546 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>8.7%</b>
+          <div class="bar"><div class="fill" style="width:8.7%;background:#d97706"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>10/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>5</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>Las Condes</b>
+          <span class="sub">Maquinaria mecánica, Química orgánica</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Válvulas de control</span></div>
+        <div class="fam"><span class="k">Origen</span> Francia, Corea del Sur, Alemania, China</div>
+        <div class="marcas"><span class="k">Marcas</span> EMERSON, FISHER, FLEXIM, MICRO MOTION, ROSEMOUNT</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Válvulas de control</span><b>US$1.03M</b></li><li><span>Control / DCS / PLC / SIS</span><b>US$372K</b></li><li><span>Instrumentación (presión/temp/caudal/nivel)</span><b>US$254K</b></li><li><span>Redes OT</span><b>US$235K</b></li><li><span>Analizadores de proceso</span><b>US$30K</b></li></ul>
+      </details>
+    </div>
+    <div class="perf" data-tipo="IMPORTADOR GRANDE multirrubro" data-txt="12328 importador grande multirrubro hitachi general electric belden sel control / dcs / plc / sis">
+      <div class="ph">
+        <span class="rank">#35</span>
+        <span class="pid">Importador ID 12328</span>
+        <span class="tag" style="border-color:#d97706;color:#d97706">IMPORTADOR GRANDE multirrubro</span>
+        <span class="vol">US$1.97M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$1.97M</b>
+          <span class="sub">26 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$15.51M</b>
+          <span class="sub">228 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>12.7%</b>
+          <div class="bar"><div class="fill" style="width:12.7%;background:#d97706"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>9/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>4</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>cód. 13132</b>
+          <span class="sub">Vehículos y automoción, Eléctrico / electrónico</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Control / DCS / PLC / SIS</span></div>
+        <div class="fam"><span class="k">Origen</span> Alemania, India, España, Japón</div>
+        <div class="marcas"><span class="k">Marcas</span> HITACHI, GENERAL ELECTRIC, BELDEN, SEL</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Control / DCS / PLC / SIS</span><b>US$1.55M</b></li><li><span>Redes OT</span><b>US$353K</b></li><li><span>Fuentes y convertidores</span><b>US$66K</b></li></ul>
+      </details>
+    </div>
+    <div class="perf" data-tipo="INTEGRADOR / distribuidor técnico" data-txt="2146 integrador / distribuidor técnico innomotics siemens fuentes y convertidores">
+      <div class="ph">
+        <span class="rank">#36</span>
+        <span class="pid">Importador ID 2146</span>
+        <span class="tag" style="border-color:#2563eb;color:#2563eb">INTEGRADOR / distribuidor técnico</span>
+        <span class="vol">US$1.95M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$1.95M</b>
+          <span class="sub">24 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$6.40M</b>
+          <span class="sub">271 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>30.5%</b>
+          <div class="bar"><div class="fill" style="width:30.5%;background:#2563eb"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>12/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>2</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>Las Condes</b>
+          <span class="sub">Eléctrico / electrónico, Maquinaria mecánica</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Fuentes y convertidores</span></div>
+        <div class="fam"><span class="k">Origen</span> China, Alemania, Japón, cód. 504</div>
+        <div class="marcas"><span class="k">Marcas</span> INNOMOTICS, SIEMENS</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Fuentes y convertidores</span><b>US$1.87M</b></li><li><span>Control / DCS / PLC / SIS</span><b>US$63K</b></li><li><span>Medición eléctrica y protecciones</span><b>US$18K</b></li><li><span>Válvulas de control</span><b>US$4K</b></li><li><span>Redes OT</span><b>US$3K</b></li></ul>
+      </details>
+    </div>
+    <div class="perf" data-tipo="INTEGRADOR / distribuidor técnico" data-txt="12304 integrador / distribuidor técnico siemens control / dcs / plc / sis">
+      <div class="ph">
+        <span class="rank">#37</span>
+        <span class="pid">Importador ID 12304</span>
+        <span class="tag" style="border-color:#2563eb;color:#2563eb">INTEGRADOR / distribuidor técnico</span>
+        <span class="vol">US$1.88M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$1.88M</b>
+          <span class="sub">1 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$4.66M</b>
+          <span class="sub">151 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>40.3%</b>
+          <div class="bar"><div class="fill" style="width:40.3%;background:#2563eb"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>11/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>1</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>cód. 13301</b>
+          <span class="sub">Eléctrico / electrónico, Aluminio</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Control / DCS / PLC / SIS</span></div>
+        <div class="fam"><span class="k">Origen</span> Alemania</div>
+        <div class="marcas"><span class="k">Marcas</span> SIEMENS</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Control / DCS / PLC / SIS</span><b>US$1.88M</b></li></ul>
+      </details>
+    </div>
+    <div class="perf" data-tipo="INTEGRADOR / distribuidor técnico" data-txt="10190 integrador / distribuidor técnico rockwell allen fuentes y convertidores">
+      <div class="ph">
+        <span class="rank">#38</span>
+        <span class="pid">Importador ID 10190</span>
+        <span class="tag" style="border-color:#2563eb;color:#2563eb">INTEGRADOR / distribuidor técnico</span>
+        <span class="vol">US$1.87M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$1.87M</b>
+          <span class="sub">495 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$3.26M</b>
+          <span class="sub">1,193 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>57.6%</b>
+          <div class="bar"><div class="fill" style="width:57.6%;background:#2563eb"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>11/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>2</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>Las Condes</b>
+          <span class="sub">Eléctrico / electrónico, Química inorgánica</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Fuentes y convertidores</span></div>
+        <div class="fam"><span class="k">Origen</span> Reino Unido, Francia, cód. 216, cód. 904</div>
+        <div class="marcas"><span class="k">Marcas</span> ROCKWELL, ALLEN</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Fuentes y convertidores</span><b>US$1.11M</b></li><li><span>Control / DCS / PLC / SIS</span><b>US$558K</b></li><li><span>Redes OT</span><b>US$170K</b></li><li><span>Medición eléctrica y protecciones</span><b>US$39K</b></li></ul>
+      </details>
+    </div>
+    <div class="perf" data-tipo="IMPORTADOR GRANDE multirrubro" data-txt="37 importador grande multirrubro hitachi hach ametek control / dcs / plc / sis">
+      <div class="ph">
+        <span class="rank">#39</span>
+        <span class="pid">Importador ID 37</span>
+        <span class="tag" style="border-color:#d97706;color:#d97706">IMPORTADOR GRANDE multirrubro</span>
+        <span class="vol">US$1.82M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$1.82M</b>
+          <span class="sub">60 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$19.00M</b>
+          <span class="sub">1,257 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>9.6%</b>
+          <div class="bar"><div class="fill" style="width:9.6%;background:#d97706"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>12/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>3</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>Las Condes</b>
+          <span class="sub">Eléctrico / electrónico, Vestuario</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Control / DCS / PLC / SIS</span></div>
+        <div class="fam"><span class="k">Origen</span> Alemania, cód. 319, Francia, India</div>
+        <div class="marcas"><span class="k">Marcas</span> HITACHI, HACH, AMETEK</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Control / DCS / PLC / SIS</span><b>US$1.61M</b></li><li><span>Analizadores de proceso</span><b>US$179K</b></li><li><span>Redes OT</span><b>US$29K</b></li><li><span>Fuentes y convertidores</span><b>US$5K</b></li><li><span>Instrumentación (presión/temp/caudal/nivel)</span><b>US$3K</b></li></ul>
+      </details>
+    </div>
+    <div class="perf" data-tipo="INTEGRADOR / distribuidor técnico" data-txt="11542 integrador / distribuidor técnico abb fuentes y convertidores">
+      <div class="ph">
+        <span class="rank">#40</span>
+        <span class="pid">Importador ID 11542</span>
+        <span class="tag" style="border-color:#2563eb;color:#2563eb">INTEGRADOR / distribuidor técnico</span>
+        <span class="vol">US$1.81M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$1.81M</b>
+          <span class="sub">232 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$5.33M</b>
+          <span class="sub">676 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>33.9%</b>
+          <div class="bar"><div class="fill" style="width:33.9%;background:#2563eb"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>12/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>1</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>Santiago Centro</b>
+          <span class="sub">Eléctrico / electrónico, Plásticos</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Fuentes y convertidores</span></div>
+        <div class="fam"><span class="k">Origen</span> Italia, España, Francia, India</div>
+        <div class="marcas"><span class="k">Marcas</span> ABB</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Fuentes y convertidores</span><b>US$924K</b></li><li><span>Control / DCS / PLC / SIS</span><b>US$713K</b></li><li><span>Instrumentación (presión/temp/caudal/nivel)</span><b>US$67K</b></li><li><span>Redes OT</span><b>US$64K</b></li><li><span>Analizadores de proceso</span><b>US$28K</b></li></ul>
+      </details>
+    </div>
+    <div class="perf" data-tipo="INTEGRADOR / distribuidor técnico" data-txt="4152 integrador / distribuidor técnico thermo analizadores de proceso">
+      <div class="ph">
+        <span class="rank">#41</span>
+        <span class="pid">Importador ID 4152</span>
+        <span class="tag" style="border-color:#2563eb;color:#2563eb">INTEGRADOR / distribuidor técnico</span>
+        <span class="vol">US$1.80M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$1.80M</b>
+          <span class="sub">1 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$4.99M</b>
+          <span class="sub">194 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>36.1%</b>
+          <div class="bar"><div class="fill" style="width:36.1%;background:#2563eb"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>12/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>1</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>Las Condes</b>
+          <span class="sub">Instrumentos de medida, Maquinaria mecánica</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Analizadores de proceso</span></div>
+        <div class="fam"><span class="k">Origen</span> cód. 406</div>
+        <div class="marcas"><span class="k">Marcas</span> THERMO</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Analizadores de proceso</span><b>US$1.80M</b></li></ul>
+      </details>
+    </div>
+    <div class="perf" data-tipo="ESPECIALISTA en instrumentación" data-txt="8970 especialista en instrumentación endress instrumentación (presión/temp/caudal/nivel)">
+      <div class="ph">
+        <span class="rank">#42</span>
+        <span class="pid">Importador ID 8970</span>
+        <span class="tag" style="border-color:#047857;color:#047857">ESPECIALISTA en instrumentación</span>
+        <span class="vol">US$1.79M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$1.79M</b>
+          <span class="sub">363 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$2.43M</b>
+          <span class="sub">562 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>73.7%</b>
+          <div class="bar"><div class="fill" style="width:73.7%;background:#047857"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>9/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>1</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>cód. 13107</b>
+          <span class="sub">Instrumentos de medida, Manufacturas de acero</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Instrumentación (presión/temp/caudal/nivel)</span></div>
+        <div class="fam"><span class="k">Origen</span> España, Francia, EE.UU., China</div>
+        <div class="marcas"><span class="k">Marcas</span> ENDRESS</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Instrumentación (presión/temp/caudal/nivel)</span><b>US$1.49M</b></li><li><span>Analizadores de proceso</span><b>US$293K</b></li><li><span>Redes OT</span><b>US$3K</b></li><li><span>Medición eléctrica y protecciones</span><b>US$2K</b></li><li><span>Fuentes y convertidores</span><b>US$909</b></li></ul>
+      </details>
+    </div>
+    <div class="perf" data-tipo="IMPORTADOR GRANDE multirrubro" data-txt="118 importador grande multirrubro schneider sel control / dcs / plc / sis">
+      <div class="ph">
+        <span class="rank">#43</span>
+        <span class="pid">Importador ID 118</span>
+        <span class="tag" style="border-color:#d97706;color:#d97706">IMPORTADOR GRANDE multirrubro</span>
+        <span class="vol">US$1.76M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$1.76M</b>
+          <span class="sub">183 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$8.23M</b>
+          <span class="sub">4,076 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>21.4%</b>
+          <div class="bar"><div class="fill" style="width:21.4%;background:#d97706"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>12/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>2</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>Las Condes</b>
+          <span class="sub">Eléctrico / electrónico, Maquinaria mecánica</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Control / DCS / PLC / SIS</span></div>
+        <div class="fam"><span class="k">Origen</span> cód. 202, cód. 224, Alemania, cód. 335</div>
+        <div class="marcas"><span class="k">Marcas</span> SCHNEIDER, SEL</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Control / DCS / PLC / SIS</span><b>US$1.34M</b></li><li><span>Fuentes y convertidores</span><b>US$282K</b></li><li><span>Medición eléctrica y protecciones</span><b>US$99K</b></li><li><span>Redes OT</span><b>US$46K</b></li></ul>
+      </details>
+    </div>
+    <div class="perf" data-tipo="ESPECIALISTA en instrumentación" data-txt="11082 especialista en instrumentación allen rockwell fuentes y convertidores">
+      <div class="ph">
+        <span class="rank">#44</span>
+        <span class="pid">Importador ID 11082</span>
+        <span class="tag" style="border-color:#047857;color:#047857">ESPECIALISTA en instrumentación</span>
+        <span class="vol">US$1.71M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$1.71M</b>
+          <span class="sub">324 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$2.26M</b>
+          <span class="sub">781 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>75.5%</b>
+          <div class="bar"><div class="fill" style="width:75.5%;background:#047857"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>11/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>2</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>Las Condes</b>
+          <span class="sub">Eléctrico / electrónico, Calzado</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Fuentes y convertidores</span></div>
+        <div class="fam"><span class="k">Origen</span> Francia, cód. 216, cód. 325, Reino Unido</div>
+        <div class="marcas"><span class="k">Marcas</span> ALLEN, ROCKWELL</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Fuentes y convertidores</span><b>US$1.19M</b></li><li><span>Control / DCS / PLC / SIS</span><b>US$343K</b></li><li><span>Redes OT</span><b>US$172K</b></li><li><span>Medición eléctrica y protecciones</span><b>US$3K</b></li></ul>
+      </details>
+    </div>
+    <div class="perf" data-tipo="INTEGRADOR / distribuidor técnico" data-txt="6378 integrador / distribuidor técnico endress instrumentación (presión/temp/caudal/nivel)">
+      <div class="ph">
+        <span class="rank">#45</span>
+        <span class="pid">Importador ID 6378</span>
+        <span class="tag" style="border-color:#2563eb;color:#2563eb">INTEGRADOR / distribuidor técnico</span>
+        <span class="vol">US$1.70M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$1.70M</b>
+          <span class="sub">281 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$3.90M</b>
+          <span class="sub">620 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>43.5%</b>
+          <div class="bar"><div class="fill" style="width:43.5%;background:#2563eb"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>11/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>1</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>cód. 13107</b>
+          <span class="sub">Instrumentos de medida, Maquinaria mecánica</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Instrumentación (presión/temp/caudal/nivel)</span></div>
+        <div class="fam"><span class="k">Origen</span> China, EE.UU., Japón, Francia</div>
+        <div class="marcas"><span class="k">Marcas</span> ENDRESS</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Instrumentación (presión/temp/caudal/nivel)</span><b>US$962K</b></li><li><span>Analizadores de proceso</span><b>US$704K</b></li><li><span>Redes OT</span><b>US$27K</b></li><li><span>Válvulas de control</span><b>US$3K</b></li><li><span>Control / DCS / PLC / SIS</span><b>US$1K</b></li></ul>
+      </details>
+    </div>
+    <div class="perf" data-tipo="IMPORTADOR GRANDE multirrubro" data-txt="10291 importador grande multirrubro schneider control / dcs / plc / sis">
+      <div class="ph">
+        <span class="rank">#46</span>
+        <span class="pid">Importador ID 10291</span>
+        <span class="tag" style="border-color:#d97706;color:#d97706">IMPORTADOR GRANDE multirrubro</span>
+        <span class="vol">US$1.68M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$1.68M</b>
+          <span class="sub">155 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$6.98M</b>
+          <span class="sub">2,846 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>24.0%</b>
+          <div class="bar"><div class="fill" style="width:24.0%;background:#d97706"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>11/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>1</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>Las Condes</b>
+          <span class="sub">Eléctrico / electrónico, Plásticos</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Control / DCS / PLC / SIS</span></div>
+        <div class="fam"><span class="k">Origen</span> cód. 216, Alemania, Reino Unido, Francia</div>
+        <div class="marcas"><span class="k">Marcas</span> SCHNEIDER</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Control / DCS / PLC / SIS</span><b>US$1.19M</b></li><li><span>Fuentes y convertidores</span><b>US$259K</b></li><li><span>Medición eléctrica y protecciones</span><b>US$220K</b></li><li><span>Redes OT</span><b>US$9K</b></li><li><span>Instrumentación (presión/temp/caudal/nivel)</span><b>US$1K</b></li></ul>
+      </details>
+    </div>
+    <div class="perf" data-tipo="IMPORTADOR GRANDE multirrubro" data-txt="70 importador grande multirrubro danfoss agilent vacon fuentes y convertidores">
+      <div class="ph">
+        <span class="rank">#47</span>
+        <span class="pid">Importador ID 70</span>
+        <span class="tag" style="border-color:#d97706;color:#d97706">IMPORTADOR GRANDE multirrubro</span>
+        <span class="vol">US$1.68M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$1.68M</b>
+          <span class="sub">435 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$8.43M</b>
+          <span class="sub">1,345 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>19.9%</b>
+          <div class="bar"><div class="fill" style="width:19.9%;background:#d97706"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>12/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>3</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>Santiago Centro</b>
+          <span class="sub">Productos químicos, Instrumentos de medida</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Fuentes y convertidores</span></div>
+        <div class="fam"><span class="k">Origen</span> Italia, cód. 507, Francia, Alemania</div>
+        <div class="marcas"><span class="k">Marcas</span> DANFOSS, AGILENT, VACON</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Fuentes y convertidores</span><b>US$1.08M</b></li><li><span>Analizadores de proceso</span><b>US$276K</b></li><li><span>Válvulas de control</span><b>US$197K</b></li><li><span>Control / DCS / PLC / SIS</span><b>US$108K</b></li><li><span>Instrumentación (presión/temp/caudal/nivel)</span><b>US$14K</b></li></ul>
+      </details>
+    </div>
+    <div class="perf" data-tipo="IMPORTADOR GRANDE multirrubro" data-txt="13004 importador grande multirrubro emerson fisher micro motion rosemount válvulas de control">
+      <div class="ph">
+        <span class="rank">#48</span>
+        <span class="pid">Importador ID 13004</span>
+        <span class="tag" style="border-color:#d97706;color:#d97706">IMPORTADOR GRANDE multirrubro</span>
+        <span class="vol">US$1.66M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$1.66M</b>
+          <span class="sub">108 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$59.33M</b>
+          <span class="sub">378 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>2.8%</b>
+          <div class="bar"><div class="fill" style="width:2.8%;background:#d97706"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>10/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>4</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>Las Condes</b>
+          <span class="sub">Combustibles, Maquinaria mecánica</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Válvulas de control</span></div>
+        <div class="fam"><span class="k">Origen</span> Francia, cód. 216, cód. 319, Alemania</div>
+        <div class="marcas"><span class="k">Marcas</span> EMERSON, FISHER, MICRO MOTION, ROSEMOUNT</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Válvulas de control</span><b>US$1.32M</b></li><li><span>Instrumentación (presión/temp/caudal/nivel)</span><b>US$119K</b></li><li><span>Redes OT</span><b>US$115K</b></li><li><span>Control / DCS / PLC / SIS</span><b>US$73K</b></li><li><span>Analizadores de proceso</span><b>US$20K</b></li></ul>
+      </details>
+    </div>
+    <div class="perf" data-tipo="IMPORTADOR GRANDE multirrubro" data-txt="47 importador grande multirrubro danfoss vacon fuentes y convertidores">
+      <div class="ph">
+        <span class="rank">#49</span>
+        <span class="pid">Importador ID 47</span>
+        <span class="tag" style="border-color:#d97706;color:#d97706">IMPORTADOR GRANDE multirrubro</span>
+        <span class="vol">US$1.63M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$1.63M</b>
+          <span class="sub">659 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$33.39M</b>
+          <span class="sub">2,189 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>4.9%</b>
+          <div class="bar"><div class="fill" style="width:4.9%;background:#d97706"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>12/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>2</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>Quinta Normal</b>
+          <span class="sub">Otros, Cosméticos</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Fuentes y convertidores</span></div>
+        <div class="fam"><span class="k">Origen</span> cód. 507, Italia, Alemania, Países Bajos</div>
+        <div class="marcas"><span class="k">Marcas</span> DANFOSS, VACON</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Fuentes y convertidores</span><b>US$933K</b></li><li><span>Válvulas de control</span><b>US$434K</b></li><li><span>Control / DCS / PLC / SIS</span><b>US$163K</b></li><li><span>Instrumentación (presión/temp/caudal/nivel)</span><b>US$71K</b></li><li><span>Analizadores de proceso</span><b>US$31K</b></li></ul>
+      </details>
+    </div>
+    <div class="perf" data-tipo="IMPORTADOR GRANDE multirrubro" data-txt="54 importador grande multirrubro danfoss vacon fuentes y convertidores">
+      <div class="ph">
+        <span class="rank">#50</span>
+        <span class="pid">Importador ID 54</span>
+        <span class="tag" style="border-color:#d97706;color:#d97706">IMPORTADOR GRANDE multirrubro</span>
+        <span class="vol">US$1.63M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$1.63M</b>
+          <span class="sub">672 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$44.85M</b>
+          <span class="sub">2,349 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>3.6%</b>
+          <div class="bar"><div class="fill" style="width:3.6%;background:#d97706"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>12/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>2</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>cód. 13132</b>
+          <span class="sub">Otros, Maquinaria mecánica</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Fuentes y convertidores</span></div>
+        <div class="fam"><span class="k">Origen</span> cód. 507, Italia, Francia, Países Bajos</div>
+        <div class="marcas"><span class="k">Marcas</span> DANFOSS, VACON</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Fuentes y convertidores</span><b>US$1.11M</b></li><li><span>Válvulas de control</span><b>US$321K</b></li><li><span>Control / DCS / PLC / SIS</span><b>US$173K</b></li><li><span>Instrumentación (presión/temp/caudal/nivel)</span><b>US$20K</b></li><li><span>Analizadores de proceso</span><b>US$11K</b></li></ul>
+      </details>
+    </div>
+    <div class="perf" data-tipo="INTEGRADOR / distribuidor técnico" data-txt="5251 integrador / distribuidor técnico siemens control / dcs / plc / sis">
+      <div class="ph">
+        <span class="rank">#51</span>
+        <span class="pid">Importador ID 5251</span>
+        <span class="tag" style="border-color:#2563eb;color:#2563eb">INTEGRADOR / distribuidor técnico</span>
+        <span class="vol">US$1.63M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$1.63M</b>
+          <span class="sub">210 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$2.58M</b>
+          <span class="sub">499 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>63.2%</b>
+          <div class="bar"><div class="fill" style="width:63.2%;background:#2563eb"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>10/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>1</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>Las Condes</b>
+          <span class="sub">Eléctrico / electrónico, Instrumentos de medida</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Control / DCS / PLC / SIS</span></div>
+        <div class="fam"><span class="k">Origen</span> China, Alemania, EE.UU., Reino Unido</div>
+        <div class="marcas"><span class="k">Marcas</span> SIEMENS</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Control / DCS / PLC / SIS</span><b>US$1.12M</b></li><li><span>Instrumentación (presión/temp/caudal/nivel)</span><b>US$236K</b></li><li><span>Fuentes y convertidores</span><b>US$146K</b></li><li><span>Redes OT</span><b>US$126K</b></li></ul>
+      </details>
+    </div>
+    <div class="perf" data-tipo="IMPORTADOR GRANDE multirrubro" data-txt="10292 importador grande multirrubro hyosung weidmuller control / dcs / plc / sis">
+      <div class="ph">
+        <span class="rank">#52</span>
+        <span class="pid">Importador ID 10292</span>
+        <span class="tag" style="border-color:#d97706;color:#d97706">IMPORTADOR GRANDE multirrubro</span>
+        <span class="vol">US$1.60M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$1.60M</b>
+          <span class="sub">15 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$11.03M</b>
+          <span class="sub">266 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>14.5%</b>
+          <div class="bar"><div class="fill" style="width:14.5%;background:#d97706"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>11/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>2</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>cód. 13132</b>
+          <span class="sub">Otros, Eléctrico / electrónico</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Control / DCS / PLC / SIS</span></div>
+        <div class="fam"><span class="k">Origen</span> Corea del Sur, Alemania, cód. 904, China</div>
+        <div class="marcas"><span class="k">Marcas</span> HYOSUNG, WEIDMULLER</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Control / DCS / PLC / SIS</span><b>US$1.59M</b></li><li><span>Fuentes y convertidores</span><b>US$12K</b></li><li><span>Redes OT</span><b>US$899</b></li><li><span>Medición eléctrica y protecciones</span><b>US$33</b></li></ul>
+      </details>
+    </div>
+    <div class="perf" data-tipo="INTEGRADOR / distribuidor técnico" data-txt="6120 integrador / distribuidor técnico valvitalia válvulas de control">
+      <div class="ph">
+        <span class="rank">#53</span>
+        <span class="pid">Importador ID 6120</span>
+        <span class="tag" style="border-color:#2563eb;color:#2563eb">INTEGRADOR / distribuidor técnico</span>
+        <span class="vol">US$1.59M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$1.59M</b>
+          <span class="sub">6 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$3.29M</b>
+          <span class="sub">235 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>48.4%</b>
+          <div class="bar"><div class="fill" style="width:48.4%;background:#2563eb"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>12/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>1</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>Las Condes</b>
+          <span class="sub">Maquinaria mecánica, Eléctrico / electrónico</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Válvulas de control</span></div>
+        <div class="fam"><span class="k">Origen</span> cód. 504</div>
+        <div class="marcas"><span class="k">Marcas</span> VALVITALIA</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Válvulas de control</span><b>US$1.59M</b></li></ul>
+      </details>
+    </div>
+    <div class="perf" data-tipo="IMPORTADOR GRANDE multirrubro" data-txt="7753 importador grande multirrubro abb belden control / dcs / plc / sis">
+      <div class="ph">
+        <span class="rank">#54</span>
+        <span class="pid">Importador ID 7753</span>
+        <span class="tag" style="border-color:#d97706;color:#d97706">IMPORTADOR GRANDE multirrubro</span>
+        <span class="vol">US$1.57M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$1.57M</b>
+          <span class="sub">225 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$8.28M</b>
+          <span class="sub">1,013 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>19.0%</b>
+          <div class="bar"><div class="fill" style="width:19.0%;background:#d97706"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>12/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>2</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>Las Condes</b>
+          <span class="sub">Instrumentos de medida, Eléctrico / electrónico</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Control / DCS / PLC / SIS</span></div>
+        <div class="fam"><span class="k">Origen</span> cód. 544, Francia, Italia, Alemania</div>
+        <div class="marcas"><span class="k">Marcas</span> ABB, BELDEN</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Control / DCS / PLC / SIS</span><b>US$865K</b></li><li><span>Fuentes y convertidores</span><b>US$552K</b></li><li><span>Redes OT</span><b>US$76K</b></li><li><span>Analizadores de proceso</span><b>US$25K</b></li><li><span>Medición eléctrica y protecciones</span><b>US$22K</b></li></ul>
+      </details>
+    </div>
+    <div class="perf" data-tipo="IMPORTADOR GRANDE multirrubro" data-txt="5459 importador grande multirrubro schneider belden control / dcs / plc / sis">
+      <div class="ph">
+        <span class="rank">#55</span>
+        <span class="pid">Importador ID 5459</span>
+        <span class="tag" style="border-color:#d97706;color:#d97706">IMPORTADOR GRANDE multirrubro</span>
+        <span class="vol">US$1.55M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$1.55M</b>
+          <span class="sub">172 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$62.05M</b>
+          <span class="sub">3,591 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>2.5%</b>
+          <div class="bar"><div class="fill" style="width:2.5%;background:#d97706"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>11/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>2</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>cód. 6101</b>
+          <span class="sub">Otros, Eléctrico / electrónico</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Control / DCS / PLC / SIS</span></div>
+        <div class="fam"><span class="k">Origen</span> España, Reino Unido, Alemania, cód. 216</div>
+        <div class="marcas"><span class="k">Marcas</span> SCHNEIDER, BELDEN</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Control / DCS / PLC / SIS</span><b>US$1.10M</b></li><li><span>Fuentes y convertidores</span><b>US$226K</b></li><li><span>Medición eléctrica y protecciones</span><b>US$215K</b></li><li><span>Redes OT</span><b>US$4K</b></li><li><span>Válvulas de control</span><b>US$163</b></li></ul>
+      </details>
+    </div>
+    <div class="perf" data-tipo="INTEGRADOR / distribuidor técnico" data-txt="12109 integrador / distribuidor técnico emerson rosemount micro motion danfoss flexim fisher válvulas de control">
+      <div class="ph">
+        <span class="rank">#56</span>
+        <span class="pid">Importador ID 12109</span>
+        <span class="tag" style="border-color:#2563eb;color:#2563eb">INTEGRADOR / distribuidor técnico</span>
+        <span class="vol">US$1.54M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$1.54M</b>
+          <span class="sub">120 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$2.62M</b>
+          <span class="sub">323 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>58.6%</b>
+          <div class="bar"><div class="fill" style="width:58.6%;background:#2563eb"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>9/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>6</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>Las Condes</b>
+          <span class="sub">Maquinaria mecánica, Instrumentos de medida</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Válvulas de control</span></div>
+        <div class="fam"><span class="k">Origen</span> Francia, cód. 216, China, cód. 507</div>
+        <div class="marcas"><span class="k">Marcas</span> EMERSON, ROSEMOUNT, MICRO MOTION, DANFOSS, FLEXIM, FISHER</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Válvulas de control</span><b>US$1.32M</b></li><li><span>Instrumentación (presión/temp/caudal/nivel)</span><b>US$176K</b></li><li><span>Analizadores de proceso</span><b>US$30K</b></li><li><span>Redes OT</span><b>US$12K</b></li><li><span>Control / DCS / PLC / SIS</span><b>US$3K</b></li></ul>
+      </details>
+    </div>
+    <div class="perf" data-tipo="INTEGRADOR / distribuidor técnico" data-txt="13241 integrador / distribuidor técnico danfoss vacon fuentes y convertidores">
+      <div class="ph">
+        <span class="rank">#57</span>
+        <span class="pid">Importador ID 13241</span>
+        <span class="tag" style="border-color:#2563eb;color:#2563eb">INTEGRADOR / distribuidor técnico</span>
+        <span class="vol">US$1.54M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$1.54M</b>
+          <span class="sub">551 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$3.89M</b>
+          <span class="sub">1,034 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>39.5%</b>
+          <div class="bar"><div class="fill" style="width:39.5%;background:#2563eb"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>10/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>2</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>cód. 13107</b>
+          <span class="sub">Eléctrico / electrónico, Maquinaria mecánica</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Fuentes y convertidores</span></div>
+        <div class="fam"><span class="k">Origen</span> Italia, Alemania, cód. 507, Países Bajos</div>
+        <div class="marcas"><span class="k">Marcas</span> DANFOSS, VACON</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Fuentes y convertidores</span><b>US$949K</b></li><li><span>Válvulas de control</span><b>US$443K</b></li><li><span>Analizadores de proceso</span><b>US$60K</b></li><li><span>Control / DCS / PLC / SIS</span><b>US$55K</b></li><li><span>Instrumentación (presión/temp/caudal/nivel)</span><b>US$29K</b></li></ul>
+      </details>
+    </div>
+    <div class="perf" data-tipo="INTEGRADOR / distribuidor técnico" data-txt="10368 integrador / distribuidor técnico metso analizadores de proceso">
+      <div class="ph">
+        <span class="rank">#58</span>
+        <span class="pid">Importador ID 10368</span>
+        <span class="tag" style="border-color:#2563eb;color:#2563eb">INTEGRADOR / distribuidor técnico</span>
+        <span class="vol">US$1.53M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$1.53M</b>
+          <span class="sub">2 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$3.45M</b>
+          <span class="sub">135 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>44.3%</b>
+          <div class="bar"><div class="fill" style="width:44.3%;background:#2563eb"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>9/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>1</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>Las Condes</b>
+          <span class="sub">Instrumentos de medida, Maquinaria mecánica</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Analizadores de proceso</span></div>
+        <div class="fam"><span class="k">Origen</span> Italia</div>
+        <div class="marcas"><span class="k">Marcas</span> METSO</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Analizadores de proceso</span><b>US$1.53M</b></li></ul>
+      </details>
+    </div>
+    <div class="perf" data-tipo="INTEGRADOR / distribuidor técnico" data-txt="1167 integrador / distribuidor técnico siemens control / dcs / plc / sis">
+      <div class="ph">
+        <span class="rank">#59</span>
+        <span class="pid">Importador ID 1167</span>
+        <span class="tag" style="border-color:#2563eb;color:#2563eb">INTEGRADOR / distribuidor técnico</span>
+        <span class="vol">US$1.53M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$1.53M</b>
+          <span class="sub">3 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$2.30M</b>
+          <span class="sub">117 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>66.4%</b>
+          <div class="bar"><div class="fill" style="width:66.4%;background:#2563eb"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>11/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>1</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>Las Condes</b>
+          <span class="sub">Eléctrico / electrónico, Maquinaria mecánica</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Control / DCS / PLC / SIS</span></div>
+        <div class="fam"><span class="k">Origen</span> Francia</div>
+        <div class="marcas"><span class="k">Marcas</span> SIEMENS</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Control / DCS / PLC / SIS</span><b>US$1.53M</b></li></ul>
+      </details>
+    </div>
+    <div class="perf" data-tipo="IMPORTADOR GRANDE multirrubro" data-txt="4025 importador grande multirrubro endress analizadores de proceso">
+      <div class="ph">
+        <span class="rank">#60</span>
+        <span class="pid">Importador ID 4025</span>
+        <span class="tag" style="border-color:#d97706;color:#d97706">IMPORTADOR GRANDE multirrubro</span>
+        <span class="vol">US$1.51M</span>
+      </div>
+      <div class="prow">
+        <div class="cell"><span class="k">Volumen del rubro</span><b>US$1.51M</b>
+          <span class="sub">285 ítems</span></div>
+        <div class="cell"><span class="k">Importación total</span><b>US$9.81M</b>
+          <span class="sub">1,280 ítems en total</span></div>
+        <div class="cell"><span class="k">Peso del rubro</span><b>15.4%</b>
+          <div class="bar"><div class="fill" style="width:15.4%;background:#d97706"></div></div></div>
+        <div class="cell"><span class="k">Regularidad</span><b>12/12</b>
+          <span class="sub">meses con importación</span></div>
+        <div class="cell"><span class="k">Marcas distintas</span><b>1</b>
+          <span class="sub">en el rubro</span></div>
+        <div class="cell"><span class="k">Comuna</span><b>Las Condes</b>
+          <span class="sub">Farmacéutico, Instrumentos de medida</span></div>
+      </div>
+      <div class="pfoot">
+        <div class="fam"><span class="k">Familia principal</span>
+          <span class="chip">Analizadores de proceso</span></div>
+        <div class="fam"><span class="k">Origen</span> China, EE.UU., Francia, Japón</div>
+        <div class="marcas"><span class="k">Marcas</span> ENDRESS</div>
+      </div>
+      <details>
+        <summary>Ver desglose por familia de producto</summary>
+        <ul class="flist"><li><span>Analizadores de proceso</span><b>US$787K</b></li><li><span>Instrumentación (presión/temp/caudal/nivel)</span><b>US$710K</b></li><li><span>Control / DCS / PLC / SIS</span><b>US$7K</b></li><li><span>Fuentes y convertidores</span><b>US$2K</b></li><li><span>Redes OT</span><b>US$2K</b></li></ul>
+      </details>
+    </div></div>
+
+  <footer>
+    Fuente: Registro DIN de importaciones, Servicio Nacional de Aduanas, descargado desde
+    <code>datos.gob.cl</code> (12 archivos mensuales, 4.847.036 líneas, 3,7 GB). Elaborado por CONECTA.
+    Filtro: partidas arancelarias del dominio de instrumentación y automatización, con marca de
+    fabricante identificable del rubro. Los capítulos contaminados (vestuario, automoción,
+    médicos de laboratorio) se excluyeron por descripción.
+  </footer>
+</div>
+<script>
+  var lista = document.getElementById('lista');
+  var perfiles = Array.prototype.slice.call(lista.querySelectorAll('.perf'));
+  var q = document.getElementById('q');
+  var radios = Array.prototype.slice.call(document.querySelectorAll('input[name=tipo]'));
+
+  function aplicar() {
+    var tipo = (radios.filter(function(r){return r.checked;})[0] || {}).value || '';
+    var t = (q.value || '').toLowerCase().trim();
+    var n = 0;
+    perfiles.forEach(function(p) {
+      var okT = !tipo || p.getAttribute('data-tipo') === tipo;
+      var okQ = !t || p.getAttribute('data-txt').indexOf(t) !== -1;
+      var visible = okT && okQ;
+      p.style.display = visible ? '' : 'none';
+      if (visible) {
+        n++;
+        var r = p.querySelector('.rank');
+        if (r) r.textContent = '#' + n;
+      }
+    });
+  }
+  radios.forEach(function(r) { r.addEventListener('change', aplicar); });
+  q.addEventListener('input', aplicar);
+  aplicar();
+</script>
+</body>
+</html>
