@@ -7,7 +7,10 @@ D=os.path.join(BASE,"datos")
 OUT=os.path.join(BASE,"estudio-mercado","dcs_sistemas_2025.html")
 d=json.load(open(os.path.join(D,"mercado_dcs_sistemas.json"),encoding="utf-8"))
 def usd(v):
-    # los valores del JSON ya vienen en millones; formato español con coma decimal
+    """Acepta USD crudos o millones segun la magnitud, y formatea es-CL.
+    El JSON mezcla escalas: desglose_verificado viene en millones, marcas/origen en USD."""
+    if v >= 1_000_000:          # viene en USD crudos
+        v = v / 1e6
     return "US$" + f"{v:,.1f}".replace(",","X").replace(".",",").replace("X",".") + "M"
 g=d["desglose_verificado"]
 ctrl=g["control_proceso_confirmado_usd"]
