@@ -1,0 +1,3797 @@
+{
+ "anio": 2025,
+ "lineas_totales": 4847036,
+ "lineas_relevantes": 57699,
+ "excluidas": 15564,
+ "sin_marca_ot": 288531,
+ "por_familia": {
+  "Redes industriales (OT)": {
+   "cif": 25155165.27,
+   "items": 4179,
+   "marcas": [
+    [
+     "SIEMENS",
+     382
+    ],
+    [
+     "SIEMENS-F",
+     296
+    ],
+    [
+     "ROSEMOUNT-F",
+     127
+    ],
+    [
+     "PHOENIX CONTACT-F",
+     110
+    ],
+    [
+     "TELTONIKA",
+     101
+    ],
+    [
+     "YOKOGAWA-F",
+     82
+    ],
+    [
+     "IFM-F",
+     78
+    ],
+    [
+     "MOXA",
+     76
+    ],
+    [
+     "HONEYWELL-F",
+     73
+    ],
+    [
+     "GE-F",
+     65
+    ],
+    [
+     "TELTONIKA-F",
+     52
+    ],
+    [
+     "FISHER-F",
+     41
+    ],
+    [
+     "SCHNEIDER~ AP9544~ USO ELECTRI",
+     34
+    ],
+    [
+     "DANFOSS",
+     32
+    ],
+    [
+     "WEIDMULLER-F",
+     31
+    ],
+    [
+     "ROSEMOUNT",
+     31
+    ],
+    [
+     "IFM ELECTRONIC-F",
+     29
+    ],
+    [
+     "FISHER ROSEMOUNT-F",
+     28
+    ],
+    [
+     "HITACHI-F",
+     27
+    ],
+    [
+     "ROSEMOUNT INC.-F",
+     26
+    ],
+    [
+     "ROCKWELL~ PN-433359 ~APARATO D",
+     25
+    ],
+    [
+     "ALLEN BRADLEY~ STRATIX 5200, 6",
+     23
+    ],
+    [
+     "ABB~ CI854BK01 PROFIBUS-DP/V1~",
+     21
+    ],
+    [
+     "H3C",
+     21
+    ],
+    [
+     "SCHNEIDER ELECTRIC SYSTEMS~ RH",
+     21
+    ],
+    [
+     "SCHNEIDER ELECTRIC SYSTEM USA",
+     21
+    ],
+    [
+     "EMERSON",
+     21
+    ],
+    [
+     "ALLEN BRADLEY~ FLEX, ETHERNET/",
+     21
+    ],
+    [
+     "H3C-F",
+     20
+    ],
+    [
+     "SICK-F",
+     20
+    ],
+    [
+     "PHOENIX CONTACT",
+     20
+    ],
+    [
+     "ROCKWELL~ DE REDUNDANCIA~PARAR",
+     19
+    ],
+    [
+     "ROCKWELL-F~ DE 10 PUERTOS~ APA",
+     19
+    ],
+    [
+     "ENDRESS + HAUSER",
+     18
+    ],
+    [
+     "DANFOSS-F",
+     17
+    ],
+    [
+     "ALLEN BRADLEY~ DE CONTROL LOGI",
+     17
+    ],
+    [
+     "ALLEN-BRADLEY~ 193-ECM-DNT~ PA",
+     17
+    ],
+    [
+     "SCHNEIDER-F~ UPS NETWORK MANAG",
+     17
+    ],
+    [
+     "ADVANTECH-F",
+     16
+    ],
+    [
+     "WAGO-F",
+     16
+    ]
+   ],
+   "marcas_valor": [
+    [
+     "HUAWEI~ WS7001 WHITE~ DOBLE BA",
+     1914061.9700000002
+    ],
+    [
+     "TELTONIKA",
+     1395521.4199999997
+    ],
+    [
+     "GE GRID -F",
+     1225566.01
+    ],
+    [
+     "SIEMENS",
+     1220109.64
+    ],
+    [
+     "SIEMENS-F",
+     764916.2600000002
+    ],
+    [
+     "MOXA",
+     640434.5199999999
+    ],
+    [
+     "YOKOGAWA-F",
+     635962.76
+    ],
+    [
+     "TELTONIKA-F",
+     488066.81999999995
+    ],
+    [
+     "EVOLUTIONS DIGITAL",
+     476902.24
+    ],
+    [
+     "HITACHI-F",
+     348438.66000000003
+    ],
+    [
+     "TREON-F~ MOD. ONE EDGE REEFER",
+     334363.19
+    ],
+    [
+     "HONEYWELL-F",
+     332075.31
+    ],
+    [
+     "GEOTAB",
+     311446.3
+    ],
+    [
+     "PHOENIX CONTACT-F",
+     306978.99999999994
+    ],
+    [
+     "FISHER-F",
+     298274.4499999999
+    ],
+    [
+     "GRIDSPERTISE~ MOD. OVERVOLTAGE",
+     288476.58999999997
+    ],
+    [
+     "FISHER ROSEMOUNT-F",
+     257272.73
+    ],
+    [
+     "GEOTAB-F",
+     240472.70000000004
+    ],
+    [
+     "FUJI",
+     221816.08000000002
+    ],
+    [
+     "ALSTOM-F",
+     213866.41
+    ],
+    [
+     "HITACHI-F~ BR-X6-2148.P~ APARA",
+     212267.4
+    ],
+    [
+     "EMERSON",
+     196217.4
+    ],
+    [
+     "ABB~ LD 810HSE EX~ APARATO PAR",
+     191945.40999999997
+    ],
+    [
+     "WEG",
+     189796.56999999998
+    ],
+    [
+     "GE-F",
+     179982.86000000004
+    ],
+    [
+     "ROCKWELL-F~ DE 10 PUERTOS~ APA",
+     176771.44999999995
+    ],
+    [
+     "~ DIGITAL SOFTWARE SOLUTIONS-F",
+     167117.6
+    ],
+    [
+     "GUANGZHOU TIEGE-F",
+     165072.53999999998
+    ],
+    [
+     "ROSEMOUNT-F",
+     162679.23000000007
+    ],
+    [
+     "ROCKWELL-F~ DE 20 PUERTOS~ APA",
+     156737.40000000002
+    ],
+    [
+     "H3C-F",
+     148972.65
+    ],
+    [
+     "SEL-F",
+     133349.88999999998
+    ],
+    [
+     "ON DISPLAY DIGITAL DE 10 PULGA",
+     128622.99
+    ],
+    [
+     "ROCKWELL~ PN-433359 ~APARATO D",
+     126174.41
+    ],
+    [
+     "ALLEN BRADLEY~ STRATIX 5200, D",
+     124531.45000000001
+    ],
+    [
+     "HITACHI",
+     122100.27999999998
+    ],
+    [
+     "ALLEN BRADLEY~STRATIX 5800~PAR",
+     121606.11999999998
+    ],
+    [
+     "SEL",
+     121378.14000000003
+    ],
+    [
+     "~ OPTIXSTAR K562E-10,EDGE~ ELE",
+     120175.31
+    ],
+    [
+     "HITACHI~ 1KHW002575M0001~ PARA",
+     117371.23
+    ]
+   ],
+   "partidas": {
+    "85176290": 2293,
+    "85176210": 1425,
+    "85177900": 307,
+    "85176900": 123,
+    "85176220": 31
+   }
+  },
+  "Fuentes de poder y convertidores": {
+   "cif": 68735618.35,
+   "items": 8926,
+   "marcas": [
+    [
+     "DANFOSS",
+     1781
+    ],
+    [
+     "SIEMENS",
+     586
+    ],
+    [
+     "SIEMENS-F",
+     445
+    ],
+    [
+     "DANFOSS-F",
+     164
+    ],
+    [
+     "GE-F",
+     153
+    ],
+    [
+     "VACON-F",
+     149
+    ],
+    [
+     "PHOENIX CONTACT-F",
+     116
+    ],
+    [
+     "WEG",
+     91
+    ],
+    [
+     "SEW-F~ FUENTE DE PODER~ PARA R",
+     81
+    ],
+    [
+     "MITSUBISHI-F",
+     81
+    ],
+    [
+     "ABB",
+     68
+    ],
+    [
+     "WEIDMULLER-F",
+     63
+    ],
+    [
+     "HONEYWELL-F",
+     57
+    ],
+    [
+     "FISHER-F",
+     50
+    ],
+    [
+     "INGETEAM-F",
+     49
+    ],
+    [
+     "INNOMOTICS",
+     47
+    ],
+    [
+     "WAGO-F",
+     47
+    ],
+    [
+     "SCHNEIDER~ METSECT5MC040~ DE U",
+     43
+    ],
+    [
+     "SCHNEIDER~ SRT3000XLI~ APC SMA",
+     39
+    ],
+    [
+     "ABB-F",
+     35
+    ],
+    [
+     "SCHNEIDER~ METSECT5MA015~ USO",
+     33
+    ],
+    [
+     "SCHNEIDER~ SRT2200XLI~ SMART-U",
+     32
+    ],
+    [
+     "SCHNEIDER ELECTRIC~ SMART-UPS,",
+     32
+    ],
+    [
+     "SCHNEIDER ELECTRIC~ ATV630, DE",
+     32
+    ],
+    [
+     "DELTA-F",
+     32
+    ],
+    [
+     "SCHNEIDER~ METSECT5MC060~ USO",
+     31
+    ],
+    [
+     "SCHNEIDER~ BACK UPS 1600VA~ PA",
+     30
+    ],
+    [
+     "ALLEN BRADLEY~ POWERFLEX AIR C",
+     29
+    ],
+    [
+     "SCHNEIDER~ SRT5KXLI~ SMART-UPS",
+     28
+    ],
+    [
+     "MOXA",
+     27
+    ],
+    [
+     "SCHNEIDER~ METSECT5MC030~ PARA",
+     26
+    ],
+    [
+     "PERKINELMER-F",
+     24
+    ],
+    [
+     "HONEYWELL",
+     22
+    ],
+    [
+     "ABB~ELECTRICO~USO INDUSTRIAL",
+     22
+    ],
+    [
+     "DELTA",
+     22
+    ],
+    [
+     "MITSUBISHI",
+     22
+    ],
+    [
+     "HITACHI-F",
+     22
+    ],
+    [
+     "SCHNEIDER~ METSECT5CC013~ DE U",
+     22
+    ],
+    [
+     "SCHNEIDER~ SRT6KLI~ SMART-UPS,",
+     22
+    ],
+    [
+     "ROCKWELL~ DE 10 AMPERES~ 3.5 K",
+     20
+    ]
+   ],
+   "marcas_valor": [
+    [
+     "INNOMOTICS",
+     9966722.800000003
+    ],
+    [
+     "DANFOSS",
+     6037495.100000004
+    ],
+    [
+     "ABB",
+     4335953.939999997
+    ],
+    [
+     "SIEMENS",
+     3552236.710000001
+    ],
+    [
+     "ABB-F~ ELECTRICO~ PARA USO IND",
+     1945444.0899999999
+    ],
+    [
+     "DANFOSS-F",
+     1887035.6099999996
+    ],
+    [
+     "ALLEN BRADLEY~ POWERFLEX TL XT",
+     1718994.53
+    ],
+    [
+     "ABB~ ACS1000W, DE 2200 KW~ ELE",
+     1661766.7299999995
+    ],
+    [
+     "ROCKWELL-F~ MV6000TB-4160~ ELE",
+     1492131.5899999999
+    ],
+    [
+     "SIEMENS-F",
+     1421618.5800000003
+    ],
+    [
+     "ABB~ ACS880-104LC-0900A-7+D150",
+     1282413.7999999998
+    ],
+    [
+     "SIEMENS~ 220/0.4KV~ COMPLETO C",
+     912777.44
+    ],
+    [
+     "WEG",
+     810828.6599999999
+    ],
+    [
+     "WANBANG DIGITAL-F",
+     747784.94
+    ],
+    [
+     "MITSUBISHI-F",
+     693806.2899999996
+    ],
+    [
+     "ROCKWELL~ MV PF7000~ 1300KW~ E",
+     653551.97
+    ],
+    [
+     "VACON-F",
+     609677.9299999997
+    ],
+    [
+     "ROCKWELL-F~ MV6000TA-4160, 57,",
+     547427.99
+    ],
+    [
+     "GE-F",
+     538940.74
+    ],
+    [
+     "ABB~ ELECTRICO~ PARA CONVERTID",
+     502541.8500000001
+    ],
+    [
+     "MIENTO~ PARA CENTRAL DE GENERA",
+     433923.79
+    ],
+    [
+     "INNOMOTICS-F",
+     387852.49999999994
+    ],
+    [
+     "INGETEAM-F",
+     371422.69
+    ],
+    [
+     "ABB~ ACS880-104LC-0860A-7~ PAR",
+     353910.66
+    ],
+    [
+     "ABB~ ACS880-34-442A-3~ ELECTRI",
+     338358.62
+    ],
+    [
+     "DELTA",
+     302281.66
+    ],
+    [
+     "ABB-F",
+     297410.48
+    ],
+    [
+     "ALLEN BRADLEY~TL XT 755 AC~ELE",
+     287806.09
+    ],
+    [
+     "ABB~ PARTE DE CONVERTIDOR DE F",
+     285679.86
+    ],
+    [
+     "PHOENIX CONTACT-F",
+     271368.17
+    ],
+    [
+     "SEW-F~ FUENTE DE PODER~ PARA R",
+     263780.86000000004
+    ],
+    [
+     "ABB~ ACS800-104 R8I~ ELECTRICO",
+     262945.82999999996
+    ],
+    [
+     "ABB-F~ ACS580-07-1140A-3~ CONV",
+     262686.55
+    ],
+    [
+     "INTERNATIONALDIGITAL -F",
+     260747.87
+    ],
+    [
+     "DELTA-F",
+     229200.25000000003
+    ],
+    [
+     "ABB~ACS-2040-PMK2000~ALIMENTAD",
+     225473.95
+    ],
+    [
+     "SCHNEIDER~ SRT3000XLI~ APC SMA",
+     225461.38999999998
+    ],
+    [
+     "GEPR ENERGY-F",
+     216747.94
+    ],
+    [
+     "ABB~ ACS880-37-0585A-3~ ELECTR",
+     206977.07
+    ],
+    [
+     "SCHNEIDER~ SRT5KXLI~ SMART-UPS",
+     201451.5799999999
+    ]
+   ],
+   "partidas": {
+    "85044000": 7088,
+    "85049000": 1090,
+    "85043100": 441,
+    "85045000": 194,
+    "85043200": 91,
+    "85043300": 22
+   }
+  },
+  "Analizadores de proceso": {
+   "cif": 40108040.31,
+   "items": 5404,
+   "marcas": [
+    [
+     "ENDRESS + HAUSER",
+     698
+    ],
+    [
+     "ENDRESS +HAUSER",
+     365
+    ],
+    [
+     "SIEMENS",
+     364
+    ],
+    [
+     "PERKINELMER-F",
+     313
+    ],
+    [
+     "MSA-F",
+     266
+    ],
+    [
+     "HACH COMPANY-F",
+     204
+    ],
+    [
+     "HACH-F",
+     170
+    ],
+    [
+     "SIEMENS-F",
+     165
+    ],
+    [
+     "DRAGER - F",
+     129
+    ],
+    [
+     "ROSEMOUNT-F",
+     128
+    ],
+    [
+     "ABBOTT-F",
+     125
+    ],
+    [
+     "DRAGER-F",
+     118
+    ],
+    [
+     "XYLEM-F",
+     117
+    ],
+    [
+     "HACH",
+     85
+    ],
+    [
+     "THERMO FISHER-F",
+     80
+    ],
+    [
+     "THERMO-F",
+     80
+    ],
+    [
+     "TELEDYNE-F",
+     73
+    ],
+    [
+     "FLUKE",
+     72
+    ],
+    [
+     "TESTO",
+     70
+    ],
+    [
+     "SHIMADZU-F",
+     57
+    ],
+    [
+     "ROSEMOUNT",
+     55
+    ],
+    [
+     "DANFOSS",
+     54
+    ],
+    [
+     "HONEYWELL",
+     50
+    ],
+    [
+     "HONEYWELL-F",
+     47
+    ],
+    [
+     "ENDRESS+HAUSER",
+     44
+    ],
+    [
+     "SHIMADZU",
+     42
+    ],
+    [
+     "VOLKSWAGEN-F~ PARTE Y PIEZA~",
+     40
+    ],
+    [
+     "ENDRESS HAUSER",
+     38
+    ],
+    [
+     "THERMO ENVIRONMENTAL-F",
+     27
+    ],
+    [
+     "NEOGEN-F",
+     27
+    ],
+    [
+     "PERKINELMER",
+     26
+    ],
+    [
+     "EMERSON-F",
+     26
+    ],
+    [
+     "FLUKE-F",
+     24
+    ],
+    [
+     "AGILENT-F",
+     21
+    ],
+    [
+     "METSO-F",
+     21
+    ],
+    [
+     "YOKOGAWA-F",
+     21
+    ],
+    [
+     "ENDRESS+HAUSER-F",
+     20
+    ],
+    [
+     "CIDRA-F",
+     20
+    ],
+    [
+     "TIGERCAT INDUSTRIES-F",
+     19
+    ],
+    [
+     "ROSEMOUNT INC.-F",
+     19
+    ]
+   ],
+   "marcas_valor": [
+    [
+     "SIEMENS",
+     3911916.820000002
+    ],
+    [
+     "ENDRESS + HAUSER",
+     2896261.4099999997
+    ],
+    [
+     "MSA-F",
+     2071517.1
+    ],
+    [
+     "THERMO ELECTRON-F",
+     1865263.5100000002
+    ],
+    [
+     "METSO-F",
+     1797813.12
+    ],
+    [
+     "CIDRA-F",
+     1695686.9000000001
+    ],
+    [
+     "ENDRESS +HAUSER",
+     1589389.629999999
+    ],
+    [
+     "HACH COMPANY-F",
+     856796.0699999995
+    ],
+    [
+     "HACH-F",
+     829167.2099999995
+    ],
+    [
+     "PERKINELMER-F",
+     807780.6000000006
+    ],
+    [
+     "HACH",
+     795064.5699999997
+    ],
+    [
+     "TELEDYNE-F",
+     762753.45
+    ],
+    [
+     "SHIMADZU",
+     761436.71
+    ],
+    [
+     "AGILENT-F",
+     664251.53
+    ],
+    [
+     "DRAGER - F",
+     642911.3099999999
+    ],
+    [
+     "THERMO FISHER-F",
+     639539.5400000002
+    ],
+    [
+     "GE VERNOVA",
+     617095.83
+    ],
+    [
+     "ABBOTT-F",
+     520184.11999999976
+    ],
+    [
+     "FLUKE",
+     502049.8900000001
+    ],
+    [
+     "DANFOSS",
+     492203.58
+    ],
+    [
+     "DRAGER-F",
+     474775.70999999996
+    ],
+    [
+     "SIEMENS HEALTHCARE",
+     466183.5300000001
+    ],
+    [
+     "THERMO FISHER",
+     423311.02
+    ],
+    [
+     "XYLEM-F",
+     396044.8100000001
+    ],
+    [
+     "BRUKER-F",
+     380947.44000000006
+    ],
+    [
+     "GE VERNOA",
+     352994.37
+    ],
+    [
+     "THERMO-F",
+     346338.66
+    ],
+    [
+     "HONEYWELL-F",
+     324069.4700000001
+    ],
+    [
+     "GENERAL ELECTRIC",
+     309748.49
+    ],
+    [
+     "HONEYWELL",
+     299204.81000000006
+    ],
+    [
+     "SIEMENS-F",
+     298120.4999999999
+    ],
+    [
+     "NEOGEN-F",
+     296039.52
+    ],
+    [
+     "SHIMADZU.-F",
+     286135.05000000005
+    ],
+    [
+     "ENDRESS HAUSER",
+     280165.33999999985
+    ],
+    [
+     "IMAGEN GEO~ PARA EL USO DE IMA",
+     276473.21
+    ],
+    [
+     "CIDRA~ MODELO G2-D W~ CYCLONET",
+     273042.28
+    ],
+    [
+     "HONEYWELL~ DETECTOR MULTIGAS~",
+     261144.54
+    ],
+    [
+     "THERMO ENVIRONMENTAL-F",
+     252062.25999999998
+    ],
+    [
+     "AMETEK~ WDG-VOC1C \t ~ OXIGENO",
+     249464.5
+    ],
+    [
+     "ROSEMOUNT-F",
+     244238.1499999999
+    ]
+   ],
+   "partidas": {
+    "90279090": 2673,
+    "90278999": 1371,
+    "90271010": 552,
+    "90275000": 397,
+    "90271090": 219,
+    "90273000": 134,
+    "90272000": 56,
+    "90278100": 2
+   }
+  },
+  "Vision industrial": {
+   "cif": 12249779.26,
+   "items": 1071,
+   "marcas": [
+    [
+     "FUJIFILM",
+     107
+    ],
+    [
+     "ARA LA CAPTURA DE IMAGENES AER",
+     47
+    ],
+    [
+     "CANON~ EOS R7~ DIGITAL",
+     32
+    ],
+    [
+     "TELTONIKA-F",
+     25
+    ],
+    [
+     "SANDVIK-F~ VIDEO CAMARA~ DIGIT",
+     25
+    ],
+    [
+     "CANON~ EOS R10~ DIGITAL",
+     22
+    ],
+    [
+     "SONY~ ILME-FX30B/QE38~ DIGITAL",
+     21
+    ],
+    [
+     "SONY~ ILCE-6400KBQE38 ~ DIGITA",
+     20
+    ],
+    [
+     "CANON~ R50~ DIGITAL",
+     19
+    ],
+    [
+     "CANON~ REBEL T7~ DIGITAL",
+     18
+    ],
+    [
+     "CANON~ EOS RP~ DIGITAL",
+     17
+    ],
+    [
+     "BRIDGESTONE-F",
+     16
+    ],
+    [
+     "SONY~ ILCE-6700/BQE38~ DIGITAL",
+     15
+    ],
+    [
+     "CANON~ EOS R5MKI~ DIGITAL",
+     15
+    ],
+    [
+     "SONY~ DSC-RX100M7 UC2~ DIGITAL",
+     14
+    ],
+    [
+     "SONY~ ZV-1F/BQ UC2~ DIGITAL",
+     14
+    ],
+    [
+     "CANON~ EOS R8 (US)~ DIGITAL",
+     14
+    ],
+    [
+     "SONY~ ZV-E10M2K/BQE38~ DIGITAL",
+     14
+    ],
+    [
+     "CANON~ EOS R50~ DIGITAL",
+     13
+    ],
+    [
+     "CANON~ EOS REBEL T100~ DIGITAL",
+     13
+    ],
+    [
+     "SONY~ ZV-E10L/BQE38~ DIGITAL",
+     13
+    ],
+    [
+     "XIAOMI~ CW300~ INTELIGENTE~ DE",
+     12
+    ],
+    [
+     "SONY~ MOD. ZV-1M2/BQ UC2~ DIGI",
+     12
+    ],
+    [
+     "SONY~ ILCE-7M4/BQ E38~ DIGITAL",
+     12
+    ],
+    [
+     "SONY~ ILCE-1M2/BQ E38~ DIGITAL",
+     11
+    ],
+    [
+     "SONY~ ILCE-6700MBQE38~ DIGITAL",
+     11
+    ],
+    [
+     "X.-F~ INTELIGENTE~ C400~ DE US",
+     10
+    ],
+    [
+     "VOLKSWAGEN-F~ PARTE Y PIEZA~",
+     10
+    ],
+    [
+     "CANON~ EOS R100~ DIGITAL",
+     10
+    ],
+    [
+     "SONY~ ILME-FX30//QE38~ DIGITAL",
+     10
+    ],
+    [
+     "XIAOMI~ CW400~ INTELIGENTE~ DE",
+     9
+    ],
+    [
+     "CANON-F~ T100 1855DCIII~ DIGIT",
+     9
+    ],
+    [
+     "SONY~ ZV-E10/BQ E38~ DIGITAL",
+     9
+    ],
+    [
+     "SONY~ HXR-NX800/Q E38~ DIGITAL",
+     9
+    ],
+    [
+     "SONY~ ZV-E10M2/BQ E38~ DIGITAL",
+     9
+    ],
+    [
+     "H-F~ DMS~ DIGITAL, PARA GRABAC",
+     9
+    ],
+    [
+     "X.-F~ INTELIGENTE~ BW300~ DE U",
+     8
+    ],
+    [
+     "SONY~ ILCE-7CM2/BQE38~ DIGITAL",
+     8
+    ],
+    [
+     "XIAOMI~ CW500~ INTELIGENTE~ DE",
+     8
+    ],
+    [
+     "CANON~ EOS R8~ DIGITAL",
+     8
+    ]
+   ],
+   "marcas_valor": [
+    [
+     "SONY~ ILCE-6400KBQE38 ~ DIGITA",
+     1133237.6099999999
+    ],
+    [
+     "SONY~ ILME-FX30B/QE38~ DIGITAL",
+     656038.29
+    ],
+    [
+     "FUJIFILM",
+     637733.6000000003
+    ],
+    [
+     "SONY~ ILCE-6700/BQE38~ DIGITAL",
+     622296.91
+    ],
+    [
+     "ARA LA CAPTURA DE IMAGENES AER",
+     566923.4400000001
+    ],
+    [
+     "SONY~ ILCE-7M4/BQ E38~ DIGITAL",
+     566364.4099999999
+    ],
+    [
+     "SONY~ ZV-E10L/BQE38~ DIGITAL",
+     510407.27
+    ],
+    [
+     "SONY~ ZV-E10M2K/BQE38~ DIGITAL",
+     379673.19000000006
+    ],
+    [
+     "SONY~ ILCE-6700MBQE38~ DIGITAL",
+     361489.98
+    ],
+    [
+     "CANON~ EOS R50~ DIGITAL",
+     360552.68
+    ],
+    [
+     "SONY~ ZV-1F/BQ UC2~ DIGITAL",
+     322031.45
+    ],
+    [
+     "SONY~ ILME-FX2B/Q E38~ DIGITAL",
+     300000.59
+    ],
+    [
+     "CANON~ R50~ DIGITAL",
+     299041.85
+    ],
+    [
+     "CANON~ EOS R10~ DIGITAL",
+     274277.55999999994
+    ],
+    [
+     "CANON~ EOS REBEL T100~ DIGITAL",
+     272641.63
+    ],
+    [
+     "BRIDGESTONE-F",
+     256492.14
+    ],
+    [
+     "CANON~ REBEL T7~ DIGITAL",
+     250266.49000000002
+    ],
+    [
+     "CANON-F~ T100 1855DCIII~ DIGIT",
+     240892.99000000002
+    ],
+    [
+     "UNV DIGITAL TECHNOLOGIES-F",
+     228370.76
+    ],
+    [
+     "CANON~ EOS R100~ DIGITAL",
+     214932.58000000002
+    ],
+    [
+     "SONY~ ILCE-1M2/BQ E38~ DIGITAL",
+     164951.15999999997
+    ],
+    [
+     "~ DIGITAL ~ PARA SISTEMA DE C",
+     151487.27
+    ],
+    [
+     "SONY~ DSC-RX100M7 UC2~ DIGITAL",
+     144928.40999999997
+    ],
+    [
+     "CANON~ EOS R7~ DIGITAL",
+     140973.72000000003
+    ],
+    [
+     "CANON~ EOS R5MKI~ DIGITAL",
+     138666.53
+    ],
+    [
+     "SONY~ ILCE-7CM2/BQE38~ DIGITAL",
+     129423.18999999999
+    ],
+    [
+     "XIAOMI~ C200~ INTELIGENTE~ DE",
+     108375.03
+    ],
+    [
+     "SONY~ ILCE-7CM2/SQE38~ DIGITAL",
+     108369.45999999999
+    ],
+    [
+     "SONY~ HXR-NX800/Q E38~ DIGITAL",
+     98764.95
+    ],
+    [
+     "SONY~ ILME-FX2/Q E38~ DIGITAL",
+     93277.84
+    ],
+    [
+     "SONY~ ILME-FX30//QE38~ DIGITAL",
+     92607.18000000001
+    ],
+    [
+     "CANON~ EOS RP~ DIGITAL",
+     80283.18000000001
+    ],
+    [
+     "CANON~ EOS R8~ DIGITAL",
+     74665.72
+    ],
+    [
+     "SONY~ PXW-Z90V//QUC~ DIGITAL",
+     74602.91
+    ],
+    [
+     "SONY~ ZV-E10/BQ E38~ DIGITAL",
+     74135.87000000001
+    ],
+    [
+     "XIAOMI~ CW300~ INTELIGENTE~ DE",
+     73968.75
+    ],
+    [
+     "TELTONIKA-F",
+     64951.2
+    ],
+    [
+     "SONY~ ILME-FX6V//QUC~ DIGITAL",
+     64834.27
+    ],
+    [
+     "CANON~ EOS R8 (US)~ DIGITAL",
+     60586.35000000001
+    ],
+    [
+     "GEOTAB -F",
+     56364.869999999995
+    ]
+   ],
+   "partidas": {
+    "85258900": 962,
+    "85258100": 64,
+    "85258300": 31,
+    "85258200": 14
+   }
+  },
+  "Valvulas de control y proceso": {
+   "cif": 55153575.84,
+   "items": 10708,
+   "marcas": [
+    [
+     "DANFOSS",
+     3288
+    ],
+    [
+     "BRAY",
+     1063
+    ],
+    [
+     "METSO-F",
+     609
+    ],
+    [
+     "FESTO-F",
+     552
+    ],
+    [
+     "VALMET-F",
+     521
+    ],
+    [
+     "VALMET",
+     245
+    ],
+    [
+     "GENEBRE-F",
+     243
+    ],
+    [
+     "METSO",
+     180
+    ],
+    [
+     "DANFOSS-F",
+     175
+    ],
+    [
+     "TIGERCAT INDUSTRIES-F",
+     157
+    ],
+    [
+     "BRAY-F",
+     156
+    ],
+    [
+     "SAMSON",
+     129
+    ],
+    [
+     "VOLKSWAGEN-F~ PARTE Y PIEZA~ P",
+     108
+    ],
+    [
+     "SIEMENS",
+     106
+    ],
+    [
+     "SIEMENS-F",
+     95
+    ],
+    [
+     "EMERSON-F",
+     78
+    ],
+    [
+     "NELES-F",
+     77
+    ],
+    [
+     "VOLKSWAGEN-F~ PARTE Y PIEZA~",
+     73
+    ],
+    [
+     "SMC-F",
+     65
+    ],
+    [
+     "SAUER DANFOSS-F",
+     64
+    ],
+    [
+     "SAMSON AG-F",
+     60
+    ],
+    [
+     "SMC C.-F",
+     56
+    ],
+    [
+     "HITACHI-F",
+     56
+    ],
+    [
+     "EMERSON",
+     52
+    ],
+    [
+     "FESTO",
+     44
+    ],
+    [
+     "DIESEL TECHNIC-F",
+     43
+    ],
+    [
+     "GENEBRE",
+     35
+    ],
+    [
+     "HITACHI CONSTRUCTION-F",
+     35
+    ],
+    [
+     "INGERSOLL-F",
+     34
+    ],
+    [
+     "GEMU-F",
+     33
+    ],
+    [
+     "GEA TUCHENHAGEN GMBH-F",
+     33
+    ],
+    [
+     "ABBOTT-F",
+     32
+    ],
+    [
+     "RUSSELL-F",
+     29
+    ],
+    [
+     "HOERBIGER-F",
+     28
+    ],
+    [
+     "KINGER",
+     27
+    ],
+    [
+     "INGERSOLL RAND",
+     26
+    ],
+    [
+     "SAMSON-F",
+     25
+    ],
+    [
+     "GEORG FISCHER-F",
+     24
+    ],
+    [
+     "FUJI-F",
+     23
+    ],
+    [
+     "GEA TUCHENHAGEN-F",
+     23
+    ]
+   ],
+   "marcas_valor": [
+    [
+     "BRAY",
+     5608579.649999998
+    ],
+    [
+     "VALMET-F",
+     5341068.790000003
+    ],
+    [
+     "VALVITALIA-F",
+     4577264.0
+    ],
+    [
+     "DANFOSS",
+     4307378.890000015
+    ],
+    [
+     "VALMET",
+     4087960.1399999997
+    ],
+    [
+     "METSO-F",
+     3515095.870000003
+    ],
+    [
+     "EMERSON",
+     3116697.710000001
+    ],
+    [
+     "EMERSON-F",
+     2731033.0900000003
+    ],
+    [
+     "GENEBRE-F",
+     2372060.750000001
+    ],
+    [
+     "METSO",
+     1136834.4199999997
+    ],
+    [
+     "SIEMENS-F",
+     948251.66
+    ],
+    [
+     "FESTO-F",
+     741711.0399999999
+    ],
+    [
+     "BRAY-F",
+     699683.3600000002
+    ],
+    [
+     "EMERSON~ CUCHILLO, SERIES KGD~",
+     651389.06
+    ],
+    [
+     "DANFOSS-F",
+     596597.8099999997
+    ],
+    [
+     "SAMSON",
+     580283.16
+    ],
+    [
+     "NELES-F",
+     563806.7699999998
+    ],
+    [
+     "SAUER DANFOSS-F",
+     541133.74
+    ],
+    [
+     "W.-F~ API-8 GEN6~ PARA BOMBA",
+     479507.7799999999
+    ],
+    [
+     "DELTAVALVE",
+     430541.62
+    ],
+    [
+     "SMC C.-F",
+     316659.27999999997
+    ],
+    [
+     "SMC-F",
+     310815.0399999999
+    ],
+    [
+     "SIEMENS",
+     288091.99000000005
+    ],
+    [
+     "HITACHI CONSTRUCTION-F",
+     270520.34
+    ],
+    [
+     "FISHER",
+     220539.50999999998
+    ],
+    [
+     "MITSUBISHI-F",
+     212624.13000000003
+    ],
+    [
+     "EMERSON~ CUCHILLO, CLA-KGD~ PA",
+     212570.95
+    ],
+    [
+     "HOERBIGER-F",
+     205420.97999999995
+    ],
+    [
+     "GE VERNOVA-F",
+     204942.44
+    ],
+    [
+     "EMERSON~ DE METAL COMUN~ ARTIC",
+     183209.53
+    ],
+    [
+     "SIEMENS ENERGY",
+     180482.36000000002
+    ],
+    [
+     "7GENCO-F",
+     170540.02000000002
+    ],
+    [
+     "GENEBRE",
+     167352.65999999997
+    ],
+    [
+     "SAMSON AG",
+     166826.93
+    ],
+    [
+     "SAMSON-F",
+     157427.03
+    ],
+    [
+     "EMERSON~ ISV-1530650~ PARA VAL",
+     152618.08000000002
+    ],
+    [
+     "GEMU-F",
+     146068.47999999998
+    ],
+    [
+     "EMERSON~ SERIES KGA KGA-0400F0",
+     139636.94
+    ],
+    [
+     "GEA TUCHENHAGEN-F",
+     137086.24
+    ],
+    [
+     "AUMA-F",
+     132923.23
+    ]
+   ],
+   "partidas": {
+    "84818090": 5313,
+    "84819000": 2551,
+    "84812020": 770,
+    "84811000": 709,
+    "84814000": 579,
+    "84813000": 426,
+    "84812010": 269,
+    "84818010": 91
+   }
+  },
+  "Medida y control electrico": {
+   "cif": 28884395.75,
+   "items": 4942,
+   "marcas": [
+    [
+     "FLUKE",
+     397
+    ],
+    [
+     "DANFOSS",
+     339
+    ],
+    [
+     "FLUKE-F",
+     292
+    ],
+    [
+     "VALMET-F",
+     258
+    ],
+    [
+     "SIEMENS",
+     199
+    ],
+    [
+     "VOLKSWAGEN-F~ PARTE Y PIEZA~ P",
+     161
+    ],
+    [
+     "SIEMENS-F",
+     125
+    ],
+    [
+     "VOLKSWAGEN-F~ PARTE Y PIEZA~",
+     122
+    ],
+    [
+     "ENDRESS + HAUSER",
+     89
+    ],
+    [
+     "SCHNEIDER ELECTRIC~ IEM2455~ M",
+     89
+    ],
+    [
+     "PHOENIX CONTACT-F",
+     56
+    ],
+    [
+     "WEG",
+     52
+    ],
+    [
+     "SCHNEIDER ELECTRIC~ EASYLOGIC",
+     51
+    ],
+    [
+     "FISHER~ MODELO DVC6200 ~ NEUMA",
+     50
+    ],
+    [
+     "BRAY",
+     48
+    ],
+    [
+     "SAMSON-F",
+     48
+    ],
+    [
+     "PEUGEOT",
+     47
+    ],
+    [
+     "MITSUBISHI",
+     43
+    ],
+    [
+     "METSO-F",
+     37
+    ],
+    [
+     "HONEYWELL-F",
+     35
+    ],
+    [
+     "FULL GAUGE-F",
+     35
+    ],
+    [
+     "OMICRON-F",
+     34
+    ],
+    [
+     "SCHNEIDER~ METSEPM1125HCL~ PAR",
+     34
+    ],
+    [
+     "UNI-TREND-F~ DIGITAL~ SIN DISP",
+     30
+    ],
+    [
+     "VOLKSWAGEN-F~ PARTE Y PIEZA~ D",
+     30
+    ],
+    [
+     "SCHNEIDER~ METSEDM6000HCL~ CON",
+     29
+    ],
+    [
+     "SCHNEIDER~ METSEPM5340~ PARA U",
+     29
+    ],
+    [
+     "ALLEN BRADLEY~ E300/E200 30AMP",
+     28
+    ],
+    [
+     "DIESEL TECHNIC -F",
+     27
+    ],
+    [
+     "SCHNEIDER~ METSEPM2110~ EASYLO",
+     27
+    ],
+    [
+     "VALMET-F~ MIDE CONSISTENCIA DE",
+     25
+    ],
+    [
+     "SCHNEIDER ELECTRIC~ 6 STEPS~ D",
+     25
+    ],
+    [
+     "GENEBRE-F",
+     24
+    ],
+    [
+     "FLUKE ELECTRONICS CORPORATION-",
+     24
+    ],
+    [
+     "SCHNEIDER ELECTRIC~ PM5560~ PA",
+     23
+    ],
+    [
+     "SCHWEITZER ENGINEERING LABORAT",
+     22
+    ],
+    [
+     "BRAY-F",
+     21
+    ],
+    [
+     "FLUKE ELECTRONICS CORPORATION",
+     20
+    ],
+    [
+     "SCHNEIDER ELECTRIC~ PM8240~ CO",
+     20
+    ],
+    [
+     "FUELTECH-F",
+     19
+    ]
+   ],
+   "marcas_valor": [
+    [
+     "OMICRON-F",
+     2487254.7200000007
+    ],
+    [
+     "FLUKE-F",
+     1949040.0000000002
+    ],
+    [
+     "FLUKE",
+     1760176.25
+    ],
+    [
+     "VALMET-F",
+     1751630.919999999
+    ],
+    [
+     "SIEMENS",
+     1279328.2200000004
+    ],
+    [
+     "ABB-F",
+     930760.21
+    ],
+    [
+     "DANFOSS",
+     719868.21
+    ],
+    [
+     "FISHER~ MODELO DVC6200 ~ NEUMA",
+     489392.8700000002
+    ],
+    [
+     "HONEYWELL~ MODELO EXPERION~ CO",
+     440009.33
+    ],
+    [
+     "SIEMENS-F",
+     420736.35000000015
+    ],
+    [
+     "SCHNEIDER ELECTRIC~ POWER LOGI",
+     401935.6299999999
+    ],
+    [
+     "SCHNEIDER~ ION7400~ CON DISPOS",
+     400354.69
+    ],
+    [
+     "SCHNEIDER ELECTRIC~ 8650-9/36S",
+     397909.67999999993
+    ],
+    [
+     "ABB",
+     389906.48
+    ],
+    [
+     "SAMSON-F",
+     352830.93000000005
+    ],
+    [
+     "HITACHI~ HDSR-F800-4000~ PARA",
+     323433.16
+    ],
+    [
+     "HONEYWELL~ TPC~ MODELO C300~ C",
+     314993.87999999995
+    ],
+    [
+     "MEGGER-F",
+     306322.07999999996
+    ],
+    [
+     "OMICRON",
+     271468.93
+    ],
+    [
+     "MITSUBISHI",
+     244633.0800000001
+    ],
+    [
+     "BRAY",
+     221050.20000000007
+    ],
+    [
+     "HONEYWELL~ EXPERION~ COMPLETO,",
+     209373.05000000002
+    ],
+    [
+     "HONEYWELL~ HPS INTERCOMP SYSTE",
+     209229.52999999997
+    ],
+    [
+     "MEGGER SWEDEN AB -F",
+     203241.81
+    ],
+    [
+     "MEGGER",
+     188392.78
+    ],
+    [
+     "SCHWEITZER ENGINEERING LABORAT",
+     182484.53000000006
+    ],
+    [
+     "HITACHI~ REC670 C42~ DIGITAL,",
+     181916.84000000003
+    ],
+    [
+     "METSO-F",
+     178428.28
+    ],
+    [
+     "HOTTINGER-F",
+     172486.58000000002
+    ],
+    [
+     "FISHER~ MOD. R622-BFF, DE SEGU",
+     167873.51
+    ],
+    [
+     "HONEYWELL~ MODELO EXPERION, CO",
+     165953.98
+    ],
+    [
+     "VALMET-F~ MIDE CONSISTENCIA DE",
+     163677.60999999996
+    ],
+    [
+     "FLUKE ELECTRONICS CORPORATION-",
+     162663.25
+    ],
+    [
+     "PHOENIX CONTACT-F",
+     156120.52999999997
+    ],
+    [
+     "VEGA",
+     142654.46
+    ],
+    [
+     "ENDRESS + HAUSER",
+     137016.80999999997
+    ],
+    [
+     "UNI-TREND-F~ DIGITAL~ SIN DISP",
+     129362.31000000003
+    ],
+    [
+     "HOTTINGER BRUEL-F",
+     127929.53
+    ],
+    [
+     "MEGGER INSTRUMENTS LTD. -F",
+     123579.22
+    ],
+    [
+     "HONEYWELL-F",
+     123138.72999999998
+    ]
+   ],
+   "partidas": {
+    "90328900": 1681,
+    "90303300": 559,
+    "90329000": 421,
+    "90303100": 362,
+    "90322000": 306,
+    "90303900": 304,
+    "90308400": 296,
+    "90328100": 283,
+    "90303200": 201,
+    "90283090": 132,
+    "90308900": 123,
+    "90283010": 107,
+    "90309000": 72,
+    "90304000": 35,
+    "90301000": 29,
+    "90302000": 27,
+    "90289000": 4
+   }
+  },
+  "Controladores, PLC y modulos de E/S": {
+   "cif": 112099293.35,
+   "items": 8844,
+   "marcas": [
+    [
+     "SIEMENS-F",
+     799
+    ],
+    [
+     "SIEMENS",
+     721
+    ],
+    [
+     "DANFOSS",
+     628
+    ],
+    [
+     "PHOENIX CONTACT-F",
+     252
+    ],
+    [
+     "GE-F",
+     147
+    ],
+    [
+     "GEWISS-F",
+     134
+    ],
+    [
+     "WAGO-F",
+     93
+    ],
+    [
+     "FISHER-F",
+     87
+    ],
+    [
+     "HONEYWELL-F",
+     86
+    ],
+    [
+     "VOLKSWAGEN-F~ PARTE Y PIEZA~ P",
+     85
+    ],
+    [
+     "MITSUBISHI-F",
+     82
+    ],
+    [
+     "VOLKSWAGEN-F~ PARTE Y PIEZA~",
+     79
+    ],
+    [
+     "MITSUBISHI",
+     75
+    ],
+    [
+     "SICK-F",
+     73
+    ],
+    [
+     "ALLEN BRADLEY~ DE ENTADA DIGIT",
+     53
+    ],
+    [
+     "SCHNEIDER~ 6 LVMCC~ DE USO ELE",
+     50
+    ],
+    [
+     "SCHWEITZER ENGINEERING LABORAT",
+     46
+    ],
+    [
+     "TIGERCAT INDUSTRIES-F",
+     42
+    ],
+    [
+     "SCHNEIDER ELECTRIC~ 6 LVMCC~ D",
+     42
+    ],
+    [
+     "IFM ELECTRONIC-F",
+     41
+    ],
+    [
+     "METSO-F",
+     40
+    ],
+    [
+     "ROCKWELL~ MCC2100-PEII~ 2100 L",
+     36
+    ],
+    [
+     "EMERSON",
+     34
+    ],
+    [
+     "SCHNEIDER ELECTRIC SYSTEM USA",
+     33
+    ],
+    [
+     "SCHNEIDER~ GCR-SHIP-MISC~ PARA",
+     33
+    ],
+    [
+     "ABB-F~ PARTE DE PANEL DE CONTR",
+     31
+    ],
+    [
+     "ALLEN BRADLEY",
+     30
+    ],
+    [
+     "FISHER ROSEMOUNT-F",
+     30
+    ],
+    [
+     "HITACHI~ 1MRK002800-AG~ PARA U",
+     30
+    ],
+    [
+     "ALLEN BRADLEY~DE 16 PTS~DIGITA",
+     29
+    ],
+    [
+     "IFM-F",
+     27
+    ],
+    [
+     "GE",
+     26
+    ],
+    [
+     "WEIDMULLER-F",
+     26
+    ],
+    [
+     "ROCKWELL~ 800H-2HZ4R~SIN SUS A",
+     25
+    ],
+    [
+     "ABB",
+     25
+    ],
+    [
+     "EMERSON-F",
+     25
+    ],
+    [
+     "SCHNEIDER",
+     24
+    ],
+    [
+     "ALLENBRADLEY~ ELECTRICO~ USO I",
+     24
+    ],
+    [
+     "ETP ELEKTRO-F",
+     23
+    ],
+    [
+     "ALLEN BRADLEY~ELECTRICO~TENSIO",
+     23
+    ]
+   ],
+   "marcas_valor": [
+    [
+     "SIEMENS",
+     23011539.57000001
+    ],
+    [
+     "SIEMENS-F",
+     8366634.170000003
+    ],
+    [
+     "HITACHI ENERGY~ ELK-3 550KV~ A",
+     5450854.359999999
+    ],
+    [
+     "HYOSUNG HEAVY-F",
+     4680886.0
+    ],
+    [
+     "ALSTOM-F",
+     4547403.449999998
+    ],
+    [
+     "ETP ELEKTRO-F",
+     3793870.9799999995
+    ],
+    [
+     "ROCKWELL~ MCC2100-PEII~ 2100 L",
+     2178359.96
+    ],
+    [
+     "SCHNEIDER ELECTRIC~ 6 LVMCC~ D",
+     2115066.43
+    ],
+    [
+     "SIEMENS ENERGY",
+     1999921.23
+    ],
+    [
+     "WEG-F",
+     1987629.4699999997
+    ],
+    [
+     "DAVENHAM SWTCHGEAR-F",
+     1971915.34
+    ],
+    [
+     "SCHNEIDER~ 6 LVMCC~ DE USO ELE",
+     1816493.2600000005
+    ],
+    [
+     "HITACHI~ 110VDC/220VAC~ PARA C",
+     1652267.18
+    ],
+    [
+     "HITACHI ENERGY~ ELK-14 245KV~",
+     1589311.32
+    ],
+    [
+     "HITACHI ENERGY~ ELK-04 145KV~",
+     1515589.32
+    ],
+    [
+     "SCHNEIDER ELECTRIC~ GCR BLOKSE",
+     1405349.69
+    ],
+    [
+     "ABB",
+     1378866.03
+    ],
+    [
+     "HITACHI-F~ ELK-14, 220 KV~ CON",
+     1359048.08
+    ],
+    [
+     "DANFOSS",
+     1230868.2699999993
+    ],
+    [
+     "HMV INGENIEROS-F",
+     1221477.78
+    ],
+    [
+     "SCHNEIDER-F~ ZA0GCR_BLOKSET, I",
+     1193160.19
+    ],
+    [
+     "SIEMENS ENERGY-F",
+     1017814.47
+    ],
+    [
+     "SEL-F",
+     1012400.92
+    ],
+    [
+     "INNOMOTICS",
+     956654.9599999998
+    ],
+    [
+     "PHOENIX CONTACT-F",
+     842083.1000000002
+    ],
+    [
+     "GE-F",
+     785425.3099999998
+    ],
+    [
+     "SCHNEIDER~ TIPO PIX ACT~ COMPL",
+     691982.6
+    ],
+    [
+     "GEWISS-F",
+     667357.8199999998
+    ],
+    [
+     "ABB~ ELECTRICO~PARA UNA TENSIO",
+     655052.48
+    ],
+    [
+     "SCHNEIDER~ TIPO PIX ACT~ CON S",
+     647771.92
+    ],
+    [
+     "SEL",
+     641858.34
+    ],
+    [
+     "SCHWEITZER ENGINEERING LABORAT",
+     599600.47
+    ],
+    [
+     "METSO-F",
+     562701.44
+    ],
+    [
+     "OXIGENOTERAPIA.-F",
+     472010.9
+    ],
+    [
+     "ETPELEKTRO-F",
+     437684.63999999996
+    ],
+    [
+     "INTERNATIONAL DIGITAL -F",
+     436988.68000000005
+    ],
+    [
+     "ETPELKTRO-F",
+     421833.58
+    ],
+    [
+     "SEL INC-F",
+     399316.52999999997
+    ],
+    [
+     "GE POWER",
+     394484.55
+    ],
+    [
+     "ABB~ GF D563 A102~ PARA CONTRO",
+     385414.95999999996
+    ]
+   ],
+   "partidas": {
+    "85371000": 4328,
+    "85389000": 3675,
+    "85381000": 561,
+    "85372090": 167,
+    "85372010": 113
+   }
+  },
+  "Aparatos de conexion y proteccion": {
+   "cif": 12122066.77,
+   "items": 5553,
+   "marcas": [
+    [
+     "PHOENIX CONTACT-F",
+     324
+    ],
+    [
+     "SIEMENS-F",
+     314
+    ],
+    [
+     "SIEMENS",
+     312
+    ],
+    [
+     "MITSUBISHI",
+     181
+    ],
+    [
+     "WAGO-F",
+     175
+    ],
+    [
+     "WEIDMULLER-F",
+     170
+    ],
+    [
+     "VOLKSWAGEN-F~ PARTE Y PIEZA~",
+     116
+    ],
+    [
+     "SCHNEIDER-F~ ELECTRICO~ PARA U",
+     97
+    ],
+    [
+     "GEWISS-F",
+     94
+    ],
+    [
+     "ABB~ELECTRICO~TENSION INFERIOR",
+     90
+    ],
+    [
+     "LAPP-F",
+     85
+    ],
+    [
+     "SCHNEIDER~ GOMCCB 125F~ ELECTR",
+     75
+    ],
+    [
+     "SCHNEIDER~ CVS100F TM32D 3P3D~",
+     70
+    ],
+    [
+     "IFM-F",
+     66
+    ],
+    [
+     "MITSUBISHI-F",
+     64
+    ],
+    [
+     "SCHNEIDER~ MODELO CVS160F TM12",
+     63
+    ],
+    [
+     "DANFOSS",
+     51
+    ],
+    [
+     "ABB-F~ ELECTRICOS~ PARA UNA TE",
+     48
+    ],
+    [
+     "ABB~ ELECTRICOS~ PARA UNA TENS",
+     47
+    ],
+    [
+     "SCHNEIDER~ 20A~ ELECTRICO",
+     46
+    ],
+    [
+     "ABB~ ELECTRICO~ PARA UNA TENSI",
+     45
+    ],
+    [
+     "RUSSELL-F",
+     39
+    ],
+    [
+     "WEG",
+     36
+    ],
+    [
+     "SCHNEIDER~ 63A~ ELECTRICO",
+     36
+    ],
+    [
+     "SCHNEIDER-F~ G25F3A250~ ELECTR",
+     35
+    ],
+    [
+     "VOLKSWAGEN-F~ PARTE Y PIEZA~ P",
+     34
+    ],
+    [
+     "ABB~XT5N~ELECTRICO~TENSION INF",
+     31
+    ],
+    [
+     "SCHNEIDER-F~ E100N420FM~ ELECT",
+     30
+    ],
+    [
+     "ABB~XT7S~ELECTRICO~TENSION INF",
+     29
+    ],
+    [
+     "SCHNEIDER-F~ E080N420FM~ ELECT",
+     29
+    ],
+    [
+     "B.-F~ S2465TGE~ DE USO ELECTRI",
+     28
+    ],
+    [
+     "ALLEN BRADLEY~ELECTRICO~TENSIO",
+     27
+    ],
+    [
+     "SCHNEIDER~ ELECTRICO~ 25A PARA",
+     27
+    ],
+    [
+     "SCHNEIDER-F~ G12F4A50~ PARA UN",
+     26
+    ],
+    [
+     "BECKHOFF-F",
+     25
+    ],
+    [
+     "INGETEAM-F",
+     24
+    ],
+    [
+     "ABB-F~ XT5N 630 TMA~ DE USO EL",
+     22
+    ],
+    [
+     "SCHNEIDER~ ELECTRICO~ PARA UNA",
+     22
+    ],
+    [
+     "ABB~ ELECTRICO~ USO INDUSTRIAL",
+     21
+    ],
+    [
+     "SCHNEIDER-F~ 125E ~ PARA UNA T",
+     21
+    ]
+   ],
+   "marcas_valor": [
+    [
+     "MITSUBISHI",
+     1665234.1700000002
+    ],
+    [
+     "PHOENIX CONTACT-F",
+     1083345.91
+    ],
+    [
+     "WAGO-F",
+     824404.9399999996
+    ],
+    [
+     "MITSUBISHI-F",
+     647474.24
+    ],
+    [
+     "SIEMENS",
+     532054.7899999997
+    ],
+    [
+     "SIEMENS-F",
+     423792.6899999998
+    ],
+    [
+     "GEWISS-F",
+     367509.2399999999
+    ],
+    [
+     "ABB~ELECTRICO~TENSION INFERIOR",
+     231781.2099999999
+    ],
+    [
+     "B.-F~ S2465TGE~ DE USO ELECTRI",
+     229589.43
+    ],
+    [
+     "ABB~ ELECTRICO~ PARA UNA TENSI",
+     185767.93
+    ],
+    [
+     "ABB~ F204AC-25/0.03~ ELECTRICO",
+     164297.54
+    ],
+    [
+     "ABB~ ELECTRICOS~ PARA UNA TENS",
+     137190.15000000005
+    ],
+    [
+     "LAPP-F",
+     127068.76000000001
+    ],
+    [
+     "INGETEAM-F",
+     121791.92
+    ],
+    [
+     "ABB~ F202AC-25/0.03~ DE USO EL",
+     121062.87000000001
+    ],
+    [
+     "WEIDMULLER-F",
+     118899.95
+    ],
+    [
+     "ABB~XT7S~ELECTRICO~TENSION INF",
+     106536.16000000002
+    ],
+    [
+     "ABB-F~ ELECTRICOS~ PARA UNA TE",
+     104788.08999999998
+    ],
+    [
+     "ABB-F~ S201C10 6KA~ PARA USO E",
+     91057.62999999999
+    ],
+    [
+     "ABB~ ELECTRICO~PARA UNA TENSIO",
+     90976.51
+    ],
+    [
+     "ABB~XT5N~ELECTRICO~TENSION INF",
+     83623.00000000001
+    ],
+    [
+     "PHOENIX CONTACT",
+     73689.03
+    ],
+    [
+     "ABB-F~ S201 C6 6KA~ PARA USO E",
+     70691.31999999999
+    ],
+    [
+     "ABB~ 1SDA071772R1~ ELECTRICO~",
+     57323.62000000001
+    ],
+    [
+     "RUSSELL-F",
+     57181.45999999999
+    ],
+    [
+     "ABB~ S203 C10~PARA EQUIPOS ELE",
+     56884.32
+    ],
+    [
+     "ABB~  AXT1C 160 TMD~  ELECTRIC",
+     56396.75
+    ],
+    [
+     "B.-F~ BEIGE~ , PARA USO ELECTR",
+     54418.16
+    ],
+    [
+     "IFM-F",
+     54107.66
+    ],
+    [
+     "ABB-F~ XT5N 630 TMA~ DE USO EL",
+     53902.189999999995
+    ],
+    [
+     "ABB~TRIPOLAR~PARA EQUIPOS DE M",
+     53715.92
+    ],
+    [
+     "ABB~ E6.2H/F 5000 EKIP DIP~ EL",
+     53359.16
+    ],
+    [
+     "ABB~ ART. 1SDA101657R1~ XT7S~",
+     52604.14
+    ],
+    [
+     "BECKHOFF-F",
+     50827.57000000001
+    ],
+    [
+     "SCHNEIDER-F~ ELECTRICO~ PARA U",
+     46916.620000000024
+    ],
+    [
+     "ABB~ ART. 1SDA101655R1: XT7S~",
+     42712.13
+    ],
+    [
+     "ABB~ ELECTRICOS~ CON UNA TENSI",
+     39979.780000000006
+    ],
+    [
+     "HITACHI",
+     36843.240000000005
+    ],
+    [
+     "ABB-F~1SDA068779R1~PARA UNA TE",
+     35863.36
+    ],
+    [
+     "PHOENIX-F",
+     34789.67
+    ]
+   ],
+   "partidas": {
+    "85362000": 3154,
+    "85369013": 1714,
+    "85366900": 613,
+    "85366100": 51,
+    "85367000": 21
+   }
+  },
+  "Instrumentacion de campo": {
+   "cif": 30405909.34,
+   "items": 7354,
+   "marcas": [
+    [
+     "ENDRESS + HAUSER",
+     1270
+    ],
+    [
+     "SIEMENS",
+     630
+    ],
+    [
+     "IFM ELECTRONIC-F",
+     319
+    ],
+    [
+     "DANFOSS",
+     310
+    ],
+    [
+     "ENDRESS-F",
+     276
+    ],
+    [
+     "FLEXIM-F",
+     272
+    ],
+    [
+     "MICRO MOTION-F",
+     215
+    ],
+    [
+     "KROHNE-F",
+     199
+    ],
+    [
+     "ROSEMOUNT-F",
+     192
+    ],
+    [
+     "YOKOGAWA-F",
+     191
+    ],
+    [
+     "SIEMENS-F",
+     166
+    ],
+    [
+     "ENDRESS",
+     160
+    ],
+    [
+     "IFM-F",
+     157
+    ],
+    [
+     "METSO-F",
+     124
+    ],
+    [
+     "ROSEMOUNT",
+     110
+    ],
+    [
+     "VOLKSWAGEN-F~ PARTE Y PIEZA~",
+     88
+    ],
+    [
+     "TESTO",
+     87
+    ],
+    [
+     "FLEXIM",
+     76
+    ],
+    [
+     "TIGERCAT INDUSTRIES-F",
+     68
+    ],
+    [
+     "MICRO MOTION",
+     68
+    ],
+    [
+     "VOLKSWAGEN-F~ PARTE Y PIEZA~ P",
+     66
+    ],
+    [
+     "ENDRESS+HAUSER",
+     65
+    ],
+    [
+     "ENDRESS HAUSSER",
+     45
+    ],
+    [
+     "CIDRA-F",
+     42
+    ],
+    [
+     "EMERSON",
+     42
+    ],
+    [
+     "SICK-F",
+     40
+    ],
+    [
+     "ENDRESS +HAUSER",
+     39
+    ],
+    [
+     "ASHCROFT~ XMG 160 1 1/2 NPT~ P",
+     39
+    ],
+    [
+     "EMERSON-F",
+     39
+    ],
+    [
+     "SMC C.-F",
+     37
+    ],
+    [
+     "HAWK-F",
+     35
+    ],
+    [
+     "TELEDYNE-F",
+     35
+    ],
+    [
+     "KROHNE",
+     35
+    ],
+    [
+     "FLUKE-F",
+     34
+    ],
+    [
+     "GEOR FISCHER-F",
+     34
+    ],
+    [
+     "PEUGEOT",
+     33
+    ],
+    [
+     "METSO",
+     33
+    ],
+    [
+     "ABB~266HRH~AUTOMATICO~PARA ELC",
+     29
+    ],
+    [
+     "GENEBRE-F",
+     29
+    ],
+    [
+     "FESTO-F",
+     27
+    ]
+   ],
+   "marcas_valor": [
+    [
+     "ENDRESS + HAUSER",
+     6068529.300000002
+    ],
+    [
+     "SIEMENS",
+     2205080.530000001
+    ],
+    [
+     "ENDRESS-F",
+     1907564.24
+    ],
+    [
+     "FLEXIM-F",
+     1410257.699999999
+    ],
+    [
+     "CIDRA-F",
+     1290247.11
+    ],
+    [
+     "MICRO MOTION-F",
+     1173257.8599999994
+    ],
+    [
+     "KROHNE-F",
+     1163090.0199999998
+    ],
+    [
+     "YOKOGAWA-F",
+     1111586.7999999998
+    ],
+    [
+     "ENDRESS",
+     898390.8400000007
+    ],
+    [
+     "SIEMENS-F",
+     858460.0500000003
+    ],
+    [
+     "METSO-F",
+     792086.35
+    ],
+    [
+     "IFM ELECTRONIC-F",
+     534008.2000000003
+    ],
+    [
+     "ROSEMOUNT",
+     414588.01999999967
+    ],
+    [
+     "DANFOSS",
+     397133.40000000014
+    ],
+    [
+     "ROSEMOUNT-F",
+     380795.98999999964
+    ],
+    [
+     "KROHNE",
+     349477.26
+    ],
+    [
+     "MITSUBISHI-F",
+     332838.79
+    ],
+    [
+     "ENDRESS+HAUSER",
+     297389.69000000006
+    ],
+    [
+     "EMERSON",
+     289774.58
+    ],
+    [
+     "TELEDYNE-F",
+     273503.28
+    ],
+    [
+     "FISHER~ 64SR/23, DE ALTA PRESI",
+     252942.13999999998
+    ],
+    [
+     "IFM-F",
+     232583.46999999994
+    ],
+    [
+     "METSO",
+     230018.68000000002
+    ],
+    [
+     "MICRO MOTION",
+     197311.23999999996
+    ],
+    [
+     "VEGA.-F",
+     179422.40000000002
+    ],
+    [
+     "HAWK-F",
+     164118.75999999995
+    ],
+    [
+     "ENDRESS +HAUSER",
+     162453.47000000003
+    ],
+    [
+     "TESTO",
+     160206.66
+    ],
+    [
+     "GEOR FISCHER-F",
+     159336.92
+    ],
+    [
+     "HONEYWELL-F",
+     151524.68999999997
+    ],
+    [
+     "ROTA YOKOGAWA-F",
+     150091.47
+    ],
+    [
+     "SISGEO-F",
+     144542.99999999997
+    ],
+    [
+     "ABB-F",
+     138877.99
+    ],
+    [
+     "ENDRESS HAUSSER",
+     127680.73000000004
+    ],
+    [
+     "SCHNEIDER-F~ DE AIRE~ USO INDU",
+     113019.9
+    ],
+    [
+     "ELTEK-F",
+     108297.42000000001
+    ],
+    [
+     "FLEXIM",
+     106016.93999999999
+    ],
+    [
+     "HACH-F",
+     101320.06000000001
+    ],
+    [
+     "ABB OY-F",
+     98011.94
+    ],
+    [
+     "ASHCROFT~ XMG 160 1 1/2 NPT~ P",
+     95985.68
+    ]
+   ],
+   "partidas": {
+    "90262090": 2061,
+    "90261090": 1798,
+    "90261010": 1406,
+    "90269000": 998,
+    "90262019": 435,
+    "90268090": 352,
+    "90259000": 244,
+    "90248000": 30,
+    "90249000": 30
+   }
+  },
+  "Detectores de gas y alarma": {
+   "cif": 1704996.98,
+   "items": 718,
+   "marcas": [
+    [
+     "HONEYWELL-F",
+     205
+    ],
+    [
+     "SIEMENS-F",
+     40
+    ],
+    [
+     "DANFOSS",
+     37
+    ],
+    [
+     "HONEYWELL",
+     25
+    ],
+    [
+     "SIEMENS",
+     25
+    ],
+    [
+     "TRUE DIGITAL-F",
+     17
+    ],
+    [
+     "WEG",
+     14
+    ],
+    [
+     "ABB~ CL2 RED~ 230V~ PARA SENAL",
+     12
+    ],
+    [
+     "ROCKWELL~ DE 22MM~ ELECTRICO",
+     12
+    ],
+    [
+     "ROCKWELL-F~ 70MM~ LUZ DE PILA~",
+     10
+    ],
+    [
+     "SCHNEIDER~ 120V~ APARTO DE SEN",
+     9
+    ],
+    [
+     "TIEGE TRADING-F",
+     9
+    ],
+    [
+     "ALLEN BRADLEY~ELECTRICA~APARAT",
+     8
+    ],
+    [
+     "ROCKWELL~ELECTRICO~APARATO DE",
+     8
+    ],
+    [
+     "R.STAHL-F",
+     7
+    ],
+    [
+     "ALLEN BRADLEY~DE 30 M",
+     6
+    ],
+    [
+     "GE-F",
+     6
+    ],
+    [
+     "ROCKWELL~ 22MM PILOT LIGTH~ AP",
+     6
+    ],
+    [
+     "ROCKWELL~800FP-P4PN7R~DE USO I",
+     6
+    ],
+    [
+     "ROCKWELL~ DE 22 MM~APARATO DE",
+     6
+    ],
+    [
+     "ROCKWELL~ DE",
+     5
+    ],
+    [
+     "FUJITEL",
+     5
+    ],
+    [
+     "ENDRESS + HAUSER",
+     5
+    ],
+    [
+     "ROCKWELL~ DE 70 MM~ PARTES DEA",
+     5
+    ],
+    [
+     "SIEMENS GAMESA",
+     5
+    ],
+    [
+     "HITACHI",
+     5
+    ],
+    [
+     "ABB~ CL2-515G~130V~ ACCESORIO",
+     4
+    ],
+    [
+     "IFM-F",
+     4
+    ],
+    [
+     "ROCKWELL~DE",
+     4
+    ],
+    [
+     "ALLEN BRADLEY~DE 50 MM~ CON LU",
+     4
+    ],
+    [
+     "ROCKWELL~ DE 22 MM~PARTES DE A",
+     4
+    ],
+    [
+     "ROCKWELL~ HORN AND XENON~ 120V",
+     4
+    ],
+    [
+     "ABB~ 1SFA619403R5202~ APARATO",
+     4
+    ],
+    [
+     "ROCKWELL~ DE 30MM~ ELECTRICOSD",
+     4
+    ],
+    [
+     "MSA-F",
+     3
+    ],
+    [
+     "DRAGER SAFETY - F",
+     3
+    ],
+    [
+     "TIEGE-F",
+     3
+    ],
+    [
+     "WAGO-F",
+     3
+    ],
+    [
+     "ALLEN BRADLEY",
+     3
+    ],
+    [
+     "ABB-F~1SFA619403R5232~USO INDU",
+     3
+    ]
+   ],
+   "marcas_valor": [
+    [
+     "HONEYWELL-F",
+     686577.68
+    ],
+    [
+     "DIGIT GREEN~ INDICADORES CON D",
+     117812.22
+    ],
+    [
+     "DANFOSS",
+     72243.08000000002
+    ],
+    [
+     "TRUE DIGITAL-F",
+     69309.78
+    ],
+    [
+     "TIEGE TRADING-F",
+     56201.880000000005
+    ],
+    [
+     "SIEMENS-F",
+     55278.36
+    ],
+    [
+     "~ DE SENALIZACION DE EMERGENCI",
+     51239.22
+    ],
+    [
+     "SIEMENS",
+     47925.21
+    ],
+    [
+     "GEPAVAL-F",
+     38893.71000000001
+    ],
+    [
+     "HONEYWELL",
+     37983.29
+    ],
+    [
+     "FUJITEL",
+     32593.91
+    ],
+    [
+     "ABB~ CL2 RED~ 230V~ PARA SENAL",
+     31178.570000000003
+    ],
+    [
+     "HONEYWELL~ MCXL~ SOLO PARA MED",
+     25957.41
+    ],
+    [
+     "R.STAHL-F",
+     23860.42
+    ],
+    [
+     "HITACHI",
+     22957.79
+    ],
+    [
+     "TIEGE-F",
+     21119.93
+    ],
+    [
+     "HONEYWELL-F~ METAL COMUN~ MEDI",
+     17834.75
+    ],
+    [
+     "VEGA-F",
+     15249.939999999999
+    ],
+    [
+     "T-F~ DIGITAL DE MULTIPLE ALCAN",
+     13680.14
+    ],
+    [
+     "ALLEN BRADLEY~ELECTRICA~APARAT",
+     13039.109999999999
+    ],
+    [
+     "SIEMENS GAMESA",
+     11864.810000000001
+    ],
+    [
+     "DIGITAL~ CON PANTALLA TACTIL,",
+     9690.5
+    ],
+    [
+     "ALSTOM-F",
+     8906.14
+    ],
+    [
+     "L~ 8493/11-12-2~ GENERADOR DE",
+     8888.27
+    ],
+    [
+     "WEG",
+     8374.28
+    ],
+    [
+     "RUSSELL-F",
+     8104.75
+    ],
+    [
+     "HONEYWELL~ ECCN/USML EAR99~ PA",
+     7756.37
+    ],
+    [
+     "GENETEC-F",
+     6740.75
+    ],
+    [
+     "JINGE E-TECHNOLOGY HK LIMITED-",
+     6533.84
+    ],
+    [
+     "MSA-F",
+     6004.209999999999
+    ],
+    [
+     "ROCKWELL~ DE 22MM~ ELECTRICO",
+     5889.729999999999
+    ],
+    [
+     "PWM SMD EBM O25WS4XGE KB~ ELE",
+     5823.0
+    ],
+    [
+     "HONEYWELL~ IFM ART. U2-1018S-P",
+     5721.66
+    ],
+    [
+     "MITSUBISHI-F",
+     5473.610000000001
+    ],
+    [
+     "ROCKWELL~ HORN AND XENON~ 120V",
+     5138.139999999999
+    ],
+    [
+     "HITACHI CONSTRUCTION-F",
+     4933.26
+    ],
+    [
+     "ABB~ 1SFA619403R5202~ APARATO",
+     4831.87
+    ],
+    [
+     "IFM-F",
+     4698.58
+    ],
+    [
+     "DRAGER SAFETY - F",
+     4677.51
+    ],
+    [
+     "R.STAHL",
+     4341.24
+    ]
+   ],
+   "partidas": {
+    "85318000": 342,
+    "85319000": 267,
+    "85312000": 109
+   }
+  }
+ },
+ "por_partida": {
+  "85044000": {
+   "cif": 57701178.54999997,
+   "items": 7088,
+   "fam": "Fuentes de poder y convertidores"
+  },
+  "85371000": {
+   "cif": 42799412.22999995,
+   "items": 4328,
+   "fam": "Controladores, PLC y modulos de E/S"
+  },
+  "85372090": {
+   "cif": 41745760.529999994,
+   "items": 167,
+   "fam": "Controladores, PLC y modulos de E/S"
+  },
+  "84818090": {
+   "cif": 32561307.549999937,
+   "items": 5313,
+   "fam": "Valvulas de control y proceso"
+  },
+  "85372010": {
+   "cif": 15237001.919999989,
+   "items": 113,
+   "fam": "Controladores, PLC y modulos de E/S"
+  },
+  "85176210": {
+   "cif": 13027468.900000013,
+   "items": 1425,
+   "fam": "Redes industriales (OT)"
+  },
+  "90278999": {
+   "cif": 12619315.620000005,
+   "items": 1371,
+   "fam": "Analizadores de proceso"
+  },
+  "85258900": {
+   "cif": 11539376.370000001,
+   "items": 962,
+   "fam": "Vision industrial"
+  },
+  "90328900": {
+   "cif": 9927114.270000001,
+   "items": 1681,
+   "fam": "Medida y control electrico"
+  },
+  "90261010": {
+   "cif": 9688420.880000005,
+   "items": 1406,
+   "fam": "Instrumentacion de campo"
+  },
+  "85389000": {
+   "cif": 9539635.55000001,
+   "items": 3675,
+   "fam": "Controladores, PLC y modulos de E/S"
+  },
+  "85176290": {
+   "cif": 9346019.760000013,
+   "items": 2293,
+   "fam": "Redes industriales (OT)"
+  },
+  "90261090": {
+   "cif": 8708557.190000003,
+   "items": 1798,
+   "fam": "Instrumentacion de campo"
+  },
+  "85049000": {
+   "cif": 7828965.610000001,
+   "items": 1090,
+   "fam": "Fuentes de poder y convertidores"
+  },
+  "90275000": {
+   "cif": 7784046.579999998,
+   "items": 397,
+   "fam": "Analizadores de proceso"
+  },
+  "85362000": {
+   "cif": 7609881.44,
+   "items": 3154,
+   "fam": "Aparatos de conexion y proteccion"
+  },
+  "84819000": {
+   "cif": 7126202.330000006,
+   "items": 2551,
+   "fam": "Valvulas de control y proceso"
+  },
+  "90279090": {
+   "cif": 6890413.2899999805,
+   "items": 2673,
+   "fam": "Analizadores de proceso"
+  },
+  "90262090": {
+   "cif": 6007890.939999993,
+   "items": 2061,
+   "fam": "Instrumentacion de campo"
+  },
+  "84812020": {
+   "cif": 6005152.6899999995,
+   "items": 770,
+   "fam": "Valvulas de control y proceso"
+  },
+  "90271010": {
+   "cif": 5922004.569999997,
+   "items": 552,
+   "fam": "Analizadores de proceso"
+  },
+  "90273000": {
+   "cif": 3339396.7000000007,
+   "items": 134,
+   "fam": "Analizadores de proceso"
+  },
+  "90303900": {
+   "cif": 3326658.4499999993,
+   "items": 304,
+   "fam": "Medida y control electrico"
+  },
+  "84812010": {
+   "cif": 3164626.3,
+   "items": 269,
+   "fam": "Valvulas de control y proceso"
+  },
+  "85369013": {
+   "cif": 3140143.97,
+   "items": 1714,
+   "fam": "Aparatos de conexion y proteccion"
+  },
+  "90308400": {
+   "cif": 3074081.210000001,
+   "items": 296,
+   "fam": "Medida y control electrico"
+  },
+  "90269000": {
+   "cif": 2876723.150000004,
+   "items": 998,
+   "fam": "Instrumentacion de campo"
+  },
+  "85381000": {
+   "cif": 2777483.1200000015,
+   "items": 561,
+   "fam": "Controladores, PLC y modulos de E/S"
+  },
+  "90303300": {
+   "cif": 2341678.64,
+   "items": 559,
+   "fam": "Medida y control electrico"
+  },
+  "90308900": {
+   "cif": 2213509.440000001,
+   "items": 123,
+   "fam": "Medida y control electrico"
+  },
+  "90272000": {
+   "cif": 1999174.38,
+   "items": 56,
+   "fam": "Analizadores de proceso"
+  },
+  "84811000": {
+   "cif": 1862107.4599999983,
+   "items": 709,
+   "fam": "Valvulas de control y proceso"
+  },
+  "90303100": {
+   "cif": 1779855.8699999996,
+   "items": 362,
+   "fam": "Medida y control electrico"
+  },
+  "90268090": {
+   "cif": 1695037.1599999997,
+   "items": 352,
+   "fam": "Instrumentacion de campo"
+  },
+  "90328100": {
+   "cif": 1685038.0999999999,
+   "items": 283,
+   "fam": "Medida y control electrico"
+  },
+  "84814000": {
+   "cif": 1662244.0699999996,
+   "items": 579,
+   "fam": "Valvulas de control y proceso"
+  },
+  "84813000": {
+   "cif": 1533682.3400000008,
+   "items": 426,
+   "fam": "Valvulas de control y proceso"
+  },
+  "85043300": {
+   "cif": 1419121.79,
+   "items": 22,
+   "fam": "Fuentes de poder y convertidores"
+  },
+  "90271090": {
+   "cif": 1346109.8099999996,
+   "items": 219,
+   "fam": "Analizadores de proceso"
+  },
+  "90303200": {
+   "cif": 1316351.6700000009,
+   "items": 201,
+   "fam": "Medida y control electrico"
+  },
+  "85366900": {
+   "cif": 1268533.3600000003,
+   "items": 613,
+   "fam": "Aparatos de conexion y proteccion"
+  },
+  "84818010": {
+   "cif": 1238253.1,
+   "items": 91,
+   "fam": "Valvulas de control y proceso"
+  },
+  "90329000": {
+   "cif": 1227924.3699999982,
+   "items": 421,
+   "fam": "Medida y control electrico"
+  },
+  "85176900": {
+   "cif": 1214415.86,
+   "items": 123,
+   "fam": "Redes industriales (OT)"
+  },
+  "85043100": {
+   "cif": 1099479.7500000002,
+   "items": 441,
+   "fam": "Fuentes de poder y convertidores"
+  },
+  "85177900": {
+   "cif": 876390.82,
+   "items": 307,
+   "fam": "Redes industriales (OT)"
+  },
+  "85319000": {
+   "cif": 855761.9700000006,
+   "items": 267,
+   "fam": "Detectores de gas y alarma"
+  },
+  "90262019": {
+   "cif": 779274.4899999992,
+   "items": 435,
+   "fam": "Instrumentacion de campo"
+  },
+  "85176220": {
+   "cif": 690869.9299999999,
+   "items": 31,
+   "fam": "Redes industriales (OT)"
+  },
+  "85045000": {
+   "cif": 558877.5400000002,
+   "items": 194,
+   "fam": "Fuentes de poder y convertidores"
+  },
+  "90283090": {
+   "cif": 549238.5700000003,
+   "items": 132,
+   "fam": "Medida y control electrico"
+  },
+  "85258100": {
+   "cif": 539185.43,
+   "items": 64,
+   "fam": "Vision industrial"
+  },
+  "85318000": {
+   "cif": 506718.07999999984,
+   "items": 342,
+   "fam": "Detectores de gas y alarma"
+  },
+  "90322000": {
+   "cif": 409029.03000000026,
+   "items": 306,
+   "fam": "Medida y control electrico"
+  },
+  "90301000": {
+   "cif": 372342.2699999999,
+   "items": 29,
+   "fam": "Medida y control electrico"
+  },
+  "85312000": {
+   "cif": 342516.92999999976,
+   "items": 109,
+   "fam": "Detectores de gas y alarma"
+  },
+  "90259000": {
+   "cif": 257223.95000000004,
+   "items": 244,
+   "fam": "Instrumentacion de campo"
+  },
+  "90248000": {
+   "cif": 225385.49,
+   "items": 30,
+   "fam": "Instrumentacion de campo"
+  },
+  "90278100": {
+   "cif": 207579.36000000002,
+   "items": 2,
+   "fam": "Analizadores de proceso"
+  },
+  "90304000": {
+   "cif": 198457.63000000003,
+   "items": 35,
+   "fam": "Medida y control electrico"
+  },
+  "90309000": {
+   "cif": 192912.63000000003,
+   "items": 72,
+   "fam": "Medida y control electrico"
+  },
+  "90249000": {
+   "cif": 167396.08999999994,
+   "items": 30,
+   "fam": "Instrumentacion de campo"
+  },
+  "90283010": {
+   "cif": 152874.61000000004,
+   "items": 107,
+   "fam": "Medida y control electrico"
+  },
+  "85258300": {
+   "cif": 149793.44,
+   "items": 31,
+   "fam": "Vision industrial"
+  },
+  "85043200": {
+   "cif": 127995.11000000009,
+   "items": 91,
+   "fam": "Fuentes de poder y convertidores"
+  },
+  "90302000": {
+   "cif": 112685.36999999998,
+   "items": 27,
+   "fam": "Medida y control electrico"
+  },
+  "85367000": {
+   "cif": 82270.87000000002,
+   "items": 21,
+   "fam": "Aparatos de conexion y proteccion"
+  },
+  "85258200": {
+   "cif": 21424.02,
+   "items": 14,
+   "fam": "Vision industrial"
+  },
+  "85366100": {
+   "cif": 21237.129999999997,
+   "items": 51,
+   "fam": "Aparatos de conexion y proteccion"
+  },
+  "90289000": {
+   "cif": 4643.62,
+   "items": 4,
+   "fam": "Medida y control electrico"
+  }
+ },
+ "por_pais": {
+  "336": 75355519.56999977,
+  "225": 58821351.08000004,
+  "563": 50131586.4099999,
+  "512": 26885050.429999955,
+  "220": 20585824.41000003,
+  "216": 13416402.84000003,
+  "504": 12259507.919999972,
+  "317": 11132147.269999966,
+  "904": 10322296.480000038,
+  "331": 9193110.529999986,
+  "505": 8856110.690000022,
+  "528": 7686940.009999997,
+  "319": 7241478.009999999,
+  "202": 6532231.26,
+  "506": 6255229.380000001,
+  "507": 5962171.99000002,
+  "517": 5927598.609999998,
+  "508": 4491168.119999997,
+  "226": 4203806.619999998,
+  "510": 4152146.5299999993,
+  "549": 4086790.84,
+  "511": 3586759.4099999988,
+  "509": 2982744.490000001,
+  "406": 2605169.6299999994,
+  "224": 2572783.760000001,
+  "332": 2193703.2899999996,
+  "554": 2139737.79,
+  "330": 2128651.5199999996,
+  "544": 2050883.83,
+  "515": 2037911.8500000003,
+  "329": 1234072.5600000005,
+  "223": 1001254.3499999999,
+  "335": 993741.7300000001,
+  "333": 755363.4199999996,
+  "210": 745811.61,
+  "325": 625368.91,
+  "219": 560261.18,
+  "328": 492339.18999999994,
+  "519": 451699.29000000015,
+  "523": 427226.4,
+  "522": 358284.92999999993,
+  "553": 356329.83,
+  "124": 340648.89,
+  "306": 316932.9399999999,
+  "405": 297186.91000000003,
+  "530": 283373.12000000005,
+  "112": 229423.17999999996,
+  "548": 189778.67000000007,
+  "514": 166952.75999999998,
+  "218": 155813.58
+ },
+ "por_mes": {
+  "abril 2025": 32358747.970000036,
+  "enero 2025": 32747409.41000002,
+  "febrero 2025": 32694480.409999873,
+  "mayo 2025": 34200478.21999991,
+  "noviembre 2025": 26154646.019999944,
+  "octubre 2025": 31847132.11999998,
+  "septiembre 2025": 28768551.870000098,
+  "agosto 2025": 31702652.30999994,
+  "diciembre 2025": 30160126.780000083,
+  "julio 2025": 39478749.82999991,
+  "junio 2025": 36208005.94999989,
+  "marzo 2025": 30297860.330000006
+ }
+}
