@@ -14,11 +14,9 @@ BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 D = os.path.join(BASE, "datos")
 OUT = os.path.join(BASE, "artefactos", "personas_por_area.html")
 
-p = json.load(open(os.path.join(D, "personas_por_area_barrido.json"), encoding="utf-8"))
+p = json.load(open(os.path.join(D, "personas_todas.json"), encoding="utf-8"))
 # el archivo tiene metadatos + el mapa por empresa (cambió de forma al fusionar)
-EMP = p.get("por_empresa") or {k: v for k, v in p.items()
-                               if isinstance(v, dict) and k not in
-                               ("fuente", "advertencia", "por_empresa")}
+EMP = p["por_empresa"]
 
 # la matriz, para cruzar: qué área compra cada línea
 try:
