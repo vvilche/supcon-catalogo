@@ -38,7 +38,7 @@ def cargar(n):
     return d if isinstance(d, dict) else {}
 
 CAP = {}
-for arch in ["fichas_1_datos.json","fichas_2_datos.json","fichas_3_datos.json","fichas_4_datos.json","fichas_5_datos.json","fichas_6_datos.json"]:
+for arch in ["fichas_1_datos.json","fichas_2_datos.json","fichas_3_datos.json","fichas_4_datos.json","fichas_5_datos.json","fichas_6_datos.json","fichas_7_datos.json","fichas_8_datos.json"]:
     for nombre, x in cargar(arch).items():
         if not isinstance(x, dict): continue
         crit = sum(json.dumps(x.get(c), ensure_ascii=False).count(PORC) for c in
@@ -92,6 +92,9 @@ LINEAS = collections.OrderedDict([
      "Analítica (línea completa Hobre)":                 P_ANA,
      "CEMS 5000":                                        P_ANA,
      "Flare CEMS":                                       P_ANA,
+     "HIFISC (acondicionamiento de muestra de gas)":      P_ANA,
+     "NICOSYS-3 (detección de CO en secadores)":          P_ANA,
+     "HICOSYS AQUA (medición de H2O en secado)":          P_ANA,
    }}),
  ("Válvulas", {
    "desc": "Línea completa de válvulas de control de SUPCON Fluid: vástago deslizante, bola, mariposa, excéntrica y especiales, más el posicionador CVP2000. Entra por partida arancelaria, así que el mercado es el importado real.",
@@ -116,6 +119,9 @@ LINEAS = collections.OrderedDict([
      "ECS-700 (DCS)":                                      "DCS / Controladores (ECS-700, OMC)",
      "SmartEIO y APL (Ethernet al campo)":                 "DCS / Controladores (ECS-700, OMC)",
      "GW Series (gateway de datos)":                       "DCS / Controladores (ECS-700, OMC)",
+     "SAMS (gestión de activos de instrumentos)":          "DCS / Controladores (ECS-700, OMC)",
+     "FF Foundation Fieldbus (sobre ECS-700)":             "DCS / Controladores (ECS-700, OMC)",
+     "JX-300XP (plataforma PCS)":                          "DCS / Controladores (ECS-700, OMC)",
    }}),
  ("PLC", {
    "desc": "Controladores lógicos programables, incluida la variante de seguridad.",

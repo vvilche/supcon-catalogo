@@ -264,6 +264,31 @@
    "medible": true,
    "productos": [
     {
+     "producto": "NICOSYS-3 (detección de CO en secadores)",
+     "familia": "Analítica",
+     "mercado": "Analizadores de proceso (Hobre)",
+     "mercado_usd": 44254325.27,
+     "mercado_items": 5733,
+     "rivales_chile": [
+      "SIEMENS",
+      "ENDRESS + HAUSER",
+      "MSA-F",
+      "WATERS-F"
+     ],
+     "nicho": null,
+     "rivales_declarados": null,
+     "P": 7,
+     "M": 5,
+     "R": "VERDE",
+     "R_nota": "🟢 Podemos responder hoy",
+     "battlecard": true,
+     "criticos": 1,
+     "argumentos": 6,
+     "objeciones": 5,
+     "score": 35,
+     "descripcion": "Sistema de acondicionamiento de muestra y detección de monóxido de carbono (CO) en corrientes gaseosas, para secadores por atomización. Desarrollado junto a NIZO (Instituto Nacional Holandés de Investigación Láctea) hace"
+    },
+    {
      "producto": "CEMS 5000",
      "familia": "Analizadores SUPCON",
      "mercado": "Analizadores de proceso (Hobre)",
@@ -287,6 +312,31 @@
      "objeciones": 4,
      "score": 27.5,
      "descripcion": "Sistema de monitoreo continuo de emisiones (CEMS) de tipo extractivo frio-seco, para medición de SO2, NOx, CO, CO2, material particulado y parametros de humo en fuentes fijas. Incluye analizador de gas EM-5 por UV-DOAS, "
+    },
+    {
+     "producto": "HIFISC (acondicionamiento de muestra de gas)",
+     "familia": "Analítica",
+     "mercado": "Analizadores de proceso (Hobre)",
+     "mercado_usd": 44254325.27,
+     "mercado_items": 5733,
+     "rivales_chile": [
+      "SIEMENS",
+      "ENDRESS + HAUSER",
+      "MSA-F",
+      "WATERS-F"
+     ],
+     "nicho": null,
+     "rivales_declarados": null,
+     "P": 6,
+     "M": 5,
+     "R": "AMARILLO",
+     "R_nota": "🟡 Respondemos: falta el argumento competitivo (no lo dio el fabricante)",
+     "battlecard": false,
+     "criticos": 0,
+     "argumentos": 6,
+     "objeciones": 5,
+     "score": 21.0,
+     "descripcion": "Sistema modular de acondicionamiento de muestra para gas y gas licuado (LPG), de Hobré. Combina dos componentes probados por más de 10 años: la sonda de impacto de flujo (Flow Impact Probe) y el filtro de membrana multif"
     },
     {
      "producto": "WIM COMPAS",
@@ -437,6 +487,31 @@
      "objeciones": 4,
      "score": 12.2,
      "descripcion": "Sistema de monitoreo de gas de antorcha (Flare Monitoring System) para cumplimiento de regulación de VOC altamente reactivos (HRVOC) y BTU. Integra analizador de BTU Hobre, cromatografo de gas, caudalimetro ultrasonico, "
+    },
+    {
+     "producto": "HICOSYS AQUA (medición de H2O en secado)",
+     "familia": "Analítica",
+     "mercado": "Analizadores de proceso (Hobre)",
+     "mercado_usd": 44254325.27,
+     "mercado_items": 5733,
+     "rivales_chile": [
+      "SIEMENS",
+      "ENDRESS + HAUSER",
+      "MSA-F",
+      "WATERS-F"
+     ],
+     "nicho": null,
+     "rivales_declarados": null,
+     "P": 2.5,
+     "M": 5,
+     "R": "ROJO",
+     "R_nota": "🔴 No podemos responder: falta el material de base para cotizar",
+     "battlecard": false,
+     "criticos": 5,
+     "argumentos": 4,
+     "objeciones": 3,
+     "score": 3.8,
+     "descripcion": "Analizador de humedad (H2O) para secadores por atomización, de la línea HICOSYS de Hobré. Es la versión dedicada exclusivamente a la medición de agua en el proceso de secado, dentro de la familia de productos para seguri"
     }
    ]
   },
@@ -701,6 +776,56 @@
      "descripcion": "Arquitectura de instrumentación digital de SUPCON. El SmartEIO es el gabinete de IO remoto de 96 puntos, con certificación IECEx de protección contra explosión para uso global. APL (Advanced Physical Layer) lleva Etherne"
     },
     {
+     "producto": "SAMS (gestión de activos de instrumentos)",
+     "familia": "DCS",
+     "mercado": "DCS / Controladores (ECS-700, OMC)",
+     "mercado_usd": 112543952.93,
+     "mercado_items": 9297,
+     "rivales_chile": [
+      "SIEMENS",
+      "SIEMENS-F",
+      "HITACHI ENERGY~ ELK-3 550KV~ A",
+      "HYOSUNG HEAVY-F"
+     ],
+     "nicho": null,
+     "rivales_declarados": null,
+     "P": 3.5,
+     "M": 7,
+     "R": "AMARILLO",
+     "R_nota": "🟡 Respondemos: falta el argumento competitivo (no lo dio el fabricante)",
+     "battlecard": false,
+     "criticos": 2,
+     "argumentos": 5,
+     "objeciones": 4,
+     "score": 17.1,
+     "descripcion": "Sistema de gestión de activos de SUPCON (SUPCON Asset Management System). Es el componente de software de la solución de gestión de instrumentos inteligentes: administra instrumentos HART y Foundation Fieldbus, con monit"
+    },
+    {
+     "producto": "FF Foundation Fieldbus (sobre ECS-700)",
+     "familia": "DCS",
+     "mercado": "DCS / Controladores (ECS-700, OMC)",
+     "mercado_usd": 112543952.93,
+     "mercado_items": 9297,
+     "rivales_chile": [
+      "SIEMENS",
+      "SIEMENS-F",
+      "HITACHI ENERGY~ ELK-3 550KV~ A",
+      "HYOSUNG HEAVY-F"
+     ],
+     "nicho": null,
+     "rivales_declarados": null,
+     "P": 3.5,
+     "M": 7,
+     "R": "AMARILLO",
+     "R_nota": "🟡 Respondemos: falta el argumento competitivo (no lo dio el fabricante)",
+     "battlecard": false,
+     "criticos": 2,
+     "argumentos": 5,
+     "objeciones": 4,
+     "score": 17.1,
+     "descripcion": "Sistema Foundation Fieldbus de SUPCON, montado sobre la plataforma ECS-700. Conforma los estándares 61b de sistema host FF y cubre los requisitos de aplicación de un proyecto Fieldbus. El sistema usa FCS simplificado, co"
+    },
+    {
      "producto": "ESP-iSYS (base de datos en tiempo real)",
      "familia": "Plataforma y gestión",
      "mercado": "DCS / Controladores (ECS-700, OMC)",
@@ -799,6 +924,31 @@
      "objeciones": 3,
      "score": 5.2,
      "descripcion": "Gateway inteligente de la serie GW de SUPCON, para adquisición y conversión de datos de campo. Incluye manual de usuario bilingüe y el manual específico del modelo GW002."
+    },
+    {
+     "producto": "JX-300XP (plataforma PCS)",
+     "familia": "DCS",
+     "mercado": "DCS / Controladores (ECS-700, OMC)",
+     "mercado_usd": 112543952.93,
+     "mercado_items": 9297,
+     "rivales_chile": [
+      "SIEMENS",
+      "SIEMENS-F",
+      "HITACHI ENERGY~ ELK-3 550KV~ A",
+      "HYOSUNG HEAVY-F"
+     ],
+     "nicho": null,
+     "rivales_declarados": null,
+     "P": 2.5,
+     "M": 7,
+     "R": "ROJO",
+     "R_nota": "🔴 No podemos responder: falta el material de base para cotizar",
+     "battlecard": false,
+     "criticos": 6,
+     "argumentos": 4,
+     "objeciones": 4,
+     "score": 5.2,
+     "descripcion": "Plataforma de sistema de control de proceso Webfield JX-300XP, de una generación anterior al ECS-700 y aún comercializada por SUPCON. Se ofrece como alternativa para plantas de menor tamaño o para proyectos con presupues"
     }
    ]
   },

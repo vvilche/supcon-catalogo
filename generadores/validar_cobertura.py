@@ -126,28 +126,42 @@ for nombre, patrones, area in INVENTARIO:
     # fichado si alguna ficha menciona el patron en su nombre
     fich = any(any(re.search(re.escape(p), n, re.I) for p in patrones) for n in FICHADO)
     mat  = en_material(patrones)
-    estado = ("FICHADO" if fich else ("SIN FICHA" if mat else "SIN MATERIAL"))
+    # CORRECCION DE UN ERROR PROPIO: antes se declaraba "SIN MATERIAL" mirando SOLO el arbol
+    # local, y asi se descartaron HIFISC y NICOSYS-3 — que tienen pagina y datasheet publico.
+    # Ahora, cuando no aparece en el material local, el estado es "VERIFICAR EN WEB" y no una
+    # conclusion: la ausencia de archivo NO es ausencia de producto.
+    if fich:
+        estado = "FICHADO"
+    elif mat:
+        estado = "SIN FICHA"
+    else:
+        estado = "VERIFICAR EN WEB"
     res.append({"producto":nombre,"area":area,"material":mat,"fichado":fich,"estado":estado})
 
-por_area = collections.defaultdict(lambda: {"total":0,"fichado":0,"sin_ficha":0,"sin_material":0})
+por_area = collections.defaultdict(lambda: {"total":0,"fichado":0,"sin_ficha":0,"a_verificar_web":0})
 for r in res:
     a = por_area[r["area"]]
     a["total"] += 1
     if r["estado"]=="FICHADO": a["fichado"] += 1
     elif r["estado"]=="SIN FICHA": a["sin_ficha"] += 1
-    else: a["sin_material"] += 1
+    else: a["a_verificar_web"] += 1
 
 for area, a in por_area.items():
-    print(f"[{area}] {a['fichado']}/{a['total']} fichado | {a['sin_ficha']} con material sin ficha | {a['sin_material']} sin material")
+    print(f"[{area}] {a['fichado']}/{a['total']} fichado | {a['sin_ficha']} con material sin ficha | {a['a_verificar_web']} a verificar en web")
     for r in res:
         if r["area"]==area and r["estado"]!="FICHADO":
-            marca = "CON MATERIAL, SIN FICHA" if r["material"] else "sin material"
+            marca = "CON MATERIAL, SIN FICHA" if r["material"] else "VERIFICAR EN LA WEB DEL FABRICANTE"
             print(f"      - {r['producto'][:52]:54s} {marca}")
     print()
 
 faltan = [r for r in res if r["estado"]=="SIN FICHA"]
+web = [r for r in res if r["estado"]=="VERIFICAR EN WEB"]
 print(f"TOTAL: {len(res)} productos/áreas | fichado {sum(1 for r in res if r['estado']=='FICHADO')} | "
-      f"con material sin ficha {len(faltan)} | sin material {sum(1 for r in res if r['estado']=='SIN MATERIAL')}")
+      f"con material sin ficha {len(faltan)} | A VERIFICAR EN WEB {len(web)}")
+if web:
+    print("\nOJO: los siguientes NO se declaran ausentes. La ausencia de archivo local no es "
+          "ausencia de producto: hay que buscar en la web del fabricante antes de concluir.")
+    for r in web: print(f"    - {r['producto']}")
 
 json.dump({"resumen":{k:dict(v) for k,v in por_area.items()},
   "detalle":res,"total":len(res),

@@ -4,49 +4,49 @@
    "total": 11,
    "fichado": 10,
    "sin_ficha": 1,
-   "sin_material": 0
+   "a_verificar_web": 0
   },
   "Analítica": {
    "total": 9,
-   "fichado": 6,
-   "sin_ficha": 1,
-   "sin_material": 2
+   "fichado": 9,
+   "sin_ficha": 0,
+   "a_verificar_web": 0
   },
   "Válvulas": {
    "total": 3,
    "fichado": 1,
    "sin_ficha": 2,
-   "sin_material": 0
+   "a_verificar_web": 0
   },
   "DCS": {
    "total": 9,
-   "fichado": 5,
-   "sin_ficha": 4,
-   "sin_material": 0
+   "fichado": 9,
+   "sin_ficha": 0,
+   "a_verificar_web": 0
   },
   "PLC": {
    "total": 3,
-   "fichado": 2,
-   "sin_ficha": 1,
-   "sin_material": 0
+   "fichado": 3,
+   "sin_ficha": 0,
+   "a_verificar_web": 0
   },
   "SIS": {
    "total": 3,
-   "fichado": 2,
-   "sin_ficha": 1,
-   "sin_material": 0
+   "fichado": 3,
+   "sin_ficha": 0,
+   "a_verificar_web": 0
   },
   "Software": {
    "total": 26,
-   "fichado": 16,
-   "sin_ficha": 10,
-   "sin_material": 0
+   "fichado": 18,
+   "sin_ficha": 8,
+   "a_verificar_web": 0
   },
   "Eléctrico": {
    "total": 9,
    "fichado": 0,
    "sin_ficha": 8,
-   "sin_material": 1
+   "a_verificar_web": 1
   }
  },
  "detalle": [
@@ -173,22 +173,22 @@
    "producto": "HICOSYS / BICOSYS",
    "area": "Analítica",
    "material": true,
-   "fichado": false,
-   "estado": "SIN FICHA"
+   "fichado": true,
+   "estado": "FICHADO"
   },
   {
    "producto": "HIFISC (acondicionamiento)",
    "area": "Analítica",
    "material": false,
-   "fichado": false,
-   "estado": "SIN MATERIAL"
+   "fichado": true,
+   "estado": "FICHADO"
   },
   {
    "producto": "NICOSYS-3",
    "area": "Analítica",
    "material": false,
-   "fichado": false,
-   "estado": "SIN MATERIAL"
+   "fichado": true,
+   "estado": "FICHADO"
   },
   {
    "producto": "Válvulas SUPCON FLUID (13 series)",
@@ -215,8 +215,8 @@
    "producto": "ECS-700 (DCS)",
    "area": "DCS",
    "material": true,
-   "fichado": false,
-   "estado": "SIN FICHA"
+   "fichado": true,
+   "estado": "FICHADO"
   },
   {
    "producto": "OMC (control inteligente)",
@@ -243,22 +243,22 @@
    "producto": "SmartEIO (IO remoto)",
    "area": "DCS",
    "material": true,
-   "fichado": false,
-   "estado": "SIN FICHA"
+   "fichado": true,
+   "estado": "FICHADO"
   },
   {
    "producto": "APL (Ethernet al campo)",
    "area": "DCS",
    "material": true,
-   "fichado": false,
-   "estado": "SIN FICHA"
+   "fichado": true,
+   "estado": "FICHADO"
   },
   {
    "producto": "GW Series (gateway)",
    "area": "DCS",
    "material": true,
-   "fichado": false,
-   "estado": "SIN FICHA"
+   "fichado": true,
+   "estado": "FICHADO"
   },
   {
    "producto": "CCS T9100 (compresores)",
@@ -292,8 +292,8 @@
    "producto": "G5Pro Safety",
    "area": "PLC",
    "material": true,
-   "fichado": false,
-   "estado": "SIN FICHA"
+   "fichado": true,
+   "estado": "FICHADO"
   },
   {
    "producto": "TCS-900 (SIS)",
@@ -313,8 +313,8 @@
    "producto": "HIPPS",
    "area": "SIS",
    "material": true,
-   "fichado": false,
-   "estado": "SIN FICHA"
+   "fichado": true,
+   "estado": "FICHADO"
   },
   {
    "producto": "InPlant APC",
@@ -425,8 +425,8 @@
    "producto": "MPS5000",
    "area": "Software",
    "material": true,
-   "fichado": false,
-   "estado": "SIN FICHA"
+   "fichado": true,
+   "estado": "FICHADO"
   },
   {
    "producto": "PRIDE",
@@ -439,8 +439,8 @@
    "producto": "Q-Lab (SPC)",
    "area": "Software",
    "material": true,
-   "fichado": false,
-   "estado": "SIN FICHA"
+   "fichado": true,
+   "estado": "FICHADO"
   },
   {
    "producto": "TPT (IA industrial)",
@@ -538,7 +538,7 @@
    "area": "Eléctrico",
    "material": false,
    "fichado": false,
-   "estado": "SIN MATERIAL"
+   "estado": "VERIFICAR EN WEB"
   },
   {
    "producto": "Fermentation Industry solution",
@@ -563,6 +563,6 @@
   }
  ],
  "total": 73,
- "fichado": 42,
- "sin_ficha": 28
+ "fichado": 53,
+ "sin_ficha": 19
 }
