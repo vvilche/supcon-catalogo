@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Catálogo SUPCON</title><style>
+:root{--bg:#f8fafc;--card:#fff;--bd:#e2e8f0;--tx:#0f172a;--mu:#64748b;--ac:#2563eb;--acs:#eff6ff;--am:#d97706}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--tx);font-family:Inter,-apple-system,sans-serif;font-size:15px;line-height:1.55;padding:30px 26px 80px}
+.wrap{max-width:1280px;margin:0 auto}
+.hero{background:var(--card);border:1px solid var(--bd);border-radius:20px;padding:26px 30px;margin-bottom:18px}
+.hero h1{font-size:25px;font-weight:650;letter-spacing:-.4px;margin-bottom:6px}
+.hero p{color:var(--mu);font-size:14.5px;max-width:840px}
+.stats{display:flex;gap:34px;margin-top:20px;padding-top:18px;border-top:1px solid var(--bd);flex-wrap:wrap}
+.stat b{display:block;font-size:26px;font-weight:650;font-family:"IBM Plex Mono",monospace}
+.stat span{font-size:11.5px;color:var(--mu);text-transform:uppercase;letter-spacing:.5px}
+.filt{display:flex;gap:9px;flex-wrap:wrap;margin-bottom:18px;align-items:center}
+.chip{border:1px solid var(--bd);background:var(--card);border-radius:100px;padding:7px 15px;font-size:13px;cursor:pointer;color:var(--mu);user-select:none}
+.chip.on{background:var(--ac);border-color:var(--ac);color:#fff}
+.search{border:1px solid var(--bd);border-radius:100px;padding:8px 15px;font-size:13.5px;font-family:inherit;min-width:260px}
+.fam{margin-bottom:28px}
+.fam-h{display:flex;align-items:baseline;gap:11px;margin-bottom:12px}
+.fam-h h2{font-size:17.5px;font-weight:620}
+.fam-h .org{font-size:11.5px;background:var(--acs);color:var(--ac);border-radius:100px;padding:3px 11px;font-weight:550}
+details.prod{background:var(--card);border:1px solid var(--bd);border-left:3px solid var(--ac);border-radius:18px;margin-bottom:10px;overflow:hidden}
+details.prod[open]{border-color:#94a3b8;box-shadow:0 1px 3px rgba(15,23,42,.06)}
+summary.p-sum{padding:16px 20px;cursor:pointer;display:flex;align-items:center;gap:13px;list-style:none;transition:background .12s}
+summary.p-sum:hover{background:#f8fafc}
+summary.p-sum::-webkit-details-marker{display:none}
+.p-name{font-size:15.5px;font-weight:620;min-width:190px;color:var(--ac)}
+.p-rol{color:var(--mu);font-size:13px;flex:1}
+.p-badge{font-size:11px;border:1px solid var(--bd);border-radius:100px;padding:3px 10px;color:var(--mu);white-space:nowrap}
+.caret{color:#fff;background:var(--ac);font-size:11px;transition:transform .15s;font-weight:700;
+         width:22px;height:22px;min-width:22px;border-radius:50%;display:flex;align-items:center;
+         justify-content:center;line-height:1}
+details[open] .caret{transform:rotate(90deg)}
+.p-body{padding:2px 20px 20px;border-top:1px solid var(--bd);background:#fcfdff}
+.p-body h4{font-size:11.5px;text-transform:uppercase;letter-spacing:.6px;color:var(--mu);margin:17px 0 8px;font-weight:600}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1px;background:var(--bd);border:1px solid var(--bd);border-radius:12px;overflow:hidden}
+.kv{background:var(--card);padding:9px 12px}
+.kv .k{font-size:11.5px;color:var(--mu);margin-bottom:2px}
+.kv .v{font-size:13px;font-family:"IBM Plex Mono",monospace}
+.tags{display:flex;flex-wrap:wrap;gap:6px}
+.tag{background:var(--acs);color:#1e40af;border-radius:100px;padding:4px 12px;font-size:12.5px}
+.aviso{background:#fffbeb;border-left:3px solid var(--am);border-radius:8px;padding:10px 13px;font-size:13px;color:#78350f;margin-top:13px}
+.fuente{margin-top:14px;font-size:11.5px;color:var(--mu);font-family:"IBM Plex Mono",monospace;word-break:break-all}
+.foot{margin-top:30px;text-align:center;font-size:12px;color:var(--mu)}
+</style></head><body><div class="wrap">
+<div class="hero"><h1>Catálogo SUPCON</h1>
+<p>Todo el material de producto del árbol <code>ConocimientoSupcon</code>, agrupado por familia.
+Solo fichas con contenido real: 55 de 59 archivos. Las 4 que no se leían
+(1 PDF escaneado + 3 comprimidos) fueron recuperadas por OCR y descompresión.</p>
+<div class="stats">
+<div class="stat"><b>55</b><span>Fichas</span></div>
+<div class="stat"><b>12</b><span>Familias</span></div>
+<div class="stat"><b id="c-vis">0</b><span>Visibles</span></div>
+<div class="stat"><b>485,294</b><span>Caracteres</span></div>
+</div></div>
+<div class="filt"><span class="chip on" data-f="*">Todas</span>
+<span class="chip" data-f="PLC">PLC</span><span class="chip" data-f="DCS / OMC (software de operación)">DCS / OMC (software de operación)</span><span class="chip" data-f="Software de proceso (InPlant/APC)">Software de proceso (InPlant/APC)</span><span class="chip" data-f="Plataforma (supOS/TPT/UCS/APL)">Plataforma (supOS/TPT/UCS/APL)</span><span class="chip" data-f="CCS (control de compresores)">CCS (control de compresores)</span><span class="chip" data-f="PRIDE (monitoreo de activos)">PRIDE (monitoreo de activos)</span><span class="chip" data-f="Smart Site">Smart Site</span><span class="chip" data-f="ESP i-SYS">ESP i-SYS</span><span class="chip" data-f="Analizadores">Analizadores</span><span class="chip" data-f="Seguridad (SIS)">Seguridad (SIS)</span><span class="chip" data-f="Ciberseguridad OT">Ciberseguridad OT</span><span class="chip" data-f="Otros">Otros</span>
+<input class="search" id="q" placeholder="Buscar ficha por nombre..."></div>
+<div class="fam"><div class="fam-h"><h2>Analizadores</h2><span class="org">6 fichas</span></div><details class="prod"><summary class="p-sum">
+        <span class="caret">&#9656;</span>
+        <span class="p-name">C-Quand</span>
+        <span class="p-rol">Análisis elemental multi-elemento en líquidos (XRF)</span><span class="p-badge">ED-XRF</span><span class="p-badge">mineria</span>
+      </summary>
+      <div class="p-body">
+        <h4>Especificaciones</h4><div class="grid"><div class="kv"><div class="k">Rango de elementos</div><div class="v">Si (Z=14) a U (Z=92)</div></div><div class="kv"><div class="k">Rango de medición</div><div class="v">&lt;1 ppmWt a &gt;10 %Wt</div></div><div class="kv"><div class="k">Elementos simultáneos</div><div class="v">hasta 15</div></div><div class="kv"><div class="k">Fuente de rayos X</div><div class="v">15 W / 50 kV, anodo Ag</div></div><div class="kv"><div class="k">Detector</div><div class="v">SDD alta resolución</div></div><div class="kv"><div class="k">Tiempo de medición</div><div class="v">típico 5 min</div></div><div class="kv"><div class="k">Vida útil SDD/tubo</div><div class="v">larga (sin dato exacto)</div></div><div class="kv"><div class="k">Dimensiones</div><div class="v">1000 x 400 x 360 mm</div></div><div class="kv"><div class="k">Peso</div><div class="v">85 kg</div></div><div class="kv"><div class="k">Protección</div><div class="v">IP65 / NEMA4X</div></div><div class="kv"><div class="k">Comunicación</div><div class="v">Modbus TCP/IP, RS485 RTU</div></div><div class="kv"><div class="k">Zona peligrosa</div><div class="v">ATEX II 2G Ex pxb IIC T4 / Cl1 Div2</div></div></div>
+        <h4>Aplicaciones</h4><div class="tags"><span class="tag">Fe, Ni, Co, Cu, Mo, V, W, As, Zn, Sn y PGM en minería / refinería / reciclaje</span><span class="tag">Azufre en crudos, ULSD, ULSG, kerosene</span><span class="tag">Cloro en crudo y condensado de CDU (corrosión)</span><span class="tag">Metales en crudo (V, Fe, Ni)</span><span class="tag">Sal en crudo</span><span class="tag">Metales que envenenan catalizador HDS/FCC</span><span class="tag">Aguas residuales</span><span class="tag">PTA, PIA, FDCA en fase liquida</span><span class="tag">Uranio en minería y plantas nucleares</span></div>
+        <div class="aviso"><b>Nota de ingenieria:</b> Disponibilidad declarada &amp;gt;99,5%. Medición directa sin preparación de muestra ni reactivos. Versión PLUS con flush de celda y validación automática cero/span.</div>
+        <div class="fuente">fuente: Process - Supcon1/Supcon Product information/Analyser(Hobre)/Hobre C-Quand brochure.pdf</div>
+      </div></details><details class="prod"><summary class="p-sum">
+        <span class="caret">&#9656;</span>
+        <span class="p-name">PRISM</span>
+        <span class="p-rol">Composición de gas multicomponente (Raman)</span><span class="p-badge">Raman</span><span class="p-badge">hidrogeno</span>
+      </summary>
+      <div class="p-body">
+        <h4>Especificaciones</h4><div class="grid"><div class="kv"><div class="k">Principio</div><div class="v">Espectroscopía Raman (con TNO, patentada)</div></div><div class="kv"><div class="k">Mide</div><div class="v">C1..C5+, H2, N2, CO2 (+CO, H2O segun SUPCON)</div></div><div class="kv"><div class="k">Rango</div><div class="v">0,1 a 100%</div></div><div class="kv"><div class="k">H2</div><div class="v">0-100% de fabrica</div></div><div class="kv"><div class="k">Respuesta</div><div class="v">T90 tipico 10 s</div></div><div class="kv"><div class="k">Repetibilidad</div><div class="v">mejor que +/- 0,5% FS</div></div><div class="kv"><div class="k">Exactitud</div><div class="v">mejor que +/- 1% FS</div></div><div class="kv"><div class="k">Presión muestra</div><div class="v">10-75 barG, SIN reduccion de presion</div></div><div class="kv"><div class="k">Temperatura muestra</div><div class="v">hasta 80 C</div></div><div class="kv"><div class="k">Partes húmedas</div><div class="v">SS316</div></div><div class="kv"><div class="k">Fibra óptica</div><div class="v">5, 10, 20, 30, 50 m</div></div><div class="kv"><div class="k">Espectrómetro</div><div class="v">800x500x400 mm</div></div><div class="kv"><div class="k">Sonda</div><div class="v">600x600x300 mm</div></div><div class="kv"><div class="k">Comunicación</div><div class="v">Modbus RTU RS485, Modbus TCP/IP Ethernet o fibra</div></div><div class="kv"><div class="k">Zona peligrosa</div><div class="v">ATEX/IECEx II 2G IIC T3; CSA Cl1 Div2 (pendiente)</div></div></div>
+        <h4>Aplicaciones</h4><div class="tags"><span class="tag">Gas natural y syngas (metanol, amoníaco, hidrógeno)</span><span class="tag">Mezcla de hidrógeno (hydrogen blending)</span><span class="tag">Monitoreo de syngas</span><span class="tag">Control feed-forward de procesos</span><span class="tag">Reducción de emisiones y eficiencia energética</span><span class="tag">Producción de hidrógeno</span></div>
+        <div class="aviso"><b>Nota de ingenieria:</b> Cero emisión: la muestra vuelve al proceso. Presión alta MEJORA la señal Raman (no requiere reducción). Ganó el Annual Product Award en ATC 2024.</div>
+        <div class="fuente">fuente: Process - Supcon1/Supcon Product information/Analyser(Hobre)/Hobre PRISM Raman Brochure.pdf</div>
+      </div></details><details class="prod"><summary class="p-sum">
+        <span class="caret">&#9656;</span>
+        <span class="p-name">TISOMIC</span>
+        <span class="p-rol">Análisis H2S, H2O y CO2 en gas y líquidos</span><span class="p-badge">PA-TDL</span><span class="p-badge">sin partes moviles</span>
+      </summary>
+      <div class="p-body">
+        <h4>Especificaciones</h4><div class="grid"><div class="kv"><div class="k">Mide</div><div class="v">H2S, H2O, CO2 (+CH4 segun SUPCON)</div></div><div class="kv"><div class="k">Excitación</div><div class="v">Láser de diodo sintonizable (TDL)</div></div><div class="kv"><div class="k">Detección</div><div class="v">Foto-acústica (PA)</div></div><div class="kv"><div class="k">Láseres</div><div class="v">hasta 4</div></div><div class="kv"><div class="k">Corrientes de proceso</div><div class="v">hasta 2</div></div><div class="kv"><div class="k">Alta precisión</div><div class="v">0 - 100 ppm (programable)</div></div><div class="kv"><div class="k">Baja precisión</div><div class="v">0 - niveles de % (programable)</div></div><div class="kv"><div class="k">Repetibilidad alta</div><div class="v">0,3 ppm</div></div><div class="kv"><div class="k">Repetibilidad baja</div><div class="v">1% escala completa</div></div><div class="kv"><div class="k">Celda PA</div><div class="v">~100 mm, 50 C (80 C opcional)</div></div><div class="kv"><div class="k">Flujo celda</div><div class="v">&lt; 200 cm3/min</div></div><div class="kv"><div class="k">Calibración</div><div class="v">cada 3 a 6 meses</div></div><div class="kv"><div class="k">MTBF</div><div class="v">más de 5 años</div></div><div class="kv"><div class="k">Drift</div><div class="v">típico &amp;lt;3% por año (con HIFISC)</div></div><div class="kv"><div class="k">Analógicas</div><div class="v">4 x 4-20 mA</div></div><div class="kv"><div class="k">Comunicación</div><div class="v">Modbus RTU RS485 + Modbus RTU TCP/IP</div></div><div class="kv"><div class="k">Dimensiones</div><div class="v">1200 x 600 x 500 mm</div></div><div class="kv"><div class="k">Peso</div><div class="v">~150 kg</div></div><div class="kv"><div class="k">Protección</div><div class="v">IP66 (electrónica aluminio marino, celda SS316)</div></div><div class="kv"><div class="k">Zona peligrosa</div><div class="v">ATEX II 2G Ex db IIB+H2 T3 / CSA Cl1 Div1</div></div></div>
+        <h4>Aplicaciones</h4><div class="tags"><span class="tag">H2S en crudo multifásico y fluidos de pozo</span><span class="tag">Presión parcial de H2S en separadores y strippers</span><span class="tag">H2S / H2O en crudo de exportación y condensado</span><span class="tag">H2S / H2O / CO2 en tratamiento de gas natural</span><span class="tag">H2S / H2O / CO2 en gas de venta y ducto</span><span class="tag">H2S antes y despues de dosificación de scavenger</span><span class="tag">H2S y CO2 en absorbedores de amina</span><span class="tag">H2S en gas combustible de refinería y flare</span><span class="tag">Control de turbina de gas</span><span class="tag">Calidad de gas combustible</span><span class="tag">H2S en combustibles liquidos</span></div>
+        <div class="aviso"><b>Nota de ingenieria:</b> Se vende siempre en paquete con HIFISC (acondicionamiento de muestra). Para H2S a nivel ppm bajo usa DOS celdas en serie con scrubber de referencia. Para H2S en líquidos no existen estándares de calibración: Hobre desarrolló extrusión de H2S.</div>
+        <div class="fuente">fuente: Process - Supcon1/Supcon Product information/Analyser(Hobre)/Hobre TISOMIC Analyzer Brochure.pdf</div>
+      </div></details><details class="prod"><summary class="p-sum">
+        <span class="caret">&#9656;</span>
+        <span class="p-name">WIM COMPAS Brochure</span>
+        <span class="p-rol">Índice de Wobbe / poder calorífico / combustión</span><span class="p-badge">4 modelos</span><span class="p-badge">+1000 instaladas</span>
+      </summary>
+      <div class="p-body">
+        <h4>Especificaciones</h4><div class="grid"><div class="kv"><div class="k">Principio</div><div class="v">Oxígeno residual (celda de zirconia)</div></div><div class="kv"><div class="k">Normas</div><div class="v">ASTM D4891-13, ISO 15971</div></div><div class="kv"><div class="k">Mide</div><div class="v">Wobbe, BTU, CARI, Air Demand, densidad, peso molecular</div></div><div class="kv"><div class="k">Wobbe continuo</div><div class="v">0-100 MJ/Nm3 (0-2500 BTU/scf)</div></div><div class="kv"><div class="k">Exactitud continuo</div><div class="v">&lt; +/- 0,4% FS en gas natural</div></div><div class="kv"><div class="k">Repetibilidad continuo</div><div class="v">&lt; +/- 0,05% FS</div></div><div class="kv"><div class="k">Respuesta continuo</div><div class="v">T90 &lt; 5 s</div></div><div class="kv"><div class="k">Poder calorífico inyección</div><div class="v">0-120 MJ/Nm3 (0-3000 BTU/scf)</div></div><div class="kv"><div class="k">Respuesta inyección</div><div class="v">update 30 s</div></div><div class="kv"><div class="k">CARI</div><div class="v">rango 0-25</div></div><div class="kv"><div class="k">Aire instrumento</div><div class="v">15 Nl/min (continuo) / 0,2 Nl/min (inyección)</div></div><div class="kv"><div class="k">Materiales húmedos</div><div class="v">SS316, Inconel, Platino</div></div><div class="kv"><div class="k">Dimensiones</div><div class="v">1000x950x450 mm (no-Ex) / 1200x900x450 (HT)</div></div><div class="kv"><div class="k">Peso</div><div class="v">80 kg (no-Ex) / 120 kg (HT)</div></div><div class="kv"><div class="k">Comunicación</div><div class="v">Modbus TCP/IP Ethernet o fibra; Modbus RTU RS485</div></div><div class="kv"><div class="k">Zona peligrosa</div><div class="v">ATEX Zone 1/2 IIC T3/T4, CSA Cl1 Div2, IECEx, KCS, TRCU</div></div></div>
+        <h4>Aplicaciones</h4><div class="tags"><span class="tag">Mezcla de gas natural y LNG</span><span class="tag">Control de quemadores y hornos</span><span class="tag">Control de turbinas de gas</span><span class="tag">Gas combustible de refinería</span><span class="tag">Reporte de emisiones CO2 y SO2</span><span class="tag">Análisis de biogás y syngas</span><span class="tag">Power to gas</span><span class="tag">Gas de alto horno (BFG) y coque (COG)</span><span class="tag">Flare gas y gas amargo</span><span class="tag">Sistema de estabilización de gas (acero y vidrio)</span></div>
+        <div class="aviso"><b>Nota de ingenieria:</b> Cuatro modelos: Xpress (continuo, LNG, 1 punto), Flex (continuo, más opciones, 2 puntos), Pulse (inyección, gas amargo/flare), Pulse HT (rocío hasta 150&amp;nbsp;C, opción H2 FEH2).</div>
+        <div class="fuente">fuente: Process - Supcon2/Supcon Product information/Analyser(Hobre)/Hobre WIM COMPAS Brochure.pdf</div>
+      </div></details><details class="prod"><summary class="p-sum">
+        <span class="caret">&#9656;</span>
+        <span class="p-name">Training_Hobré C-Quand 20240403</span>
+        <span class="p-rol">Ficha 1-Pager &middot; 20,271 caracteres extraídos</span>
+      </summary><div class="p-body">
+        <div class="aviso">Sin specs curadas todavía. El texto completo está extraído en <code>fichas_extraidas.json</code>.</div>
+        <div class="fuente">fuente: Process - Supcon6/Supcon Product information/Analyser(Hobre)/Training_Hobré C-Quand 20240403.pdf</div>
+      </div></details><details class="prod"><summary class="p-sum">
+        <span class="caret">&#9656;</span>
+        <span class="p-name">Training_Hobré TISOMIC PA-TDL 20240403</span>
+        <span class="p-rol">Ficha 1-Pager &middot; 18,096 caracteres extraídos</span>
+      </summary><div class="p-body">
+        <div class="aviso">Sin specs curadas todavía. El texto completo está extraído en <code>fichas_extraidas.json</code>.</div>
+        <div class="fuente">fuente: Process - Supcon3/Supcon Product information/Analyser(Hobre)/Training_Hobré TISOMIC PA-TDL 20240403.pdf</div>
+      </div></details></div><div class="fam"><div class="fam-h"><h2>Seguridad (SIS)</h2><span class="org">7 fichas</span></div><details class="prod"><summary class="p-sum">
+        <span class="caret">&#9656;</span>
+        <span class="p-name">SUPCON SIS Product_20250602v3</span>
+        <span class="p-rol">Ficha 1-Pager &middot; 16,273 caracteres extraídos</span>
+      </summary><div class="p-body">
+        <div class="aviso">Sin specs curadas todavía. El texto completo está extraído en <code>fichas_extraidas.json</code>.</div>
+        <div class="fuente">fuente: Process - Supcon1/1-Pager (Compilations)/For customer/SIS/SUPCON SIS Product_20250602v3.pdf</div>
+      </div></details><details class="prod"><summary class="p-sum">
+        <span class="caret">&#9656;</span>
+        <span class="p-name">TCS-500 20240816</span>
+        <span class="p-rol">Ficha 1-Pager &middot; 2,561 caracteres extraídos</span>
+      </summary><div class="p-body">
+        <div class="aviso">Sin specs curadas todavía. El texto completo está extraído en <code>fichas_extraidas.json</code>.</div>
+        <div class="fuente">fuente: Process - Supcon1/1-Pager (Compilations)/HW/TCS-500 One-Page Introduction 20240816.pdf</div>
+      </div></details><details class="prod"><summary class="p-sum">
+        <span class="caret">&#9656;</span>
+        <span class="p-name">TCS-500 Poster Foldout 20240826</span>
+        <span class="p-rol">Ficha 1-Pager &middot; 634 caracteres extraídos</span>
+      </summary><div class="p-body">
+        <div class="aviso">Sin specs curadas todavía. El texto completo está extraído en <code>fichas_extraidas.json</code>.</div>
+        <div class="fuente">fuente: Process - Supcon4/1-Pager (Compilations)/For customer/SIS/TCS-500 Poster Foldout 20240826.pdf</div>
+      </div></details><details class="prod"><summary class="p-sum">
+        <span class="caret">&#9656;</span>
+        <span class="p-name">TCS-500 Selection Guide 20240816</span>
+        <span class="p-rol">Ficha 1-Pager &middot; 14,931 caracteres extraídos</span>
+      </summary><div class="p-body">
+        <div class="aviso">Sin specs curadas todavía. El texto completo está extraído en <code>fichas_extraidas.json</code>.</div>
+        <div class="fuente">fuente: Process - Supcon3/1-Pager (Compilations)/For customer/SIS/TCS-500 Selection Guide 20240816.pdf</div>
+      </div></details><details class="prod"><summary class="p-sum">
+        <span class="caret">&#9656;</span>
+        <span class="p-name">TCS-900-Sales 20240630</span>
+        <span class="p-rol">Ficha 1-Pager &middot; 2,831 caracteres extraídos</span>
+      </summary><div class="p-body">
+        <div class="aviso">Sin specs curadas todavía. El texto completo está extraído en <code>fichas_extraidas.json</code>.</div>
+        <div class="fuente">fuente: Process - Supcon3/1-Pager (Compilations)/HW/TCS-900 One Page Introduction-Sales 20240630.pptx</div>
+      </div></details><details class="prod"><summary class="p-sum">
+        <span class="caret">&#9656;</span>
+        <span class="p-name">TCS-900 Poster Foldout 20230628</span>
+        <span class="p-rol">Ficha 1-Pager &middot; 2,311 caracteres extraídos</span>
+      </summary><div class="p-body">
+        <div class="aviso">Sin specs curadas todavía. El texto completo está extraído en <code>fichas_extraidas.json</code>.</div>
+        <div class="fuente">fuente: Process - Supcon4/1-Pager (Compilations)/For customer/SIS/TCS-900 Poster Foldout 20230628.pdf</div>
+      </div></details><details class="prod"><summary class="p-sum">
+        <span class="caret">&#9656;</span>
+        <span class="p-name">TCS-900 Selection Guide 20240806</span>
+        <span class="p-rol">Ficha 1-Pager &middot; 32,698 caracteres extraídos</span>
+      </summary><div class="p-body">
+        <div class="aviso">Sin specs curadas todavía. El texto completo está extraído en <code>fichas_extraidas.json</code>.</div>
+        <div class="fuente">fuente: Process - Supcon4/1-Pager (Compilations)/For customer/SIS/TCS-900 Selection Guide 20240806.pdf</div>
+      </div></details></div><div class="fam"><div class="fam-h"><h2>PLC</h2><span class="org">5 fichas</span></div><details class="prod"><summary class="p-sum">
+        <span class="caret">&#9656;</span>
+        <span class="p-name">G3Smart-Sales 20240530</span>
+        <span class="p-rol">Ficha 1-Pager &middot; 3,763 caracteres extraídos</span>
+      </summary><div class="p-body">
+        <div class="aviso">Sin specs curadas todavía. El texto completo está extraído en <code>fichas_extraidas.json</code>.</div>
+        <div class="fuente">fuente: Process - Supcon3/1-Pager (Compilations)/HW/G3Smart One-Page Introduction-Sales 20240530.pptx</div>
+      </div></details><details class="prod"><summary class="p-sum">
+        <span class="caret">&#9656;</span>
+        <span class="p-name">G5Pro &amp; G3Smart Poster Foldout 20240530</span>
+        <span class="p-rol">Ficha 1-Pager &middot; 5,705 caracteres extraídos</span>
+      </summary><div class="p-body">
+        <div class="aviso">Sin specs curadas todavía. El texto completo está extraído en <code>fichas_extraidas.json</code>.</div>
+        <div class="fuente">fuente: Process - Supcon3/1-Pager (Compilations)/For customer/PLC/G5Pro &amp; G3Smart Poster Foldout 20240530.pdf</div>
+      </div></details><details class="prod"><summary class="p-sum">
+        <span class="caret">&#9656;</span>
+        <span class="p-name">G5Pro-Sales 20240530</span>
+        <span class="p-rol">Ficha 1-Pager &middot; 3,828 caracteres extraídos</span>
+      </summary><div class="p-body">
+        <div class="aviso">Sin specs curadas todavía. El texto completo está extraído en <code>fichas_extraidas.json</code>.</div>
+        <div class="fuente">fuente: Process - Supcon3/1-Pager (Compilations)/HW/G5Pro One-Page Introduction-Sales 20240530.pptx</div>
+      </div></details><details class="prod"><summary class="p-sum">
+        <span class="caret">&#9656;</span>
+        <span class="p-name">G5Pro Safety-Sales 20240530</span>
+        <span class="p-rol">Ficha 1-Pager &middot; 3,391 caracteres extraídos</span>
+      </summary><div class="p-body">
+        <div class="aviso">Sin specs curadas todavía. El texto completo está extraído en <code>fichas_extraidas.json</code>.</div>
+        <div class="fuente">fuente: Process - Supcon3/1-Pager (Compilations)/HW/G5Pro Safety One-Page Introduction-Sales 20240530.pptx</div>
+      </div></details><details class="prod"><summary class="p-sum">
+        <span class="caret">&#9656;</span>
+        <span class="p-name">G5Pro Selection Guide 20240418</span>
+        <span class="p-rol">Ficha 1-Pager &middot; 29,011 caracteres extraídos</span>
+      </summary><div class="p-body">
+        <div class="aviso">Sin specs curadas todavía. El texto completo está extraído en <code>fichas_extraidas.json</code>.</div>
+        <div class="fuente">fuente: Process - Supcon4/1-Pager (Compilations)/For customer/PLC/G5Pro Selection Guide 20240418.pdf</div>
+      </div></details></div><div class="fam"><div class="fam-h"><h2>DCS / OMC (software de operación)</h2><span class="org">3 fichas</span></div><details class="prod"><summary class="p-sum">
+        <span class="caret">&#9656;</span>
+        <span class="p-name">OMC-Sales 20240630</span>
+        <span class="p-rol">Ficha 1-Pager &middot; 12,130 caracteres extraídos</span>
+      </summary><div class="p-body">
+        <div class="aviso">Sin specs curadas todavía. El texto completo está extraído en <code>fichas_extraidas.json</code>.</div>
+        <div class="fuente">fuente: Process - Supcon4/1-Pager (Compilations)/SW/OMC One Page Introduction-Sales 20240630.pptx</div>
+      </div></details><details class="prod"><summary class="p-sum">
+        <span class="caret">&#9656;</span>
+        <span class="p-name">OMC Poster Foldout (Standard) 20240630</span>
+        <span class="p-rol">Ficha 1-Pager &middot; 7,001 caracteres extraídos</span>
+      </summary><div class="p-body">
+        <div class="aviso">Sin specs curadas todavía. El texto completo está extraído en <code>fichas_extraidas.json</code>.</div>
+        <div class="fuente">fuente: Process - Supcon4/1-Pager (Compilations)/For customer/OMC (DCS)/OMC Poster Foldout (Standard) 20240630.pdf</div>
+      </div></details><details class="prod"><summary class="p-sum">
+        <span class="caret">&#9656;</span>
+        <span class="p-name">OMC Poster Foldout 20240630</span>
+        <span class="p-rol">Ficha 1-Pager &middot; 3,827 caracteres extraídos</span>
+      </summary><div class="p-body">
+        <div class="aviso">Sin specs curadas todavía. El texto completo está extraído en <code>fichas_extraidas.json</code>.</div>
+        <div class="fuente">fuente: Process - Supcon4/1-Pager (Compilations)/For customer/OMC (DCS)/OMC Poster Foldout 20240630.pdf</div>
+      </div></details></div><div class="fam"><div class="fam-h"><h2>Software de proceso (InPlant/APC)</h2><span class="org">17 fichas</span></div><details class="prod"><summary class="p-sum">
+        <span class="caret">&#9656;</span>
+        <span class="p-name">Advanced Process Engineering eXpert APEX V3.0 Product - Sales</span>
+        <span class="p-rol">Ficha 1-Pager &middot; 6,738 caracteres extraídos</span>
+      </summary><div class="p-body">
+        <div class="aviso">Sin specs curadas todavía. El texto completo está extraído en <code>fichas_extraidas.json</code>.</div>
+        <div class="fuente">fuente: Process - Supcon4/1-Pager (Compilations)/SW/Advanced Process Engineering eXpert APEX V3.0 Product One Page Introduction - Sales.pptx</div>
+      </div></details><details class="prod"><summary class="p-sum">
+        <span class="caret">&#9656;</span>
+        <span class="p-name">InPlant APC V11.02.00.00-M 20240731</span>
+        <span class="p-rol">Ficha 1-Pager &middot; 6,237 caracteres extraídos</span>
+      </summary><div class="p-body">
+        <div class="aviso">Sin specs curadas todavía. El texto completo está extraído en <code>fichas_extraidas.json</code>.</div>
+        <div class="fuente">fuente: Process - Supcon4/1-Pager (Compilations)/SW/InPlant APC V11.02.00.00-M One Page Introduction 20240731.pptx</div>
+      </div></details><details class="prod"><summary class="p-sum">
+        <span class="caret">&#9656;</span>
+        <span class="p-name">InPlant APC V11.2 (for Customer) 20250117</span>
+        <span class="p-rol">Ficha 1-Pager &middot; 6,128 caracteres extraídos</span>
+      </summary><div class="p-body">
+        <div class="aviso">Sin specs curadas todavía. El texto completo está extraído en <code>fichas_extraidas.json</code>.</div>
+        <div class="fuente">fuente: Process - Supcon2/1-Pager (Compilations)/For customer/InPlant APC V11.2 One Page Introduction (for Customer) 20250117.pdf</div>
+      </div></details><details class="prod"><summary class="p-sum">
+        <span class="caret">&#9656;</span>
+        <span class="p-name">InPlant Blend 20240412</span>
+        <span class="p-rol">Ficha 1-Pager &middot; 3,880 caracteres extraídos</span>
+      </summary><div class="p-body">
+        <div class="aviso">Sin specs curadas todavía. El texto completo está extraído en <code>fichas_extraidas.json</code>.</div>
+        <div class="fuente">fuente: Process - Supcon4/1-Pager (Compilations)/SW/InPlant Blend One Page Introduction 20240412.pptx</div>
+      </div></details><details class="prod"><summary class="p-sum">
+        <span class="caret">&#9656;</span>
+        <span class="p-name">InPlant Defender Pro V3.0 20241014</span>
+        <span class="p-rol">Ficha 1-Pager &middot; 4,804 caracteres extraídos</span>
+      </summary><div class="p-body">
+        <div class="aviso">Sin specs curadas todavía. El texto completo está extraído en <code>fichas_extraidas.json</code>.</div>
+        <div class="fuente">fuente: Process - Supcon2/1-Pager (Compilations)/HW/InPlant Defender Pro V3.0 One Page Introduction 20241014.pptx</div>
+      </div></details><details class="prod"><summary class="p-sum">
+        <span class="caret">&#9656;</span>
+        <span class="p-name">InPlant EAM V8.00.00.00-M One-page Product Introduction</span>
+        <span class="p-rol">Ficha 1-Pager &middot; 10,798 caracteres extraídos</span>
+      </summary><div class="p-body">
+        <div class="aviso">Sin specs curadas todavía. El texto completo está extraído en <code>fichas_extraidas.json</code>.</div>
+        <div class="fuente">fuente: Process - Supcon4/1-Pager (Compilations)/SW/InPlant EAM V8.00.00.00-M One-page Product Introduction.pptx</div>
+      </div></details><details class="prod"><summary class="p-sum">
+        <span class="caret">&#9656;</span>
+        <span class="p-name">InPlant IFEM BatchSuite 20240913</span>
+        <span class="p-rol">Ficha 1-Pager &middot; 4,310 caracteres extraídos</span>
+      </summary><div class="p-body">
+        <div class="aviso">Sin specs curadas todavía. El texto completo está extraído en <code>fichas_extraidas.json</code>.</div>
+        <div class="fuente">fuente: Process - Supcon3/1-Pager (Compilations)/SW/InPlant IFEM BatchSuite One Page Introduction 20240913.pptx</div>
+      </div></details><details class="prod"><summary class="p-sum">
+        <span class="caret">&#9656;</span>
+        <span class="p-name">InPlant IFEM ProcessSuite V8.0 One-page Product Introduction 20240620</span>
+        <span class="p-rol">Ficha 1-Pager &middot; 8,319 caracteres extraídos</span>
+      </summary><div class="p-body">
+        <div class="aviso">Sin specs curadas todavía. El texto completo está extraído en <code>fichas_extraidas.json</code>.</div>
+        <div class="fuente">fuente: Process - Supcon4/1-Pager (Compilations)/SW/InPlant IFEM ProcessSuite V8.0 One-page Product Introduction 20240620.pptx</div>
+      </div></details><details class="prod"><summary class="p-sum">
+        <span class="caret">&#9656;</span>
+        <span class="p-name">InPlant LIMS 20240411</span>
+        <span class="p-rol">Ficha 1-Pager &middot; 10,737 caracteres extraídos</span>
+      </summary><div class="p-body">
+        <div class="aviso">Sin specs curadas todavía. El texto completo está extraído en <code>fichas_extraidas.json</code>.</div>
+        <div class="fuente">fuente: Process - Supcon4/1-Pager (Compilations)/SW/InPlant LIMS One Page Introduction 20240411.pptx</div>
+      </div></details><details class="prod"><summary class="p-sum">
+        <span class="caret">&#9656;</span>
+        <span class="p-name">InPlant MP3000 V2.10.00.00-M 20231027</span>
+        <span class="p-rol">Ficha 1-Pager &middot; 4,876 caracteres extraídos</span>
+      </summary><div class="p-body">
+        <div class="aviso">Sin specs curadas todavía. El texto completo está extraído en <code>fichas_extraidas.json</code>.</div>
+        <div class="fuente">fuente: Process - Supcon2/1-Pager (Compilations)/HW/InPlant MP3000 V2.10.00.00-M One-page Introduction 20231027.pdf</div>
+      </div></details><details class="prod"><summary class="p-sum">
+        <span class="caret">&#9656;</span>
+        <span class="p-name">InPlant OMS V3.00.00.00-M 20240712</span>
+        <span class="p-rol">Ficha 1-Pager &middot; 3,437 caracteres extraídos</span>
+      </summary><div class="p-body">
+        <div class="aviso">Sin specs curadas todavía. El texto completo está extraído en <code>fichas_extraidas.json</code>.</div>
+        <div class="fuente">fuente: Process - Supcon4/1-Pager (Compilations)/SW/InPlant OMS V3.00.00.00-M One Page Introduction 20240712.pptx</div>
+      </div></details><details class="prod"><summary class="p-sum">
+        <span class="caret">&#9656;</span>
+        <span class="p-name">InPlant OTS V5.00.00.00-M Product One Page Introduction-Sales 20240815</span>
+        <span class="p-rol">Ficha 1-Pager &middot; 4,556 caracteres extraídos</span>
+      </summary><div class="p-body">
+        <div class="aviso">Sin specs curadas todavía. El texto completo está extraído en <code>fichas_extraidas.json</code>.</div>
+        <div class="fuente">fuente: Process - Supcon4/1-Pager (Compilations)/SW/InPlant OTS V5.00.00.00-M Product One Page Introduction-Sales 20240815.pptx</div>
+      </div></details><details class="prod"><summary class="p-sum">
+        <span class="caret">&#9656;</span>
+        <span class="p-name">InPlant PID V4.02.00.00.01-M(Sale) 20240628</span>
+        <span class="p-rol">Ficha 1-Pager &middot; 3,598 caracteres extraídos</span>
+      </summary><div class="p-body">
+        <div class="aviso">Sin specs curadas todavía. El texto completo está extraído en <code>fichas_extraidas.json</code>.</div>
+        <div class="fuente">fuente: Process - Supcon4/1-Pager (Compilations)/SW/InPlant PID V4.02.00.00.01-M One Page Introduction(Sale) 20240628.pptx</div>
+      </div></details><details class="prod"><summary class="p-sum">
+        <span class="caret">&#9656;</span>
+        <span class="p-name">InPlant PLS V8.00.00.00 20240806</span>
+        <span class="p-rol">Ficha 1-Pager &middot; 3,421 caracteres extraídos</span>
+      </summary><div class="p-body">
+        <div class="aviso">Sin specs curadas todavía. El texto completo está extraído en <code>fichas_extraidas.json</code>.</div>
+        <div class="fuente">fuente: Process - Supcon4/1-Pager (Compilations)/SW/InPlant PLS V8.00.00.00 One Page Introduction 20240806.pptx</div>
+      </div></details><details class="prod"><summary class="p-sum">
+        <span class="caret">&#9656;</span>
+        <span class="p-name">InPlant RTO V3.0.0-M 20240918</span>
+        <span class="p-rol">Ficha 1-Pager &middot; 4,117 caracteres extraídos</span>
+      </summary><div class="p-body">
+        <div class="aviso">Sin specs curadas todavía. El texto completo está extraído en <code>fichas_extraidas.json</code>.</div>
+        <div class="fuente">fuente: Process - Supcon4/1-Pager (Compilations)/SW/InPlant RTO V3.0.0-M One Page Introduction 20240918.pptx</div>
+      </div></details><details class="prod"><summary class="p-sum">
+        <span class="caret">&#9656;</span>
+        <span class="p-name">InPlant SCO-Sales</span>
+        <span class="p-rol">Ficha 1-Pager &middot; 5,544 caracteres extraídos</span>
+      </summary><div class="p-body">
+        <div class="aviso">Sin specs curadas todavía. El texto completo está extraído en <code>fichas_extraidas.json</code>.</div>
+        <div class="fuente">fuente: Process - Supcon4/1-Pager (Compilations)/SW/InPlant SCO One Page Introduction-Sales.pptx</div>
+      </div></details><details class="prod"><summary class="p-sum">
+        <span class="caret">&#9656;</span>
+        <span class="p-name">InPlant TAS V3.20.00.00-M 20240820</span>
+        <span class="p-rol">Ficha 1-Pager &middot; 5,265 caracteres extraídos</span>
+      </summary><div class="p-body">
+        <div class="aviso">Sin specs curadas todavía. El texto completo está extraído en <code>fichas_extraidas.json</code>.</div>
+        <div class="fuente">fuente: Process - Supcon4/1-Pager (Compilations)/SW/InPlant TAS V3.20.00.00-M One Page Introduction 20240820.pptx</div>
+      </div></details></div><div class="fam"><div class="fam-h"><h2>Plataforma (supOS/TPT/UCS/APL)</h2><span class="org">6 fichas</span></div><details class="prod"><summary class="p-sum">
+        <span class="caret">&#9656;</span>
+        <span class="p-name">SUPCON APL Solution</span>
+        <span class="p-rol">Ficha 1-Pager &middot; 934 caracteres extraídos</span>
+      </summary><div class="p-body">
+        <div class="aviso">Sin specs curadas todavía. El texto completo está extraído en <code>fichas_extraidas.json</code>.</div>
+        <div class="fuente">fuente: Process - Supcon2/1-Pager (Compilations)/For customer/SUPCON APL Solution.pdf</div>
+      </div></details><details class="prod"><summary class="p-sum">
+        <span class="caret">&#9656;</span>
+        <span class="p-name">TPT Brochure</span>
+        <span class="p-rol">Ficha 1-Pager &middot; 4,388 caracteres extraídos</span>
+      </summary><div class="p-body">
+        <div class="aviso">Sin specs curadas todavía. El texto completo está extraído en <code>fichas_extraidas.json</code>.</div>
+        <div class="fuente">fuente: Process - Supcon2/1-Pager (Compilations)/For customer/TPT Brochure.pdf</div>
+      </div></details><details class="prod"><summary class="p-sum">
+        <span class="caret">&#9656;</span>
+        <span class="p-name">TPT V1.1</span>
+        <span class="p-rol">Ficha 1-Pager &middot; 6,149 caracteres extraídos</span>
+      </summary><div class="p-body">
+        <div class="aviso">Sin specs curadas todavía. El texto completo está extraído en <code>fichas_extraidas.json</code>.</div>
+        <div class="fuente">fuente: Process - Supcon4/1-Pager (Compilations)/SW/TPT One Page Introduction V1.1.pptx</div>
+      </div></details><details class="prod"><summary class="p-sum">
+        <span class="caret">&#9656;</span>
+        <span class="p-name">UCS Nyx Brochure 20240730</span>
+        <span class="p-rol">Ficha 1-Pager &middot; 2,275 caracteres extraídos</span>
+      </summary><div class="p-body">
+        <div class="aviso">Sin specs curadas todavía. El texto completo está extraído en <code>fichas_extraidas.json</code>.</div>
+        <div class="fuente">fuente: Process - Supcon1/1-Pager (Compilations)/For customer/UCS Nyx Brochure 20240730.pdf</div>
+      </div></details><details class="prod"><summary class="p-sum">
+        <span class="caret">&#9656;</span>
+        <span class="p-name">UCS Nyx 20240730</span>
+        <span class="p-rol">Ficha 1-Pager &middot; 4,793 caracteres extraídos</span>
+      </summary><div class="p-body">
+        <div class="aviso">Sin specs curadas todavía. El texto completo está extraído en <code>fichas_extraidas.json</code>.</div>
+        <div class="fuente">fuente: Process - Supcon4/1-Pager (Compilations)/SW/UCS Nyx One Page Introduction 20240730.pptx</div>
+      </div></details><details class="prod"><summary class="p-sum">
+        <span class="caret">&#9656;</span>
+        <span class="p-name">supOS Brochure</span>
+        <span class="p-rol">Ficha 1-Pager &middot; 6,898 caracteres extraídos</span>
+      </summary><div class="p-body">
+        <div class="aviso">Sin specs curadas todavía. El texto completo está extraído en <code>fichas_extraidas.json</code>.</div>
+        <div class="fuente">fuente: Process - Supcon1/1-Pager (Compilations)/For customer/supOS Brochure.pdf</div>
+      </div></details></div><div class="fam"><div class="fam-h"><h2>Ciberseguridad OT</h2><span class="org">3 fichas</span></div><details class="prod"><summary class="p-sum">
+        <span class="caret">&#9656;</span>
+        <span class="p-name">Industrial Cybersecurity System</span>
+        <span class="p-rol">Ficha 1-Pager &middot; 23,345 caracteres extraídos</span>
+      </summary><div class="p-body">
+        <div class="aviso">Sin specs curadas todavía. El texto completo está extraído en <code>fichas_extraidas.json</code>.</div>
+        <div class="fuente">fuente: Process - Supcon4/1-Pager (Compilations)/For customer/Industrial Cybersecurity System.pdf</div>
+      </div></details><details class="prod"><summary class="p-sum">
+        <span class="caret">&#9656;</span>
+        <span class="p-name">MPS5000-Sales 20241008</span>
+        <span class="p-rol">Ficha 1-Pager &middot; 4,273 caracteres extraídos</span>
+      </summary><div class="p-body">
+        <div class="aviso">Sin specs curadas todavía. El texto completo está extraído en <code>fichas_extraidas.json</code>.</div>
+        <div class="fuente">fuente: Process - Supcon3/1-Pager (Compilations)/HW/MPS5000 One Page Introduction-Sales 20241008.pptx</div>
+      </div></details><details class="prod"><summary class="p-sum">
+        <span class="caret">&#9656;</span>
+        <span class="p-name">NG USB Guard</span>
+        <span class="p-rol">Ficha 1-Pager &middot; 3,052 caracteres extraídos</span>
+      </summary><div class="p-body">
+        <div class="aviso">Sin specs curadas todavía. El texto completo está extraído en <code>fichas_extraidas.json</code>.</div>
+        <div class="fuente">fuente: Process - Supcon4/1-Pager (Compilations)/HW/NG USB Guard One-Page Introduction.pptx</div>
+      </div></details></div><div class="fam"><div class="fam-h"><h2>CCS (control de compresores)</h2><span class="org">4 fichas</span></div><details class="prod"><summary class="p-sum">
+        <span class="caret">&#9656;</span>
+        <span class="p-name">CCS Q&amp;A 20241210</span>
+        <span class="p-rol">Ficha 1-Pager &middot; 19,062 caracteres extraídos</span>
+      </summary><div class="p-body">
+        <div class="aviso">Sin specs curadas todavía. El texto completo está extraído en <code>fichas_extraidas.json</code>.</div>
+        <div class="fuente">fuente: Process - Supcon3/1-Pager (Compilations)/For customer/CCS/CCS Q&amp;A 20241210.pdf</div>
+      </div></details><details class="prod"><summary class="p-sum">
+        <span class="caret">&#9656;</span>
+        <span class="p-name">CCS Solution Poster Foldout 20241210</span>
+        <span class="p-rol">Ficha 1-Pager &middot; 2,602 caracteres extraídos</span>
+      </summary><div class="p-body">
+        <div class="aviso">Sin specs curadas todavía. El texto completo está extraído en <code>fichas_extraidas.json</code>.</div>
+        <div class="fuente">fuente: Process - Supcon4/1-Pager (Compilations)/For customer/CCS/CCS Solution Poster Foldout 20241210.pdf</div>
+      </div></details><details class="prod"><summary class="p-sum">
+        <span class="caret">&#9656;</span>
+        <span class="p-name">CCS T5100 Product Catalog 20241210</span>
+        <span class="p-rol">Ficha 1-Pager &middot; 32,095 caracteres extraídos</span>
+      </summary><div class="p-body">
+        <div class="aviso">Sin specs curadas todavía. El texto completo está extraído en <code>fichas_extraidas.json</code>.</div>
+        <div class="fuente">fuente: Process - Supcon6/1-Pager (Compilations)/For customer/CCS/CCS T5100 Product Catalog 20241210.pdf</div>
+      </div></details><details class="prod"><summary class="p-sum">
+        <span class="caret">&#9656;</span>
+        <span class="p-name">CCS T9100 Product Catalog 20241210</span>
+        <span class="p-rol">Ficha 1-Pager &middot; 23,792 caracteres extraídos</span>
+      </summary><div class="p-body">
+        <div class="aviso">Sin specs curadas todavía. El texto completo está extraído en <code>fichas_extraidas.json</code>.</div>
+        <div class="fuente">fuente: Process - Supcon4/1-Pager (Compilations)/For customer/CCS/CCS T9100 Product Catalog 20241210.pdf</div>
+      </div></details></div><div class="fam"><div class="fam-h"><h2>PRIDE (monitoreo de activos)</h2><span class="org">1 ficha</span></div><details class="prod"><summary class="p-sum">
+        <span class="caret">&#9656;</span>
+        <span class="p-name">PRIDE Poster Foldout 20240524</span>
+        <span class="p-rol">Ficha 1-Pager &middot; 4,082 caracteres extraídos</span>
+      </summary><div class="p-body">
+        <div class="aviso">Sin specs curadas todavía. El texto completo está extraído en <code>fichas_extraidas.json</code>.</div>
+        <div class="fuente">fuente: Process - Supcon4/1-Pager (Compilations)/For customer/PRIDE Poster Foldout 20240524.pdf</div>
+      </div></details></div><div class="fam"><div class="fam-h"><h2>Smart Site</h2><span class="org">1 ficha</span></div><details class="prod"><summary class="p-sum">
+        <span class="caret">&#9656;</span>
+        <span class="p-name">Smart Site Solution-Sales V2.1 20250531</span>
+        <span class="p-rol">Ficha 1-Pager &middot; 4,473 caracteres extraídos</span>
+      </summary><div class="p-body">
+        <div class="aviso">Sin specs curadas todavía. El texto completo está extraído en <code>fichas_extraidas.json</code>.</div>
+        <div class="fuente">fuente: Process - Supcon4/1-Pager (Compilations)/SW/Smart Site Solution One Page Introduction-Sales V2.1 20250531.pptx</div>
+      </div></details></div><div class="fam"><div class="fam-h"><h2>ESP i-SYS</h2><span class="org">1 ficha</span></div><details class="prod"><summary class="p-sum">
+        <span class="caret">&#9656;</span>
+        <span class="p-name">ESP i-SYS 20240722</span>
+        <span class="p-rol">Ficha 1-Pager &middot; 8,203 caracteres extraídos</span>
+      </summary><div class="p-body">
+        <div class="aviso">Sin specs curadas todavía. El texto completo está extraído en <code>fichas_extraidas.json</code>.</div>
+        <div class="fuente">fuente: Process - Supcon4/1-Pager (Compilations)/SW/ESP i-SYS One Page Introduction 20240722.pptx</div>
+      </div></details></div><div class="fam"><div class="fam-h"><h2>Otros</h2><span class="org">1 ficha</span></div><details class="prod"><summary class="p-sum">
+        <span class="caret">&#9656;</span>
+        <span class="p-name">Training_Etienne Hunt_Hicosys &amp; Bicosys Pataya v1.3  20240403</span>
+        <span class="p-rol">Ficha 1-Pager &middot; 15,513 caracteres extraídos</span>
+      </summary><div class="p-body">
+        <div class="aviso">Sin specs curadas todavía. El texto completo está extraído en <code>fichas_extraidas.json</code>.</div>
+        <div class="fuente">fuente: Process - Supcon3/Supcon Product information/Analyser(Hobre)/Training_Etienne Hunt_Hicosys &amp; Bicosys Pataya v1.3  20240403.pdf</div>
+      </div></details></div>
+<div class="foot">Los datos de analizadores vienen de las fichas técnicas Hobre; el resto de las fichas 1-Pager de SUPCON.</div>
+</div><script>
+const chips=document.querySelectorAll('.chip'), q=document.getElementById('q'),
+      fams=document.querySelectorAll('.fam'), vis=document.getElementById('c-vis');
+function upd(){
+  const f=document.querySelector('.chip.on').dataset.f, t=q.value.toLowerCase().trim();
+  let n=0;
+  fams.forEach(fam=>{
+    const name=fam.querySelector('h2').innerText;
+    let mostrarFam = (f==='*'||f===name), c=0;
+    fam.querySelectorAll('details.prod').forEach(d=>{
+      const nom=d.querySelector('.p-name').innerText.toLowerCase(),
+            ok = (!t||nom.includes(t));
+      d.style.display = ok?'':'none';
+      if(ok) c++;
+    });
+    fam.style.display = (mostrarFam && c>0)?'':'none';
+    n += (mostrarFam? c:0);
+  });
+  vis.innerText=n;
+}
+chips.forEach(c=>c.onclick=()=>{chips.forEach(x=>x.classList.remove('on'));c.classList.add('on');upd();});
+q.oninput=upd; upd();
+document.querySelectorAll('details.prod').forEach((d,i)=>{if(i===0)d.open=true;});
+</script></body></html>

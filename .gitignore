@@ -1,0 +1,20 @@
+# material del fabricante: no se versiona (PDF/PPTX de SUPCON y Hobré)
+*.pdf
+*.pptx
+*.ppt
+*.docx
+*.doc
+
+# comprimidos y material crudo
+*.zip
+*.rar
+*.7z
+comprimidos/
+ocr/
+*.bmp
+
+# archivos de sistema
+.DS_Store
+desktop.ini
+__pycache__/
+*.pyc
