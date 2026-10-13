@@ -1,0 +1,794 @@
+{
+  "fuente": "Registro DIN de Importaciones, Aduanas de Chile 2025 (4.847.036 lineas). Rubro automatizacion/instrumentacion.",
+  "n_importadores_rubro": 1946,
+  "usd_rubro_2025": 316899613.19,
+  "canal_region": [
+    {
+      "region": "Metropolitana",
+      "n_importadores": 1720,
+      "usd_rubro": 295422139.97,
+      "pct_n": 88.4,
+      "pct_usd": 93.2
+    },
+    {
+      "region": "Valparaíso",
+      "n_importadores": 76,
+      "usd_rubro": 10237520.61,
+      "pct_n": 3.9,
+      "pct_usd": 3.2
+    },
+    {
+      "region": "O'Higgins",
+      "n_importadores": 21,
+      "usd_rubro": 4000191.08,
+      "pct_n": 1.1,
+      "pct_usd": 1.3
+    },
+    {
+      "region": "Biobío",
+      "n_importadores": 28,
+      "usd_rubro": 2268485.16,
+      "pct_n": 1.4,
+      "pct_usd": 0.7
+    },
+    {
+      "region": "Los Lagos",
+      "n_importadores": 29,
+      "usd_rubro": 1593349.02,
+      "pct_n": 1.5,
+      "pct_usd": 0.5
+    },
+    {
+      "region": "Antofagasta",
+      "n_importadores": 24,
+      "usd_rubro": 1286417.11,
+      "pct_n": 1.2,
+      "pct_usd": 0.4
+    },
+    {
+      "region": "Maule",
+      "n_importadores": 8,
+      "usd_rubro": 598968.35,
+      "pct_n": 0.4,
+      "pct_usd": 0.2
+    },
+    {
+      "region": "Coquimbo",
+      "n_importadores": 9,
+      "usd_rubro": 520858.9,
+      "pct_n": 0.5,
+      "pct_usd": 0.2
+    },
+    {
+      "region": "Ñuble",
+      "n_importadores": 7,
+      "usd_rubro": 466438.01,
+      "pct_n": 0.4,
+      "pct_usd": 0.1
+    },
+    {
+      "region": "Atacama",
+      "n_importadores": 5,
+      "usd_rubro": 253054.82,
+      "pct_n": 0.3,
+      "pct_usd": 0.1
+    },
+    {
+      "region": "Araucanía",
+      "n_importadores": 9,
+      "usd_rubro": 133662.33,
+      "pct_n": 0.5,
+      "pct_usd": 0.0
+    },
+    {
+      "region": "Arica y Parinacota",
+      "n_importadores": 2,
+      "usd_rubro": 59472.23,
+      "pct_n": 0.1,
+      "pct_usd": 0.0
+    },
+    {
+      "region": "Los Ríos",
+      "n_importadores": 1,
+      "usd_rubro": 21414.73,
+      "pct_n": 0.1,
+      "pct_usd": 0.0
+    },
+    {
+      "region": "Magallanes",
+      "n_importadores": 4,
+      "usd_rubro": 20983.71,
+      "pct_n": 0.2,
+      "pct_usd": 0.0
+    },
+    {
+      "region": "Tarapacá",
+      "n_importadores": 3,
+      "usd_rubro": 16657.16,
+      "pct_n": 0.2,
+      "pct_usd": 0.0
+    }
+  ],
+  "canal_comuna": [
+    {
+      "comuna": "Las Condes",
+      "codigo": "13114",
+      "region": "Metropolitana",
+      "n_importadores": 514,
+      "usd_rubro": 155122412.01,
+      "pct": 49.0
+    },
+    {
+      "comuna": "Santiago Centro",
+      "codigo": "13123",
+      "region": "Metropolitana",
+      "n_importadores": 186,
+      "usd_rubro": 33014992.31,
+      "pct": 10.4
+    },
+    {
+      "comuna": "Lo Prado",
+      "codigo": "13107",
+      "region": "Metropolitana",
+      "n_importadores": 94,
+      "usd_rubro": 20942632.48,
+      "pct": 6.6
+    },
+    {
+      "comuna": "Santiago",
+      "codigo": "13101",
+      "region": "Metropolitana",
+      "n_importadores": 193,
+      "usd_rubro": 17638149.5,
+      "pct": 5.6
+    },
+    {
+      "comuna": "Cerro Navia",
+      "codigo": "13125",
+      "region": "Metropolitana",
+      "n_importadores": 115,
+      "usd_rubro": 16985787.66,
+      "pct": 5.4
+    },
+    {
+      "comuna": "El Bosque",
+      "codigo": "13132",
+      "region": "Metropolitana",
+      "n_importadores": 65,
+      "usd_rubro": 11633320.25,
+      "pct": 3.7
+    },
+    {
+      "comuna": "Quinta Normal",
+      "codigo": "13124",
+      "region": "Metropolitana",
+      "n_importadores": 89,
+      "usd_rubro": 9099521.87,
+      "pct": 2.9
+    },
+    {
+      "comuna": "Puente Alto",
+      "codigo": "13301",
+      "region": "Metropolitana",
+      "n_importadores": 40,
+      "usd_rubro": 6746517.73,
+      "pct": 2.1
+    },
+    {
+      "comuna": "Concon",
+      "codigo": "5103",
+      "region": "Valparaiso",
+      "n_importadores": 21,
+      "usd_rubro": 5748455.37,
+      "pct": 1.8
+    },
+    {
+      "comuna": "Lo Espejo",
+      "codigo": "13128",
+      "region": "Metropolitana",
+      "n_importadores": 31,
+      "usd_rubro": 4882136.76,
+      "pct": 1.5
+    },
+    {
+      "comuna": "San Miguel",
+      "codigo": "13106",
+      "region": "Metropolitana",
+      "n_importadores": 31,
+      "usd_rubro": 3512307.24,
+      "pct": 1.1
+    },
+    {
+      "comuna": "Rancagua",
+      "codigo": "6101",
+      "region": "O'Higgins",
+      "n_importadores": 12,
+      "usd_rubro": 2925457.68,
+      "pct": 0.9
+    },
+    {
+      "comuna": "San Bernardo",
+      "codigo": "13302",
+      "region": "Metropolitana",
+      "n_importadores": 48,
+      "usd_rubro": 2060423.84,
+      "pct": 0.7
+    },
+    {
+      "comuna": "Providencia",
+      "codigo": "13119",
+      "region": "Metropolitana",
+      "n_importadores": 35,
+      "usd_rubro": 2042605.67,
+      "pct": 0.6
+    },
+    {
+      "comuna": "San Joaquin",
+      "codigo": "13118",
+      "region": "Metropolitana",
+      "n_importadores": 30,
+      "usd_rubro": 1897689.29,
+      "pct": 0.6
+    },
+    {
+      "comuna": "Vina del Mar",
+      "codigo": "5109",
+      "region": "Valparaiso",
+      "n_importadores": 20,
+      "usd_rubro": 1873847.12,
+      "pct": 0.6
+    },
+    {
+      "comuna": "San Pedro de la Paz",
+      "codigo": "8110",
+      "region": "Biobio",
+      "n_importadores": 6,
+      "usd_rubro": 1498255.07,
+      "pct": 0.5
+    },
+    {
+      "comuna": "Cerro Navia",
+      "codigo": "13102",
+      "region": "Metropolitana",
+      "n_importadores": 18,
+      "usd_rubro": 1489043.29,
+      "pct": 0.5
+    },
+    {
+      "comuna": "Conchali",
+      "codigo": "13104",
+      "region": "Metropolitana",
+      "n_importadores": 31,
+      "usd_rubro": 1239921.82,
+      "pct": 0.4
+    },
+    {
+      "comuna": "Antofagasta",
+      "codigo": "2101",
+      "region": "Antofagasta",
+      "n_importadores": 22,
+      "usd_rubro": 1164440.45,
+      "pct": 0.4
+    },
+    {
+      "comuna": "Puerto Montt",
+      "codigo": "10101",
+      "region": "Los Lagos",
+      "n_importadores": 14,
+      "usd_rubro": 1103450.62,
+      "pct": 0.3
+    },
+    {
+      "comuna": "San Bernardo",
+      "codigo": "13401",
+      "region": "Metropolitana",
+      "n_importadores": 55,
+      "usd_rubro": 1099405.4,
+      "pct": 0.3
+    },
+    {
+      "comuna": "Los Andes",
+      "codigo": "5801",
+      "region": "Valparaiso",
+      "n_importadores": 7,
+      "usd_rubro": 978709.76,
+      "pct": 0.3
+    },
+    {
+      "comuna": "Casablanca",
+      "codigo": "5102",
+      "region": "Valparaiso",
+      "n_importadores": 6,
+      "usd_rubro": 899880.05,
+      "pct": 0.3
+    },
+    {
+      "comuna": "Macul",
+      "codigo": "13120",
+      "region": "Metropolitana",
+      "n_importadores": 16,
+      "usd_rubro": 889158.13,
+      "pct": 0.3
+    },
+    {
+      "comuna": "La Granja",
+      "codigo": "13129",
+      "region": "Metropolitana",
+      "n_importadores": 19,
+      "usd_rubro": 867911.99,
+      "pct": 0.3
+    },
+    {
+      "comuna": "Lo Barnechea",
+      "codigo": "13115",
+      "region": "Metropolitana",
+      "n_importadores": 15,
+      "usd_rubro": 732169.68,
+      "pct": 0.2
+    },
+    {
+      "comuna": "Concepcion",
+      "codigo": "8101",
+      "region": "Biobio",
+      "n_importadores": 13,
+      "usd_rubro": 711330.66,
+      "pct": 0.2
+    },
+    {
+      "comuna": "Vitacura",
+      "codigo": "13122",
+      "region": "Metropolitana",
+      "n_importadores": 3,
+      "usd_rubro": 668862.97,
+      "pct": 0.2
+    },
+    {
+      "comuna": "Rancagua",
+      "codigo": "6301",
+      "region": "O'Higgins",
+      "n_importadores": 5,
+      "usd_rubro": 533197.31,
+      "pct": 0.2
+    },
+    {
+      "comuna": "La Serena",
+      "codigo": "4101",
+      "region": "Coquimbo",
+      "n_importadores": 7,
+      "usd_rubro": 513651.87,
+      "pct": 0.2
+    },
+    {
+      "comuna": "La Reina",
+      "codigo": "13121",
+      "region": "Metropolitana",
+      "n_importadores": 2,
+      "usd_rubro": 462820.06,
+      "pct": 0.1
+    },
+    {
+      "comuna": "Maipu",
+      "codigo": "13116",
+      "region": "Metropolitana",
+      "n_importadores": 2,
+      "usd_rubro": 418512.34,
+      "pct": 0.1
+    },
+    {
+      "comuna": "Talca",
+      "codigo": "7401",
+      "region": "Maule",
+      "n_importadores": 5,
+      "usd_rubro": 404350.06,
+      "pct": 0.1
+    },
+    {
+      "comuna": "Pudahuel",
+      "codigo": "13126",
+      "region": "Metropolitana",
+      "n_importadores": 14,
+      "usd_rubro": 386309.07,
+      "pct": 0.1
+    },
+    {
+      "comuna": "Chillan",
+      "codigo": "16101",
+      "region": "Nuble",
+      "n_importadores": 2,
+      "usd_rubro": 343826.14,
+      "pct": 0.1
+    },
+    {
+      "comuna": "Machali",
+      "codigo": "6106",
+      "region": "O'Higgins",
+      "n_importadores": 1,
+      "usd_rubro": 342519.91,
+      "pct": 0.1
+    },
+    {
+      "comuna": "La Pintana",
+      "codigo": "13127",
+      "region": "Metropolitana",
+      "n_importadores": 13,
+      "usd_rubro": 326382.87,
+      "pct": 0.1
+    },
+    {
+      "comuna": "Estacion Central",
+      "codigo": "13108",
+      "region": "Metropolitana",
+      "n_importadores": 10,
+      "usd_rubro": 322682.2,
+      "pct": 0.1
+    },
+    {
+      "comuna": "Valparaiso",
+      "codigo": "5101",
+      "region": "Valparaiso",
+      "n_importadores": 10,
+      "usd_rubro": 284909.59,
+      "pct": 0.1
+    },
+    {
+      "comuna": "Copiapo",
+      "codigo": "3101",
+      "region": "Atacama",
+      "n_importadores": 5,
+      "usd_rubro": 253054.82,
+      "pct": 0.1
+    },
+    {
+      "comuna": "La Calera",
+      "codigo": "5503",
+      "region": "Valparaiso",
+      "n_importadores": 1,
+      "usd_rubro": 245791.9,
+      "pct": 0.1
+    },
+    {
+      "comuna": "Lampa",
+      "codigo": "13404",
+      "region": "Metropolitana",
+      "n_importadores": 9,
+      "usd_rubro": 226052.82,
+      "pct": 0.1
+    },
+    {
+      "comuna": "San Fernando",
+      "codigo": "6110",
+      "region": "O'Higgins",
+      "n_importadores": 3,
+      "usd_rubro": 199016.18,
+      "pct": 0.1
+    },
+    {
+      "comuna": "Cauquenes",
+      "codigo": "7301",
+      "region": "Maule",
+      "n_importadores": 2,
+      "usd_rubro": 189780.64,
+      "pct": 0.1
+    },
+    {
+      "comuna": "cod.10301",
+      "codigo": "10301",
+      "region": "Los Lagos",
+      "n_importadores": 6,
+      "usd_rubro": 183660.67,
+      "pct": 0.1
+    },
+    {
+      "comuna": "Castro",
+      "codigo": "10109",
+      "region": "Los Lagos",
+      "n_importadores": 6,
+      "usd_rubro": 178610.28,
+      "pct": 0.1
+    },
+    {
+      "comuna": "San Jose de Maipo",
+      "codigo": "13201",
+      "region": "Metropolitana",
+      "n_importadores": 8,
+      "usd_rubro": 176163.08,
+      "pct": 0.1
+    },
+    {
+      "comuna": "San Felipe",
+      "codigo": "5802",
+      "region": "Valparaiso",
+      "n_importadores": 1,
+      "usd_rubro": 129995.08,
+      "pct": 0.0
+    },
+    {
+      "comuna": "Renca",
+      "codigo": "13109",
+      "region": "Metropolitana",
+      "n_importadores": 4,
+      "usd_rubro": 122852.75,
+      "pct": 0.0
+    },
+    {
+      "comuna": "San Carlos",
+      "codigo": "16105",
+      "region": "Nuble",
+      "n_importadores": 4,
+      "usd_rubro": 121561.87,
+      "pct": 0.0
+    },
+    {
+      "comuna": "Mejillones",
+      "codigo": "2102",
+      "region": "Antofagasta",
+      "n_importadores": 1,
+      "usd_rubro": 119118.75,
+      "pct": 0.0
+    },
+    {
+      "comuna": "Osorno",
+      "codigo": "10201",
+      "region": "Los Lagos",
+      "n_importadores": 1,
+      "usd_rubro": 119067.68,
+      "pct": 0.0
+    },
+    {
+      "comuna": "Talagante",
+      "codigo": "13604",
+      "region": "Metropolitana",
+      "n_importadores": 5,
+      "usd_rubro": 106113.9,
+      "pct": 0.0
+    },
+    {
+      "comuna": "Temuco",
+      "codigo": "9101",
+      "region": "Araucania",
+      "n_importadores": 7,
+      "usd_rubro": 95698.83,
+      "pct": 0.0
+    },
+    {
+      "comuna": "Independencia",
+      "codigo": "13113",
+      "region": "Metropolitana",
+      "n_importadores": 5,
+      "usd_rubro": 89634.83,
+      "pct": 0.0
+    },
+    {
+      "comuna": "San Antonio",
+      "codigo": "5301",
+      "region": "Valparaiso",
+      "n_importadores": 10,
+      "usd_rubro": 75931.74,
+      "pct": 0.0
+    },
+    {
+      "comuna": "San Ramon",
+      "codigo": "13130",
+      "region": "Metropolitana",
+      "n_importadores": 6,
+      "usd_rubro": 72465.62,
+      "pct": 0.0
+    },
+    {
+      "comuna": "cod.15101",
+      "codigo": "15101",
+      "region": "Arica y Parinacota",
+      "n_importadores": 2,
+      "usd_rubro": 59472.23,
+      "pct": 0.0
+    },
+    {
+      "comuna": "Quilicura",
+      "codigo": "13111",
+      "region": "Metropolitana",
+      "n_importadores": 4,
+      "usd_rubro": 39254.04,
+      "pct": 0.0
+    },
+    {
+      "comuna": "Villarrica",
+      "codigo": "9108",
+      "region": "Araucania",
+      "n_importadores": 1,
+      "usd_rubro": 36788.81,
+      "pct": 0.0
+    },
+    {
+      "comuna": "Nunoa",
+      "codigo": "13110",
+      "region": "Metropolitana",
+      "n_importadores": 1,
+      "usd_rubro": 29420.5,
+      "pct": 0.0
+    },
+    {
+      "comuna": "Hualpen",
+      "codigo": "8108",
+      "region": "Biobio",
+      "n_importadores": 2,
+      "usd_rubro": 22948.83,
+      "pct": 0.0
+    },
+    {
+      "comuna": "La Florida",
+      "codigo": "13117",
+      "region": "Metropolitana",
+      "n_importadores": 1,
+      "usd_rubro": 22766.77,
+      "pct": 0.0
+    },
+    {
+      "comuna": "Talcahuano",
+      "codigo": "8107",
+      "region": "Biobio",
+      "n_importadores": 2,
+      "usd_rubro": 21696.85,
+      "pct": 0.0
+    },
+    {
+      "comuna": "cod.14101",
+      "codigo": "14101",
+      "region": "Los Rios",
+      "n_importadores": 1,
+      "usd_rubro": 21414.73,
+      "pct": 0.0
+    },
+    {
+      "comuna": "Punta Arenas",
+      "codigo": "12101",
+      "region": "Magallanes",
+      "n_importadores": 4,
+      "usd_rubro": 20983.71,
+      "pct": 0.0
+    },
+    {
+      "comuna": "Recoleta",
+      "codigo": "13112",
+      "region": "Metropolitana",
+      "n_importadores": 1,
+      "usd_rubro": 20473.88,
+      "pct": 0.0
+    },
+    {
+      "comuna": "Pudahuel",
+      "codigo": "13501",
+      "region": "Metropolitana",
+      "n_importadores": 2,
+      "usd_rubro": 19216.79,
+      "pct": 0.0
+    },
+    {
+      "comuna": "Iquique",
+      "codigo": "1101",
+      "region": "Tarapaca",
+      "n_importadores": 2,
+      "usd_rubro": 12515.02,
+      "pct": 0.0
+    },
+    {
+      "comuna": "Ancud",
+      "codigo": "10107",
+      "region": "Los Lagos",
+      "n_importadores": 1,
+      "usd_rubro": 8000.78,
+      "pct": 0.0
+    },
+    {
+      "comuna": "Coronel",
+      "codigo": "8102",
+      "region": "Biobio",
+      "n_importadores": 2,
+      "usd_rubro": 7904.19,
+      "pct": 0.0
+    },
+    {
+      "comuna": "Coquimbo",
+      "codigo": "4102",
+      "region": "Coquimbo",
+      "n_importadores": 2,
+      "usd_rubro": 7207.03,
+      "pct": 0.0
+    },
+    {
+      "comuna": "Penalflor",
+      "codigo": "13605",
+      "region": "Metropolitana",
+      "n_importadores": 2,
+      "usd_rubro": 5147.57,
+      "pct": 0.0
+    },
+    {
+      "comuna": "San Ramon",
+      "codigo": "13303",
+      "region": "Metropolitana",
+      "n_importadores": 1,
+      "usd_rubro": 4925.86,
+      "pct": 0.0
+    },
+    {
+      "comuna": "Curico",
+      "codigo": "7304",
+      "region": "Maule",
+      "n_importadores": 1,
+      "usd_rubro": 4837.65,
+      "pct": 0.0
+    },
+    {
+      "comuna": "Los Angeles",
+      "codigo": "8301",
+      "region": "Biobio",
+      "n_importadores": 2,
+      "usd_rubro": 4149.34,
+      "pct": 0.0
+    },
+    {
+      "comuna": "Alto Hospicio",
+      "codigo": "1107",
+      "region": "Tarapaca",
+      "n_importadores": 1,
+      "usd_rubro": 4142.14,
+      "pct": 0.0
+    },
+    {
+      "comuna": "Colina",
+      "codigo": "13403",
+      "region": "Metropolitana",
+      "n_importadores": 1,
+      "usd_rubro": 3195.13,
+      "pct": 0.0
+    },
+    {
+      "comuna": "Taltal",
+      "codigo": "2104",
+      "region": "Antofagasta",
+      "n_importadores": 1,
+      "usd_rubro": 2857.91,
+      "pct": 0.0
+    },
+    {
+      "comuna": "Pedro Aguirre Cerda",
+      "codigo": "13131",
+      "region": "Metropolitana",
+      "n_importadores": 1,
+      "usd_rubro": 2780.0,
+      "pct": 0.0
+    },
+    {
+      "comuna": "Chiguayante",
+      "codigo": "8103",
+      "region": "Biobio",
+      "n_importadores": 1,
+      "usd_rubro": 2200.22,
+      "pct": 0.0
+    },
+    {
+      "comuna": "Pucon",
+      "codigo": "9119",
+      "region": "Araucania",
+      "n_importadores": 1,
+      "usd_rubro": 1174.69,
+      "pct": 0.0
+    },
+    {
+      "comuna": "Los Angeles",
+      "codigo": "16301",
+      "region": "Nuble",
+      "n_importadores": 1,
+      "usd_rubro": 1050.0,
+      "pct": 0.0
+    },
+    {
+      "comuna": "Puerto Varas",
+      "codigo": "10203",
+      "region": "Los Lagos",
+      "n_importadores": 1,
+      "usd_rubro": 558.99,
+      "pct": 0.0
+    }
+  ]
+}

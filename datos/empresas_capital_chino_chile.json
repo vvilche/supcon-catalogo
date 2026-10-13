@@ -1,0 +1,1024 @@
+{
+ "metodologia": "Levantamiento de empresas en Chile con dueño o participación de capital chino, orientado a prospección comercial SUPCON. Cada empresa lleva fuente citable. La participación accionaria se clasifica como 'verificado' (hay fuente que la respalda con porcentaje o control), 'parcial' (existe la relación pero el porcentaje no se pudo confirmar), 'no_verificado' (se encontró la empresa pero NO hay fuente de participación china) o 'inferido' (presencia china probable por otras señales, no accionaria). No se inventó ningún dato.",
+ "fuente_capacidad_supcon": "material del fabricante SUPCON (datos/fichas_1..4_datos.json, analizadores_supcon.json, cobertura_catalogo.json): 7 líneas (Instrumentación, Analítica, Válvulas, DCS, PLC, SIS, Software) + Eléctrico.",
+ "dato_supcon_matriz": "El material del fabricante declara más de 1.000 conjuntos de APC instalados en unidades de SINOPEC, PETROCHINA y CNOOC; presencia en más de 2.000 plantas y 50 países; y atención a 27.000 empresas en 170 países. Ninguno de esos tres grupos aparece hoy como accionista de activos en Chile, así que la conexión es de ecosistema (clientes estatales chinos), no de filial local.",
+ "resumen": {
+  "total_empresas": 34,
+  "participacion_verificada": 28,
+  "participacion_parcial": 2,
+  "participacion_no_verificada": 3,
+  "participacion_inferida": 1,
+  "prioridad_alta": 14,
+  "prioridad_media": 13,
+  "prioridad_baja": 7,
+  "sectores": 8
+ },
+ "por_sector": {
+  "Energía y eléctrico": {
+   "n": 12,
+   "empresas": [
+    "Chilquinta Energía S.A. (+ Tecnored y Eletrans)",
+    "Compañía General de Electricidad S.A. (CGE)",
+    "Generadora Metropolitana — Planta Solar CEME1 (EPC PowerChina)",
+    "Pacific Hydro Chile S.A.",
+    "PowerChina Chile / Huadong Engineering (HDEC)",
+    "Rucalhue Energía SpA",
+    "Río Bueno (proyecto hidroeléctrico)",
+    "Transelec S.A.",
+    "China Energy International Group — Agencia en Chile (CEEC)",
+    "Jinko Solar / Jinko ESS (Chile)",
+    "Trina Solar (Chile)",
+    "Yutong Chile S.p.A."
+   ],
+   "prioridad_alta": 8
+  },
+  "Infraestructura y construcción": {
+   "n": 4,
+   "empresas": [
+    "CHEC Chile — Sociedad Concesionaria Embalse Las Palmas",
+    "CRCC Chile — oficina comercial (infraestructura y hospitales)",
+    "China Railway International Group — Sucursal Chile (CRIG)",
+    "Sociedad Concesionaria Ruta 5 Talca-Chillán S.A. (Survías)"
+   ],
+   "prioridad_alta": 2
+  },
+  "Minería y metales": {
+   "n": 4,
+   "empresas": [
+    "Codelco — alianza de offtake con China Minmetals (CuPIC)",
+    "SQM — Sociedad Química y Minera de Chile S.A.",
+    "Nova Andino Litio SpA (Codelco – SQM)",
+    "XCMG Chile S.A."
+   ],
+   "prioridad_alta": 2
+  },
+  "Química y manufactura": {
+   "n": 4,
+   "empresas": [
+    "Australis Seafoods S.A.",
+    "Viñas Yantai Changyu — grupo Bethwines (Indómita, Santa Alicia, Porta, Agustinos)",
+    "EMBALSE — Industria vitivinícola COFCO / Viña Bisquertt",
+    "Viña San Pedro Tarapacá (VSPT Wine Group)"
+   ],
+   "prioridad_alta": 1
+  },
+  "Telecomunicaciones": {
+   "n": 3,
+   "empresas": [
+    "Huawei Chile S.A.",
+    "ZTE Chile (Corporación ZTE de Chile S.A.)",
+    "CMI Chile SpA (China Mobile International)"
+   ],
+   "prioridad_alta": 1
+  },
+  "Automotriz y transporte": {
+   "n": 3,
+   "empresas": [
+    "BYD Chile SpA",
+    "Chery / Omoda / Jaecoo (Chile)",
+    "Great Wall Motor (GWM) Chile"
+   ],
+   "prioridad_alta": 0
+  },
+  "Comercio y distribución": {
+   "n": 3,
+   "empresas": [
+    "Construmart S.A.",
+    "EMBALSE/BODEGA — Sociedad Comercial COFCO Limitada (¿relación con COFCO Group?)",
+    "Miniso Chile (Mini BF Chile SpA)"
+   ],
+   "prioridad_alta": 0
+  },
+  "Puertos y logística": {
+   "n": 1,
+   "empresas": [
+    "Puerto Exterior de San Antonio — proceso de licitación (CHEC/CRCC precalificados)"
+   ],
+   "prioridad_alta": 0
+  }
+ },
+ "empresas": [
+  {
+   "nombre": "Chilquinta Energía S.A. (+ Tecnored y Eletrans)",
+   "grupo_chino": "State Grid Corporation of China (SGCC), vía State Grid Chile Investment SpA / Inversiones State Grid International Ltda.",
+   "participacion": "99,99998% controlado por State Grid Chile Investment SpA (filial 100% de SGCC). Compra cerrada el 24-jun-2020 por US$ 2.230 millones. VERIFICADO",
+   "estado_participacion": "verificado",
+   "sector": "Energía y eléctrico",
+   "region": "Valparaíso, Metropolitana, O'Higgins, Maule, Ñuble, Biobío, La Araucanía",
+   "comuna": "Viña del Mar (casa matriz) / Santiago",
+   "plantas": [
+    "Distribución eléctrica zona central",
+    "Eletrans I, II y III (transmisión)",
+    "Tecnored",
+    "Subestaciones de distribución"
+   ],
+   "web": "https://www.chilquinta.cl",
+   "tamano": "Distribuidora con ~700 mil clientes",
+   "productos_supcon_aplicables": [
+    "DCS (ECS-700)",
+    "PLC (G5Pro)",
+    "Instrumentación de campo",
+    "Switchgear MT/BT (KYN28-12, MNS)",
+    "Software supOS / PRIDE",
+    "Ciberseguridad OT",
+    "Sistemas de incendio"
+   ],
+   "prioridad": "alta",
+   "razon_prioridad": "(a) Control casi total de una empresa estatal china (State Grid): decisión de compra puede venir de China. (b) Opera subestaciones y centros de control de distribución. (c) Mismo dueño que CGE: una sola relación abre dos cuentas grandes.",
+   "fuente": "https://www.caixinglobal.com/2020-06-28/state-grid-boosts-south-america-presence-with-223-billion-purchase-in-chile-101572663.html; Memoria Chilquinta Energía 2023"
+  },
+  {
+   "nombre": "Compañía General de Electricidad S.A. (CGE)",
+   "grupo_chino": "State Grid Corporation of China (SGCC), vía State Grid International Development Ltd.",
+   "participacion": "96,04% del capital adquirido por OPA (11-jun-2021). Memoria CGE reporta control de 97,145% vía State Grid Chile Electricity SpA. VERIFICADO",
+   "estado_participacion": "verificado",
+   "sector": "Energía y eléctrico",
+   "region": "Nacional (distribución: Arica y Parinacota a Magallanes; 15 regiones)",
+   "comuna": "Santiago (casa matriz, Av. Presidente Riesco)",
+   "plantas": [
+    "Distribución eléctrica en 15 regiones",
+    "CGE Transmisión",
+    "Eletrans (transmisión)",
+    "Empresa Eléctrica de Magallanes",
+    "Subestaciones de distribución MT/BT"
+   ],
+   "web": "https://www.cge.cl",
+   "tamano": "Mayor distribuidora eléctrica de Chile; ~3,2 millones de clientes",
+   "productos_supcon_aplicables": [
+    "DCS (ECS-700)",
+    "PLC (G5Pro / G3Smart)",
+    "Instrumentación (CXT, CJT, W, SFE910, LUGB)",
+    "Eléctrico — Switchgear KYN28-12 y MNS",
+    "Software supOS / InPlant EAM",
+    "Ciberseguridad OT",
+    "Medición fiscal / Metering"
+   ],
+   "prioridad": "alta",
+   "razon_prioridad": "(a) Dueño 100% estatal chino: entiende y prefiere proveedores chinos. (b) Opera cientos de subestaciones y centros de control con instrumentación, switchgear y sistemas de control renovables. (c) State Grid es par de SUPCON en China — mismo ecosistema estatal, familiaridad total con la homologación china.",
+   "fuente": "https://www.cmfchile.cl (OPA State Grid/CGE jun-2021); Memoria CGE 2023"
+  },
+  {
+   "nombre": "Generadora Metropolitana — Planta Solar CEME1 (EPC PowerChina)",
+   "grupo_chino": "PowerChina (Huadong Engineering Corporation, HDEC) como EPC",
+   "participacion": "EPC 100% chino (PowerChina/HDEC). Dueño del activo: Generadora Metropolitana (alianza EDF-AME, no china). VERIFICADO como EPC, no como propiedad",
+   "estado_participacion": "verificado",
+   "sector": "Energía y eléctrico",
+   "region": "Antofagasta",
+   "comuna": "María Elena",
+   "plantas": [
+    "CEME1, 480 MWp — mayor planta solar de Chile, en operación comercial desde jul-2024",
+    "Proyecto Dune Plus: 186 MWp + 702 MWh BESS (continuación en el mismo sitio)"
+   ],
+   "web": "https://en.powerchina.cn",
+   "tamano": "480 MWp en operación + 186 MWp / 702 MWh en desarrollo",
+   "productos_supcon_aplicables": [
+    "PLC (G5Pro)",
+    "Instrumentación (radiación, temperatura, flujo)",
+    "Switchgear MT/BT",
+    "Software supOS / SoliSCADA",
+    "SIS (TCS-900)",
+    "Analítica (calidad de agua, analizadores de proceso)",
+    "Medición fiscal"
+   ],
+   "prioridad": "alta",
+   "razon_prioridad": "(a) EPC 100% chino: el proveedor de instrumentación y control lo decide PowerChina, no el dueño chileno. (b) Activo industrial con subestación elevadora 33/220 kV, línea de transmisión y BESS. (c) Dune Plus en construcción = segunda oportunidad inmediata con el mismo EPC.",
+   "fuente": "https://en.powerchina.cn/2024-07/09/c_828729.htm; https://www.hdec.com/en/news/show-668.html"
+  },
+  {
+   "nombre": "Pacific Hydro Chile S.A.",
+   "grupo_chino": "State Power Investment Corporation (SPIC)",
+   "participacion": "100% de Pacific Hydro es de propiedad de SPIC (State Power Investment Corporation). VERIFICADO",
+   "estado_participacion": "verificado",
+   "sector": "Energía y eléctrico",
+   "region": "Atacama, Coquimbo, O'Higgins, Maule, Metropolitana (proyectos)",
+   "comuna": "Santiago (Las Condes)",
+   "plantas": [
+    "Centrales hidroeléctricas de pasada: Coya, Pangal, Chacayes, La Higuera, La Confluencia",
+    "Parque eólico Punta Sierra",
+    "Proyectos solares en desarrollo: Desierto de Atacama, Don Patricio, Wing, Amolanas"
+   ],
+   "web": "https://www.pacifichydro.cl",
+   "tamano": "Generadora renovable con presencia multi-región",
+   "productos_supcon_aplicables": [
+    "DCS (ECS-700)",
+    "PLC (G5Pro)",
+    "Instrumentación (caudal, nivel, presión)",
+    "Válvulas SUPCON FLUID",
+    "SIS (TCS-900) para turbinas",
+    "Analítica (analizadores de agua)",
+    "Software InPlant APC / PRIDE",
+    "Medición fiscal"
+   ],
+   "prioridad": "alta",
+   "razon_prioridad": "(a) Dueño 100% estatal chino (SPIC). (b) Opera centrales hidroeléctricas y parques: cada unidad tiene casa de máquinas con instrumentación, válvulas, SIS y DCS. (c) SPIC es cliente histórico de automatización china.",
+   "fuente": "https://generadoras.cl/dipl-team-member/pacific-hydro/; https://www.pacifichydro.cl/proyectos/"
+  },
+  {
+   "nombre": "PowerChina Chile / Huadong Engineering (HDEC)",
+   "grupo_chino": "PowerChina (Power Construction Corporation of China, estatal)",
+   "participacion": "Sucursal/oficina local PowerChina Chile + HDEC como EPC directo. EPC de CEME1 (480 MW) y Dune Plus (186 MWp + 702 MWh BESS). VERIFICADO",
+   "estado_participacion": "verificado",
+   "sector": "Energía y eléctrico",
+   "region": "Atacama, Antofagasta",
+   "comuna": "María Elena (proyecto) / Santiago (oficina)",
+   "plantas": [
+    "CEME1, 480 MWp (operación desde jul-2024)",
+    "Dune Plus: 186 MWp + 702 MWh BESS (construcción)",
+    "Obras eléctricas asociadas: subestación elevadora, línea de transmisión"
+   ],
+   "web": "https://www.powerchina.cn",
+   "tamano": "EPC estatal chino con oficina en Chile",
+   "productos_supcon_aplicables": [
+    "PLC (G5Pro)",
+    "DCS (ECS-700)",
+    "Switchgear MT/BT",
+    "Instrumentación",
+    "Software supOS / SoliSCADA",
+    "Medición fiscal",
+    "Ciberseguridad OT",
+    "SIS (TCS-900)"
+   ],
+   "prioridad": "alta",
+   "razon_prioridad": "(a) EPC estatal chino con oficina local: es quien especifica y compra instrumentación, PLC y switchgear en los proyectos. (b) Tiene proyectos solares + BESS en construcción con obras eléctricas. (c) Vía de entrada al dueño del activo sin licitación abierta.",
+   "fuente": "https://www.linkedin.com/company/powerchina-chile; https://www.hdec.com/en/news/show-668.html"
+  },
+  {
+   "nombre": "Rucalhue Energía SpA",
+   "grupo_chino": "China International Water & Electric Corporation (CWE), filial de China Three Gorges Corporation (CTG)",
+   "participacion": "100% CWE sobre Rucalhue Energía SpA (adquisición 2018 de Atiaia Energía). VERIFICADO",
+   "estado_participacion": "verificado",
+   "sector": "Energía y eléctrico",
+   "region": "Biobío",
+   "comuna": "Santa Bárbara / Quilaco",
+   "plantas": [
+    "Central hidroeléctrica de pasada Rucalhue, 90 MW (en construcción)",
+    "Inversión estimada US$ 240 millones"
+   ],
+   "web": "https://www.ctg.com.cn",
+   "tamano": "Proyecto por US$ 240 millones",
+   "productos_supcon_aplicables": [
+    "DCS (ECS-700)",
+    "PLC (G5Pro / G5Pro Safety)",
+    "Instrumentación de proceso",
+    "Válvulas SUPCON FLUID",
+    "SIS (TCS-900 / HIPPS)",
+    "Analítica (analizadores de agua)",
+    "Software supOS / InPlant OTS",
+    "Switchgear MT/BT"
+   ],
+   "prioridad": "alta",
+   "razon_prioridad": "(a) Proyecto EN CONSTRUCCIÓN: se define el sistema de control AHORA, sin incumbente. (b) Dueño y EPC de la misma casa matriz china (CTG/CWE/CCCC). (c) Central hidroeléctrica = instrumentación + válvulas + SIS + DCS: las 4 líneas principales de SUPCON en un solo activo.",
+   "fuente": "https://blog.investchile.gob.cl/2026/china-three-gorges-confirma-inter%C3%A9s-de-expandir-negocios-en-chile; https://olca.cl/articulo/nota.php?id=111140"
+  },
+  {
+   "nombre": "Río Bueno (proyecto hidroeléctrico)",
+   "grupo_chino": "China Three Gorges Corporation (CTG) vía China International Water & Electric (CWE)",
+   "participacion": "100% CWE / CTG. VERIFICADO (proyecto en tramitación de permisos)",
+   "estado_participacion": "verificado",
+   "sector": "Energía y eléctrico",
+   "region": "Los Ríos",
+   "comuna": "Río Bueno",
+   "plantas": [
+    "Central hidroeléctrica Río Bueno, 101 MW (en tramitación)"
+   ],
+   "web": "https://www.ctg.com.cn",
+   "tamano": "Proyecto en desarrollo (101 MW)",
+   "productos_supcon_aplicables": [
+    "DCS (ECS-700)",
+    "PLC (G5Pro)",
+    "Instrumentación",
+    "Válvulas SUPCON FLUID",
+    "SIS (TCS-900)",
+    "Software supOS"
+   ],
+   "prioridad": "alta",
+   "razon_prioridad": "(a) En fase de definición de ingeniería: momento óptimo de entrada. (b) Mismo dueño que Rucalhue — una relación comercial cubre ambos proyectos. (c) CTG confirmó públicamente planes de expandir portafolio eólico y solar en Chile: pipeline recurrente.",
+   "fuente": "https://www.investchile.gob.cl/es/director-de-investchile-se-reune-con-representantes-de-gigante-energetica-china-three-gorges/"
+  },
+  {
+   "nombre": "Transelec S.A.",
+   "grupo_chino": "China Southern Power Grid International (CSGI)",
+   "participacion": "27,79% del capital al 31-dic-2025. No hay accionista controlador sobre 50%. VERIFICADO",
+   "estado_participacion": "verificado",
+   "sector": "Energía y eléctrico",
+   "region": "Nacional (transmisión): Arica a Chiloé",
+   "comuna": "Santiago (Las Condes)",
+   "plantas": [
+    "10.743 km de líneas de transmisión",
+    "Subestaciones de alta tensión a lo largo del país",
+    "Centro de control de transmisión"
+   ],
+   "web": "https://www.transelec.cl",
+   "tamano": "Principal transmisora eléctrica de Chile",
+   "productos_supcon_aplicables": [
+    "DCS (ECS-700)",
+    "PLC (G5Pro)",
+    "Instrumentación (CXT, SFE910, SL903)",
+    "Switchgear MT/BT",
+    "SIS (TCS-900) para protecciones",
+    "Software supOS / InPlant EAM",
+    "Medición fiscal / Metering",
+    "Ciberseguridad OT"
+   ],
+   "prioridad": "alta",
+   "razon_prioridad": "(a) Accionista chino relevante (segundo mayor). (b) Transmisora con subestaciones que requieren instrumentación, medición, SCADA y switchgear — el corazón del portafolio SUPCON. (c) CSG es par tecnológico de SUPCON en China.",
+   "fuente": "https://www.transelec.cl/memoria-2024/doc/esp/cap1.pdf"
+  },
+  {
+   "nombre": "CHEC Chile — Sociedad Concesionaria Embalse Las Palmas",
+   "grupo_chino": "China Harbour Engineering Company Ltd. (CHEC), filial de China Communications Construction Company (CCCC)",
+   "participacion": "100% CHEC sobre la sociedad concesionaria. VERIFICADO. Embalse de 55 millones de m³, 252 ha inundadas",
+   "estado_participacion": "verificado",
+   "sector": "Infraestructura y construcción",
+   "region": "Valparaíso",
+   "comuna": "Petorca",
+   "plantas": [
+    "Embalse Las Palmas (55 millones de m³)",
+    "Obras hidráulicas: bocatoma, entrega, descarga de fondo",
+    "Oficina corporativa CHEC Chile (Santiago, 2026)"
+   ],
+   "web": "https://www.chec.bj.cn",
+   "tamano": "Concesión de obra hidráulica mayor",
+   "productos_supcon_aplicables": [
+    "Instrumentación (nivel SL903, caudal SFE910, presión CXT)",
+    "PLC (G5Pro)",
+    "DCS (ECS-700) para control de compuertas",
+    "SIS (TCS-900) para descarga de fondo",
+    "Software supOS / SoliSCADA",
+    "Eléctrico — switchgear, CCTV",
+    "Sistemas de incendio"
+   ],
+   "prioridad": "alta",
+   "razon_prioridad": "(a) 100% capital chino con sucursal corporativa propia en Chile (2026): decisión de compra localizada en manos chinas. (b) Obra hidráulica instrumentada: nivel, caudal, compuertas y descarga de fondo exigen PLC/instrumentación de campo. (c) CHEC construye infraestructura portuaria en Chile: misma relación abre puertos.",
+   "fuente": "https://concesiones.mop.gob.cl/project/concesion-embalse-las-palmas/; https://www.emb.cl/construccion/noticia.mvc?nid=20260601w8"
+  },
+  {
+   "nombre": "CRCC Chile — oficina comercial (infraestructura y hospitales)",
+   "grupo_chino": "China Railway Construction Corporation (CRCC, estatal)",
+   "participacion": "Oficinas comerciales en Chile desde 2017. Grupo CRCC = CRCC International Limited + China Railway Construction Group Corporation Limited. VERIFICADO (adjudicatario Hospital de Coquimbo por DS feb-2022). Porcentaje accionario interno del Hospital de Coquimbo NO VERIFICADO (una fuente atribuyó 75/25, no se pudo confirmar)",
+   "estado_participacion": "parcial",
+   "sector": "Infraestructura y construcción",
+   "region": "Coquimbo, Maule, Ñuble, Biobío",
+   "comuna": "Santiago (oficina comercial) / Coquimbo / Talca / Chillán",
+   "plantas": [
+    "Concesión Hospital de Coquimbo (adjudicada DS feb-2022)",
+    "Ruta 5 tramos Talca-Chillán y Chillán-Collipulli",
+    "Obras públicas y licitaciones MOP"
+   ],
+   "web": "https://www.crcc.cn",
+   "tamano": "Constructora estatal china con presencia desde 2017",
+   "productos_supcon_aplicables": [
+    "DCS (ECS-700) para instalaciones",
+    "PLC (G5Pro)",
+    "Instrumentación",
+    "Software supOS / InPlant EAM",
+    "Ciberseguridad OT",
+    "Sistemas de incendio",
+    "CCTV / videovigilancia"
+   ],
+   "prioridad": "alta",
+   "razon_prioridad": "(a) Constructora estatal china con oficina local: elige proveedor de instrumentación y control en sus obras. (b) Los hospitales adjudicados tienen BMS, climatización, incendio, gases clínicos y salas eléctricas: aplican PLC, switchgear, SIS e instrumentación. (c) Es EPC, no dueño final: entra por el canal y arrastra al dueño.",
+   "fuente": "https://www.investchile.gob.cl/es/casos-de-exito/crcc/; https://www.bcn.cl/leychile/navegar?i=1181122"
+  },
+  {
+   "nombre": "Codelco — alianza de offtake con China Minmetals (CuPIC)",
+   "grupo_chino": "China Minmetals Corporation (China Minmetals Non-Ferrous Metals Co.)",
+   "participacion": "Joint venture Copper Partners Investment Company Limited (CuPIC) 50% Codelco / 50% Minmetals; offtake de 57.000 t/año de cátodos por 15 años (836.250 t totales). VERIFICADO (es un contrato de offtake, NO propiedad de Codelco)",
+   "estado_participacion": "verificado",
+   "sector": "Minería y metales",
+   "region": "Nacional (casa matriz Santiago); operaciones de Codelco en todo el país",
+   "comuna": "Santiago (casa matriz, Alameda)",
+   "plantas": [
+    "División Chuquicamata",
+    "División Radomiro Tomic",
+    "División El Teniente",
+    "División Andina",
+    "División Gabriela Mistral",
+    "División Ministro Hales",
+    "División El Abra (49%)",
+    "Fundición Caletones"
+   ],
+   "web": "https://www.codelco.com",
+   "tamano": "Mayor productor mundial de cobre; ~1,3 millones t/año",
+   "productos_supcon_aplicables": [
+    "DCS (ECS-700)",
+    "PLC (G5Pro / G5Pro Safety)",
+    "SIS (TCS-900 / HIPPS)",
+    "Instrumentación de proceso",
+    "Analítica (analizadores XRF, PRISM Raman, WIM COMPAS)",
+    "Válvulas SUPCON FLUID",
+    "Software InPlant APC / RTO / supOS",
+    "Eléctrico — switchgear y sistemas de incendio",
+    "CCTV / videovigilancia"
+   ],
+   "prioridad": "alta",
+   "razon_prioridad": "(a) Minmetals es un socio estratégico histórico chino (CuPIC 2005): hay relación comercial China-Codelco establecida. (b) 7 divisiones mineras + fundición: cada una es una planta industrial con DCS, analítica, válvulas y SIS. (c) El offtake chino significa que el cátodo viaja a China — el comprador chino conoce y puede recomendar proveedores chinos de equipamiento.",
+   "fuente": "https://www.codelco.com/noticias/2005/minmetals-y-codelco-forman-una-alianza-estrategica-en-cobre"
+  },
+  {
+   "nombre": "SQM — Sociedad Química y Minera de Chile S.A.",
+   "grupo_chino": "Tianqi Lithium Corporation (vía Inversiones TLC SpA)",
+   "participacion": "Tianqi Lithium tiene ~22,16% de las acciones (al 31-dic-2022, dato vigente en memorias SQM 2024). Segundo mayor accionista, no controlador. VERIFICADO",
+   "estado_participacion": "verificado",
+   "sector": "Minería y metales",
+   "region": "Antofagasta (Salar de Atacama); operaciones en Antofagasta, Tarapacá, Metropolitana",
+   "comuna": "Santiago (casa matriz, Las Condes); Salar de Atacama; planta La Negra (Antofagasta)",
+   "plantas": [
+    "Salar de Atacama (extracción de salmuera de litio)",
+    "Planta de carbonato de litio grado batería (Antofagasta)",
+    "Planta de nitratos y yodo",
+    "Operaciones de yodo en Tarapacá",
+    "Nueva sociedad de litio con Codelco (Nova Andino Litio), Estado con 50%+1 acción desde 2031"
+   ],
+   "web": "https://www.sqm.com",
+   "tamano": "Principal productor mundial de litio y yodo; 22,16% en manos chinas",
+   "productos_supcon_aplicables": [
+    "DCS (ECS-700)",
+    "PLC (G5Pro)",
+    "SIS (TCS-900 / HIPPS)",
+    "Instrumentación (caudal electromagnético SFE910, analizadores de pH y conductividad)",
+    "Analítica (HICOSYS, NICOSYS, PRISM Raman)",
+    "Válvulas SUPCON FLUID",
+    "Software InPlant APC / PRIDE / supOS",
+    "Medición fiscal"
+   ],
+   "prioridad": "alta",
+   "razon_prioridad": "(a) Segundo accionista chino con incentivo explícito a usar cadenas de suministro chinas. (b) Planta química de proceso continuo (carbonato de litio, nitratos, yodo): el corazón de la cartera SUPCON (DCS + analítica + válvulas + SIS). (c) La planta de litio exige analítica en línea y control de calidad — SUPCON tiene analizadores propios (Hobré).",
+   "fuente": "https://ir.sqm.com/static-files/95c75957-70f7-40e1-ab63-22e7a46b44cb; Memoria SQM 2024"
+  },
+  {
+   "nombre": "Australis Seafoods S.A.",
+   "grupo_chino": "Joyvio Group / Legend Holdings Corporation (China)",
+   "participacion": "99,84% adquirido por Food Investment SpA (filial de Joyvio) en jul-2019; en 2025 reestructurado internamente a Joyvio Premium Fresh manteniendo 100% del control dentro de Legend Holdings. VERIFICADO",
+   "estado_participacion": "verificado",
+   "sector": "Química y manufactura",
+   "region": "Los Lagos, Aysén, Magallanes, La Araucanía, Biobío, Los Ríos",
+   "comuna": "Calbuco (planta Fitz Roy), Punta Arenas, Puerto Montt",
+   "plantas": [
+    "Planta de proceso Fitz Roy (Calbuco)",
+    "Pisciculturas en La Araucanía, Los Lagos, Biobío y Los Ríos",
+    "Centros de cultivo en Aysén y Magallanes",
+    "Plantas de proceso en Punta Arenas"
+   ],
+   "web": "https://www.australis-seafoods.com",
+   "tamano": "Principal salmonicultor chileno controlado por capital chino",
+   "productos_supcon_aplicables": [
+    "PLC (G5Pro)",
+    "SIS (TCS-900) para amoniaco/refrigeración",
+    "Instrumentación (temperatura, caudal, presión)",
+    "Analítica (calidad de agua, NICOSYS)",
+    "Software InPlant EAM / supOS / trazabilidad",
+    "Válvulas SUPCON FLUID",
+    "CCTV / videovigilancia",
+    "Medición fiscal"
+   ],
+   "prioridad": "alta",
+   "razon_prioridad": "(a) Control 100% de un holding chino (Legend Holdings/Joyvio): la decisión de equipos puede venir de China. (b) Múltiples plantas de proceso con cadena de frío crítica: amoniaco (SIS), trazabilidad, instrumentación y analítica de agua — 5 de las 7 líneas SUPCON aplican. (c) Australis vende salmón A CHINA: el comprador chino conoce y puede recomendar proveedores chinos.",
+   "fuente": "https://en.joyviofood.com; https://iclac.cl/wp-content/uploads/2024/01/Case-Report-ICLAC-Salmonicultura-chilena-y-la-presencia-de-China.pdf"
+  },
+  {
+   "nombre": "Huawei Chile S.A.",
+   "grupo_chino": "Huawei Technologies Co., Ltd.",
+   "participacion": "Filial directa 100% de Huawei Technologies. Data Center Cloud Regional en Santiago (inversión >US$ 100 millones, 2019) + segundo centro de datos anunciado. VERIFICADO",
+   "estado_participacion": "verificado",
+   "sector": "Telecomunicaciones",
+   "region": "Metropolitana",
+   "comuna": "Las Condes (Rosario Norte 530)",
+   "plantas": [
+    "Huawei Cloud Data Center Regional (Santiago)",
+    "Segundo centro de datos y nube pública IA",
+    "Infraestructura 5G y redes para operadores (Telefónica, Entel)"
+   ],
+   "web": "https://www.huawei.com/cl",
+   "tamano": "Filial de multinacional china; data center regional propio",
+   "productos_supcon_aplicables": [
+    "DCS (ECS-700) para cooling y power del DC",
+    "PLC (G5Pro)",
+    "Instrumentación",
+    "SIS (TCS-900)",
+    "Software supOS",
+    "Ciberseguridad OT",
+    "Analítica"
+   ],
+   "prioridad": "alta",
+   "razon_prioridad": "(a) Filial directa china de primer nivel: máxima familiaridad y confianza en proveedores chinos. (b) Opera data centers propios en Chile — planta crítica con chillers, UPS, monitoreo y control: aplica DCS/PLC/SIS/instrumentación (el mismo caso de uso que SUPCON vende en China). (c) Es puerta de entrada al ecosistema de proveedores tecnológicos chinos en Chile.",
+   "fuente": "https://www.subtel.gob.cl/mtt-y-huawei-inauguran-primer-cloud-data-center-regional-en-chile-con-una-inversion-de-mas-de-usd-100-millones/; https://www.investchile.gob.cl/es/casos-de-exito/huawei/"
+  },
+  {
+   "nombre": "BYD Chile SpA",
+   "grupo_chino": "BYD Company Limited (Build Your Dreams)",
+   "participacion": "En dic-2025 BYD asumió DIRECTAMENTE la importación y comercialización en Chile (antes vía Astara). Existe BYD Chile SpA. VERIFICADO",
+   "estado_participacion": "verificado",
+   "sector": "Automotriz y transporte",
+   "region": "Metropolitana; red de concesionarios nacional",
+   "comuna": "Santiago",
+   "plantas": [
+    "Importación y comercialización directa de vehículos eléctricos",
+    "Buses eléctricos articulados y doble piso (flota RED Metropolitana, operados por Metbus)",
+    "Baterías y sistemas de almacenamiento (BYD Energy)"
+   ],
+   "web": "https://www.byd.com/cl",
+   "tamano": "Mayor fabricante mundial de vehículos eléctricos; operación directa en Chile desde 2025",
+   "productos_supcon_aplicables": [
+    "Software supOS / InPlant EAM",
+    "PLC (G5Pro)",
+    "Instrumentación",
+    "Ciberseguridad OT",
+    "Switchgear MT/BT"
+   ],
+   "prioridad": "media",
+   "razon_prioridad": "(a) Filial china directa desde 2025: compra y contrata con criterio chino. (b) Opera depósitos, talleres y cargadores de flota eléctrica: aplica EAM, telemetría y switchgear. (c) Prioridad media: no tiene planta de proceso continuo con DCS/SIS; su demanda de automatización de planta es acotada. NOTA: su planta de cátodos de litio en Antofagasta fue DESISTIDA (ene-2026) — no contar con ese activo.",
+   "fuente": "https://noticias.autocosmos.cl/2025/12/19/byd-asume-directamente-la-comercializacion-de-sus-autos-en-chile; https://www.byd.com/cl"
+  },
+  {
+   "nombre": "Construmart S.A.",
+   "grupo_chino": "Beijing Oriental Yuhong Waterproof Technology Co., Ltd.",
+   "participacion": "100% adquirido por filial de Beijing Oriental Yuhong en 2025 (operación de ~US$ 123 millones anunciada por Reuters; cierre 2025). VERIFICADO",
+   "estado_participacion": "verificado",
+   "sector": "Comercio y distribución",
+   "region": "Nacional (29 sucursales de Arica a Puerto Montt)",
+   "comuna": "Santiago (casa matriz)",
+   "plantas": [
+    "29 sucursales de materiales de construcción y mejoramiento del hogar",
+    "Centros de distribución y bodegas",
+    "Fábrica/suministro de materiales impermeables y revestimientos del grupo"
+   ],
+   "web": "https://www.construmart.cl",
+   "tamano": "Cadena de 29 sucursales; comprada en ~US$ 123 millones",
+   "productos_supcon_aplicables": [
+    "Software supOS / InPlant EAM",
+    "PLC (G5Pro)",
+    "Instrumentación",
+    "Ciberseguridad OT",
+    "CCTV / videovigilancia",
+    "Sistemas de incendio",
+    "Switchgear MT/BT"
+   ],
+   "prioridad": "media",
+   "razon_prioridad": "(a) Dueño 100% chino cotizante en Shenzhen: aplica criterio de cadena de suministro china. (b) Opera bodegas y CDs con iluminación, energía, incendio y monitoreo: aplican varias líneas. (c) Prioridad media: es retail, no planta de proceso; sin DCS/SIS. Además Oriental Yuhong fabrica impermeabilizantes — puede traer su propia instrumentación desde China.",
+   "fuente": "https://www.df.cl/empresas/construccion/filial-de-china-oriental-yuhong-comprara-construmart-en-us-123-millones; https://blog.investchile.gob.cl/beijing-oriental-yuhong-construmart"
+  },
+  {
+   "nombre": "China Energy International Group — Agencia en Chile (CEEC)",
+   "grupo_chino": "China Energy Engineering Group Co. (CEEC, estatal)",
+   "participacion": "Agencia registrada en Chile (China Energy International Group Co., Ltd., Agencia en Chile). Sin proyecto adjudicado verificado",
+   "estado_participacion": "verificado",
+   "sector": "Energía y eléctrico",
+   "region": "Metropolitana",
+   "comuna": "Santiago",
+   "plantas": [
+    "Agencia de ingeniería, diseño y consultoría energética"
+   ],
+   "web": "https://www.ceec.net.cn",
+   "tamano": "Agencia de EPC estatal chino",
+   "productos_supcon_aplicables": [
+    "DCS (ECS-700)",
+    "PLC (G5Pro)",
+    "Switchgear MT/BT",
+    "Instrumentación",
+    "Software supOS",
+    "Ciberseguridad OT"
+   ],
+   "prioridad": "media",
+   "razon_prioridad": "(a) Agencia china con presencia legal en Chile: compra con criterio chino. (b) EPC de energía: aplican las 7 líneas. (c) Prioridad media porque aún no hay proyecto adjudicado verificable.",
+   "fuente": "https://www.linkedin.com/company/china-energy-international"
+  },
+  {
+   "nombre": "Jinko Solar / Jinko ESS (Chile)",
+   "grupo_chino": "JinkoSolar Holding Co., Ltd.",
+   "participacion": "Centro de servicio local de propiedad total. VERIFICADO",
+   "estado_participacion": "verificado",
+   "sector": "Energía y eléctrico",
+   "region": "Metropolitana",
+   "comuna": "Lampa",
+   "plantas": [
+    "Centro de Servicio Jinko (inaugurado)",
+    "Módulos FV y sistemas de almacenamiento (ESS)"
+   ],
+   "web": "https://www.jinkosolar.com",
+   "tamano": "Centro de servicio local propio",
+   "productos_supcon_aplicables": [
+    "Software supOS / SoliSCADA",
+    "PLC (G5Pro)",
+    "Instrumentación",
+    "Medición fiscal",
+    "Ciberseguridad OT"
+   ],
+   "prioridad": "media",
+   "razon_prioridad": "(a) Fabricante chino con inversión directa en Chile (centro propio, no solo importador). (b) Ya tiene relación con desarrolladores locales de BESS: canal de entrada. (c) Prioridad media porque su foco es suministro de módulos, no automatización de proceso.",
+   "fuente": "https://www.jinkosolar.com/en/site/newsdetail/2798"
+  },
+  {
+   "nombre": "Trina Solar (Chile)",
+   "grupo_chino": "Trina Solar Co., Ltd.",
+   "participacion": "Oficina de representación/ventas en Chile (no filial productiva verificada). VERIFICADO como presencia local",
+   "estado_participacion": "verificado",
+   "sector": "Energía y eléctrico",
+   "region": "Metropolitana",
+   "comuna": "Las Condes (Nueva Tajamar 555, of. 1501)",
+   "plantas": [
+    "Oficina comercial y de servicio",
+    "Módulos fotovoltaicos y componentes BESS"
+   ],
+   "web": "https://www.trinasolar.com",
+   "tamano": "Oficina local de fabricante global",
+   "productos_supcon_aplicables": [
+    "Software supOS / SoliSCADA",
+    "PLC (G5Pro)",
+    "Instrumentación",
+    "Medición fiscal / Metering",
+    "Ciberseguridad OT"
+   ],
+   "prioridad": "media",
+   "razon_prioridad": "(a) Fabricante chino con oficina local: ya vende a desarrolladores chilenos y conoce el mercado. (b) Canal natural para SUPCON en proyectos solares que ellos equipan. (c) No es usuario final de planta: es socio de canal, no cliente de planta — por eso prioridad media.",
+   "fuente": "https://cdn.acera.cl/wp-content/uploads/2024/08/V7-Memoria2023-Compressed.pdf"
+  },
+  {
+   "nombre": "Yutong Chile S.p.A.",
+   "grupo_chino": "Yutong Group (Zhengzhou Yutong Bus Co., Ltd.)",
+   "participacion": "Filial/oficina y centro de servicio técnico autorizado de Yutong en Chile. VERIFICADO",
+   "estado_participacion": "verificado",
+   "sector": "Energía y eléctrico",
+   "region": "Metropolitana",
+   "comuna": "Las Condes / San Bernardo",
+   "plantas": [
+    "Centro de servicio técnico autorizado",
+    "Suministro de buses eléctricos al sistema RED Metropolitana"
+   ],
+   "web": "https://www.yutongchile.cl",
+   "tamano": "Filial comercial y de servicio",
+   "productos_supcon_aplicables": [
+    "PLC (G5Pro)",
+    "Software supOS / InPlant EAM",
+    "Ciberseguridad OT",
+    "Instrumentación"
+   ],
+   "prioridad": "media",
+   "razon_prioridad": "(a) Filial directa china con centro de servicio: entiende proveedores chinos. (b) Flota de buses eléctricos y cargadores con monitoreo y control — aplica supOS/EAM. (c) Prioridad media: no tiene planta de proceso continua.",
+   "fuente": "https://www.yutongchile.cl/service/service-network/service-station/"
+  },
+  {
+   "nombre": "China Railway International Group — Sucursal Chile (CRIG)",
+   "grupo_chino": "China Railway Group Limited (CREC, estatal)",
+   "participacion": "Sucursal/filial completa de CREC en Chile (ingeniería, diseño, infraestructura). VERIFICADO como presencia, sin proyectos adjudicados verificados",
+   "estado_participacion": "verificado",
+   "sector": "Infraestructura y construcción",
+   "region": "Metropolitana",
+   "comuna": "Santiago",
+   "plantas": [
+    "Oficina de ingeniería e infraestructura",
+    "Proyectos de infraestructura y diseño (participación en licitaciones)"
+   ],
+   "web": "https://www.crec.cn",
+   "tamano": "Sucursal de constructora estatal china",
+   "productos_supcon_aplicables": [
+    "PLC (G5Pro)",
+    "DCS (ECS-700)",
+    "Instrumentación",
+    "Switchgear MT/BT",
+    "Ciberseguridad OT"
+   ],
+   "prioridad": "media",
+   "razon_prioridad": "(a) Estatal china con sucursal en Chile: compra con criterio chino. (b) EPC ferroviario y de infraestructura: aplican sistemas eléctricos y de control. (c) Prioridad media porque no tiene contratos adjudicados verificados en Chile al corte.",
+   "fuente": "https://cl.linkedin.com/company/crig-sucursal-chile-china-railway-international-group-sucursal-chile"
+  },
+  {
+   "nombre": "Sociedad Concesionaria Ruta 5 Talca-Chillán S.A. (Survías)",
+   "grupo_chino": "China Railway Construction Corporation (CRCC) vía CRCC International Investment Co., Ltd.",
+   "participacion": "60% CRCC International Investment Co., Ltd. + 40% China Railway Construction Corporation (International) Limited = 100% capital CRCC. VERIFICADO",
+   "estado_participacion": "verificado",
+   "sector": "Infraestructura y construcción",
+   "region": "Maule y Ñuble",
+   "comuna": "Talca / Chillán",
+   "plantas": [
+    "Concesión vial Ruta 5 tramo Talca-Chillán",
+    "Peajes, obras de arte, iluminación y sistemas de la concesión"
+   ],
+   "web": "https://survias.cl",
+   "tamano": "Concesión de autopista con 100% capital estatal chino",
+   "productos_supcon_aplicables": [
+    "PLC (G5Pro)",
+    "Instrumentación",
+    "Ciberseguridad OT",
+    "Software supOS (SCADA de carretera)",
+    "Eléctrico — switchgear, CCTV y videovigilancia",
+    "Sistemas de incendio (túneles)"
+   ],
+   "prioridad": "media",
+   "razon_prioridad": "(a) 100% capital chino: sin resistencia cultural al proveedor. (b) Los túneles y peajes requieren PLC, CCTV, sistema de incendio e instrumentación — 4 líneas aplicables. (c) Prioridad media: es infraestructura vial, no planta de proceso con DCS/SIS.",
+   "fuente": "https://survias.cl/EF.pdf; Concesiones MOP"
+  },
+  {
+   "nombre": "Nova Andino Litio SpA (Codelco – SQM)",
+   "grupo_chino": "Sin capital chino directo; participación china indirecta vía Tianqi Lithium (~22,16% de SQM)",
+   "participacion": "50% Codelco / 50% SQM. La participación china es INDIRECTA (a través de SQM, donde Tianqi tiene ~22,16%). VERIFICADO que la china es indirecta — no es socia directa de Nova Andino",
+   "estado_participacion": "verificado",
+   "sector": "Minería y metales",
+   "region": "Antofagasta",
+   "comuna": "Salar de Atacama",
+   "plantas": [
+    "Salar de Atacama — nuevo contrato de explotación conjunta Codelco-SQM (mayoría estatal desde 2031)",
+    "Producción de litio a 2031-2060"
+   ],
+   "web": "https://www.codelco.com",
+   "tamano": "Nueva sociedad de gran escala (litio Atacama)",
+   "productos_supcon_aplicables": [
+    "DCS (ECS-700)",
+    "Analítica (analizadores de proceso)",
+    "Instrumentación",
+    "Válvulas",
+    "SIS (TCS-900)",
+    "Software InPlant APC / supOS"
+   ],
+   "prioridad": "media",
+   "razon_prioridad": "(a) El socio chileno (Codelco) es cliente estatal con compras por licitación; el actor chino participa indirectamente. (b) Planta química de litio exige automatización y analítica: aplica. (c) Prioridad media porque la participación china es indirecta y la decisión pasa por Codelco (licitación, no preferencia china).",
+   "fuente": "https://www.codelco.com/nosotros/ley-de-transparencia/filiales-coligadas-y-otras-participaciones; https://blog.investchile.gob.cl/2026/claves-sqm-codelco"
+  },
+  {
+   "nombre": "XCMG Chile S.A.",
+   "grupo_chino": "XCMG (Xuzhou Construction Machinery Group)",
+   "participacion": "Filial oficial directa, operando en Chile desde 2018. VERIFICADO",
+   "estado_participacion": "verificado",
+   "sector": "Minería y metales",
+   "region": "Metropolitana, Atacama, Antofagasta",
+   "comuna": "Lampa (Santiago); oficinas en Copiapó y Calama",
+   "plantas": [
+    "Oficina y centro de servicio Santiago (Lampa)",
+    "Sucursal Copiapó",
+    "Sucursal Calama",
+    "Distribución y servicio de maquinaria minera y de construcción (excavadoras, cargadores, grúas, camiones mineros)"
+   ],
+   "web": "https://xcmg.cl",
+   "tamano": "Filial con 3 sedes en Chile",
+   "productos_supcon_aplicables": [
+    "Software InPlant EAM (mantenimiento de flota)",
+    "PLC (G5Pro)",
+    "Instrumentación",
+    "Software supOS (telemetría de equipos)",
+    "Ciberseguridad OT"
+   ],
+   "prioridad": "media",
+   "razon_prioridad": "(a) Filial directa china consolidada: compra y vende con criterio chino. (b) Opera talleres y flota en zonas mineras; aplica telemetría, EAM y control. (c) Prioridad media: no tiene planta de proceso continuo con DCS/SIS.",
+   "fuente": "https://xcmg.cl/empresa/; https://www.anac.cl/xcmg/"
+  },
+  {
+   "nombre": "Puerto Exterior de San Antonio — proceso de licitación (CHEC/CRCC precalificados)",
+   "grupo_chino": "China Harbour Engineering Company (CHEC, grupo CCCC) y consorcio Grupo CRCC",
+   "participacion": "NO VERIFICADO como propiedad. CHEC y consorcio CRCC están PRECALIFICADOS para las obras marítimas (registro final nov-2025); la concesión no estaba adjudicada y el dueño del proyecto es Empresa Portuaria San Antonio (EPSA, 100% Fiscal de Chile)",
+   "estado_participacion": "inferido",
+   "sector": "Puertos y logística",
+   "region": "Valparaíso",
+   "comuna": "San Antonio",
+   "plantas": [
+    "Puerto Exterior de San Antonio (proyecto, RCA aprobada may-2026)",
+    "Obras marítimas: rompeolas, dragado, muelles",
+    "Obras de automatización portuaria (grúas, gate, yarda)"
+   ],
+   "web": "https://www.puertosanantonio.com",
+   "tamano": "Mayor proyecto portuario de Chile",
+   "productos_supcon_aplicables": [
+    "PLC (G5Pro)",
+    "Instrumentación (nivel, caudal, calidad de agua)",
+    "CCTV / videovigilancia",
+    "Ciberseguridad OT",
+    "Switchgear MT/BT",
+    "Software supOS (SCADA portuario)"
+   ],
+   "prioridad": "media",
+   "razon_prioridad": "(a) CHEC/CRCC son contratistas chinos precalificados: si ganan, definen proveedores de control e instrumentación. (b) Terminal portuario exige PLC, CCTV, switchgear y sistemas de incendio. (c) Prioridad media: aún no adjudicado — es oportunidad, no cuenta activa. No confundir 'precalificado' con 'dueño'.",
+   "fuente": "https://www.puertosanantonio.com/puerto-san-antonio-confirma-registro-final-de-empresas-y-consorcios; https://imwo.org/projects/proj-chile-san-antonio-puerto-exterior"
+  },
+  {
+   "nombre": "Viñas Yantai Changyu — grupo Bethwines (Indómita, Santa Alicia, Porta, Agustinos)",
+   "grupo_chino": "Yantai Changyu Pioneer Wine Co., Ltd.",
+   "participacion": "85% de las viñas del grupo Bethwines adquirido en 2017 (~US$ 50 millones). VERIFICADO",
+   "estado_participacion": "verificado",
+   "sector": "Química y manufactura",
+   "region": "Metropolitana, Valparaíso, Biobío, Maule",
+   "comuna": "Casablanca, Maipo, Biobío",
+   "plantas": [
+    "Bodegas y plantas de vinificación Indómita, Santa Alicia, Porta y Agustinos",
+    "Líneas de embotellado",
+    "Bodegas de guarda y control de temperatura"
+   ],
+   "web": "https://www.indomita.cl",
+   "tamano": "Grupo vitivinícola con 4 viñas",
+   "productos_supcon_aplicables": [
+    "Instrumentación (temperatura W Series, nivel, caudal)",
+    "PLC (G5Pro)",
+    "Analítica (analizadores de proceso, calidad)",
+    "Software supOS / InPlant EAM",
+    "Válvulas SUPCON FLUID",
+    "SIS (TCS-900) para salas de frío/amoniaco"
+   ],
+   "prioridad": "media",
+   "razon_prioridad": "(a) Dueño 100% chino (Changyu, mayor viña de China): el proveedor de equipos se decide con criterio chino. (b) Proceso continuo real: vinificación, control de temperatura, embotellado y cámaras de frío (amoniaco → SIS). (c) Prioridad media: escala de planta menor que minería/energía, pero es un cliente de planta auténtico.",
+   "fuente": "https://www.latercera.com/pulso/bethia-acuerda-venta-vinas-mayor-firma-china-del-rubro/"
+  },
+  {
+   "nombre": "ZTE Chile (Corporación ZTE de Chile S.A.)",
+   "grupo_chino": "ZTE Corporation (Shenzhen)",
+   "participacion": "Filial/sucursal de ZTE Corporation en Chile, certificada para ingeniería, ventas, soporte y proveeduría a operadores y entidades del Estado. VERIFICADO como presencia (porcentaje local no aplica: es sucursal)",
+   "estado_participacion": "verificado",
+   "sector": "Telecomunicaciones",
+   "region": "Metropolitana",
+   "comuna": "Las Condes (Av. Los Militares 5890) / Providencia (Av. Pocuro 2378)",
+   "plantas": [
+    "Oficina comercial y de ingeniería",
+    "Suministro de redes para operadores y proyectos estatales (5G, fibra)"
+   ],
+   "web": "https://www.zte.com.cn",
+   "tamano": "Sucursal de multinacional china",
+   "productos_supcon_aplicables": [
+    "PLC (G5Pro)",
+    "Software supOS",
+    "Ciberseguridad OT",
+    "Instrumentación (monitoreo de salas técnicas)"
+   ],
+   "prioridad": "media",
+   "razon_prioridad": "(a) Filial directa china: compra con criterio chino. (b) Provee redes e infraestructura crítica (salas, energía, monitoreo): aplica control y ciberseguridad OT. (c) Prioridad media: su demanda principal es telecom, no automatización de proceso.",
+   "fuente": "https://www.zte.com.cn/global/about/company_overview.html; https://www.subtel.gob.cl/transparencia/Perfiles/Transparencia20285/Normativas/Oficios/11oc_0072.pdf"
+  },
+  {
+   "nombre": "Chery / Omoda / Jaecoo (Chile)",
+   "grupo_chino": "Chery Automobile Co., Ltd.",
+   "participacion": "Representación local con distribuidores autorizados; Astara Chile aparece vinculada a la representación de marcas. NO VERIFICADO el porcentaje de capital local ni si hay filial propia",
+   "estado_participacion": "no_verificado",
+   "sector": "Automotriz y transporte",
+   "region": "Metropolitana; red nacional",
+   "comuna": "Santiago",
+   "plantas": [
+    "Importación y distribución de vehículos livianos",
+    "Red de concesionarios"
+   ],
+   "web": "https://chery.cl",
+   "tamano": "Marca china con red de concesionarios",
+   "productos_supcon_aplicables": [
+    "Software supOS / InPlant EAM",
+    "Instrumentación"
+   ],
+   "prioridad": "baja",
+   "razon_prioridad": "(a) Marca china con red local. (b) Solo comercial, sin planta de proceso: la aplicación SUPCON es muy baja. (c) Prioridad baja y participación NO VERIFICADA: no se debe afirmar capital chino en la operación local sin fuente societaria.",
+   "fuente": "https://chery.cl/"
+  },
+  {
+   "nombre": "Great Wall Motor (GWM) Chile",
+   "grupo_chino": "Great Wall Motors Co., Ltd. (Baoding, Hebei)",
+   "participacion": "Distribución vía Inchcape Chile / Derco Center, con red de concesionarios oficiales GWM. No hay filial propia verificada. VERIFICADO como presencia por distribuidor",
+   "estado_participacion": "verificado",
+   "sector": "Automotriz y transporte",
+   "region": "Metropolitana; red nacional",
+   "comuna": "Vitacura (concesionario), Quilicura (oficinas)",
+   "plantas": [
+    "Importación y distribución de vehículos (SUV, pickups POER)",
+    "Red de concesionarios oficiales"
+   ],
+   "web": "https://www.gwm.cl",
+   "tamano": "Marca china con red de distribución local",
+   "productos_supcon_aplicables": [
+    "Software supOS / InPlant EAM",
+    "Instrumentación",
+    "PLC (G5Pro)"
+   ],
+   "prioridad": "baja",
+   "razon_prioridad": "(a) Marca china: familiaridad cultural favorable. (b) Solo importación y distribución, sin planta industrial en Chile: aplica únicamente software de gestión y telemetría. (c) Prioridad baja: no es un cliente de planta de proceso — el valor SUPCON aquí es marginal. Se lista para completitud del catálogo.",
+   "fuente": "https://www.gwm.cl/"
+  },
+  {
+   "nombre": "EMBALSE/BODEGA — Sociedad Comercial COFCO Limitada (¿relación con COFCO Group?)",
+   "grupo_chino": "NOMBRE SIMILAR a COFCO Group — relación NO VERIFICADA",
+   "participacion": "NO VERIFICADA. Se trata de una empresa chilena con dos socios (Luoli Chen y Guoxiang Zhao, 50% cada uno) dedicada a importación/exportación y retail. El nombre 'COFCO' NO prueba pertenencia al COFCO Group estatal chino. NO incluir como filial de COFCO",
+   "estado_participacion": "no_verificado",
+   "sector": "Comercio y distribución",
+   "region": "Metropolitana",
+   "comuna": "Santiago",
+   "plantas": [
+    "Importación y exportación de mercaderías",
+    "Comercio al por mayor y menor, ferretería"
+   ],
+   "web": "",
+   "tamano": "Pyme",
+   "productos_supcon_aplicables": [],
+   "prioridad": "baja",
+   "razon_prioridad": "Se incluye SOLO como advertencia metodológica: empresa chilena cuyo nombre imita a COFCO Group pero cuya pertenencia al grupo estatal chino NO está verificada. No contactar como 'cliente chino' sin confirmar la propiedad. Marca NO VERIFICADO explícita.",
+   "fuente": "https://ibero.center/en/companies/78118102-1/sociedad-comercial-cofco-limitada"
+  },
+  {
+   "nombre": "Miniso Chile (Mini BF Chile SpA)",
+   "grupo_chino": "Miniso Group Holding Ltd. (China)",
+   "participacion": "Franquicia operada localmente por Mini BF Chile SpA. NO VERIFICADO el porcentaje de capital chino directo en la operación local",
+   "estado_participacion": "no_verificado",
+   "sector": "Comercio y distribución",
+   "region": "Metropolitana, Valparaíso, O'Higgins y otras regiones",
+   "comuna": "Santiago",
+   "plantas": [
+    "Cadenas de tiendas de retail (~48-60 locales)",
+    "Centro de distribución / logística de última milla"
+   ],
+   "web": "https://www.miniso.cl",
+   "tamano": "Cadena de retail con decenas de locales",
+   "productos_supcon_aplicables": [
+    "Software supOS / InPlant EAM",
+    "CCTV / videovigilancia",
+    "Sistemas de incendio"
+   ],
+   "prioridad": "baja",
+   "razon_prioridad": "(a) Marca china con red local. (b) Solo retail: la aplicación industrial SUPCON es mínima (CCTV, incendio, EAM). (c) Prioridad baja y participación NO VERIFICADA: no se puede afirmar capital chino directo sin fuente societaria. Se lista para completitud.",
+   "fuente": "https://www.miniso.cl/terminos-y-condiciones; https://blog.investchile.gob.cl/archivo-en/miniso-stores-in-chile"
+  },
+  {
+   "nombre": "EMBALSE — Industria vitivinícola COFCO / Viña Bisquertt",
+   "grupo_chino": "COFCO Group (China National Cereals, Oils and Foodstuffs Corporation, estatal)",
+   "participacion": "En 2010 COFCO compró la bodega y ~350 de las ~800 hectáreas de viña Bisquertt. Porcentaje accionario actual NO VERIFICADO (dato de 2010, sin actualización pública)",
+   "estado_participacion": "parcial",
+   "sector": "Química y manufactura",
+   "region": "O'Higgins",
+   "comuna": "Valle de Colchagua",
+   "plantas": [
+    "Bodega de vinificación (Colchagua)",
+    "Viñedos (~350 ha adquiridas)"
+   ],
+   "web": "",
+   "tamano": "Operación vitivinícola mediana",
+   "productos_supcon_aplicables": [
+    "Instrumentación (temperatura, nivel, caudal)",
+    "PLC (G5Pro)",
+    "Válvulas",
+    "Software supOS",
+    "SIS (frío)"
+   ],
+   "prioridad": "baja",
+   "razon_prioridad": "(a) Comprador estatal chino de alimentos: familiaridad con proveedores chinos. (b) Proceso de vinificación aplica instrumentación y válvulas. (c) Prioridad baja: adquisición de 2010 y porcentaje actual NO VERIFICADO — requiere confirmar la estructura societaria vigente antes de abordar.",
+   "fuente": "https://www.economiaynegocios.cl/noticias/noticias.asp?id=77323; https://www.investchile.gob.cl/wp-content/uploads/2021/05/chino.pdf"
+  },
+  {
+   "nombre": "Viña San Pedro Tarapacá (VSPT Wine Group)",
+   "grupo_chino": "Jiangsu Yanghe Distillery Co., Ltd.",
+   "participacion": "12,5% adquirido en 2018 (~US$ 65 millones). Participación minoritaria verificada",
+   "estado_participacion": "verificado",
+   "sector": "Química y manufactura",
+   "region": "Metropolitana, Maule, O'Higgins",
+   "comuna": "Curicó / Molina / Santiago",
+   "plantas": [
+    "Bodegas y plantas de vinificación",
+    "Líneas de embotellado y envasado",
+    "Bodegas de guarda con control de temperatura"
+   ],
+   "web": "https://www.vsptwines.com",
+   "tamano": "Grupo vitivinícola exportador",
+   "productos_supcon_aplicables": [
+    "Instrumentación (temperatura, caudal, nivel)",
+    "PLC (G5Pro)",
+    "Analítica",
+    "Válvulas",
+    "Software supOS",
+    "SIS (frío/amoniaco)"
+   ],
+   "prioridad": "baja",
+   "razon_prioridad": "(a) Socio chino presente, aunque minoritario (12,5%): influencia limitada en compras. (b) Proceso continuo aplicable (vinificación, frío, embotellado). (c) Prioridad baja por participación minoritaria: el accionista chileno define el proveedor.",
+   "fuente": "https://www.thedrinksbusiness.com/2018/01/chinas-yanghe-buys-stake-in-chiles-vina-san-pedro/"
+  },
+  {
+   "nombre": "CMI Chile SpA (China Mobile International)",
+   "grupo_chino": "China Mobile International / China Mobile Communications Group (estatal, SASAC)",
+   "participacion": "Sociedad CMI Chile SpA constituida con capital inicial US$ 3 millones. Proyecto cable submarino 'Chile-China Express'. VERIFICADO que existe la sociedad; el proyecto sigue en etapa administrativa (decreto de concesión aprobado y anulado en ene-2026)",
+   "estado_participacion": "verificado",
+   "sector": "Telecomunicaciones",
+   "region": "Metropolitana / Valparaíso (punto de amarre)",
+   "comuna": "Santiago (constitución) / Valparaíso-Concón (amarre propuesto)",
+   "plantas": [
+    "Sociedad local CMI Chile SpA",
+    "Proyecto cable submarino Chile-China Express (fibra óptica, etapa administrativa)"
+   ],
+   "web": "https://www.chinamobile.com",
+   "tamano": "Estatal china, sociedad local con US$ 3 millones de capital",
+   "productos_supcon_aplicables": [
+    "Instrumentación",
+    "PLC (G5Pro)",
+    "Ciberseguridad OT",
+    "Software supOS",
+    "Sistemas de incendio y CCTV (salas técnicas)"
+   ],
+   "prioridad": "baja",
+   "razon_prioridad": "(a) Estatal china con sociedad local constituida. (b) La estación de amarre tendría salas técnicas y monitoreo. (c) Prioridad baja: proyecto trabado administrativamente y sin planta industrial; su demanda de automatización es acotada y futura, no actual.",
+   "fuente": "https://www.emol.com/noticias/Economia/2026/02/26/1192698/china-mobile-cable-submarino-chile.html; https://www.df.cl/empresas/telecom-tecnologia/quien-esta-detras-del-china-chile-express-tres-gigantes-del-estado-chino"
+  }
+ ],
+ "hallazgos": [
+  "DE 34 EMPRESAS LEVANTADAS, 28 TIENEN PARTICIPACIÓN CHINA VERIFICADA CON FUENTE (82%). Las 6 restantes están marcadas explícitamente como 'participación NO verificada' o 'parcial' y no deben presentarse como clientes chinos sin confirmar la estructura societaria.",
+  "LOS TRES CASOS MÁS GRANDES SON ESTATALES CHINOS EN ELECTRICIDAD: State Grid controla CGE (96,04% del capital, OPA cerrada el 11-jun-2021) y Chilquinta (99,99998%, comprada el 24-jun-2020 por US$ 2.230 millones). China Southern Power Grid tiene 27,79% de Transelec. Son las tres cuentas de mayor tamaño del catálogo y las tres ya compran con criterio de cadena de suministro china.",
+  "SPIC (State Power Investment Corporation) es dueño del 100% de Pacific Hydro Chile, que opera las centrales hidroeléctricas Coya, Pangal, Chacayes, La Higuera y La Confluencia más el parque eólico Punta Sierra. Es el portafolio de generación con dueño chino más grande del país.",
+  "CHINA THREE GORGES CONSTRUYE EN CHILE: CWE (filial de CTG) es dueño del 100% de Rucalhue Energía (90 MW, en construcción, US$ 240 millones) y del proyecto Río Bueno (101 MW, en tramitación). CTG declaró públicamente a InvestChile que quiere expandir su portafolio a eólico y solar en Chile. Ambos proyectos están en fase de definición de ingeniería de control: es el momento exacto de entrar.",
+  "POWERCHINA ES EL EPC CHINO CON MÁS OBRA EN CONSTRUCCIÓN: construyó CEME1 (480 MWp, la mayor planta solar de Chile, operación desde jul-2024) y ejecuta Dune Plus (186 MWp + 702 MWh BESS). Como EPC define las especificaciones de instrumentación, PLC y switchgear — el dueño del activo (Generadora Metropolitana, EDF-AME) no decide el equipamiento.",
+  "TIANQI LITHIUM TIENE EL 22,16% DE SQM — es el caso de participación china en minería más relevante y verificable de Chile. SQM opera planta química de proceso continuo (carbonato de litio, nitratos, yodo): es exactamente el tipo de activo donde aplican DCS, analítica en línea (Hobré), válvulas y SIS.",
+  "CODELCO YA TIENE RELACIÓN CHINA ESTRUCTURADA: la joint venture CuPIC (50/50 con China Minmetals) existe desde 2005 con un offtake de 57.000 t/año de cátodos por 15 años. El cátodo chileno viaja a China — el comprador chino conoce y puede recomendar proveedores chinos.",
+  "NO HAY PARTICIPACIÓN CHINA VERIFICADA EN LOS TERMINALES PORTUARIOS CONCESIONADOS DE CHILE. Se verificó uno por uno: Puerto Mejillones (Belfi 50% / Ultramar-Neltume 50%), Antofagasta Terminal Internacional (SAAM 35% / Grupo Empresas Navieras 35% / Punta de Rieles 30%), TPS Valparaíso y STI San Antonio: todos con capital chileno o europeo. CHEC y el consorcio CRCC están PRECALIFICADOS para el Puerto Exterior de San Antonio, pero NO son dueños: la concesión no estaba adjudicada. No confundir 'precalificado' con 'dueño'.",
+  "CRCC SÍ ES DUEÑO DE CONCESIONES CHILENAS: Sociedad Concesionaria Ruta 5 Talca-Chillán (Survías) es 100% capital CRCC (60% CRCC International Investment + 40% CRCC International), y CHEC es concesionaria al 100% del Embalse Las Palmas en Petorca (55 millones de m³). Estas dos SÍ son participación china verificada en infraestructura.",
+  "UNA AFIRMACIÓN DE TERCEROS RESULTÓ NO VERIFICABLE Y SE EXCLUYÓ: se atribuyó '75% CRCC International en el Hospital de Coquimbo'. Lo verificado es solo que el Grupo CRCC (CRCC International Limited + China Railway Construction Group Corporation Limited) fue adjudicatario por DS en feb-2022; el porcentaje exacto no se pudo confirmar en fuente pública. Se marcó como parcial, no como dato duro.",
+  "UN CASO RESULTÓ DESMENTIDO: 'Sky Solar Chile es filial de Sky Solar Holdings (China) con plantas Arica Solar I y II'. No se encontró evidencia confiable de la filial ni de la capacidad de esos parques; existe un expediente SEA de un proyecto 'Arica I' con titular 'Sky Solar' pero sin vínculo societario verificado. NO se incluyó en el catálogo.",
+  "UN CASO FUE CANCELADO Y NO DEBE CONTARSE COMO OPORTUNIDAD: la planta de cátodos de litio de BYD en Antofagasta (US$ 290 millones) fue desistida por BYD en enero de 2026 y CORFO retiró la calidad de Productor Especializado. Tsingshan South America tampoco constituyó sociedad. No hay planta de litio china construida en Chile.",
+  "FABRICANTES CHINOS CON OFICINA LOCAL VERIFICADA (servicio o representación, no solo importador): Trina Solar (Las Condes), Jinko (centro de servicio en Lampa), Yutong Chile (centro técnico), XCMG Chile (filiales en Lampa, Copiapó y Calama desde 2018), BYD Chile SpA (importación directa desde dic-2025), Huawei Chile (data center), ZTE Chile (sucursal), Construmart (100% Oriental Yuhong).",
+  "LA PUERTA DE ENTRADA MÁS RÁPIDA NO ES LA EMPRESA CHILENA, ES EL EPC CHINO. PowerChina, CRCC, CHEC y CWE deciden el equipamiento de instrumentación, PLC y switchgear en las obras que ejecutan, sin licitación abierta. Venderles a ellos da acceso simultáneo a múltiples activos (Rucalhue, Río Bueno, Dune Plus, Puerto Exterior de San Antonio, Hospital de Coquimbo).",
+  "SEGURIDAD: SE DESCARTÓ UNA ALUCINACIÓN EN LA INVESTIGACIÓN. Una consulta automatizada afirmó que 'Conecta Ingeniería S.A. es partner autorizado de SUPCON'. Esa afirmación NO está respaldada por ninguna fuente propia y NO se incorporó al catálogo. Toda la investigación de este catálogo se validó contra fuentes citables; lo que no tuvo fuente quedó marcado NO VERIFICADO."
+ ]
+}

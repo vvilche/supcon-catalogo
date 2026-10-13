@@ -1,0 +1,805 @@
+{
+ "metodo": "Partida arancelaria como medida del mercado (dato duro) menos el ruido de otros rubros verificable por marca y glosa. NO se exige marca del rubro: esa exigencia era la que subestimaba.",
+ "fuente": "Registro DIN Aduanas Chile 2025 (4.847.036 líneas)",
+ "por_que_este_metodo": "El campo DMARCA trae siglas y truncamientos el 38% de las veces (N.S.I.C., E.R.D., S + HAUSER), así que filtrar por marca conocida deja fuera valor real. La partida arancelaria, en cambio, siempre está y siempre es correcta.",
+ "lineas": {
+  "Instrumentación": {
+   "partida_bruto_usd": 132923401.44,
+   "ruido_restado_usd": 4518598.15,
+   "mercado_usd": 128404803.29,
+   "pct_ruido": 3.4,
+   "items": 31781,
+   "n_importadores": 5878,
+   "por_partida": [
+    [
+     "Instrumentos de caudal (otros)",
+     29241416.08
+    ],
+    [
+     "Instrumentos de presión (otros)",
+     20296286.76
+    ],
+    [
+     "Medidores de caudal (caudalímetros)",
+     15615253.15
+    ],
+    [
+     "Instrumentos de medida eléctrica (otros)",
+     12121849.21
+    ],
+    [
+     "Partes de instrumentos de presión",
+     11323275.7
+    ],
+    [
+     "Instrumentos de medida de fluidos (otros)",
+     10343041.7
+    ],
+    [
+     "Instrumentos de tensión/corriente",
+     9199705.71
+    ],
+    [
+     "Transmisores de presión (otros)",
+     5747957.2
+    ],
+    [
+     "Instrumentos de medida eléctrica sin registro",
+     5071887.93
+    ],
+    [
+     "Multímetros",
+     3952628.4
+    ],
+    [
+     "Instrumentos de radiofrecuencia",
+     3690737.31
+    ],
+    [
+     "Partes de instrumentos de temperatura",
+     3384255.2
+    ],
+    [
+     "Multímetros con registro",
+     2885355.12
+    ],
+    [
+     "Instrumentos de nivel",
+     49751.97
+    ]
+   ],
+   "top_marcas": [
+    [
+     "ENDRESS + HAUSER",
+     6183482.29
+    ],
+    [
+     "SIEMENS",
+     4026781.91
+    ],
+    [
+     "FLUKE",
+     3861774.08
+    ],
+    [
+     "ENDRESS",
+     2806201.66
+    ],
+    [
+     "",
+     1943696.07
+    ],
+    [
+     "OMICRON",
+     1543344.24
+    ],
+    [
+     "FLEXIM",
+     1539684.78
+    ],
+    [
+     "KROHNE",
+     1512567.28
+    ],
+    [
+     "V.A.INC.",
+     1395381.54
+    ],
+    [
+     "MICRO MOTION",
+     1370569.1
+    ],
+    [
+     "B.M.",
+     1321108.37
+    ],
+    [
+     "CIDRA",
+     1304945.49
+    ],
+    [
+     "ISKRAEMECO",
+     1283094.8
+    ],
+    [
+     "YOKOGAWA",
+     1176134.65
+    ],
+    [
+     "C",
+     1123122.39
+    ],
+    [
+     "ABB",
+     1009821.37
+    ],
+    [
+     "METSO",
+     993556.02
+    ],
+    [
+     "IN-SITU",
+     863844.46
+    ],
+    [
+     "USER",
+     857135.96
+    ],
+    [
+     "S + HAUSER",
+     854568.25
+    ]
+   ],
+   "top_paises": [
+    [
+     "Francia",
+     33510831.32
+    ],
+    [
+     "China",
+     15540928.68
+    ],
+    [
+     "Alemania",
+     14288321.82
+    ],
+    [
+     "España",
+     9665723.18
+    ],
+    [
+     "EE.UU.",
+     7724921.81
+    ],
+    [
+     "Taiwán",
+     5845682.35
+    ],
+    [
+     "EE.UU.",
+     5407213.53
+    ],
+    [
+     "Noruega",
+     3541026.24
+    ]
+   ],
+   "tipo_medida": "MEDIDA"
+  },
+  "Analítica": {
+   "partida_bruto_usd": 171421836.5,
+   "ruido_restado_usd": 22952552.16,
+   "mercado_usd": 148469284.34,
+   "pct_ruido": 13.4,
+   "items": 20815,
+   "n_importadores": 3369,
+   "por_partida": [
+    [
+     "Los demás instrumentos de análisis físico/químico",
+     59135970.69
+    ],
+    [
+     "Micrótomos y partes",
+     36754007.52
+    ],
+    [
+     "Instrumentos con radiación óptica",
+     33256186.99
+    ],
+    [
+     "Analizadores de gases (electrónicos)",
+     14579316.65
+    ],
+    [
+     "Espectrómetros y espectrofotómetros",
+     12524368.65
+    ],
+    [
+     "Cromatógrafos y aparatos de electroforesis",
+     8293180.06
+    ],
+    [
+     "Analizadores de gases (otros)",
+     4622079.19
+    ],
+    [
+     "Espectrómetros de masas",
+     2256726.75
+    ]
+   ],
+   "top_marcas": [
+    [
+     "SIEMENS",
+     4191915.74
+    ],
+    [
+     "WATERS",
+     3791995.55
+    ],
+    [
+     "ENDRESS + HAUSER",
+     3422230.65
+    ],
+    [
+     "S.A.I.",
+     2513967.5
+    ],
+    [
+     "",
+     2148741.03
+    ],
+    [
+     "MSA",
+     2097511.56
+    ],
+    [
+     "B.C.I.",
+     2037984.31
+    ],
+    [
+     "THERMO ELECTRON",
+     2018445.25
+    ],
+    [
+     "CIDRA",
+     1968729.18
+    ],
+    [
+     "METSO",
+     1816584.11
+    ],
+    [
+     "HACH",
+     1674894.92
+    ],
+    [
+     "ENDRESS +HAUSER",
+     1589389.63
+    ],
+    [
+     "B.D.C.",
+     1509372.75
+    ],
+    [
+     "AT",
+     1272684.55
+    ],
+    [
+     "KT-KINETICS",
+     1227090.86
+    ],
+    [
+     "R.D.G.",
+     1118800.76
+    ],
+    [
+     "AMETEK",
+     1109821.34
+    ],
+    [
+     "THERMO FISHER",
+     1070407.8
+    ],
+    [
+     "PERKINELMER",
+     1032008.39
+    ],
+    [
+     "PAC",
+     1002221.29
+    ]
+   ],
+   "top_paises": [
+    [
+     "Francia",
+     43316969.32
+    ],
+    [
+     "China",
+     18205981.68
+    ],
+    [
+     "Alemania",
+     13858074.27
+    ],
+    [
+     "Brasil",
+     7309967.56
+    ],
+    [
+     "Taiwán",
+     6239957.07
+    ],
+    [
+     "cód. 506",
+     6138301.9
+    ],
+    [
+     "EE.UU.",
+     5318999.44
+    ],
+    [
+     "cód. 332",
+     4107674.72
+    ]
+   ],
+   "tipo_medida": "TECHO"
+  },
+  "Válvulas": {
+   "partida_bruto_usd": 455673947.81,
+   "ruido_restado_usd": 57550123.14,
+   "mercado_usd": 398123824.67,
+   "pct_ruido": 12.6,
+   "items": 93683,
+   "n_importadores": 8395,
+   "por_partida": [
+    [
+     "Los demás artículos de grifería",
+     230075678.54
+    ],
+    [
+     "Partes de válvulas",
+     73023022.78
+    ],
+    [
+     "Válvulas de bola",
+     56797849.0
+    ],
+    [
+     "Válvulas para transmisión oleohidráulica",
+     24281461.14
+    ],
+    [
+     "Válvulas reductoras de presión",
+     21305393.34
+    ],
+    [
+     "Válvulas de seguridad o alivio",
+     20410547.53
+    ],
+    [
+     "Válvulas de retención (check)",
+     18169326.21
+    ],
+    [
+     "Válvulas para transmisión neumática",
+     11610669.27
+    ]
+   ],
+   "top_marcas": [
+    [
+     "",
+     9982981.94
+    ],
+    [
+     "VALMET",
+     9620843.28
+    ],
+    [
+     "EMERSON",
+     8382829.63
+    ],
+    [
+     "M.",
+     6646030.25
+    ],
+    [
+     "BRAY",
+     6347071.5
+    ],
+    [
+     "WEIR",
+     5837843.64
+    ],
+    [
+     "DANFOSS",
+     4943895.49
+    ],
+    [
+     "METSO",
+     4722176.93
+    ],
+    [
+     "VALVITALIA",
+     4577264.0
+    ],
+    [
+     "MK",
+     4184442.6
+    ],
+    [
+     "DEZURIK",
+     2939843.46
+    ],
+    [
+     "N.S.I.C.",
+     2861770.57
+    ],
+    [
+     "V",
+     2830720.63
+    ],
+    [
+     "F.C.I.",
+     2778160.74
+    ],
+    [
+     "GENEBRE",
+     2634837.7
+    ],
+    [
+     "TAIZHOU",
+     2538088.48
+    ],
+    [
+     "M",
+     2442234.28
+    ],
+    [
+     "E.R.D.",
+     2398892.11
+    ],
+    [
+     "YUEDA",
+     2335458.11
+    ],
+    [
+     "ARTE PARA VALVULA INDUSTRIAL",
+     2198254.91
+    ]
+   ],
+   "top_paises": [
+    [
+     "Alemania",
+     120204941.8
+    ],
+    [
+     "Francia",
+     94104659.94
+    ],
+    [
+     "China",
+     25533121.54
+    ],
+    [
+     "EE.UU.",
+     25292350.93
+    ],
+    [
+     "Singapur",
+     13721308.57
+    ],
+    [
+     "Corea del Sur",
+     11488861.88
+    ],
+    [
+     "Italia",
+     10511053.55
+    ],
+    [
+     "cód. 515",
+     8680903.72
+    ]
+   ],
+   "tipo_medida": "TECHO"
+  },
+  "DCS y control": {
+   "partida_bruto_usd": 363077454.81,
+   "ruido_restado_usd": 21614893.27,
+   "mercado_usd": 341462561.54,
+   "pct_ruido": 6.0,
+   "items": 46725,
+   "n_importadores": 5474,
+   "por_partida": [
+    [
+     "Tableros y paneles de control (hasta 1000 V)",
+     140147020.35
+    ],
+    [
+     "Tableros eléctricos (otros)",
+     101119918.61
+    ],
+    [
+     "Partes de aparatos eléctricos de conexión",
+     46891722.5
+    ],
+    [
+     "Tableros de distribución de alta tensión",
+     38375105.42
+    ],
+    [
+     "Partes de tableros y paneles",
+     36543687.93
+    ]
+   ],
+   "top_marcas": [
+    [
+     "SIEMENS",
+     31517407.08
+    ],
+    [
+     "ABB",
+     11856991.96
+    ],
+    [
+     "S.",
+     11320832.71
+    ],
+    [
+     "STERLITE",
+     10278637.33
+    ],
+    [
+     "S.E.",
+     10270302.0
+    ],
+    [
+     "HITACHI ENERGY",
+     8558685.56
+    ],
+    [
+     "STERLIYE",
+     7783865.72
+    ],
+    [
+     "",
+     6225091.65
+    ],
+    [
+     "SCHNEIDER",
+     5499212.15
+    ],
+    [
+     "INTERRUPTORES 220KV",
+     5088137.16
+    ],
+    [
+     "HYOSUNG HEAVY",
+     4680886.0
+    ],
+    [
+     "ROCKWELL",
+     4553251.81
+    ],
+    [
+     "ALSTOM",
+     4549540.84
+    ],
+    [
+     "SCHNEIDER ELECTRIC",
+     4446250.38
+    ],
+    [
+     "SE",
+     4096019.28
+    ],
+    [
+     "HITACHI",
+     4074401.64
+    ],
+    [
+     "ETP ELEKTRO",
+     3867067.77
+    ],
+    [
+     "SIEYUAN",
+     3758408.28
+    ],
+    [
+     "GRIDSOLUTIONS",
+     3530089.62
+    ],
+    [
+     "EATON",
+     3508914.12
+    ]
+   ],
+   "top_paises": [
+    [
+     "Alemania",
+     100769412.19
+    ],
+    [
+     "China",
+     36851878.79
+    ],
+    [
+     "Francia",
+     33238699.55
+    ],
+    [
+     "España",
+     30184458.88
+    ],
+    [
+     "Corea del Sur",
+     26028467.81
+    ],
+    [
+     "EE.UU.",
+     18121704.95
+    ],
+    [
+     "Singapur",
+     15363316.16
+    ],
+    [
+     "EE.UU.",
+     11558184.66
+    ]
+   ],
+   "tipo_medida": "MEDIDA"
+  },
+  "SIS (seguridad)": {
+   "partida_bruto_usd": 187038742.85,
+   "ruido_restado_usd": 20951573.28,
+   "mercado_usd": 166087169.57,
+   "pct_ruido": 11.2,
+   "items": 38306,
+   "n_importadores": 5153,
+   "por_partida": [
+    [
+     "Tableros y paneles de control",
+     140147020.35
+    ],
+    [
+     "Partes de aparatos eléctricos",
+     46891722.5
+    ]
+   ],
+   "top_marcas": [
+    [
+     "SIEMENS",
+     8284269.24
+    ],
+    [
+     "ABB",
+     7205087.43
+    ],
+    [
+     "ROCKWELL",
+     4267440.86
+    ],
+    [
+     "ETP ELEKTRO",
+     3867067.77
+    ],
+    [
+     "S.E.",
+     3796007.09
+    ],
+    [
+     "SCHNEIDER ELECTRIC",
+     3631719.1
+    ],
+    [
+     "SCHNEIDER",
+     3374899.63
+    ],
+    [
+     "SE",
+     3018857.55
+    ],
+    [
+     "",
+     2951733.35
+    ],
+    [
+     "HITACHI",
+     2692935.48
+    ],
+    [
+     "PHOENIX CONTACT",
+     2019093.39
+    ],
+    [
+     "DAVENHAM SWTCHGEAR",
+     1971915.34
+    ],
+    [
+     "L.",
+     1862919.69
+    ],
+    [
+     "LEGRAND",
+     1617891.21
+    ],
+    [
+     "EATON",
+     1447792.29
+    ],
+    [
+     "O EN MAQUINARIA PESADA",
+     1350135.12
+    ],
+    [
+     "BUHLER",
+     1320958.66
+    ],
+    [
+     "JOY GLOBAL",
+     1311378.63
+    ],
+    [
+     "DANFOSS",
+     1247127.12
+    ],
+    [
+     "ANIXTER",
+     1121111.94
+    ]
+   ],
+   "top_paises": [
+    [
+     "Alemania",
+     32273366.98
+    ],
+    [
+     "Francia",
+     29532661.83
+    ],
+    [
+     "China",
+     16205215.9
+    ],
+    [
+     "España",
+     9853046.4
+    ],
+    [
+     "EE.UU.",
+     8013438.05
+    ],
+    [
+     "Noruega",
+     7463178.04
+    ],
+    [
+     "Singapur",
+     7387223.87
+    ],
+    [
+     "Países Bajos",
+     5962502.44
+    ]
+   ],
+   "tipo_medida": "CONTENIDA EN DCS (no sumar aparte)"
+  }
+ },
+ "total_hardware_usd": 1182547643.41,
+ "calidad_de_la_medida": {
+  "MEDIDA": [
+   "Instrumentación",
+   "DCS y control"
+  ],
+  "TECHO_NO_MEDIDA": [
+   "Válvulas",
+   "Analítica",
+   "SIS"
+  ],
+  "explicacion": "Una linea es MEDIDA cuando sus partidas identifican el tipo de producto (ej. 'medidores de caudal', 'transmisores de presión', 'tableros de control'). Es TECHO cuando más de la mitad del valor cae en una partida residual que mezcla categorías: en válvulas, 'los demás artículos de grifería' (US$230,1M, 58%) incluye válvulas de control junto a grifería doméstica. Ese valor es el techo del mercado, no el mercado.",
+  "sis_no_medible_aparte": "SIS usa las MISMAS partidas que DCS (85371000, 85371010, 85371090, 85389000). No existe una partida de 'sistema instrumentado de seguridad': un SIS entra como tablero de control, igual que un DCS. Por eso el US$166,1M de SIS está CONTENIDO en los US$341,5M de DCS y NO se deben sumar: sumarlos sería contar dos veces.",
+  "total_corregido": "El total de hardware no puede ser la suma directa porque SIS está dentro de DCS. El mercado de hardware de automatización medido es US$341,5M (DCS, que contiene SIS) + US$128,4M (instrumentación) + US$148,5M (analítica, techo) + US$398,1M (válvulas, techo) = US$1.016,5M, con las salvedades de techo indicadas."
+ }
+}

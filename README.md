@@ -30,6 +30,8 @@ docs/           capturas de la verificación en navegador
 | `artefactos/catalogo_supcon.html` | 55 fichas de producto agrupadas en 12 familias, con filtro y buscador |
 | `artefactos/fichas_producto_supcon.html` | 6 fichas comerciales con los 8 campos (descripción, beneficios, clientes target, competencia, argumentos, objeciones, preguntas técnicas) |
 | `artefactos/mockup_diseno.html` | mockup de diseño del layout |
+| `artefactos/estrategia_penetracion.html` | escalones de dificultad de penetración comercial |
+| `artefactos/estrategia_normativa.html` | cruce de las 7 líneas con el disparador normativo chileno (norma, obligación, industrias y empresas afectadas) |
 
 ### Datos
 

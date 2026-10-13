@@ -1,0 +1,617 @@
+{
+ "metodo": "Clasificación curada a mano por partida: (a) marca del rubro + (b) sin marca = mercado. (c) ruido se resta, (d) dudoso no se suma.",
+ "fuente": "Registro DIN Aduanas Chile 2025",
+ "lineas": {
+  "Instrumentación": {
+   "marca_rubro": 34098841.84,
+   "sin_marca": 7950450.29,
+   "ruido_restado": 6658143.47,
+   "dudoso_no_suma": 84215965.84,
+   "mercado_usd": 42049292.13,
+   "mercado_con_dudosos_usd": 126265257.97,
+   "items_rubro": 7196,
+   "items_sin_marca": 2059,
+   "top_marcas": [
+    [
+     "ENDRESS + HAUSER",
+     6183482.29
+    ],
+    [
+     "SIEMENS",
+     4026781.91
+    ],
+    [
+     "FLUKE",
+     3861774.08
+    ],
+    [
+     "ENDRESS",
+     2806201.66
+    ],
+    [
+     "OMICRON",
+     1543344.24
+    ],
+    [
+     "FLEXIM",
+     1539684.78
+    ],
+    [
+     "KROHNE",
+     1512567.28
+    ],
+    [
+     "MICRO MOTION",
+     1370569.1
+    ],
+    [
+     "YOKOGAWA",
+     1176134.65
+    ],
+    [
+     "ABB",
+     1009821.37
+    ],
+    [
+     "METSO",
+     993556.02
+    ],
+    [
+     "ROSEMOUNT",
+     795886.01
+    ],
+    [
+     "MEGGER",
+     558761.62
+    ],
+    [
+     "IFM ELECTRONIC",
+     534372.33
+    ],
+    [
+     "EMERSON",
+     507801.11
+    ]
+   ],
+   "top_dudosas": [
+    [
+     "V.A.INC.",
+     1395381.54
+    ],
+    [
+     "B.M.",
+     1321108.37
+    ],
+    [
+     "CIDRA",
+     1304945.49
+    ],
+    [
+     "ISKRAEMECO",
+     1283094.8
+    ],
+    [
+     "IN-SITU",
+     863844.46
+    ],
+    [
+     "USER",
+     857135.96
+    ],
+    [
+     "S + HAUSER",
+     854568.25
+    ],
+    [
+     "C.G",
+     791589.77
+    ],
+    [
+     "HIOKI",
+     727883.3
+    ],
+    [
+     "SANDVIK",
+     577211.45
+    ],
+    [
+     "M.E",
+     565554.01
+    ],
+    [
+     "COLD GIOVANNI",
+     551967.35
+    ]
+   ]
+  },
+  "Analítica": {
+   "marca_rubro": 36650928.81,
+   "sin_marca": 11832656.2,
+   "ruido_restado": 17315427.7,
+   "dudoso_no_suma": 105622823.79,
+   "mercado_usd": 48483585.01,
+   "mercado_con_dudosos_usd": 154106408.8,
+   "items_rubro": 4394,
+   "items_sin_marca": 1227,
+   "top_marcas": [
+    [
+     "SIEMENS",
+     4292689.41
+    ],
+    [
+     "WATERS",
+     3779933.94
+    ],
+    [
+     "ENDRESS + HAUSER",
+     3422230.65
+    ],
+    [
+     "MSA",
+     2097511.56
+    ],
+    [
+     "THERMO ELECTRON",
+     2018445.25
+    ],
+    [
+     "CIDRA",
+     1968729.18
+    ],
+    [
+     "METSO",
+     1816584.11
+    ],
+    [
+     "HACH",
+     1674894.92
+    ],
+    [
+     "ENDRESS +HAUSER",
+     1589389.63
+    ],
+    [
+     "AMETEK",
+     1109821.34
+    ],
+    [
+     "THERMO FISHER",
+     1070407.8
+    ],
+    [
+     "PERKINELMER",
+     1032008.39
+    ],
+    [
+     "SHIMADZU",
+     903456.15
+    ],
+    [
+     "AGILENT",
+     891795.32
+    ],
+    [
+     "HACH COMPANY",
+     888417.13
+    ]
+   ],
+   "top_dudosas": [
+    [
+     "S.A.I.",
+     2514951.94
+    ],
+    [
+     "MINDRAY",
+     2190860.79
+    ],
+    [
+     "B.C.I.",
+     2037984.31
+    ],
+    [
+     "STAGO",
+     1532710.73
+    ],
+    [
+     "B.D.C.",
+     1517437.79
+    ],
+    [
+     "VITROS",
+     1459806.32
+    ],
+    [
+     "BIOFIRE",
+     1242378.08
+    ],
+    [
+     "KT-KINETICS",
+     1227090.86
+    ],
+    [
+     "R.D.G.",
+     1121415.75
+    ],
+    [
+     "R.D.I.",
+     1109961.66
+    ],
+    [
+     "PAC",
+     1002221.29
+    ],
+    [
+     "FLIR",
+     956129.68
+    ]
+   ]
+  },
+  "Válvulas": {
+   "marca_rubro": 55672370.9,
+   "sin_marca": 43914709.18,
+   "ruido_restado": 70759015.48,
+   "dudoso_no_suma": 285327852.25,
+   "mercado_usd": 99587080.08,
+   "mercado_con_dudosos_usd": 384914932.33,
+   "items_rubro": 9775,
+   "items_sin_marca": 6876,
+   "top_marcas": [
+    [
+     "VALMET",
+     9620843.28
+    ],
+    [
+     "EMERSON",
+     8382829.63
+    ],
+    [
+     "BRAY",
+     6350015.52
+    ],
+    [
+     "DANFOSS",
+     4978866.26
+    ],
+    [
+     "METSO",
+     4722176.93
+    ],
+    [
+     "VALVITALIA",
+     4577264.0
+    ],
+    [
+     "DEZURIK",
+     2939843.46
+    ],
+    [
+     "GENEBRE",
+     2634837.7
+    ],
+    [
+     "FLOWSERVE",
+     1095703.91
+    ],
+    [
+     "BERMAD",
+     947029.16
+    ],
+    [
+     "FESTO",
+     810541.39
+    ],
+    [
+     "SAUER DANFOSS",
+     740213.97
+    ],
+    [
+     "SAMSON",
+     737710.19
+    ],
+    [
+     "FISHER",
+     638145.96
+    ],
+    [
+     "NELES",
+     566301.08
+    ]
+   ],
+   "top_dudosas": [
+    [
+     "WEIR",
+     5837843.64
+    ],
+    [
+     "N.S.I.C.",
+     2861770.57
+    ],
+    [
+     "F.C.I.",
+     2778160.74
+    ],
+    [
+     "TAIZHOU",
+     2538088.48
+    ],
+    [
+     "E.R.D.",
+     2398892.11
+    ],
+    [
+     "YUEDA",
+     2335458.11
+    ],
+    [
+     "AWM",
+     2127436.54
+    ],
+    [
+     "CAVAGNA",
+     2083887.57
+    ],
+    [
+     "SANDVIK",
+     2053068.31
+    ],
+    [
+     "YUHUAN",
+     1987976.17
+    ],
+    [
+     "N.P.T.C.",
+     1982779.42
+    ],
+    [
+     "ZHEJIANG",
+     1970937.15
+    ]
+   ]
+  },
+  "DCS y PLC": {
+   "marca_rubro": 112777004.02,
+   "sin_marca": 37463447.11,
+   "ruido_restado": 25736805.53,
+   "dudoso_no_suma": 187100198.15,
+   "mercado_usd": 150240451.13,
+   "mercado_con_dudosos_usd": 337340649.28,
+   "items_rubro": 10867,
+   "items_sin_marca": 9158,
+   "top_marcas": [
+    [
+     "SIEMENS",
+     31538118.78
+    ],
+    [
+     "ABB",
+     11893162.86
+    ],
+    [
+     "HITACHI ENERGY",
+     8558685.56
+    ],
+    [
+     "SCHNEIDER",
+     7037832.67
+    ],
+    [
+     "HYOSUNG HEAVY",
+     4680886.0
+    ],
+    [
+     "SCHNEIDER ELECTRIC",
+     4565908.67
+    ],
+    [
+     "ROCKWELL",
+     4556419.32
+    ],
+    [
+     "ALSTOM",
+     4549540.84
+    ],
+    [
+     "EATON",
+     3921741.32
+    ],
+    [
+     "ETP ELEKTRO",
+     3867067.77
+    ],
+    [
+     "LEGRAND",
+     3023911.47
+    ],
+    [
+     "SIEMENS ENERGY",
+     3017735.7
+    ],
+    [
+     "CHINT",
+     2220007.28
+    ],
+    [
+     "WEG",
+     2060330.5
+    ],
+    [
+     "PHOENIX CONTACT",
+     2019093.39
+    ]
+   ],
+   "top_dudosas": [
+    [
+     "S.E.",
+     10320703.01
+    ],
+    [
+     "STERLITE",
+     10278637.33
+    ],
+    [
+     "STERLIYE",
+     7783865.72
+    ],
+    [
+     "INTERRUPTORES 220KV",
+     5088137.16
+    ],
+    [
+     "HITACHI",
+     4078499.2
+    ],
+    [
+     "SIEYUAN",
+     3758408.28
+    ],
+    [
+     "GRIDSOLUTIONS",
+     3530089.62
+    ],
+    [
+     "QUADRITALIA",
+     2946105.28
+    ],
+    [
+     "VERTIV",
+     2618355.91
+    ],
+    [
+     "SANDVIK",
+     2542167.32
+    ],
+    [
+     "SOPORTES DE LA PTDA.85.37,SIN",
+     2354775.04
+    ],
+    [
+     "TAKRAF",
+     1576235.08
+    ]
+   ]
+  },
+  "SIS": {
+   "marca_rubro": 40717089.86,
+   "sin_marca": 17717415.8,
+   "ruido_restado": 21876432.12,
+   "dudoso_no_suma": 106727805.07,
+   "mercado_usd": 58434505.66,
+   "mercado_con_dudosos_usd": 165162310.73,
+   "items_rubro": 5989,
+   "items_sin_marca": 8011,
+   "top_marcas": [
+    [
+     "SIEMENS",
+     8304980.94
+    ],
+    [
+     "ABB",
+     7259249.35
+    ],
+    [
+     "SCHNEIDER",
+     4913520.15
+    ],
+    [
+     "ROCKWELL",
+     4270608.37
+    ],
+    [
+     "ETP ELEKTRO",
+     3867067.77
+    ],
+    [
+     "SCHNEIDER ELECTRIC",
+     3751377.39
+    ],
+    [
+     "PHOENIX CONTACT",
+     2019093.39
+    ],
+    [
+     "DAVENHAM SWTCHGEAR",
+     1971915.34
+    ],
+    [
+     "ALLEN BRADLEY",
+     716617.2
+    ],
+    [
+     "ETPELEKTRO",
+     576005.09
+    ],
+    [
+     "SIEMENS ENERGY",
+     507696.38
+    ],
+    [
+     "EMERSON",
+     425011.07
+    ],
+    [
+     "ETPELKTRO",
+     421833.58
+    ],
+    [
+     "HONEYWELL",
+     374950.56
+    ],
+    [
+     "ALLENBRADLEY",
+     214519.76
+    ]
+   ],
+   "top_dudosas": [
+    [
+     "S.E.",
+     3848633.12
+    ],
+    [
+     "HITACHI",
+     2696994.39
+    ],
+    [
+     "SANDVIK",
+     2463195.99
+    ],
+    [
+     "LEGRAND",
+     1617891.21
+    ],
+    [
+     "EATON",
+     1542175.38
+    ],
+    [
+     "INETICS",
+     1411403.41
+    ],
+    [
+     "BUHLER",
+     1320958.66
+    ],
+    [
+     "JOY GLOBAL",
+     1311378.63
+    ],
+    [
+     "DANFOSS",
+     1247127.12
+    ],
+    [
+     "ANIXTER",
+     1121111.94
+    ],
+    [
+     "S.E.B.",
+     1070272.35
+    ],
+    [
+     "SHENZHEN",
+     1011285.11
+    ]
+   ]
+  }
+ },
+ "total_hardware_usd": 398794914.01
+}

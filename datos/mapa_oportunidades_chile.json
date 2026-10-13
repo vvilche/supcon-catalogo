@@ -1,0 +1,1419 @@
+{
+  "meta": {
+    "titulo": "Mapa geográfico de oportunidades — SUPCON en Chile",
+    "anio": 2025,
+    "generado_por": "CONECTA — prospección SUPCON",
+    "fuentes": [
+      "InfoTécnica CEN (api-infotecnica.coordinador.cl/v1) — 1.218 centrales, region/comuna/productor",
+      "RETC/MMA (datosretc.mma.gob.cl) — 26.649 establecimientos industriales con region/comuna/rubro",
+      "SEIA (seia.sea.gob.cl) — proyectos por industria, titular, comuna e inversion",
+      "Aduanas de Chile 2025 (registro DIN, 4.847.036 lineas) — perfiles de importadores del rubro"
+    ],
+    "regla_datos": "Cada cifra lleva su fuente. MEDIDO = dato directo de la fuente. INFERIDO = interpretacion del cruce, sin dato directo."
+  },
+  "canal_resumen": {
+    "n_importadores_rubro": 1946,
+    "usd_rubro_2025": 316899613.19,
+    "pct_region_metropolitana_n": 88.4,
+    "pct_region_metropolitana_usd": 93.2,
+    "pct_las_condes_usd": 49.0
+  },
+  "demanda_por_region": [
+    {
+      "region": "Antofagasta",
+      "centrales_cen": 86,
+      "industrias": [
+        "Extracción minerales",
+        "Combustibles",
+        "Producción química",
+        "Producción metal",
+        "Pesca"
+      ],
+      "establecimientos_por_industria": [
+        {
+          "industria": "Extracción minerales",
+          "establecimientos_retc": 54
+        },
+        {
+          "industria": "Combustibles",
+          "establecimientos_retc": 23
+        },
+        {
+          "industria": "Producción química",
+          "establecimientos_retc": 15
+        },
+        {
+          "industria": "Producción metal",
+          "establecimientos_retc": 7
+        },
+        {
+          "industria": "Pesca",
+          "establecimientos_retc": 2
+        }
+      ],
+      "empresas": [
+        "AIR LIQUIDE CHILE S A",
+        "ANDES SOLAR II SPA",
+        "ARCADIA GENERACIÓN SOLAR S.A.",
+        "CAUCHOS INDUSTRIALES S A",
+        "CERRO DOMINADOR PV S.A.",
+        "COMPLEJO INDUSTRIAL MOLYNOR SA",
+        "COMPLEJO METALURGICO ALTONORTE SA",
+        "CORP NACIONAL DEL COBRE DE CHILE",
+        "EMPRESA NACIONAL DE MINERIA",
+        "ENAEX S A",
+        "ENEL GENERACIÓN CHILE S.A.",
+        "ENEL GREEN POWER CHILE S.A.",
+        "ENGIE ENERGÍA CHILE S.A.",
+        "MINERA CENTINELA"
+      ],
+      "plantas_principales": [
+        "INNA Soluciones Renovables SpA. — INNA - Proyecto Integrado de Infraestructura Energética para la Generación de Hidrógeno y Amoníaco Verde (Taltal)",
+        "Sociedad Contractual Minera El Abra — Continuidad Operacional Minera El Abra y Desarrollo de Planta Concentradora con Transición Hídrica a Agua Desa (Calama, María Elena, Mejillones, Ollagüe, Tocopilla)",
+        "MINERA ESCONDIDA LIMITADA — Nueva Planta Concentradora, obras eléctricas, actualización movimiento mina e implementación de obras compleme (Antofagasta)",
+        "Volta Hidrógeno SpA — Proyecto Volta - Planta de Hidrógeno y Amoníaco Verde (Mejillones)",
+        "MINERA ESCONDIDA LIMITADA — Modificaciones Operacionales en Planta Concentradora Laguna Seca y Nueva Línea Eléctrica Asociada, al Interior (Antofagasta)",
+        "Empresa Eléctrica Cochrane SpA. — EIA Central Termoeléctrica Cochrane (Mejillones)"
+      ],
+      "n_proyectos_seia": 141,
+      "nota": "MEDIDO: 140 establecimientos industriales RETC (54 extracción de minerales, 39 generación), 86 centrales CEN, 57 proyectos SEIA mineros. Corazón de la gran minería del cobre (Escondida, Centinela, Antucoya) y clúster Mejillones."
+    },
+    {
+      "region": "Atacama",
+      "centrales_cen": 69,
+      "industrias": [
+        "Extracción minerales",
+        "Combustibles",
+        "Pesca",
+        "Producción metal"
+      ],
+      "establecimientos_por_industria": [
+        {
+          "industria": "Extracción minerales",
+          "establecimientos_retc": 45
+        },
+        {
+          "industria": "Combustibles",
+          "establecimientos_retc": 12
+        },
+        {
+          "industria": "Pesca",
+          "establecimientos_retc": 9
+        },
+        {
+          "industria": "Producción metal",
+          "establecimientos_retc": 3
+        }
+      ],
+      "empresas": [
+        "ARCADIA GENERACIÓN SOLAR S.A.",
+        "BRAUX CHILE SPA",
+        "CENTRAL CARDONES S.A.",
+        "CIA CONTRACTUAL MINERA CANDELARIA",
+        "CIA MINERA DEL PACIFICO S A",
+        "CORP NACIONAL DEL COBRE DE CHILE",
+        "EMPRESA NACIONAL DE MINERIA",
+        "ENEL GREEN POWER CHILE S.A.",
+        "GENERADORA DEL PACÍFICO SPA",
+        "GUACOLDA ENERGÍA SPA",
+        "MANTOS COPPER S.A.",
+        "RTS ENERGÍA S.A.",
+        "SOC PUNTA DEL COBRE S A",
+        "SOCIEDAD MINERA EL AGUILA SPA"
+      ],
+      "plantas_principales": [
+        "CGX CASTILLA GENERACIÓN S.A. — Central Termoeléctrica Castilla (Copiapó)",
+        "Guacolda Energia SpA — Central Termoeléctrica Guacolda y Vertedero (Huasco)",
+        "AGBAR Chile S.A. — Planta Desaladora para el Valle de Copiapó (Caldera, Copiapó, Tierra Amarilla)",
+        "Minera Melón S.A. — Explotación Minera y Producción de Clinker y Cemento (Huasco, Vallenar)",
+        "Minera Melón S.A. — Explotación Minera y Producción de Clinker y Cemento (Huasco, Vallenar)",
+        "Codelco Chile División Salvador — Planta de Ácido Sulfúrico Fundición Potrerillos (Diego de Almagro)"
+      ],
+      "n_proyectos_seia": 70,
+      "nota": "MEDIDO: 86 establecimientos RETC (45 extracción minerales), 69 centrales CEN. Cinturón minero del hierro y cobre (Punta del Cobre, CMP, Candelaria) + generación en Cardones/Maitencillo."
+    },
+    {
+      "region": "Tarapacá",
+      "centrales_cen": 21,
+      "industrias": [
+        "Extracción minerales",
+        "Combustibles",
+        "Pesca",
+        "Producción química",
+        "Producción metal"
+      ],
+      "establecimientos_por_industria": [
+        {
+          "industria": "Extracción minerales",
+          "establecimientos_retc": 13
+        },
+        {
+          "industria": "Combustibles",
+          "establecimientos_retc": 5
+        },
+        {
+          "industria": "Pesca",
+          "establecimientos_retc": 5
+        },
+        {
+          "industria": "Producción química",
+          "establecimientos_retc": 2
+        },
+        {
+          "industria": "Producción metal",
+          "establecimientos_retc": 2
+        }
+      ],
+      "empresas": [
+        "AIR LIQUIDE CHILE S A",
+        "ATACAMA SOLAR SPA",
+        "CENTRO DE ESTUDIOS,MEDICION Y CERTIFICACION DE CALIDAD\n            CESMEC S.A.",
+        "COMPANIA MINERA CORDILLERA CHILE SCM",
+        "COMPAÑÍA DOÑA INÉS DE COLLAHUASI SCM",
+        "EMPRESA NEPTUNO INDUSTRIAL COMERCIAL LTDA",
+        "ENERNUEVAS S.A.",
+        "ENORCHILE S.A.",
+        "EXPLOTERRA MINERALS CHILE S.C.M.",
+        "K + S CHILE S.A.",
+        "POZO ALMONTE SOLAR 2 S.A.",
+        "POZO ALMONTE SOLAR 3 S.A.",
+        "SCM BULLMINE",
+        "SERVIMAK S A"
+      ],
+      "plantas_principales": [
+        "Compañía Minera Doña Inés de Collahuasi SCM — Compañía Minera Doña Inés de Collahuasi (Pica)",
+        "Río Seco S.A. — Central Termoeléctrica Pacífico (Iquique)",
+        "Compañía Minera Doña Inés de Collahuasi SCM — Proyecto Expansión 110 KTPD Planta Concentradora Collahuasi (Iquique, Pica, Pozo Almonte)",
+        "Enel Generación Chile S.A — Central Termoeléctrica Patache y Sistema de Transmisión Asociado (Iquique, Pica, Pozo Almonte)",
+        "Compañía Minera Doña Inés de Collahuasi SCM — Proyecto Recuperación de Molibdeno (Mo) desde Concentrados de Cobre (Cu) Collahuasi (Iquique)",
+        "Iquique Terminal Internacional S.A. — Muelle Antisísmico en Sitio 4 del Puerto de Iquique para Naves Post-Panamax (Iquique)"
+      ],
+      "n_proyectos_seia": 35,
+      "nota": "MEDIDO: 32 establecimientos RETC, 21 centrales CEN. Collahuasi (proyecto SEIA US$1.700M) y operaciones de yodo/nitratos (K+S). Menor densidad industrial pero grandes cuentas puntuales."
+    },
+    {
+      "region": "Metropolitana",
+      "centrales_cen": 168,
+      "industrias": [
+        "Combustibles",
+        "Producción química",
+        "Extracción minerales",
+        "Producción metal",
+        "Pesca"
+      ],
+      "establecimientos_por_industria": [
+        {
+          "industria": "Combustibles",
+          "establecimientos_retc": 290
+        },
+        {
+          "industria": "Producción química",
+          "establecimientos_retc": 83
+        },
+        {
+          "industria": "Extracción minerales",
+          "establecimientos_retc": 39
+        },
+        {
+          "industria": "Producción metal",
+          "establecimientos_retc": 23
+        },
+        {
+          "industria": "Pesca",
+          "establecimientos_retc": 5
+        }
+      ],
+      "empresas": [
+        "AES ANDES S.A.",
+        "ANGLO AMERICAN SUR S.A.",
+        "ASOC. DE CANAL. SOCIEDAD DEL CANAL DE MAIPO",
+        "COMANDO DE INDUSTRIA MILITAR E INGENIERIA DEL EJERCITO",
+        "COMPANIA EXPLOTADORA DE MINAS SPA",
+        "CORP NACIONAL DEL COBRE DE CHILE",
+        "DEGREMONT LIMITADA",
+        "ELÉCTRICA PUNTILLA S.A.",
+        "ENEL GREEN POWER CHILE S.A.",
+        "ENERGÍA MORRO GUAYACÁN SPA",
+        "FUNDICION DE METALES METALBRAS LTDA",
+        "FUNDICION LAS ROSAS S A",
+        "GERDAU AZA S A",
+        "INDUSTRIAS METALURGICAS SORENA S A"
+      ],
+      "plantas_principales": [
+        "Anglo American Sur S.A — Recuperación de Cobre de Mineral de Baja Ley Los Bronces (Las Condes)",
+        "Corporación Nacional del Cobre, División Andina — Sistema de Disposición de Relaves a Largo Plazo. Proyecto Embalse Ovejería (Colina)",
+        "Sociedad Concesionaria Nuevo Pudahuel S.A. — Ampliación de Terminales Aeropuerto A.M.B. (Pudahuel)",
+        "MINISTERIO DE OBRAS PÚBLICAS — Segunda Pista de Aterrizaje Aeropuerto Arturo Merino Benitez (Primera Presentación) (Pudahuel)",
+        "Sociedad Generadora Metropolitana SpA. — Conversión a Gas Central Renca (Renca)",
+        "Envases Impresos Cordillera SpA — Ampliación Fábrica de Papeles Cordillera con Proceso de Fabricación de Papeles para Corrugar MP - 20 (Puente Alto)"
+      ],
+      "n_proyectos_seia": 104,
+      "nota": "MEDIDO: 478 establecimientos industriales RETC (83 producción química), 168 centrales CEN. Además concentra 41 de los 74 integradores del canal. Sede de fundiciones, alimentos y química de la zona central."
+    },
+    {
+      "region": "Valparaíso",
+      "centrales_cen": 134,
+      "industrias": [
+        "Combustibles",
+        "Extracción minerales",
+        "Producción química",
+        "Pesca",
+        "Producción metal"
+      ],
+      "establecimientos_por_industria": [
+        {
+          "industria": "Combustibles",
+          "establecimientos_retc": 63
+        },
+        {
+          "industria": "Extracción minerales",
+          "establecimientos_retc": 32
+        },
+        {
+          "industria": "Producción química",
+          "establecimientos_retc": 5
+        },
+        {
+          "industria": "Pesca",
+          "establecimientos_retc": 4
+        },
+        {
+          "industria": "Producción metal",
+          "establecimientos_retc": 3
+        }
+      ],
+      "empresas": [
+        "ANGLO AMERICAN SUR S.A.",
+        "BASF CHILE S A",
+        "CIA MINERA LA PATAGUA",
+        "COLBÚN S.A.",
+        "CORP NACIONAL DEL COBRE DE CHILE",
+        "ELABORADORA DE COBRE VINA DEL MAR SA",
+        "EMPRESA ELÉCTRICA VENTANAS SPA",
+        "ENEL GENERACIÓN CHILE S.A.",
+        "HORMIGONES Y ARIDOS SANTA NATALIA LIMITADA",
+        "KNOP LABORATORIOS S A",
+        "MGM INNOVA CAPITAL CHILE SPA",
+        "MINERA CLARITA CHILE S A",
+        "MINERA LAS CENIZAS S A",
+        "OXIQUIM S A"
+      ],
+      "plantas_principales": [
+        "Energía Minera S.A. — Central Termoeléctrica Energía Minera (Puchuncaví, Quintero)",
+        "Cerro el Plomo S.A. — Central Ciclo Combinado Los Rulos (Limache)",
+        "Empresa Eléctrica Ventanas SpA — Central Termoeléctrica Campiche (Puchuncaví)",
+        "Empresa Nacional del Petróleo - Magallanes — MODIFICACIÓN DEL MUELLE DEL TERMINAL MARÍTIMO DE GAS NATURAL LICUADO (Quintero)",
+        "GNL QUINTERO S.A. — MODIFICACIÓN DEL MUELLE DEL TERMINAL MARÍTIMO DE GAS NATURAL LICUADO (Quintero)",
+        "Puerto Central S.A. — PROYECTO MUELLE COSTANERA SAN ANTONIO (San Antonio)"
+      ],
+      "n_proyectos_seia": 81,
+      "nota": "MEDIDO: 127 establecimientos RETC, 134 centrales CEN, 63 de combustibles. Clúster químico-industrial Quintero-Puchuncaví-Concón (GNL, refinería, termoeléctricas) + San Antonio portuario."
+    },
+    {
+      "region": "Biobío",
+      "centrales_cen": 118,
+      "industrias": [
+        "Pesca",
+        "Combustibles",
+        "Producción química",
+        "Extracción minerales",
+        "Producción metal"
+      ],
+      "establecimientos_por_industria": [
+        {
+          "industria": "Pesca",
+          "establecimientos_retc": 55
+        },
+        {
+          "industria": "Combustibles",
+          "establecimientos_retc": 53
+        },
+        {
+          "industria": "Producción química",
+          "establecimientos_retc": 8
+        },
+        {
+          "industria": "Extracción minerales",
+          "establecimientos_retc": 4
+        },
+        {
+          "industria": "Producción metal",
+          "establecimientos_retc": 4
+        }
+      ],
+      "empresas": [
+        "AIR LIQUIDE CHILE S A",
+        "ARENEX S.A.",
+        "ARIDOS EL BOLDAL S A",
+        "CANTERAS LONCO S A",
+        "CIA SIDERURGICA HUACHIPATO S A",
+        "COLBÚN S.A.",
+        "COMERCIALIZADORA DE INSUMOS SOLCHEM LTDA",
+        "ENEL GENERACIÓN CHILE S.A.",
+        "ESPINOS S.A.",
+        "FUNDICION LOMAS COLORADAS LIMITADA",
+        "INDUSTRIA DE ACERO MANUFACTURADO LIMITADA",
+        "MOLY COP CHILE S A",
+        "OXIQUIM S A",
+        "PMGD BIO BIO NEGRETE S.A."
+      ],
+      "plantas_principales": [
+        "Global Power Generation Chile SpA — Central de Ciclo Combinado Tierra Noble (Cabrero)",
+        "Central Yungay S.A — Central Termoeléctrica Ciclo Combinado Campanario (Cabrero)",
+        "CMPC Pulp SpA — Proyecto de modificación para producir celulosa cruda en Planta Laja (Laja)",
+        "Colbún S.A. — Central Hidroeléctrica Rucue (Antuco)",
+        "SOCIEDAD ELÉCTRICA SANTIAGO S.A. (ESSA) — Central Termoeléctrica Santa Lidia (Cabrero)",
+        "Sociedad Generadora Metropolitana SpA. — Central Termoeléctrica Santa Lidia en Charrúa . (Cabrero)"
+      ],
+      "n_proyectos_seia": 104,
+      "nota": "MEDIDO: 156 establecimientos RETC, 118 centrales CEN. Clúster celulosa/papel (Arauco, CMPC), siderurgia (Huachipato), refinería ENAP Talcahuano y pesqueras (Orizon, Camanchaca)."
+    },
+    {
+      "region": "O'Higgins",
+      "centrales_cen": 148,
+      "industrias": [
+        "Combustibles",
+        "Extracción minerales",
+        "Producción química",
+        "Producción metal",
+        "Pesca"
+      ],
+      "establecimientos_por_industria": [
+        {
+          "industria": "Combustibles",
+          "establecimientos_retc": 26
+        },
+        {
+          "industria": "Extracción minerales",
+          "establecimientos_retc": 14
+        },
+        {
+          "industria": "Producción química",
+          "establecimientos_retc": 4
+        },
+        {
+          "industria": "Producción metal",
+          "establecimientos_retc": 2
+        },
+        {
+          "industria": "Pesca",
+          "establecimientos_retc": 2
+        }
+      ],
+      "empresas": [
+        "ARIDOS TINGUIRIRICA LIMITADA",
+        "BETEL SPA",
+        "COMPANIA MINERA EL INGLES",
+        "CORP NACIONAL DEL COBRE DE CHILE",
+        "ENEL GENERACIÓN CHILE S.A.",
+        "ENEL GREEN POWER CHILE S.A.",
+        "METALMACK LIMITADA",
+        "MINERALES INDUSTRIALES LIMITADA",
+        "NEW TECH AGRO S.A",
+        "PACIFIC HYDRO CHILE S.A.",
+        "PARQUE FOTOVOLTAICO CHEPICA SPA",
+        "PETROCHIL S A",
+        "QUIMETAL INDUSTRIAL S A",
+        "SOCIEDAD COMERCIAL E INDUSTRIAL MINERA WESTPORT SPA"
+      ],
+      "plantas_principales": [
+        "Constructora Andrade Gutiérrez S.A. — Central Hidroeléctrica  Alto Cachapoal (Machalí)",
+        "AES GENER S.A — Central Termoeléctrica Totihue VI Región (Requínoa)",
+        "Hidroeléctrica la Higuera S.A. — Central Hidroeléctrica de Pasada La Higuera (San Fernando)",
+        "AES GENER S.A — Central Ciclo Combinado Monte Lorenzo (San Vicente)",
+        "Colbún S.A. — Central Termoeléctrica Candelaria (Codegua, Mostazal)",
+        "Corporación Nacional del Cobre de Chile  (CODELCO) - División El Tenie — Planta de Ácido Sulfúrico División El Teniente (Machalí)"
+      ],
+      "n_proyectos_seia": 35,
+      "nota": "MEDIDO: 60 establecimientos RETC, 148 centrales CEN. Agroindustria (Agrícola Super), minería El Teniente (Codelco) y generación solar concentrada."
+    },
+    {
+      "region": "Coquimbo",
+      "centrales_cen": 101,
+      "industrias": [
+        "Extracción minerales",
+        "Combustibles",
+        "Pesca",
+        "Producción química",
+        "Producción metal"
+      ],
+      "establecimientos_por_industria": [
+        {
+          "industria": "Extracción minerales",
+          "establecimientos_retc": 34
+        },
+        {
+          "industria": "Combustibles",
+          "establecimientos_retc": 15
+        },
+        {
+          "industria": "Pesca",
+          "establecimientos_retc": 8
+        },
+        {
+          "industria": "Producción química",
+          "establecimientos_retc": 1
+        },
+        {
+          "industria": "Producción metal",
+          "establecimientos_retc": 1
+        }
+      ],
+      "empresas": [
+        "ACTIVATION LABORATORIOS LIMITADA",
+        "CIA MINERA DEL PACIFICO S A",
+        "CIA MINERA SAN GERONIMO",
+        "COMPAÑÍA BARRICK CHILE GENERACIÓN SPA",
+        "ELEKTRA GENERACIÓN S.A.",
+        "EMPRESA NACIONAL DE MINERIA",
+        "ENEL GENERACIÓN CHILE S.A.",
+        "ENEL GREEN POWER CHILE S.A.",
+        "GPG GENERACIÓN DISTRIBUIDA SPA",
+        "MINERA ALTOS DE PUNITAQUI LIMITADA.",
+        "MINERA MELON S.A.",
+        "PRIME ENERGÍA QUICKSTART SPA",
+        "QUIMETAL INDUSTRIAL S A",
+        "SOC COMERCIAL MASTER LIMITADA"
+      ],
+      "plantas_principales": [
+        "Termoeléctrica Farellones S.A. — Central Termoeléctrica Farellones (La Higuera)",
+        "Minera Los Pelambres — Proyecto de Expansión 85.000 tpd Minera Los Pelambres (Illapel, Los Vilos, Salamanca)",
+        "ABASTECIMIENTOS CAP S.A. — Central Termoeléctrica Cruz Grande (La Higuera)",
+        "Desaladora La Serena SpA — Desaladora Multiproposito - La Serena (La Serena)",
+        "Dirección General de Concesiones de Obras Públicas del Ministerio de O — Desaladora de Coquimbo (Coquimbo)",
+        "Aguas del Valle S.A. — Desaladora para Agua Potable de Coquimbo (Coquimbo)"
+      ],
+      "n_proyectos_seia": 51,
+      "nota": "MEDIDO: 77 establecimientos RETC (34 extracción minerales), 101 centrales CEN. Minería del hierro (CMP), Los Pelambres y desalación La Serena."
+    },
+    {
+      "region": "Araucanía",
+      "centrales_cen": 40,
+      "industrias": [
+        "Combustibles",
+        "Pesca",
+        "Extracción minerales",
+        "Producción química",
+        "Producción metal"
+      ],
+      "establecimientos_por_industria": [
+        {
+          "industria": "Combustibles",
+          "establecimientos_retc": 47
+        },
+        {
+          "industria": "Pesca",
+          "establecimientos_retc": 42
+        },
+        {
+          "industria": "Extracción minerales",
+          "establecimientos_retc": 3
+        },
+        {
+          "industria": "Producción química",
+          "establecimientos_retc": 2
+        },
+        {
+          "industria": "Producción metal",
+          "establecimientos_retc": 2
+        }
+      ],
+      "empresas": [
+        "ALUMINIOS 2000 LIMITADA",
+        "ANASAC CHILE S.A.",
+        "ARIDOS Y SERVICIOS SEGAL LIMITADA",
+        "EMPRESA ELÉCTRICA CARÉN S.A.",
+        "ENEL GREEN POWER CHILE S.A.",
+        "MAQUINARIAS LA FRONTERA LIMITADA",
+        "MILLARAY FOTOVOLTAICA SPA",
+        "QUIMETAL INDUSTRIAL S A",
+        "RESPALDO Y POTENCIA SPA",
+        "SAGESA S.A.",
+        "SALOMON SACK S A",
+        "SOC EXPLOTADORA DE ARIDOS ARIMIX LIMITADA",
+        "WPD MALLECO SPA"
+      ],
+      "plantas_principales": [
+        "Comercial e Industrial ERCO (Chile) Limitada — Planta Química de Clorato de Sodio (Collipulli)",
+        "Ilustre Municipalidad de Freire — Relleno Sanitario Comuna de Freire (Freire)",
+        "Aguas Araucanía S.A — Construcción Planta de Tratamiento y Disposición de Aguas Servidas de Pucón (Pucón)",
+        "Aguas Araucanía S.A — Planta de Tratamiento de Aguas Servidas de Victoria (Victoria)",
+        "Guillermo Juan Siles Manríquez — Localización y Operación Relleno Sanitario Comuna de Temuco (Temuco)",
+        "Aguas Araucanía S.A — Construcción Planta de Tratamiento de Aguas Servidas de Vilcún (Vilcún)"
+      ],
+      "n_proyectos_seia": 28,
+      "nota": "MEDIDO: 105 establecimientos RETC con fuerte componente pesca (42) y combustibles; menor densidad de planta de proceso. 40 centrales CEN."
+    },
+    {
+      "region": "Los Lagos",
+      "centrales_cen": 59,
+      "industrias": [
+        "Pesca",
+        "Combustibles",
+        "Extracción minerales",
+        "Producción química"
+      ],
+      "establecimientos_por_industria": [
+        {
+          "industria": "Pesca",
+          "establecimientos_retc": 495
+        },
+        {
+          "industria": "Combustibles",
+          "establecimientos_retc": 50
+        },
+        {
+          "industria": "Extracción minerales",
+          "establecimientos_retc": 5
+        },
+        {
+          "industria": "Producción química",
+          "establecimientos_retc": 4
+        }
+      ],
+      "empresas": [
+        "AIR LIQUIDE CHILE S A",
+        "ARIDOS DOWLING & SCHILLING S.A.",
+        "CAL AUSTRAL SOCIEDAD ANONIMA",
+        "ENERGÍA DE LA PATAGONIA Y AYSÉN SPA",
+        "GENERACIÓN DE ENERGÍA NUEVA DEGAN SPA",
+        "GENERADORA LA CALERA SPA",
+        "HIDROENERSUR SPA",
+        "HORMIGONES DEL SUR LIMITADA",
+        "INVERSIONES LAS GARZAS S A",
+        "LLONQUÉN ENERGÍAS SPA",
+        "NOVARTIS CHILE S A",
+        "OXIQUIM S A",
+        "PROQUIEL QUIMICOS LIMITADA",
+        "SAGESA S.A."
+      ],
+      "plantas_principales": [
+        "Concesión de Los Lagos S. A. — By Pass  de Puerto Montt (Puerto Montt)",
+        "Vitapro Chile S.A — Ampliación Planta de Alimentos Salmofood (Castro)",
+        "MINISTERIO DE OBRAS PÚBLICAS — \"Construcción Terminales Portuarios Canal de Chacao\" (Ancud, Calbuco)",
+        "Melon S.A. — Ampliación Planta Industrial de Molienda de Cemento (Puerto Montt)",
+        "Mowi Chile S.A — Planta de Proceso de Salmones en Teupa, Marine Harvest Chile S.A (Chonchi)",
+        "MELON S.A. — Planta Industrial de Molienda de Cemento, Puerto Montt, X Región (Puerto Montt)"
+      ],
+      "n_proyectos_seia": 106,
+      "nota": "MEDIDO: 587 establecimientos RETC, 495 de pesca/acualcultura (Cermaq, Mowi, Marine Harvest). Industria salmonera intensiva en proceso y frío. 59 centrales CEN."
+    },
+    {
+      "region": "Maule",
+      "centrales_cen": 157,
+      "industrias": [
+        "Combustibles",
+        "Extracción minerales",
+        "Pesca",
+        "Producción metal"
+      ],
+      "establecimientos_por_industria": [
+        {
+          "industria": "Combustibles",
+          "establecimientos_retc": 25
+        },
+        {
+          "industria": "Extracción minerales",
+          "establecimientos_retc": 7
+        },
+        {
+          "industria": "Pesca",
+          "establecimientos_retc": 2
+        },
+        {
+          "industria": "Producción metal",
+          "establecimientos_retc": 1
+        }
+      ],
+      "empresas": [
+        "ARIDOS SANTA FE S.A.",
+        "COLBÚN S.A.",
+        "EMPRESA ELÉCTRICA PEHUENCHE S.A.",
+        "ENEL GENERACIÓN CHILE S.A.",
+        "ENEL GREEN POWER CHILE S.A.",
+        "GPG GENERACIÓN DISTRIBUIDA SPA",
+        "HIDROELÉCTRICA RÍO LIRCAY S.A.",
+        "MINERA RIO TENO S.A.",
+        "MINERA TORO SPA",
+        "PROCESADORA Y COMERCIAL DE MINERALES Y GRANOS\n            INDUSTRIALES MIGRIN SA",
+        "VILLANUEVA"
+      ],
+      "plantas_principales": [
+        "AES GENER S.A — CENTRAL TERMOELÉCTRICA LOS ROBLES (Constitución)",
+        "CBB Cales S.A. — Planta de Cemento en Teno (Teno)",
+        "Pehuenche S.A. — Central Hidroeléctrica Loma Alta (Algarrobo, San Clemente)",
+        "PATAGONIAFRESH S.A. — PLANTA DE PASTA Y PULPA CONCENTRADA DE TOMATES, HORTALIZAS Y FRUTAS. PATAGONIAFRESH S.A., PLANTA MOLINA (Molina)",
+        "PATAGONIAFRESH S.A — AMPLIACIÓN Y MODIFICACION PLANTA PASTAS Y PULPA. PATAGONIAFRESH S.A., PLANTA MOLINA (Molina)",
+        "PATAGONIAFRESH S.A — AMPLIACIÓN Y MODIFICACIÓN PLANTA PASTAS Y PULPAS PATAGONIAFRESH S.A., PLANTA MOLINA (Molina)"
+      ],
+      "n_proyectos_seia": 39,
+      "nota": "MEDIDO: 157 centrales CEN, 54 establecimientos RETC. Generación y agroindustria; menor base de planta de proceso."
+    },
+    {
+      "region": "Ñuble",
+      "centrales_cen": 68,
+      "industrias": [
+        "Combustibles",
+        "Extracción minerales"
+      ],
+      "establecimientos_por_industria": [
+        {
+          "industria": "Combustibles",
+          "establecimientos_retc": 11
+        },
+        {
+          "industria": "Extracción minerales",
+          "establecimientos_retc": 2
+        }
+      ],
+      "empresas": [
+        "ARENEX S.A.",
+        "ARIDOS LIVIO MAGGI LIMITADA",
+        "FARMDO ENERGY CHILE SPA",
+        "PARQUE SOLAR ESMERALDA SPA",
+        "PV EL CERNÍCALO SPA",
+        "RAVENNA SOLAR SPA",
+        "TECNORED S.A.",
+        "TEDLAR MERCURIO SPA"
+      ],
+      "plantas_principales": [
+        "ESSBIO S.A. — Planta de Tratamiento de Aguas Servidas de Chillán (Chillán)",
+        "Frutícola Olmué SpA — Frigorífico Chillán Viejo ? Frutícola Olmué (Chillán Viejo)",
+        "Alimentos El Globo — Fábrica de Galletas, Alimentos el Globo S.A. (Chillán)",
+        "Jorge Hugo Arnaboldi Cáceres — Relleno Sanitario San Carlos (Ñiquén)",
+        "Ecobio SpA — Relleno Sanitario Fundo Las Cruces (Chillán Viejo)",
+        "ESSBIO S.A. — Planta de Tratamiento de Aguas Servidas de Quirihue (Quirihue)"
+      ],
+      "n_proyectos_seia": 17,
+      "nota": "MEDIDO: 68 centrales CEN (solares), 17 establecimientos RETC. Base industrial liviana."
+    },
+    {
+      "region": "Los Ríos",
+      "centrales_cen": 31,
+      "industrias": [
+        "Pesca",
+        "Combustibles",
+        "Extracción minerales"
+      ],
+      "establecimientos_por_industria": [
+        {
+          "industria": "Pesca",
+          "establecimientos_retc": 35
+        },
+        {
+          "industria": "Combustibles",
+          "establecimientos_retc": 16
+        },
+        {
+          "industria": "Extracción minerales",
+          "establecimientos_retc": 2
+        }
+      ],
+      "empresas": [
+        "ENEL GREEN POWER CHILE S.A.",
+        "GANADERA Y FORESTAL CARRAN LIMITADA",
+        "GENERADORA ELÉCTRICA PEHUI LTDA",
+        "LLONQUÉN ENERGÍAS SPA",
+        "LÁGRIMAS DEL SUR SPA",
+        "SAGESA S.A.",
+        "SERVICIOS DE TRANSPORTES Y ARIDOS VICAT LIMITADA"
+      ],
+      "plantas_principales": [
+        "Celulosa Arauco y Constitución S.A. — Proyecto Valdivia (Celulosa Arauco y Constitución S.A.) Segunda Presentación (Mariquina)",
+        "Celulosa Arauco y Constitución S.A.. — Proyecto Valdivia ( Celulosa Arauco y Constitución ) Primera Presentación (Mariquina)",
+        "Celulosa Arauco y Constitución S.A. — Pulpa Textil (Mariquina)",
+        "I. Municipalidad de Panguipulli — Instalación Red de Alcantarillado Público Localidad de Neltume (Panguipulli)",
+        "Generadora Antilhue SpA. — Central Termoeléctrica Antilhue (Valdivia)",
+        "Terence James  Norwood - — Recuperación de subproductos de suero de queso mediante osmosis inversa y sistema de tratamiento de residuos i (Los Lagos)"
+      ],
+      "n_proyectos_seia": 17,
+      "nota": "MEDIDO: 31 centrales CEN, 61 establecimientos RETC. Planta de celulosa Arauco Valdivia (proyecto SEIA US$1.045M) — cuenta de proceso mayor."
+    },
+    {
+      "region": "Aysén",
+      "centrales_cen": 0,
+      "industrias": [
+        "Pesca",
+        "Combustibles",
+        "Extracción minerales"
+      ],
+      "establecimientos_por_industria": [
+        {
+          "industria": "Pesca",
+          "establecimientos_retc": 588
+        },
+        {
+          "industria": "Combustibles",
+          "establecimientos_retc": 13
+        },
+        {
+          "industria": "Extracción minerales",
+          "establecimientos_retc": 1
+        }
+      ],
+      "empresas": [
+        "CIA MINERA CERRO BAYO LIMITADA"
+      ],
+      "plantas_principales": [
+        "Inmobiliaria Inversiones FRIGONZA Ltda. — Puerto Seco Frigonza (Coyhaique)",
+        "Empresa Eléctrica de Aisén S.A. — Central Hidroeléctrica Lago Atravesado (Coyhaique)",
+        "NORMAN GRIDLEY . — PRODUCCIÓN Y TRANSPORTE DE RELAVES ESPESADOS (Coyhaique)",
+        "Exportadora Los Fiordos Ltda. — Planta Proceso Limpieza Congelación de Salmones (Cisnes)",
+        "Ilustre Municipalidad de Aysén, Región de Aysén — Plantas de Tratamiento de las Aguas Servidas de las Localidades de la Junta y Villa Mañihuales (Aysén)",
+        "Ilustre Municipalidad de Chile chico — Instalación Sistema de Alcantarillado de Puerto Guadal Comuna de Chile Chico (Chile Chico)"
+      ],
+      "n_proyectos_seia": 20,
+      "nota": "MEDIDO: 616 establecimientos RETC dominados por pesca/acualcultura (588). Sin gran planta de proceso; logística salmonera."
+    },
+    {
+      "region": "Magallanes",
+      "centrales_cen": 0,
+      "industrias": [
+        "Pesca",
+        "Combustibles",
+        "Extracción minerales",
+        "Producción metal"
+      ],
+      "establecimientos_por_industria": [
+        {
+          "industria": "Pesca",
+          "establecimientos_retc": 43
+        },
+        {
+          "industria": "Combustibles",
+          "establecimientos_retc": 21
+        },
+        {
+          "industria": "Extracción minerales",
+          "establecimientos_retc": 7
+        },
+        {
+          "industria": "Producción metal",
+          "establecimientos_retc": 1
+        }
+      ],
+      "empresas": [
+        "CIA SIDERURGICA HUACHIPATO S A",
+        "CONCREMAG S.A",
+        "INDUSTRIAL WEATHERFORD INTERNATIONAL DE CHILE S.A.",
+        "INGENIERIA CIVIL VICENTE S A",
+        "MINERA INVIERNO S.A.",
+        "PETREX S.A. AGENCIA EN CHILE",
+        "REDHILL MAGALLANES SPA"
+      ],
+      "plantas_principales": [
+        "TEC H2 MAG SPA — Proyecto de Producción de Hidrógeno y Amoniaco Verde - H2 Magallanes (Laguna Blanca, Punta Arenas, San Gregorio)",
+        "ASOE Chile Diez SpA — Proyecto integral para la producción y exportación de amoniaco verde - HNH ENERGY (Laguna Blanca, Punta Arenas, San Gregorio)",
+        "IB DECARB DOS ALFA SpA — PROYECTO ACUARIO - PRODUCCION DE AMONIACO VERDE (San Gregorio)",
+        "Empresa Nacional del Petróleo - Magallanes — Planta de Amoníaco en Cabo Negro (Punta Arenas)",
+        "Melon S.A. — Planta industrial de molienda de cemento, Punta Arenas (Punta Arenas)",
+        "MINISTERIO DE OBRAS PÚBLICAS — Ampliación Nuevo Puerto de Punta Arenas II y III Etapas (Punta Arenas)"
+      ],
+      "n_proyectos_seia": 32,
+      "nota": "MEDIDO: 78 establecimientos RETC, 5 centrales CEN, 13 combustibles. ENAP y proyectos de hidrógeno verde (TEC H2 MAG, ASOE Chile Diez) — futuro."
+    },
+    {
+      "region": "Arica y Parinacota",
+      "centrales_cen": 11,
+      "industrias": [
+        "Combustibles",
+        "Extracción minerales",
+        "Pesca",
+        "Producción química",
+        "Producción metal"
+      ],
+      "establecimientos_por_industria": [
+        {
+          "industria": "Combustibles",
+          "establecimientos_retc": 13
+        },
+        {
+          "industria": "Extracción minerales",
+          "establecimientos_retc": 5
+        },
+        {
+          "industria": "Pesca",
+          "establecimientos_retc": 3
+        },
+        {
+          "industria": "Producción química",
+          "establecimientos_retc": 1
+        },
+        {
+          "industria": "Producción metal",
+          "establecimientos_retc": 1
+        }
+      ],
+      "empresas": [
+        "CHAPIQUINA SOLAR SPA",
+        "CONDENSA S.A.",
+        "EL PERAL SPA",
+        "EMPRESA DE EXPLOTACION DE PERTENENCIAS MINERAS\n            TRATAMIENTO Y PROCESAMI",
+        "EMPRESA NACIONAL DE MINERIA",
+        "ENGIE ENERGÍA CHILE S.A.",
+        "IMERYS MINERALES CHILE SPA",
+        "INVERSIONES FOTOVOLTAICAS SPA",
+        "LAS CHILCAS SOLAR SPA",
+        "PAMPA CAMARONES S.A.",
+        "QUIBORAX S.A.",
+        "TARUCA SOLAR SPA"
+      ],
+      "plantas_principales": [
+        "Terminal Puerto Arica S.A. — Construcción de Muelle Asísmico de Penetración del Puerto de Arica (Arica)",
+        "Marco Antonio Saavedra Pastran — PLANTA DE EXTRACCIÓN POR SOLVENTE PARA LA OBTENCIÓN DE SULFATO DE COBRE (Arica)",
+        "LECAROS Y CIA S.A. — PLANTA DE EXTRACCIÓN POR SOLVENTE PARA LA OBTENCIÓN DE SULFATO DE COBRE (Arica)",
+        "Terminal Puerto Arica S.A. — Construcción Muelle Asísmico Sitio 3 Puerto Arica (Arica)",
+        "Terminal Puerto Arica S.A. — Construcción de Muelle Antisísmico en Sitio 3 del Puerto de Arica (Arica)",
+        "Empresa Portuaria Arica — Habilitación de Terreno Vías de Acceso e Infraestructura Básica para un Centro Extraportuario de Almacenamient (Arica)"
+      ],
+      "n_proyectos_seia": 22,
+      "nota": "MEDIDO: 27 establecimientos RETC, 11 centrales CEN. Base industrial pequeña."
+    }
+  ],
+  "canal_por_comuna": [
+    {
+      "comuna": "Las Condes",
+      "codigo": "13114",
+      "region": "Metropolitana",
+      "n_importadores": 514,
+      "usd_rubro": 155122412.01,
+      "pct": 49.0
+    },
+    {
+      "comuna": "Santiago Centro",
+      "codigo": "13123",
+      "region": "Metropolitana",
+      "n_importadores": 186,
+      "usd_rubro": 33014992.31,
+      "pct": 10.4
+    },
+    {
+      "comuna": "Lo Prado",
+      "codigo": "13107",
+      "region": "Metropolitana",
+      "n_importadores": 94,
+      "usd_rubro": 20942632.48,
+      "pct": 6.6
+    },
+    {
+      "comuna": "Santiago",
+      "codigo": "13101",
+      "region": "Metropolitana",
+      "n_importadores": 193,
+      "usd_rubro": 17638149.5,
+      "pct": 5.6
+    },
+    {
+      "comuna": "Cerro Navia",
+      "codigo": "13125",
+      "region": "Metropolitana",
+      "n_importadores": 115,
+      "usd_rubro": 16985787.66,
+      "pct": 5.4
+    },
+    {
+      "comuna": "El Bosque",
+      "codigo": "13132",
+      "region": "Metropolitana",
+      "n_importadores": 65,
+      "usd_rubro": 11633320.25,
+      "pct": 3.7
+    },
+    {
+      "comuna": "Quinta Normal",
+      "codigo": "13124",
+      "region": "Metropolitana",
+      "n_importadores": 89,
+      "usd_rubro": 9099521.87,
+      "pct": 2.9
+    },
+    {
+      "comuna": "Puente Alto",
+      "codigo": "13301",
+      "region": "Metropolitana",
+      "n_importadores": 40,
+      "usd_rubro": 6746517.73,
+      "pct": 2.1
+    },
+    {
+      "comuna": "Concon",
+      "codigo": "5103",
+      "region": "Valparaiso",
+      "n_importadores": 21,
+      "usd_rubro": 5748455.37,
+      "pct": 1.8
+    },
+    {
+      "comuna": "Lo Espejo",
+      "codigo": "13128",
+      "region": "Metropolitana",
+      "n_importadores": 31,
+      "usd_rubro": 4882136.76,
+      "pct": 1.5
+    },
+    {
+      "comuna": "San Miguel",
+      "codigo": "13106",
+      "region": "Metropolitana",
+      "n_importadores": 31,
+      "usd_rubro": 3512307.24,
+      "pct": 1.1
+    },
+    {
+      "comuna": "Rancagua",
+      "codigo": "6101",
+      "region": "O'Higgins",
+      "n_importadores": 12,
+      "usd_rubro": 2925457.68,
+      "pct": 0.9
+    },
+    {
+      "comuna": "San Bernardo",
+      "codigo": "13302",
+      "region": "Metropolitana",
+      "n_importadores": 48,
+      "usd_rubro": 2060423.84,
+      "pct": 0.7
+    },
+    {
+      "comuna": "Providencia",
+      "codigo": "13119",
+      "region": "Metropolitana",
+      "n_importadores": 35,
+      "usd_rubro": 2042605.67,
+      "pct": 0.6
+    },
+    {
+      "comuna": "San Joaquin",
+      "codigo": "13118",
+      "region": "Metropolitana",
+      "n_importadores": 30,
+      "usd_rubro": 1897689.29,
+      "pct": 0.6
+    },
+    {
+      "comuna": "Vina del Mar",
+      "codigo": "5109",
+      "region": "Valparaiso",
+      "n_importadores": 20,
+      "usd_rubro": 1873847.12,
+      "pct": 0.6
+    },
+    {
+      "comuna": "San Pedro de la Paz",
+      "codigo": "8110",
+      "region": "Biobio",
+      "n_importadores": 6,
+      "usd_rubro": 1498255.07,
+      "pct": 0.5
+    },
+    {
+      "comuna": "Cerro Navia",
+      "codigo": "13102",
+      "region": "Metropolitana",
+      "n_importadores": 18,
+      "usd_rubro": 1489043.29,
+      "pct": 0.5
+    },
+    {
+      "comuna": "Conchali",
+      "codigo": "13104",
+      "region": "Metropolitana",
+      "n_importadores": 31,
+      "usd_rubro": 1239921.82,
+      "pct": 0.4
+    },
+    {
+      "comuna": "Antofagasta",
+      "codigo": "2101",
+      "region": "Antofagasta",
+      "n_importadores": 22,
+      "usd_rubro": 1164440.45,
+      "pct": 0.4
+    },
+    {
+      "comuna": "Puerto Montt",
+      "codigo": "10101",
+      "region": "Los Lagos",
+      "n_importadores": 14,
+      "usd_rubro": 1103450.62,
+      "pct": 0.3
+    },
+    {
+      "comuna": "San Bernardo",
+      "codigo": "13401",
+      "region": "Metropolitana",
+      "n_importadores": 55,
+      "usd_rubro": 1099405.4,
+      "pct": 0.3
+    },
+    {
+      "comuna": "Los Andes",
+      "codigo": "5801",
+      "region": "Valparaiso",
+      "n_importadores": 7,
+      "usd_rubro": 978709.76,
+      "pct": 0.3
+    },
+    {
+      "comuna": "Casablanca",
+      "codigo": "5102",
+      "region": "Valparaiso",
+      "n_importadores": 6,
+      "usd_rubro": 899880.05,
+      "pct": 0.3
+    },
+    {
+      "comuna": "Macul",
+      "codigo": "13120",
+      "region": "Metropolitana",
+      "n_importadores": 16,
+      "usd_rubro": 889158.13,
+      "pct": 0.3
+    },
+    {
+      "comuna": "La Granja",
+      "codigo": "13129",
+      "region": "Metropolitana",
+      "n_importadores": 19,
+      "usd_rubro": 867911.99,
+      "pct": 0.3
+    },
+    {
+      "comuna": "Lo Barnechea",
+      "codigo": "13115",
+      "region": "Metropolitana",
+      "n_importadores": 15,
+      "usd_rubro": 732169.68,
+      "pct": 0.2
+    },
+    {
+      "comuna": "Concepcion",
+      "codigo": "8101",
+      "region": "Biobio",
+      "n_importadores": 13,
+      "usd_rubro": 711330.66,
+      "pct": 0.2
+    },
+    {
+      "comuna": "Vitacura",
+      "codigo": "13122",
+      "region": "Metropolitana",
+      "n_importadores": 3,
+      "usd_rubro": 668862.97,
+      "pct": 0.2
+    },
+    {
+      "comuna": "Rancagua",
+      "codigo": "6301",
+      "region": "O'Higgins",
+      "n_importadores": 5,
+      "usd_rubro": 533197.31,
+      "pct": 0.2
+    },
+    {
+      "comuna": "La Serena",
+      "codigo": "4101",
+      "region": "Coquimbo",
+      "n_importadores": 7,
+      "usd_rubro": 513651.87,
+      "pct": 0.2
+    },
+    {
+      "comuna": "La Reina",
+      "codigo": "13121",
+      "region": "Metropolitana",
+      "n_importadores": 2,
+      "usd_rubro": 462820.06,
+      "pct": 0.1
+    },
+    {
+      "comuna": "Maipu",
+      "codigo": "13116",
+      "region": "Metropolitana",
+      "n_importadores": 2,
+      "usd_rubro": 418512.34,
+      "pct": 0.1
+    },
+    {
+      "comuna": "Talca",
+      "codigo": "7401",
+      "region": "Maule",
+      "n_importadores": 5,
+      "usd_rubro": 404350.06,
+      "pct": 0.1
+    },
+    {
+      "comuna": "Pudahuel",
+      "codigo": "13126",
+      "region": "Metropolitana",
+      "n_importadores": 14,
+      "usd_rubro": 386309.07,
+      "pct": 0.1
+    },
+    {
+      "comuna": "Chillan",
+      "codigo": "16101",
+      "region": "Nuble",
+      "n_importadores": 2,
+      "usd_rubro": 343826.14,
+      "pct": 0.1
+    },
+    {
+      "comuna": "Machali",
+      "codigo": "6106",
+      "region": "O'Higgins",
+      "n_importadores": 1,
+      "usd_rubro": 342519.91,
+      "pct": 0.1
+    },
+    {
+      "comuna": "La Pintana",
+      "codigo": "13127",
+      "region": "Metropolitana",
+      "n_importadores": 13,
+      "usd_rubro": 326382.87,
+      "pct": 0.1
+    },
+    {
+      "comuna": "Estacion Central",
+      "codigo": "13108",
+      "region": "Metropolitana",
+      "n_importadores": 10,
+      "usd_rubro": 322682.2,
+      "pct": 0.1
+    },
+    {
+      "comuna": "Valparaiso",
+      "codigo": "5101",
+      "region": "Valparaiso",
+      "n_importadores": 10,
+      "usd_rubro": 284909.59,
+      "pct": 0.1
+    }
+  ],
+  "canal_por_region": [
+    {
+      "region": "Metropolitana",
+      "n_importadores": 1720,
+      "usd_rubro": 295422139.97,
+      "pct_n": 88.4,
+      "pct_usd": 93.2
+    },
+    {
+      "region": "Valparaíso",
+      "n_importadores": 76,
+      "usd_rubro": 10237520.61,
+      "pct_n": 3.9,
+      "pct_usd": 3.2
+    },
+    {
+      "region": "O'Higgins",
+      "n_importadores": 21,
+      "usd_rubro": 4000191.08,
+      "pct_n": 1.1,
+      "pct_usd": 1.3
+    },
+    {
+      "region": "Biobío",
+      "n_importadores": 28,
+      "usd_rubro": 2268485.16,
+      "pct_n": 1.4,
+      "pct_usd": 0.7
+    },
+    {
+      "region": "Los Lagos",
+      "n_importadores": 29,
+      "usd_rubro": 1593349.02,
+      "pct_n": 1.5,
+      "pct_usd": 0.5
+    },
+    {
+      "region": "Antofagasta",
+      "n_importadores": 24,
+      "usd_rubro": 1286417.11,
+      "pct_n": 1.2,
+      "pct_usd": 0.4
+    },
+    {
+      "region": "Maule",
+      "n_importadores": 8,
+      "usd_rubro": 598968.35,
+      "pct_n": 0.4,
+      "pct_usd": 0.2
+    },
+    {
+      "region": "Coquimbo",
+      "n_importadores": 9,
+      "usd_rubro": 520858.9,
+      "pct_n": 0.5,
+      "pct_usd": 0.2
+    },
+    {
+      "region": "Ñuble",
+      "n_importadores": 7,
+      "usd_rubro": 466438.01,
+      "pct_n": 0.4,
+      "pct_usd": 0.1
+    },
+    {
+      "region": "Atacama",
+      "n_importadores": 5,
+      "usd_rubro": 253054.82,
+      "pct_n": 0.3,
+      "pct_usd": 0.1
+    },
+    {
+      "region": "Araucanía",
+      "n_importadores": 9,
+      "usd_rubro": 133662.33,
+      "pct_n": 0.5,
+      "pct_usd": 0.0
+    },
+    {
+      "region": "Arica y Parinacota",
+      "n_importadores": 2,
+      "usd_rubro": 59472.23,
+      "pct_n": 0.1,
+      "pct_usd": 0.0
+    },
+    {
+      "region": "Los Ríos",
+      "n_importadores": 1,
+      "usd_rubro": 21414.73,
+      "pct_n": 0.1,
+      "pct_usd": 0.0
+    },
+    {
+      "region": "Magallanes",
+      "n_importadores": 4,
+      "usd_rubro": 20983.71,
+      "pct_n": 0.2,
+      "pct_usd": 0.0
+    },
+    {
+      "region": "Tarapacá",
+      "n_importadores": 3,
+      "usd_rubro": 16657.16,
+      "pct_n": 0.2,
+      "pct_usd": 0.0
+    }
+  ],
+  "zonas_prioritarias": [
+    {
+      "zona": "Z1 · Santiago (Las Condes–RM)",
+      "regiones": [
+        "Metropolitana"
+      ],
+      "demanda": "MEDIDO: 478 establecimientos industriales RETC en la RM (83 química, 39 minería, 23 metal), 168 centrales CEN, 33 proyectos SEIA de alimentos y 27 de agua. Sede corporativa de Codelco, CMPC, Enel, Engie, Aguas Andinas, GNL y prácticamente todos los mandantes.",
+      "canal": "MEDIDO: 1.720 de 1.946 importadores del rubro (88,4%) en la RM; 514 solo en Las Condes (49,0% del volumen US$316,9M); 41 de 74 integradores en Las Condes (US$66,6M).",
+      "por_que": "Única zona donde coinciden la mayor demanda corporativa/química y TODO el canal. Es la puerta de entrada obligatoria: sin acuerdos aquí no hay distribución. Prioridad por densidad de canal (49% del mercado de importación) y por ser sede de decisión de los mandantes mineros y de proceso.",
+      "prioridad": 1
+    },
+    {
+      "zona": "Z2 · Norte minero (Antofagasta–Mejillones–Calama)",
+      "regiones": [
+        "Antofagasta"
+      ],
+      "demanda": "MEDIDO: 140 establecimientos RETC (54 extracción de minerales, 15 química, 7 metal, 39 generación), 86 centrales CEN, 57 proyectos SEIA mineros. Cuentas: Escondida, Centinela, Codelco (Radomiro Tomic, Chuquicamata), Collahuasi, SQM, Aguas de Antofagasta, E-CL/AES, GNL Mejillones.",
+      "canal": "MEDIDO: solo 24 importadores del rubro en la región de Antofagasta (1,2% del total; US$1,29M, 0,4% del volumen). El canal NO está localizado en el norte: se abastece desde Santiago.",
+      "por_que": "Máxima densidad de demanda industrial de proceso (minería + desalación + química) con canal local mínimo: la venta exige presencia propia o socio en terreno, no un distribuidor local. Alto ticket, cuenta grande, decisión técnica en faena.",
+      "prioridad": 2
+    },
+    {
+      "zona": "Z3 · Valparaíso central (Quintero–Concón–San Antonio)",
+      "regiones": [
+        "Valparaíso"
+      ],
+      "demanda": "MEDIDO: 127 establecimientos RETC (63 combustibles, 32 minería, 5 química), 134 centrales CEN, 15 proyectos SEIA de cemento y clúster Quintero-Puchuncaví (GNL Quintero US$400M, refinería ENAP, termoeléctricas).",
+      "canal": "MEDIDO: 57 importadores del rubro en la región de Valparaíso (2,9%; US$8,8M), 21 en Concón (US$5,75M, 1,8% del volumen) y 20 en Viña del Mar. Segundo polo de canal del país.",
+      "por_que": "Segunda mayor concentración de canal (Concón/Viña) Y clúster químico-energético-portuario de primera línea. Zona alcanzable en el día desde Santiago — permite cubrir demanda y canal con la misma visita.",
+      "prioridad": 3
+    },
+    {
+      "zona": "Z4 · Concepción-Biobío (Talcahuano–Coronel–Laja)",
+      "regiones": [
+        "Biobío"
+      ],
+      "demanda": "MEDIDO: 156 establecimientos RETC, 118 centrales CEN, clúster celulosa/papel (Arauco, CMPC, Forestal y Papelera Concepción), siderurgia Huachipato, refinería ENAP Talcahuano, pesqueras. 18 proyectos SEIA de celulosa/papel.",
+      "canal": "MEDIDO: 26 importadores del rubro en la región del Biobío (1,3%; US$2,26M), 6 en San Pedro de la Paz (US$1,50M). Canal local débil.",
+      "por_que": "Mayor concentración de industria de proceso continuo del sur (celulosa, acero, refinería) — el cliente natural de DCS/SIS. Canal local débil: oportunidad de ser el proveedor de referencia con un socio regional.",
+      "prioridad": 4
+    },
+    {
+      "zona": "Z5 · Sur acuícola (Los Lagos–Aysén–Magallanes)",
+      "regiones": [
+        "Los Lagos",
+        "Aysén",
+        "Magallanes"
+      ],
+      "demanda": "MEDIDO: 587 establecimientos RETC en Los Lagos (495 pesca/acualcultura: Cermaq, Mowi, Marine Harvest, Salmones Camanchaca) y 616 en Aysén (588 pesca). 49 proyectos SEIA de alimentos en Los Lagos. Alta densidad de plantas de proceso/frío declaradas.",
+      "canal": "MEDIDO: 29 importadores del rubro en Los Lagos (1,5%; US$1,59M), 14 en Puerto Montt. Canal mínimo.",
+      "por_que": "Alto volumen de plantas declaradas pero ticket unitario menor y dispersión geográfica extrema; requiere red de servicio local. Vigilar, no atacar en el año 1.",
+      "prioridad": 5
+    },
+    {
+      "zona": "Z6 · Coquimbo-Atacama sur (minería de hierro y oro)",
+      "regiones": [
+        "Coquimbo",
+        "Atacama"
+      ],
+      "demanda": "MEDIDO: Coquimbo 77 establecimientos RETC (34 minería) + 101 centrales CEN; Atacama 86 establecimientos (45 minería) + 69 centrales CEN. Cuentas: CMP, Los Pelambres, Candelaria, Punta del Cobre, Mantos Copper, Guacolda.",
+      "canal": "MEDIDO: 9 importadores en Coquimbo (0,5%; US$0,52M) y 5 en Atacama (0,3%; US$0,25M). Canal casi inexistente.",
+      "por_que": "Demanda minera real pero ticket y densidad menores que Antofagasta; se cubre como extensión de Z2 en giras. Vigilar.",
+      "prioridad": 6
+    }
+  ],
+  "hallazgos": [
+    {
+      "hallazgo": "El canal importador del rubro está hiperconcentrado en Santiago: 1.720 de 1.946 importadores (88,4%) y US$295,4M de US$316,9M (93,2%) operan desde la Región Metropolitana.",
+      "tipo": "MEDIDO",
+      "fuente": "Aduanas 2025, perfiles_importador_2025.json"
+    },
+    {
+      "hallazgo": "Una sola comuna, Las Condes, concentra 514 importadores (26,4% del total nacional) y US$155,1M — el 49,0% de todo el volumen de importación del rubro del país.",
+      "tipo": "MEDIDO",
+      "fuente": "Aduanas 2025"
+    },
+    {
+      "hallazgo": "La demanda industrial de proceso, en cambio, NO está en Santiago: Antofagasta (140 establecimientos RETC), Biobío (156), Valparaíso (127) y Atacama (86) concentran la planta pesada, mientras el canal tiene allí apenas 24, 26, 57 y 5 importadores respectivamente.",
+      "tipo": "MEDIDO",
+      "fuente": "RETC/MMA + Aduanas 2025"
+    },
+    {
+      "hallazgo": "Existe una asimetría estructural: el decisor de compra (canal) vive en Las Condes y el usuario técnico (faena/planta) vive a 1.300 km en el norte o 500 km en el sur. Toda estrategia de canal exige cobertura de terreno separada de la sede comercial.",
+      "tipo": "INFERIDO",
+      "fuente": "cruce RETC/CEN/SEIA vs Aduanas"
+    },
+    {
+      "hallazgo": "Las 4 zonas prioritarias (Santiago, Antofagasta, Valparaíso, Biobío) reúnen 901 de los establecimientos industriales RETC identificados y 506 centrales CEN, y a la vez 1.803 de los 1.946 importadores del rubro.",
+      "tipo": "MEDIDO",
+      "fuente": "cálculo cruzado"
+    },
+    {
+      "hallazgo": "El 0% de los 74 integradores importa SUPCON o Hobré (cruce de marcas 2025): el portafolio no tiene presencia de canal instalada — el espacio está libre pero hay que construirlo desde cero.",
+      "tipo": "MEDIDO",
+      "fuente": "datos/cruce_catalogo_importaciones.json"
+    },
+    {
+      "hallazgo": "47 de 74 integradores (63,5%) ya traen marcas competidoras directas (Siemens, ABB, Endress, Yokogawa...): no hay que convencerlos de la categoría, hay que desplazar la marca incumbente.",
+      "tipo": "MEDIDO",
+      "fuente": "datos/perfilado_74_integradores.json"
+    },
+    {
+      "hallazgo": "La demanda minera se concentra en proyectos SEIA de gran escala en Antofagasta (Escondida US$5.150M+US$2.351M, El Abra US$7.500M) y Tarapacá (Collahuasi US$1.700M) — cuentas de ticket alto donde SUPCON DCS compite por el proyecto completo.",
+      "tipo": "MEDIDO",
+      "fuente": "SEIA (seia.sea.gob.cl)"
+    },
+    {
+      "hallazgo": "Chile tiene 1.218 centrales eléctricas y 1.248 subestaciones coordinadas al SEN: la generación y transmisión distribuidas en todas las regiones (168 en la RM, 157 en Maule, 148 en O'Higgins) ofrecen un mercado SCADA/telemetría geográficamente disperso.",
+      "tipo": "MEDIDO",
+      "fuente": "InfoTécnica CEN (api-infotecnica.coordinador.cl)"
+    },
+    {
+      "hallazgo": "Los mandantes de la gran minería tienen sede corporativa en Las Condes/Santiago pero operación en el norte: la intel de cuenta se construye en Santiago y la venta técnica se cierra en faena.",
+      "tipo": "INFERIDO",
+      "fuente": "cruce RETC (faenas en regiones) vs domicilios corporativos"
+    }
+  ]
+}

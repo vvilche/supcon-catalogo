@@ -1,0 +1,123 @@
+{
+ "nota": "Verificación del filtro por marca línea por línea. 'mercado_estimado' = partida total - ruido de otros rubros. 'reportado_por_estudio_general' es lo que dijo el cruce general.",
+ "familias": {
+  "Válvulas": {
+   "total_partida": 455673947.81,
+   "marca_rubro": 52131572.14,
+   "sin_marca_rubro": 42448704.73,
+   "otra_marca": 0.0,
+   "ruido": 82579147.07,
+   "mercado_estimado": 373094800.74,
+   "reportado_por_estudio_general": 53766516.74,
+   "factor_subestimacion": 6.94,
+   "items": 93683
+  },
+  "Ciberseguridad": {
+   "total_partida": 615970830.71,
+   "marca_rubro": 5381364.26,
+   "sin_marca_rubro": 18973069.03,
+   "otra_marca": 0.0,
+   "ruido": 180321104.22,
+   "mercado_estimado": 435649726.49,
+   "reportado_por_estudio_general": 12105721.42,
+   "factor_subestimacion": 35.99,
+   "items": 27288
+  },
+  "Caudal y Nivel": {
+   "total_partida": 55249462.9,
+   "marca_rubro": 19218225.89,
+   "sin_marca_rubro": 3099191.92,
+   "otra_marca": 0.0,
+   "ruido": 1790606.9,
+   "mercado_estimado": 53458856.0,
+   "reportado_por_estudio_general": 19726816.74,
+   "factor_subestimacion": 2.71,
+   "items": 11081
+  },
+  "DCS y PLC": {
+   "total_partida": 363077454.81,
+   "marca_rubro": 92931352.43,
+   "sin_marca_rubro": 37452879.75,
+   "otra_marca": 0.0,
+   "ruido": 43143418.53,
+   "mercado_estimado": 319934036.28,
+   "reportado_por_estudio_general": 112543952.93,
+   "factor_subestimacion": 2.84,
+   "items": 46725
+  },
+  "Analizadores": {
+   "total_partida": 171421836.5,
+   "marca_rubro": 42183182.68,
+   "sin_marca_rubro": 11608828.9,
+   "otra_marca": 0.0,
+   "ruido": 3130526.65,
+   "mercado_estimado": 168291309.85,
+   "reportado_por_estudio_general": 44254325.27,
+   "factor_subestimacion": 3.8,
+   "items": 20815
+  },
+  "Calibración": {
+   "total_partida": 36922163.68,
+   "marca_rubro": 10442490.56,
+   "sin_marca_rubro": 2494299.02,
+   "otra_marca": 0.0,
+   "ruido": 1234288.53,
+   "mercado_estimado": 35687875.15,
+   "reportado_por_estudio_general": 11332447.36,
+   "factor_subestimacion": 3.15,
+   "items": 5683
+  },
+  "Redes OT": {
+   "total_partida": 646032293.16,
+   "marca_rubro": 14233557.53,
+   "sin_marca_rubro": 23113202.91,
+   "otra_marca": 0.0,
+   "ruido": 59565011.0,
+   "mercado_estimado": 586467282.16,
+   "reportado_por_estudio_general": 18674357.6,
+   "factor_subestimacion": 31.4,
+   "items": 38700
+  },
+  "Presión": {
+   "total_partida": 37367519.66,
+   "marca_rubro": 8926574.92,
+   "sin_marca_rubro": 1731709.22,
+   "otra_marca": 0.0,
+   "ruido": 3443500.84,
+   "mercado_estimado": 33924018.82,
+   "reportado_por_estudio_general": 9447901.09,
+   "factor_subestimacion": 3.59,
+   "items": 13725
+  },
+  "Medición eléctrica": {
+   "total_partida": 21506975.34,
+   "marca_rubro": 3919815.48,
+   "sin_marca_rubro": 1222900.75,
+   "otra_marca": 0.0,
+   "ruido": 50646.62,
+   "mercado_estimado": 21456328.72,
+   "reportado_por_estudio_general": 4224160.09,
+   "factor_subestimacion": 5.08,
+   "items": 1395
+  },
+  "Temperatura": {
+   "total_partida": 3384255.2,
+   "marca_rubro": 227998.79,
+   "sin_marca_rubro": 500167.45,
+   "otra_marca": 0.0,
+   "ruido": 920793.47,
+   "mercado_estimado": 2463461.73,
+   "reportado_por_estudio_general": 256501.42,
+   "factor_subestimacion": 9.6,
+   "items": 1292
+  }
+ },
+ "hallazgo_critico": {
+  "problema": "El filtro por marca del estudio general subestima el mercado en TODAS las lineas (de 2,7x a 36x), porque mide solo el valor con marca identificable del rubro.",
+  "por_que_no_se_puede_automatizar": "En el dominio hay 27.718 marcas distintas. Las mayores NO son del rubro: Cisco US$57,3M, Google US$54,7M, Motorola US$35,4M, Caterpillar US$32,5M, SpaceX US$32,4M, Apple US$30,6M, Huawei US$27,5M. Eso pasa porque las partidas de 'redes' (8517) y 'ciberseguridad' (8471) incluyen telefonia y computacion de consumo, y las de valvulas incluyen repuestos de automocion. Sumar 'todas menos las conocidas' infla el mercado con ruido.",
+  "metodo_correcto": "Curar la lista de marcas a mano POR PARTIDA, como se hizo en valvulas: separar en (a) marcas del rubro, (b) sin marca, (c) ruido de otros rubros verificable, y reportar solo (a)+(b). Automatizarlo con listas de marcas no da resultados confiables porque la misma palabra aparece en rubros distintos.",
+  "unico_mercado_medido_con_rigor": "Válvulas: US$396,6M (ver estudio-mercado/valvulas_2025.html)",
+  "afecta_la_estrategia": "No. El orden por dificultad de la estrategia de penetracion no depende del tamano exacto del mercado: depende de si hay incumbente, de si podemos responder (R) y del riesgo para el cliente. Eso no cambia. Lo que SI cambia es la jerarquia de tamanos: valvulas es el mercado de hardware mas grande, por encima del DCS.",
+  "pendiente": "Hacer el trabajo fino (curar marcas por partida) en las lineas grandes: DCS, PLC y Analizadores. Las lineas chicas pueden quedar marcadas como 'piso medido' con nota de que el techo real es mayor."
+ }
+}
