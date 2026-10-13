@@ -21,7 +21,11 @@ BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 D = os.path.join(BASE, "datos")
 OUT = os.path.join(BASE, "artefactos", "escalera_exito.html")
 
-d = json.load(open(os.path.join(D, "escalera_exito.json"), encoding="utf-8"))
+# usar la v3 si existe: trae los mercados corregidos por partida arancelaria
+_ruta = os.path.join(D, "escalera_exito_v3.json")
+if not os.path.exists(_ruta):
+    _ruta = os.path.join(D, "escalera_exito.json")
+d = json.load(open(_ruta, encoding="utf-8"))
 L = d["lineas"]
 
 COL = {"VERDE":"#047857", "AMARILLO":"#d97706", "ROJO":"#64748b"}
@@ -29,7 +33,9 @@ BG  = {"VERDE":"#ecfdf5", "AMARILLO":"#fffbeb", "ROJO":"#f1f5f9"}
 
 def ancla(n): return "l-" + n.lower().replace(" ","-").replace("ó","o").replace("á","a").replace("í","i").replace("é","e")
 
-def usd(v): return f"US${v/1e6:,.1f}M" if v else "no medido"
+def usd(v):
+    if not v: return "no medido"
+    return "US$" + f"{v/1e6:,.1f}".replace(",","X").replace(".",",").replace("X",".") + "M"
 
 def barra(score, mx):
     pct = max(2.0, (score/mx)*100) if mx else 2.0
@@ -43,8 +49,8 @@ def fila(t, i, mx):
         extra = (f'<div class="nic"><span class="k">Rivales en Chile</span> '
                  f'{html.escape(", ".join(t["rivales_chile"] or []) or "sin dato")}</div>')
     else:
-        mer = ('<b class="nomedido">no medido</b>'
-               '<span class="sub">se vende dentro del proyecto, no entra por partida</span>')
+        mer = ('<b class="nomedido">mercado de línea</b>'
+               '<span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span>')
         extra = (f'<div class="nic"><span class="k">Nicho</span> {html.escape(t["nicho"] or "")}'
                  f'<span class="k" style="margin-left:14px">Rivales declarados</span> '
                  f'{html.escape(t["rivales_declarados"] or "")}</div>')
@@ -80,9 +86,33 @@ for nombre, cfg in L.items():
     verdes = sum(1 for p in ps if p["R"]=="VERDE")
     rojos  = sum(1 for p in ps if p["R"]=="ROJO")
     medible = cfg["medible"]
+    # el mercado medido es el de la LINEA (varias fichas de la misma linea viven del mismo
+    # mercado). Se muestra a nivel de linea, con la nota de correccion si la hay.
+    mlinea = cfg.get("mercado_corregido_usd")
+    nota_c = cfg.get("nota_correccion")
     nav += (f'<a class="nb" href="#{ancla(nombre)}">{html.escape(nombre)} <b>{len(ps)}</b></a>')
     extra_tags = (f'<span class="tag tv">{verdes} con R verde</span>' if verdes else '') + \
                  (f'<span class="tag tr">{rojos} no sube{"n" if rojos>1 else ""}</span>' if rojos else '')
+    if mlinea:
+        bloque_mercado = (f'<div class="mlinea"><span class="ml-k">Mercado medido de la línea</span>'
+                          f'<b>{usd(mlinea)}</b>'
+                          f'<span class="ml-n">Registro DIN de Aduanas Chile 2025, por partida '
+                          f'arancelaria. Es el mercado de la línea: las fichas de abajo viven de '
+                          f'este mismo mercado.</span></div>')
+    elif nota_c:
+        bloque_mercado = (f'<div class="mlinea sin"><span class="ml-k">Mercado</span>'
+                          f'<b>no medible aparte</b><span class="ml-n">{html.escape(nota_c)}</span></div>')
+    else:
+        bloque_mercado = (f'<div class="mlinea sin"><span class="ml-k">Mercado</span>'
+                          f'<b>no medible con Aduanas</b><span class="ml-n">Esta línea no entra '
+                          f'por partida arancelaria: se vende dentro del proyecto.</span></div>')
+    if nota_c and mlinea:
+        antes = cfg.get("mercado_antes_usd")
+        if isinstance(antes, list):
+            antes = sum(antes)
+        txt_antes = f" Antes se reportaba {usd(antes)}." if antes else ""
+        bloque_mercado += (f'<div class="corr-l"><b>Corrección.</b> {html.escape(nota_c)}'
+                           f'{txt_antes}</div>')
     secciones += f'''
 <h2 id="{ancla(nombre)}">{html.escape(nombre)}
   <span class="tag">{len(ps)} producto{'s' if len(ps)!=1 else ''}</span>
@@ -90,6 +120,7 @@ for nombre, cfg in L.items():
   {extra_tags}
 </h2>
 <p class="explica">{html.escape(cfg["desc"])}</p>
+{bloque_mercado}
 {"".join(fila(p, i, mx) for i, p in enumerate(ps, 1))}'''
 
 total = sum(len(c["productos"]) for c in L.values())
@@ -155,6 +186,14 @@ h2{{font-size:19px;font-weight:660;margin:36px 0 6px;letter-spacing:-.2px;scroll
 .sub{{font-size:11.5px;color:var(--mu)}}
 .bar{{height:5px;background:#f1f5f9;border-radius:3px;overflow:hidden;margin:8px 0}}
 .fill{{height:100%;background:linear-gradient(90deg,#2563eb,#60a5fa);border-radius:3px}}
+.mlinea{{background:#fff;border:1px solid #e2e8f0;border-left:4px solid #2563eb;border-radius:10px;
+  padding:13px 18px;margin:12px 0 18px;display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}}
+.mlinea.sin{{border-left-color:#94a3b8}}
+.mlinea b{{font-size:23px;font-weight:700;letter-spacing:-.5px;font-variant-numeric:tabular-nums}}
+.ml-k{{font-size:11.5px;text-transform:uppercase;letter-spacing:.5px;color:#64748b;font-weight:700}}
+.ml-n{{font-size:12.5px;color:#64748b;flex:1;min-width:200px;line-height:1.5}}
+.corr-l{{background:#eff6ff;border:1px solid #bfdbfe;border-radius:9px;padding:12px 16px;margin:-8px 0 18px;
+  font-size:13px;color:#1e40af;line-height:1.58}}
 .nic{{font-size:12.5px;color:#475569;background:#fbfdff;border:1px solid var(--bd);border-radius:8px;padding:8px 11px;margin-bottom:7px}}
 .nic .k{{font-size:10.5px;color:#94a3b8;text-transform:uppercase;letter-spacing:.4px;font-weight:700;margin-right:4px}}
 .fuentes{{display:flex;gap:14px;align-items:center;flex-wrap:wrap;padding-top:7px;border-top:1px solid #f1f5f9}}

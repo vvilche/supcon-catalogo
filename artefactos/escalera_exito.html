@@ -42,6 +42,14 @@ h2{font-size:19px;font-weight:660;margin:36px 0 6px;letter-spacing:-.2px;scroll-
 .sub{font-size:11.5px;color:var(--mu)}
 .bar{height:5px;background:#f1f5f9;border-radius:3px;overflow:hidden;margin:8px 0}
 .fill{height:100%;background:linear-gradient(90deg,#2563eb,#60a5fa);border-radius:3px}
+.mlinea{background:#fff;border:1px solid #e2e8f0;border-left:4px solid #2563eb;border-radius:10px;
+  padding:13px 18px;margin:12px 0 18px;display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}
+.mlinea.sin{border-left-color:#94a3b8}
+.mlinea b{font-size:23px;font-weight:700;letter-spacing:-.5px;font-variant-numeric:tabular-nums}
+.ml-k{font-size:11.5px;text-transform:uppercase;letter-spacing:.5px;color:#64748b;font-weight:700}
+.ml-n{font-size:12.5px;color:#64748b;flex:1;min-width:200px;line-height:1.5}
+.corr-l{background:#eff6ff;border:1px solid #bfdbfe;border-radius:9px;padding:12px 16px;margin:-8px 0 18px;
+  font-size:13px;color:#1e40af;line-height:1.58}
 .nic{font-size:12.5px;color:#475569;background:#fbfdff;border:1px solid var(--bd);border-radius:8px;padding:8px 11px;margin-bottom:7px}
 .nic .k{font-size:10.5px;color:#94a3b8;text-transform:uppercase;letter-spacing:.4px;font-weight:700;margin-right:4px}
 .fuentes{display:flex;gap:14px;align-items:center;flex-wrap:wrap;padding-top:7px;border-top:1px solid #f1f5f9}
@@ -76,7 +84,7 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
 <div class="kpi">
   <div><b>63</b>productos evaluados</div>
   <div><b>7</b>líneas de producto</div>
-  <div><b>43</b>con mercado medido en Aduanas</div>
+  <div><b>0</b>con mercado medido en Aduanas</div>
   <div><b>8</b>con R verde</div>
   <div><b>10</b>con battlecard del fabricante</div>
 </div>
@@ -89,6 +97,7 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
   <span class="tag tr">2 no suben</span>
 </h2>
 <p class="explica">Medición de campo: presión, temperatura, caudal, nivel y calibración. Entra por partida arancelaria, así que el mercado es el importado real.</p>
+<div class="mlinea"><span class="ml-k">Mercado medido de la línea</span><b>US$128,4M</b><span class="ml-n">Registro DIN de Aduanas Chile 2025, por partida arancelaria. Es el mercado de la línea: las fichas de abajo viven de este mismo mercado.</span></div><div class="corr-l"><b>Corrección.</b> La instrumentación de campo medida por partida es US$128,4M, no la suma de las categorías sueltas del estudio anterior (presión 9,4M + caudal 19,7M + temperatura 0,3M + calibración 11,3M = 40,7M). La diferencia es que las partidas de instrumentación incluyen todo el valor importado, no solo lo que declara una marca conocida. Antes se reportaba US$40,7M.</div>
 
   <article class="fila">
     <div class="pr">
@@ -99,13 +108,13 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>5.5</b>
         <span class="sub">6 argumentos · 4 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b>US$19.7M</b><span class="sub">3,517 ítems importados</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#d97706;background:#fffbeb;border-radius:6px;padding:2px 8px;font-size:13px">AMARILLO</b>
         <span class="sub">🟡 Respondemos: falta el argumento competitivo (no lo dio el fabricante)</span></div>
     </div>
     <div class="bar"><div class="fill" style="width:100%"></div></div>
-    <div class="nic"><span class="k">Rivales en Chile</span> ENDRESS + HAUSER, ENDRESS-F, SIEMENS, CIDRA-F</div>
+    <div class="nic"><span class="k">Nicho</span> <span class="k" style="margin-left:14px">Rivales declarados</span> </div>
     <div class="fuentes">
       <span class="chip-no">sin battlecard del fabricante</span>
       <span class="sub">0 campo(s) por completar</span>
@@ -120,13 +129,13 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>5</b>
         <span class="sub">6 argumentos · 5 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b>US$19.7M</b><span class="sub">3,517 ítems importados</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#d97706;background:#fffbeb;border-radius:6px;padding:2px 8px;font-size:13px">AMARILLO</b>
         <span class="sub">🟡 Respondemos: falta el argumento competitivo (no lo dio el fabricante)</span></div>
     </div>
     <div class="bar"><div class="fill" style="width:91%"></div></div>
-    <div class="nic"><span class="k">Rivales en Chile</span> ENDRESS + HAUSER, ENDRESS-F, SIEMENS, CIDRA-F</div>
+    <div class="nic"><span class="k">Nicho</span> <span class="k" style="margin-left:14px">Rivales declarados</span> </div>
     <div class="fuentes">
       <span class="chip-no">sin battlecard del fabricante</span>
       <span class="sub">1 campo(s) por completar</span>
@@ -141,13 +150,13 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>3.5</b>
         <span class="sub">4 argumentos · 4 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b>US$19.7M</b><span class="sub">3,517 ítems importados</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#d97706;background:#fffbeb;border-radius:6px;padding:2px 8px;font-size:13px">AMARILLO</b>
         <span class="sub">🟡 Respondemos: falta el argumento competitivo (no lo dio el fabricante)</span></div>
     </div>
     <div class="bar"><div class="fill" style="width:64%"></div></div>
-    <div class="nic"><span class="k">Rivales en Chile</span> ENDRESS + HAUSER, ENDRESS-F, SIEMENS, CIDRA-F</div>
+    <div class="nic"><span class="k">Nicho</span> <span class="k" style="margin-left:14px">Rivales declarados</span> </div>
     <div class="fuentes">
       <span class="chip-no">sin battlecard del fabricante</span>
       <span class="sub">1 campo(s) por completar</span>
@@ -162,13 +171,13 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>4.5</b>
         <span class="sub">6 argumentos · 4 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b>US$9.4M</b><span class="sub">3,467 ítems importados</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#d97706;background:#fffbeb;border-radius:6px;padding:2px 8px;font-size:13px">AMARILLO</b>
         <span class="sub">🟡 Respondemos: falta el argumento competitivo (no lo dio el fabricante)</span></div>
     </div>
     <div class="bar"><div class="fill" style="width:61%"></div></div>
-    <div class="nic"><span class="k">Rivales en Chile</span> ENDRESS + HAUSER, SIEMENS-F, MICRO MOTION-F, SIEMENS</div>
+    <div class="nic"><span class="k">Nicho</span> <span class="k" style="margin-left:14px">Rivales declarados</span> </div>
     <div class="fuentes">
       <span class="chip-no">sin battlecard del fabricante</span>
       <span class="sub">1 campo(s) por completar</span>
@@ -183,13 +192,13 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>3.0</b>
         <span class="sub">4 argumentos · 3 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b>US$19.7M</b><span class="sub">3,517 ítems importados</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#d97706;background:#fffbeb;border-radius:6px;padding:2px 8px;font-size:13px">AMARILLO</b>
         <span class="sub">🟡 Respondemos con condiciones: hay campos clave por confirmar</span></div>
     </div>
     <div class="bar"><div class="fill" style="width:55%"></div></div>
-    <div class="nic"><span class="k">Rivales en Chile</span> ENDRESS + HAUSER, ENDRESS-F, SIEMENS, CIDRA-F</div>
+    <div class="nic"><span class="k">Nicho</span> <span class="k" style="margin-left:14px">Rivales declarados</span> </div>
     <div class="fuentes">
       <span class="chip-no">sin battlecard del fabricante</span>
       <span class="sub">4 campo(s) por completar</span>
@@ -204,13 +213,13 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>2.0</b>
         <span class="sub">3 argumentos · 3 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b>US$19.7M</b><span class="sub">3,517 ítems importados</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#d97706;background:#fffbeb;border-radius:6px;padding:2px 8px;font-size:13px">AMARILLO</b>
         <span class="sub">🟡 Respondemos con condiciones: hay campos clave por confirmar</span></div>
     </div>
     <div class="bar"><div class="fill" style="width:36%"></div></div>
-    <div class="nic"><span class="k">Rivales en Chile</span> ENDRESS + HAUSER, ENDRESS-F, SIEMENS, CIDRA-F</div>
+    <div class="nic"><span class="k">Nicho</span> <span class="k" style="margin-left:14px">Rivales declarados</span> </div>
     <div class="fuentes">
       <span class="chip-no">sin battlecard del fabricante</span>
       <span class="sub">3 campo(s) por completar</span>
@@ -225,13 +234,13 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>2.0</b>
         <span class="sub">3 argumentos · 3 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b>US$19.7M</b><span class="sub">3,517 ítems importados</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#d97706;background:#fffbeb;border-radius:6px;padding:2px 8px;font-size:13px">AMARILLO</b>
         <span class="sub">🟡 Respondemos con condiciones: hay campos clave por confirmar</span></div>
     </div>
     <div class="bar"><div class="fill" style="width:36%"></div></div>
-    <div class="nic"><span class="k">Rivales en Chile</span> ENDRESS + HAUSER, ENDRESS-F, SIEMENS, CIDRA-F</div>
+    <div class="nic"><span class="k">Nicho</span> <span class="k" style="margin-left:14px">Rivales declarados</span> </div>
     <div class="fuentes">
       <span class="chip-no">sin battlecard del fabricante</span>
       <span class="sub">3 campo(s) por completar</span>
@@ -246,13 +255,13 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>4.5</b>
         <span class="sub">6 argumentos · 4 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b>US$0.3M</b><span class="sub">244 ítems importados</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#d97706;background:#fffbeb;border-radius:6px;padding:2px 8px;font-size:13px">AMARILLO</b>
         <span class="sub">🟡 Respondemos: falta el argumento competitivo (no lo dio el fabricante)</span></div>
     </div>
     <div class="bar"><div class="fill" style="width:20%"></div></div>
-    <div class="nic"><span class="k">Rivales en Chile</span> ENDRESS + HAUSER, METSO-F, ROSEMOUNT-F, HITACHI-F</div>
+    <div class="nic"><span class="k">Nicho</span> <span class="k" style="margin-left:14px">Rivales declarados</span> </div>
     <div class="fuentes">
       <span class="chip-no">sin battlecard del fabricante</span>
       <span class="sub">1 campo(s) por completar</span>
@@ -267,13 +276,13 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>1.5</b>
         <span class="sub">3 argumentos · 3 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b>US$19.7M</b><span class="sub">3,517 ítems importados</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#64748b;background:#f1f5f9;border-radius:6px;padding:2px 8px;font-size:13px">ROJO</b>
         <span class="sub">🔴 No podemos responder: falta el material de base para cotizar</span></div>
     </div>
     <div class="bar"><div class="fill" style="width:12%"></div></div>
-    <div class="nic"><span class="k">Rivales en Chile</span> ENDRESS + HAUSER, ENDRESS-F, SIEMENS, CIDRA-F</div>
+    <div class="nic"><span class="k">Nicho</span> <span class="k" style="margin-left:14px">Rivales declarados</span> </div>
     <div class="fuentes">
       <span class="chip-no">sin battlecard del fabricante</span>
       <span class="sub">6 campo(s) por completar</span>
@@ -288,13 +297,13 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>1.5</b>
         <span class="sub">3 argumentos · 3 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b>US$11.3M</b><span class="sub">1,528 ítems importados</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#64748b;background:#f1f5f9;border-radius:6px;padding:2px 8px;font-size:13px">ROJO</b>
         <span class="sub">🔴 No podemos responder: falta el material de base para cotizar</span></div>
     </div>
     <div class="bar"><div class="fill" style="width:12%"></div></div>
-    <div class="nic"><span class="k">Rivales en Chile</span> FLUKE-F, FLUKE, OMICRON-F, SIEMENS</div>
+    <div class="nic"><span class="k">Nicho</span> <span class="k" style="margin-left:14px">Rivales declarados</span> </div>
     <div class="fuentes">
       <span class="chip-no">sin battlecard del fabricante</span>
       <span class="sub">5 campo(s) por completar</span>
@@ -306,6 +315,7 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
   <span class="tag tv">2 con R verde</span><span class="tag tr">1 no sube</span>
 </h2>
 <p class="explica">Analizadores de proceso: XRF elemental, fotoacústica láser, Raman, Wobbe y emisiones. Entra por el capítulo 90.27, con mercado medido.</p>
+<div class="mlinea"><span class="ml-k">Mercado medido de la línea</span><b>US$148,5M</b><span class="ml-n">Registro DIN de Aduanas Chile 2025, por partida arancelaria. Es el mercado de la línea: las fichas de abajo viven de este mismo mercado.</span></div><div class="corr-l"><b>Corrección.</b> El capítulo 90.27 completo es US$171,4M. De ahí, US$38,6M se identifica como análisis de proceso industrial y ambiental por marca (Siemens, Endress+Hauser, MSA, Thermo, Hach, Metso). El resto es laboratorio clínico y equipos sin marca reconocible. Se reporta el techo del capítulo y el segmento de proceso identificado por separado. Antes se reportaba US$44,3M.</div>
 
   <article class="fila">
     <div class="pr">
@@ -316,13 +326,13 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>7</b>
         <span class="sub">6 argumentos · 5 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b>US$44.3M</b><span class="sub">5,733 ítems importados</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#047857;background:#ecfdf5;border-radius:6px;padding:2px 8px;font-size:13px">VERDE</b>
         <span class="sub">🟢 Podemos responder hoy</span></div>
     </div>
     <div class="bar"><div class="fill" style="width:100%"></div></div>
-    <div class="nic"><span class="k">Rivales en Chile</span> SIEMENS, ENDRESS + HAUSER, MSA-F, WATERS-F</div>
+    <div class="nic"><span class="k">Nicho</span> <span class="k" style="margin-left:14px">Rivales declarados</span> </div>
     <div class="fuentes">
       <span class="chip-si">con battlecard</span>
       <span class="sub">1 campo(s) por completar</span>
@@ -337,13 +347,13 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>5.5</b>
         <span class="sub">5 argumentos · 4 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b>US$44.3M</b><span class="sub">5,733 ítems importados</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#047857;background:#ecfdf5;border-radius:6px;padding:2px 8px;font-size:13px">VERDE</b>
         <span class="sub">🟢 Podemos responder hoy</span></div>
     </div>
     <div class="bar"><div class="fill" style="width:79%"></div></div>
-    <div class="nic"><span class="k">Rivales en Chile</span> SIEMENS, ENDRESS + HAUSER, MSA-F, WATERS-F</div>
+    <div class="nic"><span class="k">Nicho</span> <span class="k" style="margin-left:14px">Rivales declarados</span> </div>
     <div class="fuentes">
       <span class="chip-si">con battlecard</span>
       <span class="sub">2 campo(s) por completar</span>
@@ -358,13 +368,13 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>6</b>
         <span class="sub">6 argumentos · 5 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b>US$44.3M</b><span class="sub">5,733 ítems importados</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#d97706;background:#fffbeb;border-radius:6px;padding:2px 8px;font-size:13px">AMARILLO</b>
         <span class="sub">🟡 Respondemos: falta el argumento competitivo (no lo dio el fabricante)</span></div>
     </div>
     <div class="bar"><div class="fill" style="width:60%"></div></div>
-    <div class="nic"><span class="k">Rivales en Chile</span> SIEMENS, ENDRESS + HAUSER, MSA-F, WATERS-F</div>
+    <div class="nic"><span class="k">Nicho</span> <span class="k" style="margin-left:14px">Rivales declarados</span> </div>
     <div class="fuentes">
       <span class="chip-no">sin battlecard del fabricante</span>
       <span class="sub">0 campo(s) por completar</span>
@@ -379,13 +389,13 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>5</b>
         <span class="sub">6 argumentos · 5 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b>US$44.3M</b><span class="sub">5,733 ítems importados</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#d97706;background:#fffbeb;border-radius:6px;padding:2px 8px;font-size:13px">AMARILLO</b>
         <span class="sub">🟡 Respondemos: falta el argumento competitivo (no lo dio el fabricante)</span></div>
     </div>
     <div class="bar"><div class="fill" style="width:50%"></div></div>
-    <div class="nic"><span class="k">Rivales en Chile</span> SIEMENS, ENDRESS + HAUSER, MSA-F, WATERS-F</div>
+    <div class="nic"><span class="k">Nicho</span> <span class="k" style="margin-left:14px">Rivales declarados</span> </div>
     <div class="fuentes">
       <span class="chip-no">sin battlecard del fabricante</span>
       <span class="sub">1 campo(s) por completar</span>
@@ -400,13 +410,13 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>5</b>
         <span class="sub">6 argumentos · 5 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b>US$44.3M</b><span class="sub">5,733 ítems importados</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#d97706;background:#fffbeb;border-radius:6px;padding:2px 8px;font-size:13px">AMARILLO</b>
         <span class="sub">🟡 Respondemos: falta el argumento competitivo (no lo dio el fabricante)</span></div>
     </div>
     <div class="bar"><div class="fill" style="width:50%"></div></div>
-    <div class="nic"><span class="k">Rivales en Chile</span> SIEMENS, ENDRESS + HAUSER, MSA-F, WATERS-F</div>
+    <div class="nic"><span class="k">Nicho</span> <span class="k" style="margin-left:14px">Rivales declarados</span> </div>
     <div class="fuentes">
       <span class="chip-no">sin battlecard del fabricante</span>
       <span class="sub">1 campo(s) por completar</span>
@@ -421,13 +431,13 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>4.5</b>
         <span class="sub">6 argumentos · 4 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b>US$44.3M</b><span class="sub">5,733 ítems importados</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#d97706;background:#fffbeb;border-radius:6px;padding:2px 8px;font-size:13px">AMARILLO</b>
         <span class="sub">🟡 Respondemos: falta el argumento competitivo (no lo dio el fabricante)</span></div>
     </div>
     <div class="bar"><div class="fill" style="width:45%"></div></div>
-    <div class="nic"><span class="k">Rivales en Chile</span> SIEMENS, ENDRESS + HAUSER, MSA-F, WATERS-F</div>
+    <div class="nic"><span class="k">Nicho</span> <span class="k" style="margin-left:14px">Rivales declarados</span> </div>
     <div class="fuentes">
       <span class="chip-no">sin battlecard del fabricante</span>
       <span class="sub">1 campo(s) por completar</span>
@@ -442,13 +452,13 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>4</b>
         <span class="sub">5 argumentos · 5 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b>US$44.3M</b><span class="sub">5,733 ítems importados</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#d97706;background:#fffbeb;border-radius:6px;padding:2px 8px;font-size:13px">AMARILLO</b>
         <span class="sub">🟡 Respondemos: falta el argumento competitivo (no lo dio el fabricante)</span></div>
     </div>
     <div class="bar"><div class="fill" style="width:40%"></div></div>
-    <div class="nic"><span class="k">Rivales en Chile</span> SIEMENS, ENDRESS + HAUSER, MSA-F, WATERS-F</div>
+    <div class="nic"><span class="k">Nicho</span> <span class="k" style="margin-left:14px">Rivales declarados</span> </div>
     <div class="fuentes">
       <span class="chip-no">sin battlecard del fabricante</span>
       <span class="sub">2 campo(s) por completar</span>
@@ -463,13 +473,13 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>3.5</b>
         <span class="sub">5 argumentos · 4 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b>US$44.3M</b><span class="sub">5,733 ítems importados</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#d97706;background:#fffbeb;border-radius:6px;padding:2px 8px;font-size:13px">AMARILLO</b>
         <span class="sub">🟡 Respondemos: falta el argumento competitivo (no lo dio el fabricante)</span></div>
     </div>
     <div class="bar"><div class="fill" style="width:35%"></div></div>
-    <div class="nic"><span class="k">Rivales en Chile</span> SIEMENS, ENDRESS + HAUSER, MSA-F, WATERS-F</div>
+    <div class="nic"><span class="k">Nicho</span> <span class="k" style="margin-left:14px">Rivales declarados</span> </div>
     <div class="fuentes">
       <span class="chip-no">sin battlecard del fabricante</span>
       <span class="sub">2 campo(s) por completar</span>
@@ -484,13 +494,13 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>3.5</b>
         <span class="sub">4 argumentos · 4 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b>US$44.3M</b><span class="sub">5,733 ítems importados</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#d97706;background:#fffbeb;border-radius:6px;padding:2px 8px;font-size:13px">AMARILLO</b>
         <span class="sub">🟡 Respondemos: falta el argumento competitivo (no lo dio el fabricante)</span></div>
     </div>
     <div class="bar"><div class="fill" style="width:35%"></div></div>
-    <div class="nic"><span class="k">Rivales en Chile</span> SIEMENS, ENDRESS + HAUSER, MSA-F, WATERS-F</div>
+    <div class="nic"><span class="k">Nicho</span> <span class="k" style="margin-left:14px">Rivales declarados</span> </div>
     <div class="fuentes">
       <span class="chip-no">sin battlecard del fabricante</span>
       <span class="sub">1 campo(s) por completar</span>
@@ -505,13 +515,13 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>2.5</b>
         <span class="sub">4 argumentos · 3 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b>US$44.3M</b><span class="sub">5,733 ítems importados</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#64748b;background:#f1f5f9;border-radius:6px;padding:2px 8px;font-size:13px">ROJO</b>
         <span class="sub">🔴 No podemos responder: falta el material de base para cotizar</span></div>
     </div>
     <div class="bar"><div class="fill" style="width:11%"></div></div>
-    <div class="nic"><span class="k">Rivales en Chile</span> SIEMENS, ENDRESS + HAUSER, MSA-F, WATERS-F</div>
+    <div class="nic"><span class="k">Nicho</span> <span class="k" style="margin-left:14px">Rivales declarados</span> </div>
     <div class="fuentes">
       <span class="chip-no">sin battlecard del fabricante</span>
       <span class="sub">5 campo(s) por completar</span>
@@ -523,6 +533,7 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
   
 </h2>
 <p class="explica">Línea completa de válvulas de control de SUPCON Fluid: vástago deslizante, bola, mariposa, excéntrica y especiales, más el posicionador CVP2000. Entra por partida arancelaria, así que el mercado es el importado real.</p>
+<div class="mlinea"><span class="ml-k">Mercado medido de la línea</span><b>US$69,0M</b><span class="ml-n">Registro DIN de Aduanas Chile 2025, por partida arancelaria. Es el mercado de la línea: las fichas de abajo viven de este mismo mercado.</span></div><div class="corr-l"><b>Corrección.</b> US$396,6M es el capítulo completo, que incluye válvulas manuales, grifería doméstica y repuestos de vehículos. La línea de SUPCON son válvulas DE CONTROL: su piso medido es US$69,0M (reductoras de presión + las identificadas por marca de control). Antes se reportaba US$396,6M.</div>
 
   <article class="fila">
     <div class="pr">
@@ -533,13 +544,13 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>5.5</b>
         <span class="sub">6 argumentos · 4 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b>US$396.6M</b><span class="sub">93,549 ítems importados</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#d97706;background:#fffbeb;border-radius:6px;padding:2px 8px;font-size:13px">AMARILLO</b>
         <span class="sub">🟡 Respondemos: falta el argumento competitivo (no lo dio el fabricante)</span></div>
     </div>
     <div class="bar"><div class="fill" style="width:100%"></div></div>
-    <div class="nic"><span class="k">Rivales en Chile</span> VALMET, EMERSON, BRAY, DANFOSS</div>
+    <div class="nic"><span class="k">Nicho</span> <span class="k" style="margin-left:14px">Rivales declarados</span> </div>
     <div class="fuentes">
       <span class="chip-no">sin battlecard del fabricante</span>
       <span class="sub">0 campo(s) por completar</span>
@@ -554,13 +565,13 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>4.5</b>
         <span class="sub">8 argumentos · 5 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b>US$396.6M</b><span class="sub">93,549 ítems importados</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#d97706;background:#fffbeb;border-radius:6px;padding:2px 8px;font-size:13px">AMARILLO</b>
         <span class="sub">🟡 Respondemos con condiciones: hay campos clave por confirmar</span></div>
     </div>
     <div class="bar"><div class="fill" style="width:82%"></div></div>
-    <div class="nic"><span class="k">Rivales en Chile</span> VALMET, EMERSON, BRAY, DANFOSS</div>
+    <div class="nic"><span class="k">Nicho</span> <span class="k" style="margin-left:14px">Rivales declarados</span> </div>
     <div class="fuentes">
       <span class="chip-no">sin battlecard del fabricante</span>
       <span class="sub">3 campo(s) por completar</span>
@@ -575,13 +586,13 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>4.5</b>
         <span class="sub">5 argumentos · 3 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b>US$396.6M</b><span class="sub">93,549 ítems importados</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#d97706;background:#fffbeb;border-radius:6px;padding:2px 8px;font-size:13px">AMARILLO</b>
         <span class="sub">🟡 Respondemos: falta el argumento competitivo (no lo dio el fabricante)</span></div>
     </div>
     <div class="bar"><div class="fill" style="width:82%"></div></div>
-    <div class="nic"><span class="k">Rivales en Chile</span> VALMET, EMERSON, BRAY, DANFOSS</div>
+    <div class="nic"><span class="k">Nicho</span> <span class="k" style="margin-left:14px">Rivales declarados</span> </div>
     <div class="fuentes">
       <span class="chip-no">sin battlecard del fabricante</span>
       <span class="sub">0 campo(s) por completar</span>
@@ -596,13 +607,13 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>3.5</b>
         <span class="sub">5 argumentos · 3 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b>US$396.6M</b><span class="sub">93,549 ítems importados</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#d97706;background:#fffbeb;border-radius:6px;padding:2px 8px;font-size:13px">AMARILLO</b>
         <span class="sub">🟡 Respondemos: falta el argumento competitivo (no lo dio el fabricante)</span></div>
     </div>
     <div class="bar"><div class="fill" style="width:64%"></div></div>
-    <div class="nic"><span class="k">Rivales en Chile</span> VALMET, EMERSON, BRAY, DANFOSS</div>
+    <div class="nic"><span class="k">Nicho</span> <span class="k" style="margin-left:14px">Rivales declarados</span> </div>
     <div class="fuentes">
       <span class="chip-no">sin battlecard del fabricante</span>
       <span class="sub">2 campo(s) por completar</span>
@@ -617,13 +628,13 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>3.5</b>
         <span class="sub">5 argumentos · 3 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b>US$396.6M</b><span class="sub">93,549 ítems importados</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#d97706;background:#fffbeb;border-radius:6px;padding:2px 8px;font-size:13px">AMARILLO</b>
         <span class="sub">🟡 Respondemos: falta el argumento competitivo (no lo dio el fabricante)</span></div>
     </div>
     <div class="bar"><div class="fill" style="width:64%"></div></div>
-    <div class="nic"><span class="k">Rivales en Chile</span> VALMET, EMERSON, BRAY, DANFOSS</div>
+    <div class="nic"><span class="k">Nicho</span> <span class="k" style="margin-left:14px">Rivales declarados</span> </div>
     <div class="fuentes">
       <span class="chip-no">sin battlecard del fabricante</span>
       <span class="sub">1 campo(s) por completar</span>
@@ -638,13 +649,13 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>3.0</b>
         <span class="sub">4 argumentos · 4 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b>US$396.6M</b><span class="sub">93,549 ítems importados</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#d97706;background:#fffbeb;border-radius:6px;padding:2px 8px;font-size:13px">AMARILLO</b>
         <span class="sub">🟡 Respondemos con condiciones: hay campos clave por confirmar</span></div>
     </div>
     <div class="bar"><div class="fill" style="width:55%"></div></div>
-    <div class="nic"><span class="k">Rivales en Chile</span> VALMET, EMERSON, BRAY, DANFOSS</div>
+    <div class="nic"><span class="k">Nicho</span> <span class="k" style="margin-left:14px">Rivales declarados</span> </div>
     <div class="fuentes">
       <span class="chip-no">sin battlecard del fabricante</span>
       <span class="sub">4 campo(s) por completar</span>
@@ -656,6 +667,7 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
   <span class="tag tr">2 no suben</span>
 </h2>
 <p class="explica">Sistemas de control distribuido, incluido el control de compresores (CCS). El mercado de la partida incluye tableros y paneles de control.</p>
+<div class="mlinea"><span class="ml-k">Mercado medido de la línea</span><b>US$83,0M</b><span class="ml-n">Registro DIN de Aduanas Chile 2025, por partida arancelaria. Es el mercado de la línea: las fichas de abajo viven de este mismo mercado.</span></div><div class="corr-l"><b>Corrección.</b> US$112,5M era el valor de las partidas de tableros, donde el 38% son subestaciones eléctricas (GIS, celdas, interruptores de 220 kV). El control de proceso verificado —tableros de baja tensión con glosa de control + reguladores automáticos donde aparecen los DCS— es US$83,0M. Antes se reportaba US$112,5M.</div>
 
   <article class="fila">
     <div class="pr">
@@ -666,13 +678,13 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>4.5</b>
         <span class="sub">6 argumentos · 4 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b>US$112.5M</b><span class="sub">9,297 ítems importados</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#d97706;background:#fffbeb;border-radius:6px;padding:2px 8px;font-size:13px">AMARILLO</b>
         <span class="sub">🟡 Respondemos: falta el argumento competitivo (no lo dio el fabricante)</span></div>
     </div>
     <div class="bar"><div class="fill" style="width:100%"></div></div>
-    <div class="nic"><span class="k">Rivales en Chile</span> SIEMENS, SIEMENS-F, HITACHI ENERGY~ ELK-3 550KV~ A, HYOSUNG HEAVY-F</div>
+    <div class="nic"><span class="k">Nicho</span> <span class="k" style="margin-left:14px">Rivales declarados</span> </div>
     <div class="fuentes">
       <span class="chip-no">sin battlecard del fabricante</span>
       <span class="sub">2 campo(s) por completar</span>
@@ -687,13 +699,13 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>4.5</b>
         <span class="sub">6 argumentos · 4 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b>US$112.5M</b><span class="sub">9,297 ítems importados</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#d97706;background:#fffbeb;border-radius:6px;padding:2px 8px;font-size:13px">AMARILLO</b>
         <span class="sub">🟡 Respondemos: falta el argumento competitivo (no lo dio el fabricante)</span></div>
     </div>
     <div class="bar"><div class="fill" style="width:100%"></div></div>
-    <div class="nic"><span class="k">Rivales en Chile</span> SIEMENS, SIEMENS-F, HITACHI ENERGY~ ELK-3 550KV~ A, HYOSUNG HEAVY-F</div>
+    <div class="nic"><span class="k">Nicho</span> <span class="k" style="margin-left:14px">Rivales declarados</span> </div>
     <div class="fuentes">
       <span class="chip-no">sin battlecard del fabricante</span>
       <span class="sub">2 campo(s) por completar</span>
@@ -708,13 +720,13 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>3.5</b>
         <span class="sub">5 argumentos · 4 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b>US$112.5M</b><span class="sub">9,297 ítems importados</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#d97706;background:#fffbeb;border-radius:6px;padding:2px 8px;font-size:13px">AMARILLO</b>
         <span class="sub">🟡 Respondemos: falta el argumento competitivo (no lo dio el fabricante)</span></div>
     </div>
     <div class="bar"><div class="fill" style="width:78%"></div></div>
-    <div class="nic"><span class="k">Rivales en Chile</span> SIEMENS, SIEMENS-F, HITACHI ENERGY~ ELK-3 550KV~ A, HYOSUNG HEAVY-F</div>
+    <div class="nic"><span class="k">Nicho</span> <span class="k" style="margin-left:14px">Rivales declarados</span> </div>
     <div class="fuentes">
       <span class="chip-no">sin battlecard del fabricante</span>
       <span class="sub">1 campo(s) por completar</span>
@@ -729,13 +741,13 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>3.5</b>
         <span class="sub">5 argumentos · 4 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b>US$112.5M</b><span class="sub">9,297 ítems importados</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#d97706;background:#fffbeb;border-radius:6px;padding:2px 8px;font-size:13px">AMARILLO</b>
         <span class="sub">🟡 Respondemos: falta el argumento competitivo (no lo dio el fabricante)</span></div>
     </div>
     <div class="bar"><div class="fill" style="width:78%"></div></div>
-    <div class="nic"><span class="k">Rivales en Chile</span> SIEMENS, SIEMENS-F, HITACHI ENERGY~ ELK-3 550KV~ A, HYOSUNG HEAVY-F</div>
+    <div class="nic"><span class="k">Nicho</span> <span class="k" style="margin-left:14px">Rivales declarados</span> </div>
     <div class="fuentes">
       <span class="chip-no">sin battlecard del fabricante</span>
       <span class="sub">1 campo(s) por completar</span>
@@ -750,13 +762,13 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>3.5</b>
         <span class="sub">5 argumentos · 4 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b>US$112.5M</b><span class="sub">9,297 ítems importados</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#d97706;background:#fffbeb;border-radius:6px;padding:2px 8px;font-size:13px">AMARILLO</b>
         <span class="sub">🟡 Respondemos: falta el argumento competitivo (no lo dio el fabricante)</span></div>
     </div>
     <div class="bar"><div class="fill" style="width:78%"></div></div>
-    <div class="nic"><span class="k">Rivales en Chile</span> SIEMENS, SIEMENS-F, HITACHI ENERGY~ ELK-3 550KV~ A, HYOSUNG HEAVY-F</div>
+    <div class="nic"><span class="k">Nicho</span> <span class="k" style="margin-left:14px">Rivales declarados</span> </div>
     <div class="fuentes">
       <span class="chip-no">sin battlecard del fabricante</span>
       <span class="sub">2 campo(s) por completar</span>
@@ -771,13 +783,13 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>3.5</b>
         <span class="sub">5 argumentos · 4 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b>US$112.5M</b><span class="sub">9,297 ítems importados</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#d97706;background:#fffbeb;border-radius:6px;padding:2px 8px;font-size:13px">AMARILLO</b>
         <span class="sub">🟡 Respondemos: falta el argumento competitivo (no lo dio el fabricante)</span></div>
     </div>
     <div class="bar"><div class="fill" style="width:78%"></div></div>
-    <div class="nic"><span class="k">Rivales en Chile</span> SIEMENS, SIEMENS-F, HITACHI ENERGY~ ELK-3 550KV~ A, HYOSUNG HEAVY-F</div>
+    <div class="nic"><span class="k">Nicho</span> <span class="k" style="margin-left:14px">Rivales declarados</span> </div>
     <div class="fuentes">
       <span class="chip-no">sin battlecard del fabricante</span>
       <span class="sub">2 campo(s) por completar</span>
@@ -792,13 +804,13 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>3.0</b>
         <span class="sub">5 argumentos · 4 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b>US$112.5M</b><span class="sub">9,297 ítems importados</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#d97706;background:#fffbeb;border-radius:6px;padding:2px 8px;font-size:13px">AMARILLO</b>
         <span class="sub">🟡 Respondemos con condiciones: hay campos clave por confirmar</span></div>
     </div>
     <div class="bar"><div class="fill" style="width:67%"></div></div>
-    <div class="nic"><span class="k">Rivales en Chile</span> SIEMENS, SIEMENS-F, HITACHI ENERGY~ ELK-3 550KV~ A, HYOSUNG HEAVY-F</div>
+    <div class="nic"><span class="k">Nicho</span> <span class="k" style="margin-left:14px">Rivales declarados</span> </div>
     <div class="fuentes">
       <span class="chip-no">sin battlecard del fabricante</span>
       <span class="sub">3 campo(s) por completar</span>
@@ -813,13 +825,13 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>3.0</b>
         <span class="sub">5 argumentos · 4 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b>US$112.5M</b><span class="sub">9,297 ítems importados</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#d97706;background:#fffbeb;border-radius:6px;padding:2px 8px;font-size:13px">AMARILLO</b>
         <span class="sub">🟡 Respondemos con condiciones: hay campos clave por confirmar</span></div>
     </div>
     <div class="bar"><div class="fill" style="width:67%"></div></div>
-    <div class="nic"><span class="k">Rivales en Chile</span> SIEMENS, SIEMENS-F, HITACHI ENERGY~ ELK-3 550KV~ A, HYOSUNG HEAVY-F</div>
+    <div class="nic"><span class="k">Nicho</span> <span class="k" style="margin-left:14px">Rivales declarados</span> </div>
     <div class="fuentes">
       <span class="chip-no">sin battlecard del fabricante</span>
       <span class="sub">3 campo(s) por completar</span>
@@ -834,13 +846,13 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>2.5</b>
         <span class="sub">4 argumentos · 2 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b>US$112.5M</b><span class="sub">9,297 ítems importados</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#d97706;background:#fffbeb;border-radius:6px;padding:2px 8px;font-size:13px">AMARILLO</b>
         <span class="sub">🟡 Respondemos con condiciones: hay campos clave por confirmar</span></div>
     </div>
     <div class="bar"><div class="fill" style="width:55%"></div></div>
-    <div class="nic"><span class="k">Rivales en Chile</span> SIEMENS, SIEMENS-F, HITACHI ENERGY~ ELK-3 550KV~ A, HYOSUNG HEAVY-F</div>
+    <div class="nic"><span class="k">Nicho</span> <span class="k" style="margin-left:14px">Rivales declarados</span> </div>
     <div class="fuentes">
       <span class="chip-no">sin battlecard del fabricante</span>
       <span class="sub">3 campo(s) por completar</span>
@@ -855,13 +867,13 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>2.5</b>
         <span class="sub">4 argumentos · 3 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b>US$112.5M</b><span class="sub">9,297 ítems importados</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#64748b;background:#f1f5f9;border-radius:6px;padding:2px 8px;font-size:13px">ROJO</b>
         <span class="sub">🔴 No podemos responder: falta el material de base para cotizar</span></div>
     </div>
     <div class="bar"><div class="fill" style="width:24%"></div></div>
-    <div class="nic"><span class="k">Rivales en Chile</span> SIEMENS, SIEMENS-F, HITACHI ENERGY~ ELK-3 550KV~ A, HYOSUNG HEAVY-F</div>
+    <div class="nic"><span class="k">Nicho</span> <span class="k" style="margin-left:14px">Rivales declarados</span> </div>
     <div class="fuentes">
       <span class="chip-no">sin battlecard del fabricante</span>
       <span class="sub">5 campo(s) por completar</span>
@@ -876,13 +888,13 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>2.5</b>
         <span class="sub">4 argumentos · 4 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b>US$112.5M</b><span class="sub">9,297 ítems importados</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#64748b;background:#f1f5f9;border-radius:6px;padding:2px 8px;font-size:13px">ROJO</b>
         <span class="sub">🔴 No podemos responder: falta el material de base para cotizar</span></div>
     </div>
     <div class="bar"><div class="fill" style="width:24%"></div></div>
-    <div class="nic"><span class="k">Rivales en Chile</span> SIEMENS, SIEMENS-F, HITACHI ENERGY~ ELK-3 550KV~ A, HYOSUNG HEAVY-F</div>
+    <div class="nic"><span class="k">Nicho</span> <span class="k" style="margin-left:14px">Rivales declarados</span> </div>
     <div class="fuentes">
       <span class="chip-no">sin battlecard del fabricante</span>
       <span class="sub">6 campo(s) por completar</span>
@@ -890,10 +902,11 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
   </article>
 <h2 id="l-plc">PLC
   <span class="tag">3 productos</span>
-  <span class="tag tm">mercado medido</span>
+  <span class="tag tn">mercado no medido</span>
   
 </h2>
 <p class="explica">Controladores lógicos programables, incluida la variante de seguridad.</p>
+<div class="mlinea sin"><span class="ml-k">Mercado</span><b>no medible aparte</b><span class="ml-n">NO MEDIBLE como mercado aparte. Un PLC no tiene partida arancelaria propia: entra como tablero de control o regulador automático, igual que un DCS, y los fabricantes son los mismos (Siemens, ABB, Schneider, Rockwell). Identificando por glosa y marca se ven US$57,2M de PLC, pero está CONTENIDO en el control: sumarlo sería contar dos veces.</span></div>
 
   <article class="fila">
     <div class="pr">
@@ -904,13 +917,13 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>5</b>
         <span class="sub">6 argumentos · 5 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b>US$83.9M</b><span class="sub">4,449 ítems importados</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#d97706;background:#fffbeb;border-radius:6px;padding:2px 8px;font-size:13px">AMARILLO</b>
         <span class="sub">🟡 Respondemos: falta el argumento competitivo (no lo dio el fabricante)</span></div>
     </div>
     <div class="bar"><div class="fill" style="width:100%"></div></div>
-    <div class="nic"><span class="k">Rivales en Chile</span> SIEMENS, SIEMENS-F, HITACHI ENERGY~ ELK-3 550KV~ A, HYOSUNG HEAVY-F</div>
+    <div class="nic"><span class="k">Nicho</span> <span class="k" style="margin-left:14px">Rivales declarados</span> </div>
     <div class="fuentes">
       <span class="chip-no">sin battlecard del fabricante</span>
       <span class="sub">1 campo(s) por completar</span>
@@ -925,13 +938,13 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>4.0</b>
         <span class="sub">6 argumentos · 4 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b>US$83.9M</b><span class="sub">4,449 ítems importados</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#d97706;background:#fffbeb;border-radius:6px;padding:2px 8px;font-size:13px">AMARILLO</b>
         <span class="sub">🟡 Respondemos con condiciones: hay campos clave por confirmar</span></div>
     </div>
     <div class="bar"><div class="fill" style="width:80%"></div></div>
-    <div class="nic"><span class="k">Rivales en Chile</span> SIEMENS, SIEMENS-F, HITACHI ENERGY~ ELK-3 550KV~ A, HYOSUNG HEAVY-F</div>
+    <div class="nic"><span class="k">Nicho</span> <span class="k" style="margin-left:14px">Rivales declarados</span> </div>
     <div class="fuentes">
       <span class="chip-no">sin battlecard del fabricante</span>
       <span class="sub">3 campo(s) por completar</span>
@@ -946,13 +959,13 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>3.5</b>
         <span class="sub">5 argumentos · 4 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b>US$83.9M</b><span class="sub">4,449 ítems importados</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#d97706;background:#fffbeb;border-radius:6px;padding:2px 8px;font-size:13px">AMARILLO</b>
         <span class="sub">🟡 Respondemos: falta el argumento competitivo (no lo dio el fabricante)</span></div>
     </div>
     <div class="bar"><div class="fill" style="width:70%"></div></div>
-    <div class="nic"><span class="k">Rivales en Chile</span> SIEMENS, SIEMENS-F, HITACHI ENERGY~ ELK-3 550KV~ A, HYOSUNG HEAVY-F</div>
+    <div class="nic"><span class="k">Nicho</span> <span class="k" style="margin-left:14px">Rivales declarados</span> </div>
     <div class="fuentes">
       <span class="chip-no">sin battlecard del fabricante</span>
       <span class="sub">1 campo(s) por completar</span>
@@ -960,10 +973,11 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
   </article>
 <h2 id="l-sis">SIS
   <span class="tag">3 productos</span>
-  <span class="tag tm">mercado medido</span>
+  <span class="tag tn">mercado no medido</span>
   
 </h2>
 <p class="explica">Sistemas instrumentados de seguridad (SIL3).</p>
+<div class="mlinea sin"><span class="ml-k">Mercado</span><b>no medible aparte</b><span class="ml-n">NO MEDIBLE como mercado aparte. No existe una partida de &#x27;sistema instrumentado de seguridad&#x27;. Un SIS entra como tablero de control, igual que un DCS: el TCS-900 se vende DENTRO del proyecto de control, no como categoría separada.</span></div>
 
   <article class="fila">
     <div class="pr">
@@ -974,13 +988,13 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>5</b>
         <span class="sub">7 argumentos · 5 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b>US$52.8M</b><span class="sub">8,422 ítems importados</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#d97706;background:#fffbeb;border-radius:6px;padding:2px 8px;font-size:13px">AMARILLO</b>
         <span class="sub">🟡 Respondemos: falta el argumento competitivo (no lo dio el fabricante)</span></div>
     </div>
     <div class="bar"><div class="fill" style="width:100%"></div></div>
-    <div class="nic"><span class="k">Rivales en Chile</span> SIEMENS, ETP ELEKTRO-F, SIEMENS-F, ROCKWELL~ MCC2100-PEII~ 2100 L</div>
+    <div class="nic"><span class="k">Nicho</span> <span class="k" style="margin-left:14px">Rivales declarados</span> </div>
     <div class="fuentes">
       <span class="chip-no">sin battlecard del fabricante</span>
       <span class="sub">1 campo(s) por completar</span>
@@ -995,13 +1009,13 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>3.5</b>
         <span class="sub">5 argumentos · 4 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b>US$52.8M</b><span class="sub">8,422 ítems importados</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#d97706;background:#fffbeb;border-radius:6px;padding:2px 8px;font-size:13px">AMARILLO</b>
         <span class="sub">🟡 Respondemos: falta el argumento competitivo (no lo dio el fabricante)</span></div>
     </div>
     <div class="bar"><div class="fill" style="width:70%"></div></div>
-    <div class="nic"><span class="k">Rivales en Chile</span> SIEMENS, ETP ELEKTRO-F, SIEMENS-F, ROCKWELL~ MCC2100-PEII~ 2100 L</div>
+    <div class="nic"><span class="k">Nicho</span> <span class="k" style="margin-left:14px">Rivales declarados</span> </div>
     <div class="fuentes">
       <span class="chip-no">sin battlecard del fabricante</span>
       <span class="sub">1 campo(s) por completar</span>
@@ -1016,13 +1030,13 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>3.5</b>
         <span class="sub">4 argumentos · 4 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b>US$52.8M</b><span class="sub">8,422 ítems importados</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#d97706;background:#fffbeb;border-radius:6px;padding:2px 8px;font-size:13px">AMARILLO</b>
         <span class="sub">🟡 Respondemos: falta el argumento competitivo (no lo dio el fabricante)</span></div>
     </div>
     <div class="bar"><div class="fill" style="width:70%"></div></div>
-    <div class="nic"><span class="k">Rivales en Chile</span> SIEMENS, ETP ELEKTRO-F, SIEMENS-F, ROCKWELL~ MCC2100-PEII~ 2100 L</div>
+    <div class="nic"><span class="k">Nicho</span> <span class="k" style="margin-left:14px">Rivales declarados</span> </div>
     <div class="fuentes">
       <span class="chip-no">sin battlecard del fabricante</span>
       <span class="sub">2 campo(s) por completar</span>
@@ -1034,6 +1048,7 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
   <span class="tag tv">6 con R verde</span>
 </h2>
 <p class="explica">Software de proceso, plataforma industrial, IA aplicada y ciberseguridad OT. NO entra por partida arancelaria: se vende dentro del proyecto, así que su mercado no es medible con el registro de importaciones.</p>
+<div class="mlinea sin"><span class="ml-k">Mercado</span><b>no medible con Aduanas</b><span class="ml-n">Esta línea no entra por partida arancelaria: se vende dentro del proyecto.</span></div>
 
   <article class="fila">
     <div class="pr">
@@ -1044,7 +1059,7 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>7</b>
         <span class="sub">7 argumentos · 5 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">no medido</b><span class="sub">se vende dentro del proyecto, no entra por partida</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#047857;background:#ecfdf5;border-radius:6px;padding:2px 8px;font-size:13px">VERDE</b>
         <span class="sub">🟢 Podemos responder hoy</span></div>
@@ -1065,7 +1080,7 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>6.5</b>
         <span class="sub">6 argumentos · 4 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">no medido</b><span class="sub">se vende dentro del proyecto, no entra por partida</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#047857;background:#ecfdf5;border-radius:6px;padding:2px 8px;font-size:13px">VERDE</b>
         <span class="sub">🟢 Podemos responder hoy</span></div>
@@ -1086,7 +1101,7 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>6.5</b>
         <span class="sub">6 argumentos · 4 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">no medido</b><span class="sub">se vende dentro del proyecto, no entra por partida</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#047857;background:#ecfdf5;border-radius:6px;padding:2px 8px;font-size:13px">VERDE</b>
         <span class="sub">🟢 Podemos responder hoy</span></div>
@@ -1107,7 +1122,7 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>6.5</b>
         <span class="sub">6 argumentos · 4 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">no medido</b><span class="sub">se vende dentro del proyecto, no entra por partida</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#047857;background:#ecfdf5;border-radius:6px;padding:2px 8px;font-size:13px">VERDE</b>
         <span class="sub">🟢 Podemos responder hoy</span></div>
@@ -1128,7 +1143,7 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>5.5</b>
         <span class="sub">5 argumentos · 4 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">no medido</b><span class="sub">se vende dentro del proyecto, no entra por partida</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#047857;background:#ecfdf5;border-radius:6px;padding:2px 8px;font-size:13px">VERDE</b>
         <span class="sub">🟢 Podemos responder hoy</span></div>
@@ -1149,7 +1164,7 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>5.5</b>
         <span class="sub">5 argumentos · 4 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">no medido</b><span class="sub">se vende dentro del proyecto, no entra por partida</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#047857;background:#ecfdf5;border-radius:6px;padding:2px 8px;font-size:13px">VERDE</b>
         <span class="sub">🟢 Podemos responder hoy</span></div>
@@ -1170,7 +1185,7 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>6.0</b>
         <span class="sub">6 argumentos · 4 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">no medido</b><span class="sub">se vende dentro del proyecto, no entra por partida</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#d97706;background:#fffbeb;border-radius:6px;padding:2px 8px;font-size:13px">AMARILLO</b>
         <span class="sub">🟡 Respondemos con condiciones: hay campos clave por confirmar</span></div>
@@ -1191,7 +1206,7 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>6.0</b>
         <span class="sub">6 argumentos · 4 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">no medido</b><span class="sub">se vende dentro del proyecto, no entra por partida</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#d97706;background:#fffbeb;border-radius:6px;padding:2px 8px;font-size:13px">AMARILLO</b>
         <span class="sub">🟡 Respondemos con condiciones: hay campos clave por confirmar</span></div>
@@ -1212,7 +1227,7 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>4.5</b>
         <span class="sub">7 argumentos · 4 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">no medido</b><span class="sub">se vende dentro del proyecto, no entra por partida</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#d97706;background:#fffbeb;border-radius:6px;padding:2px 8px;font-size:13px">AMARILLO</b>
         <span class="sub">🟡 Respondemos: falta el argumento competitivo (no lo dio el fabricante)</span></div>
@@ -1233,7 +1248,7 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>4.0</b>
         <span class="sub">6 argumentos · 4 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">no medido</b><span class="sub">se vende dentro del proyecto, no entra por partida</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#d97706;background:#fffbeb;border-radius:6px;padding:2px 8px;font-size:13px">AMARILLO</b>
         <span class="sub">🟡 Respondemos con condiciones: hay campos clave por confirmar</span></div>
@@ -1254,7 +1269,7 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>4.0</b>
         <span class="sub">6 argumentos · 4 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">no medido</b><span class="sub">se vende dentro del proyecto, no entra por partida</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#d97706;background:#fffbeb;border-radius:6px;padding:2px 8px;font-size:13px">AMARILLO</b>
         <span class="sub">🟡 Respondemos con condiciones: hay campos clave por confirmar</span></div>
@@ -1275,7 +1290,7 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>4.0</b>
         <span class="sub">6 argumentos · 4 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">no medido</b><span class="sub">se vende dentro del proyecto, no entra por partida</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#d97706;background:#fffbeb;border-radius:6px;padding:2px 8px;font-size:13px">AMARILLO</b>
         <span class="sub">🟡 Respondemos con condiciones: hay campos clave por confirmar</span></div>
@@ -1296,7 +1311,7 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>4.0</b>
         <span class="sub">6 argumentos · 4 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">no medido</b><span class="sub">se vende dentro del proyecto, no entra por partida</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#d97706;background:#fffbeb;border-radius:6px;padding:2px 8px;font-size:13px">AMARILLO</b>
         <span class="sub">🟡 Respondemos con condiciones: hay campos clave por confirmar</span></div>
@@ -1317,7 +1332,7 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>4.0</b>
         <span class="sub">7 argumentos · 4 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">no medido</b><span class="sub">se vende dentro del proyecto, no entra por partida</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#d97706;background:#fffbeb;border-radius:6px;padding:2px 8px;font-size:13px">AMARILLO</b>
         <span class="sub">🟡 Respondemos con condiciones: hay campos clave por confirmar</span></div>
@@ -1338,7 +1353,7 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>3.5</b>
         <span class="sub">5 argumentos · 4 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">no medido</b><span class="sub">se vende dentro del proyecto, no entra por partida</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#d97706;background:#fffbeb;border-radius:6px;padding:2px 8px;font-size:13px">AMARILLO</b>
         <span class="sub">🟡 Respondemos: falta el argumento competitivo (no lo dio el fabricante)</span></div>
@@ -1359,7 +1374,7 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>3.5</b>
         <span class="sub">4 argumentos · 4 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">no medido</b><span class="sub">se vende dentro del proyecto, no entra por partida</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#d97706;background:#fffbeb;border-radius:6px;padding:2px 8px;font-size:13px">AMARILLO</b>
         <span class="sub">🟡 Respondemos: falta el argumento competitivo (no lo dio el fabricante)</span></div>
@@ -1380,7 +1395,7 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>3.0</b>
         <span class="sub">5 argumentos · 4 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">no medido</b><span class="sub">se vende dentro del proyecto, no entra por partida</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#d97706;background:#fffbeb;border-radius:6px;padding:2px 8px;font-size:13px">AMARILLO</b>
         <span class="sub">🟡 Respondemos con condiciones: hay campos clave por confirmar</span></div>
@@ -1401,7 +1416,7 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>3.0</b>
         <span class="sub">5 argumentos · 4 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">no medido</b><span class="sub">se vende dentro del proyecto, no entra por partida</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#d97706;background:#fffbeb;border-radius:6px;padding:2px 8px;font-size:13px">AMARILLO</b>
         <span class="sub">🟡 Respondemos con condiciones: hay campos clave por confirmar</span></div>
@@ -1422,7 +1437,7 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>3.0</b>
         <span class="sub">5 argumentos · 4 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">no medido</b><span class="sub">se vende dentro del proyecto, no entra por partida</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#d97706;background:#fffbeb;border-radius:6px;padding:2px 8px;font-size:13px">AMARILLO</b>
         <span class="sub">🟡 Respondemos con condiciones: hay campos clave por confirmar</span></div>
@@ -1443,7 +1458,7 @@ agrupados en 7 líneas de producto, para decidir dónde poner el esfuerzo comerc
     <div class="ejes">
       <div class="eje"><span class="k">P · Producto</span><b>3.0</b>
         <span class="sub">5 argumentos · 4 objeciones</span></div>
-      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">no medido</b><span class="sub">se vende dentro del proyecto, no entra por partida</span></div>
+      <div class="eje"><span class="k">M · Mercado</span><b class="nomedido">mercado de línea</b><span class="sub">vive del mercado de su línea, no tiene cuota propia medida</span></div>
       <div class="eje"><span class="k">R · Respuesta</span>
         <b style="color:#d97706;background:#fffbeb;border-radius:6px;padding:2px 8px;font-size:13px">AMARILLO</b>
         <span class="sub">🟡 Respondemos con condiciones: hay campos clave por confirmar</span></div>
