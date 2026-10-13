@@ -1,0 +1,37 @@
+{
+ "riles_2024": {
+  "archivo": "datos/retc/riles_2024.xlsx",
+  "bytes": 1195856,
+  "formato": "xlsx",
+  "url": "https://datosretc.mma.gob.cl/dataset/e90ca8ab-9c60-4e0d-9a55-d25cc2251f0e/resource/125e004c-a03a-458f-9cff-727384f60eda/download/riles-ckan-2024.xlsx",
+  "nombre": "💧 2024 Estimación de Residuos Industriales Líquidos (RILES) "
+ },
+ "riles_2023": {
+  "archivo": "datos/retc/riles_2023.xlsx",
+  "bytes": 1180760,
+  "formato": "xlsx",
+  "url": "https://datosretc.mma.gob.cl/dataset/e90ca8ab-9c60-4e0d-9a55-d25cc2251f0e/resource/ca5b0842-2581-443b-87e6-d5676cd6c8fb/download/riles-ckan-2023.xlsx",
+  "nombre": "💧 2023 Estimación de Residuos Industriales Líquidos (RILES) "
+ },
+ "respeligrosos_2025": {
+  "archivo": "datos/retc/respeligrosos_2025.xlsx",
+  "bytes": 8873121,
+  "formato": "xlsx",
+  "url": "https://datosretc.mma.gob.cl/dataset/afafa3fb-a442-4fa5-99c8-222081f230b6/resource/8d893d0f-ae37-459d-be3e-e10d22526a51/download/respel_2025.xlsx",
+  "nombre": "Generación de residuos peligrosos 2025"
+ },
+ "respeligrosos_2024": {
+  "archivo": "datos/retc/respeligrosos_2024.xlsx",
+  "bytes": 8873121,
+  "formato": "xlsx",
+  "url": "https://datosretc.mma.gob.cl/dataset/afafa3fb-a442-4fa5-99c8-222081f230b6/resource/8d893d0f-ae37-459d-be3e-e10d22526a51/download/respel_2025.xlsx",
+  "nombre": "Generación de residuos peligrosos 2025"
+ },
+ "ventanilla": {
+  "archivo": "datos/retc/ventanilla.xlsx",
+  "bytes": 3006952,
+  "formato": "xls",
+  "url": "https://datosretc.mma.gob.cl/dataset/220c2663-92e3-4d42-87d8-5a1f9417e40f/resource/d1682353-3e5f-4100-9a53-f4b9650e2984/download/establecimientos_ckan.xlsx",
+  "nombre": "Establecimientos industriales"
+ }
+}
