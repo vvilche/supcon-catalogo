@@ -1,0 +1,383 @@
+{
+ "C-QUAND": {
+  "familia": "Analizadores Hobre",
+  "descripcion": "Analizador en línea por fluorescencia de rayos X (ED-XRF) para medición elemental continua en líquidos de proceso. Mide hasta 15 elementos simultáneos, desde Si (Z=14) hasta U (Z=92), de ppm a niveles de porcentaje. Medición directa, no destructiva, sin preparación de muestra ni reactivos.",
+  "beneficios": [
+   "Análisis multielemental continuo en línea (hasta 15 elementos a la vez), no por muestreo de laboratorio",
+   "Sin preparación de muestra ni reactivos: medición atómica directa que no depende de la forma química del elemento",
+   "Mantenimiento casi nulo: sin partes móviles ni fuentes de obstrucción; validación automática de ganancia con metal de referencia interno",
+   "Disponibilidad declarada &gt;99,5% y vida útil larga del tubo de rayos X y del detector SDD",
+   "Mide en ácidos, oxidantes y corrientes cáusticas, a cualquier pH",
+   "Reduce tiempo y costo de análisis frente a técnicas alternativas",
+   "Corrección automática de cero y span en la versión PLUS (sin intervención humana)"
+  ],
+  "clientes_target": [
+   "Minería del cobre y metales: control de soluciones en SX/EW, molibdeno, concentrado",
+   "Refinería de metales y reciclaje (metales base y preciosos)",
+   "Refinerías de petróleo: azufre en crudos y combustibles, cloro para control de corrosión",
+   "Plantas con HDS y FCC (metales que envenenan catalizador)",
+   "Aguas residuales industriales y monitoreo ambiental",
+   "Plantas químicas con procesos catalíticos en fase líquida (PTA, PIA, FDCA)"
+  ],
+  "competencia": "POR COMPLETAR — requiere validación. En el material no hay análisis competitivo de XRF en línea. Referencia técnica disponible: la propia capacitación Hobre tiene un bloque 'PITFALLS WHEN SELLING XRF' que menciona técnicas alternativas y errores típicos de venta.",
+  "argumentos_venta": [
+   "Es el único del portafolio SUPCON/Hobre con aplicación minera explícita en la ficha del fabricante: Fe, Ni, Co, Cu, Mo, V, W, As, Zn, Sn y PGM en minería, refinería y reciclaje",
+   "Medición directa a nivel atómico: no importa en qué forma química esté el elemento, el analizador lo mide",
+   "Consistente con ASTM e ISO (dato de la ficha del fabricante)",
+   "Soporte remoto 24/7 para diagnóstico y mantenimiento",
+   "Modelo PLUS para azufre en ULSG/ULSD o muestras propensas a ensuciamiento"
+  ],
+  "objeciones": [
+   [
+    "¿Va a requerir mucho mantenimiento de celda y ventana?",
+    "La ventana de celda tiene recubrimiento especial que minimiza contaminación y la validación de ganancia es automática vía metal de referencia interno. La versión PLUS agrega flush de celda automático con validación y corrección de cero y span."
+   ],
+   [
+    "¿No tenemos agua libre controlada en la muestra?",
+    "Es una restricción real y aplica: el agua libre en muestras de hidrocarburo debe ser removida. Se resuelve en el diseño del sistema de muestreo, que se especifica por aplicación."
+   ],
+   [
+    "¿Nuestra muestra tiene alta viscosidad o sólidos?",
+    "La especificación estándar es &lt;20 cSt de viscosidad y filtración &lt;10 micrón; para valores fuera de eso se consulta a fábrica. Es un dato a relevar antes de cotizar, no una limitación."
+   ],
+   [
+    "¿Es un equipo de alto costo?",
+    "POR COMPLETAR — no hay precio en el material. La respuesta correcta depende del costo de análisis de laboratorio actual del cliente y de la frecuencia de muestreo."
+   ],
+   [
+    "POR COMPLETAR — no hay más objeciones documentadas en el material",
+    ""
+   ]
+  ],
+  "preguntas_tecnicas": [
+   "¿Qué elementos necesita medir y en qué rango (ppm o porcentaje)?",
+   "¿Cuál es la matriz del líquido: hidrocarburo, solución acuosa, ácido, pulpa?",
+   "¿Cuál es el pH y la temperatura de la corriente?",
+   "¿Tiene agua libre en la muestra? (si es hidrocarburo, es requisito removerla)",
+   "¿Cuál es la viscosidad y el grado de filtración disponible? (&lt;20 cSt y &lt;10 micrón estándar)",
+   "¿Requiere la versión PLUS (azufre en ULSG/ULSD o muestra propensa a ensuciamiento)?",
+   "¿Cuál es la presión de la corriente? (la celda de flujo es a presión atmosférica: define el sistema de muestreo)",
+   "¿Qué protocolo de comunicación requiere? (Modbus TCP/IP o RS485 RTU disponibles)",
+   "¿La instalación es interior? (+5 a 35 C, IP65/NEMA4X)",
+   "¿Requiere certificación de zona peligrosa? (ATEX II 2G Ex pxb IIC T4 o Class I Div 2 disponibles)"
+  ],
+  "fuente": "Hobre C-Quand brochure.pdf (4 pp) + Training_Hobre C-Quand 20240403.pdf (63 pp) + SUPCON_HOBRE ASI & Product Introduction.pdf pp19-20"
+ },
+ "TISOMIC": {
+  "familia": "Analizadores Hobre",
+  "descripcion": "Analizador de proceso en línea por tecnología Foto-Acústica con Láser de Diodo Sintonizable (PA-TDL) para medición de H2S, H2O y CO2 en gas y líquidos. Sin partes móviles, con la celda de medición separada de la electrónica por fibra óptica. Hasta 4 láseres y hasta 2 corrientes de proceso.",
+  "beneficios": [
+   "Mantenimiento casi cero: sin partes móviles, MTBF declarado de más de 5 años",
+   "Full separación entre la celda foto-acústica y la electrónica por fibra óptica: permite mantener la celda sin permiso de trabajo en caliente ni corte de energía",
+   "El análisis no es sensible a contaminación ni ensuciamiento porque NO usa detección óptica",
+   "Rango dinámico amplio: de niveles ppm bajos a porcentaje (más de 4 décadas)",
+   "Calibración simple y estable: una vez cada 3 a 6 meses; drift típico menor a 3% por año con el sistema HIFISC",
+   "Medición simultánea multicomponente (H2S, H2O, CO2) y multi-corriente (hasta 2)",
+   "Costo de propiedad más bajo del mercado: la energía es la única utilidad requerida",
+   "Autodiagnóstico de alto nivel para mantenimiento bajo demanda"
+  ],
+  "clientes_target": [
+   "Productores de petróleo y gas: H2S en fluidos de pozo, crudo multifásico, separadores",
+   "Gasoductos y transporte de gas: H2S/H2O/CO2 a especificación de ducto",
+   "Plantas de tratamiento de gas natural y plantas de amina",
+   "Refinerías: H2S en gas combustible, gas de antorcha, crudo de exportación",
+   "Control de turbinas de gas",
+   "Plantas de biogás y gas natural renovable (RNG)"
+  ],
+  "competencia": "POR COMPLETAR — requiere validación. Referencia interna: la capacitación TISOMIC incluye estrategia de venta en EE.UU., go-to-market y comparación contra representantes vs venta directa.",
+  "argumentos_venta": [
+   "Tecnología única: la combinación de características del TISOMIC no está disponible en ningún otro analizador del mercado (declaración del fabricante)",
+   "Desarrollado con Hilase Kft desde 2009 y reforzado con la adquisición de Hobre Laser Technology en 2014",
+   "Para H2S a nivel ppm bajo usa configuración de doble celda en serie con gas de referencia de scrubber, con determinación automática de saturación (vida mínima 6 meses)",
+   "Para H2S en líquidos, donde no existen estándares de calibración en el mercado, Hobre desarrolló sistemas de extrusión de H2S propios",
+   "Objetivo de aplicación claro: H2S 0-30 ppmV, CO2 0-5%, H2O 0-150 ppmV (0-10 Lb/MMSCF) en gas natural a especificación de ducto",
+   "Se entrega como paquete con HIFISC (sistema de acondicionamiento de muestra), que es lo que hace que el analizador de trazas rinda"
+  ],
+  "objeciones": [
+   [
+    "¿Los analizadores de trazas siempre dan problemas de respuesta lenta?",
+    "Ese es exactamente el problema que resuelve el HIFISC: sonda de impacto de flujo con fast loop impulsado por la velocidad del proceso, válvulas DBB calefaccionadas, filtro de membrana multifóbica y volumen muerto cero. La ficha declara que el sistema da lecturas estables en minutos y sin problemas de punto de rocío."
+   ],
+   [
+    "¿H2S en líquido no se puede medir, no hay patrones?",
+    "Correcto, no existen estándares de calibración en el mercado. Hobre desarrolló sistemas de extrusión de H2S por stripping a contracorriente o filtración por membrana, específicos por aplicación."
+   ],
+   [
+    "¿Va a necesitar calibración frecuente?",
+    "La calibración es cada 3 a 6 meses, y la ficha declara validación o calibración de un punto cada seis meses con la celda a temperatura controlada."
+   ],
+   [
+    "POR COMPLETAR — el material no documenta más objeciones",
+    ""
+   ]
+  ],
+  "preguntas_tecnicas": [
+   "¿Qué componentes necesita medir: H2S, H2O, CO2? (el equipo maneja hasta 4 láseres)",
+   "¿La corriente es gas o líquido? (define si se requiere sistema de extrusión de H2S)",
+   "¿Cuál es el rango de concentración requerido? (baja precisión 0-% niveles; alta precisión 0-100 ppm)",
+   "¿Cuántas corrientes de proceso va a monitorear? (hasta 2)",
+   "¿Cuál es la temperatura y presión de la corriente? (la celda PA es a presión atmosférica y 50 C, u 80 C opcional)",
+   "¿Requiere la versión de celda a 80 C? (para muestras con punto de rocío alto)",
+   "¿Tiene un sistema de acondicionamiento de muestra? (el HIFISC es la clave del rendimiento: define el diseño por composición del gas y diagrama de fases)",
+   "¿La instalación es exterior? (requiere gabinete calefaccionado y protección solar; 1200x600x500 mm, ~150 kg)",
+   "¿Requiere certificación ATEX Zone 1 IIB+H2 o CSA Class 1 Div 1?",
+   "¿Qué protocolo de comunicación requiere? (Modbus RTU RS485 + Modbus RTU TCP/IP)"
+  ],
+  "fuente": "Hobre TISOMIC Analyzer Brochure.pdf (6 pp) + Training_Hobre TISOMIC PA-TDL 20240403.pdf (54 pp) + SUPCON_HOBRE ASI.pdf pp13-17"
+ },
+ "WIM COMPAS": {
+  "familia": "Analizadores Hobre",
+  "descripcion": "Analizador en línea de índice de Wobbe, poder calorífico (BTU), CARI, demanda de aire, densidad específica y peso molecular, por tecnología de oxígeno residual (combustión catalítica con medición de oxígeno en celda de zirconia). Cuatro modelos: Xpress, Flex, Pulse y Pulse HT.",
+  "beneficios": [
+   "Respuesta rápida: T90 menor a 5 segundos en gas natural (versiones continuas), la más rápida de su clase",
+   "Alta exactitud y repetibilidad: mejor qué +/-0,4% FS en gas natural (continuo); repetibilidad mejor qué +/-0,05% FS",
+   "Diseño sin llama: elimina los errores de flame-out",
+   "Apto para instalación exterior en ambiente industrial duro, con aprobaciones para zonas peligrosas (ATEX Zone 1/2, IECEx, KCS, TRCU, Class 1 Div 2)",
+   "Maneja gas corrosivo y sucio; la versión Pulse resuelve gas amargo y flare",
+   "Insensible a fluctuaciones de temperatura ambiente: no requiere HVAC",
+   "Opción de cero emisión de hidrocarburos en las versiones Xpress y Flex",
+   "Versión Pulse HT para puntos de rocío hasta 150 C, con opción de medición de H2 integrada (FEH2)"
+  ],
+  "clientes_target": [
+   "Plantas térmicas de gas natural y ciclos combinados (control de turbina y quemadores)",
+   "Refinerías: gas combustible, gas de antorcha (flare), reporte de emisiones CO2/SO2",
+   "Plantas de LNG y blending de gas natural",
+   "Siderurgia y vidrio: gas de alto horno (BFG), gas de coque (COG), hornos de estabilización",
+   "Plantas de biogás y syngas, power to gas",
+   "Almacenamiento y transbordo con facturación interna de BTU"
+  ],
+  "competencia": "POR COMPLETAR — requiere validación. Datos disponibles: el WIM COMPAS es descrito por el fabricante como líder de mercado en la industria de oil & gas, con más de 1.000 unidades instaladas y más de 30 años de experiencia en analizadores de oxígeno residual. 'La tecnología preferida en refinerías supermajor para análisis y recuperación de gas de antorcha por su track record en aplicaciones desafiantes'.",
+  "argumentos_venta": [
+   "Es la tecnología preferida por refinerías supermajor para gas de antorcha, por track record comprobado en aplicaciones desafiantes",
+   "Más de 1.000 unidades instaladas y más de 30 años de desarrollo de la línea",
+   "Cumple ASTM D4891-13 e ISO 15971: la norma es el argumento técnico duro",
+   "Cero emisión de hidrocarburos disponible, alineado con la regulación de emisiones cada vez más estricta",
+   "Opción FEH2 permite usar el 'crédito de H2' para subir el BTU del gas de antorcha y ahorrar gas de asistencia (según 40 CFR 63.670 sección J)",
+   "Configuraciones estandarizadas por aplicación desde el 1 de enero de 2018 (4 sub-modelos), lo que simplifica la especificación"
+  ],
+  "objeciones": [
+   [
+    "¿¿Nuestro gas tiene H2 fluctuante y no combustibles (N2, CO2)??",
+    "El analizador maneja aplicaciones con alta fluctuación de H2 (0-100 mol%) y no combustibles. Es exactamente el caso para el que se diseñó la versión de antorcha."
+   ],
+   [
+    "¿El gas de antorcha tiene punto de rocío muy alto?",
+    "La versión Pulse HT está diseñada para puntos de rocío hasta 150 C/300 F con cero emisión de HC de fábrica."
+   ],
+   [
+    "¿Los analizadores de combustión fallan o se apagan?",
+    "El diseño es sin llama, lo que elimina los errores de flame-out. Las versiones continuas (Xpress, Flex) tienen T90 menor a 5 s."
+   ],
+   [
+    "¿¿Cuesta mucho calibrar y mantener??",
+    "Hay calibración automática o manual por intervalo de tiempo; los gases de calibración duran en general varios años y solo unas pocas partes requieren servicio regular."
+   ],
+   [
+    "POR COMPLETAR — el material no documenta más objeciones",
+    ""
+   ]
+  ],
+  "preguntas_tecnicas": [
+   "¿Qué parámetros necesita: Wobbe, poder calorífico (BTU), CARI, demanda de aire, densidad específica?",
+   "¿Qué tipo de gas es? (natural, LNG, gas combustible de refinería, gas de antorcha, gas amargo, biogás, syngas, BFG, COG)",
+   "¿Cuál es la composición esperada y su variabilidad? (en particular H2, N2, CO2)",
+   "¿Cuál es el punto de rocío del gas? (si supera ~40 C, evaluar versión HT)",
+   "¿La versión debe ser continua o por inyección? (continua: T90 &lt;5 s / inyección: update 30 s, para gas amargo y flare)",
+   "¿Cuál es la presión de muestra? (continua: típico 1,5 a 5 barG; inyección: -0,3 a 1,0 barG)",
+   "¿Requiere medición de hidrógeno integrada (FEH2)?",
+   "¿Requiere operación de cero emisión de hidrocarburos?",
+   "¿Qué zona peligrosa y certificación aplica? (ATEX Zone 1/2 IIC, IECEx, KCS, TRCU, Class 1 Div 2)",
+   "¿Qué requerimientos de comunicación y remotos? (Modbus TCP/IP Ethernet o fibra, Modbus RTU RS485, hasta 8 relés aislados)"
+  ],
+  "fuente": "Hobre WIM COMPAS Brochure.pdf (8 pp) + SUPCON_HOBRE ASI & Product Introduction.pdf pp11-12"
+ },
+ "PRISM": {
+  "familia": "Analizadores Hobre",
+  "descripcion": "Analizador de composición de gas por espectroscopia Raman, desarrollado con TNO (Paises Bajos) con tecnología patentada. Mide C1 a C5+, N2, H2, CO2 (y CO, H2O según SUPCON) en aproximadamente 10 segundos, sin necesidad de reducir la presión de la muestra y con diseño de cero emisión.",
+  "beneficios": [
+   "Análisis completo de composición en 10 segundos: la respuesta mas rapida de su clase",
+   "NO requiere reducción de presión: opera a presión de proceso (10-75 barG). La presión alta MEJORA la señal Raman",
+   "Cero emisión: la muestra analizada vuelve al proceso, sin venteo a atmosfera ni a antorcha",
+   "Medición no destructiva",
+   "Independiente de flujo y presión del proceso",
+   "Celda de flujo de alta presión y temperatura para análisis en condiciones de proceso reales",
+   "Separacion entre muestra y electrónica por fibra óptica (5 a 50 m), lo que simplifica instalación y mantenimiento",
+   "Entrega propiedades fisicas calculadas: poder calorifico, indice de Wobbe, densidad, gravedad especifica, Cp/Cv, compresibilidad, demanda de aire",
+   "Medición de hidrógeno como estandar (0-100%): apto para mezclas de H2 y a prueba de futuro",
+   "No requiere calibraciones frecuentes; bajo costo de repuestos",
+   "Gano el Annual Product Award en ATC 2024 (EE.UU.)"
+  ],
+  "clientes_target": [
+   "Productores de gas natural y plantas de procesamiento (control feed-forward)",
+   "Proyectos de mezcla de hidrógeno (hydrogen blending) y syngas",
+   "Plantas de metanol, amoniaco y producción de hidrógeno",
+   "Refinerias y petroquímica (composición de gas de proceso)",
+   "Plantas que requieren cero emisión por regulación ambiental",
+   "Transporte de gas a alta presión (no requiere reducción, ventaja directa)"
+  ],
+  "competencia": "POR COMPLETAR — requiere validación. Dato disponible: el fabricante declara que la combinación de características 'no esta disponible en ningun otro analizador del mercado', con enfasis en la medición de H2 de fábrica y la ausencia de reducción de presión.",
+  "argumentos_venta": [
+   "Tecnologia patentada desarrollada con TNO, la organizacion holandesa de investigacion aplicada",
+   "Es el único analizador del portafolio que entrega composición completa Y propiedades fisicas calculadas en 10 segundos",
+   "El diseño de cero emisión (muestra vuelve al proceso) es hoy una ventaja regulatoria directa, no solo técnica",
+   "No requiere reducción de presión: ahorra el sistema de regulación calefaccionado y elimina un punto de falla",
+   "La medición de H2 como estandar (0-100%) lo posiciona para proyectos de hidrógeno, que es el mercado que viene",
+   "Combinado con HIFISC entrega un setup de cero emisión completo: el diferencial de presión sobre la punta de la sonda impulsa el fast loop sobre filtro multifobico"
+  ],
+  "objeciones": [
+   [
+    "El gas esta a alta presión, va a requerir regulación",
+    "Es la ventaja inversa: el PRISM opera a presión de proceso y la presión alta mejora la señal Raman. No requiere reducir."
+   ],
+   [
+    "Necesitamos análisis de componentes individuales con cromatografo",
+    "El PRISM entrega C1 a C5+ mas N2, H2, CO2 en 10 segundos, sin cromatografia. La ficha del fabricante lo posiciona como análisis de composición rapido para control feed-forward."
+   ],
+   [
+    "Un laser en planta es un riesgo de seguridad",
+    "La separación entre sonda y electrónica es por fibra óptica, y el equipo tiene certificación ATEX/IECEx II 2G IIC T3 (Class 1 Div 2 BCD pendiente)."
+   ],
+   [
+    "Va a requerir recalibracion seguido",
+    "La ficha declara que no requiere calibraciones frecuentes y que tiene bajo costo de componentes de repuesto."
+   ],
+   [
+    "POR COMPLETAR — el material no documenta más objeciones",
+    ""
+   ]
+  ],
+  "preguntas_tecnicas": [
+   "¿Que componentes necesita medir? (C1-C5+, N2, H2, CO2; según SUPCON también CO y H2O)",
+   "¿Cual es la presión y temperatura de la corriente? (10-75 barG, hasta 80 C)",
+   "¿Cual es el rango de concentración requerido? (0,1 a 100%; H2 0-100% de fábrica)",
+   "¿Requiere las propiedades fisicas calculadas (BTU, Wobbe, densidad, Cp/Cv)?",
+   "¿Es un proyecto de mezcla de hidrógeno o de syngas?",
+   "¿A que distancia quedara la sala de control o el gabinete de electrónica? (fibra óptica de 5, 10, 20, 30 o 50 m)",
+   "¿Requiere cero emisión (retorno de muestra al proceso)?",
+   "¿Cual es la densidad y el flujo de la corriente? (el caudal de muestra no es crítico, depende del proceso)",
+   "¿Que certificación de zona peligrosa aplica? (ATEX/IECEx II 2G IIC T3)",
+   "¿Que protocolo requiere? (Modbus RTU RS485, Modbus TCP/IP Ethernet o fibra óptica)"
+  ],
+  "fuente": "Hobre PRISM Raman Brochure.pdf (4 pp) + SUPCON_HOBRE ASI & Product Introduction.pdf p18"
+ },
+ "CEMS 5000": {
+  "familia": "Analizadores SUPCON",
+  "descripcion": "Sistema de monitoreo continuo de emisiones (CEMS) de tipo extractivo frio-seco, para medición de SO2, NOx, CO, CO2, material particulado y parametros de humo en fuentes fijas. Incluye analizador de gas EM-5 por UV-DOAS, modulo laser LGT-510 para CO/CO2, sonda de muestreo GSP-100, medidor de polvo DMS-100 y analizador de flujo PT-500.",
+  "beneficios": [
+   "Tecnologia UV-DOAS que mide NO y NO2 simultaneamente, eliminando la necesidad del convertidor NO2-NO",
+   "A diferencia de NDIR, no es interferido por la humedad ni por el polvo",
+   "Limite de deteccion hasta 0,1 ppm",
+   "Fuente de luz pulsada con vida útil de hasta 10 años",
+   "Sistema extensible: se pueden agregar modulos de CO y CO2 según requerimiento",
+   "Condensacion en 2 etapas que enfria a 4 C rapidamente, reduciendo el tiempo de contacto gas-agua y la perdida de SO2",
+   "Sonda con filtración de polvo y blowback periodico que evita la obstrucción",
+   "Alta adaptabilidad a ambientes severos: alto polvo, alta humedad, alta temperatura y alta corrosión",
+   "Mantenimiento simple: no hay que esperar que los componentes se enfrien"
+  ],
+  "clientes_target": [
+   "Plantas termoeléctricas (chimenea de calderas)",
+   "Plantas de cemento",
+   "Petroquimica y refinería",
+   "Procesamiento de metales no ferrosos",
+   "Industria farmaceutica",
+   "Plantas con desulfurizacion y desnitrificacion",
+   "Cualquier fuente fija con obligación de reporte de emisiones"
+  ],
+  "competencia": "El material incluye una tabla comparativa de metodologias: NDIR, FTIR, Fluorescencia UV + Quimioluminiscencia versus la tecnología propia UV-DOAS. Ventajas declaradas de UV-DOAS: una sola camara mide 3-5 componentes, camara robusta y de bajo costo, sin partes moviles opticas, medición de espectro UV completo sin interferencia cruzada.",
+  "argumentos_venta": [
+   "Track record declarado en Asia: mas de 50 sistemas CEMS, 500 medidores de polvo y 230 sensores PT vendidos en 3 años (Indonesia, Vietnam, Tailandia, India)",
+   "La tecnología UV-DOAS evita el convertidor NO2-NO, que es un punto de falla comun en CEMS convencionales",
+   "No es interferido por humedad ni polvo, que es la causa principal de deriva en sistemas NDIR",
+   "Sistema modular y extensible: el cliente puede empezar con SO2/NOx y agregar CO/CO2 después",
+   "Sonda GSP-100 soporta temperatura de muestra hasta 600 C"
+  ],
+  "objeciones": [
+   [
+    "Nuestro gas tiene alto polvo y alta humedad",
+    "Precisamente el caso de diseño: la sonda usa filtración de polvo con blowback periodico y el sistema tiene condensacion en 2 etapas a 4 C. La ficha declara alta adaptabilidad a alto polvo, alta humedad, alta temperatura y alta corrosión."
+   ],
+   [
+    "Vamos a necesitar mantenimiento frecuente",
+    "El diseño es de mantenimiento simple, sin necesidad de esperar enfriamiento de componentes. El modulo laser tiene ciclo de mantenimiento y calibración de 2 veces por año o menos."
+   ],
+   [
+    "La normativa chilena no es la china que cita el material",
+    "Punto válido y crítico: el material cita las normas chinas HJ75 y HJ76. La equivalencia con la normativa chilena de emisiones DEBE verificarse antes de ofrecer el equipo. POR COMPLETAR."
+   ],
+   [
+    "POR COMPLETAR — el material no documenta más objeciones",
+    ""
+   ]
+  ],
+  "preguntas_tecnicas": [
+   "¿Que componentes debe monitorear? (SO2, NOx, CO, CO2, CH4, N2O, HF, HCl, NH3, material particulado)",
+   "¿Cual es la temperatura de los gases en el punto de muestreo? (sonda hasta 600 C)",
+   "¿Cual es el contenido de polvo y humedad?",
+   "¿Cual es el diámetro de la chimenea o ducto? (medidor de polvo: 0,5 a 15 m)",
+   "¿Que parametros de humo requiere? (temperatura, presión, caudal, humedad, oxígeno)",
+   "¿Requiere medición de flujo? (PT-500 integra temperatura, presión y velocidad)",
+   "¿Que normativa local aplica y que certificaciones exige la autoridad? (verificar equivalencia con HJ75/HJ76)",
+   "¿A donde debe subir el dato? (el material indica carga de cada parametro y concentración a la empresa, con soporte al organismo fiscalizador)",
+   "¿Requiere la versión con gabinete para exterior? (dimensiones del sistema 800x600x1800 mm)",
+   "¿Que protocolo de comunicación requiere?"
+  ],
+  "fuente": "Process - Supcon1/Supcon Product information/MIV business/06. CEMS/CEMS_20230530.pptx (19 slides)"
+ },
+ "Flare CEMS": {
+  "familia": "Analizadores SUPCON",
+  "descripcion": "Sistema de monitoreo de gas de antorcha (Flare Monitoring System) para cumplimiento de regulación de VOC altamente reactivos (HRVOC) y BTU. Integra analizador de BTU Hobre, cromatografo de gas, caudalimetro ultrasonico, valvula de control y camara térmica de doble espectro, con software de adquisición SUPCON.",
+  "beneficios": [
+   "Cumple los requisitos de reporte de HRVOC en antorchas (18-20 componentes) y torres de enfriamiento (6 componentes)",
+   "Frecuencia de 15 minutos con promedio horario",
+   "Determina BTU y peso molecular dentro de +/-5%",
+   "Registra efectos para análisis de eventos históricos",
+   "Integracion directa al DCS existente por Modbus y OPC, con salidas analógicas y reles",
+   "Imagenes de video a la sala de control de antorcha",
+   "Uptime objetivo mayor a 95%"
+  ],
+  "clientes_target": [
+   "Refinerias con antorchas reguladas",
+   "Plantas petroquimicas y quimicas",
+   "Instalaciones con antorchas de alivio y recuperacion de gas",
+   "Plantas sujetas a normativa de emisiones de VOC reactivos"
+  ],
+  "competencia": "El material incluye equipos de terceros en la lista de componentes principales: caudalimetro ultrasonico GE/SICK, cromatografo Siemens/ABB. El diferenciador es la integración SUPCON (software DAS/EPB, UCS, camara térmica). POR COMPLETAR — no hay battlecard.",
+  "argumentos_venta": [
+   "Mas de 400 instalaciones declaradas en la línea de antorchas SUPCON",
+   "Sistema integrado completo: no es solo un analizador, es el sistema de monitoreo con adquisición, alarmas e integración al DCS",
+   "Cumple con el articulado especifico: 40 CFR 60.18(f)(3) para el cálculo de BTU, con mantenimiento mayor a 300 BTU (asistido) o 200 BTU (no asistido) y tasas de destrucción de 99% (etileno, propileno), 98% (otros) y 93% (si BTU <300)",
+   "Soporta el uso del 'crédito de H2' cuando se integra medición FEH2, lo que permite cumplimiento y ahorro de gas de asistencia"
+  ],
+  "objeciones": [
+   [
+    "¿Como separan 18-20 componentes de 0 a 100% en 15 minutos?",
+    "Es exactamente la pregunta que el documento de SUPCON plantea como el desafio central de la aplicación, y la respuesta es la combinación de cromatografo de gas mas analizador de BTU, con MDL de 0,02 a 0,5 mol% y repetibilidad de +/-1%. Verificar configuración caso a caso."
+   ],
+   [
+    "La regulación que citan es de EE.UU., no de Chile",
+    "Punto válido y crítico: el material cita normativa federal de EE.UU. (40 CFR) y estatal (TCEQ, SCAQMD). La normativa chilena aplicable DEBE verificarse antes de ofrecer el sistema. El propio documento cierra con un cuestionario abierto sobre la regulación local del pais destino."
+   ],
+   [
+    "Es una propuesta, no una instalación confirmada",
+    "Correcto: el documento del proyecto coreano cierra con preguntas a clarificar sobre la regulación local y proveedores. El proyecto Flare CEMS Corea es una PROPUESTA, no una instalación confirmada. No presentarlo como referencia de proyecto."
+   ],
+   [
+    "POR COMPLETAR",
+    ""
+   ]
+  ],
+  "preguntas_tecnicas": [
+   "¿Que normativa local de emisiones de VOC / HRVOC aplica y quién fiscaliza?",
+   "¿La antorcha es asistida por vapor o aire, o no asistida? (define el umbral de BTU)",
+   "¿Que componentes y en que rango se deben reportar?",
+   "¿Cual es la frecuencia de reporte exigida por la autoridad local?",
+   "¿Requiere medición de hidrógeno (FEH2)?",
+   "¿Requiere medición en torres de enfriamiento además de la antorcha?",
+   "¿Que sistema de adquisición y a que DCS se debe integrar?",
+   "¿Cual es la presión y temperatura del gas de antorcha?",
+   "¿Se requiere camara térmica de doble espectro e imagenes a sala de control?",
+   "¿Que protocolos de integración requiere? (Modbus, OPC, salidas analógicas y reles)"
+  ],
+  "fuente": "Process - Supcon4/Supcon Product information/MIV business/06. CEMS/Flare CEMS for Korean project -Supcon R1 20240624.pptx (28 slides)"
+ }
+}
