@@ -1,0 +1,1863 @@
+{
+ "que_es": "Compradores del eCRM (los que pidieron cotización 2023-2025) con su correo. El correo NO está publicado en ninguna fuente cosechable (medido por 4 vías): se infiere con DOMINIO VERIFICADO + patrón, y se declara como inferido.",
+ "lo_que_se_medió": {
+  "cosecha_coordinador": "1.353 correos REALES, solapamiento CERO (son empresas eléctricas, no mineras)",
+  "webs_corporativas": "las mineras ya no publican correos personales, solo buzones genéricos",
+  "telefono": "el campo existe en los archivos pero está VACÍO en los 2.327 registros",
+  "linkedin": "el 90% de los tomadores trae perfil, pero no correo"
+ },
+ "dominios": {
+  "MLP": "pelambres.cl",
+  "Andina": "codelco.cl",
+  "Salvador": "codelco.cl",
+  "Codelco": "codelco.cl",
+  "Caserones": "caserones.cl",
+  "Enami": "enami.cl",
+  "CMP": "cmp.cl",
+  "Pucobre": "pucobre.cl",
+  "Anglo": "angloamerican.com",
+  "JRI": "jri.cl",
+  "SGS": "sgs.com"
+ },
+ "totales": {
+  "compradores": 183,
+  "con_correo": 126,
+  "por_estado": {
+   "INFERIDO": 126,
+   "SIN DOMINIO": 57
+  }
+ },
+ "advertencia": "Todos los correos son INFERIDOS, no verificados. No usar para envío masivo sin validar: un correo mal dirigido rebota o llega a un tercero.",
+ "compradores": [
+  {
+   "nombre": "Jhonny Guamparito",
+   "empresa": "MLP",
+   "cotizaciones": 2,
+   "usd": 1193209.0,
+   "oc": 0,
+   "correo": "jhonny.guamparito@pelambres.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Manuel Rojas",
+   "empresa": "MLP",
+   "cotizaciones": 23,
+   "usd": 1066303.0,
+   "oc": 2,
+   "correo": "manuel.rojas@pelambres.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Eduardo Gallardo",
+   "empresa": "Andina",
+   "cotizaciones": 3,
+   "usd": 1004219.0,
+   "oc": 0,
+   "correo": "eduardo.gallardo@codelco.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · proofpoint · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Mario Aguilera",
+   "empresa": "Andina",
+   "cotizaciones": 1,
+   "usd": 877374.0,
+   "oc": 0,
+   "correo": "mario.aguilera@codelco.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · proofpoint · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Patricia Adriazola",
+   "empresa": "MLP",
+   "cotizaciones": 25,
+   "usd": 839709.0,
+   "oc": 25,
+   "correo": "patricia.adriazola@pelambres.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "German Diaz",
+   "empresa": "Candelaria",
+   "cotizaciones": 36,
+   "usd": 743458.0,
+   "oc": 25,
+   "correo": "",
+   "estado": "SIN DOMINIO",
+   "fuente": "empresa sin dominio de correo resuelto"
+  },
+  {
+   "nombre": "Rodrigo Zambrano",
+   "empresa": "Candelaria",
+   "cotizaciones": 9,
+   "usd": 703396.0,
+   "oc": 2,
+   "correo": "",
+   "estado": "SIN DOMINIO",
+   "fuente": "empresa sin dominio de correo resuelto"
+  },
+  {
+   "nombre": "Leonid carrizo",
+   "empresa": "MLP",
+   "cotizaciones": 61,
+   "usd": 581304.0,
+   "oc": 35,
+   "correo": "leonid.carrizo@pelambres.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Valentina Olivares",
+   "empresa": "MLP",
+   "cotizaciones": 6,
+   "usd": 540000.0,
+   "oc": 0,
+   "correo": "valentina.olivares@pelambres.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Luis Nieto",
+   "empresa": "MLP",
+   "cotizaciones": 1,
+   "usd": 500000.0,
+   "oc": 0,
+   "correo": "luis.nieto@pelambres.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Pablo Aguilera",
+   "empresa": "Caserones",
+   "cotizaciones": 3,
+   "usd": 491665.0,
+   "oc": 0,
+   "correo": "pablo.aguilera@caserones.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Juan Donoso",
+   "empresa": "MLP",
+   "cotizaciones": 4,
+   "usd": 460000.0,
+   "oc": 0,
+   "correo": "juan.donoso@pelambres.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Hugo Corvalan",
+   "empresa": "Andina",
+   "cotizaciones": 2,
+   "usd": 450328.0,
+   "oc": 1,
+   "correo": "hugo.corvalan@codelco.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · proofpoint · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Javiera Reyes",
+   "empresa": "Candelaria",
+   "cotizaciones": 18,
+   "usd": 432416.0,
+   "oc": 16,
+   "correo": "",
+   "estado": "SIN DOMINIO",
+   "fuente": "empresa sin dominio de correo resuelto"
+  },
+  {
+   "nombre": "Cristopher Rivas",
+   "empresa": "Salvador",
+   "cotizaciones": 4,
+   "usd": 335404.0,
+   "oc": 0,
+   "correo": "cristopher.rivas@codelco.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · proofpoint · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Francisca Urbina",
+   "empresa": "Codelco",
+   "cotizaciones": 1,
+   "usd": 330000.0,
+   "oc": 0,
+   "correo": "francisca.urbina@codelco.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · proofpoint · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Ivan Gutierrez",
+   "empresa": "Enami",
+   "cotizaciones": 5,
+   "usd": 329338.0,
+   "oc": 2,
+   "correo": "ivan.gutierrez@enami.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · propio · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Alejandro Alvarez",
+   "empresa": "MLP",
+   "cotizaciones": 6,
+   "usd": 301804.0,
+   "oc": 0,
+   "correo": "alejandro.alvarez@pelambres.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Andres Gomez",
+   "empresa": "MLP",
+   "cotizaciones": 5,
+   "usd": 263767.0,
+   "oc": 0,
+   "correo": "andres.gomez@pelambres.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Francisco Olivares",
+   "empresa": "Enami",
+   "cotizaciones": 5,
+   "usd": 251248.0,
+   "oc": 0,
+   "correo": "francisco.olivares@enami.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · propio · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Barbara Cortes",
+   "empresa": "Codelco",
+   "cotizaciones": 1,
+   "usd": 240288.0,
+   "oc": 0,
+   "correo": "barbara.cortes@codelco.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · proofpoint · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Barbara Cortes Castillo",
+   "empresa": "Codelco",
+   "cotizaciones": 1,
+   "usd": 240288.0,
+   "oc": 0,
+   "correo": "barbara.castillo@codelco.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · proofpoint · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Francisca Milla",
+   "empresa": "Enami",
+   "cotizaciones": 6,
+   "usd": 222525.0,
+   "oc": 3,
+   "correo": "francisca.milla@enami.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · propio · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Alvaro Bonilla",
+   "empresa": "Potrerillos",
+   "cotizaciones": 2,
+   "usd": 219228.0,
+   "oc": 0,
+   "correo": "",
+   "estado": "SIN DOMINIO",
+   "fuente": "empresa sin dominio de correo resuelto"
+  },
+  {
+   "nombre": "Francisco Diaz",
+   "empresa": "Enami",
+   "cotizaciones": 4,
+   "usd": 208498.0,
+   "oc": 0,
+   "correo": "francisco.diaz@enami.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · propio · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Juan Gallardo",
+   "empresa": "Andina",
+   "cotizaciones": 3,
+   "usd": 198814.0,
+   "oc": 0,
+   "correo": "juan.gallardo@codelco.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · proofpoint · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Nicolas Vergara",
+   "empresa": "JRI",
+   "cotizaciones": 2,
+   "usd": 189112.0,
+   "oc": 0,
+   "correo": "nicolas.vergara@jri.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Ariel Cuadra",
+   "empresa": "Caserones",
+   "cotizaciones": 13,
+   "usd": 187548.0,
+   "oc": 12,
+   "correo": "ariel.cuadra@caserones.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Ivan Munisaga",
+   "empresa": "Kinross",
+   "cotizaciones": 1,
+   "usd": 186664.0,
+   "oc": 1,
+   "correo": "",
+   "estado": "SIN DOMINIO",
+   "fuente": "empresa sin dominio de correo resuelto"
+  },
+  {
+   "nombre": "Carlos Rojas",
+   "empresa": "Andina",
+   "cotizaciones": 3,
+   "usd": 184117.0,
+   "oc": 2,
+   "correo": "carlos.rojas@codelco.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · proofpoint · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Nelson Carvajal",
+   "empresa": "Caserones",
+   "cotizaciones": 1,
+   "usd": 182572.0,
+   "oc": 1,
+   "correo": "nelson.carvajal@caserones.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Sebastian Zamora",
+   "empresa": "Andina",
+   "cotizaciones": 2,
+   "usd": 166141.0,
+   "oc": 0,
+   "correo": "sebastian.zamora@codelco.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · proofpoint · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Pablo Cordero",
+   "empresa": "Salvador",
+   "cotizaciones": 4,
+   "usd": 159118.0,
+   "oc": 2,
+   "correo": "pablo.cordero@codelco.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · proofpoint · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Cesar Fuentes",
+   "empresa": "Andina",
+   "cotizaciones": 11,
+   "usd": 159044.0,
+   "oc": 0,
+   "correo": "cesar.fuentes@codelco.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · proofpoint · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Carolina Valenzuela",
+   "empresa": "Andina",
+   "cotizaciones": 7,
+   "usd": 156272.0,
+   "oc": 4,
+   "correo": "carolina.valenzuela@codelco.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · proofpoint · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Javier Villanueva",
+   "empresa": "Servasol",
+   "cotizaciones": 1,
+   "usd": 138284.0,
+   "oc": 1,
+   "correo": "",
+   "estado": "SIN DOMINIO",
+   "fuente": "empresa sin dominio de correo resuelto"
+  },
+  {
+   "nombre": "Sebastean Paez",
+   "empresa": "JRI",
+   "cotizaciones": 2,
+   "usd": 137184.0,
+   "oc": 0,
+   "correo": "sebastean.paez@jri.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Sebastian Godoy",
+   "empresa": "Candelaria",
+   "cotizaciones": 4,
+   "usd": 135352.0,
+   "oc": 3,
+   "correo": "",
+   "estado": "SIN DOMINIO",
+   "fuente": "empresa sin dominio de correo resuelto"
+  },
+  {
+   "nombre": "Maria Jesús Caballero",
+   "empresa": "Verne SPA",
+   "cotizaciones": 1,
+   "usd": 129093.0,
+   "oc": 1,
+   "correo": "",
+   "estado": "SIN DOMINIO",
+   "fuente": "empresa sin dominio de correo resuelto"
+  },
+  {
+   "nombre": "marcela torrejon",
+   "empresa": "Candelaria",
+   "cotizaciones": 5,
+   "usd": 123565.0,
+   "oc": 3,
+   "correo": "",
+   "estado": "SIN DOMINIO",
+   "fuente": "empresa sin dominio de correo resuelto"
+  },
+  {
+   "nombre": "Paola Ruano",
+   "empresa": "Salvador",
+   "cotizaciones": 2,
+   "usd": 122907.0,
+   "oc": 1,
+   "correo": "paola.ruano@codelco.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · proofpoint · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Ruben Alarcon",
+   "empresa": "MLP",
+   "cotizaciones": 1,
+   "usd": 121988.0,
+   "oc": 0,
+   "correo": "ruben.alarcon@pelambres.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Juan Carlos Jofre",
+   "empresa": "Caserones",
+   "cotizaciones": 4,
+   "usd": 117901.0,
+   "oc": 2,
+   "correo": "juan.jofre@caserones.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Paula Montes",
+   "empresa": "Salvador",
+   "cotizaciones": 11,
+   "usd": 114825.0,
+   "oc": 2,
+   "correo": "paula.montes@codelco.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · proofpoint · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Jeannette Reyes",
+   "empresa": "Salvador",
+   "cotizaciones": 2,
+   "usd": 114474.0,
+   "oc": 2,
+   "correo": "jeannette.reyes@codelco.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · proofpoint · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Rigoberto Barrera",
+   "empresa": "Candelaria",
+   "cotizaciones": 9,
+   "usd": 111377.0,
+   "oc": 0,
+   "correo": "",
+   "estado": "SIN DOMINIO",
+   "fuente": "empresa sin dominio de correo resuelto"
+  },
+  {
+   "nombre": "German Cabello",
+   "empresa": "Ventana",
+   "cotizaciones": 2,
+   "usd": 104615.0,
+   "oc": 0,
+   "correo": "",
+   "estado": "SIN DOMINIO",
+   "fuente": "empresa sin dominio de correo resuelto"
+  },
+  {
+   "nombre": "Jorge Marcano",
+   "empresa": "MLP",
+   "cotizaciones": 15,
+   "usd": 103107.0,
+   "oc": 13,
+   "correo": "jorge.marcano@pelambres.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Alejandro Llanos",
+   "empresa": "Soltex",
+   "cotizaciones": 1,
+   "usd": 101050.0,
+   "oc": 0,
+   "correo": "",
+   "estado": "SIN DOMINIO",
+   "fuente": "empresa sin dominio de correo resuelto"
+  },
+  {
+   "nombre": "Pedro Carrasco",
+   "empresa": "MLP",
+   "cotizaciones": 2,
+   "usd": 100000.0,
+   "oc": 0,
+   "correo": "pedro.carrasco@pelambres.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Gonzalo Cisternas",
+   "empresa": "Enami",
+   "cotizaciones": 1,
+   "usd": 100000.0,
+   "oc": 0,
+   "correo": "gonzalo.cisternas@enami.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · propio · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Eduardo Lagos",
+   "empresa": "KOSLAN-MLP",
+   "cotizaciones": 3,
+   "usd": 87519.0,
+   "oc": 2,
+   "correo": "",
+   "estado": "SIN DOMINIO",
+   "fuente": "empresa sin dominio de correo resuelto"
+  },
+  {
+   "nombre": "Karen Pasten Toledo",
+   "empresa": "Salvador",
+   "cotizaciones": 1,
+   "usd": 80930.0,
+   "oc": 0,
+   "correo": "karen.toledo@codelco.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · proofpoint · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Rossanny Carrasqueño",
+   "empresa": "MLP",
+   "cotizaciones": 3,
+   "usd": 80331.0,
+   "oc": 3,
+   "correo": "rossanny.carrasqueno@pelambres.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Mario Taucan",
+   "empresa": "Andina",
+   "cotizaciones": 1,
+   "usd": 80000.0,
+   "oc": 0,
+   "correo": "mario.taucan@codelco.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · proofpoint · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Franli Delgado",
+   "empresa": "MLP",
+   "cotizaciones": 1,
+   "usd": 74928.0,
+   "oc": 1,
+   "correo": "franli.delgado@pelambres.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Felipe Henriquez",
+   "empresa": "MLP",
+   "cotizaciones": 2,
+   "usd": 73003.0,
+   "oc": 2,
+   "correo": "felipe.henriquez@pelambres.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Jaime Espinosa",
+   "empresa": "MLP",
+   "cotizaciones": 1,
+   "usd": 70050.0,
+   "oc": 0,
+   "correo": "jaime.espinosa@pelambres.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Richard Flores",
+   "empresa": "Andina",
+   "cotizaciones": 3,
+   "usd": 65375.0,
+   "oc": 0,
+   "correo": "richard.flores@codelco.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · proofpoint · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Octavio Romano",
+   "empresa": "Pucobre",
+   "cotizaciones": 3,
+   "usd": 65026.0,
+   "oc": 2,
+   "correo": "octavio.romano@pucobre.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Crispulo Mancilla",
+   "empresa": "CMP",
+   "cotizaciones": 1,
+   "usd": 62440.0,
+   "oc": 1,
+   "correo": "crispulo.mancilla@cmp.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Cristian Rojas",
+   "empresa": "CMP",
+   "cotizaciones": 1,
+   "usd": 60856.0,
+   "oc": 0,
+   "correo": "cristian.rojas@cmp.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Felipe Varas",
+   "empresa": "Candelaria",
+   "cotizaciones": 2,
+   "usd": 60000.0,
+   "oc": 0,
+   "correo": "",
+   "estado": "SIN DOMINIO",
+   "fuente": "empresa sin dominio de correo resuelto"
+  },
+  {
+   "nombre": "Rodrigo Frittis",
+   "empresa": "Candelaria",
+   "cotizaciones": 3,
+   "usd": 60000.0,
+   "oc": 0,
+   "correo": "",
+   "estado": "SIN DOMINIO",
+   "fuente": "empresa sin dominio de correo resuelto"
+  },
+  {
+   "nombre": "Rodrigo Fritis",
+   "empresa": "Candelaria",
+   "cotizaciones": 1,
+   "usd": 60000.0,
+   "oc": 0,
+   "correo": "",
+   "estado": "SIN DOMINIO",
+   "fuente": "empresa sin dominio de correo resuelto"
+  },
+  {
+   "nombre": "George Quicham",
+   "empresa": "SGS",
+   "cotizaciones": 1,
+   "usd": 56918.0,
+   "oc": 1,
+   "correo": "george.quicham@sgs.com",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Maria Elena Jeraldo",
+   "empresa": "Contac",
+   "cotizaciones": 1,
+   "usd": 55006.0,
+   "oc": 0,
+   "correo": "",
+   "estado": "SIN DOMINIO",
+   "fuente": "empresa sin dominio de correo resuelto"
+  },
+  {
+   "nombre": "Oscar Tapia",
+   "empresa": "Andina",
+   "cotizaciones": 1,
+   "usd": 54368.0,
+   "oc": 1,
+   "correo": "oscar.tapia@codelco.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · proofpoint · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Elizabeth Cuevas",
+   "empresa": "Enami",
+   "cotizaciones": 1,
+   "usd": 50000.0,
+   "oc": 0,
+   "correo": "elizabeth.cuevas@enami.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · propio · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Nelson Manzanares",
+   "empresa": "MLP",
+   "cotizaciones": 1,
+   "usd": 50000.0,
+   "oc": 0,
+   "correo": "nelson.manzanares@pelambres.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Jorge Gonzalez",
+   "empresa": "Varitec",
+   "cotizaciones": 1,
+   "usd": 46094.0,
+   "oc": 0,
+   "correo": "",
+   "estado": "SIN DOMINIO",
+   "fuente": "empresa sin dominio de correo resuelto"
+  },
+  {
+   "nombre": "JOSELINE LAHOZ",
+   "empresa": "Andina",
+   "cotizaciones": 2,
+   "usd": 45756.0,
+   "oc": 1,
+   "correo": "joseline.lahoz@codelco.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · proofpoint · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Alejandro Torres",
+   "empresa": "Salvador",
+   "cotizaciones": 7,
+   "usd": 45296.0,
+   "oc": 2,
+   "correo": "alejandro.torres@codelco.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · proofpoint · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Jennifer Puelles",
+   "empresa": "MLP",
+   "cotizaciones": 1,
+   "usd": 43458.0,
+   "oc": 1,
+   "correo": "jennifer.puelles@pelambres.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Eduardo Marin",
+   "empresa": "MLP",
+   "cotizaciones": 3,
+   "usd": 42065.0,
+   "oc": 0,
+   "correo": "eduardo.marin@pelambres.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Patricio Serra",
+   "empresa": "Salvador",
+   "cotizaciones": 4,
+   "usd": 40634.0,
+   "oc": 2,
+   "correo": "patricio.serra@codelco.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · proofpoint · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Daniel Rojas",
+   "empresa": "MLP",
+   "cotizaciones": 2,
+   "usd": 40000.0,
+   "oc": 0,
+   "correo": "daniel.rojas@pelambres.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Juan Velasquez",
+   "empresa": "MLP",
+   "cotizaciones": 1,
+   "usd": 40000.0,
+   "oc": 0,
+   "correo": "juan.velasquez@pelambres.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Mariangel Flores",
+   "empresa": "MLP",
+   "cotizaciones": 5,
+   "usd": 38744.0,
+   "oc": 4,
+   "correo": "mariangel.flores@pelambres.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Geraldine Luna Acevedo",
+   "empresa": "Candelaria",
+   "cotizaciones": 2,
+   "usd": 35577.0,
+   "oc": 2,
+   "correo": "",
+   "estado": "SIN DOMINIO",
+   "fuente": "empresa sin dominio de correo resuelto"
+  },
+  {
+   "nombre": "Hector Correa",
+   "empresa": "Candelaria",
+   "cotizaciones": 2,
+   "usd": 34986.0,
+   "oc": 0,
+   "correo": "",
+   "estado": "SIN DOMINIO",
+   "fuente": "empresa sin dominio de correo resuelto"
+  },
+  {
+   "nombre": "Macarena Vela",
+   "empresa": "JRI",
+   "cotizaciones": 2,
+   "usd": 31680.0,
+   "oc": 0,
+   "correo": "macarena.vela@jri.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Carola aburto",
+   "empresa": "CMP",
+   "cotizaciones": 2,
+   "usd": 30901.0,
+   "oc": 1,
+   "correo": "carola.aburto@cmp.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Ivan Latorre",
+   "empresa": "Caserones",
+   "cotizaciones": 3,
+   "usd": 30728.0,
+   "oc": 1,
+   "correo": "ivan.latorre@caserones.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Jerson Contreras",
+   "empresa": "MLP",
+   "cotizaciones": 1,
+   "usd": 30427.0,
+   "oc": 1,
+   "correo": "jerson.contreras@pelambres.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Cristian Bravo",
+   "empresa": "Calimport",
+   "cotizaciones": 1,
+   "usd": 30300.0,
+   "oc": 1,
+   "correo": "",
+   "estado": "SIN DOMINIO",
+   "fuente": "empresa sin dominio de correo resuelto"
+  },
+  {
+   "nombre": "Rodrigo Donoso",
+   "empresa": "Andina",
+   "cotizaciones": 1,
+   "usd": 28866.0,
+   "oc": 0,
+   "correo": "rodrigo.donoso@codelco.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · proofpoint · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Pedro Gonzalez",
+   "empresa": "Pk Ingeneiria",
+   "cotizaciones": 1,
+   "usd": 26545.0,
+   "oc": 0,
+   "correo": "",
+   "estado": "SIN DOMINIO",
+   "fuente": "empresa sin dominio de correo resuelto"
+  },
+  {
+   "nombre": "Sandra Lavanderos",
+   "empresa": "Molymetnos",
+   "cotizaciones": 1,
+   "usd": 25336.0,
+   "oc": 0,
+   "correo": "",
+   "estado": "SIN DOMINIO",
+   "fuente": "empresa sin dominio de correo resuelto"
+  },
+  {
+   "nombre": "Gonzalo Tapia",
+   "empresa": "Ventana",
+   "cotizaciones": 3,
+   "usd": 23467.0,
+   "oc": 0,
+   "correo": "",
+   "estado": "SIN DOMINIO",
+   "fuente": "empresa sin dominio de correo resuelto"
+  },
+  {
+   "nombre": "Wilson Palma",
+   "empresa": "MLP",
+   "cotizaciones": 2,
+   "usd": 23268.0,
+   "oc": 2,
+   "correo": "wilson.palma@pelambres.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Angelo Orellana",
+   "empresa": "MLP",
+   "cotizaciones": 1,
+   "usd": 22972.0,
+   "oc": 0,
+   "correo": "angelo.orellana@pelambres.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Margarita Naretto",
+   "empresa": "JRI",
+   "cotizaciones": 1,
+   "usd": 22132.0,
+   "oc": 1,
+   "correo": "margarita.naretto@jri.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Cristian Bahamonde",
+   "empresa": "eecol",
+   "cotizaciones": 1,
+   "usd": 21840.0,
+   "oc": 1,
+   "correo": "",
+   "estado": "SIN DOMINIO",
+   "fuente": "empresa sin dominio de correo resuelto"
+  },
+  {
+   "nombre": "María Jesus Caballeros",
+   "empresa": "Verne SPA",
+   "cotizaciones": 1,
+   "usd": 21312.0,
+   "oc": 0,
+   "correo": "",
+   "estado": "SIN DOMINIO",
+   "fuente": "empresa sin dominio de correo resuelto"
+  },
+  {
+   "nombre": "Ariel Ñancupil",
+   "empresa": "Verne SPA",
+   "cotizaciones": 5,
+   "usd": 21190.0,
+   "oc": 0,
+   "correo": "",
+   "estado": "SIN DOMINIO",
+   "fuente": "empresa sin dominio de correo resuelto"
+  },
+  {
+   "nombre": "Rodrigo Flores",
+   "empresa": "Pucobre",
+   "cotizaciones": 1,
+   "usd": 20000.0,
+   "oc": 0,
+   "correo": "rodrigo.flores@pucobre.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "victoriano blanco",
+   "empresa": "Pessa",
+   "cotizaciones": 1,
+   "usd": 19391.0,
+   "oc": 0,
+   "correo": "",
+   "estado": "SIN DOMINIO",
+   "fuente": "empresa sin dominio de correo resuelto"
+  },
+  {
+   "nombre": "Ivan Caro",
+   "empresa": "Andina",
+   "cotizaciones": 2,
+   "usd": 19031.0,
+   "oc": 0,
+   "correo": "ivan.caro@codelco.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · proofpoint · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Katherine Granados",
+   "empresa": "MLP",
+   "cotizaciones": 1,
+   "usd": 18742.0,
+   "oc": 1,
+   "correo": "katherine.granados@pelambres.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Mario Maldonado",
+   "empresa": "Andina",
+   "cotizaciones": 1,
+   "usd": 17493.0,
+   "oc": 0,
+   "correo": "mario.maldonado@codelco.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · proofpoint · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Mauricio Sangueza",
+   "empresa": "INSTRUVALVE SPA",
+   "cotizaciones": 1,
+   "usd": 15715.0,
+   "oc": 0,
+   "correo": "",
+   "estado": "SIN DOMINIO",
+   "fuente": "empresa sin dominio de correo resuelto"
+  },
+  {
+   "nombre": "Maria Asuncion",
+   "empresa": "MLP",
+   "cotizaciones": 2,
+   "usd": 15476.0,
+   "oc": 1,
+   "correo": "maria.asuncion@pelambres.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Ricardo Catalan",
+   "empresa": "Salvador",
+   "cotizaciones": 2,
+   "usd": 15134.0,
+   "oc": 0,
+   "correo": "ricardo.catalan@codelco.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · proofpoint · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Daniel Gerrero",
+   "empresa": "Andina",
+   "cotizaciones": 1,
+   "usd": 15106.0,
+   "oc": 0,
+   "correo": "daniel.gerrero@codelco.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · proofpoint · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Francisco Pinto",
+   "empresa": "Mantos Verdes",
+   "cotizaciones": 2,
+   "usd": 15106.0,
+   "oc": 0,
+   "correo": "",
+   "estado": "SIN DOMINIO",
+   "fuente": "empresa sin dominio de correo resuelto"
+  },
+  {
+   "nombre": "Jose Gonzalez",
+   "empresa": "rotork",
+   "cotizaciones": 1,
+   "usd": 15106.0,
+   "oc": 0,
+   "correo": "",
+   "estado": "SIN DOMINIO",
+   "fuente": "empresa sin dominio de correo resuelto"
+  },
+  {
+   "nombre": "Pedro Correa",
+   "empresa": "Bechtel",
+   "cotizaciones": 1,
+   "usd": 14796.0,
+   "oc": 1,
+   "correo": "",
+   "estado": "SIN DOMINIO",
+   "fuente": "empresa sin dominio de correo resuelto"
+  },
+  {
+   "nombre": "Nilton Coloma",
+   "empresa": "MLP",
+   "cotizaciones": 1,
+   "usd": 14556.0,
+   "oc": 0,
+   "correo": "nilton.coloma@pelambres.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Ricardo Castillo",
+   "empresa": "CMP",
+   "cotizaciones": 1,
+   "usd": 13981.0,
+   "oc": 1,
+   "correo": "ricardo.castillo@cmp.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Joel Salamanca",
+   "empresa": "Andina",
+   "cotizaciones": 1,
+   "usd": 13520.0,
+   "oc": 0,
+   "correo": "joel.salamanca@codelco.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · proofpoint · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Denis Navarro",
+   "empresa": "Aguas Andina",
+   "cotizaciones": 2,
+   "usd": 13473.0,
+   "oc": 2,
+   "correo": "",
+   "estado": "SIN DOMINIO",
+   "fuente": "empresa sin dominio de correo resuelto"
+  },
+  {
+   "nombre": "Carla Herrera",
+   "empresa": "Enami",
+   "cotizaciones": 2,
+   "usd": 13101.0,
+   "oc": 1,
+   "correo": "carla.herrera@enami.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · propio · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Valentina Toro",
+   "empresa": "codelco",
+   "cotizaciones": 1,
+   "usd": 12630.0,
+   "oc": 1,
+   "correo": "",
+   "estado": "SIN DOMINIO",
+   "fuente": "empresa sin dominio de correo resuelto"
+  },
+  {
+   "nombre": "Sebastian Carvajal",
+   "empresa": "MLP",
+   "cotizaciones": 1,
+   "usd": 12491.0,
+   "oc": 0,
+   "correo": "sebastian.carvajal@pelambres.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Gabriela Mora",
+   "empresa": "CMP",
+   "cotizaciones": 2,
+   "usd": 12267.0,
+   "oc": 2,
+   "correo": "gabriela.mora@cmp.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Paulina Santander",
+   "empresa": "Caserones",
+   "cotizaciones": 8,
+   "usd": 11831.0,
+   "oc": 4,
+   "correo": "paulina.santander@caserones.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Maria Emilia Zapata",
+   "empresa": "Caserones",
+   "cotizaciones": 1,
+   "usd": 11444.0,
+   "oc": 1,
+   "correo": "maria.zapata@caserones.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Jose Diaz",
+   "empresa": "RHOTECNICA",
+   "cotizaciones": 1,
+   "usd": 10928.0,
+   "oc": 1,
+   "correo": "",
+   "estado": "SIN DOMINIO",
+   "fuente": "empresa sin dominio de correo resuelto"
+  },
+  {
+   "nombre": "Gabriela Montaner",
+   "empresa": "MLP",
+   "cotizaciones": 1,
+   "usd": 9828.0,
+   "oc": 1,
+   "correo": "gabriela.montaner@pelambres.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Waldo Aguilera",
+   "empresa": "Anglo",
+   "cotizaciones": 1,
+   "usd": 9686.0,
+   "oc": 0,
+   "correo": "waldo.aguilera@angloamerican.com",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · mimecast · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Patrizia Adriazola",
+   "empresa": "MLP",
+   "cotizaciones": 1,
+   "usd": 9126.0,
+   "oc": 1,
+   "correo": "patrizia.adriazola@pelambres.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Cristian Haro",
+   "empresa": "Pucobre",
+   "cotizaciones": 1,
+   "usd": 8709.0,
+   "oc": 1,
+   "correo": "cristian.haro@pucobre.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Maria Angelica Villalobos",
+   "empresa": "Minera Tres Valles",
+   "cotizaciones": 2,
+   "usd": 8344.0,
+   "oc": 0,
+   "correo": "",
+   "estado": "SIN DOMINIO",
+   "fuente": "empresa sin dominio de correo resuelto"
+  },
+  {
+   "nombre": "Romeglys Díaz",
+   "empresa": "CMP",
+   "cotizaciones": 2,
+   "usd": 8333.0,
+   "oc": 2,
+   "correo": "romeglys.diaz@cmp.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Francisco Dias",
+   "empresa": "Enami",
+   "cotizaciones": 2,
+   "usd": 7874.0,
+   "oc": 0,
+   "correo": "francisco.dias@enami.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · propio · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Bryan Navarro",
+   "empresa": "MLP",
+   "cotizaciones": 1,
+   "usd": 7381.0,
+   "oc": 0,
+   "correo": "bryan.navarro@pelambres.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Lister Muñoz",
+   "empresa": "Cristalerias Chile",
+   "cotizaciones": 1,
+   "usd": 7320.0,
+   "oc": 0,
+   "correo": "",
+   "estado": "SIN DOMINIO",
+   "fuente": "empresa sin dominio de correo resuelto"
+  },
+  {
+   "nombre": "Kareen Zambrano",
+   "empresa": "Enami",
+   "cotizaciones": 1,
+   "usd": 6599.0,
+   "oc": 1,
+   "correo": "kareen.zambrano@enami.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · propio · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Cristobal Palma",
+   "empresa": "MG Proveedores",
+   "cotizaciones": 1,
+   "usd": 6574.0,
+   "oc": 0,
+   "correo": "",
+   "estado": "SIN DOMINIO",
+   "fuente": "empresa sin dominio de correo resuelto"
+  },
+  {
+   "nombre": "Jose Cañas",
+   "empresa": "Acciona",
+   "cotizaciones": 2,
+   "usd": 6000.0,
+   "oc": 0,
+   "correo": "",
+   "estado": "SIN DOMINIO",
+   "fuente": "empresa sin dominio de correo resuelto"
+  },
+  {
+   "nombre": "Patricio Farias",
+   "empresa": "MLP",
+   "cotizaciones": 2,
+   "usd": 5164.0,
+   "oc": 0,
+   "correo": "patricio.farias@pelambres.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Wilmer Chirino",
+   "empresa": "Andina",
+   "cotizaciones": 3,
+   "usd": 4832.0,
+   "oc": 0,
+   "correo": "wilmer.chirino@codelco.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · proofpoint · patrón nombre.apellido"
+  },
+  {
+   "nombre": "ROSSANNY CARRASQUE",
+   "empresa": "MLP",
+   "cotizaciones": 2,
+   "usd": 4745.0,
+   "oc": 2,
+   "correo": "rossanny.carrasque@pelambres.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "ariangel Flores",
+   "empresa": "MLP",
+   "cotizaciones": 1,
+   "usd": 4270.0,
+   "oc": 0,
+   "correo": "ariangel.flores@pelambres.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Jason Diaz",
+   "empresa": "Ventana",
+   "cotizaciones": 4,
+   "usd": 4149.0,
+   "oc": 0,
+   "correo": "",
+   "estado": "SIN DOMINIO",
+   "fuente": "empresa sin dominio de correo resuelto"
+  },
+  {
+   "nombre": "Alex Jamet",
+   "empresa": "Bechtel",
+   "cotizaciones": 1,
+   "usd": 4018.0,
+   "oc": 1,
+   "correo": "",
+   "estado": "SIN DOMINIO",
+   "fuente": "empresa sin dominio de correo resuelto"
+  },
+  {
+   "nombre": "Cinthia Villegas",
+   "empresa": "EGAFLOW",
+   "cotizaciones": 1,
+   "usd": 3959.0,
+   "oc": 0,
+   "correo": "",
+   "estado": "SIN DOMINIO",
+   "fuente": "empresa sin dominio de correo resuelto"
+  },
+  {
+   "nombre": "Mauricio Claveria",
+   "empresa": "Ventana",
+   "cotizaciones": 1,
+   "usd": 3850.0,
+   "oc": 0,
+   "correo": "",
+   "estado": "SIN DOMINIO",
+   "fuente": "empresa sin dominio de correo resuelto"
+  },
+  {
+   "nombre": "Rossanny Carrasquero",
+   "empresa": "MLP",
+   "cotizaciones": 1,
+   "usd": 3807.0,
+   "oc": 1,
+   "correo": "rossanny.carrasquero@pelambres.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Jorge Torres",
+   "empresa": "Pucobre",
+   "cotizaciones": 1,
+   "usd": 3514.0,
+   "oc": 1,
+   "correo": "jorge.torres@pucobre.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Maria Estefania",
+   "empresa": "Anglo",
+   "cotizaciones": 1,
+   "usd": 2636.0,
+   "oc": 0,
+   "correo": "maria.estefania@angloamerican.com",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · mimecast · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Ender Pinto",
+   "empresa": "MLP",
+   "cotizaciones": 1,
+   "usd": 2475.0,
+   "oc": 1,
+   "correo": "ender.pinto@pelambres.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Jamet Navarrete",
+   "empresa": "Bechtel",
+   "cotizaciones": 1,
+   "usd": 2151.0,
+   "oc": 1,
+   "correo": "",
+   "estado": "SIN DOMINIO",
+   "fuente": "empresa sin dominio de correo resuelto"
+  },
+  {
+   "nombre": "Claudia Bascuñan",
+   "empresa": "Pucobre",
+   "cotizaciones": 1,
+   "usd": 2000.0,
+   "oc": 1,
+   "correo": "claudia.bascunan@pucobre.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Juan Vega",
+   "empresa": "Candelaria",
+   "cotizaciones": 1,
+   "usd": 1800.0,
+   "oc": 0,
+   "correo": "",
+   "estado": "SIN DOMINIO",
+   "fuente": "empresa sin dominio de correo resuelto"
+  },
+  {
+   "nombre": "Marcelo Catrileo",
+   "empresa": "MLP",
+   "cotizaciones": 1,
+   "usd": 1660.0,
+   "oc": 0,
+   "correo": "marcelo.catrileo@pelambres.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Maria Arias",
+   "empresa": "Anglo",
+   "cotizaciones": 1,
+   "usd": 1288.0,
+   "oc": 1,
+   "correo": "maria.arias@angloamerican.com",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · mimecast · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Raul Nova",
+   "empresa": "INGENIERIA Y SERVICIOS RANCO SPA",
+   "cotizaciones": 1,
+   "usd": 1180.0,
+   "oc": 1,
+   "correo": "",
+   "estado": "SIN DOMINIO",
+   "fuente": "empresa sin dominio de correo resuelto"
+  },
+  {
+   "nombre": "Hugo Morales",
+   "empresa": "Caserones",
+   "cotizaciones": 1,
+   "usd": 1024.0,
+   "oc": 0,
+   "correo": "hugo.morales@caserones.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Francisco Martinez",
+   "empresa": "Andina",
+   "cotizaciones": 2,
+   "usd": 913.0,
+   "oc": 1,
+   "correo": "francisco.martinez@codelco.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · proofpoint · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Matias Labrin",
+   "empresa": "Molymetnos",
+   "cotizaciones": 1,
+   "usd": 703.0,
+   "oc": 1,
+   "correo": "",
+   "estado": "SIN DOMINIO",
+   "fuente": "empresa sin dominio de correo resuelto"
+  },
+  {
+   "nombre": "Maria Hernandez",
+   "empresa": "Caserones",
+   "cotizaciones": 1,
+   "usd": 556.0,
+   "oc": 1,
+   "correo": "maria.hernandez@caserones.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "octavio castro",
+   "empresa": "Pucobre",
+   "cotizaciones": 1,
+   "usd": 506.0,
+   "oc": 0,
+   "correo": "octavio.castro@pucobre.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Samuel Fernandez",
+   "empresa": "Codelco",
+   "cotizaciones": 1,
+   "usd": 0.0,
+   "oc": 1,
+   "correo": "samuel.fernandez@codelco.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · proofpoint · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Ruben Pino",
+   "empresa": "Andina",
+   "cotizaciones": 1,
+   "usd": 0.0,
+   "oc": 0,
+   "correo": "ruben.pino@codelco.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · proofpoint · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Jean Japaz",
+   "empresa": "Ing CPF",
+   "cotizaciones": 2,
+   "usd": 0.0,
+   "oc": 0,
+   "correo": "",
+   "estado": "SIN DOMINIO",
+   "fuente": "empresa sin dominio de correo resuelto"
+  },
+  {
+   "nombre": "Carla Martinez",
+   "empresa": "Salvador",
+   "cotizaciones": 2,
+   "usd": 0.0,
+   "oc": 0,
+   "correo": "carla.martinez@codelco.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · proofpoint · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Miguel Aranis",
+   "empresa": "ASMAR",
+   "cotizaciones": 1,
+   "usd": 0.0,
+   "oc": 0,
+   "correo": "",
+   "estado": "SIN DOMINIO",
+   "fuente": "empresa sin dominio de correo resuelto"
+  },
+  {
+   "nombre": "Liliana Santamaria",
+   "empresa": "MLP",
+   "cotizaciones": 4,
+   "usd": 0.0,
+   "oc": 0,
+   "correo": "liliana.santamaria@pelambres.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Jose Casareggio",
+   "empresa": "Enami",
+   "cotizaciones": 2,
+   "usd": 0.0,
+   "oc": 0,
+   "correo": "jose.casareggio@enami.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · propio · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Rodrigo cortes",
+   "empresa": "CMP",
+   "cotizaciones": 1,
+   "usd": 0.0,
+   "oc": 0,
+   "correo": "rodrigo.cortes@cmp.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Sergio Vergara",
+   "empresa": "Tecnasic",
+   "cotizaciones": 2,
+   "usd": 0.0,
+   "oc": 0,
+   "correo": "",
+   "estado": "SIN DOMINIO",
+   "fuente": "empresa sin dominio de correo resuelto"
+  },
+  {
+   "nombre": "Jorge Lazo",
+   "empresa": "Candelaria",
+   "cotizaciones": 4,
+   "usd": 0.0,
+   "oc": 0,
+   "correo": "",
+   "estado": "SIN DOMINIO",
+   "fuente": "empresa sin dominio de correo resuelto"
+  },
+  {
+   "nombre": "Marco Fernandez",
+   "empresa": "Enami",
+   "cotizaciones": 3,
+   "usd": 0.0,
+   "oc": 0,
+   "correo": "marco.fernandez@enami.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · propio · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Fernando Morales",
+   "empresa": "Andina",
+   "cotizaciones": 2,
+   "usd": 0.0,
+   "oc": 0,
+   "correo": "fernando.morales@codelco.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · proofpoint · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Patricio Guajardo",
+   "empresa": "MLP",
+   "cotizaciones": 2,
+   "usd": 0.0,
+   "oc": 0,
+   "correo": "patricio.guajardo@pelambres.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Eugenio Vasquez",
+   "empresa": "Candelaria",
+   "cotizaciones": 2,
+   "usd": 0.0,
+   "oc": 0,
+   "correo": "",
+   "estado": "SIN DOMINIO",
+   "fuente": "empresa sin dominio de correo resuelto"
+  },
+  {
+   "nombre": "Victor Donoso",
+   "empresa": "Andina",
+   "cotizaciones": 1,
+   "usd": 0.0,
+   "oc": 1,
+   "correo": "victor.donoso@codelco.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · proofpoint · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Constanza Lazo",
+   "empresa": "MLP",
+   "cotizaciones": 1,
+   "usd": 0.0,
+   "oc": 1,
+   "correo": "constanza.lazo@pelambres.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Simon  McPhillips",
+   "empresa": "Salvador",
+   "cotizaciones": 1,
+   "usd": 0.0,
+   "oc": 1,
+   "correo": "simon.mcphillips@codelco.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · proofpoint · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Carlos Oviedo Alarcon",
+   "empresa": "Goldfields",
+   "cotizaciones": 2,
+   "usd": 0.0,
+   "oc": 0,
+   "correo": "",
+   "estado": "SIN DOMINIO",
+   "fuente": "empresa sin dominio de correo resuelto"
+  },
+  {
+   "nombre": "Jorge Alberto Marcano",
+   "empresa": "MLP",
+   "cotizaciones": 1,
+   "usd": 0.0,
+   "oc": 0,
+   "correo": "jorge.marcano@pelambres.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Miguel del Rio",
+   "empresa": "MLP",
+   "cotizaciones": 1,
+   "usd": 0.0,
+   "oc": 0,
+   "correo": "miguel.rio@pelambres.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Manuel Rivas",
+   "empresa": "ICI",
+   "cotizaciones": 1,
+   "usd": 0.0,
+   "oc": 1,
+   "correo": "",
+   "estado": "SIN DOMINIO",
+   "fuente": "empresa sin dominio de correo resuelto"
+  },
+  {
+   "nombre": "Ivan Zuleta",
+   "empresa": "Pucobre",
+   "cotizaciones": 1,
+   "usd": 0.0,
+   "oc": 0,
+   "correo": "ivan.zuleta@pucobre.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Eduardo Riveros",
+   "empresa": "MLP",
+   "cotizaciones": 1,
+   "usd": 0.0,
+   "oc": 0,
+   "correo": "eduardo.riveros@pelambres.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Nayaret Cornejo",
+   "empresa": "MLP",
+   "cotizaciones": 1,
+   "usd": 0.0,
+   "oc": 0,
+   "correo": "nayaret.cornejo@pelambres.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Cristobal Sepulveda",
+   "empresa": "MLP",
+   "cotizaciones": 2,
+   "usd": 0.0,
+   "oc": 2,
+   "correo": "cristobal.sepulveda@pelambres.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Gabriela Rojas",
+   "empresa": "candelaria",
+   "cotizaciones": 1,
+   "usd": 0.0,
+   "oc": 0,
+   "correo": "",
+   "estado": "SIN DOMINIO",
+   "fuente": "empresa sin dominio de correo resuelto"
+  },
+  {
+   "nombre": "Sheila Cuenca",
+   "empresa": "MLP",
+   "cotizaciones": 1,
+   "usd": 0.0,
+   "oc": 0,
+   "correo": "sheila.cuenca@pelambres.cl",
+   "estado": "INFERIDO",
+   "fuente": "MX ok · outlook · patrón nombre.apellido"
+  },
+  {
+   "nombre": "Marco Carranza",
+   "empresa": "Molymet",
+   "cotizaciones": 1,
+   "usd": 0.0,
+   "oc": 0,
+   "correo": "",
+   "estado": "SIN DOMINIO",
+   "fuente": "empresa sin dominio de correo resuelto"
+  },
+  {
+   "nombre": "Elisa Jara",
+   "empresa": "Ventana",
+   "cotizaciones": 2,
+   "usd": 0.0,
+   "oc": 1,
+   "correo": "",
+   "estado": "SIN DOMINIO",
+   "fuente": "empresa sin dominio de correo resuelto"
+  }
+ ]
+}
