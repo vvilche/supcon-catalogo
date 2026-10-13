@@ -53,9 +53,18 @@ for arch in ["fichas_1_datos.json","fichas_2_datos.json","fichas_3_datos.json","
           "descripcion": (x.get("descripcion") or ""),
         }
 
+# VALVULAS: el cruce general daba US$53,8M, pero esa cifra es solo el 14% del capítulo que declara
+# marca del rubro. El mercado real medido en analizar_valvulas.py es US$396,6M (válvulas con y sin
+# marca, excluido el ruido de automoción). Véase estudio-mercado/valvulas_2025.html.
+P_VALV = "Válvulas (capítulo 84.81, mercado real)"
+
 merc = json.load(open(os.path.join(D,"cruce_catalogo_importaciones.json"), encoding="utf-8"))
 MERCADO = {f: {"usd": i["cif"], "items": i["items"], "rivales": [m for m,_ in i["marcas"][:4]]}
            for f, i in merc["mercado_por_familia"].items()}
+# CORRECCION: el mercado de valvulas se reemplaza por el medido aparte. La cifra del cruce general
+# (US$53,8M) solo cuenta las importaciones que declaran marca del rubro, que en valvulas son el 14%.
+MERCADO[P_VALV] = {"usd": 396600000.0, "items": 93549,
+                   "rivales": ["VALMET", "EMERSON", "BRAY", "DANFOSS"]}
 
 # ============================================================================
 # LÍNEAS: cada producto con su mercado (partida arancelaria) o None si no es medible
@@ -100,12 +109,12 @@ LINEAS = collections.OrderedDict([
    "desc": "Línea completa de válvulas de control de SUPCON Fluid: vástago deslizante, bola, mariposa, excéntrica y especiales, más el posicionador CVP2000. Entra por partida arancelaria, así que el mercado es el importado real.",
    "medible": True,
    "productos": {
-     "Válvulas de control — línea completa SUPCON FLUID":  "Válvulas y posicionadores (CVP2000)",
-     "Válvulas de vástago deslizante (series LN y LM)":    "Válvulas y posicionadores (CVP2000)",
-     "Válvulas de bola (series SN O-type y VN V-type)":    "Válvulas y posicionadores (CVP2000)",
-     "Válvulas mariposa y excéntricas (series BN y CN)":   "Válvulas y posicionadores (CVP2000)",
-     "Válvulas especiales (alimentación, cuchilla y compuerta)": "Válvulas y posicionadores (CVP2000)",
-     "CVP2000 (posicionador inteligente)":                 "Válvulas y posicionadores (CVP2000)",
+     "Válvulas de control — línea completa SUPCON FLUID":  P_VALV,
+     "Válvulas de vástago deslizante (series LN y LM)":    P_VALV,
+     "Válvulas de bola (series SN O-type y VN V-type)":    P_VALV,
+     "Válvulas mariposa y excéntricas (series BN y CN)":   P_VALV,
+     "Válvulas especiales (alimentación, cuchilla y compuerta)": P_VALV,
+     "CVP2000 (posicionador inteligente)":                 P_VALV,
    }}),
  ("DCS", {
    "desc": "Sistemas de control distribuido, incluido el control de compresores (CCS). El mercado de la partida incluye tableros y paneles de control.",

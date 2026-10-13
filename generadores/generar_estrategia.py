@@ -108,8 +108,10 @@ PASOS = [
   "n":"3", "cls":"n3", "et":"et e3", "etq":"Difícil pero medible",
   "titulo":"Entrar por el hardware donde ya hay marca instalada y el volumen es grande",
   "linea":"Válvulas · SIS · PLC · DCS",
-  "mercado":"US$112,5M DCS · US$83,9M PLC · US$53,8M válvulas · US$52,8M SIS",
-  "porque":"<b>Mercados grandes, pero ocupados por marcas con base instalada.</b> Acá el cliente "
+  "mercado":"US$396,6M válvulas · US$112,5M DCS · US$83,9M PLC · US$52,8M SIS",
+  "porque":"<b>Mercados grandes, pero ocupados por marcas con base instalada.</b> "
+     "Las válvulas son, de hecho, el mercado de hardware más grande del catálogo (US$396,6M), "
+     "más que el DCS. Acá el cliente "
      "ya compra a alguien: Siemens (US$23,0M importados), Hitachi, Hyosung en control; BRAY, "
      "Valmet, Valvitalia en válvulas. Cambiar de proveedor significa cambiar un sistema del que "
      "depende la producción. La venta es por proyecto nuevo, ampliación o reemplazo de equipo "
