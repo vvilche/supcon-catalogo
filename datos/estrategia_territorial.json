@@ -1,0 +1,1568 @@
+{
+ "metodo": "Estrategia territorial sobre 1.496 empresas con dolor verificado. Para cada zona: (1) cuántas empresas y con qué dolor promedio (RETC + CEN), (2) el rubro dominante y su concentración, (3) las líneas SUPCON que ese rubro demanda, y (4) la puerta de entrada. El atractivo pondera tamaño × intensidad × concentración: una zona homogénea replica el mismo argumento en cada cuenta.",
+ "fuentes": {
+  "demanda": "datos/universo_senales_completas.json (RETC/MMA + Coordinador Eléctrico)",
+  "normativa": "datos/cruce_normativo_estrategia.json",
+  "mercado": "datos/mercado_hardware_partida.json (Aduanas 2025, por partida)",
+  "productos": "datos/escalera_exito_v3.json (63 fichas, 7 líneas)"
+ },
+ "orden_por_atractivo": [
+  "Z1",
+  "Z5",
+  "Z4",
+  "Z2",
+  "Z7",
+  "Z3",
+  "Z6"
+ ],
+ "zonas": {
+  "Z2": {
+   "nombre": "Norte minero (Antofagasta y Tarapacá)",
+   "empresas_con_dolor": 91,
+   "dolor_total": 3796.0,
+   "dolor_promedio": 41.7,
+   "concentracion_rubro": 0.363,
+   "rubro_dominante": "Extracción de minerales",
+   "rubros": [
+    [
+     "Extracción de minerales",
+     33
+    ],
+    [
+     "Gestor de residuos",
+     14
+    ],
+    [
+     "Producción química",
+     9
+    ],
+    [
+     "Generación de energía",
+     9
+    ],
+    [
+     "Industria manufacturera",
+     8
+    ],
+    [
+     "Combustibles",
+     6
+    ],
+    [
+     "Producción de metal",
+     5
+    ],
+    [
+     "Transmision y distribucion de energía eléctrica",
+     3
+    ]
+   ],
+   "lineas_demandadas": [
+    [
+     "Instrumentación",
+     88
+    ],
+    [
+     "DCS",
+     73
+    ],
+    [
+     "SIS",
+     53
+    ],
+    [
+     "Válvulas",
+     43
+    ],
+    [
+     "Software y plataforma",
+     35
+    ],
+    [
+     "Analítica",
+     10
+    ]
+   ],
+   "lineas_puerta": [
+    "DCS",
+    "Instrumentación",
+    "SIS",
+    "Válvulas"
+   ],
+   "anclas": [
+    {
+     "empresa": "ENAEX S A",
+     "rubro": "Producción química",
+     "dolor": 129.0,
+     "prioridad": 154.898,
+     "comuna": "Mejillones",
+     "riles": 2116.12,
+     "residuos_t": 1890.81,
+     "cen_dolor": 39.0,
+     "lineas": [
+      "SIS",
+      "DCS",
+      "Instrumentación",
+      "Software y plataforma"
+     ]
+    },
+    {
+     "empresa": "MINERA CENTINELA",
+     "rubro": "Extracción de minerales",
+     "dolor": 110,
+     "prioridad": 154.099,
+     "comuna": "Mejillones",
+     "riles": 4678.83,
+     "residuos_t": 75108.73,
+     "cen_dolor": 20,
+     "lineas": [
+      "DCS",
+      "Instrumentación",
+      "SIS",
+      "Válvulas"
+     ]
+    },
+    {
+     "empresa": "ENAEX SERVICIOS S.A.",
+     "rubro": "Producción química",
+     "dolor": 119.0,
+     "prioridad": 142.898,
+     "comuna": "Calama",
+     "riles": 2116.12,
+     "residuos_t": 1441.35,
+     "cen_dolor": 39.0,
+     "lineas": [
+      "SIS",
+      "DCS",
+      "Instrumentación",
+      "Software y plataforma"
+     ]
+    },
+    {
+     "empresa": "MINERA ESCONDIDA LIMITADA",
+     "rubro": "Extracción de minerales",
+     "dolor": 110,
+     "prioridad": 132.1,
+     "comuna": "Antofagasta",
+     "riles": 47192.35,
+     "residuos_t": 51374.55,
+     "cen_dolor": 20,
+     "lineas": [
+      "DCS",
+      "Instrumentación",
+      "SIS",
+      "Válvulas"
+     ]
+    },
+    {
+     "empresa": "EMPRESA ELECTRICA ANGAMOS S.A.",
+     "rubro": "Generación de energía",
+     "dolor": 110,
+     "prioridad": 132.1,
+     "comuna": "Mejillones",
+     "riles": 19390.65,
+     "residuos_t": 874.2,
+     "cen_dolor": 20,
+     "lineas": [
+      "DCS",
+      "Analítica",
+      "Instrumentación",
+      "Software y plataforma"
+     ]
+    },
+    {
+     "empresa": "E.CL S.A.",
+     "rubro": "Generación de energía",
+     "dolor": 90,
+     "prioridad": 126.1,
+     "comuna": "Mejillones",
+     "riles": 328625.29,
+     "residuos_t": 8437.38,
+     "cen_dolor": null,
+     "lineas": [
+      "DCS",
+      "Analítica",
+      "Instrumentación",
+      "Software y plataforma"
+     ]
+    },
+    {
+     "empresa": "CORPESCA S A",
+     "rubro": "Pesca",
+     "dolor": 90,
+     "prioridad": 126.1,
+     "comuna": "Mejillones",
+     "riles": 11147.46,
+     "residuos_t": 2809.2,
+     "cen_dolor": null,
+     "lineas": [
+      "Instrumentación",
+      "DCS"
+     ]
+    },
+    {
+     "empresa": "COMPANIA MINERA TECK QUEBRADA BLANCA S.A.",
+     "rubro": "Extracción de minerales",
+     "dolor": 110,
+     "prioridad": 110.098,
+     "comuna": "Pica",
+     "riles": 2024.78,
+     "residuos_t": 34906.7,
+     "cen_dolor": 20,
+     "lineas": [
+      "DCS",
+      "Instrumentación",
+      "SIS",
+      "Válvulas"
+     ]
+    }
+   ],
+   "atractivo": 3654.3
+  },
+  "Z4": {
+   "nombre": "Biobío y Ñuble (Talcahuano-Coronel-Laja)",
+   "empresas_con_dolor": 278,
+   "dolor_total": 6626.8,
+   "dolor_promedio": 23.8,
+   "concentracion_rubro": 0.252,
+   "rubro_dominante": "Industria agropecuaria y silvicultura",
+   "rubros": [
+    [
+     "Industria agropecuaria y silvicultura",
+     70
+    ],
+    [
+     "Industria manufacturera",
+     51
+    ],
+    [
+     "Gestor de residuos",
+     34
+    ],
+    [
+     "Combustibles",
+     31
+    ],
+    [
+     "Pesca",
+     21
+    ],
+    [
+     "Producción de alimentos",
+     21
+    ],
+    [
+     "Generación de energía",
+     18
+    ],
+    [
+     "Papel y celulosa",
+     11
+    ]
+   ],
+   "lineas_demandadas": [
+    [
+     "Instrumentación",
+     264
+    ],
+    [
+     "DCS",
+     158
+    ],
+    [
+     "Software y plataforma",
+     155
+    ],
+    [
+     "Válvulas",
+     75
+    ],
+    [
+     "SIS",
+     47
+    ],
+    [
+     "Analítica",
+     20
+    ]
+   ],
+   "lineas_puerta": [
+    "Instrumentación",
+    "Software y plataforma"
+   ],
+   "anclas": [
+    {
+     "empresa": "CELULOSA ARAUCO Y CONSTITUCION S A",
+     "rubro": "Papel y celulosa",
+     "dolor": 110,
+     "prioridad": 154.1,
+     "comuna": "Arauco",
+     "riles": 16065.89,
+     "residuos_t": 24621.16,
+     "cen_dolor": 20,
+     "lineas": []
+    },
+    {
+     "empresa": "ENAP REFINERIAS S A",
+     "rubro": "Combustibles",
+     "dolor": 110,
+     "prioridad": 154.099,
+     "comuna": "Talcahuano",
+     "riles": 3741.96,
+     "residuos_t": 183882.28,
+     "cen_dolor": 20,
+     "lineas": [
+      "SIS",
+      "Instrumentación",
+      "DCS"
+     ]
+    },
+    {
+     "empresa": "COLBUN S A",
+     "rubro": "Generación de energía",
+     "dolor": 110,
+     "prioridad": 154.099,
+     "comuna": "Coronel",
+     "riles": 5069.63,
+     "residuos_t": 1104.52,
+     "cen_dolor": 20,
+     "lineas": [
+      "DCS",
+      "Analítica",
+      "Instrumentación",
+      "Software y plataforma"
+     ]
+    },
+    {
+     "empresa": "ENEL GENERACION CHILE S.A.",
+     "rubro": "Generación de energía",
+     "dolor": 107.9,
+     "prioridad": 151.158,
+     "comuna": "Coronel",
+     "riles": 905.73,
+     "residuos_t": 4326.7,
+     "cen_dolor": 31.9,
+     "lineas": [
+      "DCS",
+      "Analítica",
+      "Instrumentación",
+      "Software y plataforma"
+     ]
+    },
+    {
+     "empresa": "CMPC CELULOSA S A",
+     "rubro": "Papel y celulosa",
+     "dolor": 90,
+     "prioridad": 126.099,
+     "comuna": "Laja",
+     "riles": 7310.94,
+     "residuos_t": 13579.93,
+     "cen_dolor": null,
+     "lineas": []
+    },
+    {
+     "empresa": "AES GENER S A",
+     "rubro": "Generación de energía",
+     "dolor": 90,
+     "prioridad": 126.099,
+     "comuna": "Cabrero",
+     "riles": 3596.55,
+     "residuos_t": 2742.0,
+     "cen_dolor": null,
+     "lineas": [
+      "DCS",
+      "Analítica",
+      "Instrumentación",
+      "Software y plataforma"
+     ]
+    },
+    {
+     "empresa": "SOCIEDAD ELECTRICA SANTIAGO SPA",
+     "rubro": "Generación de energía",
+     "dolor": 83,
+     "prioridad": 116.298,
+     "comuna": "Cabrero",
+     "riles": 1275.2,
+     "residuos_t": 1808.74,
+     "cen_dolor": null,
+     "lineas": [
+      "DCS",
+      "Analítica",
+      "Instrumentación",
+      "Software y plataforma"
+     ]
+    },
+    {
+     "empresa": "SOC PESQUERA LANDES SOCIEDAD ANONIMA",
+     "rubro": "Pesca",
+     "dolor": 81,
+     "prioridad": 113.499,
+     "comuna": "Talcahuano",
+     "riles": 2656.19,
+     "residuos_t": 536.2,
+     "cen_dolor": null,
+     "lineas": [
+      "Instrumentación",
+      "DCS"
+     ]
+    }
+   ],
+   "atractivo": 5637.2
+  },
+  "Z3": {
+   "nombre": "Valparaíso (Quintero-Concón-Ventanas)",
+   "empresas_con_dolor": 114,
+   "dolor_total": 2869.4,
+   "dolor_promedio": 25.2,
+   "concentracion_rubro": 0.202,
+   "rubro_dominante": "Industria manufacturera",
+   "rubros": [
+    [
+     "Industria manufacturera",
+     23
+    ],
+    [
+     "Industria agropecuaria y silvicultura",
+     23
+    ],
+    [
+     "Combustibles",
+     22
+    ],
+    [
+     "Extracción de minerales",
+     10
+    ],
+    [
+     "Gestor de residuos",
+     10
+    ],
+    [
+     "Producción de alimentos",
+     7
+    ],
+    [
+     "Generación de energía",
+     5
+    ],
+    [
+     "Transmision y distribucion de energía eléctrica",
+     4
+    ]
+   ],
+   "lineas_demandadas": [
+    [
+     "Instrumentación",
+     108
+    ],
+    [
+     "DCS",
+     74
+    ],
+    [
+     "Software y plataforma",
+     49
+    ],
+    [
+     "Válvulas",
+     40
+    ],
+    [
+     "SIS",
+     38
+    ],
+    [
+     "Analítica",
+     6
+    ]
+   ],
+   "lineas_puerta": [
+    "Instrumentación",
+    "DCS",
+    "Válvulas"
+   ],
+   "anclas": [
+    {
+     "empresa": "ENAP REFINERIAS S A",
+     "rubro": "Industria manufacturera",
+     "dolor": 110,
+     "prioridad": 132.099,
+     "comuna": "Concón",
+     "riles": 3741.96,
+     "residuos_t": 183882.28,
+     "cen_dolor": 20,
+     "lineas": [
+      "Instrumentación",
+      "DCS",
+      "Válvulas"
+     ]
+    },
+    {
+     "empresa": "CORP NACIONAL DEL COBRE DE CHILE",
+     "rubro": "Producción de metal",
+     "dolor": 90,
+     "prioridad": 126.1,
+     "comuna": "Puchuncaví",
+     "riles": 88286.38,
+     "residuos_t": 2210613.43,
+     "cen_dolor": null,
+     "lineas": [
+      "DCS",
+      "Instrumentación",
+      "SIS"
+     ]
+    },
+    {
+     "empresa": "AES GENER S A",
+     "rubro": "Transmision y distribucion de energía eléctrica",
+     "dolor": 90,
+     "prioridad": 126.099,
+     "comuna": "Concón",
+     "riles": 3596.55,
+     "residuos_t": 2742.0,
+     "cen_dolor": null,
+     "lineas": []
+    },
+    {
+     "empresa": "EMPRESA ELECTRICA VENTANAS S.A",
+     "rubro": "Generación de energía",
+     "dolor": 110,
+     "prioridad": 110.1,
+     "comuna": "Puchuncaví",
+     "riles": 28755.8,
+     "residuos_t": 1633.48,
+     "cen_dolor": 20,
+     "lineas": [
+      "DCS",
+      "Analítica",
+      "Instrumentación",
+      "Software y plataforma"
+     ]
+    },
+    {
+     "empresa": "COMPANIA ELECTRICA TARAPACA S A",
+     "rubro": "Generación de energía",
+     "dolor": 76,
+     "prioridad": 106.498,
+     "comuna": "Quillota",
+     "riles": 905.73,
+     "residuos_t": 4326.7,
+     "cen_dolor": null,
+     "lineas": [
+      "DCS",
+      "Analítica",
+      "Instrumentación",
+      "Software y plataforma"
+     ]
+    },
+    {
+     "empresa": "GNL QUINTERO SA",
+     "rubro": "Combustibles",
+     "dolor": 105.4,
+     "prioridad": 105.499,
+     "comuna": "Quintero",
+     "riles": 4421.79,
+     "residuos_t": 675.5,
+     "cen_dolor": 17.4,
+     "lineas": [
+      "SIS",
+      "Instrumentación",
+      "DCS"
+     ]
+    },
+    {
+     "empresa": "MINERA LAS CENIZAS S A",
+     "rubro": "Extracción de minerales",
+     "dolor": 68.8,
+     "prioridad": 96.411,
+     "comuna": "Cabildo",
+     "riles": 0.0,
+     "residuos_t": 3698.43,
+     "cen_dolor": 28.8,
+     "lineas": [
+      "DCS",
+      "Instrumentación",
+      "SIS",
+      "Válvulas"
+     ]
+    },
+    {
+     "empresa": "ANGLO AMERICAN SUR S.A.",
+     "rubro": "Extracción de minerales",
+     "dolor": 64.0,
+     "prioridad": 89.697,
+     "comuna": "Nogales",
+     "riles": 0.24,
+     "residuos_t": 49943.07,
+     "cen_dolor": 16.0,
+     "lineas": [
+      "DCS",
+      "Instrumentación",
+      "SIS",
+      "Válvulas"
+     ]
+    }
+   ],
+   "atractivo": 2304.0
+  },
+  "Z6": {
+   "nombre": "Coquimbo-Atacama (minería y generación)",
+   "empresas_con_dolor": 82,
+   "dolor_total": 2251.1,
+   "dolor_promedio": 27.5,
+   "concentracion_rubro": 0.341,
+   "rubro_dominante": "Extracción de minerales",
+   "rubros": [
+    [
+     "Extracción de minerales",
+     28
+    ],
+    [
+     "Generación de energía",
+     17
+    ],
+    [
+     "Gestor de residuos",
+     11
+    ],
+    [
+     "Industria agropecuaria y silvicultura",
+     8
+    ],
+    [
+     "Pesca",
+     6
+    ],
+    [
+     "Industria manufacturera",
+     4
+    ],
+    [
+     "Producción de alimentos",
+     2
+    ],
+    [
+     "Suministro y tratamiento de aguas",
+     2
+    ]
+   ],
+   "lineas_demandadas": [
+    [
+     "Instrumentación",
+     81
+    ],
+    [
+     "DCS",
+     60
+    ],
+    [
+     "Software y plataforma",
+     40
+    ],
+    [
+     "Válvulas",
+     34
+    ],
+    [
+     "SIS",
+     31
+    ],
+    [
+     "Analítica",
+     19
+    ]
+   ],
+   "lineas_puerta": [
+    "DCS",
+    "Instrumentación",
+    "SIS",
+    "Válvulas"
+   ],
+   "anclas": [
+    {
+     "empresa": "GUACOLDA ENERGIA S.A",
+     "rubro": "Generación de energía",
+     "dolor": 106.1,
+     "prioridad": 127.42,
+     "comuna": "Huasco",
+     "riles": 1252349.42,
+     "residuos_t": 1237.0,
+     "cen_dolor": 16.1,
+     "lineas": [
+      "DCS",
+      "Analítica",
+      "Instrumentación",
+      "Software y plataforma"
+     ]
+    },
+    {
+     "empresa": "CIA CONTRACTUAL MINERA CANDELARIA",
+     "rubro": "Extracción de minerales",
+     "dolor": 95.9,
+     "prioridad": 115.178,
+     "comuna": "Caldera",
+     "riles": 1072.47,
+     "residuos_t": 26396.68,
+     "cen_dolor": 16.9,
+     "lineas": [
+      "DCS",
+      "Instrumentación",
+      "SIS",
+      "Válvulas"
+     ]
+    },
+    {
+     "empresa": "CIA MINERA DEL PACIFICO S A",
+     "rubro": "Extracción de minerales",
+     "dolor": 70.4,
+     "prioridad": 98.656,
+     "comuna": "Coquimbo",
+     "riles": 0.09,
+     "residuos_t": 23430.98,
+     "cen_dolor": 22.4,
+     "lineas": [
+      "DCS",
+      "Instrumentación",
+      "SIS",
+      "Válvulas"
+     ]
+    },
+    {
+     "empresa": "CRISTALERIAS DE CHILE S A",
+     "rubro": "Gestor de residuos",
+     "dolor": 62.2,
+     "prioridad": 87.173,
+     "comuna": "Coquimbo",
+     "riles": 0.0,
+     "residuos_t": 8760.21,
+     "cen_dolor": 22.2,
+     "lineas": [
+      "Instrumentación",
+      "Software y plataforma"
+     ]
+    },
+    {
+     "empresa": "MANTOS COPPER S.A.",
+     "rubro": "Extracción de minerales",
+     "dolor": 58.1,
+     "prioridad": 81.435,
+     "comuna": "Chañaral",
+     "riles": 0.0,
+     "residuos_t": 17954.82,
+     "cen_dolor": 18.1,
+     "lineas": [
+      "DCS",
+      "Instrumentación",
+      "SIS",
+      "Válvulas"
+     ]
+    },
+    {
+     "empresa": "COMPANIA MINERA ZALDIVAR LIMITADA",
+     "rubro": "Extracción de minerales",
+     "dolor": 81.0,
+     "prioridad": 81.093,
+     "comuna": "Vicuña",
+     "riles": 0.0,
+     "residuos_t": 7747.48,
+     "cen_dolor": 41.0,
+     "lineas": [
+      "DCS",
+      "Instrumentación",
+      "SIS",
+      "Válvulas"
+     ]
+    },
+    {
+     "empresa": "CENTRAL EOLICA CANELA S.A.",
+     "rubro": "Generación de energía",
+     "dolor": 76,
+     "prioridad": 76.098,
+     "comuna": "Canela",
+     "riles": 905.73,
+     "residuos_t": 4326.7,
+     "cen_dolor": null,
+     "lineas": [
+      "DCS",
+      "Analítica",
+      "Instrumentación",
+      "Software y plataforma"
+     ]
+    },
+    {
+     "empresa": "SCM MINERA LUMINA COPPER CHILE",
+     "rubro": "Extracción de minerales",
+     "dolor": 70,
+     "prioridad": 70.094,
+     "comuna": "Tierra Amarilla",
+     "riles": 0.0,
+     "residuos_t": 12867.9,
+     "cen_dolor": 30,
+     "lineas": [
+      "DCS",
+      "Instrumentación",
+      "SIS",
+      "Válvulas"
+     ]
+    }
+   ],
+   "atractivo": 2122.0
+  },
+  "Z5": {
+   "nombre": "Sur industrial y acuícola (Los Lagos-Aysén)",
+   "empresas_con_dolor": 218,
+   "dolor_total": 5951.7,
+   "dolor_promedio": 27.3,
+   "concentracion_rubro": 0.413,
+   "rubro_dominante": "Pesca",
+   "rubros": [
+    [
+     "Pesca",
+     90
+    ],
+    [
+     "Producción de alimentos",
+     25
+    ],
+    [
+     "Industria agropecuaria y silvicultura",
+     22
+    ],
+    [
+     "Combustibles",
+     22
+    ],
+    [
+     "Gestor de residuos",
+     20
+    ],
+    [
+     "Industria manufacturera",
+     18
+    ],
+    [
+     "Generación de energía",
+     9
+    ],
+    [
+     "Extracción de minerales",
+     6
+    ]
+   ],
+   "lineas_demandadas": [
+    [
+     "Instrumentación",
+     218
+    ],
+    [
+     "DCS",
+     172
+    ],
+    [
+     "Software y plataforma",
+     81
+    ],
+    [
+     "Válvulas",
+     49
+    ],
+    [
+     "SIS",
+     30
+    ],
+    [
+     "Analítica",
+     13
+    ]
+   ],
+   "lineas_puerta": [
+    "Instrumentación",
+    "DCS"
+   ],
+   "anclas": [
+    {
+     "empresa": "GRANJA MARINA TORNAGALEONES S A",
+     "rubro": "Pesca",
+     "dolor": 90,
+     "prioridad": 126.1,
+     "comuna": "Cisnes",
+     "riles": 153357.49,
+     "residuos_t": 1496.1,
+     "cen_dolor": null,
+     "lineas": [
+      "Instrumentación",
+      "DCS"
+     ]
+    },
+    {
+     "empresa": "ORIZON S A",
+     "rubro": "Pesca",
+     "dolor": 90,
+     "prioridad": 126.1,
+     "comuna": "Chonchi",
+     "riles": 33050.3,
+     "residuos_t": 2729.11,
+     "cen_dolor": null,
+     "lineas": [
+      "Instrumentación",
+      "DCS"
+     ]
+    },
+    {
+     "empresa": "CERMAQ CHILE S.A.",
+     "rubro": "Pesca",
+     "dolor": 90,
+     "prioridad": 126.1,
+     "comuna": "Aysén",
+     "riles": 9123.46,
+     "residuos_t": 1637.08,
+     "cen_dolor": null,
+     "lineas": [
+      "Instrumentación",
+      "DCS"
+     ]
+    },
+    {
+     "empresa": "SALMONES MULTIEXPORT S.A.",
+     "rubro": "Pesca",
+     "dolor": 90,
+     "prioridad": 126.099,
+     "comuna": "Aysén",
+     "riles": 8201.15,
+     "residuos_t": 1197.09,
+     "cen_dolor": null,
+     "lineas": [
+      "Instrumentación",
+      "DCS"
+     ]
+    },
+    {
+     "empresa": "CIA PESQUERA CAMANCHACA S A",
+     "rubro": "Pesca",
+     "dolor": 90,
+     "prioridad": 126.099,
+     "comuna": "Cochamó",
+     "riles": 7982.53,
+     "residuos_t": 2828.7,
+     "cen_dolor": null,
+     "lineas": [
+      "Instrumentación",
+      "DCS"
+     ]
+    },
+    {
+     "empresa": "EXPORTADORA LOS FIORDOS LIMITADA",
+     "rubro": "Pesca",
+     "dolor": 90,
+     "prioridad": 126.099,
+     "comuna": "Cisnes",
+     "riles": 7937.27,
+     "residuos_t": 1189.7,
+     "cen_dolor": null,
+     "lineas": [
+      "Instrumentación",
+      "DCS"
+     ]
+    },
+    {
+     "empresa": "MARINE HARVEST CHILE S A",
+     "rubro": "Pesca",
+     "dolor": 90,
+     "prioridad": 126.099,
+     "comuna": "Aysén",
+     "riles": 4149.36,
+     "residuos_t": 931.55,
+     "cen_dolor": null,
+     "lineas": [
+      "Instrumentación",
+      "DCS"
+     ]
+    },
+    {
+     "empresa": "SALMONES CAMANCHACA S A",
+     "rubro": "Pesca",
+     "dolor": 90,
+     "prioridad": 126.099,
+     "comuna": "Guaitecas",
+     "riles": 3653.66,
+     "residuos_t": 1585.07,
+     "cen_dolor": null,
+     "lineas": [
+      "Instrumentación",
+      "DCS"
+     ]
+    }
+   ],
+   "atractivo": 6028.8
+  },
+  "Z1": {
+   "nombre": "Santiago (Región Metropolitana)",
+   "empresas_con_dolor": 479,
+   "dolor_total": 9240.2,
+   "dolor_promedio": 19.3,
+   "concentracion_rubro": 0.397,
+   "rubro_dominante": "Industria manufacturera",
+   "rubros": [
+    [
+     "Industria manufacturera",
+     190
+    ],
+    [
+     "Combustibles",
+     63
+    ],
+    [
+     "Producción química",
+     49
+    ],
+    [
+     "Industria agropecuaria y silvicultura",
+     46
+    ],
+    [
+     "Producción de alimentos",
+     43
+    ],
+    [
+     "Gestor de residuos",
+     41
+    ],
+    [
+     "Extracción de minerales",
+     17
+    ],
+    [
+     "Papel y celulosa",
+     10
+    ]
+   ],
+   "lineas_demandadas": [
+    [
+     "Instrumentación",
+     467
+    ],
+    [
+     "DCS",
+     376
+    ],
+    [
+     "Válvulas",
+     250
+    ],
+    [
+     "Software y plataforma",
+     188
+    ],
+    [
+     "SIS",
+     137
+    ],
+    [
+     "Analítica",
+     9
+    ]
+   ],
+   "lineas_puerta": [
+    "Instrumentación",
+    "DCS",
+    "Válvulas"
+   ],
+   "anclas": [
+    {
+     "empresa": "CORP NACIONAL DEL COBRE DE CHILE",
+     "rubro": "Extracción de minerales",
+     "dolor": 90,
+     "prioridad": 126.1,
+     "comuna": "Alhué",
+     "riles": 88286.38,
+     "residuos_t": 2210613.43,
+     "cen_dolor": null,
+     "lineas": [
+      "DCS",
+      "Instrumentación",
+      "SIS",
+      "Válvulas"
+     ]
+    },
+    {
+     "empresa": "ALTO MAIPO SPA",
+     "rubro": "Generación de energía",
+     "dolor": 65,
+     "prioridad": 91.09,
+     "comuna": "San José de Maipo",
+     "riles": 20.86,
+     "residuos_t": 449.91,
+     "cen_dolor": 20,
+     "lineas": [
+      "DCS",
+      "Analítica",
+      "Instrumentación",
+      "Software y plataforma"
+     ]
+    },
+    {
+     "empresa": "EMPRESA ELECTRICA INDUSTRIAL S A",
+     "rubro": "Generación de energía",
+     "dolor": 90,
+     "prioridad": 90.099,
+     "comuna": "Curacaví",
+     "riles": 5069.63,
+     "residuos_t": 1104.52,
+     "cen_dolor": null,
+     "lineas": [
+      "DCS",
+      "Analítica",
+      "Instrumentación",
+      "Software y plataforma"
+     ]
+    },
+    {
+     "empresa": "CONSORCIO SANTA MARTA S A",
+     "rubro": "Gestor de residuos",
+     "dolor": 74.5,
+     "prioridad": 89.497,
+     "comuna": "Talagante",
+     "riles": 410.06,
+     "residuos_t": 438.58,
+     "cen_dolor": 22.5,
+     "lineas": [
+      "Instrumentación",
+      "Software y plataforma"
+     ]
+    },
+    {
+     "empresa": "CMPC TISSUE S A",
+     "rubro": "Papel y celulosa",
+     "dolor": 72,
+     "prioridad": 86.497,
+     "comuna": "Talagante",
+     "riles": 718.94,
+     "residuos_t": 3514.4,
+     "cen_dolor": 0,
+     "lineas": []
+    },
+    {
+     "empresa": "FABRICAS Y MAESTRANZAS DEL EJERCITO",
+     "rubro": "Industria manufacturera",
+     "dolor": 58,
+     "prioridad": 81.29,
+     "comuna": "Talagante",
+     "riles": 6.98,
+     "residuos_t": 1920.95,
+     "cen_dolor": null,
+     "lineas": [
+      "Instrumentación",
+      "DCS",
+      "Válvulas"
+     ]
+    },
+    {
+     "empresa": "CIA MINERA DONA INES DE COLLAHUASI SCM",
+     "rubro": "Extracción de minerales",
+     "dolor": 60,
+     "prioridad": 72.096,
+     "comuna": "Santiago",
+     "riles": 0.0,
+     "residuos_t": 22023.96,
+     "cen_dolor": 20,
+     "lineas": [
+      "DCS",
+      "Instrumentación",
+      "SIS",
+      "Válvulas"
+     ]
+    },
+    {
+     "empresa": "CEMENTO POLPAICO S A",
+     "rubro": "Extracción de minerales",
+     "dolor": 70,
+     "prioridad": 70.094,
+     "comuna": "Tiltil",
+     "riles": 0.0,
+     "residuos_t": 12752.63,
+     "cen_dolor": 30,
+     "lineas": [
+      "DCS",
+      "Instrumentación",
+      "SIS",
+      "Válvulas"
+     ]
+    }
+   ],
+   "atractivo": 9217.0
+  },
+  "Z7": {
+   "nombre": "Maule-O'Higgins (agroindustria y manufactura)",
+   "empresas_con_dolor": 172,
+   "dolor_total": 2309.4,
+   "dolor_promedio": 13.4,
+   "concentracion_rubro": 0.552,
+   "rubro_dominante": "Industria agropecuaria y silvicultura",
+   "rubros": [
+    [
+     "Industria agropecuaria y silvicultura",
+     95
+    ],
+    [
+     "Producción de alimentos",
+     20
+    ],
+    [
+     "Industria manufacturera",
+     15
+    ],
+    [
+     "Combustibles",
+     12
+    ],
+    [
+     "Generación de energía",
+     10
+    ],
+    [
+     "Gestor de residuos",
+     6
+    ],
+    [
+     "Extracción de minerales",
+     5
+    ],
+    [
+     "Papel y celulosa",
+     4
+    ]
+   ],
+   "lineas_demandadas": [
+    [
+     "Instrumentación",
+     167
+    ],
+    [
+     "Software y plataforma",
+     133
+    ],
+    [
+     "DCS",
+     65
+    ],
+    [
+     "Válvulas",
+     40
+    ],
+    [
+     "SIS",
+     19
+    ],
+    [
+     "Analítica",
+     11
+    ]
+   ],
+   "lineas_puerta": [
+    "Instrumentación",
+    "Software y plataforma"
+   ],
+   "anclas": [
+    {
+     "empresa": "MADERAS ARAUCO S A",
+     "rubro": "Industria manufacturera",
+     "dolor": 78.5,
+     "prioridad": 94.294,
+     "comuna": "Teno",
+     "riles": 50.83,
+     "residuos_t": 4835.31,
+     "cen_dolor": 19.5,
+     "lineas": [
+      "Instrumentación",
+      "DCS",
+      "Válvulas"
+     ]
+    },
+    {
+     "empresa": "EMPRESA ELECTRICA PEHUENCHE S A",
+     "rubro": "Generación de energía",
+     "dolor": 43.6,
+     "prioridad": 61.118,
+     "comuna": "San Clemente",
+     "riles": 0.0,
+     "residuos_t": 152.1,
+     "cen_dolor": 31.6,
+     "lineas": [
+      "DCS",
+      "Analítica",
+      "Instrumentación",
+      "Software y plataforma"
+     ]
+    },
+    {
+     "empresa": "MINERA VALLE CENTRAL GENERACION S.A",
+     "rubro": "Extracción de minerales",
+     "dolor": 60,
+     "prioridad": 60.09,
+     "comuna": "Requínoa",
+     "riles": 0.0,
+     "residuos_t": 2338.7,
+     "cen_dolor": 20,
+     "lineas": [
+      "DCS",
+      "Instrumentación",
+      "SIS",
+      "Válvulas"
+     ]
+    },
+    {
+     "empresa": "MINERA VALLE CENTRAL S A",
+     "rubro": "Extracción de minerales",
+     "dolor": 60,
+     "prioridad": 60.086,
+     "comuna": "Requínoa",
+     "riles": 0.0,
+     "residuos_t": 714.9,
+     "cen_dolor": 20,
+     "lineas": [
+      "DCS",
+      "Instrumentación",
+      "SIS",
+      "Válvulas"
+     ]
+    },
+    {
+     "empresa": "ALIMENTOS AGROSUPER LIMITADA",
+     "rubro": "Industria agropecuaria y silvicultura",
+     "dolor": 58,
+     "prioridad": 58.087,
+     "comuna": "Doñihue",
+     "riles": 2.09,
+     "residuos_t": 876.34,
+     "cen_dolor": null,
+     "lineas": [
+      "Instrumentación",
+      "Software y plataforma"
+     ]
+    },
+    {
+     "empresa": "FINNING CHILE S A",
+     "rubro": "Industria manufacturera",
+     "dolor": 40,
+     "prioridad": 56.097,
+     "comuna": "Mostazal",
+     "riles": 0.0,
+     "residuos_t": 34364.5,
+     "cen_dolor": null,
+     "lineas": [
+      "Instrumentación",
+      "DCS",
+      "Válvulas"
+     ]
+    },
+    {
+     "empresa": "NEUMASERVICE S A",
+     "rubro": "Combustibles",
+     "dolor": 40,
+     "prioridad": 56.095,
+     "comuna": "Hualañé",
+     "riles": 0.0,
+     "residuos_t": 21241.29,
+     "cen_dolor": null,
+     "lineas": [
+      "SIS",
+      "Instrumentación",
+      "DCS"
+     ]
+    },
+    {
+     "empresa": "SYNGENTA S.A.",
+     "rubro": "Industria agropecuaria y silvicultura",
+     "dolor": 40,
+     "prioridad": 56.086,
+     "comuna": "Rengo",
+     "riles": 0.0,
+     "residuos_t": 703.57,
+     "cen_dolor": null,
+     "lineas": [
+      "Instrumentación",
+      "Software y plataforma"
+     ]
+    }
+   ],
+   "atractivo": 2655.1
+  }
+ },
+ "producto_por_linea": {
+  "Instrumentación": {
+   "productos": [
+    "SFE910 (caudal electromagnético)",
+    "SL903 (radar de nivel 80 GHz)",
+    "SL10 / SL20 / SL80 (nivel magnético y magnetostrictivo)",
+    "CXT (transmisor de presión)",
+    "SF20 (rotámetro metálico)",
+    "LUGB (caudal vortex)",
+    "YHLW (caudal por turbina)",
+    "W Series (temperatura)",
+    "SFM800 (caudal másico)",
+    "X600 (calibrador de procesos)"
+   ],
+   "n_productos": 10,
+   "mercado_corregido_usd": 128404803.29,
+   "mercado_antes_usd": [
+    9400000.0,
+    19700000.0,
+    300000.0,
+    11300000.0
+   ],
+   "medible": true,
+   "nota": "La instrumentación de campo medida por partida es US$128,4M, no la suma de las categorías sueltas del estudio anterior (presión 9,4M + caudal 19,7M + temperatura 0,3M + calibración 11,3M = 40,7M). La diferencia es que las partidas de instrumentación incluyen todo el valor importado, no solo lo que declara una marca conocida."
+  },
+  "Analítica": {
+   "productos": [
+    "NICOSYS-3 (detección de CO en secadores)",
+    "CEMS 5000",
+    "HIFISC (acondicionamiento de muestra de gas)",
+    "WIM COMPAS",
+    "PRISM",
+    "TISOMIC",
+    "C-QUAND",
+    "Analítica (línea completa Hobre)",
+    "Flare CEMS",
+    "HICOSYS AQUA (medición de H2O en secado)"
+   ],
+   "n_productos": 10,
+   "mercado_corregido_usd": 148469284.34,
+   "mercado_antes_usd": 44300000.0,
+   "medible": true,
+   "nota": "El capítulo 90.27 completo es US$171,4M. De ahí, US$38,6M se identifica como análisis de proceso industrial y ambiental por marca (Siemens, Endress+Hauser, MSA, Thermo, Hach, Metso). El resto es laboratorio clínico y equipos sin marca reconocible. Se reporta el techo del capítulo y el segmento de proceso identificado por separado."
+  },
+  "Válvulas": {
+   "productos": [
+    "Válvulas mariposa y excéntricas (series BN y CN)",
+    "Válvulas de control — línea completa SUPCON FLUID",
+    "Válvulas de bola (series SN O-type y VN V-type)",
+    "Válvulas de vástago deslizante (series LN y LM)",
+    "Válvulas especiales (alimentación, cuchilla y compuerta)",
+    "CVP2000 (posicionador inteligente)"
+   ],
+   "n_productos": 6,
+   "mercado_corregido_usd": 68991244.17,
+   "mercado_antes_usd": 396600000.0,
+   "medible": true,
+   "nota": "US$396,6M es el capítulo completo, que incluye válvulas manuales, grifería doméstica y repuestos de vehículos. La línea de SUPCON son válvulas DE CONTROL: su piso medido es US$69,0M (reductoras de presión + las identificadas por marca de control)."
+  },
+  "DCS": {
+   "productos": [
+    "UCS Nyx (sistema de control universal)",
+    "OMC (Intelligent Operation Management & Control System)",
+    "T9100 (CCS)",
+    "SmartEIO y APL (Ethernet al campo)",
+    "SAMS (gestión de activos de instrumentos)",
+    "FF Foundation Fieldbus (sobre ECS-700)",
+    "ESP-iSYS (base de datos en tiempo real)",
+    "ECS-700 (DCS)",
+    "T5100 (CCS)",
+    "GW Series (gateway de datos)",
+    "JX-300XP (plataforma PCS)"
+   ],
+   "n_productos": 11,
+   "mercado_corregido_usd": 83000000.0,
+   "mercado_antes_usd": 112500000.0,
+   "medible": true,
+   "nota": "US$112,5M era el valor de las partidas de tableros, donde el 38% son subestaciones eléctricas (GIS, celdas, interruptores de 220 kV). El control de proceso verificado —tableros de baja tensión con glosa de control + reguladores automáticos donde aparecen los DCS— es US$83,0M."
+  },
+  "PLC": {
+   "productos": [
+    "G5Pro (PLC)",
+    "G5Pro Safety (PLC de seguridad SIL3)",
+    "G3Smart (PLC)"
+   ],
+   "n_productos": 3,
+   "mercado_corregido_usd": null,
+   "mercado_antes_usd": 83900000.0,
+   "medible": false,
+   "nota": "NO MEDIBLE como mercado aparte. Un PLC no tiene partida arancelaria propia: entra como tablero de control o regulador automático, igual que un DCS, y los fabricantes son los mismos (Siemens, ABB, Schneider, Rockwell). Identificando por glosa y marca se ven US$57,2M de PLC, pero está CONTENIDO en el control: sumarlo sería contar dos veces."
+  },
+  "SIS": {
+   "productos": [
+    "TCS-900 (SIS)",
+    "TCS-500 (SIS)",
+    "HIPPS (protección de alta presión)"
+   ],
+   "n_productos": 3,
+   "mercado_corregido_usd": null,
+   "mercado_antes_usd": 52800000.0,
+   "medible": false,
+   "nota": "NO MEDIBLE como mercado aparte. No existe una partida de 'sistema instrumentado de seguridad'. Un SIS entra como tablero de control, igual que un DCS: el TCS-900 se vende DENTRO del proyecto de control, no como categoría separada."
+  },
+  "Software y plataforma": {
+   "productos": [
+    "SolisSCADA (SCADA de proceso)",
+    "InPlant APC (control avanzado de procesos)",
+    "InPlant OTS (simulador de entrenamiento de operadores)",
+    "APEX (simulación y diseño de procesos)",
+    "InPlant RTO (optimización en tiempo real)",
+    "InPlant PID (evaluación y sintonización de lazos de control)",
+    "InPlant MP3000 (monitoreo y diagnóstico de equipos rotativos)",
+    "TPT (modelo de series de tiempo de industria de proceso)",
+    "Sistema de ciberseguridad industrial (ICS Security Management Platform + VxDefenderPro)",
+    "InPlant Blend (optimización y mezcla en línea)",
+    "InPlant TAS (carga y descarga inteligente)",
+    "InPlant EAM (gestión de activos empresariales)",
+    "PRIDE (diagnóstico predictivo y monitoreo de equipos)",
+    "supOS (plataforma industrial / sistema operativo industrial)",
+    "MPS5000 (protección de maquinaria)",
+    "Q-Lab (control estadístico de procesos)",
+    "InPlant OMS (gestión de movimientos de petróleo)",
+    "InPlant SCO (optimización de cadena de suministro y scheduling)",
+    "InPlant IFEM ProcessSuite (MES de producción continua)",
+    "InPlant PLS (posicionamiento de personal)"
+   ],
+   "n_productos": 20,
+   "mercado_corregido_usd": null,
+   "mercado_antes_usd": null,
+   "medible": false,
+   "nota": null
+  }
+ },
+ "disparador_normativo": {
+  "Instrumentación": {
+   "tipo": "obligatoria",
+   "urgencia": "alta",
+   "norma": "D.S. 90/2000 MINSEGPRES (RILES) — https://vu.mma.gob.cl/manuals/riles/D.S._N_90_2000_MINSEGPRES.pdf | D.S. 609/1998 MOP — https://www.bcn.cl/leychile/"
+  },
+  "Analítica": {
+   "tipo": "obligatoria",
+   "urgencia": "alta",
+   "norma": "D.S. 13/2011 MMA Art. 8 — https://www.bcn.cl/leychile/navegar?idNorma=1026808 | Res. Ex. 57/2013 SMA (protocolo CEMS) — https://www.bcn.cl/leychile/na"
+  },
+  "Válvulas": {
+   "tipo": "obligatoria",
+   "urgencia": "media",
+   "norma": "D.S. 10/2013 MINSAL (calderas: válvulas de seguridad, manómetros) — https://www.achs.cl/centro-de-noticias/noticia/2014/los-cambios-mas-relevantes-a-l"
+  },
+  "DCS": {
+   "tipo": "obligatoria",
+   "urgencia": "media",
+   "norma": "NTSyCS Art. 4-12 y 4-16 (disponibilidad SITR, tiempos, prueba anti-apagón) — https://www.cne.cl/wp-content/uploads/2025/01/NTSyCS-Ene-2025.pdf | Anexo"
+  },
+  "PLC": {
+   "tipo": "incentivada",
+   "urgencia": "baja",
+   "norma": "NTSyCS Art. 4-12 (control/telemetría de instalaciones coordinadas) — https://www.cne.cl/wp-content/uploads/2025/01/NTSyCS-Ene-2025.pdf | Ley 21.305 (c"
+  },
+  "SIS": {
+   "tipo": "obligatoria",
+   "urgencia": "media",
+   "norma": "D.S. 594/1999 MINSAL Art. 45 (detección y extinción automática) — https://www.bcn.cl/leychile/navegar?idNorma=167766 | D.S. 43/2015 MINSAL (NFPA 72 en"
+  },
+  "Software y plataforma": {
+   "tipo": "obligatoria",
+   "urgencia": "alta",
+   "norma": "Ley 21.663 (ciberseguridad / OIV) — https://www.bcn.cl/leychile/navegar?idNorma=1202434 | ANCI Nómina OIV 1ª etapa (Res. Ex. 87) — https://anci.gob.cl"
+  }
+ },
+ "mercado_por_linea_usd": {
+  "Instrumentación": 128404803.29,
+  "Analítica": 148469284.34,
+  "Válvulas": 398123824.67,
+  "DCS y control": 341462561.54,
+  "SIS (seguridad)": 166087169.57
+ }
+}

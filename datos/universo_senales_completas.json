@@ -5,6 +5,75 @@
   "cen": "api-infotecnica.coordinador.cl (completitud y calidad de información técnica)",
   "catalogo": "/Users/victorvilche/orca/workspaces/FuentesdeInfoProyectos/ProyectosInfo/catalogo-*/research/"
  },
+ "mapeo_rubro_lineas": {
+  "Producción química": [
+   "SIS",
+   "DCS",
+   "Instrumentación",
+   "Software y plataforma"
+  ],
+  "Fabricación de celulosa": [
+   "DCS",
+   "Instrumentación",
+   "Válvulas",
+   "Software y plataforma"
+  ],
+  "Extracción de minerales": [
+   "DCS",
+   "Instrumentación",
+   "SIS",
+   "Válvulas"
+  ],
+  "Producción de metal": [
+   "DCS",
+   "Instrumentación",
+   "SIS"
+  ],
+  "Generación de energía": [
+   "DCS",
+   "Analítica",
+   "Instrumentación",
+   "Software y plataforma"
+  ],
+  "Transmisión y distribución de energía eléctrica": [
+   "DCS",
+   "Software y plataforma",
+   "Instrumentación"
+  ],
+  "Suministro y tratamiento de aguas": [
+   "Instrumentación",
+   "Analítica",
+   "Software y plataforma"
+  ],
+  "Combustibles": [
+   "SIS",
+   "Instrumentación",
+   "DCS"
+  ],
+  "Gestor de residuos": [
+   "Instrumentación",
+   "Software y plataforma"
+  ],
+  "Producción de alimentos": [
+   "Instrumentación",
+   "DCS",
+   "Válvulas",
+   "Software y plataforma"
+  ],
+  "Industria manufacturera": [
+   "Instrumentación",
+   "DCS",
+   "Válvulas"
+  ],
+  "Pesca": [
+   "Instrumentación",
+   "DCS"
+  ],
+  "Industria agropecuaria y silvicultura": [
+   "Instrumentación",
+   "Software y plataforma"
+  ]
+ },
  "senales_no_incorporadas": {
   "multas_sec": "NO DISPONIBLE como dataset. La SEC no publica un archivo de sanciones: su portal tiene 2.307 archivos y 344 resoluciones exentas (REX) en PDF individual, mezcladas con otros temas (administradores provisionales, costo de explotación). Incorporarlas requeriría parsear 344 PDFs. Se declara como señal no incorporada en vez de estimarla."
  },

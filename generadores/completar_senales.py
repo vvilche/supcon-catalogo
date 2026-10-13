@@ -173,6 +173,7 @@ json.dump({
    "cen": "api-infotecnica.coordinador.cl (completitud y calidad de información técnica)",
    "catalogo": "/Users/victorvilche/orca/workspaces/FuentesdeInfoProyectos/ProyectosInfo/catalogo-*/research/",
  },
+ "mapeo_rubro_lineas": uni.get("mapeo_rubro_lineas") or {},
  "senales_no_incorporadas": {
    "multas_sec": ("NO DISPONIBLE como dataset. La SEC no publica un archivo de sanciones: su "
      "portal tiene 2.307 archivos y 344 resoluciones exentas (REX) en PDF individual, mezcladas "
