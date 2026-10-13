@@ -1,0 +1,362 @@
+{
+ "que_es": "Plan 2009 de VÁLVULAS DE CONTROL (Fisher) de INECO, nov-2008, 73 slides. El documento más accionable de la serie para un producto puntual: clientes por segmento con sus plantas, proyectos con monto y probabilidad, competencia específica de válvulas, y resultados por planta.",
+ "por_que_sirve_hoy": "CONECTA vende válvulas de control SUPCON: este documento da los clientes con sus plantas exactas, el tamaño del mercado de válvulas en Chile y la participación que se tenía, y el argumento de servicios.",
+ "segmentos": {
+  "M&M (minería)": {
+   "clientes": [
+    "CODELCO: NORTE Y TENIENTE",
+    "MINERA ESCONDIDA",
+    "ANGLOAMERICAN: CHAGRES Y LOS BRONCES",
+    "COLLAHUASI",
+    "CSH"
+   ],
+   "meta_2009": "MRO US$481K + PROJ US$203K = US$684K",
+   "crecimiento": "30% sobre 2008 (US$370K)"
+  },
+  "P&P (celulosa y papel)": {
+   "clientes": [
+    "ARAUCO: ARAUCO Y NUEVA ALDEA",
+    "CMPC: PACIFICO Y LAJA",
+    "NORSKE-SKOG"
+   ],
+   "meta_2009": "US$575K",
+   "crecimiento": "25% sobre 2008 (US$460K)"
+  },
+  "Refinery": {
+   "clientes": [
+    "ENAP: REFINERIA ACONCAGUA",
+    "REFINERIA BIO BIO",
+    "MAGALLANES"
+   ],
+   "meta_2009": "US$275K",
+   "crecimiento": "25% (vía zona sur, ERA por servicios)"
+  },
+  "Power": {
+   "clientes": [
+    "GE Sigen (Nueva Renca)",
+    "Electrogas",
+    "Gas Atacama",
+    "ENDESA"
+   ],
+   "meta_2009": "US$75K",
+   "crecimiento": "promedio de 2 años"
+  },
+  "Chemical": {
+   "clientes": [
+    "Methanex"
+   ],
+   "meta_2009": "US$30K",
+   "crecimiento": "segmento perdido por falta de gas en Magallanes"
+  },
+  "Others (F&B + EPC)": {
+   "clientes": [
+    "Actuadores, DVC, Reguladores y accesorios"
+   ],
+   "meta_2009": "US$100K",
+   "crecimiento": "promedio 3 años"
+  }
+ },
+ "competencia_valvulas": {
+  "Metso": "M&M y P&P. Mantiene mercado apoyado desde Santiago; acuerdo con maestranza en Antofagasta para servicios; estrategia de precios. En P&P su departamento de servicios está decayendo (despidieron a César Montecinos).",
+  "Dezurik": "Ataca base instalada de Metso y Fisher con precios y servicio local en Antofagasta. El producto 'no ha dejado buena impresión' y están terminando contrato con Escondida.",
+  "Samson": "Entró en CMPC Santa Fe, Valdivia, Laja y Maule. Arma: precios bajos MÁS entregas muy cortas (4 a 6 semanas en plaza).",
+  "Masoneilan": "Cada vez menos presencia: solo 2 vendedores y sin servicios. Se mantiene por precios bajos en proyectos internacionales; base instalada en Refinería Bio Bio apoyada por un sponsor en ingeniería de la planta.",
+  "Tyco / Bray / Least / Breay": "No tradicionales en minería: compiten en oportunidades puntuales por precio y entrega."
+ },
+ "proyectos_valvulas_2009": [
+  {
+   "proyecto": "Pascua Lama",
+   "monto_k": 1500,
+   "prob": 40
+  },
+  {
+   "proyecto": "Esperanza",
+   "monto_k": 1000,
+   "prob": 40
+  },
+  {
+   "proyecto": "Expansión Andina",
+   "monto_k": 400,
+   "prob": 30
+  },
+  {
+   "proyecto": "Expansión Los Bronces",
+   "monto_k": 700,
+   "prob": 30
+  },
+  {
+   "proyecto": "El Morro",
+   "monto_k": 1300,
+   "prob": 30
+  },
+  {
+   "proyecto": "LNG Mejillones",
+   "monto_k": 800,
+   "prob": 10
+  }
+ ],
+ "proyectos_power_2009": [
+  {
+   "proyecto": "Termoeléctrica Angamos",
+   "empresa": "Norgener",
+   "inversion_us_m": 1000
+  },
+  {
+   "proyecto": "Central Los Robles",
+   "empresa": "AES Gener",
+   "inversion_us_m": 1300
+  },
+  {
+   "proyecto": "Termoeléctrica Quintero",
+   "empresa": "Endesa",
+   "inversion_us_m": 200
+  },
+  {
+   "proyecto": "Central Farellones",
+   "empresa": "Codelco",
+   "inversion_us_m": 1500
+  },
+  {
+   "proyecto": "Termoeléctrica Kelar",
+   "empresa": "BHP Billiton",
+   "inversion_us_m": 800
+  },
+  {
+   "proyecto": "Central Cochrane",
+   "empresa": "Norgener",
+   "inversion_us_m": 1100
+  },
+  {
+   "proyecto": "Central San Pedro (Riñihue)",
+   "empresa": "Colbún",
+   "inversion_us_m": 233
+  },
+  {
+   "proyecto": "Termoeléctrico Energía Minera",
+   "empresa": "Codelco",
+   "inversion_us_m": 1700
+  },
+  {
+   "proyecto": "Termoeléctrica Salar",
+   "empresa": "Codelco Norte",
+   "inversion_us_m": 65
+  },
+  {
+   "proyecto": "Central Barracones",
+   "empresa": "Suez Andino",
+   "inversion_us_m": 1100
+  }
+ ],
+ "proyectos_refineria_2009": [
+  {
+   "proyecto": "HDT de ERA",
+   "inversion_vv_k": 400,
+   "epc": "Técnicas Reunidas"
+  },
+  {
+   "proyecto": "Alkilación de ERA",
+   "inversion_vv_k": 600,
+   "epc": "Técnicas Reunidas"
+  },
+  {
+   "proyecto": "Topping III de ERA",
+   "inversion_vv_k": 1000,
+   "epc": "Tecnip/Tipiel/P&A"
+  }
+ ],
+ "resultados_por_planta_2008": [
+  {
+   "planta": "Planta Arauco",
+   "grupo": "Arauco",
+   "venta_total_k": 469,
+   "valvulas_k": 141,
+   "margen_vv_k": 28.6,
+   "repuestos_k": 186,
+   "margen_rep_k": 45.6
+  },
+  {
+   "planta": "Arauco Nueva Aldea",
+   "grupo": "Arauco",
+   "venta_total_k": 394,
+   "valvulas_k": 188,
+   "margen_vv_k": 56.9,
+   "repuestos_k": 206,
+   "margen_rep_k": 43.0
+  },
+  {
+   "planta": "CMPC Pacífico",
+   "grupo": "CMPC",
+   "venta_total_k": 355,
+   "valvulas_k": 57.7,
+   "margen_vv_k": 15.0,
+   "repuestos_k": 287.3,
+   "margen_rep_k": 98.8
+  },
+  {
+   "planta": "CMPC Laja",
+   "grupo": "CMPC",
+   "venta_total_k": 128,
+   "valvulas_k": 47,
+   "margen_vv_k": 13.6,
+   "repuestos_k": 81,
+   "margen_rep_k": 16.9
+  },
+  {
+   "planta": "CMPC Maule",
+   "grupo": "CMPC",
+   "venta_total_k": 11.8,
+   "valvulas_k": 11.8,
+   "margen_vv_k": 2.4,
+   "repuestos_k": 0,
+   "margen_rep_k": 0
+  },
+  {
+   "planta": "CSH (Huachipato)",
+   "grupo": "CAP",
+   "venta_total_k": 25,
+   "valvulas_k": 25,
+   "margen_vv_k": 4.7,
+   "repuestos_k": 0,
+   "margen_rep_k": 0
+  },
+  {
+   "planta": "Enap",
+   "grupo": "ENAP",
+   "venta_total_k": 33,
+   "valvulas_k": 33,
+   "margen_vv_k": 3.8,
+   "repuestos_k": 33,
+   "margen_rep_k": 8.6
+  },
+  {
+   "planta": "Norske Skog",
+   "grupo": "Norske Skog",
+   "venta_total_k": 57,
+   "valvulas_k": 17,
+   "margen_vv_k": 5.8,
+   "repuestos_k": 40,
+   "margen_rep_k": 12.2
+  },
+  {
+   "planta": "Constitución",
+   "grupo": "Arauco",
+   "venta_total_k": 5.6,
+   "valvulas_k": 0,
+   "margen_vv_k": 0,
+   "repuestos_k": 5.7,
+   "margen_rep_k": 0
+  },
+  {
+   "planta": "Licancel",
+   "grupo": "Arauco",
+   "venta_total_k": 25,
+   "valvulas_k": 0,
+   "margen_vv_k": 0,
+   "repuestos_k": 25,
+   "margen_rep_k": 0
+  }
+ ],
+ "analisis_del_documento": {
+  "operaciones_en_plaza": "74% del MRG+Utild corresponde a operaciones en plaza (2006: 71%, 2007: 80%)",
+  "proyeccion_mercado": "mercado de válvulas US$10M-US$12M, proyectaba 15% de crecimiento anual y llegar a 52% en 3 años, 55% máximo",
+  "el_argumento": "el crecimiento adicional debe producirse en el ÁREA DE SERVICIOS, que reporta márgenes distintos"
+ },
+ "cruces_hoy": {
+  "CODELCO": {
+   "empresa_hoy": "CORP NACIONAL DEL COBRE DE CHILE",
+   "areas": 5,
+   "personas": 27,
+   "carga_toxica": 347.01
+  },
+  "ESCONDIDA": {
+   "empresa_hoy": "MINERA ESCONDIDA LIMITADA",
+   "areas": 4,
+   "personas": 10,
+   "carga_toxica": 265.66
+  },
+  "ANGLO AMERICAN": {
+   "empresa_hoy": "ANGLO AMERICAN SUR S.A.",
+   "areas": 2,
+   "personas": 3,
+   "carga_toxica": 0.24
+  },
+  "COLLAHUASI": {
+   "empresa_hoy": "CIA MINERA DONA INES DE COLLAHUASI SCM",
+   "areas": 1,
+   "personas": 1,
+   "carga_toxica": null
+  },
+  "CSH": {
+   "empresa_hoy": "CIA SIDERURGICA HUACHIPATO S A",
+   "areas": 1,
+   "personas": 1,
+   "carga_toxica": 23.75
+  },
+  "ARAUCO": {
+   "empresa_hoy": "CELULOSA ARAUCO Y CONSTITUCION S A",
+   "areas": 6,
+   "personas": 18,
+   "carga_toxica": 1222.48
+  },
+  "CMPC": {
+   "empresa_hoy": "CMPC CELULOSA S A",
+   "areas": 5,
+   "personas": 11,
+   "carga_toxica": 128.44
+  },
+  "NORSKE SKOG": {
+   "empresa_hoy": "",
+   "areas": 0,
+   "personas": 0,
+   "carga_toxica": null
+  },
+  "ENAP": {
+   "empresa_hoy": "ENAP REFINERIAS S A",
+   "areas": 2,
+   "personas": 2,
+   "carga_toxica": 397.71
+  },
+  "METHANEX": {
+   "empresa_hoy": "",
+   "areas": 0,
+   "personas": 0,
+   "carga_toxica": 105.04
+  },
+  "AES GENER": {
+   "empresa_hoy": "MAESTRANZA Y FUNDICION VESPUCIO S A",
+   "areas": 4,
+   "personas": 9,
+   "carga_toxica": 468.09
+  },
+  "ENDESA": {
+   "empresa_hoy": "",
+   "areas": 0,
+   "personas": 0,
+   "carga_toxica": null
+  },
+  "COLBUN": {
+   "empresa_hoy": "COLBUN S A",
+   "areas": 3,
+   "personas": 7,
+   "carga_toxica": 206.5
+  },
+  "NORGENER": {
+   "empresa_hoy": "",
+   "areas": 0,
+   "personas": 0,
+   "carga_toxica": null
+  },
+  "GAS ATACAMA": {
+   "empresa_hoy": "",
+   "areas": 0,
+   "personas": 0,
+   "carga_toxica": null
+  },
+  "ELECTROGAS": {
+   "empresa_hoy": "",
+   "areas": 0,
+   "personas": 0,
+   "carga_toxica": null
+  }
+ }
+}
