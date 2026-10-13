@@ -799,7 +799,7 @@
    "SIS"
   ],
   "explicacion": "Una linea es MEDIDA cuando sus partidas identifican el tipo de producto (ej. 'medidores de caudal', 'transmisores de presión', 'tableros de control'). Es TECHO cuando más de la mitad del valor cae en una partida residual que mezcla categorías: en válvulas, 'los demás artículos de grifería' (US$230,1M, 58%) incluye válvulas de control junto a grifería doméstica. Ese valor es el techo del mercado, no el mercado.",
-  "sis_no_medible_aparte": "SIS usa las MISMAS partidas que DCS (85371000, 85371010, 85371090, 85389000). No existe una partida de 'sistema instrumentado de seguridad': un SIS entra como tablero de control, igual que un DCS. Por eso el US$166,1M de SIS está CONTENIDO en los US$341,5M de DCS y NO se deben sumar: sumarlos sería contar dos veces.",
-  "total_corregido": "El total de hardware no puede ser la suma directa porque SIS está dentro de DCS. El mercado de hardware de automatización medido es US$341,5M (DCS, que contiene SIS) + US$128,4M (instrumentación) + US$148,5M (analítica, techo) + US$398,1M (válvulas, techo) = US$1.016,5M, con las salvedades de techo indicadas."
+  "sis_no_medible_aparte": "SIS usa las MISMAS partidas que DCS. No existe una partida de 'sistema instrumentado de seguridad': un SIS entra como tablero de control, igual que un DCS. Por eso su valor esta CONTENIDO en el de DCS y NO se deben sumar.",
+  "total_corregido": "El mercado de hardware de automatizacion medido es US$83,0M (DCS, que contiene SIS) + US$128,4M (instrumentacion) + US$148,5M (analitica, techo) + US$398,1M (valvulas, techo) = US$757,9M, con las salvedades de techo indicadas. NOTA: el DCS se corrigio desde US$341,5M al separar la aparamenta electrica (subestaciones GIS, 220 kV), que no es control de proceso."
  }
 }

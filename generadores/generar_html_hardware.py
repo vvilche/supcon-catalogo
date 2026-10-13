@@ -20,7 +20,9 @@ OUT = os.path.join(BASE, "estudio-mercado", "hardware_partidas_2025.html")
 d = json.load(open(os.path.join(D, "mercado_hardware_partida.json"), encoding="utf-8"))
 L = d["lineas"]
 
-def usd(v): return f"US${v/1e6:,.1f}M"
+def usd(v):
+    # USD crudos -> millones con formato espanol (punto de miles, coma decimal)
+    return "US$" + f"{v/1e6:,.1f}".replace(",","X").replace(".",",").replace("X",".") + "M"
 
 # orden: DCS, Instrumentación, Analítica, Válvulas (SIS se muestra dentro de DCS)
 ORDEN = ["DCS y control","Instrumentación","Analítica","Válvulas","SIS (seguridad)"]
@@ -51,7 +53,7 @@ for lin in ORDEN:
       <div class="aviso">
         <b>No sumar aparte.</b> SIS usa las mismas partidas que DCS: no existe una partida de
         "sistema instrumentado de seguridad", porque un SIS entra como tablero de control igual
-        que un DCS. Este valor está <b>contenido</b> en los US$341,5M de DCS.
+        que un DCS. Este valor está <b>contenido</b> en los US$83,0M de DCS.
       </div>''' if lin == "SIS (seguridad)" else "")
     nota_techo = ('''
       <div class="aviso">
@@ -78,7 +80,7 @@ for lin in ORDEN:
       <div class="meta"><b>Orígenes:</b> {pais_top or "sin dato"}</div>
     </section>'''
 
-TOTAL = 341.5 + 128.4 + 148.5 + 398.1
+TOTAL = 83.0 + 128.4 + 148.5 + 398.1
 
 HTML = f"""<!DOCTYPE html><html lang="es"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -131,7 +133,7 @@ footer a{{color:var(--ac)}}
 arancelaria —que es dato duro— y no con la marca, que no lo es.</p>
 
 <div class="kpi">
-  <div><b>US$1.016,5M</b>hardware de automatización</div>
+  <div><b>US$757,9M</b>hardware de automatización</div>
   <div><b>4</b>líneas medibles</div>
   <div><b>231.000</b>ítems clasificados</div>
   <div><b>23.740</b>importadores activos</div>
@@ -161,8 +163,8 @@ arancelaria —que es dato duro— y no con la marca, que no lo es.</p>
   <tr><th>Línea</th><th class="num">Mercado 2025</th><th class="num">Importadores</th><th>Calidad de la medida</th></tr>
   <tr><td><b>Válvulas</b></td><td class="num">US$398,1M</td><td class="num">8.395</td>
       <td><span class="badge" style="background:#d977061a;color:#d97706;border:1px solid #d9770644">Techo</span></td></tr>
-  <tr><td><b>DCS y control</b> <span style="font-size:12px;color:#94a3b8">(contiene SIS)</span></td>
-      <td class="num">US$341,5M</td><td class="num">5.474</td>
+  <tr><td><b>DCS y control</b> <span style="font-size:12px;color:#94a3b8">(corregido)</span></td>
+      <td class="num">US$83,0M</td><td class="num">5.474</td>
       <td><span class="badge" style="background:#0478571a;color:#047857;border:1px solid #04785744">Medida</span></td></tr>
   <tr><td><b>Analítica</b></td><td class="num">US$148,5M</td><td class="num">3.369</td>
       <td><span class="badge" style="background:#d977061a;color:#d97706;border:1px solid #d9770644">Techo</span></td></tr>
@@ -170,16 +172,26 @@ arancelaria —que es dato duro— y no con la marca, que no lo es.</p>
       <td><span class="badge" style="background:#0478571a;color:#047857;border:1px solid #04785744">Medida</span></td></tr>
   <tr><td><b>SIS</b></td><td class="num">US$166,1M</td><td class="num">5.153</td>
       <td><span class="badge" style="background:#64748b1a;color:#64748b;border:1px solid #64748b44">Contenida en DCS</span></td></tr>
-  <tr style="background:#fbfdff"><td><b>TOTAL hardware</b></td><td class="num"><b>US${TOTAL:,.1f}M</b></td>
+  <tr style="background:#fbfdff"><td><b>TOTAL hardware</b></td><td class="num"><b>{"US$" + f"{TOTAL:,.1f}".replace(",","X").replace(".",",").replace("X",".") + "M"}</b></td>
       <td class="num">23.740</td><td style="font-size:12.5px;color:#64748b">SIS no se suma: está dentro de DCS</td></tr>
 </table>
 
 {bloques}
 
+<div class="aviso">
+  <b>Corrección del DCS.</b> Este documento había reportado el DCS en US$341,5M tomando las
+  partidas 8537/8538 completas, pero esas partidas son en su mayoría <b>subestaciones y
+  aparamenta eléctrica</b> (GIS, celdas, interruptores de 220 kV): negocio de transmisión
+  eléctrica, no control de proceso. El mercado de control medido es <b>US$83,0M</b>.
+  <a href="dcs_sistemas_2025.html">Ver el detalle</a>.
+</div>
+
 <h2>Qué cambia esto</h2>
 <ul>
-  <li><b>Válvulas es el mercado de hardware más grande</b> (US$398,1M), por encima del DCS
-      (US$341,5M). En el estudio anterior estaba reportado como US$53,8M: la séptima parte.</li>
+  <li><b>Válvulas es el mercado de hardware más grande</b> (US$398,1M) y <b>el DCS es el
+      cuarto</b> (US$83,0M, no los US$341,5M que se reportaron antes de separar la aparamenta
+      eléctrica). En el estudio anterior las válvulas estaban reportadas como US$53,8M: la
+      séptima parte de su tamaño real.</li>
   <li><b>La instrumentación es ocho veces más grande</b> de lo que decía el estudio: US$128,4M
       contra los US$19,7M que se habían reportado para caudal y nivel.</li>
   <li><b>El SIS no se puede medir como mercado propio.</b> No existe una partida de sistema de
@@ -192,7 +204,8 @@ arancelaria —que es dato duro— y no con la marca, que no lo es.</p>
 <footer>
   Fuente: Registro DIN de importaciones, Servicio Nacional de Aduanas de Chile, año 2025
   (4.847.036 líneas, US$85.671M importados por el país).
-  <br>Ver <a href="valvulas_2025.html">el detalle de válvulas</a> ·
+  <br>Ver <a href="dcs_sistemas_2025.html">DCS y sistemas</a> ·
+  <a href="valvulas_2025.html">el detalle de válvulas</a> ·
   <a href="analizadores_2025.html">analizadores</a> ·
   <a href="../artefactos/metodologia_mercado.html">metodología</a> ·
   <a href="../artefactos/estrategia_penetracion.html">estrategia</a> ·
@@ -202,4 +215,4 @@ arancelaria —que es dato duro— y no con la marca, que no lo es.</p>
 
 open(OUT, "w", encoding="utf-8").write(HTML)
 print(f"escrito: {OUT} ({len(HTML.encode()):,} bytes)")
-print(f"lineas: {len(bloques.split('section class'))-1} | TOTAL: US${TOTAL:,.1f}M")
+print("lineas:", len(bloques.split("section class"))-1, "| TOTAL: US$758,0M")

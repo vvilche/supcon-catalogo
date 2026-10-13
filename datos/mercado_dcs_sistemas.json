@@ -1,0 +1,420 @@
+{
+ "partidas": "85371000, 85371010, 85371090, 85372000, 85372010, 85372090, 85381000, 85389000",
+ "total_partidas_usd": 363077454.81,
+ "control_proceso_usd": 119809436.93,
+ "control_proceso_importadores": 3340,
+ "distribucion_electrica_usd": 113047595.0,
+ "distribucion_electrica_importadores": 674,
+ "seguridad_funcional_usd": 773048.4,
+ "ruido_restado_usd": 27893409.72,
+ "por_categoria": {
+  "sin clasificar": {
+   "usd": 97607088.38,
+   "items": 19705.0,
+   "por_partida": [
+    [
+     "Tableros y paneles de control (hasta 1000 V)",
+     26935631.84
+    ],
+    [
+     "Partes de tableros y paneles",
+     26905126.99
+    ],
+    [
+     "Partes de aparatos eléctricos de conexión",
+     23601057.03
+    ],
+    [
+     "Tableros eléctricos (otros)",
+     13792429.1
+    ],
+    [
+     "Tableros de distribución de alta tensión",
+     6372843.42
+    ]
+   ]
+  },
+  "Control de proceso (DCS/PLC/SCADA)": {
+   "usd": 119809436.93,
+   "items": 15164.0,
+   "por_partida": [
+    [
+     "Tableros y paneles de control (hasta 1000 V)",
+     75979426.52
+    ],
+    [
+     "Tableros eléctricos (otros)",
+     23934898.0
+    ],
+    [
+     "Partes de aparatos eléctricos de conexión",
+     11941026.12
+    ],
+    [
+     "Tableros de distribución de alta tensión",
+     5687302.3
+    ],
+    [
+     "Partes de tableros y paneles",
+     2266783.99
+    ]
+   ]
+  },
+  "ruido": {
+   "usd": 27893409.72,
+   "items": 3267.0,
+   "por_partida": [
+    [
+     "Tableros y paneles de control (hasta 1000 V)",
+     20478845.15
+    ],
+    [
+     "Partes de aparatos eléctricos de conexión",
+     4558594.73
+    ],
+    [
+     "Tableros eléctricos (otros)",
+     1452951.12
+    ],
+    [
+     "Partes de tableros y paneles",
+     1232289.63
+    ],
+    [
+     "Tableros de distribución de alta tensión",
+     170729.09
+    ]
+   ]
+  },
+  "Seguridad funcional (SIS/ESD/F&G)": {
+   "usd": 773048.4,
+   "items": 182.0,
+   "por_partida": [
+    [
+     "Tableros y paneles de control (hasta 1000 V)",
+     528185.44
+    ],
+    [
+     "Partes de aparatos eléctricos de conexión",
+     210193.2
+    ],
+    [
+     "Tableros eléctricos (otros)",
+     28503.87
+    ],
+    [
+     "Partes de tableros y paneles",
+     6165.89
+    ]
+   ]
+  },
+  "Distribución eléctrica (celdas, CCM)": {
+   "usd": 113047595.0,
+   "items": 7913.0,
+   "por_partida": [
+    [
+     "Tableros eléctricos (otros)",
+     61845334.84
+    ],
+    [
+     "Tableros de distribución de alta tensión",
+     26144230.61
+    ],
+    [
+     "Tableros y paneles de control (hasta 1000 V)",
+     13185856.66
+    ],
+    [
+     "Partes de tableros y paneles",
+     5999609.7
+    ],
+    [
+     "Partes de aparatos eléctricos de conexión",
+     5872563.19
+    ]
+   ]
+  },
+  "Instrumentación de sistema": {
+   "usd": 930616.86,
+   "items": 344.0,
+   "por_partida": [
+    [
+     "Partes de aparatos eléctricos de conexión",
+     519432.05
+    ],
+    [
+     "Tableros y paneles de control (hasta 1000 V)",
+     334639.93
+    ],
+    [
+     "Tableros eléctricos (otros)",
+     65801.68
+    ],
+    [
+     "Partes de tableros y paneles",
+     10743.2
+    ]
+   ]
+  },
+  "Red de control / comunicación": {
+   "usd": 3016259.52,
+   "items": 150.0,
+   "por_partida": [
+    [
+     "Tableros y paneles de control (hasta 1000 V)",
+     2704434.81
+    ],
+    [
+     "Partes de aparatos eléctricos de conexión",
+     188856.18
+    ],
+    [
+     "Partes de tableros y paneles",
+     122968.53
+    ]
+   ]
+  }
+ },
+ "marcas_control": [
+  [
+   "SIEMENS",
+   18757753.93
+  ],
+  [
+   "ABB",
+   9457814.64
+  ],
+  [
+   "HITACHI ENERGY",
+   8558685.56
+  ],
+  [
+   "ROCKWELL",
+   4554228.23
+  ],
+  [
+   "SCHNEIDER",
+   3895310.79
+  ],
+  [
+   "SCHNEIDER ELECTRIC",
+   2509823.15
+  ],
+  [
+   "HITACHI",
+   2462083.16
+  ],
+  [
+   "ETP ELEKTRO",
+   2449700.93
+  ],
+  [
+   "EATON",
+   1974822.81
+  ],
+  [
+   "PHOENIX CONTACT",
+   1902969.87
+  ],
+  [
+   "S.E.",
+   1421046.54
+  ],
+  [
+   "TAKRAF",
+   1418490.23
+  ],
+  [
+   "HMV INGENIEROS",
+   1221477.78
+  ],
+  [
+   "BUHLER",
+   1100386.76
+  ],
+  [
+   "JOY GLOBAL",
+   924596.97
+  ],
+  [
+   "NR ENGINEERING SISTEMA DE CO",
+   858100.0
+  ],
+  [
+   "GE",
+   857434.84
+  ],
+  [
+   "INNOMOTICS",
+   835954.46
+  ],
+  [
+   "ANG FONDA",
+   818573.9
+  ],
+  [
+   "DANFOSS",
+   799083.07
+  ],
+  [
+   "E.D.S.",
+   732614.81
+  ],
+  [
+   "ALLEN BRADLEY",
+   704357.08
+  ],
+  [
+   "VERTIV",
+   683373.41
+  ],
+  [
+   "AAB",
+   682613.65
+  ]
+ ],
+ "marcas_electrico": [
+  [
+   "SIEMENS",
+   12720969.63
+  ],
+  [
+   "S.",
+   10925711.99
+  ],
+  [
+   "STERLITE",
+   10278637.33
+  ],
+  [
+   "S.E.",
+   8867323.44
+  ],
+  [
+   "STERLIYE",
+   7783865.72
+  ],
+  [
+   "HYOSUNG HEAVY",
+   4680886.0
+  ],
+  [
+   "ALSTOM",
+   4472491.8
+  ],
+  [
+   "GRIDSOLUTIONS",
+   3530089.62
+  ],
+  [
+   "SCHNEIDER",
+   3129177.54
+  ],
+  [
+   "LEGRAND",
+   3019540.93
+  ],
+  [
+   "SIEMENS ENERGY",
+   2586839.64
+  ],
+  [
+   "ABB",
+   2346418.19
+  ],
+  [
+   "SIEYUAN",
+   2327607.12
+  ],
+  [
+   "CHINT",
+   2220007.28
+  ],
+  [
+   "SCHNEIDER ELECTRIC",
+   2044754.47
+  ],
+  [
+   "DAVENHAM SWTCHGEAR",
+   1971915.34
+  ],
+  [
+   "EATON",
+   1930108.42
+  ],
+  [
+   "CIA CHINT CON AISLAMIENTO DE",
+   1719659.0
+  ],
+  [
+   "HITACHI",
+   1612688.28
+  ],
+  [
+   "SEL",
+   1363655.96
+  ]
+ ],
+ "origen_control": [
+  [
+   "Alemania",
+   32775891.93
+  ],
+  [
+   "China",
+   15649300.12
+  ],
+  [
+   "Francia",
+   14590904.0
+  ],
+  [
+   "España",
+   9171704.02
+  ],
+  [
+   "Noruega",
+   8405384.07
+  ],
+  [
+   "cód. 904",
+   4036339.48
+  ],
+  [
+   "cód. 202",
+   3868846.54
+  ],
+  [
+   "EE.UU.",
+   3644860.27
+  ],
+  [
+   "Singapur",
+   3544947.78
+  ],
+  [
+   "Países Bajos",
+   3527524.69
+  ]
+ ],
+ "nota": "No existe partida arancelaria de DCS: un DCS entra como 'tablero con aparato eléctrico de control' (85371000), igual que un tablero de distribución. La separación se hace por glosa y marca. Las partidas 8537-8538 mezclan control de proceso con distribución eléctrica: la distribución NO es el rubro de SUPCON y se reporta aparte para no inflar su mercado.",
+ "correccion_al_metodo": {
+  "hallazgo": "Las partidas 8537/8538 NO son mayoritariamente control de proceso. Al revisar los ítems más grandes se ve que son SUBESTACIONES Y APARAMENTA ELÉCTRICA: GIS de Siemens Energy y Hitachi Energy (ELK-3, ELK-14), celdas Alstom, interruptores 220 kV, seccionadoras Sterlite y Hyosung Heavy. Las partidas 853720xx (>1000 V) suman US$139,5M (38,4%) y son negocio eléctrico de transmisión, NO automatización de proceso.",
+  "el_dcs_esta_en_dos_partidas": "No existe una partida de DCS. El sistema de control entra según cómo lo declare el importador: como 'tablero con aparato eléctrico de control' (85371000, baja tensión) o como 'regulador automático' (90328900). En 9032 aparecen DCS reales: ABB 'SISTEMA DE CONTROL', Honeywell C300 'ESTACIÓN DE OPERACIÓN'. Hay que sumar las dos."
+ },
+ "desglose_verificado": {
+  "alta_tension_subestaciones_usd": 139.5,
+  "baja_tension_distribucion_usd": 13.0,
+  "baja_tension_control_proceso_usd": 39.8,
+  "baja_tension_sin_glosa_usd": 87.3,
+  "partes_tableros_usd": 83.4,
+  "reguladores_automaticos_usd": 65.9,
+  "control_proceso_confirmado_usd": 83.0
+ },
+ "lectura": {
+  "mercado_control_proceso_medido": 83.0,
+  "explicacion": "El control de proceso confirmado es US$0.0M: US$0.0M en tableros de baja tensión con glosa de control + US$0.0M en la partida de reguladores automáticos (donde aparecen los DCS reales). El resto de 8537/8538 (US$0.0M en alta tensión, distribución y partes) es negocio eléctrico, no automatización de proceso.",
+  "dudoso": "US$0.0M en baja tensión sin glosa clasificable. Es el límite del dato: no se puede saber si es control o distribución. Se declara, no se reparte.",
+  "sis": "El SIS no tiene partida propia. Aparece por glosa dentro de los tableros (F&G, alarma, incendio) y en el mercado se vende DENTRO del proyecto de control, no como categoría aparte."
+ }
+}
