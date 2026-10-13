@@ -1,0 +1,386 @@
+{
+ "que_es": "Extracción completa del eCRM de INECO (2023-2025): 681 oportunidades reales (tras limpiar filas de totales) con cliente, contacto, BU, monto y estado.",
+ "bu_descifradas": {
+  "FCS": "Fisher Control Solutions — válvulas de control, posicionadores, actuadores",
+  "ISV": "Isolation Valves — válvulas de aislamiento (bola, cuchilla, mariposa, compuerta)",
+  "RMD": "Rosemount Measurement — instrumentación de campo (presión, temp, flujo, nivel)",
+  "RFD": "Rosemount Flow Devices — caudalímetros magnéticos y másicos",
+  "FI": "Field Instruments / consumibles — solenoides, accesorios, cables",
+  "RQ": "Requisiciones — equipos rotativos (bombas) y repuestos mecánicos",
+  "SYS": "Sistemas — AMS, Trex, monitoreo de condición, wireless",
+  "REG": "Reguladores de presión (Fisher 67CFR, Tescom)",
+  "RAI": "Rosemount Analytical — analítica de gases y líquidos",
+  "PRV": "Pressure Relief Valves — válvulas de seguridad y alivio",
+  "MSOL": "Measurement Solutions — proyectos con ingeniería"
+ },
+ "supcon_cubre": {
+  "FCS": {
+   "linea": "SUPCON Valves + CVP2000",
+   "nota": "reemplazo directo: válvulas de control y posicionador"
+  },
+  "ISV": {
+   "linea": "SUPCON Valves",
+   "nota": "reemplazo directo: válvulas de aislamiento"
+  },
+  "PRV": {
+   "linea": "SUPCON Valves (parcial)",
+   "nota": "requiere validar rango y certificación"
+  },
+  "REG": {
+   "linea": "SUPCON Valves (parcial)",
+   "nota": "reguladores: validar catálogo"
+  },
+  "ACT": {
+   "linea": "SUPCON Valves",
+   "nota": "actuadores eléctricos y neumáticos"
+  },
+  "RMD": {
+   "linea": "SUPCON Instruments (CXT/CJT)",
+   "nota": "presión, temperatura, nivel"
+  },
+  "RFD": {
+   "linea": "SUPCON Instruments",
+   "nota": "caudal: validar magnético vs Coriolis"
+  },
+  "RAI": {
+   "linea": "SUPCON Analítica (parcial)",
+   "nota": "validar línea de gases"
+  },
+  "SYS": {
+   "linea": "SUPCON Software / Tier0",
+   "nota": "AMS ≈ PRIDE/supOS; monitoreo ≈ Tier0 UNS"
+  },
+  "FI": {
+   "linea": "SUPCON Instruments (parcial)",
+   "nota": "soluciones y consumibles"
+  },
+  "RQ": {
+   "linea": "—",
+   "nota": "no es línea SUPCON: bombas y rotativos"
+  },
+  "MSOL": {
+   "linea": "SUPCON + Tier0",
+   "nota": "proyectos: instrumentación y automatización"
+  }
+ },
+ "totales": {
+  "oportunidades": 681,
+  "valor_cotizado_usd": 20816668.0,
+  "valor_cubierto_supcon_usd": 17945989.0,
+  "pct_cubierto": 86.2
+ },
+ "por_bu": {
+  "FCS": {
+   "oportunidades": 210,
+   "usd": 5485913.0
+  },
+  "ISV": {
+   "oportunidades": 129,
+   "usd": 5690451.83
+  },
+  "REG": {
+   "oportunidades": 24,
+   "usd": 85382.5
+  },
+  "FI": {
+   "oportunidades": 75,
+   "usd": 703465.0
+  },
+  "RQ": {
+   "oportunidades": 36,
+   "usd": 2633041.5
+  },
+  "RFD": {
+   "oportunidades": 53,
+   "usd": 2199708.33
+  },
+  "SYS": {
+   "oportunidades": 29,
+   "usd": 694103.0
+  },
+  "RMD": {
+   "oportunidades": 104,
+   "usd": 2467785.33
+  },
+  "RAI": {
+   "oportunidades": 10,
+   "usd": 356644.0
+  },
+  "PRV": {
+   "oportunidades": 10,
+   "usd": 195427.5
+  },
+  "MSOL": {
+   "oportunidades": 4,
+   "usd": 9746.0
+  },
+  "ACT": {
+   "oportunidades": 3,
+   "usd": 53496.0
+  }
+ },
+ "clientes_hoy": {
+  "MLP": {
+   "cotizaciones": 248,
+   "usd_cotizado": 7774847.0,
+   "oc": 122,
+   "usd_oc": 2358072.0,
+   "empresa_hoy": "MINERA LOS PELAMBRES",
+   "areas": 2,
+   "personas": 3,
+   "carga_toxica": null
+  },
+  "Andina": {
+   "cotizaciones": 83,
+   "usd_cotizado": 3874847.0,
+   "oc": 18,
+   "usd_oc": 673742.0,
+   "empresa_hoy": "",
+   "areas": 0,
+   "personas": 0,
+   "carga_toxica": 158.07
+  },
+  "Candelaria": {
+   "cotizaciones": 95,
+   "usd_cotizado": 2477728.0,
+   "oc": 50,
+   "usd_oc": 1470998.0,
+   "empresa_hoy": "CIA CONTRACTUAL MINERA CANDELARIA",
+   "areas": 2,
+   "personas": 2,
+   "carga_toxica": 166.59
+  },
+  "Salvador": {
+   "cotizaciones": 50,
+   "usd_cotizado": 1306287.0,
+   "oc": 14,
+   "usd_oc": 407281.0,
+   "empresa_hoy": "",
+   "areas": 0,
+   "personas": 0,
+   "carga_toxica": null
+  },
+  "Enami": {
+   "cotizaciones": 34,
+   "usd_cotizado": 1292485.0,
+   "oc": 7,
+   "usd_oc": 91643.0,
+   "empresa_hoy": "",
+   "areas": 0,
+   "personas": 0,
+   "carga_toxica": null
+  },
+  "Caserones": {
+   "cotizaciones": 36,
+   "usd_cotizado": 1047699.0,
+   "oc": 23,
+   "usd_oc": 443835.0,
+   "empresa_hoy": "",
+   "areas": 0,
+   "personas": 0,
+   "carga_toxica": null
+  },
+  "Codelco": {
+   "cotizaciones": 6,
+   "usd_cotizado": 810576.0,
+   "oc": 1,
+   "usd_oc": 0.0,
+   "empresa_hoy": "",
+   "areas": 0,
+   "personas": 0,
+   "carga_toxica": null
+  },
+  "JRI": {
+   "cotizaciones": 7,
+   "usd_cotizado": 380108.0,
+   "oc": 1,
+   "usd_oc": 22132.0,
+   "empresa_hoy": "",
+   "areas": 0,
+   "personas": 0,
+   "carga_toxica": null
+  },
+  "Kinross": {
+   "cotizaciones": 2,
+   "usd_cotizado": 286664.0,
+   "oc": 1,
+   "usd_oc": 186664.0,
+   "empresa_hoy": "",
+   "areas": 0,
+   "personas": 0,
+   "carga_toxica": null
+  },
+  "Potrerillos": {
+   "cotizaciones": 2,
+   "usd_cotizado": 219228.0,
+   "oc": 0,
+   "usd_oc": 0.0,
+   "empresa_hoy": "",
+   "areas": 0,
+   "personas": 0,
+   "carga_toxica": null
+  },
+  "CMP": {
+   "cotizaciones": 11,
+   "usd_cotizado": 193109.0,
+   "oc": 8,
+   "usd_oc": 128473.0,
+   "empresa_hoy": "CMPC CELULOSA S A",
+   "areas": 5,
+   "personas": 12,
+   "carga_toxica": 128.44
+  },
+  "Verne SPA": {
+   "cotizaciones": 7,
+   "usd_cotizado": 171595.0,
+   "oc": 1,
+   "usd_oc": 129093.0,
+   "empresa_hoy": "",
+   "areas": 0,
+   "personas": 0,
+   "carga_toxica": null
+  },
+  "Servasol": {
+   "cotizaciones": 1,
+   "usd_cotizado": 138284.0,
+   "oc": 1,
+   "usd_oc": 138284.0,
+   "empresa_hoy": "",
+   "areas": 0,
+   "personas": 0,
+   "carga_toxica": null
+  },
+  "Soltex": {
+   "cotizaciones": 1,
+   "usd_cotizado": 101050.0,
+   "oc": 0,
+   "usd_oc": 0.0,
+   "empresa_hoy": "",
+   "areas": 0,
+   "personas": 0,
+   "carga_toxica": null
+  },
+  "Pucobre": {
+   "cotizaciones": 9,
+   "usd_cotizado": 99755.0,
+   "oc": 5,
+   "usd_oc": 75384.0,
+   "empresa_hoy": "",
+   "areas": 0,
+   "personas": 0,
+   "carga_toxica": null
+  },
+  "KOSLAN-MLP": {
+   "cotizaciones": 2,
+   "usd_cotizado": 67534.0,
+   "oc": 2,
+   "usd_oc": 67534.0,
+   "empresa_hoy": "MINERA LOS PELAMBRES",
+   "areas": 2,
+   "personas": 3,
+   "carga_toxica": null
+  },
+  "Ventana": {
+   "cotizaciones": 15,
+   "usd_cotizado": 58984.0,
+   "oc": 4,
+   "usd_oc": 10949.0,
+   "empresa_hoy": "",
+   "areas": 0,
+   "personas": 0,
+   "carga_toxica": 614.8
+  },
+  "SGS": {
+   "cotizaciones": 1,
+   "usd_cotizado": 56918.0,
+   "oc": 1,
+   "usd_oc": 56918.0,
+   "empresa_hoy": "",
+   "areas": 0,
+   "personas": 0,
+   "carga_toxica": null
+  }
+ },
+ "contactos": {
+  "German Diaz": {
+   "cotizaciones": 32,
+   "usd": 700863.0
+  },
+  "Leonid carrizo": {
+   "cotizaciones": 29,
+   "usd": 280573.0
+  },
+  "Manuel Rojas": {
+   "cotizaciones": 20,
+   "usd": 940423.0
+  },
+  "Patricia Adriazola": {
+   "cotizaciones": 18,
+   "usd": 529257.0
+  },
+  "leonid Carrizo": {
+   "cotizaciones": 18,
+   "usd": 259734.0
+  },
+  "Javiera Reyes": {
+   "cotizaciones": 17,
+   "usd": 397448.0
+  },
+  "Jorge Marcano": {
+   "cotizaciones": 15,
+   "usd": 103107.0
+  },
+  "Leonid Carrizo": {
+   "cotizaciones": 14,
+   "usd": 40997.0
+  },
+  "Ariel Cuadra": {
+   "cotizaciones": 13,
+   "usd": 187548.0
+  },
+  "Paula Montes": {
+   "cotizaciones": 11,
+   "usd": 114825.0
+  },
+  "Cesar Fuentes": {
+   "cotizaciones": 11,
+   "usd": 159044.0
+  },
+  "Rodrigo Zambrano": {
+   "cotizaciones": 9,
+   "usd": 703396.0
+  },
+  "Rigoberto Barrera": {
+   "cotizaciones": 9,
+   "usd": 111377.0
+  },
+  "Paulina Santander": {
+   "cotizaciones": 8,
+   "usd": 11831.0
+  },
+  "Carolina Valenzuela": {
+   "cotizaciones": 7,
+   "usd": 156272.0
+  },
+  "Alejandro Torres": {
+   "cotizaciones": 7,
+   "usd": 45296.0
+  },
+  "Valentina Olivares": {
+   "cotizaciones": 6,
+   "usd": 540000.0
+  },
+  "Francisca Milla": {
+   "cotizaciones": 6,
+   "usd": 222525.0
+  },
+  "Alejandro Alvarez": {
+   "cotizaciones": 6,
+   "usd": 301804.0
+  },
+  "Francisco Olivares": {
+   "cotizaciones": 5,
+   "usd": 251248.0
+  }
+ }
+}

@@ -1,0 +1,699 @@
+anio,n,rfq,contacto,bu,cliente,oportunidad,descripcion,valor_usd,plazo_entrega,oc,fecha_oc,fecha_cierre,ecrm,cotizacion,estado_ecrm,estado,comision,mes_gp,valor_num
+2023,1,7000209560,Samuel Fernandez,FCS-ISV-REG-FI,Codelco,KOB2B,"Licitacion 7000209560, contrato marco  por el suministro de valvulas y repuestos",,,4600025003,2022-12-23,2022-10-05,4173,FCS_RAI_REG_SPEC-16909,,Carta firmada enviada a Codelco el 23-12-22,(ex 162636--JOZ) Precio indicado a 24 meses de contrato,,
+2023,1,Ariba,Ruben Pino,ISV,Andina,KOB2,"SUMINISTRO de 32  VÁLVULAS MOTORIZADAS, CONCENTRADUCTO",,,,,2022-07-12,2805,,,ecrm creado pero no es enviado a Ineco para generar la cotizacion,,,
+2023,1,correo,Rodrigo Donoso,RQ,Andina,KOB3,Repuestos para Bomba Sundyne LMV-322,28866,14,,,2021-10-26,1041,RQ-20207,,cotizacion enviada a Andina el 27-10-21,ex 194135--JOZ,,28866.0
+2023,1,7000259018,Richard Flores,RFD,Andina,KOB3,"Sensor de Caudalímetro Magnético 8705 de 16"" Rosemount",14818,14,,,2021-08-16,184665-PWC,RFD-19552,,cotizacion presentada a Codelco el 16-08-21,,,14818.0
+2023,1,7000283455,Richard Flores,FCS,Andina,KOB3,10 unidades de POSICIONADOR NEUM FISHER 3570,26390,10,,,2022-05-06,2168,FCS- 21808,,cotizacion subida al portal el 06-05-22,vence a las 15:00 hrs,,26390.0
+2023,1,7000285593,Richard Flores,ISV,Andina,KOB3,4 unidades VALVULA BOLA NEOTECHA NTC050NB1FA1L00,24167,14,,,2022-05-27,2459,SPEC-22005,,ecrm enviado a Ineco el 20-05-22,completar licencia de exportación,,24167.0
+2023,1,7000265324,Paula Montes,FCS,Andina,KOB3,"Malvula Mariposa de control de 14""",9600,33,,,2021-10-28,193946-PWC,SPEC-20212,,cotizacion subida al portal de codelco el 28-10-21,,,9600.0
+2023,1,7000271530,Paula Montes,FI,Andina,KOB3,VALVULA PARKER N3659104853,5485,12,,,2021-12-30,529,FI-20772,,propuesta subida al portal el 30-12-21,,,5485.0
+2023,1,7000287518,Paula Montes,FI,Andina,KOB3,4 VALVULA SOLEN ASCO 8210G94,686,8,,,2022-06-17,2808,FI-22269,,cotizacion presentada en el portal el 16-06-22,,,686.0
+2023,1,7000289100,Paula Montes,ISV,Andina,KOB3,6 unidades de Valvulas  BOLA NEOTECHA NTB080NB1FA1L00,28730,31,perdido,,2022-07-01,2982,SPEC-22373,,Cotizacion subida al portal el 01-07-22,,,28730.0
+2023,1,Correo,Mauricio Claveria,RFD,Ventana,KOB3,Flujometro de aire,3850,9,,,2021-04-16,170772--JOZ,RFD-18569,,Cotizacion enviada al cliente el 23-04-21,,,3850.0
+2023,1,correo,Juan Gallardo,RQ,Andina,KOB3,Nueva bomba LVM-322,106383,38,,,2022-07-13,3109,RQ-22545,,cotizacion enviada el 04-08-22,,,106383.0
+2023,1,correo,Juan Gallardo,RQ,Andina,KOB3,"repuestos recomendados clase 1, clase 2 y clase 3 para bomba  Sundyne modelo LVM-322",56461,13,,,2022-07-13,3140,RQ-22502 rev 01,,cotizacion enviada al cliente el 20-07-22,se solicta que se incluya el intercambiador de calor,,56461.0
+2023,1,7000283948,Jason Diaz,FI,Ventana,KOB3,Valvulas solenoides,,,,,2022-05-11,2196,,,ecrm enviado a Ineco el 03-05-22,vence a las 15:00 del dia 11 de mayo // nos se cotizar por que no se consigue el voltaje,,
+2023,1,Correo,Ivan Caro,FCS,Andina,KOB2,Upgrade celdas de flotacion,,,,,,729,,,,,,
+2023,1,7000231022,Ivan Caro,FCS,Andina,KOB3,"ACTUADOR PISTON NEUMATICO, TAMAÑO 80, ACTUADOR: 3570,",19031,27,,,2021-08-16,177976--JOZ,FCS-15629 Rev 1,,cotizacion enviada a Codelco el 16-08-21,,,19031.0
+2023,1,correo,Gonzalo Tapia,REG,Ventana,KOB3,Reguladores  de presion,9277,13,,,2022-05-13,2291,REG-21876,,cotizacion enviada al cliente el 13-05-22,,,9277.0
+2023,1,7000250514,German Cabello,FCS,Ventana,KOB3,valvula de control Fisher 8580 con actuador 2052,9517,17,,,2021-05-18,173274--JOZ,FCS-18703,,cotizacion subida al portal el 17-05-21,vence a las 15 hrs del 18-05-21,,9517.0
+2023,1,correo,Felipe Henriquez,FCS,MLP,KOB2B,Válvulas de control para manejo de aire  en celdas de flotación 6,30427,8,perdido,,2022-10-20,3661,SPEC-22947 Rev 4,,La cotizacion aun no ha sido enviada a el cliente,Se perdió el negocio por que el costo presentado en la rev 02 elevo el precio de venta en un 288%,,30427.0
+2023,1,correo,Eduardo Gallardo,ISV,Andina,KOB2,SUMINISTRO VÁLVULAS MANUALES - IMPULSIÓN DE RILES PMFC,1004219,30,,,2022-08-17,3469,SPEC-22832,,cotizacion subida al portal de codelco el 31-08-22,vence a las 15 hrs,,1004219.0
+2023,1,4642000997,Patricia Adriazola,FCS,MLP,KOB3,ACTUADOR VALVULA; TAMAÃ‘O 60; 8-1/2 PULG DIA.; 150PSIG; CARRERA 8-1/8 PULG; MOD. 481-16; NO INCLUYE POSICIONADOR,63670,12,4590081689,2023-06-05,2023-06-05,7336,,,OC enviada a Ineco el 07-06-23,,,63670.0
+2023,1,7000291698,Abastecimiento,ISV,Andina,KOB3,38B6041X152,29055,32,,,2022-07-28,3385,SPEC-22676,,ecrm enviado a Ineco el 26-07-22,ecrm eliminado por que no alcanzamos a subir la cotizacion,,29055.0
+2023,1,6010131441,Rossanny Carrasqueño,FCS,MLP,KOB3,Minera Los Pelambres6010131441 // 7 unid POSICIONADOR VALVULA; DIGITAL; REMOTO; NEMA 4X; ENTRADA FIELDBUS FOUNDATION; NIVEL SCFC; CELDA FLOTACION SCAVENGER /,52480,14,4510179566,2022-12-21,2022-12-15,5144,FCS-23956,,OC enviada a Ineco el 21-12-22,,,52480.0
+2023,1,Correo,George Quicham,ISV,SGS,KOB2,"8 válvulas de clase 300, actuadas eléctricamente (On Off)",56918,4,perdido,,2022-10-11,4302,SPEC-32414,,Cotizacion enviada al cliente el 13-10-22,Usuario final Candelaria,,56918.0
+2023,1,Contrato,abastecimiento,FCS,MLP,KOB3,5 unidades de TRANSDUCTOR POSICION; SENSOR IPAX // 4 unidades POSICIONADOR VALVULA;FISHERCO;DVC6005F,46217,6,4590083811,2023-08-14,2023-08-14,8227,,,ecrm enviado a Ineco por carla el 25-08-23,,,46217.0
+2023,1,correo,,FCS,MLP,,4 unidades Posicionadores de valvulas FF y 10 unidades RELAY ASSEMBLY;DIRECT AND DOUBLE-ACTING,42346,13,4510182807,2023-02-03,,5698,FCS-24391,,OC enviada a Ineco el 03-02-23,,,42346.0
+2023,1,M13001171,Abastecimiento,RQ,Enami,KOB2,SUMINISTRO DEMISTER TORRE SECADO PLANTA 2,19290,6,4500013966,2022-11-15,2022-10-14,4320,RQ-23416,,OC enviada a Ineco el 15-11-22,,,19290.0
+2023,1,6010137665,Jorge Marcano,ISV,MLP,KOB3,"Válvula mariposa Keystone serie 36 de 14"" clase 150 (potencial de venta 30 unidades)",39625,27,4510187429,2023-04-17,2023-03-31,6543,SPEC-25013,,OC enviada a Ineco el 18-04-23,valvula de prueba para el control de aire en las celdas de flotacion,,39625.0
+2023,1,correo,Abastecimiento,ISV,Andina,KOB3,SUMINISTRO VALVULAS MANUALES - ESTACIÓN BOMBEO PIUQUENES,,,,,2022-11-28,4408,,,ecrm enviado a Ineco el 14-10-22,vence a las 16:00 hrs,,
+2023,1,M13001057,Martin Briones  / Francisca Milla Orellana,PRM,Enami,KOB2,Cotizacion petición oferta M13001057  -FUNDICION PAIPOTE // 4 Valvulas de seguidad Anderson Greewood,86442,,,,2022-10-21,4453,PRV-23477,,cotizacion enviada al cliente el 02-11-22,Preguntar pro el estado de esta cotizacion,,86442.0
+2023,1,6000086152,German Diaz,FCS,Candelaria,KOB3,VALVULA FISHER TIPO ED,,,,,2022-10-21,,,,,"se pregunta al cliente el tamaño de la valvula, ya que no se menciona",,
+2023,1,correo,Pedro Correa,SYS,Bechtel,KOB3,Equipo Comunicador de campo EMERSON TREX (TREXLFPKLWS3S),14796,16,26148-320-FPA-AE00-00131,2022-11-24,2022-10-21,4462,SYS-23473,,OC enviada a Ineco el 24-11-22,se envia cotizacion a Alex Jamet el 02-11-22 ( se envia la cot SYS-23473),,14796.0
+2023,1,correo,Jean Japaz,FI,Ing CPF,KOB3,"Accesorios de CSI 2130 (Cables D25782 Cantidad (1) 
+D25543-D25494 (1) )",,,,,2022-10-24,,,,Se esta solicitando a la Ing el rut para ingresarlos al sistema de Ineco,,,
+2023,1,6010129020,Leonid carrizo,ISV,MLP,KOB3,Minera Los Pelambres6010129020 //  VALVULA;BIFFI;44N1250020 // NP 44N1250020,4933,32,eliminado,,2022-10-21,4470,SPEC-23528,,cotizacion subida al portal,"el cliente señala que no puede abrir el archivo, pregungtar por el estado",,4933.0
+2023,1,correo,Felipe Henriquez,RMD,MLP,KOB2,"Flujometro  Vortex para medicion de aire en linea de 14""",42576,20,perdido,,2022-10-21,4472,RFD-23510,,cotizacion enviada al cliente el,,,42576.0
+2023,1,6010128430,Abastecimiento,FCS,MLP,KOB3,POSICIONADORES VALVULA; DIGITAL; REMOTO; NEMA 4X; ENTRADA FIELDBUS FOUNDATION; NIVEL SCFC; CELDA FLOTACION SCAVENGER,37490,14,4510176280,2022-10-25,2022-10-12,4318,FCS-23402,,OC y ecrm enviado a Ineco el 25-10-22,Antofagasta Minerals le ha invitado a participar en un evento: Minera Los Pelambres6010128430.,,37490.0
+2023,1,correo,Geraldine Luna Acevedo,FCS,Candelaria,KOB3,Fisher Rotary Valve; NPS 4 V150; End Connect/In/Out: CL150 RF Flg,22858,15,4500189468,2022-10-18,2022-10-18,4529,FCS-23356,,OC y ecrm enviado a Ineco el 25-10-22,,,22858.0
+2023,1,correo,Leonid carrizo,FCS,MLP,KOB3,contrato marco 464200099 // 5 unidades POSICIONADOR VALVULA;FISHERCO;DVC6005F,37490,,4590081234,2023-05-17,2023-05-17,7128,contrato,,OC enviada a Ineco el 17-05-23,,,37490.0
+2023,1,Contrato,Abastecimiento,FCS,MLP,KOB3,"5 unidades POSICIONADOR VALVULA; DIGITAL; REMOTO; NEMA 4X;
+ENTRADA FIELDBUS FOUNDATION; NIVEL SCFC; CELDA
+FLOTACION SCAVENGER",37490,11,4590084321,2023-09-04,2023-09-04,8509,,,OC enviada a Ineco el 04-09-23,,,37490.0
+2023,1,6000086152,German Diaz,FCS,Candelaria,KOB3,"VALVULA FISHER 6"" TIPO ED CON ACTUADOR NEUMATICO 657 TAMAÑO 60",21936,16,4500190541,2022-10-02,2022-10-28,4563,FCS-4563,,OC enviada a Ineco el 02-11-22,,,21936.0
+2023,1,6000086151,German Diaz,FCS,Candelaria,KOB3,"VALVULA DE 6"" DIAMET, ROTARY VALVE",20914,14,4500202915,2023-04-21,2022-12-23,4565,FCS-24039,,OC enviada a Ineco el 21-04-23,,,20914.0
+2023,1,7000271097,Cristopher Rivas,FI,Salvador,KOB3,16 unidades de Valvula Solenoide Asco P/N: 8263H320AC110/50D,8198,16,,,2022-11-04,4635,FI-20736 Rev 2,,Cotizacion enviada al cliente el 04-11-22,se estabelece en dashboard como cierre para enero del 2023,,8198.0
+2023,1,6010136733,Leonid carrizo,FCS,MLP,KOB3,4 unidades POSICIONADOR VALVULA; DIGITAL; REMOTO; NEMA 4X; ENTRADA FIELDBUS FOUNDATION; NIVEL SCFC; CELDA FLOTACION SCAVENGER /,34381,14,4510186275,2023-03-27,2023-03-17,6311,FCS-24862,,OC enviada a Ineco el 27-03-23,,,34381.0
+2023,1,correo,Jean Japaz,SYS,Sociedad CPF Ingeniería Ltda,KOB3,Solicitud de cotizacion Accesorios CSI 2130 //  Consulta accesorios CSI2130,,,,,2022-11-11,4716,,,ecrm enviado a Ineco el 09-11-22,,,
+2023,1,3000009867,Ariel Cuadra,FCS,Caserones,KOB3,VALVULA FISCHER PN:F000236869 (se cotiza plazo de entrega estandar y QS),5151,8,4300020891,2022-12-12,2022-11-15,4749,FCS-23699 Rev 1,,OC enviada a Ineco el 22-12-22,se cotizan dos alternativas con los plazos de entrega,,5151.0
+2023,,correo,Octavio Romano,RFD,Pucobre,KOB3,"Flujometro de 12"" magnetico para Pulpa",50537,22,50089,2022-12-30,2022-11-16,4752,RFD-23714,,OC enviada a Ineco el 30-12-22,29-12-22 cliente compromete OC,,50537.0
+2023,1,correo,,RQ,Andina,KOB2,Bombas centrífugas y sumergibles Estación Bombeo Piuquenes,,,,,2022-12-01,4802,,,ecrm enviado el 15-11-22,"No se cotiza esta oportunidad, se pregunta a kareen la razon",,
+2023,1,,,,,,Válvulas compuerta Motorizadas Estación Bombeo Piuquenes,,,,,2022-12-06,,,,ecrm enviado a Ineco el 17-11-22,,,
+2023,1,M12000445,Carla Herrera,RQ,Enami,KOB2,"SECADOR REGENERATIVO CAUDAL DE ENTRADA 15,67 m3/min, PRESIÓN DE TRABAJO HASTA 16 bar",,,,,2022-11-18,4812,,,ecrm enviado a Ineco el 16-11-22,Fundicion Paipote,,
+2023,1,6000088343,Rodrigo Zambrano,FCS,Candelaria,KOB2B,2 unidades FISHER EWT GLOBE CONTROL VALVEVALVE SIZE NPS 10,221527,24,perdido,,2022-11-23,4907,,,cotizacion enviada por Juan Calvo al cliente el dia 21-11-22,perdido por plazo de entrega,,221527.0
+2023,1,correo,Alvaro Bonilla,RQ,Potrerillos,KOB3,Demister torre de secado,109614,,,,2022-12-23,4830,,,ecrm reenviado a Ineco el 21-12-22,,,109614.0
+2023,1,JV01-00006,Jamet Navarrete,FI,Bechtel,KOB2B,Actuador Marca Emerson Topwork Modelo : TVL-PBGGNPM2A12,2151,8,26148-323-FPA-JV01-00006,2022-12-14,2022-11-29,4943,FI-23818,,OC enviada a Ineco el 22-12-22,,,2151.0
+2023,1,3000008884,Ariel Cuadra,FI,Caserones,KOB3,6 unidades FILTRO REGULADOR JOUCOMATIC,3702,10,4300022073,2023-05-15,2023-12-22,5045,FI-24260,,OC enviada a Ineco el 19-05-23,,,3702.0
+2023,1,,Juan Donoso,RFD,MLP,KOB2,Flujometro y densimetro  para Pulpa,150000,,,,Julio,5102,,,,Marzo puede vender un equipo,,150000.0
+2023,,,Juan Donoso,RMD,MLP,TEC,Medicion wireless de temperatura en motores de las celdas,80000,,,,Abril,5109,,,,coordinar una prueba  con Juan Donoso (potencial 50 motores) celdas rougher y scavenger,,80000.0
+2023,1,,Manuel Rojas,RMD,MLP,LTSA,Servicio mantencion instrumental permanenete,130000,,,,Febrero,5103,,,,con presencia permanente,,130000.0
+2023,1,correo,Eduardo Marin,RFD,MLP,KOB2,Densímetro no nuclear para pulpa FDM mas HH en el montaje y puesta en marcha,20000,,,,2022-12-29,5101,,,ecrm enviado a Ineco el 23-12-22,,,20000.0
+2023,1,,Manuel Rojas,RMD,MLP,LTSA,Servicio de mantención equipos e instrumentos críticos concentrador,130000,,,,,5104,,,,engi IMA (pistones 480),,130000.0
+2023,1,,Manuel Rojas,RMD,MLP,KOB2,solución Wireless Hart para dos actuadores eléctricos,20000,,,,,5107,,,,702 y 848,,20000.0
+2023,1,,Daniel Rojas,RMD,MLP,KOB3,renovación de baterías y ampliación de antenas para el puerto,20000,,,,febrero,5110,,,,,,20000.0
+2023,1,,Pedro Carrasco,RAI,MLP,TEC,monitoreo Wireless de H2S en planta molibdeno,50000,,,,,5111,,,,,,50000.0
+2023,1,JQ00-00013,Alex Jamet,ISV,Bechtel,KOB2B,"KTM Floating Ball Valve 2"" con Keystone Pneumatic Actuator F89U-004 DA (Imp",4018,14,26148-320-FPA-JQ00-00013,2023-02-15,2022-12-14,5121,SPEC-23943 Rev 2,,OC enviada a Ineco el 27-02-23,el cliente solo compra la valvula de bola,,4018.0
+2023,1,correo,,RQ,MLP,KOB3,3 bombas de acople magnetico Ansimag,20757,12,4510182557,2023-01-30,,5607,RQ-24373,,OC enviada Ineco el 30-01-23,,,20757.0
+2023,1,7000306896,Carla Martinez,FCS,Salvador,KOB3,14 unidades de reguladores 67CFR,,,,,2022-12-22,5172,,,ecrm enviado a Ineco el 16-12-22,vence a las 15 hrs,,
+2023,1,7000306896,Cristopher Rivas,ISV,Salvador,KOB3,"VALVULA PINCH 150psi 4"" A FULL PORT",159504,14,,,2022-12-22,5173,FCS-24029,,Cotizacion subida al portal el 22-12-22,vence a las 12 hrs,,159504.0
+2023,1,6010145162,Katherine Granados,SYS,MLP,KOB3,Minera Los Pelambres601014516 // AMS Trex Hart FF (TREXLFPKLWS3S),18742,2,4510196637,2023-09-22,2023-08-31,8422,SYS-26538,,OC enviada a Ineco el 22-09-23,,,18742.0
+2023,1,6010129458,Leonid carrizo,FCS,MLP,KOB3,"Minera Los Pelambres6010129458 (MRO Sensor Ipax, sello Act neu 480, etc)",17601,10,4510177410,2022-11-11,2022-11-07,4638,FCS_FI-23606,,OC enviada a Ineco el 21-11-22,,,17601.0
+2023,1,correo,Macarena Vela,FI/RMD,JRI,KOB2B,NORMALIZACIÓN RED DE AGUA POTABLE Y PLANTAS DE TRATAMIENTOS DE AGUAS SERVIDAS // Manometros y flujometros,15840,,,,2022-12-23,5217,FI_RMD-24068,,Cotizacion enviada el 27-12-22,,,15840.0
+2023,1,correo,Miguel Aranis,REG,ASMAR,KOB3,"Solicitud de cotización repuestos, reguladores Tescom.",,,,,2022-12-23,5225,,,ecrm enviado a Ineco el 20-12-22,,,
+2023,1,6010131970,Leonid carrizo,FCS,MLP,KOB3,Minera Los Pelambres6010131970 // Transductor de posicion - sellos piston 480 -  juego de reparacion pisoin 480,15430,10,,,2022-12-21,5224,FCS-24009,,ecrm enviado a Ineco el 20-12-22,NO se alcanzo a subir la cotizacion,,15430.0
+2023,1,correo,Valentina Olivares,RMD,MLP,TEC,Solución Wireless para medir  temperatura en motores,150000,,,,2022-04-30,5226,,,ecrm creado pero no es enviado a Ineco para generar la cotización,,,150000.0
+2023,1,correo,Valentina Olivares,SYS,MLP,TEC,Solución Monitoreo de vibraciones Wireles  en motores celdas de flotación,100000,,,,Julio,5252,,,se establece opiortunidad para el 2024,,,100000.0
+2023,1,6010132273,Liliana Santamaria,ISV,MLP,KOB3,"Minera Los Pelambres6010132273 // Válvulas de bola para concentrado de 8"", 4"" y 2""",,,,,2022-12-27,5288,,,ecrm eviado a Ineco el 23-12-22,Carla solicta extension hasta el 29-12-22,,
+2023,1,6000090279,Geraldine Luna Acevedo,FI/RMD,Candelaria,KOB2,LICITACION PR 10327072 // INSTRUMENTACION // PROYECTO DEBOTTLENECKING,12719,14,eliminado,,2023-01-03,5329,PRV_RMD-24110 rev 01,,cot enviada por carla el 26-01-23,se borra el ecrm,,12719.0
+2023,1,6010132524,Leonid carrizo,FCS,MLP,KOB3,Minera Los Pelambres6010132524// VALVULA DESIGNACION TIPO/MODELO: RSO14 VIAS/POSICIONES: MATERIAL CUERPO,,,,,2022-12-28,5340,,,ecrm enviado a Ineco el 27-12-22,no se presento la cotizacion a MLP,,
+2023,1,M13001057,Francisca Milla,PRV,Enami,KOB3,VÁLVULAS SEGURIDAD OPERADA POR PILOTO (4 items) Anderson Greenwood (ex ecrm 4453 cot PRV-23477 del 20-10-22),92890,30,,,2023-01-04,5352,PRV-24171,,Cotizacion enviada a Francisca Milla el 05-01-23,Se converso con la compradora y señala que se declaro desierta esta licitacion.,,92890.0
+2023,1,6000100326,Rodrigo Zambrano,ISV,Candelaria,KOB3,"ACTUADOR SHAFER 10"", MODELO RV121/2X12 y valvula VTI de 10"" clase 600",203411,26,,,2023-07-07,5354,SPEC-24112,,Cotizacion enviada al cliente el 07-07-23,se solicita extension al cliente para el lunes 09-01-22,,203411.0
+2023,1,7000308857,Ricardo Catalan,RMD,Salvador,KOB3,"3 unidades de MANOMETRO ROSEMOUNT
+WPG45XNAG11B000800S1",7567,16,,,2023-01-11,5378,RMD-24151,,Cot subida al portal el 05-01-23,,,7567.0
+2023,1,Correo,Gonzalo Tapia,REG,Ventana,KOB3,Piloto para regulador 1098 y cotizar equipo nuevo como alternativa,7095,10,,,2023-01-06,5379,REG-24215,,cotizacion enviada al cliente el 24-03-23,,,7095.0
+2023,1,correo,,SYS,Codelco,KOB2,"SISTEMA DE CONTROL ESTACIÓN DE CICLONES,
+BARRIO CÍVICO Y ESTACIONES DE RIEGO”.",,,,,,5382,,,ecrm creado el 30-12-22,,,
+2023,1,M13001543,Francisca Milla,FCS,Enami,KOB3,KIT DE REPARACION VÁLVULA + ACTUADOR SEGÚN NUMERO DE SERIE 10466458.,17368,10,4500017519,2023-05-17,2023-05-12,6003,FCS-25410,,OC enviada a Ineco el 18-05-23,,,17368.0
+2023,1,correo,Maria Hernandez,FI,Caserones,KOB3,VALVULA PILOTO 3/2 PN:18900001 ASCO J,556,8,4300021152,2023-01-09,,5045,FI-24141,,OC enviada a procesar el 12-01-22,,,556.0
+2023,1,correo,German Diaz,FCS,Candelaria,KOB3,FISHER V200 SEGMENTED BALL CONTROL VALVEVALVE SIZE NPS 6BODY MATERIAL SSTRATING CL150/300 RF FLANGELESSTRIM CHARACTERISTIC MODIFIED EQUAL,8393,8,4500195820,2023-01-09,,5416,198-JC-230106-0022128,,OC enviado a Ineco el 09-01-23,,,8393.0
+2023,1,correo,German Diaz,FCS,Candelaria,KOB3,"RFQ 6000091333  FISHER CONTROL VALVE BODY STYLE GLOBE, MODEL ED, VALVE SIZE NPS 6, BODY MATERIAL WCC STEEL, END CONNECTION RF FLG CL150",30688,36,4500196673,2023-01-19,,5503,FCS-24232,,OC enviada Ineco el 19-01-23,,,30688.0
+2023,1,correo,German Diaz,FCS,Candelaria,KOB3,"4028508 VALVULA FISHER, TIPO V150 DE 12""",33331,14,4500196678,2023-01-19,2023-01-19,5502,FCS-24231,,OC enviada a Ineco el 19-01-23,,,33331.0
+2023,1,6010131884,Rossanny Carrasqueño,FCS/FI,MLP,KOB3,Minera Los Pelambres6010131884 // 06 Iman - 12 transductores 4-20 mA,17358,12,4510180243,2022-12-30,2022-12-21,5199,FCS_FI-23998,,OC enviada a Ineco el 30-12-22,vence a las 14 hrs,,17358.0
+2023,1,correo,,FCS,MLP,,IPAX TRANSDUCTOR POSICION; SENSOR IPAX; TAMAÑO 8; /ACTUADORES C/CARRERAS,15429,10,4510181044,2023-01-09,,5224,FCS-24009,,OC enviado a Ineco el 09-01-23,,,15429.0
+2023,1,correo,Leonid carrizo,ISV,MLP,KOB3,4 unidaddes de ACTUADOR;EMERSON;SPD250HVPD0M2D,15106,6,4510173434,2023-03-29,2023-03-29,6537,contrato,,OC enviada al cliente a Ineco el 30-03-23,,,15106.0
+2023,1,correo,Gabriela Mora,FCS,CMP,KOB3,1 unidad FISHER DVC6200 POSITIONER,3605,13,4531560326,2023-02-01,2023-02-01,5611,FCS-24321,,OC enviada a Ineco el 01-02-23,CIA.MINERA DEL PACIFICO S.A.,,3605.0
+2023,1,correo,Leonid carrizo,SPEC/FCS,MLP,KOB3,valvula Fujikin Ceramic valve 1-1/2” y IMAN EMERSON AMP3,12965,18,4510176322,2022-10-21,2022-10-21,4380,FCS_FI-23429,,OC enviada a Ineco el 21-10-22,,,12965.0
+2023,1,correo,,RMD,CMP,,Rosemount™ 2051 In-Line Pressure Transmitter,4331,14,4531561703,2023-02-17,,5933,RMD-24585,,OC enviada a Ineco el 17-02-23,,,4331.0
+2023,1,correo,Paula Montes,FI,Salvador,KOB3,Licitación  7000313999 // 2 solenoides ASCO,,,,,2023-02-24,6044,,,ecrm creado y enviado a Ineco el 21-02-23,Vence a las 15 hrs,,
+2023,1,6010135049,Liliana Santamaria,ISV,MLP,KOB3,Valvula de bola clase 1500,,,,,2023-02-15,5937,,,ecrm enviado a Ineco el 13-02-23,"MLP no extendio el plazo de entrega, por lo que no se cotizo",,
+2023,1,6010137948,Leonid carrizo,FCS,MLP,KOB3,Minera Los Pelambres6010137948 //,12603,10,4510187390,2023-04-13,2023-04-10,6603,FCS-25076,,OC enviada a Ineco el 13-04-23,,,12603.0
+2023,1,6010135690,Jorge Marcano,ISV,MLP,KOB3,"Valvula de bola 2"" calse 1500",,,,,2023-02-27,6079,,,ecrm enviao d a Ineco el 24-02-23,,,
+2023,1,6010131885,Rossanny Carrasqueño,FCS,MLP,KOB3,Minera Los Pelambres6010131885 //POSICIONADOR; REMOTE; INPUT SIGNAL 4-20MA + HART 5; DIAGNOSTIC TIER ADVANCED-AD;,10493,14,4510180450,2022-12-30,2022-12-21,5215,FCS-24001,,OC enviada a Ineco el 30-12-22,,,10493.0
+2023,1,6010135261,,ISV,MLP,KOB3,Bettis SCE300 Quarter Turn Electric Actuator,1962,,,,2023-02-17,5982,SPEC-24622,,cotizacion subida el 20-02-23,,,1962.0
+2023,1,4600025003,,FI,Andina,KOB3,Contrato 4600025003 // 15 unidades de VALVULA SOLENOIDE EMERSON ASCO 8262H007T,2010,,4502180315,2023-03-02,2023-03-02,6175,,,OC enviada  a a Ineco el 03-03-23,,,2010.0
+2023,1,6010135989,Leonid carrizo,FCS,MLP,KOB3,TRANSDUCTOR POSICION; SENSOR IPAX; TAMAÑO 8; P/ACTUADORES C/CARRERAS DESDE 4 PULG HASTA 8-1/8 PULG; INCLUYE CABLE ALIMENTACION 50 PIES (15MT),10796,11,eliminado,,2023-03-08,6182,FCS-24744,,Cotizacion subida al portal el 06-03-23,vence a las 15 hrs,,10796.0
+2023,1,correo,Ricardo Castillo,SYS,CMP,KOB3,Comunicador AMS TREX  P/N: TREXLHPNAWS3,13981,24,eliminado,,,5469,SYS-24202,,cot enviada al cliente el 09-01-23,,,13981.0
+2023,1,7000315165,,FI,Andina,KOB3,REP VALVULA JG ASCO  302020TT58293 (20 unidades),,,,,2023-03-10,6219,,,ecrm enviado a Ineco el 07-03-23,,,
+2023,1,6010136181,Leonid carrizo,FCS,MLP,KOB3,10 unidaddes - RELE MODIFICADOR: NEUMATICO EQUIPO DEL QUE ES PARTE: CAJON DE PULPA 877 FABRICANTE DEL EQUIPO: FISHER MODELO DEL EQUIPO: Fisher 38B5786X052 CARACTERISTICAS ADICIONALES: TIPO A - POSICINADOR SERIA 6000,7965,10,eliminado,,2023-03-10,6251,FCS-24799,,cotizacion subida al portal el 10-03-23,vence a las 15 hrs,,7965.0
+2023,1,correo,Jerson Contreras,ISV,MLP,KOB3,"Una Valvula mariposa Keystone de 14"" con actuador  electrico modelo  FQ-20A en 4-20 mA (control de aire para celdas de flotacion)",30427,10,perdido,,2023-03-13,6256,SPEC-24819,,ecrm enviado a Ineco el 09-03-23,se cerro esta oportunidad con el ecrm 6543  cotizacion SPEC-25013,,30427.0
+2023,1,correo,Crispulo Mancilla,RFD,CMP,KOB2,Sensor De Medidor De Caudal Magnético Con Brida Rosemount 8705 Que Consiste En 8705060 Sensor y 8732E transmisor,62440,20,eliminado,,2023-03-09,6080,RFD-24801,,cotizacion enviada al cliente el 09-03-22,Se debe incluir en la cotizacion los anillos puesta a tierra para cañerias metalicas,,62440.0
+2023,1,M13001407,Francisca Milla,ISV,Enami,KOB3,"VALVULA DUO CHECK DE 18"", F.F 200 MM, TIPO WAFER",,,,,2023-03-17,6270,,,ecrm enviado a Ineco el 10-03-23 / No se cotizara,la fabrica indica que no tiene valvulas de ese material,,
+2023,1,4642000997,Gabriela Montaner,FCS,MLP,KOB3,CONTRATO Marco  4642000997 //14 unidades RELE;FISHERCO;38B5786X052,9828,7,4590083109,2023-07-14,2023-07-14,7829,,,OC enviada a Ineco el 17-07-23,,,9828.0
+2023,1,Correo,Eduardo Gallardo,ISV,Andina,KOB2,VÁLVULAS REGULADORAS DE CAUDAL PARA BOMBAS SOBRE BALSAS HUECHUN,,,,,2023-04-17,6274,,,ecrm enviado el 10-03-23,coordinar una reunion con Rolando para definir que deden preparar los Inside,,
+2023,1,7000309324,Abastecimiento,RFD,Andina,KOB2,"(1483292) Rosemount 8705160 Flanged Magnetic Flow Meter Sensor, 16 Inch (DN400)
+P/N: 8705NSA160C7W0Q4",20632,12,4400321306,2023-03-24,2023-01-17,5523,RFD_24276,,OC enviada a Ineco el 24-03-23,,,20632.0
+2023,1,correo,Sebastean Paez,,JRI,KOB2,“INGENIERÍA DE FACTIBILIDAD PARA REPOSICIÓN DEL SISTEMA DE CALEFACCIÓN (se cotizan equipos y servicios),68592,30,,,2023-01-23,5517,FI_RFD_RMD-24334,,cot enviada a JRI por Carla el 23-01-23,,,68592.0
+2023,1,M11000097,Kareen Zambrano,ISV,Enami,KOB3,"50 unidades ASIENTO GOMA EPDM; DIAM. 4""; PARA VALVULA MARIPOSAMARCA KEYSTONE MODELO AR-1.",6599,23,4500016470,2023-03-29,2023-03-16,6309,SPEC-24853,,OC enviada a Ineco el 31-03-23,,,6599.0
+2023,1,correo,Jose Casareggio,RAI,Enami,KOB2,Solución medición de gases CO2,,,,,,6326,,,se crea oportunidad en el ecrm,"el cliente señala que estan soliictando el presupuesto y que seremos invitados, pero el plazo de entrega es importante",,
+2023,1,6000079914,German Diaz,FCS,Candelaria,KOB3,3 unidades POSICIONADOR FISHER DVC6200 HART CODIGO DE MATERIAL 4056758.,12000,4,,,2023-03-20,6322,,,ecrm enviado el 15-03-23,se pregunta al comprador si se envio la cotizacion y se solicita enviarla si fuera necesario,,12000.0
+2023,1,6010128273,Leonid carrizo,FCS,MLP,KOB3,TRANSDUCTOR POSICION; SENSOR IPAX; TAMAÑO 8; P/ACTUADORES C/CARRERAS DESDE 4 PULG HASTA 8-1/8 PULG; INCLUYE CABLE ALIMENTACION 50 PIES (15MT),9566,8,4510176058,2022-10-17,2022-10-12,4314,FCS- 23398,,OC y ecrm enviado a Ineco el 25-10-22,Antofagasta Minerals le ha invitado a participar en un evento: Minera Los Pelambres6010128273,,9566.0
+2023,1,6000094497,German Diaz,FCS,Candelaria,KOB3,VALVULA DE CONTROL FISHER V200 1-1/2#,9136,12,4500200882,2023-03-21,2023-03-17,6362,FCS-17140 rev 01,,OC enviada a Ineco el 21-03-23,,,9136.0
+2023,1,7000317276,Pablo Cordero,RMD,Salvador,KOB3,3 unidades MANOMETRO ROSEMOUNT WPG45XNAG11B000800S1,38880,26,eliminado,,2023-03-29,6456,RMD-24961,,Cotizacion subida al portal el 28-03-23,,,38880.0
+2023,1,7000316519,Paula Montes,RMD,Salvador,KOB3,1 unidad por TRANSMISOR ROSEMOUNT 3051SAM4PT2A2B11A1,,,,,2023-03-27,6457,,,ecrm emliminado,,,
+2023,1,4600025003,,FI,Andina,KOB3,contrato 4600025003// 3 unid  VALVULA SOLENOIDE EMERSON ASCO 8262H007T,426,,4502182709,2023-03-24,2023-03-24,6468,,,OC enviada a Ineco el 24-03-23,,,426.0
+2023,1,Correo,Rodrigo cortes,SYS,CMP,KOB3,Accesorios para equipo CSI2140,,,,,,6469,,,ecrm creado el 24-03-23,,,
+2023,1,6010136471,Leonid carrizo,FCS,MLP,KOB3,10 unidades RELE MODIFICADOR: NEUMATICO EQUIPO DEL QUE ES PARTE: CAJON DE PULPA 877 FABRICANTE DEL EQUIPO: FISHER MODELO DEL EQUIPO: Fisher 38B5786X052 CARACTERISTICAS ADICIONALES: TIPO A - POSICINADOR SERIA 6000,7970,12,4510185971,2023-03-21,2023-03-14,6273,FCS-24826,,OC enviada a Ineco el 21-03-23,Vence a las 15 hrs,,7970.0
+2023,1,7000317598,,FI,Andina,KOB3,MANOMETRO AMETEK 170027X,,,,,2023-03-31,6505,,,ecrm enviado a Ineco el 28-03-23,,,
+2023,1,7000315891,Pablo Cordero,RQ,Salvador,KOB3,ALMOHADILLAS TELA BEGG COUSLAND DEMISTER (Option A: ‘Becoil’ Demister (Saramet 35 + TF / 316L SS grids)),104488,10,4400327125,2023-07-10,2023-03-31,6530,SQ34832-01,,OC enviada a Ineco el 10-07-23,"entrega exwork (Option A or C: Currently, 6 - 10 working weeks (completion before 08/06/2023), ex-works Runcorn - UK, from receipt of drawing approval and any agreed advanced payment,)",,104488.0
+2023,1,6010128529,Leonid carrizo,RQ/PRV,MLP,KOB3,Bomba Centrífuga de acople magnético ANSIMAG // KUNKLE MODELS 020J SAFETY VALVE,7733,,4510176287,2022-10-20,2022-10-20,4381,PRV_RQ-23423,,OC y ecrm enviado a Ineco el 25-10-23,,,7733.0
+2023,1,6010145455,Leonid carrizo,FCS,MLP,KOB3,Minera Los Pelambres6010145455 // 7 unidades SELLO; P/ACTUADOR NEUMATICO MOD.480; FISHER CONTROL // 13 unid.  SELLO; P/ACTUADOR NEUMATICO MOD.480; FISHER CONTROL,6106,10,4510196657,2023-09-21,2023-09-15,8637,SPEC-26666,,OC enviada a Ineco el 21-09-23,,,6106.0
+2023,1,6020313271,Gabriela Mora,RMD,CMP,KOB3,2 unid TRANSMISOR PRESION ROSEMOUNT 2051TG,8662,16,4531568780,2023-06-19,2023-04-03,6548,RMD-25058 Rev. 1,,OC enviada a Ineco el 19-06-23,a solcitud del cliente actualizar cotizacion,,8662.0
+2023,1,correo,Cristian Rojas,FCS,CMP,KOB3,Actualizar cotizacion FCS-20385 Rev 1,60856,16,,,2023-04-05,6583,FCS-20385 Rev 2,,ecrm enviado el 03-04-23 // no se ha entregado la cotizacion al cliente,se establece en el ecrm como cierre para 31-11-23,,60856.0
+2023,1,6000095951,German Diaz,ISV,Candelaria,KOB3,"VALVULA DE MARIPOSA 10"", ANSI 150 WAFER DUPLEX 2205 // VALVULA MARIPOSA DE CORTE, 16"" DUPLEX 2205",132497,37,4500202586,2023-04-18,2023-04-10,6588,SPEC-25100,,OC enviada a Ineco el 18-04-23,,,132497.0
+2023,1,correo,Francisco Dias,ISV,Enami,KOB3,"Válvulas de 4"" (30 uni) y 2"" (20 uni)  Tipo mariposa Keystone mas actuadores neumáticos con feedback de posición",3937,8,,,2023-06-05,7247,SPEC-25652,,cotizacion enviada al cliente el 01-06-23,,,3937.0
+2023,1,M13001549,Francisca Milla,FCS,Enami,KOB3,"valvula de control Fisher de 3"" tag LV-70110",15858,12,perdido,,2023-05-17,6620,FCS-25112,,cotizacion enviada al cliente el 19-05-23,se pregunta a  la compradora el 31-07-23,,15858.0
+2023,1,1020136262,Abastecimiento,ISV,MLP,KOB3S,Contrato 4644007663 // SERVICIO PARA MANTENIMIENTO DE ACTUADORES ELECTRICOS por 36 meses,6000,,4644007663,2023-05-16,2022-11-04,4508,SPEC-01571S,,Contrato enviado a Ineco el 21-03-23,,,6000.0
+2023,1,7000323567,Carolina Valenzuela,RMD,Andina,KOB3,Transmisor de presión 3051CD3A02A1AC1M5K5H2Q4 // Opcion con  bluetooth (material),9096,20,perdido,,2023-05-25,6606,RMD-25556,,cotización subida al portal el 24-05-23,Oportunidad trabajada con Carlos Rojas,,9096.0
+2023,1,Correo,Alejandro Alvarez,RMD/RFD,MLP,KOB3,Nivel ultrasonico  para cajones y medicion de flujo para agua y Cal,120848,26,,,,6607,RFD-25428,,cotizacion referencial enviada al cliente el 30-05-23,coordinar una reunion con alejandro para el jueves 13-04-23,,120848.0
+2023,1,Correo,Alejandro Alvarez,FCS,MLP,KOB3,"Valvulas de control para 6"" y 8"" para modular agua",,,,,,6615,,,ecrm creado el 06-04-23 // se establece oportunidad para el 31-12-23,,,
+2023,1,6000096156,Rodrigo Zambrano,FCS,Candelaria,KOB3,"3/4 SHAFT X 1 1/8 # 16A6084X012 PACKING BOX RING, 3"" VALVE .
+FOR: FISHER CONTROLS VALVES MODEL V200 .",123,10,4500202521,2023-04-13,2023-04-12,6644,FCS-25121,,OC enviada a Ineco el 13-04-23,,,123.0
+2023,1,M04001062,Francisco Olivares,PRV,Enami,KOB3,"VALVULA DE SEGURIDAD DE 1"" CAPACIDAD 3.353 LIBRAS/ HORAS, PRESION DETRABAJO 200 PSI USO VAPOR SATURADO P/CALDERA REFINO",804,,,,2023-04-14,6662,,,ecrm enviado a Ineco el 11-04-23,,,804.0
+2023,1,correo,Jose Cañas,ISV,Acciona,KOB3S,"Servicios de Armado de Válvula VALTEC 18”
+Clase #600",3000,,,,2023-04-17,6674,,,ecrm enviado a Ineco el 12-04-23,,,3000.0
+2023,1,coreo,Sergio Vergara,FI,Tecnasic,KOB3,COT 10-2813 /// Placas de orificio EMERSON,,,,,2023-04-19,,,,,,,
+2023,1,6010138505,Leonid carrizo,FCS,MLP,KOB3,Minera Los Pelambres6010138505 // Posicionador Fisher 6200,5185,14,4510188052,2023-04-24,2023-04-18,6734,FCS-25192,,OC enviada a Ineco el 24-04-23,,,5185.0
+2023,1,6000096640,German Diaz,ISV,Candelaria,KOB3,"VALVULA DE MARIPOSA 20"", ANSI 150, LUG Keystone",24693,3,4500207505,2023-06-29,2023-04-21,6777,SPEC-25231,,OC enviada a Ineco el 29-06-23,,,24693.0
+2023,1,correo,Jorge Lazo,SYS,Candelaria,KOB3,AMS Trex Hart FF,,,,,2023-05-03,,,,,,,
+2023,1,correo,Hector Correa,SYS,Candelaria,KOB3,AMS Trex Hart FF,17493,24,,,2023-05-03,6370,SYS-25327,,cotizacion enviada al cliente el 02-05-23,,,17493.0
+2023,1,correo,Marco Fernandez,MSOL,,,Medicion de variables wireless,,,,,,,,,,,,
+2023,1,6000096816,German Diaz,ISV,Candelaria,KOB3,"VALVULA MARIPOSA DE CORTE, 16"" con Actuador electrico 380V",38515,37,4500203410,2023-06-29,2023-05-25,6792,SPEC-25240,,OC enviada a Ineco el 30-06-23,,,38515.0
+2023,1,M12000563,Carla Herrera,ISV,Enami,KOB3,ACTUADOR MARCA AUMA. TIPO SA 14.2-F14. 63 RPM.TORQUE 100-250 NM. IP68. N PEDIDO 13419949. N.1818MD14834. CONTROLADOR AC 01.2. N. 1818MA45167.380 VAC. PROTOCOLO HART 115 VAC,13101,18,perdido,,2023-04-21,6793,SPEC-25233,,Cotizacion enviada al cliente el 21-04-23,,,13101.0
+2023,1,7000321084,Paula Montes,RMD,Salvador,KOB3,1565471 // 1 unidad TRANSMISOR ROSEMOUNT 3051SAM4PT2A2B11A1A y sello 1199WDA95AFFW71DB00,13662,27,eliminado,,2023-05-03,6886,RMD-25310,,Cotizacion enviada al cliente el 27-04-23,vence a las 15 hrs,,13662.0
+2023,1,6000096884,German Diaz,ISV,Candelaria,KOB3,"VALVULA DE MARIPOSA 10"", ANSI 150 WAFER",11303,37,4500204077,2023-05-04,2023-04-26,6869,SPEC-25292,,OC enviada a Ineco el 04-05-23,,,11303.0
+2023,1,7000321159,,RMD,Ventana,KOB3,10 unidades BATERIA ROSEMOUNT 701PBKKF,2954,12,eliminado,,2023-05-04,6903,RMD-25330,,cotizacion subida al portal el 02-05-23,,,2954.0
+2023,1,6000097135,German Diaz,ISV,Candelaria,KOB3,"VALVULA DE RETENCION, 14"", TIPO CHECK",35585,20,eliminado,,2023-05-02,6908,SPEC-25323,,cotizacion enviada al cliente el 21-05-23,se pregunta al comprador el estado de la RFQ 31-07-23,,35585.0
+2023,1,7000307089,Alejandro Torres,REG,Salvador,KOB3,20 reguladores de presion FISHER 67 CFR/0-60PSI,3800,2,4400327191,2023-05-15,2023-05-05,6956,REG-5172,,OC enviada a Ineco el 17-05-23,actualizar cotizacion,,3800.0
+2023,1,6000097368,marcela torrejon,RMD,Candelaria,KOB3,2 unidades SENSOR NIVEL Rosemount  3051S2LD4AA1A1020DFF71DA00D1M504,6789,27,perdido,,2023-05-05,6977,RMD-25416,,cotizacion enviada al cliente el 10-05-23,se adjudico a otro preveedor,,6789.0
+2023,1,7000321883,Wilmer Chirino,FI,Andina,KOB3,10 unidades VALVULA SOLEN ASCO 8210G94,2416,4,,,2023-05-09,6979,FI-25399,,cotizacion subida al portal el 08-05-23,,,2416.0
+2023,1,correo,Marco Fernandez,RMD,Enami,KOB3,solución medición de presion wireless,,,,,,7002,,,ecrm creado,,,
+2023,1,correo,Jorge Lazo,RMD,Candelaria,KOB3,solución medición de presion wireless,,,,,,7003,,,ecrm creado,,,
+2023,1,7000322624,Jason Diaz,FI,Ventana,KOB3,VALVULA DESCARGA EMERSON ASCO DS31,,,,,2023-05-17,7068,,,ecrm creado el 11-05-23,NO aplicamos,,
+2023,1,correo,Carlos Rojas,FCS,Andina,KOB3,POSICIONADOR NEUM FISHER 3570 (Material 4014107),3338,11,perdido,,2023-05-19,7069,FCS-25482,,cotizacion envianada a carlos rojas el 16-05-23,,,3338.0
+2023,1,3000011284,Ariel Cuadra,FCS,Caserones,KOB3,"VÁLUVLA FISHER 2"" V150 C/ACTUADOR INECO",12771,8,4300022326,2023-05-22,2023-05-19,7113,FCS-25512,,OC enviada a Ineco el 22-05-23,el cliente compra la opcion Quick Ship,,12771.0
+2023,1,6010141072,Leonid carrizo,FCS,MLP,KOB3,"11 unidades de BUSHING,SEAL;40&60 ; P/N: 1R875914042",4950,10,4510191080,2023-06-19,2023-06-08,7338,FCS-25700,,OC enviada Ineco el 20-06-23,,,4950.0
+2023,1,6010121909,Abastecimiento,ISV,MLP,KOB3,ACTUADOR;BIFFI;BPD250UVPA002D5 (Se cotizan dos opeciones con modulo OM1) el cliente solo debe confirmar la comunicación,4655,23,4510179345,2022-12-15,2022-07-05,3031,SPEC-22408 rev 02,,OC enviada a Ineco el 16-12-22,Problemas con las 35 semanas de entrega,,4655.0
+2023,1,correo,Abastecimiento,RQ,Salvador,KOB3,Repuestos criticos para mantencion de bombas suministradas en contrato N° 4600020040,87173,12,,,2023-05-31,7159,RQ-25673,,Kareen envio cotizacion a Alvaro Olivero el 09-06-23,,,87173.0
+2023,1,correo,Fernando Morales,MSOL,Andina,KOB2B,INGENIERÍA DE PREFACTIBILIDAD - SISTEMA DE AGUA RECIRCULADA (SAR) TRANQUE OVEJERIA – CORDILLERA,,,,,,7219,,,se crea ecrm pero no se solicta cotizacion ya que se deriva a proyectos,,,
+2023,1,M13001612,Francisca Milla,ISV,Enami,KOB3,"ASIENTO GOMA EPDM; DIAM. 4""; PARA VALVULA MARIPOSAMARCA KEYSTONE MODELO AR-1.",3519,24,Perdido,,2023-06-02,7225,SPEC-25632,,cotizacion enviada al cliente el 31-05-23,compradora señala que se adjudico a otro proveedor,,3519.0
+2023,1,correo,abastecimiento,REG,MLP,KOB3,"repuestos recomendados para regualdor OCV SN 61619-1-1-B // 12""PR RLF Class 150  (REG-10764)",1937,8,,,2023-05-31,7230,REG-25636,,se envia a catalina belmar la cotizacion y se pregunta como proceder,,,1937.0
+2023,1,correo,abastecimiento,REG,MLP,KOB3S,"Servicios de matencion regulador  OCV SN 61619-1-1-B // 12""PR RLF Class 150  (REG-10764)",,,,,,,,,,,,
+2023,1,correo,Alejandro Alvarez,ISV,MLP,KOB3S,Solución de válvulas de corte automatizadas con actuador neumático,30054,23,,,2023-06-09,7279,SPEC-25686,,Cotizacion enviada al cliente el 13-06-23,,,30054.0
+2023,1,6000099493,German Diaz,FCS,Candelaria,KOB3,"(4029259) 5 Unidades VALVULA DE CONTROL 3"" clase 150 # CON ACTUADOR 2052 y DVC6200 CON PROTOCOLO HART 4-20mA",56716,20,4500206306,2023-06-13,2023-06-08,7322,FCS-25697,,OC enviada a Ineco el 13-06-23,,,56716.0
+2023,1,6010140103,Leonid carrizo,FCS,MLP,KOB3,21 unidades de SELLO; P/ACTUADOR NEUMATICO MOD.480; FISHER CONTROL / SELLO;FISHERCO;1H865114042,4223,8,4510189712,2023-05-23,2023-05-22,7130,FCS-25518,,OC enviada a Ineco el 23-05-23,,,4223.0
+2023,1,6010141070,Leonid Carrizo,ISV,MLP,KOB3,"4 unidades Valve butterfly Series Composeal  de 6"" calse 150  wafer",2638,25,Perdido,,2023-05-08,7339,SPEC-25699,,cotizacion subida al portal el 08-06-23,,,2638.0
+2023,1,6010135262,Leonid carrizo,RAI,MLP,KOB3,Dual Channel Transmitter (1056) Modelo: 1056-03-27-38-HT,3836,33,4510185088,2023-03-09,2023-02-16,5981,RAI-24613,,OC enviada a Ineco el 09-03-23,,,3836.0
+2023,1,6010141068,Leonid Carrizo,FCS,MLP,KOB3,21 unidades de repuesto Fisher R470-16X012,2018,10,4510190996,2023-06-19,2023-06-19,7337,FCS-25724,,OC enviada a Ineco el 20-06-23,,,2018.0
+2023,1,4600021130,Abastecimiento,RMD,Salvador,KOB3,TRANSMISOR ROSEMOUNT 3051TG2A2B21AM5Q4S5 (contrato 4600021130),2976,14,4502207180,2023-06-12,2023-06-12,7416,4600021130,,OC enviada a Ineco  el 12-06-23,,,2976.0
+2023,1,visita,Patricio Guajardo,RFD,MLP,KOB3PS,Medicion de flujo con Slurry MAG,,,,,,7425,,,ecrm creado pero no enviado a Ineco,,,
+2023,1,visita,Eugenio Vasquez,FCS/ISV/RMD,Candelaria,KOB2B,Proyecto control automático del agua de sello para trenes de relaves,,,,,,7488,,,ecrm creado pero no enviado a Ineco,,,
+2023,1,7000326493,Pablo Cordero,RMD,Salvador,KOB3,TRANSMISOR ROSEMOUNT 848TXNAS001WA3WK1B6,7875,13,,2023-06-27,2023-06-27,7507,RMD-25842,,cotizacion subida al portal el 23-06-23,,,7875.0
+2023,1,7000315891,,RQ,Salvador,KOB3,ALMOHADILLAS TELA BEGG COUSLAND DEMISTER (SAP 1229457),,,,,,6364,,,,,,
+2023,1,correo,Francisco Diaz,FI,Enami,KOB3,Licencia para habilitar protocolo FF en AMS Trex modelo TREXLHPKLWS3S,4249,9,,,2023-07-07,7610,SYS-26096,,cotizacion enviada al cliente el 18-07-23,,,4249.0
+2023,1,6000099781,Germán Diaz,ISV,Candelaria,KOB3,"6000099781 // VALVULA DE MARIPOSA 8"", ANSI 150, LUG Keystone",6823,25,,,2023-07-05,7611,SPEC-25931,,no enviar cotizacion al cliente hasta conversar primero con Fernando Salas,,,6823.0
+2023,1,6000096640,Germán Diaz,ISV,candelaria,KOB3,"VALVULA DE MARIPOSA 20"", ANSI 150, LUG ALTO RENDIMIENTO, ACCION MANUAL CON VOLANTE Y CAJA REDUCTORA ASME 150 LUG, CUERPO DUPLEX 2205",24199,3,4500207505,2023-06-29,2023-06-29,6777,SPEC-25231,,OC enviada a Ineco el 29-06-23,,,24199.0
+2023,1,correo,Paulina Santander,ISV,Caserones,KOB3,Cotización actuador assy emerson QS0040- EMERSON - FieldQ (S/N 286937005),1947,23,,,,7667,SPEC-25984,,Cotizacion enviada al cliente el 10-07-23,,,1947.0
+2023,1,6000100553,Marcela torrejon,FCS,Candelaria,KOB3,"VALVULA CONTROL ROTATIVA 12"" MOD. V150 (solo cuerpo) 4074436",27762,5,4500207951,2023-07-07,2023-07-07,7663,SPEC-25952,,OC enviada a Ineco el 07-07-23,,,27762.0
+2023,1,6020320016,Romeglys Díaz,FCS,CMP,KOB3,50036218 CONTROLADOR VALVULA FISHER DVC6200,3605,13,4531574506,2023-08-01,2023-07-12,7749,FCS-26010,,OC enviada a Ineco el 02-08-23,,,3605.0
+2023,1,7000328913,Alejandro Torres,RMD,Salvador,KOB3,4 unidades de DETECTOR RTD 0-150ºC C/THERMOWELL 400mm,18980,17,,,2023-07-17,7805,RMD-26070,,Cotizacion subida al portal el 17-07-23,vence a las 15 hrs,,18980.0
+2023,1,7000329253,Alejandro Torres,FI,Salvador,KOB3,2 unidades VALVULA SOLENOIDE ASCO WPB307B5U,,,,,2023-07-24,,,,ecrm enviado a Ineco el 14-07-23,,,
+2023,1,6010126140,Abastecimiento,REG,MLP,KOB3,"2 Reguladores de presion de 1/2""",1337,12,4510175203,2022-10-11,2022-09-12,3912,REG-23102 rev 01,,ecrm y OC enviada a Ineco el 11-10-22,,,1337.0
+2023,1,6000101407,Germán Diaz,FCS,Candelaria,KOB3,POSICIONADOR FISHER DVC6200 HART (codigo material 4056758),3737,4,4500208811,2023-07-25,2023-08-24,7909,FCS-26145,,OC enviada a Ineco el 25-07-23,,,3737.0
+2023,1,6020320891,Carola aburto,FCS,CMP,KOB3,50036221 CONTROLADOR VALVULA FISHER DVC6010,3780,2,,,2023-07-25,7918,FCS-26148,,cotizacion enviada al cliente el 26-07-23,,,3780.0
+2023,1,M04001154,Francisco Olivares,PRV,Enami,KOB3,Cotización M04001154 Válvula de Seguridad,1091,24,,,2023-07-28,7964,PRV-26189,,cotizacion enviada al cliente el 02-08-23,,,1091.0
+2023,1,7000330617,JOSELINE LAHOZ,FCS,Andina,KOB3,2  ACTUADOR NEUM 480 35psi Fisher,45756,35,4400339973,2023-09-20,2023-08-03,7975,FCS-26201,,OC enviada a Ineco el 20-09-23,vence a las 15 hrs,,45756.0
+2023,1,6010143592,Mariangel Flores,ISV-ACT,MLP,KOB3,Minera Los Pelambres6010143592 //  VÁLV. BOLA 3'' INOX. 2VÍAS +ACTUADOR NC,,,perdido,,2023-08-01,7992,,,ecrm enviado a Ineco el 27-07-23,vence a las 15 hrs,,
+2023,1,correo,Eduardo Lagos,ACT,KOSLAN-MLP,KOB2B,Estación Bombeo - válvulas de compuerta con  actuadores Eléctricos Actuadores Eléctricos,51549,18,eliminado,,2023-08-01,7979,SPEC-26231,,cotizacion enviada al cliente el 01-08-23,se toma como referencia la propuesta de Rotork,,51549.0
+2023,1,7000330409,Abastecimiento,RMD,Salvador,KOB3,3 unidades de TRANSMISOR PRES ROSEMOUNT 2090PG1S22A1Q4,9708,,,,2023-07-31,7944,RMD-26182,,,,,9708.0
+2023,1,correo,Eduardo Lagos,RFD,KOSLAN-MLP,KOB3B,Rosemount 8705 Flanged Magnetic Flow Meter Consisting of 8705025 Sensor and 8712E,15985,10,111877,2023-08-28,2023-08-23,7943,RFD-26172 rev 02,,OC enviada a Ineco el 28-08-23,,,15985.0
+2023,1,3000011821,Ariel Cuadra,RMD,Caserones,KOB3,INDIC+TRANS PRESION 2051TG3 TYPE 113 (2051TG3F2B21AS1B4M5Q4) con sello 1199WDB69AFFWG4DA00V,9575,26,4300023009,2023-08-10,2023-08-03,8064,RMD-26269,,OC enviada a Ineco el 10-08-23,,,9575.0
+2023,1,PRESUPUESTARIA,Paulina Santander,FCS,Caserones,KOB3,Transductor  38b6041x082 para posicionador Fisher área de molibdeno.  38B6041X082 FISHER Fieldvue I/P ASSEMBLY CONVERTER,2770,10,4300023354,2023-09-29,2023-08-03,8066,FCS-26263,,OC enviada a Ineco el 29-09-23,,,2770.0
+2023,1,correo,Jeannette Reyes,RQ,Salvador,KOB3,Restrictiva Repuestos primer año de operacion del PRI DSAL proveedor  INECO Repuestos bombas Prominet (mangueras y lubricantes),57237,12,4502252864,2023-12-05,2023-03-09,8098,RQ-26341 rev 02,,,,,57237.0
+2023,1,correo,Rigoberto Barrera,FCS,candelaria,KOB3,"Valvula de control Fisher de 2"" para aire",,,,,,8128,,,se genera ecrm pero no se solicta cotizacion a Ineco,,,
+2023,1,correo,Rigoberto Barrera,ISV,Candelaria,KOB3,"Valvula 1 1/2"" tipo bola con actuador electrico",,,,,2023-08-10,8160,SPEC-26334,,ecrm enviado a Ineco el 07-08-23,,,
+2023,1,levantamiento,Patricio Farias,ISV,MLP,KOB3,Valvula mariposa con actuador electrico Biffi y MRO,2582,8,,,2023-08-16,8215,SPEC-26385,,cotizacion enviada al cliente el 18-08-23,,,2582.0
+2023,1,levantameinto,Francisco Diaz,SYS,Enami,KOB3,Solución analisis de Vibraciones,100000,,,,,8289,,,ecrm creado,,,100000.0
+2023,1,correo,Barbara Cortes,RMD,Codelco,KOB3,Materiales Instrumentación Industrial (Flujometros Rosemount),240288,,,,2023-08-30,8370,RFD-26486,,Cotizacion subida al portal el 30-08-23,,,240288.0
+2023,1,LTSA,Manuel Rojas,ISV,MLP,KOB3S,Contrato 4644007663 // SERVICIO PARA MANTENIMIENTO DE ACTUADORES ELECTRICOS,70000,,,,,8371,,,ecrm creado el 25-08-23,,,70000.0
+2023,1,LTSA,Manuel Rojas,ISV,MLP,KOB3S,Contrato 4644007663 // SERVICIO PARA MANTENIMIENTO DE ACTUADORES ELECTRICOS,70000,,,,,8372,,,ecrm creado el 25-08-23,,,70000.0
+2023,1,LTSA,Manuel Rojas,ISV,MLP,KOB3S,Contrato 4644007663 // SERVICIO PARA MANTENIMIENTO DE ACTUADORES ELECTRICOS,70000,,,,,8373,,,ecrm creado el 25-08-23,,,70000.0
+2023,1,6000102672,Rodrigo Zambrano,REG,Candelaria,KOB3,"VALVE, REGULATOR, 3/4"" NPT, 30-80PSI",,,,,,8395,,,"ecrm creado, pero no se ha enviado a Ineco hasta tener respuesta del cliente",,,
+2023,1,6010132789,ROSSANNY CARRASQUE,REG,MLP,KOB3,"Filtro Regulador, Fisher 67CFR, Tamaño 1/4"", Material del cuerpo Aluminio, Rango de Presión 0 - 125 PSIG",1140,16,4510183514,2023-02-09,2023-03-09,5972,REG-5872,,OC enviada a Ineco el 27-03-23,,,1140.0
+2023,1,contrato,Felipe Varas,FCS,Candelaria,KOB3S,Servicio de mantencion de válvulas de control aguaducto,30000,,,,,8382,,,ecrm creado el 27-08-23,,,30000.0
+2023,1,correo,Rodrigo Frittis,FCS,Candelaria,KOB3,Mantencion predictiva válvulas de control,30000,,,,,8383,,,ecrm creado el 27-08-23,,,30000.0
+2023,1,6010126883,Abastecimiento,FCS,MLP,KOB3,(ex ECRM 3954 ) IMAN EMERSON AMP3,710,,4510175252,2022-10-11,2022-10-11,4326,FI-23162,,OC y ecrm enviado a Ineco el 11-10-22,,,710.0
+2023,1,correo,Pablo Aguilera,RMD/RFD,Caserones,KOB2B,PROY. TRASLADO POZOS LA BREA / EQUIPOS DE INSTRUMENTACIÓN - GPES-531-23-NC,63363,,,,2023-08-31,8411,,,cotizacion enviada el 05-09-23,,,63363.0
+2023,1,6000102810,Germán Diaz,ISV,Candelaria,KOB3,"VALVULA DE MARIPOSA 8"", ANSI 150, LUG (Duplex)",7836,36,4500211511,2023-09-13,2023-08-31,8409,SPEC-26597,,OC enviada a ineco el 13-09-23,,,7836.0
+2023,1,correo,Cesar Fuentes,RFD,Andina,KOB3,"2 Flujomteros de 18""",50660,18,,,2023-09-01,8435,RFD-26530,,cotizacion enviada a Cesar el 01-09-23,,,50660.0
+2023,1,correo,,REG,MLP,,VALVULA REGULADORA PRESION; 1 PULG; 25-75PSI; ANSI 150; MOD. 95H-49; CUERPO HIERRO FUNDIDO,646,14,4510182036,2023-01-19,,5578,REG-24291,,OC enviada a Ineco el 19-01-23,,,646.0
+2023,1,7000444545,Maria Angelica Villalobos,REG,Minera Tres Valles,KOB3,"1 un Válvula Tres Vías 1 ½” (Economizer backpresure Regulator) 
+Tipo FR, Set point 90PSI, Rango 40 a 200 PSI, Presión Máx 400PSI",4172,15,,,2023-09-07,8439,REG-26577,,cotizacion enviada al cliente el 12-09-23,,,4172.0
+2023,1,6020322514,Carola aburto,FCS,CMP,KOB3,"1 unidad  VALVULA BOLA AC 10"" CL150 FISHER, modelo V150 (FV-2395)",27121,10,4531577209,2023-09-14,2023-09-06,8526,FCS-20385 rev 03,,OC enviada a Ineco el 14-09-23,,,27121.0
+2023,1,CP-6982,Juan Carlos Jofre,SYS,Caserones,KOB3,SOLICITUD COTIZACIÓN AMS TREX DEVICE Hart -FF (modelo TREXLFPKLWS3S),17493,3,,,2023-09-11,8575,SYS-26603,,cotizacion enviada al cliente el 12-09-23,,,17493.0
+2023,1,CP-6985,Juan Carlos Jofre,FCS,Caserones,KOB3,"SOLICITUD COTIZACIÓN 4 VALVULAS BOLA 3"" Fisher",66332,10,,,2023-09-11,8577,FCS-26615,,cotizacion enviada el 12-09-23,,,66332.0
+2023,1,correo,,RMD,Enami,KOB2B,ENAMI Pruebas Wireless Hart,,,,,2023-09-13,8578,,,ecrm enviado a Ineco el 07-09-23,,,
+2023,1,correo,Nicolas Vergara,RMD/RFD,JRI,KOB2B,Proyecto Codelco Salvador // P290-COT-AT-001 Solicitud Cotización Presupuestaria Suministro Automatización,94556,20,,,2023-09-14,8588,RFD_RMD-26613,,Cotización referencial enviada a JRI el 14-09-23,,,94556.0
+2023,1,SR774470932,Victor Donoso,RMD,Andina,KOB2B,Materiales semi automatización instrumentación MOLY- Flujometros  //16 flujometros 1 gatway,,,eliminado,,2023-09-20,8602,,,ecrm cerrado (definicion junto a la BU),,,
+2023,1,correo,Cesar Fuentes,SYS,Andina,KOB3,AMS trex Hart,14370,2,,,2023-09-20,8624,SYS-26654,,cotizacion enviada al cliente el 14-09-23,,,14370.0
+2023,1,6010145455,Leonid Carrizo,RMD,MLP,KOB3,Minera Los Pelambres6010145455 // 4 unidades TRANSMISOR PRESION ROSEMOUNT 2051TG2A2B21AQ4  Hart,,,,,2023-09-15,8634,,,ecrm enviado a Ineco el 14-09-23,,,
+2023,1,3000012351,Ariel Cuadra,FCS,Caserones,KOB3,"VALVULA FISCHER 3""COMPLETA PN:F000236869",,,,,2023-09-20,8635,,,ecrm  enviado a Ineco el 14-06-23,,,
+2023,1,correo,Constanza Lazo,ISV/RMD/FCS/REG,MLP,KOB3,"Contrato de valvulas, actudores e instrumentos",,,4642000997,2023-03-30,2023-02-24,6062,,,Carta de adjudicacion firmada en marzo 2023,se debe firmar el contrato (ex ecrm 2079),,
+2023,1,correo,Simon  McPhillips,RQ,Salvador,KOB2,Capacitación: OC 4600020040 - Bombas Peristálticas de Pulpa. --- Extensión H8-00177,,,4600020040,2023-09-20,2023-09-20,8663,20239MASP11874,,ecrm enviado a Ineco el 20-09-23,,,
+2023,1,6000097284,Marcela Torrejon,RMD,Candelaria,KOB3,3 unidades Transmisor de presion diferencial Rosemount,20332,28,,,2023-09-29,8765,RMD-26760,,cotizacion enviada al cliente el 28-09-23,,,20332.0
+2023,1,correo,Carlos Oviedo Alarcon,SYS,Goldfields,KOB3,equipo AMS Trex TREXCHPKLWP3,,,,,,,,,No se a enviado el ecrm a Ineco ya que no esta creado el cliente en el sistema,,,
+2023,1,6010146232,Leonid carrizo,FCS,MLP,KOB3,11 Kit // JUEGO REPARACION; P/ACTUADOR NEUMATICO MOD.480; FISHER CONTROL,1131,10,,,,8899,FCS-26859,,cotizacion subida al portal el 06-10-23,,,1131.0
+2023,1,6000104173,German Diaz,FCS,Candelaria,KOB3,"(4028508) VALVULA FISHER, TIPO V150 DE 12"" // Mismo material del ecrm 5502 con flanges",,,,,,8919,,,ecrm enviado a Ineco el 06-10-23,,,
+2023,,,,,,,Meta BK FY23 $USD,2290,190.83333333333334,Mensual,,,,,,,,,2290.0
+2023,,,,,,,Meta NR FY23 $USD,593,49.416666666666664,Mensual,,,,,,,,,593.0
+2023,,,Meta Plan FY23,,,,,,,,,,,,,,,,
+2023,,,BU,USD$ GP,USD$ BK,Meta BK Mensual,,,,,,,,,,,,,
+2023,,,RQ,121,526,43.833333333333336,,,,,,,,,,,,,
+2023,,,FCS,125.6,324,27,,,,,,,,,,,,,
+2023,,,FI,12,45,3.75,,,,,,,,,,,,,
+2023,,,ISV,87,359,29.916666666666668,,,,,,,,,,,,,
+2023,,,PRV,24,116,9.666666666666666,,,,,,,,,,,,,
+2023,,,RAI,31,155,12.916666666666666,,,,,,,,,,,,,
+2023,,,REG,9,29,2.4166666666666665,,,,,,,,,,,,,
+2023,,,RFD,51,198,16.5,,,,,,,,,,,,,
+2023,,,RMD,118,495,41.25,,,,,,,,,,,,,
+2023,,,SyS,14,48,4,,,,,,,,,,,,,
+2023,,,TOTAL,592.6,2295,191.25000000000003,,,,,,,,,,,,,
+2024,1,7000271097,Cristopher Rivas,FI,Salvador,KOB3,16 unidades de Valvula Solenoide Asco P/N: 8263H320AC110/50D,8198,16,,,2022-11-04,4635,FI-20736 Rev 2,,Cotizacion enviada al cliente el 04-11-22,se estabelece en dashboard como cierre para enero del 2023,,8198.0
+2024,1,correo,Alvaro Bonilla,RQ,Potrerillos,KOB3,Demister torre de secado,109614,,,,2022-12-23,4830,,,ecrm reenviado a Ineco el 21-12-22,,,109614.0
+2024,1,,Juan Donoso,RFD,MLP,KOB2B,Flujometro y densimetro  para Pulpa,150000,,,,Julio,5102,,,,Marzo puede vender un equipo,,150000.0
+2024,,,Juan Donoso,RMD,MLP,TEC,Medicion wireless de temperatura en motores de las celdas,80000,,,,Abril,5109,,,,coordinar una prueba  con Juan Donoso (potencial 50 motores) celdas rougher y scavenger,,80000.0
+2024,1,correo,Eduardo Marin,RFD,MLP,KOB2B,Densímetro no nuclear para pulpa FDM mas HH en el montaje y puesta en marcha,20000,,,,2022-12-29,5101,,,ecrm enviado a Ineco el 23-12-22,,,20000.0
+2024,1,,Manuel Rojas,RMD,MLP,KOB2B,solución Wireless Hart para dos actuadores eléctricos,20000,,,,,5107,,,,702 y 848,,20000.0
+2024,1,,Daniel Rojas,RMD,MLP,KOB3,renovación de baterías y ampliación de antenas para el puerto,20000,,,,febrero,5110,,,,,,20000.0
+2024,1,,Pedro Carrasco,RAI,MLP,TEC,monitoreo Wireless de H2S en planta molibdeno,50000,,,,,5111,,,,,,50000.0
+2024,1,7000306896,Carla Martinez,FCS,Salvador,KOB3,14 unidades de reguladores 67CFR,,,,,2022-12-22,5172,,,ecrm enviado a Ineco el 16-12-22,vence a las 15 hrs,,
+2024,1,7000306896,Cristopher Rivas,ISV,Salvador,KOB3,"VALVULA PINCH 150psi 4"" A FULL PORT",159504,14,,,2022-12-22,5173,FCS-24029,,Cotizacion subida al portal el 22-12-22,vence a las 12 hrs,,159504.0
+2024,1,correo,Macarena Vela,FI/RMD,JRI,KOB2B,NORMALIZACIÓN RED DE AGUA POTABLE Y PLANTAS DE TRATAMIENTOS DE AGUAS SERVIDAS // Manometros y flujometros,15840,,,,2022-12-23,5217,FI_RMD-24068,,Cotizacion enviada el 27-12-22,,,15840.0
+2024,1,6010131970,Leonid carrizo,FCS,MLP,KOB3,Minera Los Pelambres6010131970 // Transductor de posicion - sellos piston 480 -  juego de reparacion pisoin 480,15430,10,,,2022-12-21,5224,FCS-24009,,ecrm enviado a Ineco el 20-12-22,NO se alcanzo a subir la cotizacion,,15430.0
+2024,1,correo,Valentina Olivares,RMD,MLP,TEC,Solución Wireless para medir  temperatura en motores,150000,,,,2022-04-30,5226,,,ecrm creado pero no es enviado a Ineco para generar la cotización,,,150000.0
+2024,1,correo,Valentina Olivares,SYS,MLP,TEC,Solución Monitoreo de vibraciones Wireles  en motores celdas de flotación,100000,,,,Julio,5252,,,se establece opiortunidad para el 2024,,,100000.0
+2024,1,6010132273,Liliana Santamaria,ISV,MLP,KOB3,"Minera Los Pelambres6010132273 // Válvulas de bola para concentrado de 8"", 4"" y 2""",,,,,2022-12-27,5288,,,ecrm eviado a Ineco el 23-12-22,Carla solicta extension hasta el 29-12-22,,
+2024,1,6010132524,Leonid carrizo,FCS,MLP,KOB3,Minera Los Pelambres6010132524// VALVULA DESIGNACION TIPO/MODELO: RSO14 VIAS/POSICIONES: MATERIAL CUERPO,,,,,2022-12-28,5340,,,ecrm enviado a Ineco el 27-12-22,no se presento la cotizacion a MLP,,
+2024,1,M13001057,Francisca Milla,PRV,Enami,KOB3,VÁLVULAS SEGURIDAD OPERADA POR PILOTO (4 items) Anderson Greenwood (ex ecrm 4453 cot PRV-23477 del 20-10-22),92890,30,,,2023-01-04,5352,PRV-24171,,Cotizacion enviada a Francisca Milla el 05-01-23,Se converso con la compradora y señala que se declaro desierta esta licitacion.,,92890.0
+2024,1,6000100326,Rodrigo Zambrano,ISV,Candelaria,KOB3,"ACTUADOR SHAFER 10"", MODELO RV121/2X12 y valvula VTI de 10"" clase 600",203411,26,,,2023-07-07,5354,SPEC-24112,,Cotizacion enviada al cliente el 07-07-23,se solicita extension al cliente para el lunes 09-01-22,,203411.0
+2024,1,7000308857,Ricardo Catalan,RMD,Salvador,KOB3,"3 unidades de MANOMETRO ROSEMOUNT
+WPG45XNAG11B000800S1",7567,16,,,2023-01-11,5378,RMD-24151,,Cot subida al portal el 05-01-23,,,7567.0
+2024,1,Correo,Gonzalo Tapia,REG,Ventana,KOB3,Piloto para regulador 1098 y cotizar equipo nuevo como alternativa,7095,10,,,2023-01-06,5379,REG-24215,,cotizacion enviada al cliente el 24-03-23,,,7095.0
+2024,1,correo,Paula Montes,FI,Salvador,KOB3,Licitación  7000313999 // 2 solenoides ASCO,,,,,2023-02-24,6044,,,ecrm creado y enviado a Ineco el 21-02-23,Vence a las 15 hrs,,
+2024,1,6010135049,Liliana Santamaria,ISV,MLP,KOB3,Valvula de bola clase 1500,,,,,2023-02-15,5937,,,ecrm enviado a Ineco el 13-02-23,"MLP no extendio el plazo de entrega, por lo que no se cotizo",,
+2024,1,6010135690,Jorge Marcano,ISV,MLP,KOB3,"Valvula de bola 2"" calse 1500",,,,,2023-02-27,6079,,,ecrm enviao d a Ineco el 24-02-23,,,
+2024,1,6010135261,,ISV,MLP,KOB3,Bettis SCE300 Quarter Turn Electric Actuator,1962,,,,2023-02-17,5982,SPEC-24622,,cotizacion subida el 20-02-23,,,1962.0
+2024,1,7000315165,,FI,Andina,KOB3,REP VALVULA JG ASCO  302020TT58293 (20 unidades),,,,,2023-03-10,6219,,,ecrm enviado a Ineco el 07-03-23,,,
+2024,1,Correo,Eduardo Gallardo,ISV,Andina,KOB2,VÁLVULAS REGULADORAS DE CAUDAL PARA BOMBAS SOBRE BALSAS HUECHUN,,,,,2023-04-17,6274,,,ecrm enviado el 10-03-23,coordinar una reunion con Rolando para definir que deden preparar los Inside,,
+2024,1,correo,Sebastean Paez,,JRI,KOB2,“INGENIERÍA DE FACTIBILIDAD PARA REPOSICIÓN DEL SISTEMA DE CALEFACCIÓN (se cotizan equipos y servicios),68592,30,,,2023-01-23,5517,FI_RFD_RMD-24334,,cot enviada a JRI por Carla el 23-01-23,,,68592.0
+2024,1,correo,Jose Casareggio,RAI,Enami,KOB2,Solución medición de gases CO2,,,,,,6326,,,se crea oportunidad en el ecrm,"el cliente señala que estan soliictando el presupuesto y que seremos invitados, pero el plazo de entrega es importante",,
+2024,1,6000079914,German Diaz,FCS,Candelaria,KOB3,3 unidades POSICIONADOR FISHER DVC6200 HART CODIGO DE MATERIAL 4056758.,12000,4,,,2023-03-20,6322,,,ecrm enviado el 15-03-23,se pregunta al comprador si se envio la cotizacion y se solicita enviarla si fuera necesario,,12000.0
+2024,1,7000316519,Paula Montes,RMD,Salvador,KOB3,1 unidad por TRANSMISOR ROSEMOUNT 3051SAM4PT2A2B11A1,,,,,2023-03-27,6457,,,ecrm emliminado,,,
+2024,1,7000317598,,FI,Andina,KOB3,MANOMETRO AMETEK 170027X,,,,,2023-03-31,6505,,,ecrm enviado a Ineco el 28-03-23,,,
+2024,1,correo,Francisco Dias,ISV,Enami,KOB3,"Válvulas de 4"" (30 uni) y 2"" (20 uni)  Tipo mariposa Keystone mas actuadores neumáticos con feedback de posición",3937,8,,,2023-06-05,7247,SPEC-25652,,cotizacion enviada al cliente el 01-06-23,,,3937.0
+2024,1,Correo,Alejandro Alvarez,RMD/RFD,MLP,KOB3,Nivel ultrasonico  para cajones y medicion de flujo para agua y Cal,120848,26,,,,6607,RFD-25428,,cotizacion referencial enviada al cliente el 30-05-23,coordinar una reunion con alejandro para el jueves 13-04-23,,120848.0
+2024,1,Correo,Alejandro Alvarez,FCS,MLP,KOB3,"Valvulas de control para 6"" y 8"" para modular agua",,,,,,6615,,,ecrm creado el 06-04-23 // se establece oportunidad para el 31-12-23,,,
+2024,1,M04001062,Francisco Olivares,PRV,Enami,KOB3,"VALVULA DE SEGURIDAD DE 1"" CAPACIDAD 3.353 LIBRAS/ HORAS, PRESION DETRABAJO 200 PSI USO VAPOR SATURADO P/CALDERA REFINO",804,,,,2023-04-14,6662,,,ecrm enviado a Ineco el 11-04-23,,,804.0
+2024,1,correo,Jose Cañas,ISV,Acciona,KOB3S,"Servicios de Armado de Válvula VALTEC 18”
+Clase #600",3000,,,,2023-04-17,6674,,,ecrm enviado a Ineco el 12-04-23,,,3000.0
+2024,1,coreo,Sergio Vergara,FI,Tecnasic,KOB3,COT 10-2813 /// Placas de orificio EMERSON,,,,,2023-04-19,,,,,,,
+2024,1,correo,Jorge Lazo,SYS,Candelaria,KOB3,AMS Trex Hart FF,,,,,2023-05-03,,,,,,,
+2024,1,correo,Hector Correa,SYS,Candelaria,KOB3,AMS Trex Hart FF,17493,24,,,2023-05-03,6370,SYS-25327,,cotizacion enviada al cliente el 02-05-23,,,17493.0
+2024,1,7000321883,Wilmer Chirino,FI,Andina,KOB3,10 unidades VALVULA SOLEN ASCO 8210G94,2416,4,,,2023-05-09,6979,FI-25399,,cotizacion subida al portal el 08-05-23,,,2416.0
+2024,1,correo,Marco Fernandez,RMD,Enami,KOB3,solución medición de presion wireless,,,,,,7002,,,ecrm creado,,,
+2024,1,correo,Jorge Lazo,RMD,Candelaria,KOB3,solución medición de presion wireless,,,,,,7003,,,ecrm creado,,,
+2024,1,7000322624,Jason Diaz,FI,Ventana,KOB3,VALVULA DESCARGA EMERSON ASCO DS31,,,,,2023-05-17,7068,,,ecrm creado el 11-05-23,NO aplicamos,,
+2024,1,correo,Abastecimiento,RQ,Salvador,KOB3,Repuestos criticos para mantencion de bombas suministradas en contrato N° 4600020040,87173,12,,,2023-05-31,7159,RQ-25673,,Kareen envio cotizacion a Alvaro Olivero el 09-06-23,,,87173.0
+2024,1,correo,Fernando Morales,MSOL,Andina,KOB2B,INGENIERÍA DE PREFACTIBILIDAD - SISTEMA DE AGUA RECIRCULADA (SAR) TRANQUE OVEJERIA – CORDILLERA,,,,,,7219,,,se crea ecrm pero no se solicta cotizacion ya que se deriva a proyectos,,,
+2024,1,correo,abastecimiento,REG,MLP,KOB3,"repuestos recomendados para regualdor OCV SN 61619-1-1-B // 12""PR RLF Class 150  (REG-10764)",19079,8,,,2023-05-31,7230,REG-25636 Rev 1,,se envia a catalina belmar la cotizacion y se pregunta como proceder,,,19079.0
+2024,1,correo,abastecimiento,REG,MLP,KOB3S,"Servicios de matencion regulador  OCV SN 61619-1-1-B // 12""PR RLF Class 150  (REG-10764)",,,,,,,,,,,,
+2024,1,correo,Alejandro Alvarez,ISV,MLP,KOB3S,Solución de válvulas de corte automatizadas con actuador neumático,30054,23,,,2023-06-09,7279,SPEC-25686,,Cotizacion enviada al cliente el 13-06-23,,,30054.0
+2024,1,visita,Patricio Guajardo,RFD,MLP,KOB3PS,Medicion de flujo con Slurry MAG,,,,,,7425,,,ecrm creado pero no enviado a Ineco,,,
+2024,1,visita,Eugenio Vasquez,FCS/ISV/RMD,Candelaria,KOB2B,Proyecto control automático del agua de sello para trenes de relaves,,,,,,7488,,,ecrm creado pero no enviado a Ineco,,,
+2024,1,7000326493,Pablo Cordero,RMD,Salvador,KOB3,TRANSMISOR ROSEMOUNT 848TXNAS001WA3WK1B6,7875,13,,2023-06-27,2023-06-27,7507,RMD-25842,,cotizacion subida al portal el 23-06-23,,,7875.0
+2024,1,correo,Francisco Diaz,SYS,Enami,KOB3,Licencia para habilitar protocolo FF en AMS Trex modelo TREXLHPKLWS3S,4249,9,,,2023-07-07,7610,SYS-26096,,cotizacion enviada al cliente el 18-07-23,,,4249.0
+2024,1,correo,Paulina Santander,ISV,Caserones,KOB3,Cotización actuador assy emerson QS0040- EMERSON - FieldQ (S/N 286937005),1947,23,,,,7667,SPEC-25984,,Cotizacion enviada al cliente el 10-07-23,,,1947.0
+2024,1,7000328913,Alejandro Torres,RMD,Salvador,KOB3,4 unidades de DETECTOR RTD 0-150ºC C/THERMOWELL 400mm,18980,17,,,2023-07-17,7805,RMD-26070,,Cotizacion subida al portal el 17-07-23,vence a las 15 hrs,,18980.0
+2024,1,7000329253,Alejandro Torres,FI,Salvador,KOB3,2 unidades VALVULA SOLENOIDE ASCO WPB307B5U,,,,,2023-07-24,,,,ecrm enviado a Ineco el 14-07-23,,,
+2024,1,M04001154,Francisco Olivares,PRV,Enami,KOB3,Cotización M04001154 Válvula de Seguridad,1091,24,,,2023-07-28,7964,PRV-26189,,cotizacion enviada al cliente el 02-08-23,,,1091.0
+2024,1,7000330409,Abastecimiento,RMD,Salvador,KOB3,3 unidades de TRANSMISOR PRES ROSEMOUNT 2090PG1S22A1Q4,9708,,,,2023-07-31,7944,RMD-26182,,,,,9708.0
+2024,1,correo,Jeannette Reyes,RQ,Salvador,KOB3,Repuestos primer año de operacion del PRI DSAL proveedor  INECORepuestos bombas Prominet (mangueras y lubricantes),57237,12,4502252864,2023-12-05,2023-03-09,JSOZ-000018,RQ-26341 rev 02,,(ex 8098) OC enviada a Ineco el 08-01-24,,,57237.0
+2024,1,correo,Rigoberto Barrera,FCS,candelaria,KOB3,"Valvula de control Fisher de 2"" para aire",,,,,,8128,,,se genera ecrm pero no se solicta cotizacion a Ineco,,,
+2024,1,correo,Rigoberto Barrera,ISV,Candelaria,KOB3,"Valvula 1 1/2"" tipo bola con actuador electrico",,,,,2023-08-10,8160,,,ecrm enviado a Ineco el 07-08-23,,,
+2024,1,levantamiento,Patricio Farias,ISV,MLP,KOB3,Valvula mariposa con actuador electrico Biffi y MRO,2582,8,,,2023-08-16,8215,SPEC-26385,,cotizacion enviada al cliente el 18-08-23,,,2582.0
+2024,1,levantameinto,Francisco Diaz,SYS,Enami,KOB3,Solución analisis de Vibraciones,100000,,,,,8289,,,ecrm creado,,,100000.0
+2024,1,correo,Barbara Cortes Castillo,RMD,Codelco,KOB3,Materiales Instrumentación Industrial (Flujometros Rosemount),240288,,,,2023-08-30,8370,RFD-26486,,Cotizacion subida al portal el 30-08-23,,,240288.0
+2024,1,LTSA,Manuel Rojas,ISV,MLP,KOB3S,Contrato 4644007663 // SERVICIO PARA MANTENIMIENTO DE ACTUADORES ELECTRICOS,70000,,,,,8371,,,ecrm creado el 25-08-23,,,70000.0
+2024,1,LTSA,Manuel Rojas,ISV,MLP,KOB3S,Contrato 4644007663 // SERVICIO PARA MANTENIMIENTO DE ACTUADORES ELECTRICOS,70000,,,,,8372,,,ecrm creado el 25-08-23,,,70000.0
+2024,1,LTSA,Manuel Rojas,ISV,MLP,KOB3S,Contrato 4644007663 // SERVICIO PARA MANTENIMIENTO DE ACTUADORES ELECTRICOS,70000,,,,,8373,,,ecrm creado el 25-08-23,,,70000.0
+2024,1,6000102672,Rodrigo Zambrano,REG,Candelaria,KOB3,"VALVE, REGULATOR, 3/4"" NPT, 30-80PSI",,,,,,8395,,,"ecrm creado, pero no se ha enviado a Ineco hasta tener respuesta del cliente",,,
+2024,1,contrato,Felipe Varas,FCS,Candelaria,KOB3S,Servicio de mantencion de válvulas de control aguaducto,30000,,,,,8382,,,ecrm creado el 27-08-23,,,30000.0
+2024,1,correo,Rodrigo Frittis,FCS,Candelaria,KOB3,Mantencion predictiva válvulas de control,30000,,,,,8383,,,ecrm creado el 27-08-23,,,30000.0
+2024,1,correo,Pablo Aguilera,RMD/RFD,Caserones,KOB2B,PROY. TRASLADO POZOS LA BREA / EQUIPOS DE INSTRUMENTACIÓN - GPES-531-23-NC,63363,,,,2023-08-31,8411,,,cotizacion enviada el 05-09-23,,,63363.0
+2024,1,correo,Cesar Fuentes,RFD,Andina,KOB3,"2 Flujomteros de 18""",50660,18,,,2023-09-01,8435,RFD-26530,,cotizacion enviada a Cesar el 01-09-23,,,50660.0
+2024,1,7000444545,Maria Angelica Villalobos,REG,Minera Tres Valles,KOB3,"1 un Válvula Tres Vías 1 ½” (Economizer backpresure Regulator) 
+Tipo FR, Set point 90PSI, Rango 40 a 200 PSI, Presión Máx 400PSI",4172,15,,,2023-09-07,8439,REG-26577,,cotizacion enviada al cliente el 12-09-23,,,4172.0
+2024,1,CP-6982,Juan Carlos Jofre,SYS,Caserones,KOB3,AMS TREX DEVICE Hart -FF (modelo TREXLFPKLWS3S),17493,3,4500023813,2023-11-10,2023-09-11,8575,SYS-26603,,OC enviada  a Ineco por Carla el viernes 10-11-23,,,17493.0
+2024,1,CP-6985,Juan Carlos Jofre,FCS,Caserones,KOB3,"SOLICITUD COTIZACIÓN 4 VALVULA BOLA 3"" Fisher",16583,13,4300023700,2023-10-25,2023-09-11,8577,FCS-26615,,OC enviada a Ineco el 25-10-23,,,16583.0
+2024,1,correo,,RMD,enami,KOB2B,ENAMI Pruebas Wireless Hart,,,,,2023-09-13,8578,,,ecrm enviado a Ineco el 07-09-23,,,
+2024,1,correo,Nicolas Vergara,RMD/RFD,JRI,KOB2B,Proyecto Codelco Salvador // P290-COT-AT-001 Solicitud Cotización Presupuestaria Suministro Automatización,94556,20,,,2023-09-14,8588,RFD_RMD-26613,,Cotización referencial enviada a JRI el 14-09-23,,,94556.0
+2024,1,correo,Cesar Fuentes,SYS,Andina,KOB3,AMS trex Hart,14370,2,,,2023-09-20,8624,SYS-26654,,cotizacion enviada al cliente el 14-09-23,,,14370.0
+2024,1,6010145455,Leonid Carrizo,RMD,MLP,KOB3,Minera Los Pelambres6010145455 // 4 unidades TRANSMISOR PRESION ROSEMOUNT 2051TG2A2B21AQ4  Hart,11420,,,,2023-09-15,8634,,,ecrm enviado a Ineco el 14-09-23,,,11420.0
+2024,1,3000012351,Ariel Cuadra,FCS,Caserones,KOB3,"2 unid. VALVULA FISCHER 3"" tipo bola clase 150 modelos V150 con act 2052 tam 3,  COMPLETA PN:F000236869",37863,15,4300023447,2023-10-10,2023-09-20,8635,FCS-26682,,OC enviada a Ineco el 10-10-23,,,37863.0
+2024,1,6000097284,Marcela Torrejon,RMD,Candelaria,KOB3,3 unidades Transmisor de presion diferencial Rosemount,20332,28,,,2023-09-29,8765,RMD-26760,,cotizacion enviada al cliente el 28-09-23,,,20332.0
+2024,1,correo,Carlos Oviedo Alarcon,SYS,Goldfields,KOB3,equipo AMS Trex TREXCHPKLWP3,,,,,,,,,No se a enviado el ecrm a Ineco ya que no esta creado el cliente en el sistema,,,
+2024,1,4642000997,Patricia Adriazola,FCS,MLP,KOB3,"VALVULA de 1 1/2"" SKYCERA CBA1 504TC1504HFPPVV30 (Material 11119459)",29459,16,4590091962,2024-05-29,2024-06-29,JSOZ-000080,4642000997,,OC enviada a Puffer el 25-06-24,,,29459.0
+2024,1,6000104173,German Diaz,FCS,Candelaria,KOB3,"(4028508) VALVULA FISHER, TIPO V150 DE 12"" // Mismo material del ecrm 5502 con flanges",33485,12,4500213205,2023-10-18,2023-10-11,8919,FCS-26876,,OC enviada a Ineco el 18-10-23,,,33485.0
+2024,1,6010146432,Jorge Alberto Marcano,ISV/ RMD,MLP,KOB3,Minera Los Pelambres6010146432 // Valvula de Bola Ceramica automatizada y transmisor de presion Hart,,,,,2023-10-11,8936,,,ecrm enviado a Ineco el 10-10-23,,,
+2024,1,6010153656,Jorge Marcano,RMD,MLP,KOB3,Transmisores de presion 3051TG4F2B21AB4KBM5,3969,10,4510207625,2024-04-08,2024-03-14,JSOZ-000042,RMD_COT-02140-F2F7G,,OC enviada a Puffer el 04-07-24,vence a las 13 hrs,,3969.0
+2024,1,GPES-553-23-NC,Pablo Aguilera,ISV/RMD/RFD,Caserones,KOB2,"PROYECTO: BY PASS IMPULSIÓN DE REFINO / INSTRUMENTACION - GPES-553-23-NC - INECO (Valvulas automatizadas de 18"" 24"" y 28""  Tx de presion y flujometro)",364939,,,,2023-10-16,8938,,,cotizacion enviada al cliente el 17-10-23,,,364939.0
+2024,1,Correo,Wilson Palma,RMD,MLP,KOB3,Transmisor de presion PIT para pulpa (con trasas de acido ferrico),19686,17,4510212144,2024-06-17,2024-05-31,JSOZ-000072,RMD_COT-03009-N7T8C,,OC enviada a Puffer el 17-06-24,,,19686.0
+2024,1,correo,Alejandro Llanos,ISV,Soltex,KOB2B,"1 Valvula Vanessa 30"" Tag 4420-HV-39505 con vaja y volante manual // S/N 6019/05112-002-001",101050,50,,,2023-10-17,9002,SPEC-26928 Rev 2,,cotizacion enviada Soltex el 17-10-23,,,101050.0
+2024,,6010155301,Jorge Marcano,FCS,MLP,KOB3,TRANSDUCTOR; ELECTRONEUMATICO (I/P); ENTRADA 4-20MA; SALIDA 3-15PSIG; P/POSICIONADOR TIPO DVC6006,4590,6,4510208055,2024-04-17,2024-04-17,ACN-000017,FCS-COT-02435-N4T4G,,OC enviada a Puffer el 03-05-24,,,4590.0
+2024,1,6010155900,Jorge Marcano,FCS,MLP,KOB3,TRANSDUCTOR; ELECTRONEUMATICO (I/P); ENTRADA 4-20MA; SALIDA 3-15PSIG; P/POSICIONADOR TIPO DVC6005,4590,10,4510210193,2024-05-24,2024-04-24,JSOZ-000061,FCS-COT-02566-X2C8J,,OC enviada a Puffer el 24-05-24,,,4590.0
+2024,1,correo,Ivan Munisaga,RQ,Kinross,KOB3,01 Bombas  Tipo Dragger Heavy Duty para pulpa de molienda // PUMP 604-17 SUBMERSIBLE MAX - P/N: PMPM350SM 0604 17,186664,6,perdida,,2023-10-25,9082,RQ-26983,,Cotización enviada por kareen al cliente el 29-10-23,,,186664.0
+2024,1,Ariba,Patricia Adriazola,FCS,MLP,KOB3,TRANSDUCTOR POSICION FISHERCO IPAX (contrato marco 4642000997),19470,6,4590089626,2024-03-07,2024-03-19,JSOZ-000044,contrato,,OC enviada a Puffer el 19-03-24,,,19470.0
+2024,1,contrato,Abastecimiento,FCS,MLP,KOB3,TRANSDUCTOR POSICION FISHERCO IPAX,16225,6,4590085719,2023-10-25,2023-10-25,9158,4642000997,,OC enviada a Ineco el 25-10-23,,,16225.0
+2024,1,6000105070,German Diaz,ISV,Candelaria,KOB3,"KEYSTONE VALVULA DE BOLA, DIA 3/4"", ACCION MANUAL (DUPLEX 2205)",,,,,2023-10-30,9160,,,ecrm enviado a Ineco el 25-10-23 (se indica al comprador que solo podemos vender 10 unidades minimo),,,
+2024,1,Contrato,Francisco Martinez,FCS,Andina,KOB3,RESORTE RANGO FISHER 18R3570X00022,913,12,4502241161,2023-10-25,2023-10-05,9155,4600025003,,OC enviada a Ineco por Katherine el 25-10-23,,,913.0
+2024,1,3000012679,Ariel Cuadra,FCS,Caserones,KOB3,"(ex9171) 2 VÁLUVLAS FISHER 2"" V150 , 2052 SPRING & DIAPHRAGM ACTUATOR Size 1,  DVC6200 DIGITAL VALVE CONTROLLER FF  FISHER 67CFR FILTER REGULATOR",26328,9,4300023973,2023-11-28,2023-10-31,JSOZ-000007,FCS-27057,,OC enviada a Puffer el 01-12-23,,,26328.0
+2024,1,correo,Francisco Martinez,RAI,FLSmidth,KOB3,Repuestos desaladora MLP,,,,,2023-11-03,9172,,,ecrm enviado a Ineco el 26-10-23,,,
+2024,1,visita planta,Cesar Fuentes,RMD,Andina,KOB2B,10 unidades transmisores de nivel y caudal 1208 (HART) para carretera hídrica,,,,2024-03-31,,9179,,,ecrm creado el 29-10-23,,,
+2024,1,visita planta,Cesar Fuentes,RMD,Andina,KOB2B,11 unidades transmisores de nivel y caudal 1208 (HART) para carretera hídrica,,,,2024-09-30,,9180,,,ecrm creado el 29-10-23,,,
+2024,1,visita planta,Cesar Fuentes,RFD,Andina,KOB2B,Transmisores (universales)  8712 con diagniostico,,,,,,9182,,,ecrm creado el 29-10-23,,,
+2024,1,visita planta,Cesar Fuentes,RFD,Andina,KOB2B,Transmisores (universales)  8712 con diagniostico,,,,,,9183,,,ecrm creado el 29-10-23,,,
+2024,1,,Abastecimiento,RAI,MLP,KOB2B,Medición de h2s en planta de molibdeno- flotación selectiva,,,,,,9184,,,ecrm creado el 29-10-23,,,
+2024,1,,Valentina Olivares,RMD,MLP,KOB2B,648 para medición wireless de temperatura en motores con sensor RTD magnético,,,,,,9185,,,ecrm creado el 29-10-23,,,
+2024,1,,Abastecimiento,RFD,Salvador,KOB3,Contrato Marco Materiales Instrumentación Industrial (Flujometros Rosemount),,,,,,9189,,,ecrm creado el 30-10-23,,,
+2024,1,,Abastecimiento,RFD,Andina,KOB3,Contrato Marco Materiales Instrumentación Industrial (Flujometros Rosemount),,,,,,,,,ecrm creado el 30-10-23,,,
+2024,1,,Abastecimiento,RFD,Andina,KOB3,Contrato Marco Materiales Instrumentación Industrial (Flujometros Rosemount),,,,,,9112,,,ecrm creado el 30-10-23,,,
+2024,1,,Abastecimiento,RFD,Andina,KOB3,Contrato Marco Materiales Instrumentación Industrial (Flujometros Rosemount),,,,,,9193,,,ecrm creado el 30-10-23,,,
+2024,1,7000342633,Paula Montes,RFD,Salvador,KOB3,FLUJOMETRO ROSEMOUNT 8707LHA060C1W0NHG1Q (material 1523831),5222,18,,,2023-11-08,9252,RFD-27108,,Cotizacion subida al portal 07-11-23,,,5222.0
+2024,1,6000105223,Rodrigo Zambrano,RMD,Candelaria,KOB3,(2 unidades) 2088 Gauge and Absolute Pressure Transmitt P/N 2088G4S22A1B4M5,5526,13,,,,9207,RMD-27066,,cotizacion enviada al cliente el 06-11-23,,,5526.0
+2024,1,7000337289,,REG,Salvador,KOB3,"Filtro Regulador, Fisher 67CFR, Tamaño 1/4"", Material del cuerpo Aluminio",1435,2,,,2023-09-27,8675,REG-8675,,,,,1435.0
+2024,1,contrato,Abastecimiento,FCS,MLP,KOB3,5 TRANSDUCTOR POSICION; SENSOR IPAX,,,,,,9363,,,,,,
+2024,1,contrato,Abastecimiento,FCS,MLP,KOB3,5 POSICIONADOR VALVULA;FISHERCO;DVC6005F,,,,,,9365,,,,,,
+2024,1,contrato,Abastecimiento,FCS,MLP,KOB3,3 VALVULA;SKYCERA;CBA1.504TC1504HFPPVV30,,,,,,9366,,,,,,
+2024,1,,Rodrigo Frittis,FCS,Candelaria,KOB3,"Válvula alimentación molino SAG 12"" // Solución anti-cavitación",,,,,,9367,,,,,,
+2024,1,contrato,Abastecimiento,FCS,MLP,KOB3,5 TRANSDUCTOR POSICION; SENSOR IPAX,,,,,,9368,,,,,,
+2024,1,contrato,Abastecimiento,FCS,MLP,KOB3,5 TRANSDUCTOR POSICION; SENSOR IPAX,,,,,,9370,,,,,,
+2024,1,contrato,Abastecimiento,FCS,MLP,KOB3,ACTUADOR; BETTIS SCE300 SPD250HVPD0M2D5,30000,,,,,9371,,,,,,30000.0
+2024,1,contrato,Abastecimiento,FCS,MLP,KOB3,ACTUADOR; BETTIS SCE300 SPD250HVPD0M2D5,30000,,,,,9372,,,,,,30000.0
+2024,1,contrato,Abastecimiento,FCS,MLP,KOB3,REGULADOR;FISHERCO;67DF2343119232,30000,,,,,9373,,,,,,30000.0
+2024,1,contrato,Patricia Adriazola,FCS,MLP,KOB3,TRANSDUCTOR POSICION FISHERCO IPAX,18026,6,4590090336,2024-04-08,2024-04-08,JSOZ-000051,4642000997,,OC enviada a Puffer el 08-04-24,,,18026.0
+2024,1,6010147180,,ISV,MLP,KOB2B,Valvulas manuales,113810,26,,,,9377,,,precios subidos por carla el 01-12-23,,,113810.0
+2024,1,M0401262,Francisco Olivares,RAI,Enami,KOB3,"Sonda de gases para SO2, flange Ansi 150 3"", alimentacion 220VAC, conexion de 1/4"", con valvula de purga 220VAC.",247458,58,,,2023-11-13,9345,RAI-27152,,ecrm enviado a Ineco el 09-11-23,,,247458.0
+2024,1,F040-28 COT-04,Margarita Naretto,RMD,JRI,KOB2B,Proyecto RECAMBIO TUBERÍA RELAVEDUCTO STR 36 // 2 Transmisores de presion,22132,22,perdida,,2023-11-22,JSOZ-000006,RMD_COT-01141-L9J1K,,cotizacion enviada a JRI el 05-12-23,,,22132.0
+2024,1,6000105653,German Diaz,FI,Candelaria,KOB3,"8 solenoides ASCO CUERPO ACERO INOX, CLASE .. CONEXIÓN HILO NPT, 5 VIAS 110 V",,,,,2023-11-16,9398,,,ecrm enviado a Ineco el 14-11-23,,,
+2024,1,7000343781,Joseline Lahoz,FI,Andina,KOB3,1 VALVULA SOLENOIDE ASCO 8210P08724120,,,,,2023-11-16,9387,,,ecrm enviado a Ineco el 13-11-23,,,
+2024,1,7000344435,,FCS,Andina,KOB3,10 unidades de POSICIONADOR NEUM FISHER 3570,,,,,2023-11-27,9440,,,ecrm enviado a Ineco el 17-11-23,,,
+2024,1,6000105831,German Diaz,FCS,Candelaria,KOB3,"VALVULA DE CONTROL ROTATIVA, 6"", V200",8892,10,4500215557,2023-11-20,2023-11-17,JSOZ-000030,FCS-9436-JOZ,,OC enviada a Puffer el 29-01-24 (ex 9436),,,8892.0
+2024,1,,Abastecimiento,RQ,MLP,KOB2B,bombas de acople magnetico Ansimag,20000,,,,,9141,,,,,,20000.0
+2024,1,,Abastecimiento,RQ,Enami,KOB2B,bombas de acople magnetico Ansimag,10000,,,,,9442,,,,,,10000.0
+2024,1,,Abastecimiento,RQ,Kinross,KOB2B,Proyecto planta,100000,,,,,9443,,,,,,100000.0
+2024,1,correo,Cesar Fuentes,SYS,Andina,KOB3,AMS TREX DEVICE Hart -FF (modelo TREXLFPKLWS3S),,,,,2023-11-22,9444,,,ecrm enviado a Ineco el 17-11-23,,,
+2024,1,correo,Elizabeth Cuevas,SYS,Enami,KOB2B,Balance de agua (Solución),50000,,,,,9445,,,,,,50000.0
+2024,1,correo,Cristobal Palma,RFD,MG Proveedores,KOB2B,FLUJOMETRO ROSEMOUNT 8705FHA005C1W0N0G1,6574,15,,,2023-11-22,9446,RFD-JOZ-9446,,cotizacion enviada al cliente el 01-12-23,,,6574.0
+2024,1,7000343302,Paola Ruano,ISV,Salvador,KOB2B,Valve Butterfly ABZ 6052 Series 28.0 Inch 1114 Trim Cl 600  Lug WCB Body DUPLEX 2205/GRAPHITE Body Seal CF8M Disc 316SS con Actuator electric XTE3000 S215 ON-OFF,114823,40,,,2023-11-16,9344,SPEC-27155,,cotizacion subida al portal el 15-11-23,,,114823.0
+2024,1,correo,Miguel del Rio,REG,MLP,KOB3,repuestos recomendados regulador OCV MODEL: 108-2SW,,,,,2023-12-07,9449,,,ecrm enviado a Ineco el 17-11-23,,,
+2024,1,4642000997,Patricia Adriazola,FI,MLP,KOB3,SENSOR GOSWITCH 8120516A2,394,,4590092130,2024-05-29,2024-08-06,JSOZ-000099,4642000997,,OC enviada a Puffer el 07-08-24,,,394.0
+2024,1,6000106089,Marcela Torrejon,FCS,Candelaria,KOB3,"2 VALVULA CONTROL ROTATIVA 12"" MOD. V150 (4074436)",48350,10,4500216460,2023-12-05,2023-12-05,JSOZ-000001,FCS-JSOZ-000001,,OC enviada a Ineco el 07-12-23,,,48350.0
+2024,1,correo,Mario Maldonado,SYS,Andina,KOB3,AMS TREX DEVICE Hart -FF (modelo TREXLFPKLWS3S),17493,,,,,JSOZ-000003,COT-01095-L0Y0G,,cotizacion enviada al cliente el 28-11-23,,,17493.0
+2024,1,7000345528,abastecimeinto,RMD,Salvador,KOB3,DETECTOR RTD 0-150ºC C/THERMOWELL 400mm,26585,20,perdida,,2023-12-06,JSOZ-000004,COT-01146-Q7C8W,,Cotizacion subida por carla el 06-12-23,,,26585.0
+2024,1,6000106747,German Diaz,FCS,Candelaria,KOB3,"1 unidad VALVULA DE 6"" DIAMET, ROTARY VALVE (SAP 4028542)",22504,14,4500218548,2024-01-09,2023-12-12,JSOZ-000009,FCS-COT-01450-S9D4G,,OC enviada a Ineco el 17-01-24,,,22504.0
+2024,1,6000106748,German Diaz,FCS,Candelaria,KOB3,"1 unidad VALVULA FISHER 6#  TIPO ED (SAP 4028544) VALVULA FISHER TIPO
+ED CON ACTUADOR NEUMATICO 657 TAMAÑO 60 Y POSICIONADOR S/N 12597589",29903,10,4500217880,2023-12-27,2023-12-13,JSOZ-000010,COT-01209-N2Q4P,,OC enviada a Ineco el 27-12-23 / se entrega al cliente un descuento del 2%,OC se procesa el 03-05-24,,29903.0
+2024,1,7000346697,Alejandro Torres,FCS,Salvador,KOB3,REGULADOR PRESION 0-125PSI FISHER 67CFR (1406817),410,2,4400349699,2023-12-21,2023-12-13,JSOZ-000011,REG-JSOZ-000011,,OC enviada a Ineco el 26-12-24,,,410.0
+2024,1,correo,Hugo Morales,SYS,Caserones,KOB3,04 unidades; N/P D25438; NECK STRAP ASSEMBLY,1024,18,,,2023-12-13,JSOZ-000012,COT-01184-R0Y8R,,cotizacion enviada al clienet el 13-12-23,,,1024.0
+2024,1,6010149003,Abastecimiento,FI,MLP,KOB3,IMAN; AMP3/TAPA DE RESINA; MODELO 81;  DIST DETECCCIÓN 15/16PULG (24MM); TOPWORK EMERSON; PARA INTERRUPTOR GO SWITCH C/SOPORTE PLAST ICO CON 02 ORIFICIOS; 22X65X13MM,492,6,,,2023-12-12,JSOZ-000013,F I_COT-01255-Y8Y3X,,Cotizacion subida al portal el 19-12-23,,,492.0
+2024,1,correo,abastecimiento,RMD,ventana,KOB3,3 TRANSMISOR ROSEMOUNT 848TXNAS002WA3WK1HA,21957,,4600021130,2023-12-12,2023-12-12,JSOZ-000014,4600021130,,OC enviada a Ineco el 12-12-23,,,21957.0
+2024,1,6010153482,Jorge Marcano,FCS,MLP,KOB3,SELLO; P/ACTUADOR NEUMATICO MOD.480; FISHER CONTROL,2475,10,4510206221,2024-03-19,2024-03-11,JSOZ-000040,COT-02088-Z4M7J,,OC enviada a Puffer el 20-03-24,vence a las 13 hrs,,2475.0
+2024,1,correo,Eduardo Marin,FCS,MLP,KOB3,Minera Los Pelambres6010152366 //Sensor de posicion fisher F001237296 Type DVC 6215,2065,16,,,2023-12-26,JSOZ-000016,COT-01437-J9S4G,,Se solicta a Puffer actaulizacion de la propuesta COT-01437-J9S4G,,,2065.0
+2024,1,7000348708,Carlos rojas,FCS,Andina,KOB3,5 unidades ACTUADOR NEUM 480 35psi FISHER 480-16/80,154175,15,4400351566,2024-01-24,2023-12-03,JSOZ-000017,COT-01461-C6V5H,,OC enviada a Puffer el 25-01-24,se modifica la fecha de entrega para el 10 de Junio,,154175.0
+2024,1,correo,Manuel Rivas,RMD,ICI,KOB3,INSTRUMENTOS PARA USO EN SUSTANCIAS REACTIVAS (Codelco Salvador),,,perdida,,,JSOZ-000021,,,ecrm enviado a Ineco el 16-01-24,,,
+2024,1,correo,Ender Pinto,FCS,MLP,KOB3,SELLO; P/ACTUADOR NEUMATICO MOD.480; FISHER CONTROL,2475,10,4510206642,2024-03-26,2024-03-26,JSOZ-000065,COT-02088-Z4M7J,,OC enviada a Puffer el 03-05-24,,,2475.0
+2024,1,Correo,Bryan Navarro,FI,MLP,KOB3,Repuestos PANELES NEUMÁTICOS MLP,7381,22,,,2024-01-23,JSOZ-000022,FI_COT-01657-F9S5N,,ecrm enviado a Ineco el 18-01-24,,,7381.0
+2024,1,7000351844,Carolina Valenzuela,ISV,Andina,KOB3,2 valvulas Neotecha,11346,7,,,2024-01-29,JSOZ-000024,COT-01665-Q2W9Z,,cotizacion subida al portal el 24-01-24,,,11346.0
+2024,1,6000108818,Rodrigo Zambrano,FCS,Candelaria,KOB2B,"2 valvulas de control de flujo de 16"" para Pulpa",34690,28,,,2024-01-29,JSOZ-000025,COT-01699-D9T7C,,ecrm enviado a Ineco el 19-01-24,,,34690.0
+2024,1,4642000997,Patricia Adriazola,FCS,MLP,KOB3,RELE FISHERCO 38B5786X052 (SAP 11021935),7019,,4590092152,2024-06-05,2024-05-29,JSOZ-000074,4642000997,,OC enviada a Puffer el 05-06-24,,,7019.0
+2024,1,6010155911,Jorge Marcano,FCS,MLP,KOB3,MRO Fisher (R47016X012; 1R875914042),1036,10,4510208884,2024-04-26,2024-04-24,JSOZ-000060,COT-02568-Y4D3B,,OC enviada a puffer el 06-05-23,,,1036.0
+2024,1,6010159888,Leonid carrizo,FCS,MLP,KOB3,MRO Fisher (6 unidadees 1R875914042),2976,12,4510215446,2024-08-05,2024-07-19,JSOZ-000088,COT-03446-B2P4L,,OC enviada a Puffer el 05-08-24,,,2976.0
+2024,1,3000013580,Ariel Cuadra,RMD,Caserones,KOB3,4 unidades SENSOR+TERMOPOZO ROSEMOUNT 214C+114C,2712,13,4300025571,2024-03-13,2024-03-13,JSOZ-000031,RMD_COT-01764-P7F1J,,OC enviada a Puffer el 13-03-24,,,2712.0
+2024,1,6000109598,German Diaz,FCS,Candelaria,KOB3,"1 unidad VALVULA FISHER, TIPO V150 DE 12""",34719,12,4500223406,2024-03-18,2024-02-12,JSOZ-000032,FCS_COT-01811-G6X5T,,OC enviada a Puffer el 19-03-24,se entrega un descuento del 2%,,34719.0
+2024,1,6000097135,German Diaz,FCS,Candelaria,KOB3,"VALVULA DE RETENCION, 14"", TIPO CHECK",33750,29,,,,JSOZ-000033,COT-01769-L0F6K,,Cotizacion enviada a Romina Cortes el 07-02-24,,,33750.0
+2024,1,6000109406,German Diaz,ISV,Candelaria,KOB3,"(SAP 4028427) VALVULA DE RETENCION, 1 1/2"", TIPO CHECK",,,,,2024-02-23,JSOZ-000035,,,ecrm enviado a Ineco el 19-02-24,,,
+2024,1,correo,Ivan Zuleta,REG,Pucobre,KOB3,Una VALVULA REGULADORA PRESION-80 A 400 PSI; FISHER NPS 1 MR95HP,,,,,,JSOZ-000036,,,ecrm enviado a Ineco el 20-02-24,,,
+2024,1,6010152366,Jorge Marcano,RMD,MLP,KOB3,TRANSMISOR;ROSEMOUNT;3051TG4A2A21AB4,13341,10,perdida,,2024-02-28,JSOZ-000037,COT-02036-P1J2N,,cotizacion subida al portal el 12-03-24,,,13341.0
+2024,1,6010161840,Leonid Carrizo,FCS,MLP,KOB3,MRO Fisher (5 und. 1R875914042 // 12 und. 1H865114042),2676,10,4510217180,2024-09-02,2024-08-28,JSOZ-000110,COT-03889-W9Q1K,,OC Enviada a Puffer el 03-09-24,,,2676.0
+2024,1,correo,Cesar Fuentes,MSOL,Andina,KOB3,"Transmisor  4-20 + Hart y cables de comunicacion y anillos a tierra para sensor de flujo de 16""",9746,10,,,,JSOZ-000041,RMD_COT-02404-G9T5K,,cotizacion enviada a Cesar el 17-06-24,,,9746.0
+2024,1,6010156511,Jorge Marcano,FCS,MLP,KOB3,Minera Los Pelambres6010156511 // TRANSDUCTOR; ELECTRONEUMATICO (I/P); ENTRADA 4-20MA; SALIDA 3-15PSIG; P/POSICIONADOR TIPO DVC6005,6120,14,4510209664,2024-05-14,2024-05-08,JSOZ-000067,COT-02724-J8K3N,,OC enviada a Puffer el 20-05-24,,,6120.0
+2024,1,correo,Cristian Bravo,RMD,Calimport,KOB3,6 unidades de controlador transmisor de temperatura Rosemount código serie 848TFNAS002F5Q4.,30300,8,9724,2024-04-26,2024-03-19,JSOZ-000043,RMD_COT-02187-L3R8H,,OC enviada a Puffer el 03-05-24,,,30300.0
+2024,1,6010150469,Mariangel Flores,FCS,MLP,KOB3,Minera Los Pelambres6010150469 // SELLO;FISHERCO;1R875914042SELLO; P/ACTUADOR NEUMATICO MOD.480; FISHER CONTROL,2385,8,4510203264,2024-02-28,2024-01-26,JSOZ-000027,COT-01682-V4F7Z,,OC enviada a Puffer el 28-02-24,,,2385.0
+2024,1,6010150375,Jorge Marcano,FCS,MLP,KOB3,Minera Los Pelambres6010150375. 3 POSICIONADOR;FISHERCO;DVC6205,16938,13,4510202688,2024-01-23,2024-01-18,JSOZ-000019,COT-01595-H7P6B,,OC enviada a Ineco el 27-02-24,,,16938.0
+2024,1,,Abastecimiento,RQ,Salvador,KOB3S,"Servicio presentación ""Buenas prácticas bombas Peristáltica OC 4600020040"" Prominet",5280,,4600020040,2024-03-22,2024-03-22,JSOZ-000045,,,ecrm enviado a Puffer el 22-03-24,,,5280.0
+2024,1,correo,Ivan Latorre,FCS,Caserones,KOB3S,mantención valvula V150 Fisher  (F001542346),8872,12,5600004387,2024-04-09,2024-03-27,JSOZ-000046,SERV-COT-02308-C2T7F,,OC enviada a Puffer el 17-04-24,,,8872.0
+2024,1,correo,Hugo Corvalan,FCS,Andina,KOB3,"Valvula de globo ET 12"" clase 600 con actuador Rotork IQFM",225164,30,,,2024-03-27,JSOZ-000047,FCS-COT-02526-X0W8Y,,cotizacion enviada al cliente el 19-04-25,,,225164.0
+2024,1,6010149524,Patricia Adriazola,RMD,MLP,KOB3,Minera Los Pelambres6010149524 // 1 TX Rosemount 2051GP2A2B31AB404D4H4 (0708817957),5027,2,4510201862,2024-01-05,2023-12-19,JSOZ-000015,RMD_COT-01257-P8N2D,,OC enviada a Puffer el 08-01-24,,,5027.0
+2024,1,correo,Francisca Urbina,RQ,Codelco,KOB2,Licitación Codelco Bombas y repuestos --- LICITACIÓN ABIERTA WS1037888062,330000,,,,2024-07-11,JSOZ-000049,,,ecrm enviado a Puffer el 09-07-24,,,330000.0
+2024,1,6010157537,Jorge Marcano,RMD,MLP,KOB3,Minera Los Pelambres 6010157537 (TRANSMISOR;ROSEMOUNT;3051TG4A2A21AB4),3113,13,4510213889,2024-06-05,2024-05-31,JSOZ-000073,RMD_COT-02999-Z6J7F,,OC enviada a Puffer el 05-06-24,"comprador indica que cambiara el numero de la orden, pero esta se mantendrá",,3113.0
+2024,1,6010153038,Jorge Marcano,FCS,MLP,KOB3,JUEGO REPARACION; P/ACTUADOR NEUMATICO MOD.480; FISHER CONTROL (NP R47016X012),1620,8,4510206028,2024-05-19,2024-02-28,JSOZ-000038,COT-01963-X8S2T,,OC enviada a Puffer el 19-08-24,vence a las 13 hrs,,1620.0
+2024,1,correo,Andres Gomez,ISV,MLP,KOB3S,"Mantención válvula vanessa de 32"" clase 300 (tranque Mauro)",15000,,,,,JSOZ-000054,,,,,,15000.0
+2024,1,correo,Nelson Manzanares,RFD,MLP,KOB3,Flujometros magnéticos para agua y slurry,50000,,,,,JSOZ-000056,,,,,,50000.0
+2024,1,6000112819,German Diaz,FI,Candelaria,KOB3,"7 unidades VALVULA SOLENOIDE ASCO  3/8"" NEUMATICA",1659,5,4500225860,2024-04-24,2024-04-18,JSOZ-000057,FI_COT-02489-V3Z3J,,OC enviada a Puffer el 03-05-24,,,1659.0
+2024,1,7000364390,Paola Ruano,ISV,Salvador,KOB3,"2 unidades de VALVULA 1-1/2"" NEOTECHA  SV040DA703A2S00",8084,28,4400365090,2024-05-14,2024-04-29,JSOZ-000058,COT-02547-T9H0K,,OC enviada a Puffer el 20-05-24,,,8084.0
+2024,1,6000112250,German Diaz,FCS,Candelaria,KOB3,1 unidad POSICIONADOR FISHER DVC6200 HART,3960,6,4500226513,2024-05-06,2024-04-22,JSOZ-000059,FCS-COT-02560-Y3X8C,,OC  enviada apuffer el 06-05-24,,,3960.0
+2024,1,6010159265,Jorge Marcano,RAI,MLP,KOB3,eliminador de burbujas Rosemount N/P 2417000 // Oring turbidimetro,2714,13,4510213547,2024-07-11,2024-07-05,ACN-000030,RAI_COT-03319-K0H2B,,OC enviada a puffer el 26-07-24,Se informa al cliente que entregaremos la semana del 21 de octubre,,2714.0
+2024,1,4642000997,Patricia Adriazola,RFD,MLP,KOB3,Contrato marco Codigo 11173930 // FLUJOMETRO INECO 9007002513,27816,16,4590095240,2024-09-10,2024-09-10,JSOZ-000117,4642000997,,OC enviada  Puffer el 12-09-24,,,27816.0
+2024,1,4642000997,Patricia Adriazola,FCS,MLP,KOB3,contrato marco 4642000997 // 12 unidades RELE;FISHERCO;38B5786X052,8424,7,4590085197,2023-10-11,2023-10-11,8943,4642000997,,OC enviada a Ineco el 11-10-23,,,8424.0
+2024,1,contrato,Leonid carrizo,FCS,MLP,KOB3,contrato 4642000997 // VALVULA BOLA CERAMICA 1 1 2 ACTUADOR RACK PINNON RETORNO POR RESORTE MODELO QS0200 POSICIONADOR MODELO DVC6200 HART NIVEL DIAGNOSTICO HART COMMUNICATING HC,13258,16,4590085611,2023-10-19,2023-10-19,9070,contrato,,OC enviada a Ineco el 19-10-23,,,13258.0
+2024,1,3000014357,Ariel Cuadra,RFD,Caserones,KOB3,"4 unidades SENSOR FLUJO 8705NHE120G3-12""",56264,14,4300025571,2024-06-05,2024-05-06,JSOZ-000031,RFD_COT-02698-Y2Z7T,,OC enviada a Puffer el 05-06-24,,,56264.0
+2024,1,4590085197,Abastecimiento,FCS,MLP,KOB3,contrato 4642000997 // 4 unidades de ACTUADOR VALVULA 8 1 2 DIA 150PSIG,50936,13,4590085527,2023-10-17,2023-10-17,9032,contrato,,OC enviada a Ineco el 17-10-23,,,50936.0
+2024,1,6010146394,Leonid carrizo,RQ,MLP,KOB3,BOMBA CENTRIFUGA HORIZONTAL; C/ACOPLE MAGNETICO; MOD. KM-2156-AA; TAMAÑO 2 PULG X 1-1/2 PULG X 6 PULG; IMPULSOR 127MM DIA; CUERPO H ERRO DUCTIL REVESTIDA EN TEFZEL 150PSI,14488,16,4510197587,2023-10-11,2023-10-10,8937,RQ-26868,,OC enviada a Ineco el 11-10-23,,,14488.0
+2024,1,correo,Eduardo Riveros,SYS,MLP,KOB3,Licencia controlador RsTi-CPE11X  // cotizar ME100MBL001 y PRIMARYSUPPORTNEW,,,,,2024-05-13,JSOZ-000070,,,ecrm enviado a Puffer el 10-05-24,,,
+2024,1,3000013749,Maria Emilia Zapata,FCS,Caserones,KOB3,"VALVULA FISCHER PN:F000236869 // Valve Type FISHER V150 3"" clase 150#",11444,9,4300024835,2024-05-09,2024-05-09,JSOZ-000069,FCS-COT-198-JC-240216-0024735,,OC enviada a Ineco el 09-05-24,,,11444.0
+2024,1,correo,,,,,,,,,,,,,,,,,
+2024,1,6000114702,German Diaz,ISV,Candelaria,KOB3,"VALVULA DE COMPUERTA 4"", ANSI 600 RF Keystone en Duplex",3008,18,,,2024-05-30,JSOZ-000071,COT-02983-W9D3T,,cotizacion enviada al cliente el 30-05-24,,,3008.0
+2024,1,,abastecimeinto,FCS,MLP,KOB3,ACTUADOR VALVULA FISHER 4801540DVC6005,19004,,4590086523,2023-11-27,2023-11-27,JSOZ-000029,4642000997,,OC enviada a Puffer el 29-01-24,,,19004.0
+2024,1,contrato,,FCS,MLP,KOB4,ACTUADOR VALVULA 8 1 2 DIA 150PSIG,50936,,4590088391,2024-01-30,2024-01-30,JSOZ-000039,4642000997,,OC enviada a Puffer el 28-02-24,,,50936.0
+2024,1,evisi,Patricia Adriazola,FCS,MLP,KOB3,ACTUADOR VALVULA 8 1 2 DIA 150PSIG,70737,12,4590093245,2024-07-01,2024-07-01,JSOZ-000082,4642000997,,OC enviada a Puffer el 01-07-24,,,70737.0
+2024,1,4642000997,Patricia Adriazola,FCS,MLP,KOB3,7 unidades RELE FISHERCO 38B5786X052,5565,7,4590095959,2024-09-30,,ACN-000063,4642000997,,OC enviada por carla el 30-09-24,,,5565.0
+2024,1,correo,Cristian Haro,REG,Pucobre,KOB3,VALVULA REGULADORA PRESION-80 A 400 PSI; FISHER NPS 1 MR95HP,8709,18,PC-000017992,2024-07-01,2024-06-14,JSOZ-000075,COT-03164-G9H1R,,OC enviada a Puffer el 01-07-24,,,8709.0
+2024,1,4642000997,Patricia Adriazola,FCS,MLP,KOB3,7 unid. TRANSDUCTOR POSICION FISHERCO IPAX,25718,6,4590094909,2024-08-26,2024-08-26,JSOZ-000108,,,OC enviada a Puffer el 26-08-24,,,25718.0
+2024,1,correo,Wilson Palma,FI,MLP,KOB2B,solución para eliminar humedad de la red de aire instrumental,3582,22,perdida,,2024-06-21,JSOZ-000077,FI_COT-03163-W7K6Z,,cotizacion enviada al cliente el 02-07-24,,,3582.0
+2024,1,correo,Cesar Fuentes,RFD,Andina,KOB3,Transmisores de flujo y cables de comunicación.,19238,,,,2024-06-21,JSOZ-000078,RFD_COT-03167-H4J5D,,propuesta enviada a Cesar el 18-07-24,,,19238.0
+2024,1,6010156248,Jorge Marcano,FCS,MLP,KOB3,6 unidades SELLO;FISHERCO;1R875914042,2976,10,4510209721,2024-05-09,2024-05-03,JSOZ-000063,FCS-COT-02656-L9H9Q,,OC enviada a Puffer el 09-05-24,,,2976.0
+2024,1,6000116286,German Diaz,FI,Candelaria,KOB3,"7 unidades VALVULA SOLENOIDE ASCO  3/8"" NEUMATICA",2190,7,4500230212,2024-07-04,2024-07-01,JSOZ-000081,FI_COT-03266-T3G3C,,OC enviada a Puffer el 10-07-24,,,2190.0
+2024,1,contrato,Patricia Adriazola,FCS,MLP,KOB3,6 unidades POSICIONADOR VALVULA FISHERCO DVC6005F,44988,12,4590088170,2024-01-24,2024-01-25,JSOZ-000028,4642000997,,OC renviada a  Puffer el 26-01-24,,,44988.0
+2024,1,correo,Nilton Coloma,FCS,MLP,KOB3,"VALVULA de 2"" SKYCERA CBA1 504TC1504HFPPVV30 (Material 11119459)",14556,15,,,2024-07-05,JSOZ-000083,COT-03383-L9T1Z,,cotizacion enviada al cliente el 10-07-24,,,14556.0
+2024,1,6010147055,Leonid carrizo,FCS,MLP,KOB3,"6 unidades BUSHING,SEAL;ASTM B505 C95400 OR ASTM B150 C62400 PN:1R875914042",2856,9,4510198486,2023-10-30,2023-10-30,9126,FCS-27023,,OC enviada a Ineco el 30-10-23,,,2856.0
+2024,1,4642000997,Nayaret Cornejo,FCS/ISV/RMD,MLP,KOB3,actualizacion de precios contrato marco 4642000997,,,,,2024-07-10,JSOZ-000084,,,ecrm enviado a puffer el 04-07-24,,,
+2024,1,6000116876,German Diaz,ISV,Candelaria,KOB3,"2 VALVULAS DE MARIPOSA 20"", ANSI 150, LUG Keystone",52040,34,4500231064,2024-07-24,2024-07-24,JSOZ-000026,COT-01796-C3H3Q,,OC enviada a Puffer el 24-07-24,,,52040.0
+2024,1,correo,Paulina Santander,FI,Caserones,KOB3,(cotizacion presupuestaria) cotización por 50 unidades de sensor AVENTICS Sensor ST6.,1600,13,,,2024-08-20,JSOZ-000087,FI_COT-03805-F1G6C,,cotizacion enviada al cliente el 21-08-24,,,1600.0
+2024,1,4642000997,,FCS,MLP,KOB3,6 unid. RELE FISHERCO 38B5786X052,4770,7,4590094946,2024-08-27,2024-08-27,JSOZ-000111,4642000997,,OC enviada a Puffer el 27-08-24,,,4770.0
+2024,1,correo,Paulina Santander,ACT,Caserones,KOB3,1  ACTUADOR ASSY EMERSON QS0040,1947,23,5600004349,2024-07-16,2024-07-16,JSOZ-000085,SPEC-25984,,OC enviada a puffer el 17-07-24,,,1947.0
+2024,1,4642000997,Patricia Adriazola,RFD,MLP,KOB3,6 FLUJOMETRO INECO 8750WDMT1A1FPH // 3 FLUJOMETRO ROSEMOUN 8732EST1G1NA,32052,16,4590093948,2024-07-31,2024-07-31,JSOZ-000095,4642000997,,OC enviada a Puffer el 31-07-24,,,32052.0
+2024,1,correo,Nelson Carvajal,ISV,Caserones,KOB3,Nueva válvula y repuestos recomendados Mankenberg,182572,32,Perdida,,2024-08-01,JSOZ-000092,COT-03808-Q3S2Y,,Cliente señala que por la demora compro a otro proveedor,,,182572.0
+2024,1,4642000997,Patricia Adriazola,FCS,MLP,KOB3,5  TRANSDUCTOR POSICION FISHERCO IPAX // 4  POSICIONADOR VALVULA FISHERCO DVC6005F,52326,12,4590093611,2024-07-16,2024-07-16,JSOZ-000086,4642000997,,OC enviada a puffer el 17-07-24,,,52326.0
+2024,1,4600021130,,RMD,Ventana,KOB3,TRANSMISOR ROSEMOUNT 848TXNAS002WA3WK1HA,7685,12,4502316679,2024-07-26,2024-07-26,JSOZ-000091,4600021130,,OC enviada a Puffer el 26-07-24,,,7685.0
+2024,1,7000375732,abastecimiento,RMD,Ventana,KOB3,1 BATERIA ROSEMOUNT 701PBKKF,310,9,4400375445,2024-09-05,2024-08-05,JSOZ-000094,RMD_COT-03618-G2M5N,,OC enviada a Puffer el 05-09-24,,,310.0
+2024,1,contrato,Abastecimiento,FCS,MLP,KOB3,4 unidades POSICIONADOR VALVULA FISHERCO DVC6005F,29992,12,4590086085,2023-11-08,2023-11-16,9376,4642000997,,OC enviada a Ineco el 16-11-23,,,29992.0
+2024,1,correo,Jaime Espinosa,FCS/RMD/RFD,MLP,KOB3S,Servicio calibración de instrumentos - proyecto de “P24-16- AMSA,70050,,,,2024-08-07,JSOZ-000097,,,ecrm enviado a Puffer el 05-08-24,,,70050.0
+2024,1,3000015100,Ariel Cuadra,FCS,Caserones,KOB3,"VÁLVULA FISHER 2"" V150 C/ACTUADOR INECO",13164,11,4300026413,2024-08-22,2024-08-07,JSOZ-000096,FCS-COT-03682-H7B6C,,OC enviada a Puffer el 23-08-24,,,13164.0
+2024,1,visita planta,Rigoberto Barrera,ISV,Candelaria,KOB3,"Actuador Shafer remoto para valvula clarkson de 8"" clase 150",,,,,2024-08-26,JSOZ-000107,,,ecrm enviado a puffer el 20-08-24,CRM:0130190,,
+2024,1,visita planta,Rigoberto Barrera,ISV,Candelaria,KOB3,accionamiento de emisiones controladas (ECAT)  para actuador Shafer 9-1137706-1,,,,,2024-08-16,JSOZ-000104,,,ecrm enviado a Puffer el 12-08-24,CRM:0130405,,
+2024,1,Doc1215872804,German Diaz,PRM,Candelaria,KOB3,"VÁLVULA ALIVIO AGUA SELLO RELAVEDUCTO 1"" ACERO INOXIDABLE 316",9650,9,4500233677,2024-09-03,2024-08-09,JSOZ-000098,PRV_COT-03677-M4J5D,,OC enviada Puffer el 04-09-24,solicitar al cliente que llene el formulario para crearlos en Dynamic,,9650.0
+2024,1,4642000997,Patricia Adriazola,FCS,MLP,KOB3,4 unidades de POSICIONADOR VALVULA FISHERCO DVC6005F,33321,13,4590092329,2024-06-21,2024-05-03,ACN-000027,4642000997,,OC enviada a Puffer el 21-06-24,,,33321.0
+2024,1,6000118969,Javiera Reyes,FCS,Candelaria,KOB3,(4028412) VALVULA DE CONTROL FISHER V200 2# sin brida,11382,26,4500232640,2024-08-19,2024-08-09,JSOZ-000100,CFCS-COT-03757-C1B4W,,OC enviada a Puffer el 20-08-24,CRM:0130097,,11382.0
+2024,1,6000118968,Javiera Reyes,FCS,Candelaria,KOB3,VALVULA DE CONTROL FISHER V200 1-1/2# sin Brida,11656,10,4500233221,2024-08-27,2024-08-09,JSOZ-000101,FCS-COT-03848-Z0S0D,,Oc enviada a Puffer el 27-08-24,CRM:0130140,,11656.0
+2024,1,7000377061,Paula Montes,ISV,Salvador,KOB3,"VALVULA BOLA AC INOX 19bar 1-1/2"" (4220694)",51440,6,,,2024-08-19,JSOZ-000102,COT-03773-N5H2H,,Cotizacion subida al portal el 19-08-24,CRM:0130181,,51440.0
+2024,1,7000378023,Daniel Gerrero,FI,Andina,KOB3,COMUNICADOR HART 475 EMERSON,15106,2,,,2024-08-21,JSOZ-000105,SYS_COT-03802-K4Y5T,,Cotizacion subida al portal el 21-08-24,,,15106.0
+2024,1,4642000997,Patrizia Adriazola,FCS,MLP,KOB3,13 unidades de RELE FISHERCO 38B5786X052,9126,3,4590087454,2024-06-14,2024-06-17,JSOZ-000076,4642000997,,OC enviada a Puffer el 14-06-24,,,9126.0
+2024,1,7000378756,,ISV,Andina,KOB3,(1418793) VALVULA BOLA NEOTECHA NTB080NB1FA1L00,,,,,2024-08-26,ACN-000044,,,ecrm creado por carla y enviado a Puffer el 22-08-24,No se cotiza por falta de respuesta de la fabrica,,
+2024,1,6010146232,Leonid carrizo,FCS,MLP,KOB3,11 Kit // JUEGO REPARACION; P/ACTUADOR NEUMATICO MOD.480; FISHER CONTROL,1131,10,4510197573,2023-10-11,2023-10-06,8899,FCS-26859,,OC enviada a Ineco el 11-10-23,,,1131.0
+2024,1,7000379320,abastecimiento,RQ,Andina,KOB3,2 unidades BOMBA PROMINENT GMXA0715PVT20000UA11300E,4852,8,,,2024-09-02,JSOZ-000109,RQ_COT-03907-R8R9Z,,cotizacion subida al portal el 29-08-24,,,4852.0
+2024,1,7000378797,abastecimiento,RQ,Andina,KOB3,"Bomba Dosificadora gamma/ X - 14,5 lph @ 7 bar GMXA0715PVT20000UA11300ES",2426,8,,,,ACN-000041,COT-03841-D2G7V,,propuesta subida al portal el 26-08-24,,,2426.0
+2024,1,4642000997,Patricia Adriazola,FCS,MLP,KOB3,10 POSICIONADOR VALVULA FISHERCO DVC6005F,84890,13,4590094663,2024-08-20,2024-08-20,ACN-000039,4642000997,,OC enviada por Carla el 20-08-24,,,84890.0
+2024,1,correo,ROSSANNY CARRASQUE,FCS,MLP,KOB3,1 unidad  TRANSDUCTOR IPAX,3605,6,4590091085,2024-04-23,2024-04-23,JSOZ-000066,FCS-COT-02448-S6Y1G,,OC enviada a Puffer el 03-05-24,,,3605.0
+2024,1,correo,Jorge Torres,FI,Pucobre,KOB3,Curso Hart - Trex Emerson,3514,,PC-000020828,2024-09-26,2024-08-02,JSOZ-000112,SERV_COT-03982-V9H4V,,OC enviada a Puffer el 26-09-24,,,3514.0
+2024,1,correo,Marcelo Catrileo,RMD,MLP,KOB3,5 baterías 701PBKKF,1660,9,,,2024-09-02,JSOZ-000113,RMD_COT-03945-J1M7P,,Cotizacion enviada al cliente el 05-09-24,,,1660.0
+2024,1,correo,Pedro Gonzalez,REG/ISV,Pk Ingeneiria,KOB2,Cotización Gas - 1828-01 Hospital del Salvador,26545,25,,,2024-09-17,JSOZ-000118,FI_REG_SPEC_COT-04169-C5Z4J,,cotizacion enviada a Pedro el 03-10-24,se cierra ecrm y se deja como perdida,,26545.0
+2024,1,6000120712,Sebastian Godoy,FCS,Candelaria,KOB3,"Valvulas Fisher de 2 unid de 2"" (4028513) y 2 unid de 3"" (4028523)",66766,10,4500234271,2024-09-17,2024-09-09,JSOZ-000115,COT-04019-R8S3M,,OC enviada a Puffer el 23-09-24,,,66766.0
+2024,1,6010162244,Leonid carrizo,FCS,MLP,KOB3,Minera Los Pelambres6010162244 ( 4 unid TRANSDUCTOR),6360,8,,,2024-09-05,ACN-000056,COT-03964-Y5Q4L,,cotizacion subida al portal el 04-09-24,,,6360.0
+2024,1,6010162373,Leonid carrizo,RMD,MLP,KOB3,"CONVERSOR;SENAL;9-32VDC;4-20MA (Microcyber Current to Fieldbus Converter
+P/N: NCS-IF105)",4104,8,,,2024-09-09,JSOZ-000116,COT-03983-Y3C2L,,Cotizacion subida al portal el 09-09-24,,,4104.0
+2024,1,4642000997,Patricia Adriazola,FI,MLP,KOB3,1 und. SENSOR GOSWITCH 8120516A2 (SENSOR PROXIMIDAD equipos stock),355,4,4590087765,2024-07-23,2024-07-23,JSOZ-000090,4642000997,,OC enviado a Puffer 23-07-24,,,355.0
+2024,1,RFP - ADQ-ME-28B,Abastecimiento,RQ,Codelco,KOB3,RFP - ADQ-ME-28B Bombas de Drenaje de Codelco,,,,,,JSOZ-000119,,,Cotizacion subida al portal el 17-10-24,CRM:0203534,,
+2024,1,6000121566,Javiera Reyes,FCS,Candelaria,KOB3,POSICIONADOR FISHER DVC6200 HART (4056758),4114,14,4500235176,2024-09-25,2024-09-17,JSOZ-000120,FCS_COT-04064-B0D3G,,OC enviada por Carla a Puffer el 26-09-24,,,4114.0
+2024,1,6000120760,javiera Reyes,FCS,Candelaria,KOB3,(4028411) VALVULA DE CONTROL FISHER V200 1-1/2# sin Brida,34968,10,4500234907,2024-09-24,2024-09-17,JSOZ-000121,FCS-COT-03848-Z0S0D,,OC enviada a Puffer el 24-09-24,,,34968.0
+2024,1,6010155054,Rossanny Carrasquero,RMD,MLP,KOB3,1  TRANSMISOR ROSEMOUNT  2051GP2A2B31AB4Q4D4,3807,10,4510207714,2024-04-10,2024-04-09,JSOZ-000050,RMD_COT-02396-B1H6S,,OC envida Puffer el 10-04-24,,,3807.0
+2024,1,correo,Denis Navarro,RFD,Aguas Andina,KOB3,2 unidades Rosemount 8732E Field Mount Magnetic Flow Meter,6630,10,4000214406,2024-09-23,2024-09-23,ACN-000055,RFD_COT-03959-G9T6D,,OC enviada a puffer el 23-09-24,,,6630.0
+2024,,,,,,,Meta BK FY24 $USD,1781,148.41666666666666,Mensual,,,,,,,,,1781.0
+2024,,,,,,,Meta NR FY24 $USD,534,44.5,Mensual,,,,,,,,,534.0
+2025,1,6000120218,Javiera Reyes,ISV,Candelaria,KOB3,"(4039247) 3 unidades VALVULA DE MARIPOSA 8"", ANSI 150, LUG",28374,24,Perdido,,2024-08-18,JSOZ-000106,COT-03989-R9D8F,,cotizacion enviada a Javiera el 09-09-24,CRM:0130585 // perdido por plazo y precio,,28374.0
+2025,1,6000120761,Javiera Reyes,FCS,Candelaria,KOB3,(4028412) 2 VALVULA DE CONTROL FISHER V200 2# sin brida,23656,25,4500236051,2024-10-07,2024-09-04,JSOZ-000122,COT-04215-M1T9F,,OC enviada a Puffer el 07-10-24,CRM:0130898,,23656.0
+2025,1,6000122512,Javiera Reyes,ISV,Candelaria,KOB3,"3 unidades VALVULA DE RETENCION, 14"", TIPO CHECK PRINCE (4031854)",33756,29,4500237565,2024-10-28,2024-10-04,JSOZ-000124,COT-04244-Q1M4J,,OC enviada a Puffer el 28-10-24,,,33756.0
+2025,1,6010167451,Andres Gomez,ISV,MLP,KOB3,Minera Los Pelambres6010167451 // JUEGO SELLOS; P/ACTUADOR VALVULA PALETA ROTATORIO SHAFER SERIE RV 26 X 36,12491,15,,,,JSOZ-000125,COT-04410-Q7G9G,,Cotizacion subida al portal el 03-01-24,,,12491.0
+2025,1,6010163332,leonid Carrizo,FCS,MLP,KOB3,(11009896) 4 unidades TRANSDUCTOR; ELECTRONEUMATICO (I/P); ENTRADA 4-20MA;,6360,10,,,2024-10-02,ACN-000064,COT-04180-G4S5S,,ecrm enviado a puffer el 30-10-24,CRM:0130537,,6360.0
+2025,1,correo,Cristobal Sepulveda,ISV,MLP,KOB3S,Mantención Actuador Shafer en taller Puffer antofagasta,,,Perdido,,,JSOZ-000126,,,solo se ha creado el ecrm,,,
+2025,1,correo,Lister Muñoz,FI,Cristalerias Chile,KOB3,14 valvulas solenoides,7320,13,,,2024-10-01,ACN-000062,FI_COT-04154-C4N1Q,,cotizacion enviada al cliente por carla,,,7320.0
+2025,1,correo,Sebastian Carvajal,ISV,MLP,KOB3,Solicitud Cotización KIT de O´ring actuador Shafer,12491,15,,,,JSOZ-000125,COT-04410-Q7G9G,,cotizacion enviada al cliente el '6-11-24,,,12491.0
+2025,1,6100027601,Maria Arias,PRV,Anglo,KOB3,8 unidades VALVULA SEG 6010DCM01AAM0135 KUNKLE,1288,,4503463594,2024-10-10,2024-10-03,ACN-000073,PRV_COT-04237-M0V0V,,OC enviada por Carla el 10-10-24,,,1288.0
+2025,1,6000122450,Gabriela Rojas,ISV,candelaria,KOB3,"VALVULAS DE BOLA 1/2"", CONEXION FLANGE y valvulas Check",,,,,2024-10-08,ACN-000070,,,ecrm enviado por carla el 02-10-24,,,
+2025,1,correo,Claudia Bascuñan,FI,Pucobre,KOB3,Curso Hart - Trex Emerson,2000,,PC-000021464,2024-10-15,2024-10-08,JSOZ-000123,SERV_COT-04235-T1B7B,,OC enviada a Puffer el 15-10-24,,,2000.0
+2025,1,correo,Mauricio Sangueza,FI,INSTRUVALVE SPA,KOB3,FB1200 FLOW COMPUTER,15715,27,,,2024-10-08,ACN-000071,FI_COT-04261-R6H3D,,cotizacion entregada por carla el 08-10-24,,,15715.0
+2025,1,correo,Francisco Pinto,FI,Mantos Verdes,KOB3,AMS Trex Hart,15106,2,,,2024-10-17,JSOZ-000127,SYS_COT-04355-X2K4V,,cotizacion enviada al cliente el 16-10-24,,,15106.0
+2025,1,correo,Ivan Gutierrez,RFD,Enami,KOB3,Medición de nivel  (2 instrumentos de Nivel 5300),15908,10,Perdido,,2024-10-18,JSOZ-000128,RMD_COT-04363-X8H7G rev 01,,cotizacion entregada al cliente el 16-10-24,,,15908.0
+2025,1,correo,Sheila Cuenca,All,MLP,KOB3,Negociación Contrato 4642000997 - Válvulas y accesorios,,,,,2024-10-18,JSOZ-000129,,,revision de precios subida al portal el 18-10-24,,,
+2025,1,correo,Ivan Gutierrez,RFD,Enami,KOB2B,Proyecto Balance Hídrico (medición flujo - presión Wireless Hart),200000,,,,,JSOZ-000052,,,ecrm creado,,,200000.0
+2025,1,correo,Ivan Gutierrez,RFD,Enami,KOB2B,Medición de flujo wireless con DP en linea de 2 km,50000,,,,,JSOZ-000183,,,"ecrm creado, pero no cotizado",,,50000.0
+2025,1,correo,Angelo Orellana,ISV,MLP,KOB3,Actuador con tarjeta 4-20 mA y valvulas de corte,22972,16,,,,JSOZ-000130,COT-04407-Q3L6S,,cotizacion enviada al cliente el 23-10-24,Inside Pablo cortes,,22972.0
+2025,1,4642000997,Leonid Carrizo,FI,MLP,KOB3,IMAN; AMP3/TAPA DE RESINA; MODELO 81; TOPWORK EMERSON,3444,6,,,2024-10-21,JSOZ-000131,FI_COT-04389-G3L4S,,cotizacion subida al portal el 21-10-24,,,3444.0
+2025,1,correo,Juan Vega,ISV,Candelaria,KOB3S,Inspección unidad hidráulica y actuadores Shafer por Alejandro Negrete,1800,,,,2024-10-23,JSOZ-000132,COT-04489-Z2B2B,,cotizacion enviada al cliente el 30-10-24,,,1800.0
+2025,1,visita planta,Rigoberto Barrera,ISV,Candelaria,KOB3S,Servicio Mantención Actuadores Shafer y Unidad Hidraulica Shafer,21377,,,,2024-08-26,JSOZ-000103,COT-03952-Y7T4Y,,cotizacion enviada al cliente el 05-09-24,CRM:0130403,,21377.0
+2025,1,correo,Marco Carranza,RQ,Molymet,KOB3,Repuestos bomba Sunflo Sunflo Pump Modelo P2-CJQ-50,,,,,2024-10-24,,,,ecrm enviado a Puffer el 21-10-24,,,
+2025,1,correo,victoriano blanco,FCS,Pessa,KOB3,Actuador serie 480 tamaño 60 carrera 8 1/8 posicionador 3560  y regulador 67CFR,19391,18,,,2024-10-25,ACN-000091,COT-04462-X3C7Y,,cotizacion enviada al cliente el 28-10-24,,,19391.0
+2025,1,6010164807,leonid Carrizo,FCS,MLP,KOB3,"FISHER BUSHING,SEAL;30-130 PN: 1H865114042",2552,6,4510221065,2024-11-04,2024-11-04,ACN-000104,FCS-COT-04533-J2C1N,,OC enviada a Puffer el 06-11-24 por carla,lograda en dynamic,,2552.0
+2025,1,correo,Cristian Bahamonde,FI,eecol,KOB3,Solicitud de cotización 28 UPS SDU850B5,21840,8,Perdido,,2024-11-06,ACN-000105,FI_COT-04557-Q7P8T,,cotizacion enviada al cliente el 06-11-24,,,21840.0
+2025,1,correo,Manuel Rojas,ISV,MLP,KOB3SP,mantencion y Kit de repuestos para actuador Bettis serie G FIC 1102,8064,14,,,2024-11-06,JSOZ-000134,COT-04566-G2D1B,,cotizacion enviada al cliente el 06-11-24,,,8064.0
+2025,1,1444007663,Manuel Rojas,ISV,MLP,KOB3S,Actuador Bettis G2014-SR4- CCWM3WH MODEL G SERIES,10500,1,1444007663,2024-12-13,2024-10-30,JSOZ-000135,COT-04507-Y9L1X,,EDP N1 Rev 01 (factura actuador 24772),SERV-0000049,,10500.0
+2025,1,correo,abastecimiento,RQ,Salvador,KOB3,Switches de falla de bombas peristálticas,6066,10,,,2024-07-31,JSOZ-000093,COT-03574-H5S4R,,cotizacion enviada al cliente el 29-10-24 por kareen,,,6066.0
+2025,1,correo,abastecimiento,RQ,Salvador,KOB3S,Inspección de bombas peristalticas por 2 dias (contrato N° 4600026662) ex 4600020040,,,,,,JSOZ-000136,,,ecrm enviado a Puffer el 29-10-24,,,
+2025,1,7000387508,Jason Diaz,RMD,Ventana,KOB3,1410S1NA72AD4NA GATEWAY ROSEMOUNT (material 4222048),4149,15,,,2024-11-06,JSOZ-000137,COT-04522-N8M1Y,,cotizacion subida por carla al portal el 05-11-24,vence a las 15 hrs,,4149.0
+2025,1,1444007663,Manuel Rojas,ISV,MLP,KOB3S,Servicio Contrato de actuadoress electricos,12900,,1444007663,2024-12-09,2024-12-09,JSOZ-000173,1444007663,,EDP N1 Rev 01 factura pendiente,SERV-0000049,,12900.0
+2025,1,correo,Paulina Santander,FI,Caserones,KOB3,(cotizacion presupuestaria) cotización por 50 unidades de sensor AVENTICS Sensor ST6.,480,13,4300026645,2024-11-04,2024-08-20,JSOZ-000087,FI_COT-03805-F1G6C,,OC enviada el 04-11-24,,,480.0
+2025,1,7000386975,abastecimiento,RMD,Andina,KOB3,4 unidades de placas 1195S010T1S0500CS4 Rosemount,,,,,2024-11-07,JSOZ-000138,,,ecrm enviado a Puffer el 05-11-24,,,
+2025,1,7000387503,abastecimiento,RMD,Ventana,KOB3,2 unidades de antena 781SA1PNANA1WP3,7052,12,,,2024-11-12,JSOZ-000139,COT-04569-F9D5N,,Cotizacion enviada por carla el 07-11-24,,,7052.0
+2025,1,correo,Maria Asuncion,RMD,MLP,KOB3,Solicitud cotización transmisor de presión - Rosemount 2088G,15476,10,Perdido,,2024-11-08,JSOZ-000142,RMD_COT-04649-D9Q9T,,cotizacion enviada el 14-11-24,,,15476.0
+2025,1,4642000997,patricia adriazola,FCS,MLP,KOB3,RELE FISHERCO 38B5786X052,4674,7,4590096751,2024-10-28,2024-11-28,ACN-000095,4642000997,,OC enviada a procesar el 28-10-24,,,4674.0
+2025,1,,leonid Carrizo,FCS,MLP,KOB3,repuestos fisher,80000,,Perdido,,,JSOZ-000140,,,ecrm creado y para completar embudo,,,80000.0
+2025,1,,Rodrigo Fritis,FCS,Candelaria,KOB3,repuestos fisher,60000,,,,,JSOZ-000141,,,ecrm creado y para completar embudo,,,60000.0
+2025,1,,leonid Carrizo,FCS,MLP,KOB3,repuestos fisher,100000,,,,,JSOZ-000143,,,ecrm creado y para completar embudo,,,100000.0
+2025,1,correo,Manuel Rojas,RMD,MLP,KOB3,Medición de flujo en canaleta abierta con radar 1208,20000,,,,,JSOZ-000144,,,enviar informacion a Manuel y realizar presentacion. Tambien pedir a emerson un equipo a prueba,,,20000.0
+2025,1,,Manuel Rojas,ISV,MLP,KOB3S,"Suministro de actuadores electricos, montaje, configuracion y puesta en marcha en valvulas tipo  compuertas Tranque el Mauro",30000,,,,,JSOZ-000145,,,fecha cierre feb25,,,30000.0
+2025,1,correo,Sandra Lavanderos,RQ,Molymetnos,KOB3,repuestos bomba Sunflo Sunflo Pump Modelo P2-CJQ-50.,25336,12,,,,ACN-000087,COT-04573-W9F8M,,se solicta actulizar cotizacion y entregar descuento del 3%,,,25336.0
+2025,1,103813,Ivan Gutierrez,FCS,Caserones,KOB3S,"Mantención Valvula Fisher 3""  S/N F001542347 V150 (GD 103813)",12430,16,5600004704,2024-12-05,2024-11-19,JSOZ-000146,FCS_SERV-COT-04681-Z8B9Y,,OC enviada a Puffer el 09-12-24,,,12430.0
+2025,1,visita planta,Rigoberto Barrera,ISV,Candelaria,KOB3,"Actuador Shafer remoto para valvula clarkson de 8"" clase 150",50000,,,,,JSOZ-000107,,,ecrm enviado a puffer el 20-08-24 // fecrm devuelto el 29-10,CRM:0130190,,50000.0
+2025,1,correo,Matias Labrin,PRV,Molymetnos,KOB3,1 KUNKLE SERIES 900 SAFETY RELIEF VALVES 910BDDM01AJE,703,11,4200156303,2024-11-12,2024-11-11,ACN-000086,PRV_COT-04416-B5H6F,,OC enviada por carla el 11-11-24,,,703.0
+2025,1,correo,Cinthia Villegas,FI,EGAFLOW,KOB3,"Antenna Type Cone Size: 6"" / DN150 Model: 1C6SPV8T1",3959,18,,,2024-11-11,ACN-000099,RTG_COT-04582-X2F7R,,cotizacion enviada por carla el 11-11-24,,,3959.0
+2025,1,7000388991,Joel Salamanca,FCS,Andina,KOB3,5 unidades POSICIONADOR NEUM FISHER 3570 (4014107),13520,14,,,2024-11-20,JSOZ-000147,COT-04721-Y7B9K,,cotizacion subida el 20-11-24,,,13520.0
+2025,1,6000124492,sebastian godoy,FCS,Candelaria,KOB3,"Solo cuerpo según indica Rodrigo Frittis por Whatsaap VALVULA CONTROL ROTATIVA 12"" MOD. V150 BRIDAS CLASE CL150, SERIE VEE-BALL, CUERPO SIN ACTUADOR Y SIN CONTROL DIGITAL (4074436)",25118,10,,,2024-11-13,JSOZ-000148,COT-04660-M4F0Q,,cotizacion enviada al cliente el 13-11-24,,,25118.0
+2025,1,6000124490,sebastian godoy,FCS,Candelaria,KOB3,"VALVULA, 2"", FISHER, TG45FV155 INCLUYE 667 (4028513) modelo EZ",15360,20,4500239014,2024-11-18,2024-11-13,ACN-000115,COT-04663-G8L3Y,,OC enviada a procesar el 18-11-24,lograda en dynamic,,15360.0
+2025,1,10285915,Denis Navarro,RFD,Aguas Andina,KOB3,"CAUDALIMETRO  4"" SENSOR 8705TSA040S1W0NAL1Q4Q8PD FLANGE (solo sensor)",6843,15,4000216232,2024-11-22,2024-11-20,JSOZ-000150,COT-04736-Y0C0H,,OC enviada a Puffer el 22-11-24,,2025-01-01,6843.0
+2025,1,7000388855,Wilmer Chirino,ISV,Andina,KOB3,"4 VALVULA MARIP AC INOX ANSI-150 6"" LUG",,,,,2024-11-18,JSOZ-000149,,,ecrm enviado a Puffer el 13-11-24,vence a las 15 hrs,,
+2025,1,correo,Waldo Aguilera,RMD,Anglo,KOB3,2 Tx de presion 3051CD3A02A1AM5K5H2Q4 Hart,9686,14,,,,ACN-000118,,,cotizacion enviada por carla el 14-11-24,,,9686.0
+2025,1,correo,Jhonny Guamparito,ISV/FCS,MLP,KOB2B,Proyecto Linea 4 Automatización de 40 válvula tipo cuchilla y 4 válvulas de control,796000,,,,2024-04-05,JSOZ-000048,,,ecrm enviado a Puffer el 28-03-24,,,796000.0
+2025,1,correo,Jhonny Guamparito,RFD,MLP,KOB2B,Proyecto Linea 4 Flujometros 4 (magneticos y Flexim),397209,,,,,JSOZ-000062,,,cotizacion referencial entreegada a Felipe el 09-05-23,,,397209.0
+2025,1,6100037101,Maria Estefania,RAI,Anglo,KOB3,﻿Transmisor Antideflagrante 5801  // Sensor de conductividad Toroidal 228,2636,12,,,2024-11-15,ACN-000121,RAI_COT-04697-F3X0K,,cotizacion enviada al cliente por carla el 15-11-24,,,2636.0
+2025,1,3000016044,Ariel Cuadra,RMD,Caserones,KOB3,4 SENSOR TEMPERATURA 214CRTSMB1S4E0062SL (33030878),1256,12,4300027595,2024-12-26,2024-11-20,JSOZ-000151,RMD_COT-04751-Y9L8L,,OC enviada por carla a puffer el 26-12-24,,,1256.0
+2025,1,correo,Jose Diaz,FI,RHOTECNICA,KOB2B,Tarjetas PLC,10928,6,12/2024-J,2024-11-18,2024-11-18,ACN-000089,FI_COT-04460-Z6L9W,,OC enviada por carla el 18-11-24,,,10928.0
+2025,1,correo,Maria Jesús Caballero,FI,Verne SPA,KOB2B,PLC para acceso Peatonal/Vehicular 57 unidades,129093,11,73,2025-01-15,2025-01-15,ACN-000076,FI_COT-04273-R2B5V,,OC enviada a Puffer el 15-01-25,,,129093.0
+2025,1,correo,Jose Gonzalez,SYS,rotork,KOB3,AMS trek Hart FF (Opcional: soporte 3  años),15106,2,,,2024-11-19,JSOZ-000152,SYS_COT-04781-K8B6F,,cotizacion enviada al cliente el 22-11-24,,,15106.0
+2025,1,Whatsaap,Andres Gomez,ISV,MLP,KOB3,"Valvulas vanessa para agua recuperada 16"" y 20"" clase 600 (con actuador electrico)",98253,30,,,2024-11-22,JSOZ-000153,COT-05296-D4S6Y,,cotizacion enviada a Andres el 13-01-25,,,98253.0
+2025,1,correo,Andres Gomez,ISV,MLP,KOB3,"Valvula Vanessa 30"" Tag 4420-HV-39505  eje libre -   S/N 6019/05112-002-001",81813,51,,,2024-01-23,JSOZ-000023,COT-01647-Z5C1F,,cotizacion enviada a Andres el 13-12-24,Se converso con la compradora y señala que se declaro desierta esta licitacion.// se deja para cerrar el 31 de marzo 2025,,81813.0
+2025,1,7000390593,abastecimiento,ISV,Salvador,KOB3,"2 unidades VALVULA COMP AC CARB 600psi 8"" BRIDA",3312,10,,,,JSOZ-000154,COT-04844-V8H1L,,cotizacion presentada por claudia el 28-11-24,,,3312.0
+2025,1,,Valentina Olivares,FI,MLP,KOB2B,Monitoreo de vibraciones inalámbrico,40000,,,,,JSOZ-000155,,,ecrm creado el 25-11-24,,,40000.0
+2025,1,visita planta,Rigoberto Barrera,FI,Candelaria,KOB2B,Monitoreo de vibraciones inalámbrico,40000,,,,,JSOZ-000156,,,ecrm creado el 25-11-24,,,40000.0
+2025,1,,Juan Velasquez,SYS,MLP,KOB3,MRO PLC Emerson,40000,,,,,JSOZ-000157,,,ecrm creado el 25-11-24,,,40000.0
+2025,1,,Rodrigo Flores,SYS,Pucobre,KOB3,MRO PLC Emerson,20000,,,,,JSOZ-000158,,,ecrm creado el 25-11-24,,,20000.0
+2025,1,6010166041,Mariangel Flores,FCS,MLP,KOB3,(11216762) VALVULA;CONTROL;AC INOX;200MM/8'',25073,14,Perdido,,2024-11-27,JSOZ-000159,COT-04843-Y6V0X,,MLP señala por correo que valvula fue adjudicada a otri proveedor,,,25073.0
+2025,1,4642000997,abastecimiento,FCS,MLP,KOB3,8 DVC6005F; 6 TRANSDUCTOR POSICION FISHERCO IPAX,88280,13,4590097500,2024-11-26,2024-11-26,JSOZ-000160,4642000997,,OC enviada a Puffer el 26-11-24,,,88280.0
+2025,1,6010166144,Leonid Carrizo,FI,MLP,KOB3,(11148784) 5 unidades  IMAN;EMERSON;AMP3MOD81,646,5,,,2024-11-27,JSOZ-000161,,,ecrm enviado a Puffer el 26-11-24,No se alcanzo a subir la cotizacion al portal ya que MLP dio un solo dia de plazo.,,646.0
+2025,1,correo,Ariel Ñancupil,FI,Verne SPA,KOB3,Modulo Salida + Entrada,6238,2,,,2024-11-29,JSOZ-000162,FI_COT-04869-N1C0S,,cotizacion enviada el 28-11-24,,,6238.0
+2025,1,correo,Maria Elena Jeraldo,FCS,Contac,KOB2B,cotización válvulas Tag 130-FV-202A; 130-FV-242A (referencial),55006,,,,2024-12-02,JSOZ-000164,COT-04908-Z2Z4M,,cotizacion enviada al cliente el 03-12-24,Cotizacion referencial,,55006.0
+2025,1,7000391385,German Cabello,ISV,Andina,KOB3,"VALVULA BOLA FLOT AC INOX de 2"" 3"" 4""",95098,8,,,2024-12-09,JSOZ-000163,COT-04979-T0B8L,,cotizacion enviada el 09-12-24,,,95098.0
+2025,1,7000391647,Alejandro Torres,ISV,Salvador,KOB3,"VALVULA MARIP FUND NODULAR 150 2"" con actuador Neumatico simple efecto",3126,8,,,2024-12-05,JSOZ-000165,COT-04953-W5M4B,,cotizacion subida al portal el 05-12-24,,,3126.0
+2025,1,correo,Javier Villanueva,FI,Servasol,KOB2B,actualización PLC proyecto Recursos Norte,138284,8,71-859,2024-12-06,2024-12-09,ACN-000103,FI_COT-04590-F4J9W,,OC enviada a Puffer el 09-12-24,,,138284.0
+2025,1,10018333,Gonzalo Cisternas,RFD,Enami,KOB2B,"Licitacion Flujómetros para acido sulfúrico, soluciones acidas, orgánico y agua (16 equipos)",100000,,,,2024-12-10,JSOZ-000167,,,ecrm enviado a Puffer el 04-12-24,,,100000.0
+2025,1,6010166504,leonid Carrizo,FCS,MLP,KOB3,13 unidades JGO REPARACION;FISHERCO;R47016X012,1456,9,4510223342,2024-12-09,2024-12-04,JSOZ-000166,FCS_COT-04918-C6C7P,,OC enviada Puffer el 09-12-24,,,1456.0
+2025,1,6010166772,leonid Carrizo,RMD,MLP,KOB3,4 unidades  3051TG4A2B21AB4KBM5Q4,14880,11,4510223866,2024-12-16,2024-12-09,JSOZ-000168,RMD_COT-04967-C7T8N,,OC enviada a Puffer el 16-12-24,,,14880.0
+2025,1,6010166781,leonid Carrizo,FCS,MLP,KOB3,4 unidades TRANSDUCTOR;FISHERCO;38B6041X152,6360,8,4510223868,2024-12-16,2024-12-09,JSOZ-000169,COT-04970-Q2Z1L,,OC enviada a Puffer el 16-12-24,,,6360.0
+2025,1,6010166782,leonid Carrizo,FCS,MLP,KOB3,6 unidades SELLO;FISHERCO;1R875914042,3096,11,,,2024-12-09,JSOZ-000170,FCS_COT-04976-B2D1K,,cotizacion enviada al cliente el 09-12-24,,,3096.0
+2025,1,6010166459,leonid Carrizo,FI,MLP,KOB3,4 unidades VALVULA SOLENOIDE;2 VIAS 2''NPT CL150,,,,,2024-12-09,JSOZ-000171,,,ecrm enviado a Puffer el 06-12-24,,,
+2025,1,correo,Octavio Romano,FI,Pucobre,KOB3,4 unidades PLC MODULO MASTER PROFIBUS; GELECTRIC FANUC IC695PBM300,10624,8,PC-000024603,2025-01-24,2024-12-13,JSOZ-000172,FI_COT-05057-P1F3Z rev 01,,OC enviada a Puffer el 24-01-25,,,10624.0
+2025,1,6000126198,Javiera Reyes,ISV,Candelaria,KOB3,"(4031854)  3 unidades VALVULA DE RETENCION, 14"", TIPO CHECK PRINCE",24078,29,4500241784,2024-12-26,2024-12-13,ACN-000125,COT-05046-S3D8T,,OC enviada a Procesar el 26-12-24,,,24078.0
+2025,1,6001010630,Elisa Jara,RFD,Ventana,KOB3,Flujometro MAG DN80,,,Perdido,,2024-12-19,JSOZ-000174,,,no podemos cotizar,,,
+2025,1,correo,Hugo Corvalan,FCS,Andina,KOB3,"Valvula de globo ET 12"" clase 600 con actuador Rotork IQFM",225164,30,Perdido,,2024-03-27,JSOZ-000047,FCS-COT-02526-X0W8Y,,cotizacion enviada al cliente el 19-04-25,,,225164.0
+2025,1,correo,leonid Carrizo,FCS,MLP,KOB3,(11009896) 4 unidades TRANSDUCTOR; ELECTRONEUMATICO (I/P); ENTRADA 4-20MA; 38B6041X152,6360,8,4510224770,2024-12-27,2024-12-19,JSOZ-000175,COT-05102-J3Y9L,,OC enviada por Carla el 30-12-24,,,6360.0
+2025,1,6001010810,Patricio Serra,RMD,Salvador,KOB3,flujometros Rosemount,22012,22,,,2024-12-30,JSOZ-000176,COT-05118-Z1Q8T,,ecrm enviado a puffer el 17-12-24,,,22012.0
+2025,1,,,RQ,Salvador,KOB3,Repuestos bombas Prominet contrato 4600026662 (mangueras y lubricantes),,,,,,JSOZ-000177,,,ecrm creado el 18-12-24,,,
+2025,1,Contrato,manuel rojas,ISV,MLP,KOB3SP,Automatizacion de 2 valvulas compuerta en tranque el Mauro,30000,,,,,JSOZ-000197,,,ecrm creado el 21-02-25,,,30000.0
+2025,1,portal,patricia adriazola,FCS,MLP,KOB3,7 unid. DVC6005F y 6 unid. TRANSDUCTOR POSICION FISHERCO IPAX,79918,6,4590098538,2024-12-06,2024-12-26,ACN-000135,4642000997,,OC enviada por carla a Puffer el 26-12-24,,,79918.0
+2025,1,1020174320,Jennifer Puelles,ISV,MLP,KOB3S,SERVICIO DE MANTENCION Y NUEVO ACTUADOR EMERSON SHAFER 26x36,43458,,4510232478,2025-04-28,2024-01-15,JSOZ-000178,4510232478,,OC enviada a Puffer el 29-04-25,Usuario Cristiobal Sepulveda,,43458.0
+2025,1,4642000997,patricia adriazola,FCS,MLP,KOB3,ACTUADOR VALVULA TAMAA O 60 8 1 2 PULG DIA 150PSIG CARRERA 8 1 8 PULG MOD 481 16 NO INCLUYE POSICIONADOR,85212,,4590098786,2025-01-03,2025-01-03,ACN-000139,4642000997,,OC enviada a Puffer el 03-01-25,no se dejo la OC como enviada en dynamic,,85212.0
+2025,1,correo,octavio castro,FI,Pucobre,KOB3,Kit FV-158934; FV-158936; FV-208760,506,6,,,2025-01-09,JSOZ-000179,FI_COT-05314-G8Y2J,,ecrm enviado a puffer el 07-01-25,,,506.0
+2025,1,6010168340,ariangel Flores,FCS,MLP,KOB3,SENSOR POSICION CILINDRO FISHER NP 1031000371,4270,15,,,2025-01-09,JSOZ-000180,,,cotizacion subida el 09-01-25,,,4270.0
+2025,1,6000127431,Javiera Reyes,ISV,Candelaria,KOB3,"2 VALVULA DE RETENCION, 14"", TIPO CHECK (4031854)",25600,35,4500250391,2025-05-08,2025-01-10,JSOZ-000181,SPEC_COT-05315-G2C5X_rev1,,OC enviada a Puffer el 08-05-25,,,25600.0
+2025,1,6010167764,leonid Carrizo,FI,MLP,KOB3,(20 unidades) Modulo E/S serie G3 Aventics; Numero de material/producto: 240-330 Tensión 24 Vd (11216909; 11216910),16240,22,,,2025-01-13,JSOZ-000182,FI_COT-05303-W5Q9L,,cotizacion subida el 13-01-25,vence a las 13 hrs,,16240.0
+2025,1,correo,Raul Nova,FI,INGENIERIA Y SERVICIOS RANCO SPA,KOB3,PROFINET SYSTEM REDUNDANCY NETWORK ADAPT,1180,6,217,2024-10-04,2024-10-04,ACN-000082,FI_COT-04299-H0P3J,,OC enviada a Puffer por carla el 04-10-24,,,1180.0
+2025,1,6001014538,Carolina Valenzuela,ISV,Andina,KOB3,"Valvulas de bola flotante de 4, 3 y 2 inch",95048,8,,,2025-01-21,JSOZ-000184,COT-05423-B6X4Z,,cotizacion subida el 21-01-25,,,95048.0
+2025,1,6001014988,Patricio Serra,RFD,Salvador,KOB3,2 transmisores de flujo 8712 // 1 sensor de flujo 8707 // 1 Tx de presion,12630,20,,,2025-01-23,JSOZ-000185,COT-05366-R0Q4D,,cotizacion subida al portal el 16-01-25,,,12630.0
+2025,1,correo,Carlos Rojas,FCS,Andina,KOB3,Pistones 480 tamaño 40 y 60,26604,18,,,2025-01-16,JSOZ-000186,FCS-COT-05420-P0R3B,,cotizacion enviada a carlos el 21-01-25,,,26604.0
+2025,1,correo,Cristobal Sepulveda,ISV,MLP,KOB3S,Adicionales trabajos de mantención actuador shafer 26X36 en taller de concepción,,,4510232478,,,JSOZ-000258,,,ecrm enviado a Puffer el 22-06-25,,,
+2025,1,6010168697,leonid Carrizo,ISV,MLP,KOB3,(11184001) Minera Los Pelambres6010168697 //   VALVULA;BIFFI;44N1250020,9160,22,4510226326,2025-01-21,2025-01-17,JSOZ-000187,COT-05365-N9G6Z,,OC enviada por carla el 21-01-25,,,9160.0
+2025,1,6000127707,Javiera Reyes,ISV,Candelaria,KOB3,"(4036313) 2 unidades  VALVULA MARIPOSA 20"" CLASE 150 TIPO LUG",20004,4,,,2025-01-17,JSOZ-000188,COT-05371-G1T2D,,cotizacion enviada al cliente el 17-01-24,,,20004.0
+2025,1,6000132706,Javiera Reyes,ISV,Candelaria,KOB3,"(4031501) 1 unidades  VALVULA MARIPOSA, 16"", TIPO LUG, KEYSTONE",8962,33,4500251525,2025-05-22,2025-05-08,JSOZ-000189,COT-05384-Y7B0R,,OC enviada a Puffer el 22-05-25,,,8962.0
+2025,1,contrato,Franli Delgado,FCS,MLP,KOB3,ACTUADOR VALVULA PISTON SIN YUGO FISHER SERIE 480 15 TAMAA O 40 C,74928,18,4590086523,2025-01-22,2025-01-22,JSOZ-000029,4642000997,,OC envida a puffer el 23-01-25,,,74928.0
+2025,1,6000128066,German Diaz,ISV,Candelaria,KOB3,"2 unidades VALVULA DE MARIPOSA 8"", ANSI 150, LUG (4039247)",17396,35,,,2025-01-24,ACN-000148,COT-05479-M1Q4J,,cotizacion enviada al cliente el 24-01-25,,,17396.0
+2025,1,6001016094,abastecimiento,ISV,Andina,KOB3,4 unidades VALVULA MARIP AC INOX 275psi CL150 8,13824,4,,,2025-01-27,ACN-000150,COT-05487-Z1J1L,,cotizacion subida por carla el 27-01-28,,,13824.0
+2025,1,6001015983,Carolina Valenzuela,RMD,Andina,KOB3,6001015983-DAN-SENSOR ROSEMOUNT (temperatura),2993,11,4502376082,2025-02-13,2025-02-01,JSOZ-000190,RMD_COT-05498-Y9H7Z,,OC enviada a puffer el 13-02-25,vence a las 15 hrs,,2993.0
+2025,1,20012025,Valentina Toro,RFD,codelco,KOB3,IMCSPOT_T2_00645_CTRL PROC INDUSTRIALES_20012025 (2 transmisores de flujo 8712 // 1 sensor de flujo 8707 ),12630,,Perdido,,2025-02-04,JSOZ-000191,,,ecrm enviado a puffer el 27-01-25,vence a las 15 hrs,,12630.0
+2025,1,600101752,abastecimiento,RMD,Andina,KOB3,4 unidades Rosemount 248 Head Mount Temperature Transmitter,3776,10,,,2025-02-10,ACN-000166,RMD_COT-05625-D6T8D,,cotizacion subida al portal el 10-02-25,,,3776.0
+2025,1,contrato,Leonid Carrizo,FCS,MLP,KOB3,7 unidades RELE FISHERCO 38B5786X052,5687,7,4590099383,2025-01-20,2025-01-20,ACN-000146,4642000997,,OC enviada a Puffer el 20-01-25,,,5687.0
+2025,1,correo,Ariel Ñancupil,FI,Verne SPA,KOB3,5 unidades UPS SOLAHD SDU850 emerson,3360,12,,,2025-02-17,JSOZ-000192,FI_COT-05726-T5R9C,,cotizacion enviada al cliente el 14-02-25,,,3360.0
+2025,1,correo,Paulina Santander,FI,Caserones,KOB3,VALVULA DE retencion PNEUMATICA AVENTICS 3 unid. P/N:0821003025 // 3 unid. P/N:0821003027,1140,8,4300028097,2025-02-13,2025-02-13,ACN-000132,FI_COT-05163-Y5L0S,,OC enviada a puffer el 13-02-25,,,1140.0
+2025,1,6001019662,abastecimiento,ISV,Andina,KOB3,"Valvula de corte tipo bola 2"" 3"" 4"" en acero inoxidable",96096,8,Perdido,,2025-02-19,JSOZ-000193,COT-05777-Y0H2N,,cotizacion subida al portal el 20-02-25,,,96096.0
+2025,1,10412394,Rodrigo Zambrano,ISV,Candelaria,KOB3,"RFQ_VALV. MARIPOSA (10412394) 24"" y 30""",34708,,,,2025-02-27,JSOZ-000194,COT-05845-V8V8Z,,ecrm enviado a Puffer el 17-02-25,,,34708.0
+2025,1,correo,Andres Gomez,ISV,MLP,KOB3,Kit de repuestos actuadores Shafer,56210,20,,,2025-02-21,JSOZ-000195,COT-05872-J9T9M,,Cotizacion enviada el 10-06-25,,,56210.0
+2025,1,6010170649,Mariangel Flores,FCS,MLP,KOB3,(11009896) 4 unidades TRANSDUCTOR;FISHERCO;38B6041X152,6360,8,,,2025-02-24,JSOZ-000196,COT-05813-V9F5P,,cotizacion subida al portal el 24-02-25,,,6360.0
+2025,1,terreno,Ruben Alarcon,ISV/FCS,MLP,KOB2B,solución válvula de control tipo bola con actuador neumático con palanca hidráulica nueva Linea 4,121988,24,,,,JSOZ-000198,COT-05956-C5F9P,,cotizacion enviada al cliente el 14-04-25,,,121988.0
+2025,1,6001017051,Abastecimiento,RQ,Salvador,KOB3,"2 BOMBAS, DIA. DESCARGA 4, CAUDAL 80M3/H, ALIMETACION 200/230/460/575VAC, FLYGT MODELO HS 5100.211-0340 MT (EX HS 5100.211 MT)",86426,20,Perdido,2025-05-16,2025-02-03,ACN-000152,RQ_COT-05577-S8P7S,,ecrm enviado a puffer el 28-01-25,licitacion en pausa en portal,,86426.0
+2025,1,6010169573,abastecimiento,RMD,MLP,KOB3,2 Rosemount™ 2051 In-Line Pressure Transmitter,7724,10,4510228316,2025-02-24,2025-01-31,ACN-000154,RMD_COT-05554-V6S9N,,OC enviada a puffer el 24-02-25,,,7724.0
+2025,1,6001015985,abastecimiento,RMD,Andina,KOB3,"2 Rosemount 3051 Coplanar Pressure Transmitter // 2 Rosemount 3051 In-Line Pressure Transmitter
+P/N:3051TG4A2B21AM5Q4 P/N: 3051CD4A22A1AB4M5Q4",15452,13,,,2025-01-29,ACN-000153,RMD_COT-05525-G7Y8X,,cotizacion subida al portal el 29-01-25,,,15452.0
+2025,1,terreno,Manuel Rojas,RFD,MLP,KOB2B,2 densimetros no nucleares,50000,,,,,JSOZ-000199,,,ecrm creado,se debe solicitar datos de proceso a Eduardo,,50000.0
+2025,1,terreno,Manuel Rojas,RFD,MLP,KOB2B,Medición de flujo en canaleta abierta con radar 1208,30000,,,,,JSOZ-000200,,,Se debe enviar informacion a manuel rojas y desarrollar presentacion. Ademas solictar equipo a prueba a emerson,se debe solicitar datos de proceso a Eduardo,,30000.0
+2025,1,terreno,Manuel Rojas,ISV,MLP,KOB3S,Mantención actuadores eléctricos flujo cero marzo 2025,15000,,,,,JSOZ-000201,,,ecrm creado,,,15000.0
+2025,1,correo,Luis Nieto,ISV,MLP,KOB2B,Solución de automatización válvulas alimentación de agua planta (EH),500000,,,,,JSOZ-000053,,,,,,500000.0
+2025,1,terreno,Manuel Rojas,ISV,MLP,KOB3S,Mantención actuadores eléctricos flujo cero abril 2025,6000,,,,,JSOZ-000202,,,ecrm creado,,,6000.0
+2025,1,,abastecimiento,FCS,MLP,KOB3,MRO Fisher,120000,,,,,JSOZ-000203,,,ecrm creado,,,120000.0
+2025,1,6001020919,abastecimiento,ISV,Andina,KOB3,10 unidades de valvula Neotecha N/P  NSA150N01WM4B00 con actuador neumtico,,,,,2025-03-06,JSOZ-000204,,,ecrm enviado a Puffer el 26-02-25,vence a las 15 hrs,,
+2025,1,terreno,Ivan Latorre,RFD,Caserones,KOB3,4 unidades de TX de flujo FF modelo 8732EMR1F1N5DA1DA2M5B6Q4YS,21856,9,,,2025-03-03,JSOZ-000206,RFD_COT-05880-D6Z3H rev 01,,cotizacion enviada a Ivan el 06-03-25,,,21856.0
+2025,1,6010170933,leonid Carrizo,FCS,MLP,KOB3,(11009896) 3 TRANSDUCTOR; ELECTRONEUMATICO; ENTRADA 4-20MA; SALIDA 3-15PSIG;  (38B6041X152),,,,,,,,,ecrm enviado a Puffer el 28-02-25,,,
+2025,1,6000129369,Javiera Reyes,ISV,Candelaria,KOB3,"(4036313) 3 unidades  VALVULA MARIPOSA 20"" CLASE 150 TIPO LUG",26058,12,,,2025-03-01,JSOZ-000208,COT-05878-Y4B6Z,,cotizacion envida a Javiera el 03-03-25,,,26058.0
+2025,1,Contrato,patricia adriazola,FCS,MLP,KOB3,( 11016920) 6 unidades TRANSDUCTOR POSICION FISHERCO IPAX,22536,,4590100754,2025-03-04,2025-03-04,ACN-000191,4642000997,,OC enviada aa puffer el 04-03-25,,,22536.0
+2025,1,correo,Karen Pasten Toledo,FCS,Salvador,KOB3,Valvulas de control (S/N 16253204) y de corte (S/N 16199939),80930,16,,,,ACN-000195,COT-05996-N3G1Z,,cotizacion enviada al cliente el 13-03-25,,,80930.0
+2025,1,6001036733,Carolina Valenzuela,FCS,Andina,KOB2B,Solucion 2 Kit de Ipax para piston 480 tamaño 80,12874,12,,,,JSOZ-000209,FCS_SERV-COT-05971-S4G6S (rve 01),,cotizacion enviada a Sebastian el 29-04-25,,,12874.0
+2025,1,terreno,Sebastian Zamora,FCS,Andina,KOB2B,Solución 15 Kit de Ipax para piston 480 Fisher,150000,,,,,JSOZ-000210,,,,,,150000.0
+2025,1,licitacion,Mario Aguilera,RQ,Andina,KOB2B,RFP ADQUISICIÓN BOMBAS SENTINA 640 TOVE DAN,877374,32,,,2024-03-18,JSOZ-000211,COT-06011-C9P8S,,cotizacion subida el 18-03-25,,,877374.0
+2025,1,6000129545,Javiera Reyes,ISV,Candelaria,KOB3,"(4039246) 4 unidadades VALVULA DE MARIPOSA 10"", ANSI 150 WAFER CUERPO DUPLEX 2205,
+CON VOLANTE Y CAJA REDUCTORA ASME 150 WAFER HIGH PERFORMANCE",87202,37,Perdido,,2025-04-17,JSOZ-000212,COT-06212-W0Z9K,,cotizacion enviada al cliente el 17-04-25 // 17-05 se pregunta a la compradora por el estado de la cotizacion,,,87202.0
+2025,1,6001022659,Carolina Valenzuela,RMD,Andina,KOB3,Instrumentos de presion;  flujo; nivel,15235,,Perdido,,2025-03-20,JSOZ-000213,,,ecrm  enviado el 13-03-24,se cerro la oportunidad en el portal,,15235.0
+2025,1,correo,Ariel Ñancupil,FI,Verne SPA,KOB3,Reemplazo fuente de poder Sola HD,perdido,,,,2025-03-17,JSOZ-000214,,,ecrm enviado el 13-03-25,,,
+2025,1,6001023616,Oscar Tapia,FCS,Andina,KOB3,2 actuadores modelo 480/80 Fisher (sin Quick Ship),54368,33,4502394662,2025-04-08,2025-03-26,JSOZ-000215,FCS_COT-06147-Y9K5G,,OC enviada a Puffer el 08-04-25,,,54368.0
+2025,1,6010172098,Leonid Carrizo,FI,MLP,KOB3,IMAN; AMP3/TAPA DE RESINA; MODELO 81;  DIST DETECCCIÓN 15/16PULG (24MM); TOPWORK EMERSON; PARA INTERRUPTOR GO SWITCH C/SOPORTE PLAST ICO CON 02 ORIFICIOS; 22X65X13MM,,,,,2025-03-24,JSOZ-000216,,,Cotizacion subida el 21-'3-25,,,
+2025,1,correo,Juan Gallardo,RQ,Andina,KOB3,MRO clase 3 de bomba Sundyne LMV-322,35970,12,,,,JSOZ-000217,COT-06112-Z1W5M,,ecrm enviado a puffer el 21-03-25,,,35970.0
+2025,1,6001024579,Elisa Jara,ISV,Ventana,KOB3,Valvulas tipo bola con actuador neumatico,,,,,,JSOZ-000218,,,ecrm enviado a Puffer el 25-03-25,,,
+2025,1,correo,manuel rojas,RMD,MLP,KOB2B,9 radar 5408A4SHA1I11NAZZCBM3M5DA1 con adaptador THUM (medicion de volumen en cajones),90945,8,,,2025-04-25,JSOZ-000219,RMD_COT-06220-F2X7K,,cotizacion enviada a manuel,,,90945.0
+2025,1,6010173043,Leonid Carrizo,FCS,MLP,KOB3,11 unidades  material 11009892 JGO REPARACION;FISHERCO ; R47016X012,1342,8,4510232078,2025-04-14,,JSOZ-000220,COT-06286-G2N4N,,OC enviada apuffer el 14-05-25,,,1342.0
+2025,1,correo,Ariel Ñancupil,FI,Verne SPA,KOB3,"Minera Centinela // TARJETA EMERSON CAM-228, PN: 87236C; FOUNDATION FIELDBUS
+ 05 unidades",,,,,,JSOZ-000221,,,ecrm enviado el 10-04-25,,,
+2025,1,correo,Ariel Ñancupil,Fi,Verne SPA,KOB3,6001025457 - FUENTE PODER 100-240VAC 24VDC 24A,11592,12,,,,JSOZ-000222,FI_COT-06331-P6C1S,,cotizacion enviada al cliente el 15-04-25,,,11592.0
+2025,1,terreno,Maria Asuncion,RMD,MLP,KOB2B,Densimetro no Nuclear,,,,,,JSOZ-000223,,,ecrm creado el 11-04-25,,,
+2025,1,6001017521,abastecimiento,RMD,Andina,KOB3,2 Rosemount™ 214C RTD Temperature Sensor,1354,10,4502395689,2025-04-10,,ACN-000161,RMD_COT-05592-L5D6V,,OC enviada a Puffer el 10-04-25,,,1354.0
+2025,1,CP-189,Paulina Santander,RFD,Caserones,KOB3,1 unidad FLUJOMETRO ROSEMOUNT 8705THEO080S1W0E5B3,,,,,,JSOZ-000224,,,ecrm enviado a Puffer el 14-04-25,,,
+2025,1,6020350266,Romeglys Diaz,RMD,CMP,KOB3,1 Transmisor de presion 2051TG,4728,9,4531622767,2025-05-07,2025-04-17,JSOZ-000225,RMD_COT-06329-Y0Z6W,,OC enviada a Puffer el 07-05-25,vence a las 11 AM,,4728.0
+2025,1,6001026818,Carolina Valenzuela,RMD,Andina,KOB3,(1606667) 10 unidades TRANSMISOR TEMP ROSEMOUNT 248HANAA2Q4F6H,9680,8,4502408096,2025-05-15,2025-04-15,JSOZ-000226,RMD_COT-06324-C0L3J,,OC enviada a Puffer el 15-05-25,,,9680.0
+2025,1,6010173849,Leonid Carrizo,FCS,MLP,KOB3,Minera Los Pelambres6010173849 // Sello Fisher 6 unidades  1R875914042,3516,8,,,,JSOZ-000227,JSOZ-000227,,cotizacion subida al portal el 28-04-25,,,3516.0
+2025,1,6000131633,Javiera Reyes,FCS,Candelaria,KOB3,"(4028508) VALVULA FISHER, TIPO V150 DE 12"" DVC6200 con Flanges",40675,13,4500249403,2025-04-22,2025-04-21,ACN-000209,FCS_COT-06365-Y3T4N,,OC enviada a Puffer el 22-04-25,,,40675.0
+2025,1,correo,Ivan Gutierrez,RFD/FI,Enami,KOB2B,Solución medición de flujo wireless Hart  Planta el Salado,51000,,,,2025-04-24,JSOZ-000228,FI_RMD_COT-06446-C1V5B,,cotizacion referencial enviada al cliente el 25/04-25,,,51000.0
+2025,1,correo,Ivan Latorre,RMD,Caserones,KOB3,2 transmisores 3051TG2F2B21AB4M5Q451,,,,,,,,,ecrm enviado a Puffer el 28-04-25,,,
+2025,1,correo,Octavio Romano,RFD,Pucobre,KOB3,Transmisor de flujo para sensor 8705LHA180C3W0Q4,3865,10,,,,JSOZ-000231,RFD_COT-06533-Z7F9H,,cotizacion enviada al cliente el 07-05-25,,,3865.0
+2025,1,6000132378,Sebastian Godoy,FCS,Candelaria,KOB3,"( 4074436) EX CODIGO 4039000 VALVULA CONTROL ROTATIVA 12"" MOD. V150",28108,12,4500250194,2025-05-06,2025-05-05,JSOZ-000232,COT-06524-X4Q3Z,,OC enviada a procesar el 06-05-25,,,28108.0
+2025,1,6010174449,Leonid Carrizo,FCS,MLP,KOB3,SELLO;FISHERCO;1R875914042 (5 unidades),2930,8,,,2025-05-05,JSOZ-000233,COT-06528-V8L1L,,cotizacion subida al portal,,,2930.0
+2025,1,3000017541,Ariel Cuadra,RMD,Caserones,KOB3,(33028647) 1 unidad  de 2051TG2F2B21AS1B4Q4+1199WDB60AFFW71DA00,6932,12,4300029255,2025-06-16,2025-05-16,JSOZ-000234,RMD_COT-06549-D0Y4D,,OC enviada a Puffer el 16-06-25,,,6932.0
+2025,1,contrato,,FCS,MLP,KOB3,4 POSICIONADOR VALVULA FISHERCO DVC6005F,36684,13,4590102626,2025-05-05,2025-05-05,ACN-000231,4642000997,,OC enviada a Puffer el 05-05-25,,,36684.0
+2025,1,6000132668,Javiera Reyes,FCS,Candelaria,KOB3,"(4074436)  VALVULA CONTROL ROTATIVA 12"" MOD. V150",28108,12,4500250489,2025-05-09,2025-05-08,JSOZ-000235,FCS_COT-06575-D0G9B,,OC enviada a Puffer el 09-05-25,,,28108.0
+2025,1,contrato,abastecimiento,RMD,salvador,KOB3,contrato 4600021130 TRANSMISOR ROSEMOUNT 3051TG2A2B21AM5Q4S5,8476,,4502406873,2025-05-08,2025-05-08,ACN-000234,contrato,,OC enviada a Puffer el 08-05-25,,,8476.0
+2025,1,correos,María Jesus Caballeros,FI,Verne SPA,KOB2B,Tableros Confinamiento Accesos Ferroviarios TTE6 y TTE8 (8 tableros),21312,8,,,2025-05-12,JSOZ-000236,COT-06638-G9Y0F,,cotizacion enviada al cliente el 13-05-25,,,21312.0
+2025,1,6001031134,Patricio Serra,REG,Salvador,KOB3,SUM MTTO VALVULAS DE FLUIDO Y GAS (reguladores 67CFR),2216,8,4502418095,2025-06-09,2025-05-13,JSOZ-000237,FCS_REG_COT-06613-J0R3Q,,OC enviada a Puffer el 09-06-25,,,2216.0
+2025,1,contrato,Patricia adriazola,FCS,MLP,KOB3,4 unidades POSICIONADOR VALVULA FISHERCO DVC6005F,36684,13,4590102826,2025-05-15,2025-05-15,ACN-000237,4642000997,,OC enviada a procesar el 15-05-25,,,36684.0
+2025,1,OP-147782/2025,Eduardo Lagos,RFD,Koslan,KOB3,"OP-147782/2025 - Flujómetro magnetico 10"" calse 300 en Dupex",19985,10,,,45793,JSOZ-000238,RFD_COT-06671-Y7N8Z,,ecrm enviado a Puffer el 29-05-25 paea la rev 01,,,19985.0
+2025,1,contrato,,FCS,MLP,KOB4,(11010036) ACTUADOR VALVULA TAMAÑO 60 8 1 2 PULG DIA 150PSIG CARRERA 8 1 8 PULG MOD 481 16 NO INCLUYE POSICIONADOR,58958,12,4590101299,2025-05-16,2025-05-16,ACN-000239,4642000997,,OC enviada a Puffer el 16-05-25,,,58958.0
+2025,1,600101752,Patricio Serra,RMD,Andina,KOB3,(1606667) 4 unidades Rosemoun 248 Head Mount Temperature Transmitter,3776,10,4502388379,2025-03-25,2025-03-25,ACN-000166,RMD_COT-05625-D6T8D,,OC enviada a Puffer el 25-03-25,,,3776.0
+2025,1,6010175445,,FCS,MLP,KOB3,"(11009894) 6 unidades BUSHING,SEAL P/N: 1R875914042",3516,8,,,2025-05-22,ACN-000241,FCS_COT-06718-V6K5Q,,cotizacion subida el 22-05-25,,,3516.0
+2025,1,6010175455,Leonid Carrizo,FCS,MLP,KOB3,"(11009893) 12 unidades BUSHING,SEAL // (11009892) 12 uni KIT,REPAIR",4680,6,4510235339,2025-05-30,2025-05-22,ACN-000242,FCS_COT-06713-S8Y1N,,OC enviada a Puffer el 30-05-25,,,4680.0
+2025,1,correo,Francisco Pinto,FI,MLP,KOB3,Compra de componentes stock critico línea 4,,,,,2025-05-27,JSOZ-000239,,,ecrm enviado a Puffer el 22-05-25,,,
+2025,1,correo,Jorge Gonzalez,FI,Varitec,KOB3,AMS 2140 (MHM Portables-RS-PSS-SYSS),46094,2,,,2025-05-27,JSOZ-000240,SYS_COT-06771-S9X9X,,cotizacion enviada al cliente el 27-05-25,,,46094.0
+2025,1,terreno,Mario Taucan,RQ,Andina,KOB3,Repuestos recomendados bombas American Marsh,80000,,,,,JSOZ-000242,,,ecrm creado pero no enviado a Puffer,,,80000.0
+2025,1,correo,manuel rojas,ISV,MLP,KOB3,1 actuador Bettis XTE 3000 XTE-020 de 3ph 380V 50Hz (4-20 mA),4935,3,,,2025-05-27,JSOZ-000243,COT-06869-J7H5T,,cotizacion enviada a manuel el 05-06-25,,,4935.0
+2025,1,6000133911,Javiera Reyes,FCS,Candelaria,KOB3,"(4029259) 1 VALVULA DE CONTROL 3"", CON ACTUADOR 2052",14289,16,4500252030,2025-05-30,2028-05-28,JSOZ-000244,COT-06795-J8L0R,,OC enviada a Puffer el 30-05-25,,,14289.0
+2025,1,6010175799,leonid Carrizo,FCS,MLP,KOB3,(11009896) 5  TRANSDUCTOR;FISHERCO;38B6041X152,9030,8,,,2025-05-29,JSOZ-000245,COT-06793-X7T5P,,cotizacion subida el 28-05-25,,,9030.0
+2025,1,terreno,Manuel Rojas,RMD/FI,MLP,KOB2B,Indicadores de posicion Wireless Hart  Actuadores Shafer (relaves),37959,12,,,,JSOZ-000246,FI_RMD_SERV_COT-06935-Q3W5G,,cotizacion enviada a manuel el 09-06-25,,,37959.0
+2025,1,3000017690,Ariel Cuadra,FCS,Caserones,KOB3,(33013086) 1 unidad POSICIONADOR FISHER DVC6200F000237063,11830,12,4300029231,2025-06-16,2025-06-16,JSOZ-000247,FCS_COT-06809-W7P3W,,OC enviada a Puffer el 16-05-25,,,11830.0
+2025,1,6000134011,Javiera Reyes,FCS,Candelaria,KOB3,(4056758) 1 POSICIONADOR FISHER DVC6200 HART,4767,4,4500252031,2025-05-29,2025-05-30,JSOZ-000248,COT-06811-C1T8Z,,OC enviada a procesar el 30-05-25,,,4767.0
+2025,1,6010176415,leonid Carrizo,PRV,MLP,KOB3,"Discos de Rupturas 14"" y 18""",,,,,,JSOZ-000250,,,ecrm enviado a Puffer el 05-06-25,,,
+2025,1,6010175928,leonid Carrizo,FI,MLP,KOB3,PLC;EMERSON;EPSCPE115,4240,12,,,2025-06-12,JSOZ-000251,FI_COT-06945-S9L9M,,cotizacion subida al portal el 12-06-25,,,4240.0
+2025,1,6010176608,leonid Carrizo,FCS,MLP,KOB3,5 unidades  SELLO;FISHERCO;1R875914042,,,,,,JSOZ-000252,,,ecrm enviado a Puffer el 09-06-25,,,
+2025,1,terreno,Sebastian Zamora,RFD,Andina,KOB2B,flujometro para aire (3051SFA1G060ZCHPS1T1C0T31JA1A5RLM5),16141,12,,,2025-06-11,JSOZ-000253,RFD_COT-06955-Q1J6K,,Cotizacion enviada al cliente el 11-06-25,,,16141.0
+2025,1,6000134769,Javiera Reyes,FCS,Candelaria,KOB3,(4056758) 1 POSICIONADOR FISHER DVC6200 HART,4767,2,4500253252,2025-06-18,2025-06-13,JSOZ-000254,FCS_COT-06969-P1B0F,,OC enviada a Puffer el 18-06-25,,,4767.0
+2025,1,6010176769,Mariangel Flores,RMD,MLP,KOB3,(11196103) TRANSMISOR;ROSEMOUN;2051GP2A2B31AB4Q4D4M,4926,10,4510237080,2025-06-19,2025-06-16,JSOZ-000255,RMD_COT-06987-V2V4M,,OC enviada a Puffer el 19-06-25,,,4926.0
+2025,1,6010176983,Leonid Carrizo,ISV,MLP,KOB3,(11216763 ) 2 unidades JUEGO SELLO ;NP 6618000028 ACTUADOR HIDRAULICO MODELO  E QUIPO: SHAFER 26X36,,,,,2025-06-17,JSOZ-000256,,,ecrm enviado a Puffer el 16-06-25,,,
+2025,1,6010177020,leonid Carrizo,FCS,MLP,KOB3,4 unidades TRANSDUCTOR; ELECTRONEUMATICO  4-20MA; SALIDA 3-15PSIG; TIPO DVC6005,,,,,2025-06-19,JSOZ-000257,,,ecrm enviado a Puffer el 16-06-25,,,
+2025,1,contrato,,ISV,MLP,KOB3,(11119459) 1 unidad VALVULA BOLA CF8 275PSI 1 1 2 CLASE 150,15345,,4590104021,2025-06-11,2025-06-11,ACN-000255,4642000997,,OC enviada a Puffer el 11-06-25,,,15345.0
+2025,1,contrato,Patricia adriazola,FCS,MLP,KOB3,(11014123) 4 ACTUADOR VALVULA FISHERCO 4801540DVC6005,74928,,4590104280,2025-06-25,2025-06-25,ACN-000264,4642000997,,OC enviada aprocesar el 25-06-25,,,74928.0
+2025,1,contrato,Patricia adriazola,FCS,MLP,KOB4,(11021935) 8 RELE FISHERCO 38B5786X052,6500,,4590104149,2025-06-19,2025-06-19,ACN-000260,4642000997,,OC enviada a Puffer el 19-06-25,,,6500.0
+2025,,,,,,,,Total USD,1296534,,,,,,,,,,
+2025,,,,,,,Meta BK FY25 $USD,2481,206.75,mensual,,,,,,,,,2481.0
+2025,,,,,,,Meta NR FY25 $USD,549,45.75,mensual,,,,,,,,,549.0
+2025,,,,,,,,,,,,,,Gabriela Castillo,,,,,
