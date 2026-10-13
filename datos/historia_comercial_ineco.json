@@ -1,0 +1,554 @@
+{
+ "fuentes": [
+  "/tmp/plan2004.txt",
+  "/tmp/ineco/ineco_slides.txt"
+ ],
+ "que_es": "Historia comercial de INECO (operación chilena como Local Business Partner de Emerson/Rosemount, 2003-2014) extraída de sus planes de negocio, cruzada contra el trabajo actual. Sirve para ver qué cuenta lleva 20 años comprando y qué competidor sigue siendo el mismo.",
+ "cuentas": {
+  "CODELCO": {
+   "menciones": 23
+  },
+  "ARAUCO": {
+   "menciones": 79
+  },
+  "CMPC": {
+   "menciones": 36
+  },
+  "ENAP": {
+   "menciones": 20
+  },
+  "ESCONDIDA": {
+   "menciones": 6
+  },
+  "COLLAHUASI": {
+   "menciones": 4
+  },
+  "PELAMBRES": {
+   "menciones": 13
+  },
+  "CANDELARIA": {
+   "menciones": 3
+  },
+  "EL ABRA": {
+   "menciones": 4
+  },
+  "SPENCE": {
+   "menciones": 2
+  },
+  "GABY": {
+   "menciones": 4
+  },
+  "QUEBRADA BLANCA": {
+   "menciones": 1
+  },
+  "ANGLO AMERICAN": {
+   "menciones": 10
+  },
+  "METHANEX": {
+   "menciones": 5
+  },
+  "COLBUN": {
+   "menciones": 3
+  },
+  "AES GENER": {
+   "menciones": 2
+  },
+  "GUACOLDA": {
+   "menciones": 1
+  },
+  "SQM": {
+   "menciones": 3
+  },
+  "ENAEX": {
+   "menciones": 6
+  },
+  "OXIQUIM": {
+   "menciones": 3
+  },
+  "MASISA": {
+   "menciones": 3
+  },
+  "ARAUCO PANELES": {
+   "menciones": 4
+  },
+  "E-CL": {
+   "menciones": 6
+  },
+  "GASATACAMA": {
+   "menciones": 2
+  },
+  "GNL QUINTERO": {
+   "menciones": 5
+  },
+  "ABASTIBLE": {
+   "menciones": 5
+  },
+  "LIPIGAS": {
+   "menciones": 1
+  },
+  "COPEC": {
+   "menciones": 4
+  },
+  "CAP / HUACHIPATO": {
+   "menciones": 3
+  },
+  "Ecometales": {
+   "menciones": 4
+  },
+  "Zaldívar": {
+   "menciones": 1
+  },
+  "Antucoya": {
+   "menciones": 1
+  },
+  "Pucobre": {
+   "menciones": 2
+  },
+  "Pampa Camarones": {
+   "menciones": 1
+  },
+  "Cerro Colorado": {
+   "menciones": 1
+  },
+  "Lomas Bayas": {
+   "menciones": 2
+  },
+  "Mantos Blancos": {
+   "menciones": 1
+  },
+  "Franke": {
+   "menciones": 2
+  },
+  "El Tesoro": {
+   "menciones": 2
+  },
+  "Michilla": {
+   "menciones": 1
+  },
+  "Meridian El Peñón": {
+   "menciones": 1
+  },
+  "Norgener": {
+   "menciones": 1
+  },
+  "Corpesca": {
+   "menciones": 1
+  },
+  "Cementos Bío Bío": {
+   "menciones": 1
+  },
+  "Colun": {
+   "menciones": 1
+  },
+  "IANSA": {
+   "menciones": 1
+  },
+  "Nestlé": {
+   "menciones": 1
+  },
+  "Norske Skog": {
+   "menciones": 1
+  },
+  "Georgia Pacific": {
+   "menciones": 1
+  },
+  "Vidrios Lirquén": {
+   "menciones": 1
+  },
+  "Ancali": {
+   "menciones": 1
+  },
+  "Bocamina": {
+   "menciones": 1
+  },
+  "Catamutún": {
+   "menciones": 1
+  },
+  "Oleoducto Trasandino": {
+   "menciones": 1
+  },
+  "Indura": {
+   "menciones": 3
+  },
+  "AGA / Air Liquide": {
+   "menciones": 19
+  },
+  "Metrogas": {
+   "menciones": 2
+  },
+  "Endesa": {
+   "menciones": 1
+  },
+  "GIST BROCADES": {
+   "menciones": 4
+  }
+ },
+ "competidores": {
+  "ABB": 14,
+  "Emerson/Rosemount (propio)": 53,
+  "Honeywell": 31,
+  "Yokogawa": 11,
+  "Endress+Hauser": 4,
+  "Siemens": 12,
+  "Invensys / Foxboro / IA": 17,
+  "Schneider / Rockwell": 13,
+  "Dezurik": 2,
+  "Samson": 2,
+  "Masoneilan": 1,
+  "Neles": 5,
+  "Mesura": 2,
+  "Maxcontrol": 3
+ },
+ "productos": {
+  "Presión (RMT)": 18,
+  "Temperatura (RMT)": 13,
+  "DP Flow (RMT)": 9,
+  "Nivel": 21,
+  "Analítica (PAD/RAI)": 36,
+  "Válvulas (FCS)": 16,
+  "Sistemas (PSS)": 62,
+  "AO / AMS (activos)": 47,
+  "Wireless": 14,
+  "Reguladores (REGS)": 25,
+  "MRO / Reposición": 18
+ },
+ "epcs": {
+  "fluor": 7,
+  "bechtel": 6,
+  "aker": 10,
+  "amec": 4,
+  "snc lavalin": 4,
+  "hatch": 2,
+  "santiago": 15,
+  "kvaerner": 2,
+  "foster wheeler": 1,
+  "inacap": 2,
+  "proingesa": 1,
+  "millan y seguel": 1,
+  "green": 2,
+  "masisa": 3,
+  "wood": 1
+ },
+ "cruces_hoy": {
+  "ARAUCO": {
+   "empresa_hoy": "CELULOSA ARAUCO Y CONSTITUCION S A",
+   "areas": 6,
+   "personas": 19,
+   "carga_toxica": 1222.48,
+   "respel_t": 24621.2,
+   "en_plan": true,
+   "dolor": 90.0,
+   "prio": 270.8
+  },
+  "CMPC": {
+   "empresa_hoy": "CMPC CELULOSA S A",
+   "areas": 5,
+   "personas": 11,
+   "carga_toxica": 128.44,
+   "respel_t": 13579.9,
+   "en_plan": true,
+   "dolor": 0.0,
+   "prio": 0.8
+  },
+  "CODELCO": null,
+  "ENAP": {
+   "empresa_hoy": "ACONCAGUA FOODS S.A.",
+   "areas": 2,
+   "personas": 3,
+   "carga_toxica": 397.71,
+   "respel_t": 183882.3,
+   "en_plan": true,
+   "dolor": 90.0,
+   "prio": 361.0
+  },
+  "AGA / Air Liquide": {
+   "empresa_hoy": "AGUAS MAGALLANES S.A.",
+   "areas": 3,
+   "personas": 5,
+   "carga_toxica": 23.84,
+   "respel_t": 1496.1,
+   "en_plan": true,
+   "dolor": 90.0,
+   "prio": 270.9
+  },
+  "PELAMBRES": {
+   "empresa_hoy": "MINERA LOS PELAMBRES",
+   "areas": 2,
+   "personas": 3,
+   "carga_toxica": null,
+   "respel_t": null,
+   "en_plan": false,
+   "dolor": null,
+   "prio": null
+  },
+  "ANGLO AMERICAN": {
+   "empresa_hoy": "ANGLO AMERICAN SUR S.A.",
+   "areas": 2,
+   "personas": 3,
+   "carga_toxica": 0.24,
+   "respel_t": 49943.1,
+   "en_plan": true,
+   "dolor": 48.0,
+   "prio": 144.7
+  },
+  "ESCONDIDA": {
+   "empresa_hoy": "MINERA ESCONDIDA LIMITADA",
+   "areas": 4,
+   "personas": 10,
+   "carga_toxica": 265.66,
+   "respel_t": 51374.6,
+   "en_plan": true,
+   "dolor": 90.0,
+   "prio": 360.3
+  },
+  "ENAEX": {
+   "empresa_hoy": "ENAEX S A",
+   "areas": 1,
+   "personas": 1,
+   "carga_toxica": 72.59,
+   "respel_t": 1890.8,
+   "en_plan": true,
+   "dolor": 56.7,
+   "prio": 227.4
+  },
+  "E-CL": null,
+  "METHANEX": {
+   "empresa_hoy": "Methanex Chile Sa",
+   "areas": 0,
+   "personas": 0,
+   "carga_toxica": 105.04,
+   "respel_t": 598.0,
+   "en_plan": false,
+   "dolor": null,
+   "prio": null
+  },
+  "GNL QUINTERO": {
+   "empresa_hoy": "GNL QUINTERO SA",
+   "areas": 1,
+   "personas": 2,
+   "carga_toxica": 2030.01,
+   "respel_t": 675.5,
+   "en_plan": false,
+   "dolor": null,
+   "prio": null
+  },
+  "ABASTIBLE": {
+   "empresa_hoy": "ABASTIBLE S.A.",
+   "areas": 0,
+   "personas": 0,
+   "carga_toxica": null,
+   "respel_t": null,
+   "en_plan": true,
+   "dolor": 40.0,
+   "prio": 161.0
+  },
+  "COLLAHUASI": {
+   "empresa_hoy": "CIA MINERA DONA INES DE COLLAHUASI SCM",
+   "areas": 1,
+   "personas": 1,
+   "carga_toxica": null,
+   "respel_t": null,
+   "en_plan": true,
+   "dolor": 40.0,
+   "prio": 120.5
+  },
+  "EL ABRA": null,
+  "GABY": null,
+  "ARAUCO PANELES": null,
+  "COPEC": {
+   "empresa_hoy": "Copec S.A.",
+   "areas": 0,
+   "personas": 0,
+   "carga_toxica": 1.77,
+   "respel_t": 29700.1,
+   "en_plan": true,
+   "dolor": 0.0,
+   "prio": 1.0
+  },
+  "Ecometales": {
+   "empresa_hoy": "ECOMETALES LIMITED AGENCIA EN CHILE",
+   "areas": 1,
+   "personas": 1,
+   "carga_toxica": null,
+   "respel_t": null,
+   "en_plan": false,
+   "dolor": null,
+   "prio": null
+  },
+  "GIST BROCADES": null,
+  "CANDELARIA": {
+   "empresa_hoy": "CIA CONTRACTUAL MINERA CANDELARIA",
+   "areas": 2,
+   "personas": 2,
+   "carga_toxica": 166.59,
+   "respel_t": 26396.7,
+   "en_plan": true,
+   "dolor": 79.4,
+   "prio": 318.1
+  },
+  "COLBUN": {
+   "empresa_hoy": "COLBUN S A",
+   "areas": 3,
+   "personas": 7,
+   "carga_toxica": 206.5,
+   "respel_t": 1104.5,
+   "en_plan": true,
+   "dolor": 90.0,
+   "prio": 361.0
+  },
+  "SQM": {
+   "empresa_hoy": "SQM INDUSTRIAL S.A.",
+   "areas": 0,
+   "personas": 0,
+   "carga_toxica": null,
+   "respel_t": null,
+   "en_plan": true,
+   "dolor": 40.0,
+   "prio": 80.7
+  },
+  "OXIQUIM": {
+   "empresa_hoy": "OXIQUIM S A",
+   "areas": 1,
+   "personas": 1,
+   "carga_toxica": null,
+   "respel_t": null,
+   "en_plan": true,
+   "dolor": 40.0,
+   "prio": 160.8
+  },
+  "MASISA": {
+   "empresa_hoy": "Masisa S.A.",
+   "areas": 0,
+   "personas": 0,
+   "carga_toxica": 0.27,
+   "respel_t": 2825.5,
+   "en_plan": true,
+   "dolor": 58.4,
+   "prio": 175.7
+  },
+  "CAP / HUACHIPATO": {
+   "empresa_hoy": "CIA SIDERURGICA HUACHIPATO S A",
+   "areas": 1,
+   "personas": 1,
+   "carga_toxica": 23.75,
+   "respel_t": 14835.9,
+   "en_plan": true,
+   "dolor": 0.0,
+   "prio": 0.5
+  },
+  "Indura": null,
+  "SPENCE": null,
+  "AES GENER": {
+   "empresa_hoy": "AES GENER S A",
+   "areas": 4,
+   "personas": 8,
+   "carga_toxica": 2739.62,
+   "respel_t": 399.0,
+   "en_plan": true,
+   "dolor": 0.0,
+   "prio": 1.0
+  },
+  "GASATACAMA": null,
+  "Pucobre": null,
+  "Lomas Bayas": null,
+  "Franke": null,
+  "El Tesoro": null,
+  "Metrogas": null,
+  "QUEBRADA BLANCA": {
+   "empresa_hoy": "COMPANIA MINERA TECK QUEBRADA BLANCA S.A.",
+   "areas": 1,
+   "personas": 1,
+   "carga_toxica": 74.97,
+   "respel_t": 34906.7,
+   "en_plan": false,
+   "dolor": null,
+   "prio": null
+  },
+  "GUACOLDA": {
+   "empresa_hoy": "GUACOLDA ENERGIA S.A",
+   "areas": 3,
+   "personas": 9,
+   "carga_toxica": 8692.93,
+   "respel_t": 1237.0,
+   "en_plan": true,
+   "dolor": 0.0,
+   "prio": 0.3
+  },
+  "LIPIGAS": {
+   "empresa_hoy": "EMPRESAS LIPIGAS S A",
+   "areas": 1,
+   "personas": 1,
+   "carga_toxica": 0.25,
+   "respel_t": 511.3,
+   "en_plan": true,
+   "dolor": 48.6,
+   "prio": 146.8
+  },
+  "Zaldívar": null,
+  "Antucoya": {
+   "empresa_hoy": "MINERA ANTUCOYA",
+   "areas": 2,
+   "personas": 2,
+   "carga_toxica": null,
+   "respel_t": null,
+   "en_plan": false,
+   "dolor": null,
+   "prio": null
+  },
+  "Pampa Camarones": null,
+  "Cerro Colorado": null,
+  "Mantos Blancos": null,
+  "Michilla": null,
+  "Meridian El Peñón": null,
+  "Norgener": null,
+  "Corpesca": {
+   "empresa_hoy": "Corpesca S A",
+   "areas": 0,
+   "personas": 0,
+   "carga_toxica": 76.25,
+   "respel_t": 2809.2,
+   "en_plan": true,
+   "dolor": 90.0,
+   "prio": 180.7
+  },
+  "Cementos Bío Bío": null,
+  "Colun": null,
+  "IANSA": {
+   "empresa_hoy": "Iansagro S A",
+   "areas": 0,
+   "personas": 0,
+   "carga_toxica": 3.72,
+   "respel_t": 814.2,
+   "en_plan": true,
+   "dolor": 60.9,
+   "prio": 183.7
+  },
+  "Nestlé": {
+   "empresa_hoy": "NESTLE CHILE SA",
+   "areas": 1,
+   "personas": 1,
+   "carga_toxica": 7.74,
+   "respel_t": 2384.4,
+   "en_plan": true,
+   "dolor": 59.9,
+   "prio": 180.7
+  },
+  "Norske Skog": null,
+  "Georgia Pacific": null,
+  "Vidrios Lirquén": {
+   "empresa_hoy": "VIDRIOS LIRQUEN S A",
+   "areas": 0,
+   "personas": 0,
+   "carga_toxica": null,
+   "respel_t": null,
+   "en_plan": true,
+   "dolor": 9.7,
+   "prio": 39.4
+  },
+  "Ancali": null,
+  "Bocamina": null,
+  "Catamutún": null,
+  "Oleoducto Trasandino": null,
+  "Endesa": null
+ }
+}
