@@ -113,16 +113,31 @@ for r in riles:
 
 # residuos peligrosos
 idx_res_rut, idx_res_nom = collections.defaultdict(float), collections.defaultdict(float)
-c_res = cols(respel[0], "cantidad", "toneladas", "generacion", "peso", "total")
-print(f"  columna de cantidad en residuos peligrosos: {c_res}")
+c_res = cols(respel[0], "cantidad_transferencia", "cantidad", "toneladas", "generacion")
+c_uni = cols(respel[0], "unidad_abreviacion", "unidad")
+c_tipo = cols(respel[0], "tipo_respel")
+print(f"  columna de cantidad en residuos peligrosos: {c_res} (unidad: {c_uni})")
+unidades = collections.Counter()
+res_tipos = collections.defaultdict(set)
 for r in respel:
     try: v = float(str(r.get(c_res) or 0).replace(",", ""))
     except: v = 0.0
     if v <= 0: continue
+    u = str(r.get(c_uni) or "kg").strip().lower()
+    unidades[u] += 1
+    # CONVERSION A TONELADAS: el RETC publica en kg. Sin esto, Codelco daba 2.210 millones
+    # de "toneladas" (era kg) y el orden por magnitud quedaba absurdo.
+    if u.startswith("kg"): v = v / 1000.0
+    elif u.startswith("g") and not u.startswith("gal"): v = v / 1e6
     rut = norm_rut(r.get("rut_razon_social"))
     nom = clave_nombre(r.get("razon_social"))
-    if rut: idx_res_rut[rut] += v
-    if nom: idx_res_nom[nom] += v
+    if rut:
+        idx_res_rut[rut] += v
+        if r.get(c_tipo): res_tipos[rut].add(str(r[c_tipo])[:30])
+    if nom:
+        idx_res_nom[nom] += v
+        if r.get(c_tipo): res_tipos[nom].add(str(r[c_tipo])[:30])
+print(f"  unidades encontradas: {dict(unidades)}  (convertidas a toneladas)")
 
 # ---------- 4. cruzar con el catálogo ----------
 salida, stats = {}, collections.Counter()
@@ -147,7 +162,10 @@ for slug, e in cat.items():
     if not v2 and nom:
         v2 = idx_res_nom.get(nom, 0)
         met2 = "nombre" if v2 > 0 else None
-    if v2 > 0: fila["residuos_t"] = round(v2, 2); fila["residuos_metodo"] = met2
+    if v2 > 0:
+        fila["residuos_t"] = round(v2, 2); fila["residuos_metodo"] = met2
+        kk2 = rut or nom
+        if kk2 in res_tipos: fila["residuos_tipos"] = len(res_tipos[kk2])
     fila["fuente"] = "RETC MMA 2024/2025 (datosretc.mma.gob.cl)"
     if rut: fila["rut_catalogo"] = rut
     if "riles" in fila: stats["con_riles"] += 1
