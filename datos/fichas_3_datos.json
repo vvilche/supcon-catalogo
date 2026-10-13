@@ -1,0 +1,677 @@
+{
+ "CXT (transmisor de presión)": {
+  "familia": "Presión",
+  "descripcion": "Transmisor inteligente de presión y presión diferencial de la serie SupField CXT, con sensor compuesto de silicio monocristalino. Cubre las variantes SKC (presión diferencial, microdiferencial e hidrostática), SKG/SKA, SKP/SKH (presión manométrica y absoluta), SKD/SKX (doble brida de diafragma remoto) y SKB/SKW (brida simple remota). Mide presión, caudal y nivel.",
+  "beneficios": [
+   "Exactitud máxima de ±0.05% (hasta ±0.035% en la versión de alta precisión)",
+   "Estabilidad de largo plazo declarada de 0.1% por 10 años",
+   "Sensor de silicio monocristalino con empaquetado propio de SUPCON",
+   "Certificación SIL3 por TÜV (funcionalidad de seguridad integrada)",
+   "Compatible con protocolo HART y Foundation Fieldbus",
+   "Diafragmas de aislamiento resistentes a corrosión: 316L, Hastelloy C, oro, tantalio, titanio, níquel, Monel",
+   "Opera de forma confiable en condiciones severas: alta temperatura y alto vacío",
+   "Rango de 1 kPa a 40 MPa según la variante"
+  ],
+  "clientes_target": [
+   "Petróleo, gas y petroquímica",
+   "Energía eléctrica (calderas, líneas de vapor críticas)",
+   "Química y petroquímica",
+   "Metalurgia",
+   "Farmacéutica",
+   "Celulosa y papel, agua y tratamiento",
+   "Cualquier planta que requiera medición redundante con seguridad funcional SIL3 sin sobreprecio"
+  ],
+  "competencia": "POR COMPLETAR — requiere validación. En el mercado chileno la instrumentación de presión está dominada por Endress+Hauser (US$6,1M importados en 2025 según el estudio de importaciones), seguido de Siemens, Yokogawa y Emerson/Rosemount.",
+  "argumentos_venta": [
+   "SIL3 de TÜV sin el sobreprecio que suele cobrar la marca tradicional: el argumento de entrada",
+   "Exactitud ±0.05% y estabilidad 0,1% por 10 años: comparable con las marcas líderes",
+   "Reemplazo directo de Rosemount y Endress+Hauser en proyectos nuevos",
+   "Más de 2.000 plantas y 50 países usando la línea de instrumentación SUPCON",
+   "Una sola familia (SKC a SKW) cubre presión diferencial, manométrica, absoluta, nivel e interfase: un solo proveedor para toda la planta",
+   "Diafragmas especiales disponibles (tantalio, titanio, Monel, Hastelloy) para fluidos corrosivos"
+  ],
+  "objeciones": [
+   [
+    "Es marca china, no confío en la precisión",
+    "La ficha del fabricante declara exactitud máxima ±0.05% y estabilidad 0,1% por 10 años, con certificación SIL3 de TÜV y certificados ATEX, IECEx, EAC y RoHS disponibles en el material. Son verificables uno por uno."
+   ],
+   [
+    "Ya usamos Rosemount / Endress y no queremos cambiar",
+    "No es necesario cambiar todo: se puede evaluar en una aplicación crítica o en un proyecto nuevo, y comparar prestaciones. La línea tiene más de 2.000 instalaciones en 50 países."
+   ],
+   [
+    "Necesitamos certificación de zona peligrosa",
+    "Hay certificados ATEX (Exd y Exia), IECEx, NEPSI y EAC en el material, tanto para el CXT como para la línea de temperatura."
+   ],
+   [
+    "¿Qué pasa si falla? ¿Quién da soporte?",
+    "La garantía es de un año y el fabricante declara mantenimiento de por vida del producto. POR COMPLETAR: confirmar la estructura de soporte local antes de prometer tiempos de respuesta."
+   ]
+  ],
+  "preguntas_tecnicas": [
+   "¿Qué variable mide: presión manométrica, diferencial, absoluta o nivel?",
+   "¿Cuál es el rango de medición requerido? (la familia cubre de 1 kPa a 40 MPa)",
+   "¿Cuál es la presión estática máxima del proceso? (hasta 42 MPa en la versión diferencial)",
+   "¿Qué exactitud exige la aplicación? (máxima ±0.05%, hasta ±0.035% en alta precisión)",
+   "¿Requiere seguridad funcional SIL3?",
+   "¿Cuál es el fluido y su agresividad química? (define el material del diafragma: 316L, Hastelloy C, tantalio, titanio, Monel)",
+   "¿Qué protocolo de comunicación requiere: HART o Foundation Fieldbus?",
+   "¿La instalación es en zona peligrosa? (ATEX Exd o Exia disponibles)",
+   "¿Requiere transmisor de brida remota o directa?",
+   "¿Requiere display local o configuración remota?"
+  ],
+  "fuente": "CXT Smart Pressure Transmitter Selection Manual 20241225.pdf + CXT Smart Pressure Transmitter User Manual 20240403.pdf + CJT Pressure Transmitter Selection Manual 20240403.pdf + SUPCON Instrument Introduction.pdf"
+ },
+ "W Series (temperatura)": {
+  "familia": "Temperatura",
+  "descripcion": "Línea de medición de temperatura compuesta por detector de resistencia (RTD), termocupla (TC), transmisor de temperatura, transmisor integrado y termómetro bimetálico. Los RTD se dividen en platino, cobre y níquel, y miden por la variación de resistencia del conductor metálico con la temperatura. Incluye el transmisor inteligente WMT86.",
+  "beneficios": [
+   "RTD Pt100 rango -200 a +800 °C con exactitud de 0.12 °C",
+   "RTD Pt1000 rango -50 a +300 °C con exactitud de 0.09 °C",
+   "RTD Cu50 rango -50 a +150 °C con exactitud de 0.03 °C (la mayor precisión de la línea)",
+   "Compatible con termocuplas tipo B, E, J, K, N, R, S y T segun IEC 60584",
+   "Compensación de junta fría con exactitud de ±1.0 °C",
+   "Tiempo de respuesta mejor que 0.5 segundos",
+   "Efecto de temperatura de 0.1% en toda la línea",
+   "Alimentación de 9 a 15 V DC",
+   "Ambiente de operación de -40 a 85 °C y humedad 5% a 95%",
+   "Cumple IEC 60751-2008, OIML R84-2003 y GOST 6651-2009"
+  ],
+  "clientes_target": [
+   "Petróleo, química y petroquímica",
+   "Energía eléctrica",
+   "Metalurgia y materiales de construcción",
+   "Alimentos y farmacéutica",
+   "Celulosa y papel",
+   "Tratamiento de agua",
+   "Obras viales, edificación y textil"
+  ],
+  "competencia": "POR COMPLETAR — requiere validación. El material tiene certificados CE, CNEX (Exia y Exdb/Extb) y SIL de la línea de temperatura, pero no una battlecard de competencia.",
+  "argumentos_venta": [
+   "Una sola línea cubre RTD (Pt100, Pt1000, Cu50, Cu100), termocupla (8 tipos), transmisor integrado y termómetro bimetálico: un proveedor para toda la instrumentación de temperatura",
+   "Exactitud de hasta 0.03 °C en RTD de cobre y 0.09 °C en Pt1000",
+   "Tiempo de respuesta mejor que 0.5 segundos: relevante en lazos de control rápidos",
+   "Certificación SIL disponible para la línea",
+   "Certificados CNEX de protección contra explosión tanto para gas como para polvo (Exia y Exdb/Extb)",
+   "Cumple las normas IEC, OIML y GOST: apto para proyectos con especificación internacional"
+  ],
+  "objeciones": [
+   [
+    "Necesitamos termocuplas de varios tipos",
+    "La línea cubre los tipos B, E, J, K, N, R, S y T según IEC 60584, con exactitudes declaradas por tipo (por ejemplo Type K ±0.21 °C)."
+   ],
+   [
+    "La instalación tiene polvo combustible además de gas",
+    "Existen certificados CNEX tanto para gas como para polvo, en versión Exia y Exdb/Extb."
+   ],
+   [
+    "¿Es tan preciso como las marcas tradicionales?",
+    "El RTD Pt100 declara 0.12 °C de exactitud y el Cu50 baja a 0.03 °C. La exactitud depende del elemento elegido; se especifica caso a caso."
+   ],
+   [
+    "POR COMPLETAR",
+    ""
+   ]
+  ],
+  "preguntas_tecnicas": [
+   "¿Qué rango de temperatura debe medir?",
+   "¿Qué exactitud requiere la aplicación?",
+   "¿Prefiere RTD o termocupla? (RTD para precisión, TC para rango alto)",
+   "Si es RTD, ¿qué elemento: Pt100, Pt1000, Cu50 o Cu100?",
+   "Si es termocupla, ¿qué tipo: B, E, J, K, N, R, S o T?",
+   "¿Requiere transmisor integrado o transmisor separado?",
+   "¿Cuál es el tiempo de respuesta exigido por el lazo de control?",
+   "¿La instalación es en zona peligrosa con gas, con polvo, o ambas?",
+   "¿Requiere protección SIL?",
+   "¿Necesita termómetro bimetálico local además de la señal al sistema?"
+  ],
+  "fuente": "W Series Temperature Meter Selection Manual 20240410.pdf + WMT Series Temperature Transmitter User Manual.pdf"
+ },
+ "SFE910 (caudal electromagnético)": {
+  "familia": "Caudal",
+  "descripcion": "Caudalímetro electromagnético de la serie SFE910, sin piezas móviles, para medición de caudal en fluidos conductivos. La línea incluye también la variante EMF89 con certificado SIL. Disponible con revestimientos PFA, PTFE y cerámica, y electrodos autolimpiantes.",
+  "beneficios": [
+   "Sin piezas móviles ni desgaste: no obstruye ni se desgasta con el paso del fluido",
+   "Electrodos autolimpiantes (declarado como patentado)",
+   "Resistente a ciclos de limpieza CIP/SIP en la industria de alimentos",
+   "Revestimientos disponibles: PFA, PTFE y cerámica, según agresividad del fluido",
+   "Certificado SIL disponible en la variante EMF89",
+   "Certificado de protección contra explosión NEPSI disponible",
+   "Mide fluidos conductivos, incluidos lodos, pulpas y aguas residuales"
+  ],
+  "clientes_target": [
+   "Celulosa y papel (medición de pulpa)",
+   "Alimentos y bebidas (ciclos CIP/SIP)",
+   "Minería (relaves, agua de proceso, pulpas)",
+   "Tratamiento de agua y aguas residuales",
+   "Química y petroquímica"
+  ],
+  "competencia": "POR COMPLETAR — requiere validación. En Chile el segmento de caudalímetros electromagnéticos tiene presencia de Endress+Hauser (Promag), Siemens y KROHNE, todos con importación registrada en 2025 según el estudio de importaciones.",
+  "argumentos_venta": [
+   "Electrodos autolimpiantes: reduce la mantención en fluidos sucios, que es el principal costo oculto del caudalímetro",
+   "Sin piezas móviles: la única parte que se desgasta es el revestimiento, que se elige por aplicación",
+   "Resistencia a CIP/SIP: apto para alimentos y bebidas sin cambiar de equipo",
+   "Variante con certificado SIL para aplicaciones de seguridad",
+   "Revestimiento cerámico disponible para fluidos muy abrasivos",
+   "Selección de revestimiento por aplicación: PFA, PTFE o cerámica"
+  ],
+  "objeciones": [
+   [
+    "Nuestro fluido es muy abrasivo (relave, pulpa)",
+    "Es el caso de diseño: sin piezas móviles que se desgasten, con revestimiento cerámico disponible para abrasión severa y electrodos autolimpiantes."
+   ],
+   [
+    "El fluido no es conductivo",
+    "Punto crítico y correcto: un caudalímetro electromagnético requiere conductividad mínima del fluido. Si no la tiene, la tecnología correcta es otra (másico, vortex o turbina). Es un dato a relevar antes de cotizar."
+   ],
+   [
+    "Necesitamos certificación SIL",
+    "La variante EMF89 cuenta con certificado SIL en el material."
+   ],
+   [
+    "La línea opera con limpieza CIP agresiva",
+    "Está declarado como resistente a CIP/SIP, con revestimiento PFA o PTFE según el químico de limpieza."
+   ]
+  ],
+  "preguntas_tecnicas": [
+   "¿Cuál es el fluido y su conductividad? (requisito de la tecnología electromagnética)",
+   "¿Cuál es el diámetro nominal de la tubería?",
+   "¿Cuál es el rango de caudal mínimo y máximo?",
+   "¿Cuál es la temperatura y la presión del proceso?",
+   "¿El fluido es abrasivo? (define revestimiento cerámico)",
+   "¿Es corrosivo? (define el material del electrodo)",
+   "¿Requiere ciclos de limpieza CIP/SIP?",
+   "¿Requiere certificación SIL?",
+   "¿La instalación es en zona peligrosa?",
+   "¿Requiere medición bidireccional o compensación de temperatura?"
+  ],
+  "fuente": "SFE910 Electromagnetic Flowmeter User Manual 20250418.pdf + EMF89 SIL Certificate + SUPCON Instrument Introduction.pdf"
+ },
+ "SFM800 (caudal másico)": {
+  "familia": "Caudal",
+  "descripcion": "Medidor de caudal másico de la serie SFM800. Mide masa directamente, sin necesidad de compensar por presión y temperatura.",
+  "beneficios": [
+   "Medición directa de masa: no requiere compensación de presión y temperatura",
+   "Exactitud independiente de las condiciones del proceso (presión, temperatura, viscosidad)",
+   "Sin partes móviles",
+   "Documentación técnica completa de especificaciones, condiciones ambientales, presión de trabajo, materiales y alimentación"
+  ],
+  "clientes_target": [
+   "Industria de proceso que requiere medición de masa para balance o facturación interna",
+   "Química y petroquímica",
+   "Alimentos y bebidas",
+   "Aplicaciones donde la compensación de presión y temperatura es una fuente de error"
+  ],
+  "competencia": "POR COMPLETAR — requiere validación. El mercado de caudal másico tiene incumbentes muy establecidos con tecnología propia (Micromotion de Emerson, Endress+Hauser Promass). En el registro de importaciones 2025 aparece Micro Motion con US$1,2M, lo que indica que la marca líder está presente en Chile.",
+  "argumentos_venta": [
+   "Medición directa de masa: elimina el error de la compensación",
+   "Documentación técnica completa en el material, incluida la caracterización de materiales y presión de trabajo",
+   "POR COMPLETAR: el material de selección de SFM800 es más breve que el de las otras líneas; pedir al fabricante la guía de selección completa antes de una oferta grande"
+  ],
+  "objeciones": [
+   [
+    "Ya usamos Micro Motion y funciona bien",
+    "Es el incumbente declarado del segmento. La evaluación debe hacerse por aplicación concreta y comparando prestaciones, no por marca."
+   ],
+   [
+    "¿Tienen la misma variedad de tamaños y materiales?",
+    "POR COMPLETAR: el manual disponible no incluye la guía completa de selección de modelos y materiales. Hay que pedirla al fabricante antes de cotizar."
+   ],
+   [
+    "POR COMPLETAR",
+    ""
+   ]
+  ],
+  "preguntas_tecnicas": [
+   "¿Cuál es el fluido y su caudal másico requerido?",
+   "¿Cuál es el diámetro nominal?",
+   "¿Cuál es la temperatura y presión de operación?",
+   "¿Requiere certificación de zona peligrosa?",
+   "¿Requiere medición de densidad además de masa?",
+   "¿Requiere certificación para facturación o transferencia de custodia?",
+   "¿Qué protocolo de comunicación requiere?",
+   "POR COMPLETAR: rango de tamaños y materiales — confirmar con el fabricante",
+   "POR COMPLETAR: exactitud por modelo",
+   "POR COMPLETAR: certificaciones disponibles"
+  ],
+  "fuente": "SFM800 Mass Flow Meter User Manual SISFM-PDEN-01A"
+ },
+ "LUGB (caudal vortex)": {
+  "familia": "Caudal",
+  "descripcion": "Caudalímetro de vórtice de la serie LUGB, para medición de caudal de gases, vapores y líquidos por el principio de generación de vórtices. Incluye tabla de rangos de caudal por diámetro y guía de selección de modelo y función.",
+  "beneficios": [
+   "Sin partes móviles: mide por generación de vórtices",
+   "Apto para gases, vapores y líquidos con un mismo principio de medición",
+   "Rangos de caudal tabulados por diámetro (documentados en el material)",
+   "Requiere tramos rectos de tubería definidos: las condiciones de instalación están especificadas",
+   "Instrucciones de conexión a tierra y requisitos de tramo recto incluidas en el manual"
+  ],
+  "clientes_target": [
+   "Vapor y gas en plantas de proceso",
+   "Química y petroquímica",
+   "Energía (medición de vapor)",
+   "Industria que requiere medición de caudal de gas sin partes móviles"
+  ],
+  "competencia": "POR COMPLETAR — requiere validación. No hay battlecard en el material.",
+  "argumentos_venta": [
+   "Un mismo principio cubre gases, vapores y líquidos: simplifica el inventario de repuestos",
+   "Tiene tabla de rangos de caudal por diámetro en el manual: permite dimensionar sin adivinar",
+   "POR COMPLETAR: no hay datos de exactitud en el extracto revisado; confirmar contra la guía de selección antes de ofrecer"
+  ],
+  "objeciones": [
+   [
+    "El fluido tiene bajo caudal o baja velocidad",
+    "El vórtice requiere una velocidad mínima del fluido. Las tablas de caudal por diámetro del manual permiten verificar si el rango es adecuado: es un dato a relevar."
+   ],
+   [
+    "No tengo tramo recto disponible en la instalación",
+    "El manual especifica los requisitos de tramo recto. Si no se cumplen, la medición se degrada: hay que verificar la instalación antes de ofrecer."
+   ],
+   [
+    "POR COMPLETAR",
+    ""
+   ]
+  ],
+  "preguntas_tecnicas": [
+   "¿El fluido es gas, vapor o líquido?",
+   "¿Cuál es el rango de caudal mínimo y máximo?",
+   "¿Cuál es el diámetro de la tubería?",
+   "¿Se dispone del tramo recto requerido antes y después del instrumento?",
+   "¿Cuál es la temperatura y presión de operación?",
+   "¿El fluido es corrosivo? (define el material)",
+   "¿Requiere compensación de presión y temperatura para medir masa?",
+   "¿Requiere certificación de zona peligrosa?",
+   "¿Qué protocolo de comunicación requiere?",
+   "POR COMPLETAR: exactitud y rango de medición por modelo"
+  ],
+  "fuente": "LUGB Vortex Flowmeter Instruction Manual SILUB-PTCH-00A + LUGB Vortex Flowmeter User Manual"
+ },
+ "YHLW (caudal por turbina)": {
+  "familia": "Caudal",
+  "descripcion": "Caudalímetros de turbina de la serie YHLW, en versión para gas (YHLW) y para líquidos (YHLW-Y). Miden caudal por el giro de un rotor impulsado por el fluido.",
+  "beneficios": [
+   "Medición precisa en fluidos limpios y de baja viscosidad",
+   "Versión específica para gas y versión para líquidos, cada una con su manual propio",
+   "Alta repetibilidad por su principio mecánico de medición",
+   "Formato compacto"
+  ],
+  "clientes_target": [
+   "Medición de gas natural y gases de proceso limpios",
+   "Combustibles líquidos y derivados limpios",
+   "Medición de transferencia de custodia en fluidos limpios",
+   "Industria que requiere medición de caudal de bajo costo en fluidos limpios"
+  ],
+  "competencia": "POR COMPLETAR — requiere validación. No hay battlecard en el material.",
+  "argumentos_venta": [
+   "Existe versión dedicada para gas y otra para líquidos: no se fuerza un solo instrumento a las dos aplicaciones",
+   "Dos manuales completos disponibles, uno por aplicación",
+   "POR COMPLETAR: no hay datos de exactitud ni de rangos en el extracto revisado"
+  ],
+  "objeciones": [
+   [
+    "El fluido tiene partículas o es viscoso",
+    "Es una limitación real de la tecnología de turbina: requiere fluido limpio y de baja viscosidad. Si el fluido no lo es, la tecnología correcta es electromagnética o másica."
+   ],
+   [
+    "¿Aguanta caudal alto?",
+    "Requiere confirmar el rango por diámetro contra el manual, que no se detalla en el extracto. Es un dato a relevar antes de ofrecer."
+   ],
+   [
+    "POR COMPLETAR",
+    ""
+   ]
+  ],
+  "preguntas_tecnicas": [
+   "¿El fluido es gas o líquido? (define la versión: YHLW o YHLW-Y)",
+   "¿El fluido está limpio y sin partículas?",
+   "¿Cuál es la viscosidad del fluido?",
+   "¿Cuál es el rango de caudal requerido?",
+   "¿Cuál es el diámetro de la tubería?",
+   "¿Cuál es la temperatura y presión de operación?",
+   "¿Requiere medición para transferencia de custodia?",
+   "¿Requiere certificación de zona peligrosa?",
+   "¿Qué protocolo de comunicación requiere?",
+   "POR COMPLETAR: exactitud y rangos por modelo"
+  ],
+  "fuente": "YHLW Series Gas Turbine Flowmeter Instruction Manual 20241120.pdf + YHLW-Y Series Liquid Turbine Flowmeter Instruction Manual 20241120.pdf"
+ },
+ "SF20 (rotámetro metálico)": {
+  "familia": "Caudal",
+  "descripcion": "Rotámetro de tubo metálico de la serie SF20 (caudalímetro de flotador), para medición local de caudal en fluidos. Incluye certificado CE y certificado de protección contra explosión NEPSI.",
+  "beneficios": [
+   "Indicación local directa, sin necesidad de alimentación eléctrica",
+   "Construcción metálica: apto para condiciones de proceso más severas que un rotámetro de vidrio",
+   "Certificado CE de conformidad",
+   "Certificado NEPSI de protección contra explosión",
+   "Instrucciones completas de instalación y operación"
+  ],
+  "clientes_target": [
+   "Medición local de caudal en líneas auxiliares, purgas y dosificación",
+   "Química y petroquímica",
+   "Tratamiento de agua",
+   "Aplicaciones donde se requiere indicación local sin instrumentación eléctrica"
+  ],
+  "competencia": "POR COMPLETAR — requiere validación. No hay battlecard en el material.",
+  "argumentos_venta": [
+   "Indicación local sin energía: útil en puntos sin alimentación eléctrica disponible",
+   "Construcción metálica con certificado de zona peligrosa",
+   "Costo de instalación bajo por ser instrumento de indicación directa",
+   "POR COMPLETAR: no hay datos de exactitud ni rangos en el extracto revisado"
+  ],
+  "objeciones": [
+   [
+    "Necesitamos señal al sistema de control",
+    "Es un instrumento de indicación local. Si se requiere señal al SCADA o DCS, se debe elegir un caudalímetro con transmisor (electromagnético, vortex, másico o turbina)."
+   ],
+   [
+    "El fluido es opaco o sucio",
+    "Un rotámetro de tubo metálico requiere fluido relativamente limpio para que el flotador se desplace libremente. Es un dato a relevar."
+   ],
+   [
+    "POR COMPLETAR",
+    ""
+   ]
+  ],
+  "preguntas_tecnicas": [
+   "¿Requiere indicación local o señal al sistema de control?",
+   "¿Cuál es el rango de caudal?",
+   "¿Cuál es el diámetro y la conexión de la tubería?",
+   "¿Cuál es la temperatura y presión de operación?",
+   "¿El fluido está limpio y sin sólidos?",
+   "¿El fluido es corrosivo? (define el material)",
+   "¿La instalación es en zona peligrosa?",
+   "¿Se requiere indicación en unidades másicas o volumétricas?",
+   "POR COMPLETAR: rangos y exactitud por modelo",
+   "POR COMPLETAR: materiales disponibles"
+  ],
+  "fuente": "SF20 Metal Tube Rotameter Instruction Manual SISF2-PDEN-00A + SF20 NEPSI Ex Proof Certificate"
+ },
+ "SL903 (radar de nivel 80 GHz)": {
+  "familia": "Nivel",
+  "descripcion": "Medidor de nivel por radar de onda continua modulada en frecuencia (FMCW) a 80 GHz, de la serie SL900. Antena tipo lente, con conexiones desde brida DN50 hasta DN250 y rangos de medición de 10, 20, 40 y 100 metros. Mide por penetración fuera del estanque o a través de bridas de aislamiento de vidrio cuarzo.",
+  "beneficios": [
+   "Exactitud de ±1 mm: la más fina de la línea de nivel",
+   "Frecuencia de 80 GHz, que entrega un haz más estrecho que un radar de 26 GHz",
+   "Rango de medición de 10, 20, 40 o 100 metros según modelo",
+   "Presión de proceso de -0.1 a 3 MPa y temperatura de -40 a 230 °C",
+   "Partes húmedas en 304/316L/PTFE/PEEK",
+   "Salida 4-20 mA con HART, alimentación 24 VDC a dos hilos",
+   "Display LCD retroiluminado de 160x80 puntos",
+   "Grado de protección IP66/IP67",
+   "Protección contra explosión Exia IIC T6 Ga y Exd IIC T6 Gb",
+   "Algoritmos avanzados de procesamiento de eco, adaptados a distintos ambientes de trabajo",
+   "Diseñado para condiciones extremas: polvo intenso, vapor, y estanques con agitación y barras calefactoras",
+   "Diseño de sellado estructural completo con recubrimiento anticorrosivo"
+  ],
+  "clientes_target": [
+   "Silos de grano, cemento y materiales sólidos a granel",
+   "Estanques de pulpa y de proceso minero",
+   "Transferencia de custodia en estanques de hidrocarburos",
+   "Estanques con agitación, calefacción o vapor (petroquímica)",
+   "Reactores de alta temperatura y presión",
+   "Cualquier medición de nivel donde un radar de 26 GHz falla por espuma, vapor o polvo"
+  ],
+  "competencia": "POR COMPLETAR — requiere validación. En el estudio de importaciones 2025 el segmento de nivel está dominado por Endress+Hauser (con Levelflex y Micropilot), seguido de VEGA y Siemens. El argumento técnico del haz a 80 GHz es el diferencial frente a los radares de 26 GHz instalados.",
+  "argumentos_venta": [
+   "80 GHz contra los 26 GHz de la competencia típica: el haz más estrecho del mercado permite medir en estanques con obstrucciones internas donde un radar de menor frecuencia no ve el eco",
+   "Exactitud de ±1 mm con rango de hasta 100 metros",
+   "Funciona donde el radar convencional falla: polvo intenso, vapor, espuma, agitación y barras calefactoras (declarado por el fabricante)",
+   "Medición de penetración fuera del estanque o a través de brida de vidrio cuarzo para aislamiento: sirve en reactores de alta temperatura y presión",
+   "Diseño de sellado estructural completo con recubrimiento anticorrosivo",
+   "Antena tipo lente con conexiones desde DN50 a DN250: cubre desde estanques pequeños hasta silos grandes"
+  ],
+  "objeciones": [
+   [
+    "El estanque tiene agitación y barras calefactoras que generan ecos falsos",
+    "Es el caso de diseño declarado: el haz estrecho de 80 GHz y los algoritmos de procesamiento de eco están pensados para estanques con agitación, calefacción y obstrucciones internas."
+   ],
+   [
+    "Hay mucho polvo y vapor en el ambiente",
+    "El fabricante declara ventajas únicas frente a otros productos similares en condiciones de polvo intenso y vapor."
+   ],
+   [
+    "Necesito medir en un reactor de alta presión y temperatura",
+    "El equipo opera hasta 3 MPa y 230 °C, y permite medición de penetración fuera del estanque o a través de brida de vidrio cuarzo."
+   ],
+   [
+    "¿Es compatible con mi sistema?",
+    "Salida 4-20 mA con HART sobre 24 VDC a dos hilos, con display local. Es compatible con cualquier sistema que acepte HART."
+   ],
+   [
+    "POR COMPLETAR",
+    ""
+   ]
+  ],
+  "preguntas_tecnicas": [
+   "¿Qué se mide: sólido a granel, líquido, pulpa o interfase?",
+   "¿Cuál es la altura del estanque o silo? (define el rango: 10, 20, 40 o 100 m)",
+   "¿Cuál es la temperatura y presión del proceso? (hasta 230 °C y 3 MPa)",
+   "¿Qué tipo de conexión de proceso se requiere? (brida DN50 a DN250 o rosca)",
+   "¿El fluido es corrosivo? (define el material de las partes húmedas)",
+   "¿Hay agitación, barras calefactoras u obstáculos internos?",
+   "¿Hay espuma, vapor o polvo intenso?",
+   "¿Se requiere medición a través de brida de aislamiento?",
+   "¿La instalación es en zona peligrosa? (Exia IIC T6 Ga o Exd IIC T6 Gb)",
+   "¿Requiere certificación para transferencia de custodia?"
+  ],
+  "fuente": "SL903 80G Radar Level Meter User Guide SISL9-PDEN-04A + SL903 80GHz Radar Level Meter User Manual + SL900 Radar Level Transmitter Selection Manual 20240816.pdf"
+ },
+ "SL10 / SL20 / SL80 (nivel magnético y magnetostrictivo)": {
+  "familia": "Nivel",
+  "descripcion": "Línea de instrumentos de nivel de la serie SL: SL10-1 (indicador magnético montado lateral), SL10-2 (montado superior), SL20 (indicador de flotador), SL30 (switch de horquilla vibratoria) y SL80 (transmisor de nivel magnetostrictivo).",
+  "beneficios": [
+   "SL80 magnetostrictivo: medición continua de nivel con transmisión de señal",
+   "SL10 y SL20: indicación local directa sin energía, apta para verificación visual en terreno",
+   "SL30: switch de nivel por horquilla vibratoria, sin partes móviles",
+   "Certificado SIL para la línea de indicadores magnéticos",
+   "Certificado CNAS de protección contra explosión Exia para SL20 y SL80",
+   "Guía de selección común para toda la serie, con criterios por aplicación"
+  ],
+  "clientes_target": [
+   "Estanques de almacenamiento que requieren indicación local además de señal",
+   "Aplicaciones con detección de nivel puntual (alarma de alto o bajo)",
+   "Plantas que requieren instrumentación de nivel simple y robusta",
+   "Reemplazo de instrumentación de nivel mecánica"
+  ],
+  "competencia": "POR COMPLETAR — requiere validación. No hay battlecard en el material.",
+  "argumentos_venta": [
+   "Una sola serie (SL10, SL20, SL30, SL80) cubre indicación local, switch puntual y transmisión continua",
+   "Certificado SIL en la línea de indicadores magnéticos: sirve en aplicaciones de seguridad",
+   "El SL30 de horquilla vibratoria no tiene partes móviles: menos mantención que un switch mecánico",
+   "Los indicadores magnéticos no requieren energía: siguen indicando el nivel aunque se corte la alimentación"
+  ],
+  "objeciones": [
+   [
+    "Necesitamos señal al sistema de control, no solo indicación local",
+    "Para eso está el SL80 magnetostrictivo, que entrega medición continua con transmisión. Los SL10 y SL20 son de indicación local."
+   ],
+   [
+    "El fluido es denso o tiene sólidos",
+    "El SL30 de horquilla vibratoria es apropiado para detección puntual en líquidos; para sólidos hay que verificar la selección. Es un dato a relevar contra la guía."
+   ],
+   [
+    "Necesito protección contra explosión",
+    "SL20 y SL80 cuentan con certificado CNAS Exia en el material."
+   ],
+   [
+    "POR COMPLETAR",
+    ""
+   ]
+  ],
+  "preguntas_tecnicas": [
+   "¿Requiere indicación local, detección puntual (alarma) o medición continua? (define el modelo: SL10/SL20, SL30 o SL80)",
+   "¿Cuál es la altura del estanque?",
+   "¿Cuál es la temperatura y presión de operación?",
+   "¿Cuál es la densidad del fluido?",
+   "¿El fluido es corrosivo o limpio?",
+   "¿La medición debe ser exterior o requiere montaje superior?",
+   "¿Requiere certificación SIL?",
+   "¿Requiere certificación de zona peligrosa?",
+   "¿Requiere señal al sistema de control y con qué protocolo?",
+   "¿Se necesita indicación local que funcione sin energía?"
+  ],
+  "fuente": "SL10&20&30&80 Level Gauge Selection Manual 20240403.pdf + SL10 Magnetic Flip Level Gauge Instruction Manual + SL20 Magnetic Level Gauge User Guide + SL80 Magnetostrictive Level Gauge CNAS Exia Certificate"
+ },
+ "CVP2000 (posicionador inteligente)": {
+  "familia": "Válvulas y accesorios",
+  "descripcion": "Posicionador inteligente de válvula de la serie CVP2000, con soporte para APL (Advanced Physical Layer, Ethernet hasta el campo). Incluye el manual completo de funciones, conexionado, configuración y diagnóstico.",
+  "beneficios": [
+   "Posicionador inteligente con diagnóstico propio de la válvula",
+   "Versión con soporte APL: Ethernet hasta el instrumento de campo",
+   "Manual completo de funciones, cableado, configuración y resolución de problemas",
+   "Integrable con la plataforma APL de SUPCON, que declara reducción de costos de implementación y cableado"
+  ],
+  "clientes_target": [
+   "Plantas con válvulas de control que requieren diagnóstico de válvula",
+   "Proyectos nuevos que adoptan APL (Ethernet al campo)",
+   "Refinería, petroquímica y química",
+   "Plantas que requieren mantenimiento predictivo de válvulas"
+  ],
+  "competencia": "POR COMPLETAR — requiere validación. El segmento de posicionadores inteligentes tiene marca líder establecida (Fisher DVC6200 aparece en el registro de importaciones 2025 con US$0,5M declarados en partida de medida y control eléctrico).",
+  "argumentos_venta": [
+   "Es la pieza que conecta el control con la válvula, y es donde el diagnóstico de válvula se vuelve posible",
+   "Versión APL alineada con la arquitectura Ethernet al campo de SUPCON",
+   "Se integra con la instrumentación APL de la misma marca (CXT APL, SmartEIO, switches APL)",
+   "POR COMPLETAR: no hay battlecard frente a Fisher, Metso o Samson"
+  ],
+  "objeciones": [
+   [
+    "Ya tenemos Fisher y funciona",
+    "POR COMPLETAR: el material no ofrece argumentos comparativos frente a Fisher. Este es el punto a cubrir antes de ofrecer en una planta con incumbente."
+   ],
+   [
+    "No queremos adoptar APL todavía",
+    "Existe la versión estándar del CVP2000, además de la versión APL."
+   ],
+   [
+    "Necesitamos diagnóstico de válvula",
+    "El manual cubre las funciones y el diagnóstico del instrumento. POR COMPLETAR: profundidad del diagnóstico frente a la competencia."
+   ],
+   [
+    "POR COMPLETAR",
+    ""
+   ]
+  ],
+  "preguntas_tecnicas": [
+   "¿Qué tipo y tamaño de válvula va a instrumentar?",
+   "¿El accionamiento es neumático, eléctrico o hidráulico?",
+   "¿Requiere la versión APL (Ethernet al campo) o la estándar?",
+   "¿Qué tipo de señal de entrada: 4-20 mA o bus de campo?",
+   "¿Requiere diagnóstico de válvula y de actuador?",
+   "¿La instalación es en zona peligrosa?",
+   "¿Qué protocolo de comunicación requiere?",
+   "¿Requiere integración con el DCS o con un sistema de gestión de activos?",
+   "¿Requiere función de seguridad SIL?",
+   "¿Se requiere prueba de carrera parcial (PST)?"
+  ],
+  "fuente": "CVP2000 Intelligent Valve Positioner (APL) User Manual SICVP-PDEN-01A + SUPCON APL Solution.pdf"
+ },
+ "X600 (calibrador de procesos)": {
+  "familia": "Instrumentación de campo",
+  "descripcion": "Calibrador y comunicador interactivo inteligente de la serie X600, para calibración y comunicación de instrumentación de proceso. Incluye guía de selección.",
+  "beneficios": [
+   "Calibración y comunicación en un solo equipo",
+   "Certificado CE de conformidad",
+   "Guía de selección que permite elegir el modelo por función requerida",
+   "Manual completo de operación"
+  ],
+  "clientes_target": [
+   "Equipos de mantención e instrumentación de plantas de proceso",
+   "Servicios de comisionamiento y puesta en marcha",
+   "Laboratorios de calibración de instrumentos",
+   "Talleres de servicio técnico"
+  ],
+  "competencia": "POR COMPLETAR — requiere validación. El segmento tiene un incumbente muy fuerte y consolidado (Fluke, que aparece en el registro de importaciones 2025 con US$3,7M entre sus variantes, y Omicron con US$2,5M).",
+  "argumentos_venta": [
+   "Integra calibración y comunicación en un solo instrumento",
+   "Costo de entrada más bajo que el incumbente del segmento",
+   "POR COMPLETAR: el material no ofrece un diferencial técnico claro frente a Fluke. Sin ese argumento, es una venta de precio."
+  ],
+  "objeciones": [
+   [
+    "Todo mi equipo de mantención usa Fluke",
+    "Es el incumbente real del segmento. La única vía honesta es comparar funciones y costo, y ofrecer una unidad de prueba antes de un recambio masivo."
+   ],
+   [
+    "¿Tiene los mismos tipos de calibración?",
+    "POR COMPLETAR: el manual tiene la guía de selección. Hay que revisarla y comparar contra el modelo que el cliente usa hoy."
+   ],
+   [
+    "POR COMPLETAR",
+    ""
+   ]
+  ],
+  "preguntas_tecnicas": [
+   "¿Qué variables requiere calibrar: presión, temperatura, corriente, tensión o frecuencia?",
+   "¿Requiere función de comunicador HART además de calibración?",
+   "¿Cuántos instrumentos calibra por período?",
+   "¿Requiere registro y documentación de calibración?",
+   "¿Requiere certificado de calibración trazable?",
+   "¿Se usará en terreno o en laboratorio?",
+   "¿Qué exactitud exige su procedimiento de calibración?",
+   "¿Qué instrumentos usan hoy y de qué marca?",
+   "POR COMPLETAR: funciones exactas por modelo X600",
+   "POR COMPLETAR: exactitud del calibrador"
+  ],
+  "fuente": "X600 Process Calibrator & Communicator User Manual 20240403.pdf + X600 Series Interactive Calibrator & Communicator Selection Guide 20241220.pdf + X700 HART Communicator"
+ },
+ "Analítica (línea completa Hobre)": {
+  "familia": "Analítica",
+  "descripcion": "Línea completa de analizadores de proceso de Hobré (filial 100% de SUPCON desde abril de 2023): C-QUAND (XRF elemental en líquidos), TISOMIC (H2S, H2O y CO2 por foto-acústica y láser), PRISM (composición de gas por Raman), WIM COMPAS (índice de Wobbe y poder calorífico), BICOSYS y HICOSYS (CO y H2O en secadores por atomización), y HIFISC (acondicionamiento de muestra). Las fichas detalladas de cada analizador están en la primera entrega.",
+  "beneficios": [
+   "Cuatro tecnologías de análisis distintas bajo un mismo proveedor: XRF, foto-acústica con láser, Raman y oxígeno residual",
+   "Sin partes móviles en las líneas TISOMIC, PRISM y WIM COMPAS",
+   "Diseño de cero emisión disponible (la muestra vuelve al proceso)",
+   "Más de 1.000 unidades instaladas del WIM COMPAS y más de 30 años de la línea de oxígeno residual",
+   "El parque instalado de la línea de secadores por atomización está dominado por Nestlé (alimentos)",
+   "HIFISC: el acondicionamiento de muestra que hace rendir al analizador de trazas"
+  ],
+  "clientes_target": [
+   "Oil and gas: H2S, H2O y CO2 en gas y líquidos",
+   "Refinería y petroquímica: azufre, cloro y metales en crudo y derivados",
+   "Minería y metalurgia: elementos en solución por XRF (línea C-QUAND)",
+   "Siderurgia y vidrio: control de gas combustible y hornos",
+   "Alimentos y bebidas: CO y H2O en secadores por atomización",
+   "Proyectos de hidrógeno: medición de H2 en mezclas y syngas"
+  ],
+  "competencia": "POR COMPLETAR — requiere validación. En el estudio de importaciones 2025 el capítulo 90.27 (análisis) muestra a Endress+Hauser, MSA, Thermo Fisher, Metso, CIDRA, Hach, Waters, Shimadzu y Agilent como proveedores activos en Chile. No hay battlecard en el material del fabricante.",
+  "argumentos_venta": [
+   "En el estudio de importaciones de Chile 2025, ni SUPCON ni Hobré registran una sola importación: mercado sin base instalada de la marca",
+   "El WIM COMPAS es la tecnología preferida en refinerías supermajor para gas de antorcha, con más de 1.000 unidades instaladas",
+   "El C-QUAND es el único del portafolio con aplicación minera explícita en la ficha del fabricante (Fe, Ni, Co, Cu, Mo, V, W, As, Zn, Sn y PGM en minería, refinería y reciclaje)",
+   "El PRISM mide hidrógeno 0-100% de fábrica: posiciona al portafolio para proyectos de H2",
+   "Las cuatro tecnologías cubren matrices distintas (líquido elemental, gas traza, composición de gas, poder calorífico) sin depender de un solo principio"
+  ],
+  "objeciones": [
+   [
+    "No conocemos la marca en Chile",
+    "Es exacto: no hay importaciones registradas de SUPCON ni Hobré en Chile en 2025. Hobré tiene 45 años de operación (fundada en 1978) y fue adquirida al 100% por SUPCON Technology en abril de 2023, que la mantiene como filial con sede en Países Bajos, planta en Hungría y oficina en Houston."
+   ],
+   [
+    "¿Tienen soporte local?",
+    "POR COMPLETAR: el material no documenta estructura de servicio en Chile. La base de servicio declarada para las Américas está en Houston. Este es el punto crítico a resolver antes de ofrecer analizadores."
+   ],
+   [
+    "Es un analizador de otro continente, ¿qué pasa con los repuestos?",
+    "POR COMPLETAR: no hay datos de tiempos de reposición ni de bodega local en el material."
+   ],
+   [
+    "La normativa que citan no es la chilena",
+    "Correcto y ya está advertido en las fichas: el CEMS 5000 cita normas chinas (HJ75/HJ76) y el Flare CEMS cita normativa de EE.UU. (40 CFR). Hay que verificar equivalencia local antes de ofrecer."
+   ]
+  ],
+  "preguntas_tecnicas": [
+   "¿Qué componente o elemento debe medir?",
+   "¿La matriz es gas, líquido o pulpa?",
+   "¿Cuál es el rango requerido (ppm o porcentaje)?",
+   "¿Cuál es la temperatura, presión y composición del proceso?",
+   "¿Requiere medición en línea o por muestreo?",
+   "¿Requiere certificación de zona peligrosa?",
+   "¿Necesita sistema de acondicionamiento de muestra (HIFISC)?",
+   "¿Requiere cero emisión (retorno de muestra al proceso)?",
+   "¿Qué protocolo de comunicación requiere?",
+   "¿Requiere validación contra método de laboratorio (ASTM, ISO)?"
+  ],
+  "fuente": "Hobre C-Quand brochure.pdf + Hobre TISOMIC Analyzer Brochure.pdf + Hobre PRISM Raman Brochure.pdf + Hobre WIM COMPAS Brochure.pdf + Training Hicosys & Bicosys + SUPCON_HOBRE ASI & Product Introduction.pdf"
+ }
+}
