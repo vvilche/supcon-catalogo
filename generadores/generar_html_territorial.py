@@ -133,14 +133,14 @@ footer a{{color:var(--ac)}}
 </style></head><body><div class="wrap">
 
 <h1>Estrategia territorial: dónde poner el esfuerzo</h1>
-<p class="sub">Las 1.496 empresas con dolor verificado repartidas en 7 zonas, con el rubro que domina
+<p class="sub">Las 3.260 empresas con dolor verificado repartidas en 7 zonas, con el rubro que domina
 cada una y la línea de producto que entra por la puerta. El orden no es por tamaño: es por
 atractivo comercial.</p>
 
 <div class="kpi">
   <div><b>7</b>zonas priorizadas</div>
-  <div><b>1.496</b>empresas con dolor</div>
-  <div><b>42</b>dolor promedio más alto (Z2)</div>
+  <div><b>3.260</b>empresas con dolor</div>
+  <div><b>3.260</b>con dolor verificado</div>
   <div><b>7</b>líneas de producto</div>
 </div>
 

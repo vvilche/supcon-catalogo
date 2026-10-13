@@ -23,12 +23,27 @@ import os, json, collections
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 D = os.path.join(BASE, "datos")
 
-uni = json.load(open(os.path.join(D, "universo_senales_completas.json"), encoding="utf-8"))
+# usar el universo AMPLIADO (construido desde las fuentes: 6.945 empresas) si existe
+_ruta = os.path.join(D, "universo_ampliado.json")
+if not os.path.exists(_ruta):
+    _ruta = os.path.join(D, "universo_senales_completas.json")
+uni = json.load(open(_ruta, encoding="utf-8"))
 emp = uni["empresas"]
+# el universo ampliado no trae prioridad: se calcula con el criterio corregido
+CAP = {"GRANDE": 1.4, "MEDIANA": 1.2, "PEQUEÑA": 1.0, "PEQUENA": 1.0, "MICRO": 1.0}
+for e in emp:
+    if "prioridad" not in e:
+        e["prioridad"] = round(e["dolor"] * CAP.get(e.get("tier",""), 1.0), 2)
+    if "capacidad" not in e:
+        e["capacidad"] = CAP.get(e.get("tier",""), 1.0)
+    if "tier" not in e:
+        # el universo ampliado no trae tier: se infiere por el volumen de residuos medido
+        r = (e.get("residuos_t") or 0)
+        e["tier"] = "GRANDE" if r > 10000 else ("MEDIANA" if r > 500 else "PEQUEÑA")
 con_dolor = [e for e in emp if e["dolor"] > 0]
 
 # ---------- el mapeo de línea por rubro (viene del universo, no se inventa) ----------
-RUBRO_LINEAS = uni.get("mapeo_rubro_lineas") or {}
+RUBRO_LINEAS = uni.get("mapeo_rubro_lineas") or uni.get("lineas_por_rubro") or {}
 
 ZONA_NOMBRE = {
  "Z1": "Santiago (Región Metropolitana)",
