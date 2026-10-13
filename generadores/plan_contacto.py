@@ -66,9 +66,19 @@ PESO_ROL = {"A": 4, "D": 3, "CT": 2, "R": 1}
 # Consolidar por EMPRESA (no por planta). El universo tiene una fila por (razon, comuna), asi
 # que la misma persona aparecia repetida: medido, Colbun 12 veces y Ventisqueros 9. Para
 # contactar la unidad es la empresa: una persona, una llamada.
+#
+# BUG CORREGIDO (medido contra el RETC crudo): riles y residuos_t venian con +=, es decir se
+# SUMABAN una vez por planta. Pero el valor del RETC es de la EMPRESA (la emision se reporta
+# por establecimiento y ya viene agregada en el universo), asi que sumar por planta lo
+# multiplicaba por el numero de plantas:
+#     Colbun     fuente cruda 5.069,6  ->  suma por planta 81.114   (x16)
+#     Codelco    fuente cruda 88.286,4 ->  suma por planta ~353.145 (x4)
+# La senal de texto ('RILES al agua 5,070') SI traia el valor correcto, por eso los dos
+# numeros se contradecian en el mismo registro. Ahora se toma el MAXIMO (no la suma): las
+# filas de la misma empresa traen el mismo valor, y el maximo es ese valor.
 agrupado = collections.defaultdict(lambda: {"plantas": [], "dolor": 0.0, "riles": 0.0,
                                             "residuos_t": 0.0, "zonas": set(), "lineas": set(),
-                                            "senales": [], "rubro": None})
+                                            "senales": [], "senales_vistas": set(), "rubro": None})
 for e in emps:
     k = clave(e["empresa"])
     g = agrupado[k]
@@ -77,11 +87,17 @@ for e in emps:
     g["plantas"].append({"comuna": e.get("comuna"), "region": e.get("region"),
                          "zona": e.get("zona"), "dolor": e["dolor"]})
     g["dolor"] += e["dolor"]
-    g["riles"] += e.get("riles") or 0
-    g["residuos_t"] += e.get("residuos_t") or 0
+    # MAXIMO, no suma: el valor es de la empresa y se repite en cada fila de planta.
+    g["riles"] = max(g["riles"], e.get("riles") or 0)
+    g["residuos_t"] = max(g["residuos_t"], e.get("residuos_t") or 0)
     if e.get("zona"): g["zonas"].add(e["zona"])
     for l in e.get("lineas_supcon", []): g["lineas"].add(l)
-    for sg in e.get("senales_dolor", []): g["senales"].append(sg)
+    # deduplicar las senales: venian repetidas (219 de 468 empresas tenian 'RILES al agua X'
+    # dos veces) porque el universo repite la fila por planta y se hacía append sin control.
+    for sg in e.get("senales_dolor", []):
+        if sg not in g["senales_vistas"]:
+            g["senales_vistas"].add(sg)
+            g["senales"].append(sg)
 
 plan = []
 sin_tomador = 0

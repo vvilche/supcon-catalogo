@@ -149,8 +149,7 @@
    "senales": [
     "RILES al agua 5,070",
     "residuos peligrosos 1,105 t",
-    "29 contaminantes",
-    "RILES al agua 5,070"
+    "29 contaminantes"
    ],
    "lineas": [
     "Analítica",
@@ -158,8 +157,8 @@
     "Instrumentación",
     "Software y plataforma"
    ],
-   "riles": 81114.1,
-   "residuos_t": 17672.3,
+   "riles": 5069.6,
+   "residuos_t": 1104.5,
    "tomadores": [
     {
      "nombre": "José Ignacio Escobar",
@@ -209,7 +208,7 @@
     "cargo": "Gerente General",
     "linkedin": "https://cl.linkedin.com/in/jiescoba"
    },
-   "angulo": "emite al agua 81,114 (DS 90/2000): hoy no lo mide en línea · genera 17,672 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 5,070 (DS 90/2000): hoy no lo mide en línea · genera 1,104 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 361.0
   },
   {
@@ -281,8 +280,7 @@
    "senales": [
     "RILES al agua 3,742",
     "residuos peligrosos 183,882 t",
-    "34 contaminantes",
-    "RILES al agua 3,742"
+    "34 contaminantes"
    ],
    "lineas": [
     "DCS",
@@ -290,8 +288,8 @@
     "SIS",
     "Válvulas"
    ],
-   "riles": 29935.7,
-   "residuos_t": 1471058.2,
+   "riles": 3742.0,
+   "residuos_t": 183882.3,
    "tomadores": [
     {
      "nombre": "Álvaro Hillerns Velasco",
@@ -371,7 +369,7 @@
     "cargo": "Gerente Corporativo de Refinerías, ENAP",
     "linkedin": "https://cl.linkedin.com/in/alvarohillernsvelasco"
    },
-   "angulo": "emite al agua 29,936 (DS 90/2000): hoy no lo mide en línea · genera 1,471,058 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 3,742 (DS 90/2000): hoy no lo mide en línea · genera 183,882 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 361.0
   },
   {
@@ -462,8 +460,7 @@
    "senales": [
     "RILES al agua 88,286",
     "residuos peligrosos 2,210,613 t",
-    "33 contaminantes",
-    "RILES al agua 88,286"
+    "33 contaminantes"
    ],
    "lineas": [
     "DCS",
@@ -471,8 +468,8 @@
     "SIS",
     "Válvulas"
    ],
-   "riles": 971150.2,
-   "residuos_t": 24316747.7,
+   "riles": 88286.4,
+   "residuos_t": 2210613.4,
    "tomadores": [
     {
      "nombre": "Rafael Guzmán M.",
@@ -632,7 +629,7 @@
     "cargo": "Director Corporativo de Proyectos de Tecnología & Automatización y Sistemas de Procesos Mina en Codelco",
     "linkedin": "https://cl.linkedin.com/in/rafael-guzm%C3%A1n-m-93a13172"
    },
-   "angulo": "emite al agua 971,150 (DS 90/2000): hoy no lo mide en línea · genera 24,316,748 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 88,286 (DS 90/2000): hoy no lo mide en línea · genera 2,210,613 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 361.0
   },
   {
@@ -695,15 +692,14 @@
    "senales": [
     "RILES al agua 3,354",
     "residuos peligrosos 1,245 t",
-    "30 contaminantes",
-    "RILES al agua 3,354"
+    "30 contaminantes"
    ],
    "lineas": [
     "DCS",
     "Instrumentación"
    ],
-   "riles": 23480.2,
-   "residuos_t": 8717.9,
+   "riles": 3354.3,
+   "residuos_t": 1245.4,
    "tomadores": [
     {
      "nombre": "José Luis Vial",
@@ -743,7 +739,7 @@
     "cargo": "Gerente General Ventisqueros S.A.",
     "linkedin": "https://www.linkedin.com/in/jose-luis-vial-898a291b3"
    },
-   "angulo": "emite al agua 23,480 (DS 90/2000): hoy no lo mide en línea · genera 8,718 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 3,354 (DS 90/2000): hoy no lo mide en línea · genera 1,245 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 360.9
   },
   {
@@ -882,8 +878,7 @@
    "senales": [
     "RILES al agua 1,072",
     "residuos peligrosos 26,397 t",
-    "23 contaminantes",
-    "RILES al agua 1,072"
+    "23 contaminantes"
    ],
    "lineas": [
     "DCS",
@@ -891,8 +886,8 @@
     "SIS",
     "Válvulas"
    ],
-   "riles": 2144.9,
-   "residuos_t": 52793.4,
+   "riles": 1072.5,
+   "residuos_t": 26396.7,
    "tomadores": [
     {
      "nombre": "Juan Reinaldo López Cordero",
@@ -942,7 +937,7 @@
     "cargo": "Director de Mantenimiento, Distrito Candelaria",
     "linkedin": "https://cl.linkedin.com/in/juan-reinaldo-l%C3%B3pez-cordero-3aba1647"
    },
-   "angulo": "emite al agua 2,145 (DS 90/2000): hoy no lo mide en línea · genera 52,793 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 1,072 (DS 90/2000): hoy no lo mide en línea · genera 26,397 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 318.1
   },
   {
@@ -994,15 +989,14 @@
    "senales": [
     "RILES al agua 5,363",
     "residuos peligrosos 434 t",
-    "29 contaminantes",
-    "RILES al agua 5,363"
+    "29 contaminantes"
    ],
    "lineas": [
     "DCS",
     "Instrumentación"
    ],
-   "riles": 26817.2,
-   "residuos_t": 2168.7,
+   "riles": 5363.4,
+   "residuos_t": 433.7,
    "tomadores": [
     {
      "nombre": "Rodrigo Perez Lara",
@@ -1072,7 +1066,7 @@
     "cargo": "Farming Director",
     "linkedin": "https://cl.linkedin.com/in/rodrigo-perez-lara-0b008036"
    },
-   "angulo": "emite al agua 26,817 (DS 90/2000): hoy no lo mide en línea · genera 2,169 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 5,363 (DS 90/2000): hoy no lo mide en línea · genera 434 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 307.6
   },
   {
@@ -1155,15 +1149,14 @@
    "senales": [
     "RILES al agua 2,472",
     "residuos peligrosos 309 t",
-    "34 contaminantes",
-    "RILES al agua 2,472"
+    "34 contaminantes"
    ],
    "lineas": [
     "DCS",
     "Instrumentación"
    ],
-   "riles": 24721.2,
-   "residuos_t": 3094.7,
+   "riles": 2472.1,
+   "residuos_t": 309.5,
    "tomadores": [
     {
      "nombre": "Vjekoslav Rafaeli",
@@ -1183,7 +1176,7 @@
     "cargo": "Gerente General de TRUSAL S.A.",
     "linkedin": ""
    },
-   "angulo": "emite al agua 24,721 (DS 90/2000): hoy no lo mide en línea · genera 3,095 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 2,472 (DS 90/2000): hoy no lo mide en línea · genera 310 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 283.0
   },
   {
@@ -1337,15 +1330,14 @@
    "senales": [
     "RILES al agua 9,123",
     "residuos peligrosos 1,637 t",
-    "35 contaminantes",
-    "RILES al agua 9,123"
+    "35 contaminantes"
    ],
    "lineas": [
     "DCS",
     "Instrumentación"
    ],
-   "riles": 200716.1,
-   "residuos_t": 36015.8,
+   "riles": 9123.5,
+   "residuos_t": 1637.1,
    "tomadores": [
     {
      "nombre": "Mauricio Martin",
@@ -1395,7 +1387,7 @@
     "cargo": "Gerente de Planta",
     "linkedin": "https://cl.linkedin.com/in/mauricio-martin-5395b9102"
    },
-   "angulo": "emite al agua 200,716 (DS 90/2000): hoy no lo mide en línea · genera 36,016 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 9,124 (DS 90/2000): hoy no lo mide en línea · genera 1,637 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 271.0
   },
   {
@@ -1459,15 +1451,14 @@
    "senales": [
     "RILES al agua 153,357",
     "residuos peligrosos 1,496 t",
-    "29 contaminantes",
-    "RILES al agua 153,357"
+    "29 contaminantes"
    ],
    "lineas": [
     "DCS",
     "Instrumentación"
    ],
-   "riles": 1073502.4,
-   "residuos_t": 10472.7,
+   "riles": 153357.5,
+   "residuos_t": 1496.1,
    "tomadores": [
     {
      "nombre": "Miguel Peña Cervantes",
@@ -1517,7 +1508,7 @@
     "cargo": "Gerente de Operaciones",
     "linkedin": "https://cl.linkedin.com/in/miguel-pe%C3%B1a-cervantes-196545121"
    },
-   "angulo": "emite al agua 1,073,502 (DS 90/2000): hoy no lo mide en línea · genera 10,473 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 153,358 (DS 90/2000): hoy no lo mide en línea · genera 1,496 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 270.9
   },
   {
@@ -1582,15 +1573,14 @@
    "senales": [
     "RILES al agua 33,050",
     "residuos peligrosos 2,729 t",
-    "16 contaminantes",
-    "RILES al agua 33,050"
+    "16 contaminantes"
    ],
    "lineas": [
     "DCS",
     "Instrumentación"
    ],
-   "riles": 231352.1,
-   "residuos_t": 19103.8,
+   "riles": 33050.3,
+   "residuos_t": 2729.1,
    "tomadores": [
     {
      "nombre": "William Francisco Lobos Cortés",
@@ -1640,7 +1630,7 @@
     "cargo": "Gerente de Planta / Gerente de Operaciones / Subgerente de Procesos",
     "linkedin": "https://cl.linkedin.com/in/williamfloboscortes"
    },
-   "angulo": "emite al agua 231,352 (DS 90/2000): hoy no lo mide en línea · genera 19,104 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 33,050 (DS 90/2000): hoy no lo mide en línea · genera 2,729 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 270.9
   },
   {
@@ -1692,8 +1682,7 @@
    "senales": [
     "RILES al agua 16,066",
     "residuos peligrosos 24,621 t",
-    "36 contaminantes",
-    "RILES al agua 16,066"
+    "36 contaminantes"
    ],
    "lineas": [
     "DCS",
@@ -1701,8 +1690,8 @@
     "Software y plataforma",
     "Válvulas"
    ],
-   "riles": 80329.4,
-   "residuos_t": 123105.8,
+   "riles": 16065.9,
+   "residuos_t": 24621.2,
    "tomadores": [
     {
      "nombre": "José Luis Vallejos Osorio",
@@ -1752,7 +1741,7 @@
     "cargo": "Gerente de Plantas Constitución y Licancel",
     "linkedin": "https://cl.linkedin.com/in/jose-luis-vallejos-osorio-63188248"
    },
-   "angulo": "emite al agua 80,329 (DS 90/2000): hoy no lo mide en línea · genera 123,106 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 16,066 (DS 90/2000): hoy no lo mide en línea · genera 24,621 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 270.8
   },
   {
@@ -1785,8 +1774,7 @@
    "senales": [
     "RILES al agua 4,679",
     "residuos peligrosos 75,109 t",
-    "11 contaminantes",
-    "RILES al agua 4,679"
+    "11 contaminantes"
    ],
    "lineas": [
     "DCS",
@@ -1794,8 +1782,8 @@
     "SIS",
     "Válvulas"
    ],
-   "riles": 9357.7,
-   "residuos_t": 150217.5,
+   "riles": 4678.8,
+   "residuos_t": 75108.7,
    "tomadores": [
     {
      "nombre": "Telmo Morales Olmos",
@@ -1855,7 +1843,7 @@
     "cargo": "Gerente Planta Cátodos",
     "linkedin": "https://cl.linkedin.com/in/telmo-morales-olmos-8292bb54"
    },
-   "angulo": "emite al agua 9,358 (DS 90/2000): hoy no lo mide en línea · genera 150,218 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 4,679 (DS 90/2000): hoy no lo mide en línea · genera 75,109 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 270.5
   },
   {
@@ -1949,15 +1937,14 @@
    "senales": [
     "RILES al agua 17,041",
     "residuos peligrosos 589 t",
-    "34 contaminantes",
-    "RILES al agua 17,041"
+    "34 contaminantes"
    ],
    "lineas": [
     "DCS",
     "Instrumentación"
    ],
-   "riles": 204495.4,
-   "residuos_t": 7071.7,
+   "riles": 17041.3,
+   "residuos_t": 589.3,
    "tomadores": [
     {
      "nombre": "Luciano Perez",
@@ -2007,7 +1994,7 @@
     "cargo": "Sub Gerente Planta Procesos",
     "linkedin": "https://cl.linkedin.com/in/luciano-perez-028753164"
    },
-   "angulo": "emite al agua 204,495 (DS 90/2000): hoy no lo mide en línea · genera 7,072 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 17,041 (DS 90/2000): hoy no lo mide en línea · genera 589 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 254.5
   },
   {
@@ -2113,15 +2100,14 @@
    "senales": [
     "RILES al agua 1,017",
     "residuos peligrosos 384 t",
-    "34 contaminantes",
-    "RILES al agua 1,017"
+    "34 contaminantes"
    ],
    "lineas": [
     "DCS",
     "Instrumentación"
    ],
-   "riles": 14241.1,
-   "residuos_t": 5369.6,
+   "riles": 1017.2,
+   "residuos_t": 383.5,
    "tomadores": [
     {
      "nombre": "Paul Weber Silva",
@@ -2171,7 +2157,7 @@
     "cargo": "Gerente General",
     "linkedin": "https://cl.linkedin.com/in/paul-weber-74769517a"
    },
-   "angulo": "emite al agua 14,241 (DS 90/2000): hoy no lo mide en línea · genera 5,370 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 1,017 (DS 90/2000): hoy no lo mide en línea · genera 384 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 251.0
   },
   {
@@ -2210,15 +2196,14 @@
    "senales": [
     "RILES al agua 1,114",
     "residuos peligrosos 764 t",
-    "29 contaminantes",
-    "RILES al agua 1,114"
+    "29 contaminantes"
    ],
    "lineas": [
     "DCS",
     "Instrumentación"
    ],
-   "riles": 3341.8,
-   "residuos_t": 2290.6,
+   "riles": 1113.9,
+   "residuos_t": 763.5,
    "tomadores": [
     {
      "nombre": "Ignacio Bravo Herreros",
@@ -2258,7 +2243,7 @@
     "cargo": "Gerente de Operaciones y Producción Agua Mar",
     "linkedin": "https://cl.linkedin.com/in/ignacio-bravo-herreros-a5b20836"
    },
-   "angulo": "emite al agua 3,342 (DS 90/2000): hoy no lo mide en línea · genera 2,291 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 1,114 (DS 90/2000): hoy no lo mide en línea · genera 764 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 241.5
   },
   {
@@ -2375,8 +2360,7 @@
    "senales": [
     "RILES al agua 41",
     "residuos peligrosos 748 t",
-    "29 contaminantes",
-    "RILES al agua 41"
+    "29 contaminantes"
    ],
    "lineas": [
     "DCS",
@@ -2384,8 +2368,8 @@
     "Software y plataforma",
     "Válvulas"
    ],
-   "riles": 617.6,
-   "residuos_t": 11219.5,
+   "riles": 41.2,
+   "residuos_t": 748.0,
    "tomadores": [
     {
      "nombre": "Lionel Mancilla Lausic",
@@ -2425,7 +2409,7 @@
     "cargo": "Gerente General",
     "linkedin": "https://cl.linkedin.com/in/lionel-mancilla-lausic-906749248"
    },
-   "angulo": "emite al agua 618 (DS 90/2000): hoy no lo mide en línea · genera 11,220 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 41 (DS 90/2000): hoy no lo mide en línea · genera 748 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 236.2
   },
   {
@@ -2565,16 +2549,15 @@
    "senales": [
     "RILES al agua 3",
     "residuos peligrosos 1,662 t",
-    "22 contaminantes",
-    "RILES al agua 3"
+    "22 contaminantes"
    ],
    "lineas": [
     "DCS",
     "Instrumentación",
     "SIS"
    ],
-   "riles": 6.7,
-   "residuos_t": 3324.0,
+   "riles": 3.3,
+   "residuos_t": 1662.0,
    "tomadores": [
     {
      "nombre": "Gustavo Alcázar",
@@ -2624,7 +2607,7 @@
     "cargo": "Gerente General",
     "linkedin": "https://cl.linkedin.com/in/gustavo-alcazar-9b3804106"
    },
-   "angulo": "emite al agua 7 (DS 90/2000): hoy no lo mide en línea · genera 3,324 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 3 (DS 90/2000): hoy no lo mide en línea · genera 1,662 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 232.9
   },
   {
@@ -2670,15 +2653,14 @@
    "senales": [
     "RILES al agua 2,613",
     "residuos peligrosos 58 t",
-    "34 contaminantes",
-    "RILES al agua 2,613"
+    "34 contaminantes"
    ],
    "lineas": [
     "DCS",
     "Instrumentación"
    ],
-   "riles": 10451.3,
-   "residuos_t": 230.0,
+   "riles": 2612.8,
+   "residuos_t": 57.5,
    "tomadores": [
     {
      "nombre": "Mauricio Navarro Prats",
@@ -2718,7 +2700,7 @@
     "cargo": "Gerente General",
     "linkedin": ""
    },
-   "angulo": "emite al agua 10,451 (DS 90/2000): hoy no lo mide en línea · genera 230 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 2,613 (DS 90/2000): hoy no lo mide en línea · genera 58 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 232.3
   },
   {
@@ -2821,8 +2803,7 @@
    "senales": [
     "RILES al agua 906",
     "residuos peligrosos 4,327 t",
-    "30 contaminantes",
-    "RILES al agua 906"
+    "30 contaminantes"
    ],
    "lineas": [
     "Analítica",
@@ -2830,8 +2811,8 @@
     "Instrumentación",
     "Software y plataforma"
    ],
-   "riles": 11774.5,
-   "residuos_t": 56247.1,
+   "riles": 905.7,
+   "residuos_t": 4326.7,
    "tomadores": [
     {
      "nombre": "Gonzalo Ruiz Cisternas",
@@ -2881,7 +2862,7 @@
     "cargo": "Head Power Plant Mid-Country",
     "linkedin": "https://cl.linkedin.com/in/gonzaloruizc"
    },
-   "angulo": "emite al agua 11,774 (DS 90/2000): hoy no lo mide en línea · genera 56,247 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 906 (DS 90/2000): hoy no lo mide en línea · genera 4,327 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 229.3
   },
   {
@@ -2931,7 +2912,7 @@
     "Software y plataforma"
    ],
    "riles": 2116.1,
-   "residuos_t": 4773.5,
+   "residuos_t": 1890.8,
    "tomadores": [
     {
      "nombre": "Claudio Yévenes",
@@ -3031,7 +3012,7 @@
     "cargo": "Operations & Plants Director",
     "linkedin": "https://cl.linkedin.com/in/claudio-y%C3%A9venes-78788a29"
    },
-   "angulo": "emite al agua 2,116 (DS 90/2000): hoy no lo mide en línea · genera 4,774 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 2,116 (DS 90/2000): hoy no lo mide en línea · genera 1,891 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 227.4
   },
   {
@@ -3130,15 +3111,14 @@
    "senales": [
     "RILES al agua 410",
     "residuos peligrosos 439 t",
-    "29 contaminantes",
-    "RILES al agua 410"
+    "29 contaminantes"
    ],
    "lineas": [
     "Instrumentación",
     "Software y plataforma"
    ],
-   "riles": 820.1,
-   "residuos_t": 877.2,
+   "riles": 410.1,
+   "residuos_t": 438.6,
    "tomadores": [
     {
      "nombre": "Alberto Tagle Reszczynski",
@@ -3188,7 +3168,7 @@
     "cargo": "Gerente General",
     "linkedin": "https://cl.linkedin.com/company/consorciosantamarta"
    },
-   "angulo": "emite al agua 820 (DS 90/2000): hoy no lo mide en línea · genera 877 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 410 (DS 90/2000): hoy no lo mide en línea · genera 439 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 212.9
   },
   {
@@ -3275,15 +3255,14 @@
    "senales": [
     "RILES al agua 498",
     "residuos peligrosos 862 t",
-    "22 contaminantes",
-    "RILES al agua 498"
+    "22 contaminantes"
    ],
    "lineas": [
     "DCS",
     "Instrumentación"
    ],
-   "riles": 5473.8,
-   "residuos_t": 9479.8,
+   "riles": 497.6,
+   "residuos_t": 861.8,
    "tomadores": [
     {
      "nombre": "Daniel Santibanez",
@@ -3333,7 +3312,7 @@
     "cargo": "Gerente de Plantas en Salmones Humboldt S.A.",
     "linkedin": "https://cl.linkedin.com/in/daniel-santibanez-haeger"
    },
-   "angulo": "emite al agua 5,474 (DS 90/2000): hoy no lo mide en línea · genera 9,480 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 498 (DS 90/2000): hoy no lo mide en línea · genera 862 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 205.0
   },
   {
@@ -3412,8 +3391,7 @@
    "senales": [
     "RILES al agua 400",
     "residuos peligrosos 1,235 t",
-    "29 contaminantes",
-    "RILES al agua 400"
+    "29 contaminantes"
    ],
    "lineas": [
     "DCS",
@@ -3421,8 +3399,8 @@
     "Software y plataforma",
     "Válvulas"
    ],
-   "riles": 3599.7,
-   "residuos_t": 11117.7,
+   "riles": 400.0,
+   "residuos_t": 1235.3,
    "tomadores": [
     {
      "nombre": "Mauricio Alberto Araya Kopaitic",
@@ -3472,7 +3450,7 @@
     "cargo": "Gerente de Producción",
     "linkedin": "https://cl.linkedin.com/in/mauricio-araya-kopaitic"
    },
-   "angulo": "emite al agua 3,600 (DS 90/2000): hoy no lo mide en línea · genera 11,118 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 400 (DS 90/2000): hoy no lo mide en línea · genera 1,235 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 199.0
   },
   {
@@ -3621,8 +3599,7 @@
    "senales": [
     "RILES al agua 144",
     "residuos peligrosos 814 t",
-    "29 contaminantes",
-    "RILES al agua 144"
+    "29 contaminantes"
    ],
    "lineas": [
     "DCS",
@@ -3630,8 +3607,8 @@
     "Software y plataforma",
     "Válvulas"
    ],
-   "riles": 1436.9,
-   "residuos_t": 8142.5,
+   "riles": 143.7,
+   "residuos_t": 814.2,
    "tomadores": [
     {
      "nombre": "Jorge Ferreiro Herrera",
@@ -3701,7 +3678,7 @@
     "cargo": "Gerente de Planta en Empresas Iansa",
     "linkedin": "https://cl.linkedin.com/in/jorge-ferreiro-herrera-87b85433"
    },
-   "angulo": "emite al agua 1,437 (DS 90/2000): hoy no lo mide en línea · genera 8,142 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 144 (DS 90/2000): hoy no lo mide en línea · genera 814 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 183.7
   },
   {
@@ -3734,15 +3711,14 @@
    "senales": [
     "RILES al agua 2,416",
     "residuos peligrosos 118 t",
-    "29 contaminantes",
-    "RILES al agua 2,416"
+    "29 contaminantes"
    ],
    "lineas": [
     "DCS",
     "Instrumentación"
    ],
-   "riles": 4832.7,
-   "residuos_t": 235.8,
+   "riles": 2416.3,
+   "residuos_t": 117.9,
    "tomadores": [
     {
      "nombre": "Sebastián Andrés Pérez Ortiz",
@@ -3782,7 +3758,7 @@
     "cargo": "Gerente Técnico",
     "linkedin": "https://cl.linkedin.com/in/sebasti%C3%A1n-andr%C3%A9s-p%C3%A9rez-ortiz-1b2227a5"
    },
-   "angulo": "emite al agua 4,833 (DS 90/2000): hoy no lo mide en línea · genera 236 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 2,416 (DS 90/2000): hoy no lo mide en línea · genera 118 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 183.2
   },
   {
@@ -3852,15 +3828,14 @@
    "senales": [
     "RILES al agua 7,937",
     "residuos peligrosos 1,190 t",
-    "35 contaminantes",
-    "RILES al agua 7,937"
+    "35 contaminantes"
    ],
    "lineas": [
     "DCS",
     "Instrumentación"
    ],
-   "riles": 63498.2,
-   "residuos_t": 9517.6,
+   "riles": 7937.3,
+   "residuos_t": 1189.7,
    "tomadores": [
     {
      "nombre": "Mauro Araneda",
@@ -3880,7 +3855,7 @@
     "cargo": "Gerente Técnico",
     "linkedin": "https://cl.linkedin.com/in/mauro-araneda-ab39ba33"
    },
-   "angulo": "emite al agua 63,498 (DS 90/2000): hoy no lo mide en línea · genera 9,518 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 7,937 (DS 90/2000): hoy no lo mide en línea · genera 1,190 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 181.0
   },
   {
@@ -3980,15 +3955,14 @@
    "senales": [
     "RILES al agua 3,654",
     "residuos peligrosos 1,585 t",
-    "34 contaminantes",
-    "RILES al agua 3,654"
+    "34 contaminantes"
    ],
    "lineas": [
     "DCS",
     "Instrumentación"
    ],
-   "riles": 47497.6,
-   "residuos_t": 20605.9,
+   "riles": 3653.7,
+   "residuos_t": 1585.1,
    "tomadores": [
     {
      "nombre": "Juan Pablo Andaur Tuccillo",
@@ -4028,7 +4002,7 @@
     "cargo": "Jefe Área Técnica RAS",
     "linkedin": "https://cl.linkedin.com/in/juan-pablo-andaur-tuccillo-9b383a173"
    },
-   "angulo": "emite al agua 47,498 (DS 90/2000): hoy no lo mide en línea · genera 20,606 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 3,654 (DS 90/2000): hoy no lo mide en línea · genera 1,585 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 181.0
   },
   {
@@ -4073,15 +4047,14 @@
    "senales": [
     "RILES al agua 11,147",
     "residuos peligrosos 2,809 t",
-    "26 contaminantes",
-    "RILES al agua 11,147"
+    "26 contaminantes"
    ],
    "lineas": [
     "DCS",
     "Instrumentación"
    ],
-   "riles": 44589.8,
-   "residuos_t": 11236.8,
+   "riles": 11147.5,
+   "residuos_t": 2809.2,
    "tomadores": [
     {
      "nombre": "Pedro Pablo Moreno",
@@ -4121,7 +4094,7 @@
     "cargo": "Jefe de Planta Corpesca S.A.",
     "linkedin": "https://cl.linkedin.com/in/pedro-pablo-moreno-a5b768175"
    },
-   "angulo": "emite al agua 44,590 (DS 90/2000): hoy no lo mide en línea · genera 11,237 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 11,148 (DS 90/2000): hoy no lo mide en línea · genera 2,809 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 180.7
   },
   {
@@ -4167,15 +4140,14 @@
    "senales": [
     "RILES al agua 98",
     "residuos peligrosos 1,670 t",
-    "21 contaminantes",
-    "RILES al agua 98"
+    "21 contaminantes"
    ],
    "lineas": [
     "DCS",
     "Instrumentación"
    ],
-   "riles": 393.6,
-   "residuos_t": 6678.7,
+   "riles": 98.4,
+   "residuos_t": 1669.7,
    "tomadores": [
     {
      "nombre": "Ignacio Mir Fernández",
@@ -4245,7 +4217,7 @@
     "cargo": "Gerente de Negocios Pesca",
     "linkedin": "https://cl.linkedin.com/in/ignacio-mir-fern%C3%A1ndez-3363535"
    },
-   "angulo": "emite al agua 394 (DS 90/2000): hoy no lo mide en línea · genera 6,679 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 98 (DS 90/2000): hoy no lo mide en línea · genera 1,670 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 180.7
   },
   {
@@ -4360,8 +4332,7 @@
    "senales": [
     "RILES al agua 94",
     "residuos peligrosos 2,384 t",
-    "34 contaminantes",
-    "RILES al agua 94"
+    "34 contaminantes"
    ],
    "lineas": [
     "DCS",
@@ -4369,8 +4340,8 @@
     "Software y plataforma",
     "Válvulas"
    ],
-   "riles": 1410.6,
-   "residuos_t": 35766.0,
+   "riles": 94.0,
+   "residuos_t": 2384.4,
    "tomadores": [
     {
      "nombre": "Claudio Hasbun Estolaza",
@@ -4430,7 +4401,7 @@
     "cargo": "Factory Technical Manager Macul",
     "linkedin": "https://cl.linkedin.com/in/claudio-hasbun-estolaza-68a16042"
    },
-   "angulo": "emite al agua 1,411 (DS 90/2000): hoy no lo mide en línea · genera 35,766 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 94 (DS 90/2000): hoy no lo mide en línea · genera 2,384 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 180.7
   },
   {
@@ -4464,8 +4435,7 @@
    "senales": [
     "RILES al agua 78",
     "residuos peligrosos 743 t",
-    "29 contaminantes",
-    "RILES al agua 78"
+    "29 contaminantes"
    ],
    "lineas": [
     "DCS",
@@ -4473,8 +4443,8 @@
     "Software y plataforma",
     "Válvulas"
    ],
-   "riles": 156.1,
-   "residuos_t": 1486.9,
+   "riles": 78.1,
+   "residuos_t": 743.5,
    "tomadores": [
     {
      "nombre": "Daniel Panelati",
@@ -4524,7 +4494,7 @@
     "cargo": "Gerente Operaciones Industriales Embotelladora CCU Chile",
     "linkedin": "https://cl.linkedin.com/in/daniel-panelati-86b79056"
    },
-   "angulo": "emite al agua 156 (DS 90/2000): hoy no lo mide en línea · genera 1,487 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 78 (DS 90/2000): hoy no lo mide en línea · genera 744 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 179.3
   },
   {
@@ -4575,15 +4545,14 @@
    "senales": [
     "RILES al agua 337",
     "residuos peligrosos 288 t",
-    "35 contaminantes",
-    "RILES al agua 337"
+    "35 contaminantes"
    ],
    "lineas": [
     "DCS",
     "Instrumentación"
    ],
-   "riles": 1683.1,
-   "residuos_t": 1439.0,
+   "riles": 336.6,
+   "residuos_t": 287.8,
    "tomadores": [
     {
      "nombre": "Pablo Baraona Covarrubias",
@@ -4643,7 +4612,7 @@
     "cargo": "Director / Executive Director",
     "linkedin": "https://cl.linkedin.com/in/pablo-baraona-covarrubias-72691923"
    },
-   "angulo": "emite al agua 1,683 (DS 90/2000): hoy no lo mide en línea · genera 1,439 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 337 (DS 90/2000): hoy no lo mide en línea · genera 288 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 177.2
   },
   {
@@ -4676,16 +4645,15 @@
    "senales": [
     "RILES al agua 20",
     "residuos peligrosos 2,826 t",
-    "29 contaminantes",
-    "RILES al agua 20"
+    "29 contaminantes"
    ],
    "lineas": [
     "DCS",
     "Instrumentación",
     "Válvulas"
    ],
-   "riles": 39.9,
-   "residuos_t": 5651.0,
+   "riles": 19.9,
+   "residuos_t": 2825.5,
    "tomadores": [
     {
      "nombre": "Luis Quiroga",
@@ -4755,7 +4723,7 @@
     "cargo": "Gerente de Operaciones",
     "linkedin": "https://cl.linkedin.com/in/luis-quiroga-cea"
    },
-   "angulo": "emite al agua 40 (DS 90/2000): hoy no lo mide en línea · genera 5,651 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 20 (DS 90/2000): hoy no lo mide en línea · genera 2,826 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 175.7
   },
   {
@@ -4814,16 +4782,15 @@
    "senales": [
     "RILES al agua 7",
     "residuos peligrosos 1,921 t",
-    "29 contaminantes",
-    "RILES al agua 7"
+    "29 contaminantes"
    ],
    "lineas": [
     "DCS",
     "Instrumentación",
     "Válvulas"
    ],
-   "riles": 41.9,
-   "residuos_t": 11525.7,
+   "riles": 7.0,
+   "residuos_t": 1921.0,
    "tomadores": [
     {
      "nombre": "Lorena Gajardo Sánchez",
@@ -4873,7 +4840,7 @@
     "cargo": "Gerente de Mantenimiento de Sistemas de Armas de FAMAE",
     "linkedin": "https://cl.linkedin.com/in/lorena-gajardo-97558ab7"
    },
-   "angulo": "emite al agua 42 (DS 90/2000): hoy no lo mide en línea · genera 11,526 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 7 (DS 90/2000): hoy no lo mide en línea · genera 1,921 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 175.1
   },
   {
@@ -4918,16 +4885,15 @@
    "senales": [
     "RILES al agua 6",
     "residuos peligrosos 20,622 t",
-    "22 contaminantes",
-    "RILES al agua 6"
+    "22 contaminantes"
    ],
    "lineas": [
     "DCS",
     "Instrumentación",
     "SIS"
    ],
-   "riles": 24.2,
-   "residuos_t": 82487.8,
+   "riles": 6.0,
+   "residuos_t": 20622.0,
    "tomadores": [
     {
      "nombre": "Marco Rodríguez Loyola",
@@ -4987,7 +4953,7 @@
     "cargo": "Gerente de Planta  en ENAP",
     "linkedin": "https://cl.linkedin.com/in/marco-rodr%C3%ADguez-loyola"
    },
-   "angulo": "emite al agua 24 (DS 90/2000): hoy no lo mide en línea · genera 82,488 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 6 (DS 90/2000): hoy no lo mide en línea · genera 20,622 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 175.0
   },
   {
@@ -5118,15 +5084,14 @@
    "senales": [
     "RILES al agua 2",
     "residuos peligrosos 876 t",
-    "29 contaminantes",
-    "RILES al agua 2"
+    "29 contaminantes"
    ],
    "lineas": [
     "Instrumentación",
     "Software y plataforma"
    ],
-   "riles": 37.6,
-   "residuos_t": 15774.1,
+   "riles": 2.1,
+   "residuos_t": 876.3,
    "tomadores": [
     {
      "nombre": "Rodrigo Abarzúa Gallardo",
@@ -5156,7 +5121,7 @@
     "cargo": "Gerente de Planta Lo Miranda",
     "linkedin": "https://cl.linkedin.com/in/rodrigo-abarzua-gallardo-5a44a258"
    },
-   "angulo": "emite al agua 38 (DS 90/2000): hoy no lo mide en línea · genera 15,774 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 2 (DS 90/2000): hoy no lo mide en línea · genera 876 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 175.0
   },
   {
@@ -5240,8 +5205,7 @@
    "senales": [
     "RILES al agua 1",
     "residuos peligrosos 665 t",
-    "4 contaminantes",
-    "RILES al agua 1"
+    "4 contaminantes"
    ],
    "lineas": [
     "DCS",
@@ -5249,8 +5213,8 @@
     "Software y plataforma",
     "Válvulas"
    ],
-   "riles": 12.0,
-   "residuos_t": 6651.9,
+   "riles": 1.2,
+   "residuos_t": 665.2,
    "tomadores": [
     {
      "nombre": "Rodrigo Mercado Schultz",
@@ -5290,7 +5254,7 @@
     "cargo": "Gerente de Planta Temuco-Puerto Montt",
     "linkedin": "https://www.linkedin.com/in/rodrigo-mercado-schultz-b6536636/"
    },
-   "angulo": "emite al agua 12 (DS 90/2000): hoy no lo mide en línea · genera 6,652 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 1 (DS 90/2000): hoy no lo mide en línea · genera 665 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 169.9
   },
   {
@@ -5521,9 +5485,6 @@
    "dolor_total": 1400.0,
    "dolor_max_planta": 40.0,
    "senales": [
-    "residuos peligrosos 2,138 t",
-    "residuos peligrosos 2,138 t",
-    "residuos peligrosos 2,138 t",
     "residuos peligrosos 2,138 t"
    ],
    "lineas": [
@@ -5533,7 +5494,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 74814.6,
+   "residuos_t": 2137.6,
    "tomadores": [
     {
      "nombre": "Luis Felipe Cáceres Frías",
@@ -5663,7 +5624,7 @@
     "cargo": "Subgerente de Compras y Activos Forestales",
     "linkedin": "https://cl.linkedin.com/in/luis-felipe-caceres-frias-32122889"
    },
-   "angulo": "genera 74,815 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 2,138 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 161.0
   },
   {
@@ -5789,9 +5750,6 @@
    "dolor_total": 680.0,
    "dolor_max_planta": 40.0,
    "senales": [
-    "residuos peligrosos 3,249 t",
-    "residuos peligrosos 3,249 t",
-    "residuos peligrosos 3,249 t",
     "residuos peligrosos 3,249 t"
    ],
    "lineas": [
@@ -5800,7 +5758,7 @@
     "SIS"
    ],
    "riles": 0.0,
-   "residuos_t": 55233.9,
+   "residuos_t": 3249.1,
    "tomadores": [
     {
      "nombre": "Agustín Amadeo",
@@ -5850,7 +5808,7 @@
     "cargo": "Gerente General",
     "linkedin": "https://cl.linkedin.com/in/agustin-amadeo-92782449"
    },
-   "angulo": "genera 55,234 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 3,249 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 161.0
   },
   {
@@ -6025,9 +5983,6 @@
    "dolor_total": 1000.0,
    "dolor_max_planta": 40.0,
    "senales": [
-    "residuos peligrosos 754 t",
-    "residuos peligrosos 754 t",
-    "residuos peligrosos 754 t",
     "residuos peligrosos 754 t"
    ],
    "lineas": [
@@ -6037,7 +5992,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 18857.5,
+   "residuos_t": 754.3,
    "tomadores": [
     {
      "nombre": "Ignacio Mackenna Ronco",
@@ -6077,7 +6032,7 @@
     "cargo": "Gerente General AbastibleTec",
     "linkedin": "https://cl.linkedin.com/in/ignaciomackenna"
    },
-   "angulo": "genera 18,858 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 754 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 161.0
   },
   {
@@ -6318,9 +6273,6 @@
    "dolor_total": 1440.0,
    "dolor_max_planta": 40.0,
    "senales": [
-    "residuos peligrosos 4,089 t",
-    "residuos peligrosos 4,089 t",
-    "residuos peligrosos 4,089 t",
     "residuos peligrosos 4,089 t"
    ],
    "lineas": [
@@ -6329,7 +6281,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 147201.5,
+   "residuos_t": 4088.9,
    "tomadores": [
     {
      "nombre": "Arturo Le Blanc Cerda",
@@ -6389,7 +6341,7 @@
     "cargo": "Gerente General",
     "linkedin": "https://cl.linkedin.com/in/arturo-le-blanc-4011645"
    },
-   "angulo": "genera 147,202 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 4,089 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 161.0
   },
   {
@@ -6467,9 +6419,6 @@
    "dolor_total": 360.0,
    "dolor_max_planta": 40.0,
    "senales": [
-    "residuos peligrosos 1,406 t",
-    "residuos peligrosos 1,406 t",
-    "residuos peligrosos 1,406 t",
     "residuos peligrosos 1,406 t"
    ],
    "lineas": [
@@ -6478,7 +6427,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 12655.5,
+   "residuos_t": 1406.2,
    "tomadores": [
     {
      "nombre": "Juan Pablo Luchsinger Yanes",
@@ -6498,7 +6447,7 @@
     "cargo": "Gerente General",
     "linkedin": "https://cl.linkedin.com/in/juan-pablo-luchsinger-yanes-a6969497"
    },
-   "angulo": "genera 12,656 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 1,406 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 161.0
   },
   {
@@ -6599,9 +6548,6 @@
    "dolor_total": 520.0,
    "dolor_max_planta": 40.0,
    "senales": [
-    "residuos peligrosos 724 t",
-    "residuos peligrosos 724 t",
-    "residuos peligrosos 724 t",
     "residuos peligrosos 724 t"
    ],
    "lineas": [
@@ -6610,7 +6556,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 9407.1,
+   "residuos_t": 723.6,
    "tomadores": [
     {
      "nombre": "Miguel Musalem",
@@ -6700,7 +6646,7 @@
     "cargo": "Gerente General",
     "linkedin": "https://cl.linkedin.com/in/miguel-musalem-5521b328"
    },
-   "angulo": "genera 9,407 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 724 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 161.0
   },
   {
@@ -6753,9 +6699,6 @@
    "dolor_total": 200.0,
    "dolor_max_planta": 40.0,
    "senales": [
-    "residuos peligrosos 12,989 t",
-    "residuos peligrosos 12,989 t",
-    "residuos peligrosos 12,989 t",
     "residuos peligrosos 12,989 t"
    ],
    "lineas": [
@@ -6766,7 +6709,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 64944.6,
+   "residuos_t": 12988.9,
    "tomadores": [
     {
      "nombre": "Cecilia Pardo Pizarro",
@@ -6816,7 +6759,7 @@
     "cargo": "Gerente General",
     "linkedin": "https://cl.linkedin.com/in/cecilia-pardo-pizarro-82a906185"
    },
-   "angulo": "genera 64,945 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 12,989 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 160.8
   },
   {
@@ -6867,9 +6810,6 @@
    "dolor_total": 200.0,
    "dolor_max_planta": 40.0,
    "senales": [
-    "residuos peligrosos 19,491 t",
-    "residuos peligrosos 19,491 t",
-    "residuos peligrosos 19,491 t",
     "residuos peligrosos 19,491 t"
    ],
    "lineas": [
@@ -6878,7 +6818,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 97456.7,
+   "residuos_t": 19491.3,
    "tomadores": [
     {
      "nombre": "Daniel Rojas Orellana",
@@ -6938,7 +6878,7 @@
     "cargo": "Gerente General",
     "linkedin": ""
    },
-   "angulo": "genera 97,457 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 19,491 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 160.8
   },
   {
@@ -6984,9 +6924,6 @@
    "dolor_total": 160.0,
    "dolor_max_planta": 40.0,
    "senales": [
-    "residuos peligrosos 11,143 t",
-    "residuos peligrosos 11,143 t",
-    "residuos peligrosos 11,143 t",
     "residuos peligrosos 11,143 t"
    ],
    "lineas": [
@@ -6996,7 +6933,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 44572.2,
+   "residuos_t": 11143.0,
    "tomadores": [
     {
      "nombre": "Gabriel Ormeño Hofer",
@@ -7046,7 +6983,7 @@
     "cargo": "Gerente General ANASAC Chile",
     "linkedin": "https://cl.linkedin.com/in/gabriel-orme%C3%B1o-hofer-5ba43159"
    },
-   "angulo": "genera 44,572 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 11,143 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 160.7
   },
   {
@@ -7090,9 +7027,6 @@
    "dolor_total": 160.0,
    "dolor_max_planta": 40.0,
    "senales": [
-    "residuos peligrosos 1,803 t",
-    "residuos peligrosos 1,803 t",
-    "residuos peligrosos 1,803 t",
     "residuos peligrosos 1,803 t"
    ],
    "lineas": [
@@ -7101,7 +7035,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 7212.1,
+   "residuos_t": 1803.0,
    "tomadores": [
     {
      "nombre": "Jorge Vargas-Romero",
@@ -7161,7 +7095,7 @@
     "cargo": "Vicepresidente de Operaciones, Transelec S.A.",
     "linkedin": "https://cl.linkedin.com/in/jorge-vargas-romero-43b1aa1b"
    },
-   "angulo": "genera 7,212 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 1,803 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 160.7
   },
   {
@@ -7200,8 +7134,6 @@
    "dolor_total": 120.0,
    "dolor_max_planta": 40.0,
    "senales": [
-    "residuos peligrosos 2,827 t",
-    "residuos peligrosos 2,827 t",
     "residuos peligrosos 2,827 t"
    ],
    "lineas": [
@@ -7211,7 +7143,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 8481.6,
+   "residuos_t": 2827.2,
    "tomadores": [
     {
      "nombre": "Allan Picoli",
@@ -7251,7 +7183,7 @@
     "cargo": "Gerente General  de BASF Chile",
     "linkedin": "https://cl.linkedin.com/in/allan-picoli"
    },
-   "angulo": "genera 8,482 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 2,827 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 160.6
   },
   {
@@ -7290,8 +7222,6 @@
    "dolor_total": 120.0,
    "dolor_max_planta": 40.0,
    "senales": [
-    "residuos peligrosos 8,760 t",
-    "residuos peligrosos 8,760 t",
     "residuos peligrosos 8,760 t"
    ],
    "lineas": [
@@ -7299,7 +7229,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 26280.6,
+   "residuos_t": 8760.2,
    "tomadores": [
     {
      "nombre": "Eduardo Carvallo Infante",
@@ -7349,7 +7279,7 @@
     "cargo": "Gerente General",
     "linkedin": "https://cl.linkedin.com/in/eduardo-carvallo-infante-118b2936b"
    },
-   "angulo": "genera 26,281 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 8,760 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 160.6
   },
   {
@@ -7381,7 +7311,6 @@
    "dolor_total": 80.0,
    "dolor_max_planta": 40.0,
    "senales": [
-    "residuos peligrosos 3,698 t",
     "residuos peligrosos 3,698 t"
    ],
    "lineas": [
@@ -7391,7 +7320,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 7396.9,
+   "residuos_t": 3698.4,
    "tomadores": [
     {
      "nombre": "Cristian Argandoña León",
@@ -7451,7 +7380,7 @@
     "cargo": "Gerente General",
     "linkedin": "https://cl.linkedin.com/in/cristian-argandona-leon-02311235"
    },
-   "angulo": "genera 7,397 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 3,698 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 160.5
   },
   {
@@ -7483,7 +7412,6 @@
    "dolor_total": 80.0,
    "dolor_max_planta": 40.0,
    "senales": [
-    "residuos peligrosos 6,647 t",
     "residuos peligrosos 6,647 t"
    ],
    "lineas": [
@@ -7493,7 +7421,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 13293.9,
+   "residuos_t": 6647.0,
    "tomadores": [
     {
      "nombre": "Mauricio Rocha",
@@ -7563,7 +7491,7 @@
     "cargo": "Managing Director SGS Chile",
     "linkedin": "https://cl.linkedin.com/in/mauricio-rocha-962682125"
    },
-   "angulo": "genera 13,294 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 6,647 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 160.5
   },
   {
@@ -7594,7 +7522,6 @@
    "dolor_total": 80.0,
    "dolor_max_planta": 40.0,
    "senales": [
-    "residuos peligrosos 4,209 t",
     "residuos peligrosos 4,209 t"
    ],
    "lineas": [
@@ -7604,7 +7531,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 8418.0,
+   "residuos_t": 4209.0,
    "tomadores": [
     {
      "nombre": "Claudio García Ascenci",
@@ -7644,7 +7571,7 @@
     "cargo": "Gerente General , Laboratorio Chile | Teva",
     "linkedin": "https://cl.linkedin.com/in/cgarciaascenci/en"
    },
-   "angulo": "genera 8,418 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 4,209 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 160.5
   },
   {
@@ -7675,7 +7602,6 @@
    "dolor_total": 80.0,
    "dolor_max_planta": 40.0,
    "senales": [
-    "residuos peligrosos 1,092 t",
     "residuos peligrosos 1,092 t"
    ],
    "lineas": [
@@ -7684,7 +7610,7 @@
     "SIS"
    ],
    "riles": 0.0,
-   "residuos_t": 2184.1,
+   "residuos_t": 1092.0,
    "tomadores": [
     {
      "nombre": "Raul Valenzuela Z.",
@@ -7734,7 +7660,7 @@
     "cargo": "Gerente General",
     "linkedin": "https://cl.linkedin.com/in/raul-valenzuela-z-60154558"
    },
-   "angulo": "genera 2,184 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 1,092 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 160.5
   },
   {
@@ -7765,7 +7691,6 @@
    "dolor_total": 80.0,
    "dolor_max_planta": 40.0,
    "senales": [
-    "residuos peligrosos 1,099 t",
     "residuos peligrosos 1,099 t"
    ],
    "lineas": [
@@ -7776,7 +7701,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 2198.4,
+   "residuos_t": 1099.2,
    "tomadores": [
     {
      "nombre": "Francisco Antonio Balart Salamero",
@@ -7816,7 +7741,7 @@
     "cargo": "Gerente General",
     "linkedin": ""
    },
-   "angulo": "genera 2,198 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 1,099 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 160.5
   },
   {
@@ -8293,16 +8218,15 @@
    "senales": [
     "RILES al agua 0",
     "residuos peligrosos 511 t",
-    "4 contaminantes",
-    "RILES al agua 0"
+    "4 contaminantes"
    ],
    "lineas": [
     "DCS",
     "Instrumentación",
     "SIS"
    ],
-   "riles": 7.0,
-   "residuos_t": 9714.3,
+   "riles": 0.4,
+   "residuos_t": 511.3,
    "tomadores": [
     {
      "nombre": "Andrés Riquelme",
@@ -8352,7 +8276,7 @@
     "cargo": "Gerente de Operaciones y Distribución",
     "linkedin": "https://cl.linkedin.com/in/andres-riquelme-06a94a125"
    },
-   "angulo": "emite al agua 7 (DS 90/2000): hoy no lo mide en línea · genera 9,714 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 0 (DS 90/2000): hoy no lo mide en línea · genera 511 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 146.8
   },
   {
@@ -8397,8 +8321,6 @@
    "dolor_max_planta": 48.0,
    "senales": [
     "RILES al agua 0",
-    "residuos peligrosos 49,943 t",
-    "RILES al agua 0",
     "residuos peligrosos 49,943 t"
    ],
    "lineas": [
@@ -8407,8 +8329,8 @@
     "SIS",
     "Válvulas"
    ],
-   "riles": 1.0,
-   "residuos_t": 199772.3,
+   "riles": 0.2,
+   "residuos_t": 49943.1,
    "tomadores": [
     {
      "nombre": "Luis Torres Ollarzú",
@@ -8468,7 +8390,7 @@
     "cargo": "Gerente Plantas",
     "linkedin": "https://cl.linkedin.com/in/luis-torres-ollarz%C3%BA-20a4a228"
    },
-   "angulo": "emite al agua 1 (DS 90/2000): hoy no lo mide en línea · genera 199,772 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 0 (DS 90/2000): hoy no lo mide en línea · genera 49,943 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 144.7
   },
   {
@@ -8635,8 +8557,7 @@
    "senales": [
     "RILES al agua 1",
     "residuos peligrosos 211 t",
-    "29 contaminantes",
-    "RILES al agua 1"
+    "29 contaminantes"
    ],
    "lineas": [
     "DCS",
@@ -8644,8 +8565,8 @@
     "Software y plataforma",
     "Válvulas"
    ],
-   "riles": 2.3,
-   "residuos_t": 631.8,
+   "riles": 0.8,
+   "residuos_t": 210.6,
    "tomadores": [
     {
      "nombre": "Felipe Celis",
@@ -8715,7 +8636,7 @@
     "cargo": "Gerente General",
     "linkedin": "https://cl.linkedin.com/in/felipe-celis"
    },
-   "angulo": "emite al agua 2 (DS 90/2000): hoy no lo mide en línea · genera 632 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 1 (DS 90/2000): hoy no lo mide en línea · genera 211 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 134.6
   },
   {
@@ -8787,15 +8708,14 @@
    "senales": [
     "RILES al agua 3",
     "residuos peligrosos 204 t",
-    "4 contaminantes",
-    "RILES al agua 3"
+    "4 contaminantes"
    ],
    "lineas": [
     "Instrumentación",
     "Software y plataforma"
    ],
-   "riles": 25.6,
-   "residuos_t": 1635.0,
+   "riles": 3.2,
+   "residuos_t": 204.4,
    "tomadores": [
     {
      "nombre": "Juan Vicuña",
@@ -8865,7 +8785,7 @@
     "cargo": "Gerente General en Dole Chile S.A.",
     "linkedin": "https://cl.linkedin.com/in/juan-vicu%C3%B1a-58025b50"
    },
-   "angulo": "emite al agua 26 (DS 90/2000): hoy no lo mide en línea · genera 1,635 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 3 (DS 90/2000): hoy no lo mide en línea · genera 204 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 134.2
   },
   {
@@ -8914,9 +8834,6 @@
    "dolor_total": 166.0,
    "dolor_max_planta": 33.2,
    "senales": [
-    "residuos peligrosos 564 t",
-    "residuos peligrosos 564 t",
-    "residuos peligrosos 564 t",
     "residuos peligrosos 564 t"
    ],
    "lineas": [
@@ -8926,7 +8843,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 2821.0,
+   "residuos_t": 564.2,
    "tomadores": [
     {
      "nombre": "Miguel Castillo Quezada",
@@ -8976,7 +8893,7 @@
     "cargo": "Gerente General",
     "linkedin": "https://cl.linkedin.com/in/miguel-castillo-quezada"
    },
-   "angulo": "genera 2,821 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 564 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 133.6
   },
   {
@@ -9027,15 +8944,14 @@
    "senales": [
     "RILES al agua 116",
     "residuos peligrosos 155 t",
-    "22 contaminantes",
-    "RILES al agua 116"
+    "22 contaminantes"
    ],
    "lineas": [
     "DCS",
     "Instrumentación"
    ],
-   "riles": 578.4,
-   "residuos_t": 776.5,
+   "riles": 115.7,
+   "residuos_t": 155.3,
    "tomadores": [
     {
      "nombre": "Nicolás Guzmán Covarrubias",
@@ -9075,7 +8991,7 @@
     "cargo": "Gerente General de Camanchaca Cultivos Sur",
     "linkedin": ""
    },
-   "angulo": "emite al agua 578 (DS 90/2000): hoy no lo mide en línea · genera 776 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 116 (DS 90/2000): hoy no lo mide en línea · genera 155 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 133.2
   },
   {
@@ -9107,7 +9023,6 @@
    "dolor_total": 66.2,
    "dolor_max_planta": 33.1,
    "senales": [
-    "residuos peligrosos 562 t",
     "residuos peligrosos 562 t"
    ],
    "lineas": [
@@ -9116,7 +9031,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 1123.1,
+   "residuos_t": 561.5,
    "tomadores": [
     {
      "nombre": "Felipe Muñoz",
@@ -9166,7 +9081,7 @@
     "cargo": "Gerente General",
     "linkedin": "https://cl.linkedin.com/in/felipe-mu%C3%B1oz-750b5a86"
    },
-   "angulo": "genera 1,123 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 562 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 132.9
   },
   {
@@ -9205,8 +9120,6 @@
    "dolor_total": 96.6,
    "dolor_max_planta": 32.2,
    "senales": [
-    "residuos peligrosos 543 t",
-    "residuos peligrosos 543 t",
     "residuos peligrosos 543 t"
    ],
    "lineas": [
@@ -9215,7 +9128,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 1629.1,
+   "residuos_t": 543.0,
    "tomadores": [
     {
      "nombre": "Werner Jakob",
@@ -9255,7 +9168,7 @@
     "cargo": "Gerente General",
     "linkedin": "https://cl.linkedin.com/in/werner-jakob-6787a717b"
    },
-   "angulo": "genera 1,629 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 543 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 129.4
   },
   {
@@ -9307,9 +9220,6 @@
    "dolor_total": 160.0,
    "dolor_max_planta": 32.0,
    "senales": [
-    "residuos peligrosos 541 t",
-    "residuos peligrosos 541 t",
-    "residuos peligrosos 541 t",
     "residuos peligrosos 541 t"
    ],
    "lineas": [
@@ -9319,7 +9229,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 2703.9,
+   "residuos_t": 540.8,
    "tomadores": [
     {
      "nombre": "Rodrigo Aguilar Bustos",
@@ -9379,7 +9289,7 @@
     "cargo": "Gerente General",
     "linkedin": "https://cl.linkedin.com/in/rodrigo-aguilar-bustos-465807114"
    },
-   "angulo": "genera 2,704 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 541 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 128.8
   },
   {
@@ -9456,15 +9366,14 @@
    "senales": [
     "RILES al agua 36",
     "residuos peligrosos 163 t",
-    "29 contaminantes",
-    "RILES al agua 36"
+    "29 contaminantes"
    ],
    "lineas": [
     "Instrumentación",
     "Software y plataforma"
    ],
-   "riles": 326.7,
-   "residuos_t": 1463.9,
+   "riles": 36.3,
+   "residuos_t": 162.7,
    "tomadores": [
     {
      "nombre": "Gabriela Muñoz Droguett",
@@ -9504,7 +9413,7 @@
     "cargo": "Gerente de Personas",
     "linkedin": "https://cl.linkedin.com/in/gabriela-mu%C3%B1oz-98677a357"
    },
-   "angulo": "emite al agua 327 (DS 90/2000): hoy no lo mide en línea · genera 1,464 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 36 (DS 90/2000): hoy no lo mide en línea · genera 163 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 128.6
   },
   {
@@ -9538,8 +9447,7 @@
    "senales": [
     "RILES al agua 273",
     "residuos peligrosos 1,028 t",
-    "5 contaminantes",
-    "RILES al agua 273"
+    "5 contaminantes"
    ],
    "lineas": [
     "DCS",
@@ -9547,8 +9455,8 @@
     "Software y plataforma",
     "Válvulas"
    ],
-   "riles": 545.3,
-   "residuos_t": 2056.7,
+   "riles": 272.6,
+   "residuos_t": 1028.3,
    "tomadores": [
     {
      "nombre": "José Manuel Aponte",
@@ -9598,7 +9506,7 @@
     "cargo": "Jefe de Planta de Congelado",
     "linkedin": "https://cl.linkedin.com/in/jos%C3%A9-manuel-aponte-5977a6a4"
    },
-   "angulo": "emite al agua 545 (DS 90/2000): hoy no lo mide en línea · genera 2,057 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 273 (DS 90/2000): hoy no lo mide en línea · genera 1,028 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 127.5
   },
   {
@@ -9657,15 +9565,14 @@
    "senales": [
     "RILES al agua 56",
     "residuos peligrosos 335 t",
-    "30 contaminantes",
-    "RILES al agua 56"
+    "30 contaminantes"
    ],
    "lineas": [
     "Instrumentación",
     "Software y plataforma"
    ],
-   "riles": 335.5,
-   "residuos_t": 2009.9,
+   "riles": 55.9,
+   "residuos_t": 335.0,
    "tomadores": [
     {
      "nombre": "Carlos Gabriel Aravena Marín",
@@ -9715,7 +9622,7 @@
     "cargo": "Subgerente de Operaciones / Gerente de Planta",
     "linkedin": "https://cl.linkedin.com/in/carlos-gabriel-aravena-marin-b21ba670"
    },
-   "angulo": "emite al agua 336 (DS 90/2000): hoy no lo mide en línea · genera 2,010 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 56 (DS 90/2000): hoy no lo mide en línea · genera 335 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 123.5
   },
   {
@@ -9749,15 +9656,14 @@
    "senales": [
     "RILES al agua 2,807",
     "residuos peligrosos 117 t",
-    "29 contaminantes",
-    "RILES al agua 2,807"
+    "29 contaminantes"
    ],
    "lineas": [
     "DCS",
     "Instrumentación"
    ],
-   "riles": 5613.7,
-   "residuos_t": 234.5,
+   "riles": 2806.8,
+   "residuos_t": 117.3,
    "tomadores": [
     {
      "nombre": "Jean Contreras Delgado",
@@ -9817,7 +9723,7 @@
     "cargo": "Jefe de Mantención y Proyectos / Automatización Industrial",
     "linkedin": "https://cl.linkedin.com/in/jean-contreras-delgado-b0103a88"
    },
-   "angulo": "emite al agua 5,614 (DS 90/2000): hoy no lo mide en línea · genera 234 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 2,807 (DS 90/2000): hoy no lo mide en línea · genera 117 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 122.3
   },
   {
@@ -9902,9 +9808,6 @@
    "dolor_total": 440.0,
    "dolor_max_planta": 40.0,
    "senales": [
-    "residuos peligrosos 1,731 t",
-    "residuos peligrosos 1,731 t",
-    "residuos peligrosos 1,731 t",
     "residuos peligrosos 1,731 t"
    ],
    "lineas": [
@@ -9914,7 +9817,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 19043.2,
+   "residuos_t": 1731.2,
    "tomadores": [
     {
      "nombre": "Leonardo Morán Aldana",
@@ -9944,7 +9847,7 @@
     "cargo": "Gerente de Proyectos de Inversión, Grupo Saesa / Edelaysen",
     "linkedin": "https://cl.linkedin.com/in/leonardo-moran-aldana"
    },
-   "angulo": "genera 19,043 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 1,731 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 121.0
   },
   {
@@ -10245,9 +10148,6 @@
    "dolor_total": 1840.0,
    "dolor_max_planta": 40.0,
    "senales": [
-    "residuos peligrosos 21,241 t",
-    "residuos peligrosos 21,241 t",
-    "residuos peligrosos 21,241 t",
     "residuos peligrosos 21,241 t"
    ],
    "lineas": [
@@ -10256,7 +10156,7 @@
     "SIS"
    ],
    "riles": 0.0,
-   "residuos_t": 977099.3,
+   "residuos_t": 21241.3,
    "tomadores": [
     {
      "nombre": "Alan Sherwin",
@@ -10296,7 +10196,7 @@
     "cargo": "Gerente de Operaciones",
     "linkedin": "https://cl.linkedin.com/in/alan-sherwin-2a981b24"
    },
-   "angulo": "genera 977,099 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 21,241 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 121.0
   },
   {
@@ -10396,9 +10296,6 @@
    "dolor_total": 520.0,
    "dolor_max_planta": 40.0,
    "senales": [
-    "residuos peligrosos 10,785 t",
-    "residuos peligrosos 10,785 t",
-    "residuos peligrosos 10,785 t",
     "residuos peligrosos 10,785 t"
    ],
    "lineas": [
@@ -10409,7 +10306,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 140207.2,
+   "residuos_t": 10785.2,
    "tomadores": [
     {
      "nombre": "Carolina Romero Madariaga",
@@ -10439,7 +10336,7 @@
     "cargo": "Jefa de Planta",
     "linkedin": "https://cl.linkedin.com/in/carolina-romero-madariaga-a17238109"
    },
-   "angulo": "genera 140,207 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 10,785 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 121.0
   },
   {
@@ -10519,9 +10416,6 @@
    "dolor_total": 400.0,
    "dolor_max_planta": 40.0,
    "senales": [
-    "residuos peligrosos 19,685 t",
-    "residuos peligrosos 19,685 t",
-    "residuos peligrosos 19,685 t",
     "residuos peligrosos 19,685 t"
    ],
    "lineas": [
@@ -10532,7 +10426,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 196854.0,
+   "residuos_t": 19685.4,
    "tomadores": [
     {
      "nombre": "Manuel Carmona Navea",
@@ -10642,7 +10536,7 @@
     "cargo": "Gerente de Plantas",
     "linkedin": "https://cl.linkedin.com/in/manuelcarmonanavea"
    },
-   "angulo": "genera 196,854 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 19,685 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 121.0
   },
   {
@@ -10835,9 +10729,6 @@
    "dolor_total": 1160.0,
    "dolor_max_planta": 40.0,
    "senales": [
-    "residuos peligrosos 2,363 t",
-    "residuos peligrosos 2,363 t",
-    "residuos peligrosos 2,363 t",
     "residuos peligrosos 2,363 t"
    ],
    "lineas": [
@@ -10846,7 +10737,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 68540.0,
+   "residuos_t": 2363.4,
    "tomadores": [
     {
      "nombre": "Alvaro Camblor Donoso",
@@ -10986,7 +10877,7 @@
     "cargo": "Subgerente de Operaciones",
     "linkedin": "https://cl.linkedin.com/in/alvaro-camblor-donoso-655a68b1"
    },
-   "angulo": "genera 68,540 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 2,363 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 121.0
   },
   {
@@ -11042,9 +10933,6 @@
    "dolor_total": 240.0,
    "dolor_max_planta": 40.0,
    "senales": [
-    "residuos peligrosos 2,589 t",
-    "residuos peligrosos 2,589 t",
-    "residuos peligrosos 2,589 t",
     "residuos peligrosos 2,589 t"
    ],
    "lineas": [
@@ -11053,7 +10941,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 15531.9,
+   "residuos_t": 2588.7,
    "tomadores": [
     {
      "nombre": "Raúl Díaz",
@@ -11123,7 +11011,7 @@
     "cargo": "Gerente Planta Aserradero Horcones, Maderas ARAUCO",
     "linkedin": "https://cl.linkedin.com/in/raul-diaz-b85210172"
    },
-   "angulo": "genera 15,532 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 2,589 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 120.8
   },
   {
@@ -11182,9 +11070,6 @@
    "dolor_total": 240.0,
    "dolor_max_planta": 40.0,
    "senales": [
-    "residuos peligrosos 64,794 t",
-    "residuos peligrosos 64,794 t",
-    "residuos peligrosos 64,794 t",
     "residuos peligrosos 64,794 t"
    ],
    "lineas": [
@@ -11193,7 +11078,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 388763.8,
+   "residuos_t": 64794.0,
    "tomadores": [
     {
      "nombre": "Mauricio Bravo Carvallo",
@@ -11223,7 +11108,7 @@
     "cargo": "Gerente de Operaciones en Stericycle",
     "linkedin": "https://cl.linkedin.com/in/mauricio-bravo-carvallo-309338142"
    },
-   "angulo": "genera 388,764 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 64,794 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 120.8
   },
   {
@@ -11269,9 +11154,6 @@
    "dolor_total": 160.0,
    "dolor_max_planta": 40.0,
    "senales": [
-    "residuos peligrosos 3,681 t",
-    "residuos peligrosos 3,681 t",
-    "residuos peligrosos 3,681 t",
     "residuos peligrosos 3,681 t"
    ],
    "lineas": [
@@ -11282,7 +11164,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 14725.2,
+   "residuos_t": 3681.3,
    "tomadores": [
     {
      "nombre": "Rodrigo Quintana",
@@ -11332,7 +11214,7 @@
     "cargo": "Sub Gerente de Operaciones y Logística",
     "linkedin": "https://cl.linkedin.com/in/rodrigo-quintana-7ab305157"
    },
-   "angulo": "genera 14,725 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 3,681 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 120.7
   },
   {
@@ -11377,9 +11259,6 @@
    "dolor_total": 160.0,
    "dolor_max_planta": 40.0,
    "senales": [
-    "residuos peligrosos 1,150 t",
-    "residuos peligrosos 1,150 t",
-    "residuos peligrosos 1,150 t",
     "residuos peligrosos 1,150 t"
    ],
    "lineas": [
@@ -11389,7 +11268,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 4600.5,
+   "residuos_t": 1150.1,
    "tomadores": [
     {
      "nombre": "Fernando Montaño Guzmán",
@@ -11429,7 +11308,7 @@
     "cargo": "Gerente de Operaciones",
     "linkedin": "https://cl.linkedin.com/in/fernando-montano-guzman"
    },
-   "angulo": "genera 4,600 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 1,150 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 120.7
   },
   {
@@ -11475,9 +11354,6 @@
    "dolor_total": 160.0,
    "dolor_max_planta": 40.0,
    "senales": [
-    "residuos peligrosos 22,337 t",
-    "residuos peligrosos 22,337 t",
-    "residuos peligrosos 22,337 t",
     "residuos peligrosos 22,337 t"
    ],
    "lineas": [
@@ -11487,7 +11363,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 89347.8,
+   "residuos_t": 22336.9,
    "tomadores": [
     {
      "nombre": "Gerardo Godoy Jarpa",
@@ -11547,7 +11423,7 @@
     "cargo": "Gerente de Ingeniería y Mantenimiento",
     "linkedin": "https://cl.linkedin.com/in/gerardo-godoy-jarpa-ba8b0974"
    },
-   "angulo": "genera 89,348 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 22,337 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 120.7
   },
   {
@@ -11591,9 +11467,6 @@
    "dolor_total": 160.0,
    "dolor_max_planta": 40.0,
    "senales": [
-    "residuos peligrosos 704 t",
-    "residuos peligrosos 704 t",
-    "residuos peligrosos 704 t",
     "residuos peligrosos 704 t"
    ],
    "lineas": [
@@ -11601,7 +11474,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 2814.3,
+   "residuos_t": 703.6,
    "tomadores": [
     {
      "nombre": "Christian Inda",
@@ -11621,7 +11494,7 @@
     "cargo": "Gerente de Planta / Operations & Facilities Lead",
     "linkedin": "https://cl.linkedin.com/in/christianinda"
    },
-   "angulo": "genera 2,814 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 704 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 120.7
   },
   {
@@ -11658,8 +11531,6 @@
    "dolor_total": 120.0,
    "dolor_max_planta": 40.0,
    "senales": [
-    "residuos peligrosos 1,404 t",
-    "residuos peligrosos 1,404 t",
     "residuos peligrosos 1,404 t"
    ],
    "lineas": [
@@ -11670,7 +11541,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 4210.5,
+   "residuos_t": 1403.5,
    "tomadores": [
     {
      "nombre": "Dijanio Lopes",
@@ -11710,7 +11581,7 @@
     "cargo": "Gerente de Ingeniería y Medio Ambiente",
     "linkedin": "https://pe.linkedin.com/in/dijanio-lopes-0b6b775"
    },
-   "angulo": "genera 4,210 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 1,404 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 120.6
   },
   {
@@ -11747,8 +11618,6 @@
    "dolor_total": 120.0,
    "dolor_max_planta": 40.0,
    "senales": [
-    "residuos peligrosos 39,825 t",
-    "residuos peligrosos 39,825 t",
     "residuos peligrosos 39,825 t"
    ],
    "lineas": [
@@ -11757,7 +11626,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 119474.9,
+   "residuos_t": 39825.0,
    "tomadores": [
     {
      "nombre": "Sebastián Gutiérrez Panetti",
@@ -11797,7 +11666,7 @@
     "cargo": "Gerente de Operaciones",
     "linkedin": "https://cl.linkedin.com/in/sebasti%C3%A1n-guti%C3%A9rrez-panetti-15666430"
    },
-   "angulo": "genera 119,475 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 39,825 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 120.6
   },
   {
@@ -11829,7 +11698,6 @@
    "dolor_total": 80.0,
    "dolor_max_planta": 40.0,
    "senales": [
-    "residuos peligrosos 2,138 t",
     "residuos peligrosos 2,138 t"
    ],
    "lineas": [
@@ -11838,7 +11706,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 4276.7,
+   "residuos_t": 2138.3,
    "tomadores": [
     {
      "nombre": "Julio Quezada",
@@ -11858,7 +11726,7 @@
     "cargo": "Gerente de Ingeniería",
     "linkedin": "https://cl.linkedin.com/in/julio-quezada-65a0a35"
    },
-   "angulo": "genera 4,277 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 2,138 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 120.5
   },
   {
@@ -11889,7 +11757,6 @@
    "dolor_total": 80.0,
    "dolor_max_planta": 40.0,
    "senales": [
-    "residuos peligrosos 1,405 t",
     "residuos peligrosos 1,405 t"
    ],
    "lineas": [
@@ -11899,7 +11766,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 2809.6,
+   "residuos_t": 1404.8,
    "tomadores": [
     {
      "nombre": "Enzo Martinez Romero",
@@ -11959,7 +11826,7 @@
     "cargo": "Gerente Operaciones Plantas y Proyectos",
     "linkedin": "https://cl.linkedin.com/company/c%C3%ADa-minera-san-ger%C3%B3nimo-cmsg"
    },
-   "angulo": "genera 2,810 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 1,405 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 120.5
   },
   {
@@ -11990,7 +11857,6 @@
    "dolor_total": 80.0,
    "dolor_max_planta": 40.0,
    "senales": [
-    "residuos peligrosos 20,778 t",
     "residuos peligrosos 20,778 t"
    ],
    "lineas": [
@@ -11998,7 +11864,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 41556.6,
+   "residuos_t": 20778.3,
    "tomadores": [
     {
      "nombre": "Sergio Becker",
@@ -12028,7 +11894,7 @@
     "cargo": "Gerente en Reciclajes Ecotrans Ltda",
     "linkedin": "https://cl.linkedin.com/in/sergio-becker-5b967b1aa"
    },
-   "angulo": "genera 41,557 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 20,778 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 120.5
   },
   {
@@ -12059,7 +11925,6 @@
    "dolor_total": 80.0,
    "dolor_max_planta": 40.0,
    "senales": [
-    "residuos peligrosos 3,106 t",
     "residuos peligrosos 3,106 t"
    ],
    "lineas": [
@@ -12069,7 +11934,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 6212.7,
+   "residuos_t": 3106.3,
    "tomadores": [
     {
      "nombre": "Raúl Chaves Casas",
@@ -12089,7 +11954,7 @@
     "cargo": "Gerente de Ingeniería, Mantenimiento y Medio Ambiente",
     "linkedin": "https://cl.linkedin.com/in/raul-chaves-casas-811b8aab"
    },
-   "angulo": "genera 6,213 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 3,106 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 120.5
   },
   {
@@ -12121,7 +11986,6 @@
    "dolor_total": 80.0,
    "dolor_max_planta": 40.0,
    "senales": [
-    "residuos peligrosos 22,024 t",
     "residuos peligrosos 22,024 t"
    ],
    "lineas": [
@@ -12131,7 +11995,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 44047.9,
+   "residuos_t": 22024.0,
    "tomadores": [
     {
      "nombre": "Aldo Tosetti Munizaga",
@@ -12201,7 +12065,7 @@
     "cargo": "Gerente de Operaciones Planta",
     "linkedin": "https://cl.linkedin.com/in/aldo-tosetti-munizaga-07888137"
    },
-   "angulo": "genera 44,048 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 22,024 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 120.5
   },
   {
@@ -12232,7 +12096,6 @@
    "dolor_total": 80.0,
    "dolor_max_planta": 40.0,
    "senales": [
-    "residuos peligrosos 3,367 t",
     "residuos peligrosos 3,367 t"
    ],
    "lineas": [
@@ -12242,7 +12105,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 6734.1,
+   "residuos_t": 3367.1,
    "tomadores": [
     {
      "nombre": "Marco Antonio Troncoso Soza",
@@ -12302,7 +12165,7 @@
     "cargo": "Gerente de Operaciones Mineras",
     "linkedin": "https://cl.linkedin.com/in/marco-antonio-troncoso-soza-6597a0174"
    },
-   "angulo": "genera 6,734 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 3,367 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 120.5
   },
   {
@@ -12333,7 +12196,6 @@
    "dolor_total": 80.0,
    "dolor_max_planta": 40.0,
    "senales": [
-    "residuos peligrosos 21,292 t",
     "residuos peligrosos 21,292 t"
    ],
    "lineas": [
@@ -12343,7 +12205,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 42585.0,
+   "residuos_t": 21292.5,
    "tomadores": [
     {
      "nombre": "Gilbert Maldonado",
@@ -12413,7 +12275,7 @@
     "cargo": "Gerente de Operaciones en Salar de Atacama, SQM",
     "linkedin": "https://es.linkedin.com/posts/vogt-sa_gilbert-maldonado-gerente-de-operaciones-activity-7317909681018974208-LoRd"
    },
-   "angulo": "genera 42,585 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 21,292 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 120.5
   },
   {
@@ -12592,7 +12454,6 @@
    "dolor_total": 79.4,
    "dolor_max_planta": 39.7,
    "senales": [
-    "residuos peligrosos 694 t",
     "residuos peligrosos 694 t"
    ],
    "lineas": [
@@ -12601,7 +12462,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 1387.9,
+   "residuos_t": 694.0,
    "tomadores": [
     {
      "nombre": "Rolando Céspedes",
@@ -12641,7 +12502,7 @@
     "cargo": "Gerente de Operaciones",
     "linkedin": ""
    },
-   "angulo": "genera 1,388 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 694 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 119.6
   },
   {
@@ -12675,16 +12536,15 @@
    "senales": [
     "RILES al agua 1",
     "residuos peligrosos 134 t",
-    "29 contaminantes",
-    "RILES al agua 1"
+    "29 contaminantes"
    ],
    "lineas": [
     "DCS",
     "Instrumentación",
     "Válvulas"
    ],
-   "riles": 1.4,
-   "residuos_t": 268.5,
+   "riles": 0.7,
+   "residuos_t": 134.2,
    "tomadores": [
     {
      "nombre": "Paulo Bravo Rivera",
@@ -12754,7 +12614,7 @@
     "cargo": "Gerente General",
     "linkedin": "https://cl.linkedin.com/in/paulo-bravo-rivera-99a99020"
    },
-   "angulo": "emite al agua 1 (DS 90/2000): hoy no lo mide en línea · genera 268 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 1 (DS 90/2000): hoy no lo mide en línea · genera 134 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 119.3
   },
   {
@@ -12895,8 +12755,6 @@
    "dolor_total": 87.6,
    "dolor_max_planta": 29.2,
    "senales": [
-    "residuos peligrosos 484 t",
-    "residuos peligrosos 484 t",
     "residuos peligrosos 484 t"
    ],
    "lineas": [
@@ -12905,7 +12763,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 1452.0,
+   "residuos_t": 484.0,
    "tomadores": [
     {
      "nombre": "Santiago Muzzo",
@@ -12945,7 +12803,7 @@
     "cargo": "Gerente General",
     "linkedin": "https://cl.linkedin.com/in/santiago-muzzo-9b89747"
    },
-   "angulo": "genera 1,452 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 484 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 117.4
   },
   {
@@ -13008,15 +12866,14 @@
    "senales": [
     "RILES al agua 11",
     "residuos peligrosos 110 t",
-    "12 contaminantes",
-    "RILES al agua 11"
+    "12 contaminantes"
    ],
    "lineas": [
     "DCS",
     "Instrumentación"
    ],
-   "riles": 77.6,
-   "residuos_t": 769.9,
+   "riles": 11.1,
+   "residuos_t": 110.0,
    "tomadores": [
     {
      "nombre": "Gastón Cortez",
@@ -13056,7 +12913,7 @@
     "cargo": "Gerente General",
     "linkedin": "https://cl.linkedin.com/in/gast%C3%B3n-cortez-0930854b"
    },
-   "angulo": "emite al agua 78 (DS 90/2000): hoy no lo mide en línea · genera 770 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 11 (DS 90/2000): hoy no lo mide en línea · genera 110 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 115.7
   },
   {
@@ -13107,15 +12964,14 @@
    "senales": [
     "RILES al agua 209",
     "residuos peligrosos 21 t",
-    "28 contaminantes",
-    "RILES al agua 209"
+    "28 contaminantes"
    ],
    "lineas": [
     "DCS",
     "Instrumentación"
    ],
-   "riles": 1044.1,
-   "residuos_t": 105.1,
+   "riles": 208.8,
+   "residuos_t": 21.0,
    "tomadores": [
     {
      "nombre": "Roberto Ried",
@@ -13145,7 +13001,7 @@
     "cargo": "Gerente General",
     "linkedin": ""
    },
-   "angulo": "emite al agua 1,044 (DS 90/2000): hoy no lo mide en línea · genera 105 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 209 (DS 90/2000): hoy no lo mide en línea · genera 21 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 113.6
   },
   {
@@ -13298,8 +13154,7 @@
    "senales": [
     "RILES al agua 8",
     "residuos peligrosos 95 t",
-    "35 contaminantes",
-    "RILES al agua 8"
+    "35 contaminantes"
    ],
    "lineas": [
     "DCS",
@@ -13307,8 +13162,8 @@
     "Software y plataforma",
     "Válvulas"
    ],
-   "riles": 22.9,
-   "residuos_t": 284.8,
+   "riles": 7.6,
+   "residuos_t": 94.9,
    "tomadores": [
     {
      "nombre": "Ronald Barlow",
@@ -13348,7 +13203,7 @@
     "cargo": "Gerente General en Skretting Chile",
     "linkedin": "https://cl.linkedin.com/in/ronald-barlow-a664a216b"
    },
-   "angulo": "emite al agua 23 (DS 90/2000): hoy no lo mide en línea · genera 285 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 8 (DS 90/2000): hoy no lo mide en línea · genera 95 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 112.2
   },
   {
@@ -13380,7 +13235,6 @@
    "dolor_total": 54.0,
    "dolor_max_planta": 27.0,
    "senales": [
-    "residuos peligrosos 440 t",
     "residuos peligrosos 440 t"
    ],
    "lineas": [
@@ -13389,7 +13243,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 881.0,
+   "residuos_t": 440.5,
    "tomadores": [
     {
      "nombre": "Jorge Ríos Latham",
@@ -13429,7 +13283,7 @@
     "cargo": "Gerente General",
     "linkedin": "https://cl.linkedin.com/in/jorge-r%C3%ADos-latham-b330a030"
    },
-   "angulo": "genera 881 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 440 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 108.5
   },
   {
@@ -13482,15 +13336,14 @@
    "senales": [
     "RILES al agua 0",
     "residuos peligrosos 76 t",
-    "5 contaminantes",
-    "RILES al agua 0"
+    "5 contaminantes"
    ],
    "lineas": [
     "Instrumentación",
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 379.5,
+   "residuos_t": 75.9,
    "tomadores": [
     {
      "nombre": "Cristian Undurraga",
@@ -13530,7 +13383,7 @@
     "cargo": "Gerente General en Del Monte Fresh Chile",
     "linkedin": "https://cl.linkedin.com/in/cristian-undurraga-572b6a178"
    },
-   "angulo": "genera 380 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 76 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 108.0
   },
   {
@@ -13563,8 +13416,6 @@
    "dolor_max_planta": 26.1,
    "senales": [
     "RILES al agua 405",
-    "30 contaminantes",
-    "RILES al agua 405",
     "30 contaminantes"
    ],
    "lineas": [
@@ -13573,7 +13424,7 @@
     "Software y plataforma",
     "Válvulas"
    ],
-   "riles": 810.2,
+   "riles": 405.1,
    "residuos_t": 0.0,
    "tomadores": [
     {
@@ -13614,7 +13465,7 @@
     "cargo": "Director de Ingeniería en Algas Marinas S.A.",
     "linkedin": "https://cl.linkedin.com/in/miguel-caro-164254a5"
    },
-   "angulo": "emite al agua 810 (DS 90/2000): hoy no lo mide en línea",
+   "angulo": "emite al agua 405 (DS 90/2000): hoy no lo mide en línea",
    "prioridad_contacto": 104.9
   },
   {
@@ -13657,9 +13508,6 @@
    "dolor_total": 103.2,
    "dolor_max_planta": 25.8,
    "senales": [
-    "residuos peligrosos 415 t",
-    "residuos peligrosos 415 t",
-    "residuos peligrosos 415 t",
     "residuos peligrosos 415 t"
    ],
    "lineas": [
@@ -13668,7 +13516,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 1661.8,
+   "residuos_t": 415.5,
    "tomadores": [
     {
      "nombre": "Eugenio Rodríguez Mingo",
@@ -13698,7 +13546,7 @@
     "cargo": "Gerente General",
     "linkedin": ""
    },
-   "angulo": "genera 1,662 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 416 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 103.9
   },
   {
@@ -13730,7 +13578,6 @@
    "dolor_total": 51.2,
    "dolor_max_planta": 25.6,
    "senales": [
-    "residuos peligrosos 411 t",
     "residuos peligrosos 411 t"
    ],
    "lineas": [
@@ -13740,7 +13587,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 822.6,
+   "residuos_t": 411.3,
    "tomadores": [
     {
      "nombre": "Matías Seguel Tagle",
@@ -13780,7 +13627,7 @@
     "cargo": "Gerente General",
     "linkedin": "https://cl.linkedin.com/in/mat%C3%ADas-seguel-tagle-6a65ab300"
    },
-   "angulo": "genera 823 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 411 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 102.9
   },
   {
@@ -13830,9 +13677,6 @@
    "dolor_total": 170.0,
    "dolor_max_planta": 34.0,
    "senales": [
-    "residuos peligrosos 581 t",
-    "residuos peligrosos 581 t",
-    "residuos peligrosos 581 t",
     "residuos peligrosos 581 t"
    ],
    "lineas": [
@@ -13840,7 +13684,7 @@
     "Instrumentación"
    ],
    "riles": 0.0,
-   "residuos_t": 2903.5,
+   "residuos_t": 580.7,
    "tomadores": [
     {
      "nombre": "José Ocares Brantes",
@@ -13900,7 +13744,7 @@
     "cargo": "Gerente de Operaciones Pesca en Blumar S.A.",
     "linkedin": "https://cl.linkedin.com/in/jose-ocares-brantes-307346a"
    },
-   "angulo": "genera 2,904 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 581 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 102.8
   },
   {
@@ -13946,15 +13790,14 @@
    "senales": [
     "RILES al agua 1",
     "residuos peligrosos 199 t",
-    "7 contaminantes",
-    "RILES al agua 1"
+    "7 contaminantes"
    ],
    "lineas": [
     "Instrumentación",
     "Software y plataforma"
    ],
-   "riles": 2.6,
-   "residuos_t": 794.8,
+   "riles": 0.7,
+   "residuos_t": 198.7,
    "tomadores": [
     {
      "nombre": "Leonardo Contreras Díaz",
@@ -13994,7 +13837,7 @@
     "cargo": "Gerente de Planta",
     "linkedin": "https://cl.linkedin.com/in/leonardo-contreras-d%C3%ADaz-701a93142"
    },
-   "angulo": "emite al agua 3 (DS 90/2000): hoy no lo mide en línea · genera 795 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 1 (DS 90/2000): hoy no lo mide en línea · genera 199 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 99.4
   },
   {
@@ -14092,8 +13935,6 @@
    "dolor_max_planta": 32.3,
    "senales": [
     "RILES al agua 717",
-    "29 contaminantes",
-    "RILES al agua 717",
     "29 contaminantes"
    ],
    "lineas": [
@@ -14102,7 +13943,7 @@
     "Instrumentación",
     "Software y plataforma"
    ],
-   "riles": 9326.9,
+   "riles": 717.5,
    "residuos_t": 0.0,
    "tomadores": [
     {
@@ -14123,7 +13964,7 @@
     "cargo": "fue Gerente de Planta en Integra Chile S.A., y previamente se desempeñó como Jefe de Planificación y Control en Aguas Claras S.A. )",
     "linkedin": "https://cl.linkedin.com/in/cristian-arel-carcamo-87040267"
    },
-   "angulo": "emite al agua 9,327 (DS 90/2000): hoy no lo mide en línea",
+   "angulo": "emite al agua 718 (DS 90/2000): hoy no lo mide en línea",
    "prioridad_contacto": 97.9
   },
   {
@@ -14352,9 +14193,6 @@
    "dolor_total": 819.4,
    "dolor_max_planta": 24.1,
    "senales": [
-    "residuos peligrosos 382 t",
-    "residuos peligrosos 382 t",
-    "residuos peligrosos 382 t",
     "residuos peligrosos 382 t"
    ],
    "lineas": [
@@ -14363,7 +14201,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 12979.5,
+   "residuos_t": 381.8,
    "tomadores": [
     {
      "nombre": "Guido Sepúlveda Navarro",
@@ -14403,7 +14241,7 @@
     "cargo": "Gerente General Área Cemento, Grupo CBB",
     "linkedin": "https://cl.linkedin.com/in/guido-sepulveda-navarro"
    },
-   "angulo": "genera 12,980 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 382 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 97.4
   },
   {
@@ -14436,15 +14274,14 @@
    "senales": [
     "RILES al agua 142",
     "residuos peligrosos 104 t",
-    "9 contaminantes",
-    "RILES al agua 142"
+    "9 contaminantes"
    ],
    "lineas": [
     "DCS",
     "Instrumentación"
    ],
-   "riles": 283.7,
-   "residuos_t": 208.6,
+   "riles": 141.8,
+   "residuos_t": 104.3,
    "tomadores": [
     {
      "nombre": "Nicolás Andre Mellado González",
@@ -14484,7 +14321,7 @@
     "cargo": "Jefe de Compras / Subgerente de Compras",
     "linkedin": "https://cl.linkedin.com/in/nicol%C3%A1s-andre-mellado-gonz%C3%A1lez-92580364"
    },
-   "angulo": "emite al agua 284 (DS 90/2000): hoy no lo mide en línea · genera 209 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 142 (DS 90/2000): hoy no lo mide en línea · genera 104 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 93.8
   },
   {
@@ -14636,9 +14473,6 @@
    "dolor_total": 503.8,
    "dolor_max_planta": 22.9,
    "senales": [
-    "residuos peligrosos 358 t",
-    "residuos peligrosos 358 t",
-    "residuos peligrosos 358 t",
     "residuos peligrosos 358 t"
    ],
    "lineas": [
@@ -14648,7 +14482,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 7883.0,
+   "residuos_t": 358.3,
    "tomadores": [
     {
      "nombre": "Francisco Alliende Arriagada",
@@ -14668,7 +14502,7 @@
     "cargo": "Gerente General",
     "linkedin": "https://web.gruposaesa.cl/documents/20121/0/Memoria+Anual+STA+II+2024.pdf"
    },
-   "angulo": "genera 7,883 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 358 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 92.6
   },
   {
@@ -14751,9 +14585,6 @@
    "dolor_total": 293.4,
    "dolor_max_planta": 32.6,
    "senales": [
-    "residuos peligrosos 553 t",
-    "residuos peligrosos 553 t",
-    "residuos peligrosos 553 t",
     "residuos peligrosos 553 t"
    ],
    "lineas": [
@@ -14763,7 +14594,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 4974.8,
+   "residuos_t": 552.8,
    "tomadores": [
     {
      "nombre": "Gustavo Cruz",
@@ -14803,7 +14634,7 @@
     "cargo": "Gerente",
     "linkedin": ""
    },
-   "angulo": "genera 4,975 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 553 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 88.9
   },
   {
@@ -14945,8 +14776,7 @@
    "senales": [
     "RILES al agua 1",
     "residuos peligrosos 110 t",
-    "28 contaminantes",
-    "RILES al agua 1"
+    "28 contaminantes"
    ],
    "lineas": [
     "DCS",
@@ -14954,8 +14784,8 @@
     "Software y plataforma",
     "Válvulas"
    ],
-   "riles": 4.0,
-   "residuos_t": 441.0,
+   "riles": 1.0,
+   "residuos_t": 110.2,
    "tomadores": [
     {
      "nombre": "Danilo López",
@@ -15025,7 +14855,7 @@
     "cargo": "Gerente I+D/SIG/Negocio Té",
     "linkedin": "https://cl.linkedin.com/in/danilolopezrivera"
    },
-   "angulo": "emite al agua 4 (DS 90/2000): hoy no lo mide en línea · genera 441 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 1 (DS 90/2000): hoy no lo mide en línea · genera 110 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 86.2
   },
   {
@@ -15057,8 +14887,6 @@
    "dolor_max_planta": 21.4,
    "senales": [
     "RILES al agua 20",
-    "residuos peligrosos 160 t",
-    "RILES al agua 20",
     "residuos peligrosos 160 t"
    ],
    "lineas": [
@@ -15067,8 +14895,8 @@
     "Software y plataforma",
     "Válvulas"
    ],
-   "riles": 39.2,
-   "residuos_t": 319.3,
+   "riles": 19.6,
+   "residuos_t": 159.6,
    "tomadores": [
     {
      "nombre": "Alexandre Cortez",
@@ -15088,7 +14916,7 @@
     "cargo": "managing director en Procesadora de Alimentos del Sur Limitada",
     "linkedin": "https://cl.linkedin.com/pub/dir/Alexandre/%2B/cl-0-Chile"
    },
-   "angulo": "emite al agua 39 (DS 90/2000): hoy no lo mide en línea · genera 319 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 20 (DS 90/2000): hoy no lo mide en línea · genera 160 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 86.1
   },
   {
@@ -15137,9 +14965,6 @@
    "dolor_total": 142.0,
    "dolor_max_planta": 28.4,
    "senales": [
-    "residuos peligrosos 467 t",
-    "residuos peligrosos 467 t",
-    "residuos peligrosos 467 t",
     "residuos peligrosos 467 t"
    ],
    "lineas": [
@@ -15148,7 +14973,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 2335.8,
+   "residuos_t": 467.2,
    "tomadores": [
     {
      "nombre": "Claudio Wagner",
@@ -15208,7 +15033,7 @@
     "cargo": "Subgerente de Obras Región de los Lagos, Bitumix Austral S.A.",
     "linkedin": "https://cl.linkedin.com/in/claudio-wagner-3122b550"
    },
-   "angulo": "genera 2,336 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 467 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 86.0
   },
   {
@@ -15239,7 +15064,6 @@
    "dolor_total": 40.6,
    "dolor_max_planta": 20.3,
    "senales": [
-    "residuos peligrosos 307 t",
     "residuos peligrosos 307 t"
    ],
    "lineas": [
@@ -15249,7 +15073,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 613.7,
+   "residuos_t": 306.9,
    "tomadores": [
     {
      "nombre": "Jorge Figueroa",
@@ -15299,7 +15123,7 @@
     "cargo": "Gerente General",
     "linkedin": "https://www.linkedin.com/in/jorge-figueroa-6032294b"
    },
-   "angulo": "genera 614 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 307 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 81.7
   },
   {
@@ -15332,8 +15156,7 @@
    "senales": [
     "RILES al agua 2",
     "residuos peligrosos 350 t",
-    "33 contaminantes",
-    "RILES al agua 2"
+    "33 contaminantes"
    ],
    "lineas": [
     "DCS",
@@ -15341,8 +15164,8 @@
     "SIS",
     "Válvulas"
    ],
-   "riles": 3.9,
-   "residuos_t": 699.1,
+   "riles": 1.9,
+   "residuos_t": 349.5,
    "tomadores": [
     {
      "nombre": "Claudio Contreras Cordero",
@@ -15362,7 +15185,7 @@
     "cargo": "Jefe de Mantenimiento Eléctrico I&C",
     "linkedin": "https://cl.linkedin.com/in/clacontrerasc"
    },
-   "angulo": "emite al agua 4 (DS 90/2000): hoy no lo mide en línea · genera 699 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 2 (DS 90/2000): hoy no lo mide en línea · genera 350 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 81.5
   },
   {
@@ -15407,9 +15230,6 @@
    "dolor_total": 107.2,
    "dolor_max_planta": 26.8,
    "senales": [
-    "residuos peligrosos 435 t",
-    "residuos peligrosos 435 t",
-    "residuos peligrosos 435 t",
     "residuos peligrosos 435 t"
    ],
    "lineas": [
@@ -15418,7 +15238,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 1740.0,
+   "residuos_t": 435.0,
    "tomadores": [
     {
      "nombre": "Edison Pizarro Navarro",
@@ -15448,7 +15268,7 @@
     "cargo": "Gerente de Operaciones & Servicios",
     "linkedin": "https://cl.linkedin.com/in/edison-pizarro-navarro-1ba059202"
    },
-   "angulo": "genera 1,740 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 435 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 81.1
   },
   {
@@ -15491,9 +15311,6 @@
    "dolor_total": 160.0,
    "dolor_max_planta": 40.0,
    "senales": [
-    "residuos peligrosos 8,108 t",
-    "residuos peligrosos 8,108 t",
-    "residuos peligrosos 8,108 t",
     "residuos peligrosos 8,108 t"
    ],
    "lineas": [
@@ -15504,7 +15321,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 32431.6,
+   "residuos_t": 8107.9,
    "tomadores": [
     {
      "nombre": "Carlos Farías Muñoz",
@@ -15674,7 +15491,7 @@
     "cargo": "Jefe de Planta",
     "linkedin": "https://cl.linkedin.com/in/carlos-far%C3%ADas-mu%C3%B1oz-38824489"
    },
-   "angulo": "genera 32,432 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 8,108 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 80.7
   },
   {
@@ -15712,8 +15529,6 @@
    "dolor_total": 120.0,
    "dolor_max_planta": 40.0,
    "senales": [
-    "residuos peligrosos 4,726 t",
-    "residuos peligrosos 4,726 t",
     "residuos peligrosos 4,726 t"
    ],
    "lineas": [
@@ -15721,7 +15536,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 14177.6,
+   "residuos_t": 4725.9,
    "tomadores": [
     {
      "nombre": "Luis Osvaldo Calderón Salgado",
@@ -15751,7 +15566,7 @@
     "cargo": "Jefe de Horno",
     "linkedin": "https://cl.linkedin.com/in/luisosvaldo-calderon"
    },
-   "angulo": "genera 14,178 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 4,726 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 80.6
   },
   {
@@ -15906,7 +15721,6 @@
    "dolor_total": 53.2,
    "dolor_max_planta": 26.6,
    "senales": [
-    "residuos peligrosos 432 t",
     "residuos peligrosos 432 t"
    ],
    "lineas": [
@@ -15916,7 +15730,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 864.1,
+   "residuos_t": 432.0,
    "tomadores": [
     {
      "nombre": "Fernando Koch",
@@ -16006,7 +15820,7 @@
     "cargo": "Gerente de Planta",
     "linkedin": "https://cl.linkedin.com/in/fernando-koch-02b5164b"
    },
-   "angulo": "genera 864 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 432 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 80.3
   },
   {
@@ -16470,9 +16284,6 @@
    "dolor_total": 1465.2,
    "dolor_max_planta": 19.8,
    "senales": [
-    "residuos peligrosos 297 t",
-    "residuos peligrosos 297 t",
-    "residuos peligrosos 297 t",
     "residuos peligrosos 297 t"
    ],
    "lineas": [
@@ -16481,7 +16292,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 21952.8,
+   "residuos_t": 296.7,
    "tomadores": [
     {
      "nombre": "Cristiano Vergara Castillo",
@@ -16571,7 +16382,7 @@
     "cargo": "Gerente General",
     "linkedin": "https://cl.linkedin.com/in/cristian-vergara-8a4b87105"
    },
-   "angulo": "genera 21,953 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 297 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 80.2
   },
   {
@@ -16608,15 +16419,14 @@
    "senales": [
     "RILES al agua 140",
     "residuos peligrosos 6 t",
-    "36 contaminantes",
-    "RILES al agua 140"
+    "36 contaminantes"
    ],
    "lineas": [
     "DCS",
     "Instrumentación"
    ],
-   "riles": 420.0,
-   "residuos_t": 17.5,
+   "riles": 140.0,
+   "residuos_t": 5.8,
    "tomadores": [
     {
      "nombre": "Claudio Javier Salgado Subiabre",
@@ -16636,7 +16446,7 @@
     "cargo": "Gerente de Producción y Operaciones",
     "linkedin": "https://cl.linkedin.com/in/claudio-salgado-18570353"
    },
-   "angulo": "emite al agua 420 (DS 90/2000): hoy no lo mide en línea · genera 18 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 140 (DS 90/2000): hoy no lo mide en línea · genera 6 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 78.9
   },
   {
@@ -16675,8 +16485,6 @@
    "dolor_total": 57.3,
    "dolor_max_planta": 19.1,
    "senales": [
-    "residuos peligrosos 281 t",
-    "residuos peligrosos 281 t",
     "residuos peligrosos 281 t"
    ],
    "lineas": [
@@ -16685,7 +16493,7 @@
     "SIS"
    ],
    "riles": 0.0,
-   "residuos_t": 843.8,
+   "residuos_t": 281.3,
    "tomadores": [
     {
      "nombre": "Eugenio Audisio",
@@ -16735,7 +16543,7 @@
     "cargo": "Gerente General",
     "linkedin": "https://cl.linkedin.com/in/eugenio-audisio-20a831148"
    },
-   "angulo": "genera 844 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 281 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 77.0
   },
   {
@@ -16776,8 +16584,7 @@
    "senales": [
     "RILES al agua 0",
     "residuos peligrosos 36 t",
-    "29 contaminantes",
-    "RILES al agua 0"
+    "29 contaminantes"
    ],
    "lineas": [
     "DCS",
@@ -16785,8 +16592,8 @@
     "Software y plataforma",
     "Válvulas"
    ],
-   "riles": 0.6,
-   "residuos_t": 107.8,
+   "riles": 0.2,
+   "residuos_t": 35.9,
    "tomadores": [
     {
      "nombre": "Luis Bonilla",
@@ -16816,7 +16623,7 @@
     "cargo": "Gerente Agroindustrial Zona Centro",
     "linkedin": "https://cl.linkedin.com/in/luis-bonilla-b4710585"
    },
-   "angulo": "emite al agua 1 (DS 90/2000): hoy no lo mide en línea · genera 108 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 0 (DS 90/2000): hoy no lo mide en línea · genera 36 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 75.0
   },
   {
@@ -16848,8 +16655,6 @@
    "dolor_max_planta": 18.1,
    "senales": [
     "RILES al agua 7",
-    "10 contaminantes",
-    "RILES al agua 7",
     "10 contaminantes"
    ],
    "lineas": [
@@ -16858,7 +16663,7 @@
     "Software y plataforma",
     "Válvulas"
    ],
-   "riles": 14.9,
+   "riles": 7.4,
    "residuos_t": 0.0,
    "tomadores": [
     {
@@ -16889,7 +16694,7 @@
     "cargo": "Director / Presidente de Seafood Resources Chile S.A.",
     "linkedin": ""
    },
-   "angulo": "emite al agua 15 (DS 90/2000): hoy no lo mide en línea",
+   "angulo": "emite al agua 7 (DS 90/2000): hoy no lo mide en línea",
    "prioridad_contacto": 72.9
   },
   {
@@ -16920,7 +16725,6 @@
    "dolor_total": 48.2,
    "dolor_max_planta": 24.1,
    "senales": [
-    "residuos peligrosos 382 t",
     "residuos peligrosos 382 t"
    ],
    "lineas": [
@@ -16930,7 +16734,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 763.8,
+   "residuos_t": 381.9,
    "tomadores": [
     {
      "nombre": "Iván Henríquez Sapunar",
@@ -16970,7 +16774,7 @@
     "cargo": "Gerente de Operaciones y Negocios",
     "linkedin": "https://cl.linkedin.com/in/iv%C3%A1n-henriquez-33081b5b"
    },
-   "angulo": "genera 764 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 382 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 72.8
   },
   {
@@ -17010,8 +16814,6 @@
    "dolor_max_planta": 18.0,
    "senales": [
     "RILES al agua 0",
-    "6 contaminantes",
-    "RILES al agua 0",
     "6 contaminantes"
    ],
    "lineas": [
@@ -17020,7 +16822,7 @@
     "Software y plataforma",
     "Válvulas"
    ],
-   "riles": 0.2,
+   "riles": 0.1,
    "residuos_t": 0.0,
    "tomadores": [
     {
@@ -17113,15 +16915,13 @@
    "dolor_max_planta": 18.0,
    "senales": [
     "RILES al agua 0",
-    "29 contaminantes",
-    "RILES al agua 0",
     "29 contaminantes"
    ],
    "lineas": [
     "Instrumentación",
     "Software y plataforma"
    ],
-   "riles": 0.4,
+   "riles": 0.2,
    "residuos_t": 0.0,
    "tomadores": [
     {
@@ -17196,15 +16996,14 @@
    "senales": [
     "RILES al agua 1",
     "residuos peligrosos 5 t",
-    "5 contaminantes",
-    "RILES al agua 1"
+    "5 contaminantes"
    ],
    "lineas": [
     "Instrumentación",
     "Software y plataforma"
    ],
-   "riles": 2.5,
-   "residuos_t": 10.6,
+   "riles": 1.3,
+   "residuos_t": 5.3,
    "tomadores": [
     {
      "nombre": "Cristian Ruarte",
@@ -17224,7 +17023,7 @@
     "cargo": "Gerente de Producción",
     "linkedin": "https://cl.linkedin.com/in/cristian-ruarte-140b6691"
    },
-   "angulo": "emite al agua 2 (DS 90/2000): hoy no lo mide en línea · genera 11 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 1 (DS 90/2000): hoy no lo mide en línea · genera 5 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 70.4
   },
   {
@@ -17392,15 +17191,14 @@
    "senales": [
     "RILES al agua 5",
     "residuos peligrosos 203 t",
-    "30 contaminantes",
-    "RILES al agua 5"
+    "30 contaminantes"
    ],
    "lineas": [
     "Instrumentación",
     "Software y plataforma"
    ],
-   "riles": 123.8,
-   "residuos_t": 4860.7,
+   "riles": 5.2,
+   "residuos_t": 202.5,
    "tomadores": [
     {
      "nombre": "Cristian Zamorano",
@@ -17440,7 +17238,7 @@
     "cargo": "Instrumentista Senior (instrumentación y automatización)",
     "linkedin": "https://cl.linkedin.com/in/cristian-zamorano-instrumentista-senior"
    },
-   "angulo": "emite al agua 124 (DS 90/2000): hoy no lo mide en línea · genera 4,861 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 5 (DS 90/2000): hoy no lo mide en línea · genera 202 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 67.4
   },
   {
@@ -17548,9 +17346,6 @@
    "dolor_total": 305.2,
    "dolor_max_planta": 21.8,
    "senales": [
-    "residuos peligrosos 337 t",
-    "residuos peligrosos 337 t",
-    "residuos peligrosos 337 t",
     "residuos peligrosos 337 t"
    ],
    "lineas": [
@@ -17559,7 +17354,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 4712.0,
+   "residuos_t": 336.6,
    "tomadores": [
     {
      "nombre": "Eduardo Pozo",
@@ -17599,7 +17394,7 @@
     "cargo": "Gerente de Operaciones",
     "linkedin": "https://cl.linkedin.com/in/eduardo-pozo-75811050"
    },
-   "angulo": "genera 4,712 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 337 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 66.4
   },
   {
@@ -17631,7 +17426,6 @@
    "dolor_total": 42.4,
    "dolor_max_planta": 21.2,
    "senales": [
-    "residuos peligrosos 324 t",
     "residuos peligrosos 324 t"
    ],
    "lineas": [
@@ -17639,7 +17433,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 648.0,
+   "residuos_t": 324.0,
    "tomadores": [
     {
      "nombre": "Hitalo Cruz Nova",
@@ -17679,7 +17473,7 @@
     "cargo": "Gerente de Operaciones y Proyectos en Forestal León",
     "linkedin": "https://cl.linkedin.com/in/hitalo-cruz-nova-a786594a"
    },
-   "angulo": "genera 648 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 324 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 64.1
   },
   {
@@ -17749,9 +17543,6 @@
    "dolor_total": 162.4,
    "dolor_max_planta": 20.3,
    "senales": [
-    "residuos peligrosos 305 t",
-    "residuos peligrosos 305 t",
-    "residuos peligrosos 305 t",
     "residuos peligrosos 305 t"
    ],
    "lineas": [
@@ -17760,7 +17551,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 2441.5,
+   "residuos_t": 305.2,
    "tomadores": [
     {
      "nombre": "Sergio Rodríguez López",
@@ -17800,7 +17591,7 @@
     "cargo": "Gerente de Plantas, Ingeniería y Mantención",
     "linkedin": "https://cl.linkedin.com/in/sergio-rodriguez-lopez-3a747731"
    },
-   "angulo": "genera 2,442 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 305 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 61.9
   },
   {
@@ -17954,9 +17745,6 @@
    "dolor_total": 332.2,
    "dolor_max_planta": 15.1,
    "senales": [
-    "residuos peligrosos 201 t",
-    "residuos peligrosos 201 t",
-    "residuos peligrosos 201 t",
     "residuos peligrosos 201 t"
    ],
    "lineas": [
@@ -17965,7 +17753,7 @@
     "SIS"
    ],
    "riles": 0.0,
-   "residuos_t": 4424.2,
+   "residuos_t": 201.1,
    "tomadores": [
     {
      "nombre": "Álvaro Restrepo Salazar",
@@ -17995,7 +17783,7 @@
     "cargo": "Gerente General de Terpel Chile",
     "linkedin": ""
    },
-   "angulo": "genera 4,424 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 201 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 61.4
   },
   {
@@ -18027,7 +17815,6 @@
    "dolor_total": 30.4,
    "dolor_max_planta": 15.2,
    "senales": [
-    "residuos peligrosos 203 t",
     "residuos peligrosos 203 t"
    ],
    "lineas": [
@@ -18036,7 +17823,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 406.8,
+   "residuos_t": 203.4,
    "tomadores": [
     {
      "nombre": "Boris Peña Asenjo",
@@ -18076,7 +17863,7 @@
     "cargo": "Gerente Corporativo Operaciones, Administración y Sistemas",
     "linkedin": "https://cl.linkedin.com/in/borisp"
    },
-   "angulo": "genera 407 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 203 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 61.3
   },
   {
@@ -18107,7 +17894,6 @@
    "dolor_total": 29.8,
    "dolor_max_planta": 14.9,
    "senales": [
-    "residuos peligrosos 198 t",
     "residuos peligrosos 198 t"
    ],
    "lineas": [
@@ -18116,7 +17902,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 396.3,
+   "residuos_t": 198.2,
    "tomadores": [
     {
      "nombre": "Cristian Balbontin Fox",
@@ -18146,7 +17932,7 @@
     "cargo": "Gerente General",
     "linkedin": "https://cl.linkedin.com/in/cristian-balbontin-fox-10198117"
    },
-   "angulo": "genera 396 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 198 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 60.1
   },
   {
@@ -18189,9 +17975,6 @@
    "dolor_total": 77.6,
    "dolor_max_planta": 19.4,
    "senales": [
-    "residuos peligrosos 288 t",
-    "residuos peligrosos 288 t",
-    "residuos peligrosos 288 t",
     "residuos peligrosos 288 t"
    ],
    "lineas": [
@@ -18201,7 +17984,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 1151.0,
+   "residuos_t": 287.8,
    "tomadores": [
     {
      "nombre": "Raúl Miranda",
@@ -18251,7 +18034,7 @@
     "cargo": "Gerente Desarrollo Plantas de Producción",
     "linkedin": "https://cl.linkedin.com/in/ra%C3%BAl-miranda-6a824666"
    },
-   "angulo": "genera 1,151 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 288 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 58.9
   },
   {
@@ -18294,9 +18077,6 @@
    "dolor_total": 57.6,
    "dolor_max_planta": 14.4,
    "senales": [
-    "residuos peligrosos 187 t",
-    "residuos peligrosos 187 t",
-    "residuos peligrosos 187 t",
     "residuos peligrosos 187 t"
    ],
    "lineas": [
@@ -18305,7 +18085,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 749.8,
+   "residuos_t": 187.4,
    "tomadores": [
     {
      "nombre": "Eugenio Rodríguez Mingo",
@@ -18345,7 +18125,7 @@
     "cargo": "Gerente General",
     "linkedin": ""
    },
-   "angulo": "genera 750 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 187 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 58.3
   },
   {
@@ -18459,9 +18239,6 @@
    "dolor_total": 133.0,
    "dolor_max_planta": 19.0,
    "senales": [
-    "residuos peligrosos 281 t",
-    "residuos peligrosos 281 t",
-    "residuos peligrosos 281 t",
     "residuos peligrosos 281 t"
    ],
    "lineas": [
@@ -18469,7 +18246,7 @@
     "Instrumentación"
    ],
    "riles": 0.0,
-   "residuos_t": 1965.7,
+   "residuos_t": 280.8,
    "tomadores": [
     {
      "nombre": "Diego Delgado Castro",
@@ -18519,7 +18296,7 @@
     "cargo": "Gerente de Operaciones",
     "linkedin": "https://cl.linkedin.com/in/diego-delgado-castro-87931b4b"
    },
-   "angulo": "genera 1,966 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 281 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 57.9
   },
   {
@@ -18551,7 +18328,6 @@
    "dolor_total": 37.6,
    "dolor_max_planta": 18.8,
    "senales": [
-    "residuos peligrosos 276 t",
     "residuos peligrosos 276 t"
    ],
    "lineas": [
@@ -18560,7 +18336,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 552.5,
+   "residuos_t": 276.3,
    "tomadores": [
     {
      "nombre": "Carlos Figueroa",
@@ -18600,7 +18376,7 @@
     "cargo": "Gerente de Operación y Mantenimiento",
     "linkedin": "https://cl.linkedin.com/in/carlos-figueroa-784a5443"
    },
-   "angulo": "genera 552 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 276 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 56.9
   },
   {
@@ -18640,15 +18416,14 @@
    "senales": [
     "RILES al agua 2,287",
     "residuos peligrosos 7 t",
-    "29 contaminantes",
-    "RILES al agua 2,287"
+    "29 contaminantes"
    ],
    "lineas": [
     "DCS",
     "Instrumentación"
    ],
-   "riles": 6859.6,
-   "residuos_t": 22.4,
+   "riles": 2286.5,
+   "residuos_t": 7.5,
    "tomadores": [
     {
      "nombre": "Valentina J.",
@@ -18678,7 +18453,7 @@
     "cargo": "Asistente administrativo",
     "linkedin": "https://cl.linkedin.com/in/valentina-j-a1581311b"
    },
-   "angulo": "emite al agua 6,860 (DS 90/2000): hoy no lo mide en línea · genera 22 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 2,286 (DS 90/2000): hoy no lo mide en línea · genera 8 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 56.0
   },
   {
@@ -18781,8 +18556,6 @@
    "dolor_max_planta": 18.0,
    "senales": [
     "RILES al agua 2",
-    "22 contaminantes",
-    "RILES al agua 2",
     "22 contaminantes"
    ],
    "lineas": [
@@ -18791,7 +18564,7 @@
     "Software y plataforma",
     "Válvulas"
    ],
-   "riles": 7.2,
+   "riles": 2.4,
    "residuos_t": 0.0,
    "tomadores": [
     {
@@ -18832,7 +18605,7 @@
     "cargo": "Subgerente de Administración, Seafood Nacional",
     "linkedin": "https://cl.linkedin.com/in/ignaciodelloro"
    },
-   "angulo": "emite al agua 7 (DS 90/2000): hoy no lo mide en línea",
+   "angulo": "emite al agua 2 (DS 90/2000): hoy no lo mide en línea",
    "prioridad_contacto": 54.6
   },
   {
@@ -18864,7 +18637,6 @@
    "dolor_total": 35.6,
    "dolor_max_planta": 17.8,
    "senales": [
-    "residuos peligrosos 255 t",
     "residuos peligrosos 255 t"
    ],
    "lineas": [
@@ -18872,7 +18644,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 510.7,
+   "residuos_t": 255.3,
    "tomadores": [
     {
      "nombre": "Juan Andrés Lafuente Luzondo",
@@ -18912,7 +18684,7 @@
     "cargo": "Gerente de Operaciones",
     "linkedin": ""
    },
-   "angulo": "genera 511 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 255 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 53.9
   },
   {
@@ -18973,9 +18745,6 @@
    "dolor_total": 91.7,
    "dolor_max_planta": 13.1,
    "senales": [
-    "residuos peligrosos 162 t",
-    "residuos peligrosos 162 t",
-    "residuos peligrosos 162 t",
     "residuos peligrosos 162 t"
    ],
    "lineas": [
@@ -18983,7 +18752,7 @@
     "Instrumentación"
    ],
    "riles": 0.0,
-   "residuos_t": 1136.8,
+   "residuos_t": 162.4,
    "tomadores": [
     {
      "nombre": "Benjamin Holmes",
@@ -19033,7 +18802,7 @@
     "cargo": "CEO de CULTIVOS YADRAN / Gerente Operaciones",
     "linkedin": "https://cl.linkedin.com/in/benholmesch"
    },
-   "angulo": "genera 1,137 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 162 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 53.3
   },
   {
@@ -19077,9 +18846,6 @@
    "dolor_total": 51.6,
    "dolor_max_planta": 12.9,
    "senales": [
-    "residuos peligrosos 158 t",
-    "residuos peligrosos 158 t",
-    "residuos peligrosos 158 t",
     "residuos peligrosos 158 t"
    ],
    "lineas": [
@@ -19087,7 +18853,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 631.3,
+   "residuos_t": 157.8,
    "tomadores": [
     {
      "nombre": "Camillo Scocco",
@@ -19137,7 +18903,7 @@
     "cargo": "Gerente General AgriChile HCo / Ferrero",
     "linkedin": "https://cl.linkedin.com/in/camillo-scocco-05585933"
    },
-   "angulo": "genera 631 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 158 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 52.3
   },
   {
@@ -19170,8 +18936,7 @@
    "senales": [
     "RILES al agua 18",
     "residuos peligrosos 47 t",
-    "7 contaminantes",
-    "RILES al agua 18"
+    "7 contaminantes"
    ],
    "lineas": [
     "DCS",
@@ -19179,8 +18944,8 @@
     "Software y plataforma",
     "Válvulas"
    ],
-   "riles": 36.4,
-   "residuos_t": 93.5,
+   "riles": 18.2,
+   "residuos_t": 46.8,
    "tomadores": [
     {
      "nombre": "Luis Fuica V. I",
@@ -19220,7 +18985,7 @@
     "cargo": "Jefe de Planta",
     "linkedin": "https://cl.linkedin.com/in/luis-fuica-v-i-jefe-de-planta-2aa94520"
    },
-   "angulo": "emite al agua 36 (DS 90/2000): hoy no lo mide en línea · genera 94 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 18 (DS 90/2000): hoy no lo mide en línea · genera 47 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 51.9
   },
   {
@@ -19318,8 +19083,7 @@
    "senales": [
     "RILES al agua 1",
     "residuos peligrosos 37 t",
-    "29 contaminantes",
-    "RILES al agua 1"
+    "29 contaminantes"
    ],
    "lineas": [
     "DCS",
@@ -19327,8 +19091,8 @@
     "Software y plataforma",
     "Válvulas"
    ],
-   "riles": 1.8,
-   "residuos_t": 74.9,
+   "riles": 0.9,
+   "residuos_t": 37.5,
    "tomadores": [
     {
      "nombre": "Juan Enrique Vergara Sepúlveda",
@@ -19358,7 +19122,7 @@
     "cargo": "Jefe de planta Agua Mineral Porvenir y Jefe de Procesos Aguas CCU Nestlé",
     "linkedin": "https://cl.linkedin.com/in/juan-enrique-vergara-sepulveda-b24b7156"
    },
-   "angulo": "emite al agua 2 (DS 90/2000): hoy no lo mide en línea · genera 75 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 1 (DS 90/2000): hoy no lo mide en línea · genera 38 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 50.3
   },
   {
@@ -19389,7 +19153,6 @@
    "dolor_total": 31.4,
    "dolor_max_planta": 15.7,
    "senales": [
-    "residuos peligrosos 214 t",
     "residuos peligrosos 214 t"
    ],
    "lineas": [
@@ -19399,7 +19162,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 427.8,
+   "residuos_t": 213.9,
    "tomadores": [
     {
      "nombre": "Marco Antonio Mora Vásquez",
@@ -19429,7 +19192,7 @@
     "cargo": "Gerente de Operaciones",
     "linkedin": "https://cl.linkedin.com/in/marco-antonio-mora-vasquez-865345115"
    },
-   "angulo": "genera 428 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 214 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 47.6
   },
   {
@@ -19640,9 +19403,6 @@
    "dolor_total": 364.8,
    "dolor_max_planta": 11.4,
    "senales": [
-    "residuos peligrosos 128 t",
-    "residuos peligrosos 128 t",
-    "residuos peligrosos 128 t",
     "residuos peligrosos 128 t"
    ],
    "lineas": [
@@ -19651,7 +19411,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 4081.3,
+   "residuos_t": 127.5,
    "tomadores": [
     {
      "nombre": "José Luis Murillo Collado",
@@ -19701,7 +19461,7 @@
     "cargo": "Gerente General",
     "linkedin": "https://cl.linkedin.com/in/jose-luis-murillo-collado-21744a2"
    },
-   "angulo": "genera 4,081 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 128 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 46.6
   },
   {
@@ -19740,8 +19500,6 @@
    "dolor_total": 31.2,
    "dolor_max_planta": 10.4,
    "senales": [
-    "residuos peligrosos 108 t",
-    "residuos peligrosos 108 t",
     "residuos peligrosos 108 t"
    ],
    "lineas": [
@@ -19751,7 +19509,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 323.2,
+   "residuos_t": 107.7,
    "tomadores": [
     {
      "nombre": "Helmut Brandau",
@@ -19791,7 +19549,7 @@
     "cargo": "Gerente General Melón Áridos Ltda.",
     "linkedin": "https://cl.linkedin.com/in/helmut-brandau-596bba34"
    },
-   "angulo": "genera 323 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 108 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 42.2
   },
   {
@@ -19822,7 +19580,6 @@
    "dolor_total": 27.2,
    "dolor_max_planta": 13.6,
    "senales": [
-    "residuos peligrosos 173 t",
     "residuos peligrosos 173 t"
    ],
    "lineas": [
@@ -19831,7 +19588,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 345.1,
+   "residuos_t": 172.6,
    "tomadores": [
     {
      "nombre": "Pedro Boza Inostroza",
@@ -19871,7 +19628,7 @@
     "cargo": "Subgerente de Operaciones",
     "linkedin": "https://cl.linkedin.com/in/pedro-boza-inostroza-9787a739"
    },
-   "angulo": "genera 345 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 173 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 41.3
   },
   {
@@ -20502,9 +20259,6 @@
    "dolor_total": 4040.0,
    "dolor_max_planta": 40.0,
    "senales": [
-    "residuos peligrosos 9,658 t",
-    "residuos peligrosos 9,658 t",
-    "residuos peligrosos 9,658 t",
     "residuos peligrosos 9,658 t"
    ],
    "lineas": [
@@ -20515,7 +20269,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 975470.1,
+   "residuos_t": 9658.1,
    "tomadores": [
     {
      "nombre": "José Antonio Godoy",
@@ -20535,7 +20289,7 @@
     "cargo": "Jefe de Operaciones",
     "linkedin": "https://cl.linkedin.com/in/jose-antonio-godoy-2410b3361"
    },
-   "angulo": "genera 975,470 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 9,658 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 41.0
   },
   {
@@ -20608,8 +20362,6 @@
    "dolor_total": 120.0,
    "dolor_max_planta": 40.0,
    "senales": [
-    "residuos peligrosos 33,988 t",
-    "residuos peligrosos 33,988 t",
     "residuos peligrosos 33,988 t"
    ],
    "lineas": [
@@ -20618,7 +20370,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 101965.4,
+   "residuos_t": 33988.5,
    "tomadores": [
     {
      "nombre": "Cristián Jiménez Paredes",
@@ -20698,7 +20450,7 @@
     "cargo": "Gerente de Operaciones",
     "linkedin": "https://cl.linkedin.com/in/cristianjimenezp"
    },
-   "angulo": "genera 101,965 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 33,988 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 40.9
   },
   {
@@ -20729,7 +20481,6 @@
    "dolor_total": 26.8,
    "dolor_max_planta": 13.4,
    "senales": [
-    "residuos peligrosos 169 t",
     "residuos peligrosos 169 t"
    ],
    "lineas": [
@@ -20737,7 +20488,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 337.6,
+   "residuos_t": 168.8,
    "tomadores": [
     {
      "nombre": "Reinaldo Ewert Rewert",
@@ -20777,7 +20528,7 @@
     "cargo": "Gerente de Planta",
     "linkedin": "https://cl.linkedin.com/in/reinaldo-ewert-rewert-b654a957"
    },
-   "angulo": "genera 338 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 169 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 40.7
   },
   {
@@ -20809,7 +20560,6 @@
    "dolor_total": 80.0,
    "dolor_max_planta": 40.0,
    "senales": [
-    "residuos peligrosos 767 t",
     "residuos peligrosos 767 t"
    ],
    "lineas": [
@@ -20819,7 +20569,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 1534.2,
+   "residuos_t": 767.1,
    "tomadores": [
     {
      "nombre": "José Luis Soto",
@@ -20859,7 +20609,7 @@
     "cargo": "Manager Engineering & Asset para Chile y Argentina en Orica",
     "linkedin": "https://cl.linkedin.com/in/jose‐luis‐soto‐90b0481b4"
    },
-   "angulo": "genera 1,534 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 767 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 40.5
   },
   {
@@ -20890,7 +20640,6 @@
    "dolor_total": 26.4,
    "dolor_max_planta": 13.2,
    "senales": [
-    "residuos peligrosos 164 t",
     "residuos peligrosos 164 t"
    ],
    "lineas": [
@@ -20900,7 +20649,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 328.6,
+   "residuos_t": 164.3,
    "tomadores": [
     {
      "nombre": "Patricio Cabrera",
@@ -20960,7 +20709,7 @@
     "cargo": "Gerente de Planta en Coca-Cola Embonor S.A.",
     "linkedin": "https://cl.linkedin.com/in/patricio-cabrera-106245162"
    },
-   "angulo": "genera 329 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 164 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 40.1
   },
   {
@@ -21005,9 +20754,6 @@
    "dolor_total": 51.6,
    "dolor_max_planta": 12.9,
    "senales": [
-    "residuos peligrosos 158 t",
-    "residuos peligrosos 158 t",
-    "residuos peligrosos 158 t",
     "residuos peligrosos 158 t"
    ],
    "lineas": [
@@ -21015,7 +20761,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 630.4,
+   "residuos_t": 157.6,
    "tomadores": [
     {
      "nombre": "Jorge Gárate Moscoso",
@@ -21065,7 +20811,7 @@
     "cargo": "Gerente de Operaciones y Logística",
     "linkedin": "https://cl.linkedin.com/in/jorge-g%C3%A1rate-moscoso-1815ab22"
    },
-   "angulo": "genera 630 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 158 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 39.4
   },
   {
@@ -21103,8 +20849,6 @@
    "dolor_total": 29.1,
    "dolor_max_planta": 9.7,
    "senales": [
-    "residuos peligrosos 94 t",
-    "residuos peligrosos 94 t",
     "residuos peligrosos 94 t"
    ],
    "lineas": [
@@ -21113,7 +20857,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 283.2,
+   "residuos_t": 94.4,
    "tomadores": [
     {
      "nombre": "Gonzalo Acevedo Ludwig",
@@ -21163,7 +20907,7 @@
     "cargo": "Gerente General",
     "linkedin": "https://cl.linkedin.com/in/gonzalo-acevedo-ludwig-4872a27"
    },
-   "angulo": "genera 283 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 94 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 39.4
   },
   {
@@ -21429,9 +21173,6 @@
    "dolor_total": 350.0,
    "dolor_max_planta": 12.5,
    "senales": [
-    "residuos peligrosos 150 t",
-    "residuos peligrosos 150 t",
-    "residuos peligrosos 150 t",
     "residuos peligrosos 150 t"
    ],
    "lineas": [
@@ -21441,7 +21182,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 4202.0,
+   "residuos_t": 150.1,
    "tomadores": [
     {
      "nombre": "Ricardo Gómez",
@@ -21591,7 +21332,7 @@
     "cargo": "Gerente de Planta en Agrosuper, Faenadora Lo Miranda",
     "linkedin": "https://cl.linkedin.com/in/ricardo-gomez-83561466"
    },
-   "angulo": "genera 4,202 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 150 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 38.5
   },
   {
@@ -21623,7 +21364,6 @@
    "dolor_total": 25.0,
    "dolor_max_planta": 12.5,
    "senales": [
-    "residuos peligrosos 151 t",
     "residuos peligrosos 151 t"
    ],
    "lineas": [
@@ -21632,7 +21372,7 @@
     "SIS"
    ],
    "riles": 0.0,
-   "residuos_t": 301.6,
+   "residuos_t": 150.8,
    "tomadores": [
     {
      "nombre": "Cristóbal Gonzalo Cifuentes Ulloa",
@@ -21692,7 +21432,7 @@
     "cargo": "Gerente Operaciones, Logística y Aprovisionamiento en GASCO GLP S.A.",
     "linkedin": "https://cl.linkedin.com/in/crist%C3%B3bal-gonzalo-cifuentes-ulloa-03b6b637"
    },
-   "angulo": "genera 302 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 151 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 38.0
   },
   {
@@ -21862,8 +21602,6 @@
    "dolor_max_planta": 17.4,
    "senales": [
     "RILES al agua 0",
-    "residuos peligrosos 87 t",
-    "RILES al agua 0",
     "residuos peligrosos 87 t"
    ],
    "lineas": [
@@ -21872,8 +21610,8 @@
     "Software y plataforma",
     "Válvulas"
    ],
-   "riles": 1.3,
-   "residuos_t": 349.6,
+   "riles": 0.3,
+   "residuos_t": 87.4,
    "tomadores": [
     {
      "nombre": "Domingo Muñoz Gómez",
@@ -21893,7 +21631,7 @@
     "cargo": "Jefe de Mantenimiento",
     "linkedin": "https://www.linkedin.com/company/compania-pisquera-de-chile-s-a"
    },
-   "angulo": "emite al agua 1 (DS 90/2000): hoy no lo mide en línea · genera 350 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "emite al agua 0 (DS 90/2000): hoy no lo mide en línea · genera 87 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 35.5
   },
   {
@@ -21924,7 +21662,6 @@
    "dolor_total": 22.8,
    "dolor_max_planta": 11.4,
    "senales": [
-    "residuos peligrosos 128 t",
     "residuos peligrosos 128 t"
    ],
    "lineas": [
@@ -21932,7 +21669,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 256.0,
+   "residuos_t": 128.0,
    "tomadores": [
     {
      "nombre": "Karin Riquelme",
@@ -21962,7 +21699,7 @@
     "cargo": "Gerente Operaciones",
     "linkedin": "https://cl.linkedin.com/in/karin-riquelme-93a38a53"
    },
-   "angulo": "genera 256 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 128 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 34.7
   },
   {
@@ -22007,9 +21744,6 @@
    "dolor_total": 34.0,
    "dolor_max_planta": 8.5,
    "senales": [
-    "residuos peligrosos 70 t",
-    "residuos peligrosos 70 t",
-    "residuos peligrosos 70 t",
     "residuos peligrosos 70 t"
    ],
    "lineas": [
@@ -22019,7 +21753,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 280.2,
+   "residuos_t": 70.0,
    "tomadores": [
     {
      "nombre": "Alejandro Larenas Mantellero",
@@ -22049,7 +21783,7 @@
     "cargo": "Gerente General en Elektra Generación S.A.",
     "linkedin": ""
    },
-   "angulo": "genera 280 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 70 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 34.7
   },
   {
@@ -22086,8 +21820,6 @@
    "dolor_total": 33.6,
    "dolor_max_planta": 11.2,
    "senales": [
-    "residuos peligrosos 124 t",
-    "residuos peligrosos 124 t",
     "residuos peligrosos 124 t"
    ],
    "lineas": [
@@ -22095,7 +21827,7 @@
     "Instrumentación"
    ],
    "riles": 0.0,
-   "residuos_t": 371.3,
+   "residuos_t": 123.8,
    "tomadores": [
     {
      "nombre": "Tomás Gumucio Palma",
@@ -22145,7 +21877,7 @@
     "cargo": "Gerente Producción & Operaciones en BioMar Chile",
     "linkedin": "https://cl.linkedin.com/in/tgumucio"
    },
-   "angulo": "genera 371 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 124 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 34.2
   },
   {
@@ -22203,9 +21935,6 @@
    "dolor_total": 49.8,
    "dolor_max_planta": 8.3,
    "senales": [
-    "residuos peligrosos 65 t",
-    "residuos peligrosos 65 t",
-    "residuos peligrosos 65 t",
     "residuos peligrosos 65 t"
    ],
    "lineas": [
@@ -22213,7 +21942,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 391.3,
+   "residuos_t": 65.2,
    "tomadores": [
     {
      "nombre": "Gonzalo Etcheberry Baquedano",
@@ -22243,7 +21972,7 @@
     "cargo": "Gerente General / Gerente General Filial Biodiversa S.A.",
     "linkedin": "https://cl.linkedin.com/in/gonzalo-etcheberry-baquedano-5439983a"
    },
-   "angulo": "genera 391 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 65 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 34.0
   },
   {
@@ -22312,9 +22041,6 @@
    "dolor_total": 128.8,
    "dolor_max_planta": 16.1,
    "senales": [
-    "residuos peligrosos 223 t",
-    "residuos peligrosos 223 t",
-    "residuos peligrosos 223 t",
     "residuos peligrosos 223 t"
    ],
    "lineas": [
@@ -22322,7 +22048,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 1781.8,
+   "residuos_t": 222.7,
    "tomadores": [
     {
      "nombre": "Cristian Muñoz",
@@ -22382,7 +22108,7 @@
     "cargo": "Jefe de Planta",
     "linkedin": "https://cl.linkedin.com/in/cristian-mu%C3%B1oz-9316b953"
    },
-   "angulo": "genera 1,782 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 223 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 33.2
   },
   {
@@ -22505,8 +22231,6 @@
    "dolor_total": 24.3,
    "dolor_max_planta": 8.1,
    "senales": [
-    "residuos peligrosos 62 t",
-    "residuos peligrosos 62 t",
     "residuos peligrosos 62 t"
    ],
    "lineas": [
@@ -22514,7 +22238,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 186.7,
+   "residuos_t": 62.2,
    "tomadores": [
     {
      "nombre": "Jaime Bascuñán Noguera",
@@ -22574,7 +22298,7 @@
     "cargo": "Gerente General",
     "linkedin": "https://cl.linkedin.com/in/jaime-bascu%C3%B1an-noguera-53b95615"
    },
-   "angulo": "genera 187 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 62 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 33.0
   },
   {
@@ -22646,9 +22370,6 @@
    "dolor_total": 64.0,
    "dolor_max_planta": 8.0,
    "senales": [
-    "residuos peligrosos 60 t",
-    "residuos peligrosos 60 t",
-    "residuos peligrosos 60 t",
     "residuos peligrosos 60 t"
    ],
    "lineas": [
@@ -22656,7 +22377,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 480.0,
+   "residuos_t": 60.0,
    "tomadores": [
     {
      "nombre": "Manuel José Opazo Irarrázaval",
@@ -22696,7 +22417,7 @@
     "cargo": "Gerente General de KDM Industrial",
     "linkedin": "https://cl.linkedin.com/in/manuel-opazo-irarr%C3%A1zaval"
    },
-   "angulo": "genera 480 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 60 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 33.0
   },
   {
@@ -22734,8 +22455,6 @@
    "dolor_total": 30.6,
    "dolor_max_planta": 10.2,
    "senales": [
-    "residuos peligrosos 104 t",
-    "residuos peligrosos 104 t",
     "residuos peligrosos 104 t"
    ],
    "lineas": [
@@ -22745,7 +22464,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 311.7,
+   "residuos_t": 103.9,
    "tomadores": [
     {
      "nombre": "Luis Vergara",
@@ -22825,7 +22544,7 @@
     "cargo": "Gerente de Operation and Maintenance Improvement",
     "linkedin": "https://cl.linkedin.com/in/vergaraluis"
    },
-   "angulo": "genera 312 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 104 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 31.2
   },
   {
@@ -22907,9 +22626,6 @@
    "dolor_total": 75.0,
    "dolor_max_planta": 7.5,
    "senales": [
-    "residuos peligrosos 50 t",
-    "residuos peligrosos 50 t",
-    "residuos peligrosos 50 t",
     "residuos peligrosos 50 t"
    ],
    "lineas": [
@@ -22917,7 +22633,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 502.7,
+   "residuos_t": 50.3,
    "tomadores": [
     {
      "nombre": "Sergio Garín Schmid",
@@ -22957,7 +22673,7 @@
     "cargo": "Gerente General de Coagra S.A.",
     "linkedin": "https://cl.linkedin.com/in/sergio-gar%C3%ADn-schmid-73a0599"
    },
-   "angulo": "genera 503 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 50 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 31.0
   },
   {
@@ -23009,15 +22725,14 @@
    "senales": [
     "RILES al agua 0",
     "residuos peligrosos 20 t",
-    "4 contaminantes",
-    "RILES al agua 0"
+    "4 contaminantes"
    ],
    "lineas": [
     "Instrumentación",
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 39.1,
+   "residuos_t": 19.6,
    "tomadores": [
     {
      "nombre": "Christopher Dixon Gatica",
@@ -23057,7 +22772,7 @@
     "cargo": "Gerente de Calidad y Desarrollo",
     "linkedin": "https://cl.linkedin.com/in/christopher-dixon-gatica-2a93b4a0"
    },
-   "angulo": "genera 39 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 20 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 29.6
   },
   {
@@ -23088,7 +22803,6 @@
    "dolor_total": 19.4,
    "dolor_max_planta": 9.7,
    "senales": [
-    "residuos peligrosos 94 t",
     "residuos peligrosos 94 t"
    ],
    "lineas": [
@@ -23097,7 +22811,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 188.6,
+   "residuos_t": 94.3,
    "tomadores": [
     {
      "nombre": "Matías Silva",
@@ -23127,7 +22841,7 @@
     "cargo": "Gerente",
     "linkedin": "https://cl.linkedin.com/in/mat%C3%ADas-silva-713b82a8"
    },
-   "angulo": "genera 189 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 94 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 29.6
   },
   {
@@ -23170,9 +22884,6 @@
    "dolor_total": 28.8,
    "dolor_max_planta": 7.2,
    "senales": [
-    "residuos peligrosos 44 t",
-    "residuos peligrosos 44 t",
-    "residuos peligrosos 44 t",
     "residuos peligrosos 44 t"
    ],
    "lineas": [
@@ -23182,7 +22893,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 177.6,
+   "residuos_t": 44.4,
    "tomadores": [
     {
      "nombre": "James Lee Stancampiano",
@@ -23202,7 +22913,7 @@
     "cargo": "Gerente General de Empresa Eléctrica Panguipulli S.A.",
     "linkedin": "https://www.linkedin.com/in/james-lee-stancampiano-5b651817"
    },
-   "angulo": "genera 178 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 44 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 29.5
   },
   {
@@ -23233,7 +22944,6 @@
    "dolor_total": 14.4,
    "dolor_max_planta": 7.2,
    "senales": [
-    "residuos peligrosos 44 t",
     "residuos peligrosos 44 t"
    ],
    "lineas": [
@@ -23243,7 +22953,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 88.8,
+   "residuos_t": 44.4,
    "tomadores": [
     {
      "nombre": "Patricio Bottai",
@@ -23323,7 +23033,7 @@
     "cargo": "Gerente General",
     "linkedin": ""
    },
-   "angulo": "genera 89 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 44 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 29.3
   },
   {
@@ -23354,7 +23064,6 @@
    "dolor_total": 14.2,
    "dolor_max_planta": 7.1,
    "senales": [
-    "residuos peligrosos 43 t",
     "residuos peligrosos 43 t"
    ],
    "lineas": [
@@ -23364,7 +23073,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 85.7,
+   "residuos_t": 42.9,
    "tomadores": [
     {
      "nombre": "Luis Huerta Torchio",
@@ -23394,7 +23103,7 @@
     "cargo": "Director Ejecutivo  de la CCHEN",
     "linkedin": "https://cl.linkedin.com/in/luis-huerta-27161387"
    },
-   "angulo": "genera 86 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 43 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 28.9
   },
   {
@@ -23425,7 +23134,6 @@
    "dolor_total": 14.2,
    "dolor_max_planta": 7.1,
    "senales": [
-    "residuos peligrosos 42 t",
     "residuos peligrosos 42 t"
    ],
    "lineas": [
@@ -23433,7 +23141,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 83.6,
+   "residuos_t": 41.8,
    "tomadores": [
     {
      "nombre": "Marco Viviano",
@@ -23463,7 +23171,7 @@
     "cargo": "Gerente General",
     "linkedin": "https://cl.linkedin.com/in/marco-viviano-20b51a24"
    },
-   "angulo": "genera 84 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 42 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 28.9
   },
   {
@@ -23494,7 +23202,6 @@
    "dolor_total": 14.2,
    "dolor_max_planta": 7.1,
    "senales": [
-    "residuos peligrosos 42 t",
     "residuos peligrosos 42 t"
    ],
    "lineas": [
@@ -23505,7 +23212,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 84.6,
+   "residuos_t": 42.3,
    "tomadores": [
     {
      "nombre": "Raimundo Bailac Pereira",
@@ -23565,7 +23272,7 @@
     "cargo": "Gerente General",
     "linkedin": "https://cl.linkedin.com/in/raimundo-bailac-pereira-b53269104"
    },
-   "angulo": "genera 85 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 42 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 28.9
   },
   {
@@ -23602,8 +23309,6 @@
    "dolor_total": 28.2,
    "dolor_max_planta": 9.4,
    "senales": [
-    "residuos peligrosos 87 t",
-    "residuos peligrosos 87 t",
     "residuos peligrosos 87 t"
    ],
    "lineas": [
@@ -23612,7 +23317,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 261.7,
+   "residuos_t": 87.2,
    "tomadores": [
     {
      "nombre": "Christián Patricio Adema Galetovic",
@@ -23732,7 +23437,7 @@
     "cargo": "Gerente Regional",
     "linkedin": "https://cl.linkedin.com/in/christian-patricio-adema-galetovic-b98bb0348"
    },
-   "angulo": "genera 262 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 87 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 28.8
   },
   {
@@ -23919,9 +23624,6 @@
    "dolor_total": 257.6,
    "dolor_max_planta": 9.2,
    "senales": [
-    "residuos peligrosos 84 t",
-    "residuos peligrosos 84 t",
-    "residuos peligrosos 84 t",
     "residuos peligrosos 84 t"
    ],
    "lineas": [
@@ -23929,7 +23631,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 2338.8,
+   "residuos_t": 83.5,
    "tomadores": [
     {
      "nombre": "José Torga Leyton",
@@ -23969,7 +23671,7 @@
     "cargo": "Gerente Regional",
     "linkedin": "https://cl.linkedin.com/in/jose-torga-9330659"
    },
-   "angulo": "genera 2,339 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 84 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 28.6
   },
   {
@@ -24055,7 +23757,6 @@
    "dolor_total": 18.2,
    "dolor_max_planta": 9.1,
    "senales": [
-    "residuos peligrosos 83 t",
     "residuos peligrosos 83 t"
    ],
    "lineas": [
@@ -24064,7 +23765,7 @@
     "SIS"
    ],
    "riles": 0.0,
-   "residuos_t": 165.1,
+   "residuos_t": 82.6,
    "tomadores": [
     {
      "nombre": "Rafael Gonzalez Olivares",
@@ -24104,7 +23805,7 @@
     "cargo": "Gerente de Desarrollo y Sostenibilidad",
     "linkedin": "https://cl.linkedin.com/in/rafaelgonzalezolivarez/en"
    },
-   "angulo": "genera 165 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 83 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 27.8
   },
   {
@@ -24135,7 +23836,6 @@
    "dolor_total": 54.0,
    "dolor_max_planta": 27.0,
    "senales": [
-    "residuos peligrosos 439 t",
     "residuos peligrosos 439 t"
    ],
    "lineas": [
@@ -24144,7 +23844,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 879.0,
+   "residuos_t": 439.5,
    "tomadores": [
     {
      "nombre": "Cristian Ortega",
@@ -24164,7 +23864,7 @@
     "cargo": "Jefe de División de Ingeniería ENAER",
     "linkedin": "https://cl.linkedin.com/in/cristian-ortega-060811189"
    },
-   "angulo": "genera 879 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 440 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 27.5
   },
   {
@@ -24357,8 +24057,6 @@
    "dolor_total": 26.7,
    "dolor_max_planta": 8.9,
    "senales": [
-    "residuos peligrosos 78 t",
-    "residuos peligrosos 78 t",
     "residuos peligrosos 78 t"
    ],
    "lineas": [
@@ -24366,7 +24064,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 234.0,
+   "residuos_t": 78.0,
    "tomadores": [
     {
      "nombre": "Carlos Carrasco Venegas",
@@ -24406,7 +24104,7 @@
     "cargo": "Gerente de Operaciones en BIOMASA CHILE SA",
     "linkedin": "https://cl.linkedin.com/in/carlos-carrasco-venegas-7069ab71"
    },
-   "angulo": "genera 234 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 78 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 27.3
   },
   {
@@ -24437,7 +24135,6 @@
    "dolor_total": 17.6,
    "dolor_max_planta": 8.8,
    "senales": [
-    "residuos peligrosos 75 t",
     "residuos peligrosos 75 t"
    ],
    "lineas": [
@@ -24446,7 +24143,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 150.2,
+   "residuos_t": 75.1,
    "tomadores": [
     {
      "nombre": "Patricio Alejandro Danitz",
@@ -24496,7 +24193,7 @@
     "cargo": "Gerente de Operaciones",
     "linkedin": "https://cl.linkedin.com/in/patricio-alejandro-danitz-44a5025"
    },
-   "angulo": "genera 150 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 75 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 26.9
   },
   {
@@ -24546,9 +24243,6 @@
    "dolor_total": 32.5,
    "dolor_max_planta": 6.5,
    "senales": [
-    "residuos peligrosos 30 t",
-    "residuos peligrosos 30 t",
-    "residuos peligrosos 30 t",
     "residuos peligrosos 30 t"
    ],
    "lineas": [
@@ -24558,7 +24252,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 148.9,
+   "residuos_t": 29.8,
    "tomadores": [
     {
      "nombre": "Paul Konar Elder",
@@ -24588,7 +24282,7 @@
     "cargo": "Gerente General Filial Viña Cono Sur S.A.",
     "linkedin": ""
    },
-   "angulo": "genera 149 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 30 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 26.8
   },
   {
@@ -24699,8 +24393,6 @@
    "dolor_total": 18.9,
    "dolor_max_planta": 6.3,
    "senales": [
-    "residuos peligrosos 25 t",
-    "residuos peligrosos 25 t",
     "residuos peligrosos 25 t"
    ],
    "lineas": [
@@ -24709,7 +24401,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 75.4,
+   "residuos_t": 25.1,
    "tomadores": [
     {
      "nombre": "Eduardo Bailac",
@@ -24789,7 +24481,7 @@
     "cargo": "Gerente General",
     "linkedin": "https://cl.linkedin.com/in/eduardo-bailac-8342a418b"
    },
-   "angulo": "genera 75 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 25 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 25.8
   },
   {
@@ -24844,9 +24536,6 @@
    "dolor_total": 49.2,
    "dolor_max_planta": 8.2,
    "senales": [
-    "residuos peligrosos 64 t",
-    "residuos peligrosos 64 t",
-    "residuos peligrosos 64 t",
     "residuos peligrosos 64 t"
    ],
    "lineas": [
@@ -24855,7 +24544,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 383.8,
+   "residuos_t": 64.0,
    "tomadores": [
     {
      "nombre": "Gastón Muñoz Alvear",
@@ -24955,7 +24644,7 @@
     "cargo": "Gerente de Infraestructura",
     "linkedin": "https://cl.linkedin.com/in/gast%C3%B3n-mu%C3%B1oz-alvear-7085122a"
    },
-   "angulo": "genera 384 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 64 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 25.4
   },
   {
@@ -25016,9 +24705,6 @@
    "dolor_total": 42.7,
    "dolor_max_planta": 6.1,
    "senales": [
-    "residuos peligrosos 22 t",
-    "residuos peligrosos 22 t",
-    "residuos peligrosos 22 t",
     "residuos peligrosos 22 t"
    ],
    "lineas": [
@@ -25028,7 +24714,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 150.5,
+   "residuos_t": 21.5,
    "tomadores": [
     {
      "nombre": "Claudio Escobar",
@@ -25048,7 +24734,7 @@
     "cargo": "Gerente General CAPEL",
     "linkedin": "https://cl.linkedin.com/in/claudio-escobar-e"
    },
-   "angulo": "genera 150 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 22 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 25.3
   },
   {
@@ -25079,7 +24765,6 @@
    "dolor_total": 49.2,
    "dolor_max_planta": 24.6,
    "senales": [
-    "residuos peligrosos 391 t",
     "residuos peligrosos 391 t"
    ],
    "lineas": [
@@ -25087,7 +24772,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 782.3,
+   "residuos_t": 391.1,
    "tomadores": [
     {
      "nombre": "Rodrigo Maldonado Aravena",
@@ -25117,7 +24802,7 @@
     "cargo": "Jefe de Departamento de Prevención de Riesgos, Sociedad de Servicios Forestales Nylyumar Ltda",
     "linkedin": "https://cl.linkedin.com/in/rodrigo-maldonado-aravena-610330142"
    },
-   "angulo": "genera 782 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 391 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 25.1
   },
   {
@@ -25188,9 +24873,6 @@
    "dolor_total": 64.0,
    "dolor_max_planta": 8.0,
    "senales": [
-    "residuos peligrosos 61 t",
-    "residuos peligrosos 61 t",
-    "residuos peligrosos 61 t",
     "residuos peligrosos 61 t"
    ],
    "lineas": [
@@ -25200,7 +24882,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 485.7,
+   "residuos_t": 60.7,
    "tomadores": [
     {
      "nombre": "Harry Henríquez Muñoz",
@@ -25240,7 +24922,7 @@
     "cargo": "Gerente de Operaciones · Air Liquide Chile",
     "linkedin": "https://cl.linkedin.com/in/harry-henr%C3%ADquez-mu%C3%B1oz"
    },
-   "angulo": "genera 486 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 61 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 25.0
   },
   {
@@ -25355,7 +25037,6 @@
    "dolor_total": 11.8,
    "dolor_max_planta": 5.9,
    "senales": [
-    "residuos peligrosos 17 t",
     "residuos peligrosos 17 t"
    ],
    "lineas": [
@@ -25363,7 +25044,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 34.1,
+   "residuos_t": 17.0,
    "tomadores": [
     {
      "nombre": "Osvaldo Márquez Espinosa",
@@ -25393,7 +25074,7 @@
     "cargo": "Gerente General",
     "linkedin": ""
    },
-   "angulo": "genera 34 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 17 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 24.1
   },
   {
@@ -25431,8 +25112,6 @@
    "dolor_total": 17.4,
    "dolor_max_planta": 5.8,
    "senales": [
-    "residuos peligrosos 16 t",
-    "residuos peligrosos 16 t",
     "residuos peligrosos 16 t"
    ],
    "lineas": [
@@ -25440,7 +25119,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 48.0,
+   "residuos_t": 16.0,
    "tomadores": [
     {
      "nombre": "Alvaro Prieto Amigo",
@@ -25470,7 +25149,7 @@
     "cargo": "Gerente General",
     "linkedin": ""
    },
-   "angulo": "genera 48 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 16 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 23.8
   },
   {
@@ -25502,7 +25181,6 @@
    "dolor_total": 11.4,
    "dolor_max_planta": 5.7,
    "senales": [
-    "residuos peligrosos 15 t",
     "residuos peligrosos 15 t"
    ],
    "lineas": [
@@ -25510,7 +25188,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 29.3,
+   "residuos_t": 14.7,
    "tomadores": [
     {
      "nombre": "Adolfo Hurtado",
@@ -25540,7 +25218,7 @@
     "cargo": "Gerente General",
     "linkedin": ""
    },
-   "angulo": "genera 29 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 15 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 23.3
   },
   {
@@ -25578,8 +25256,6 @@
    "dolor_total": 16.8,
    "dolor_max_planta": 5.6,
    "senales": [
-    "residuos peligrosos 12 t",
-    "residuos peligrosos 12 t",
     "residuos peligrosos 12 t"
    ],
    "lineas": [
@@ -25587,7 +25263,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 36.2,
+   "residuos_t": 12.1,
    "tomadores": [
     {
      "nombre": "Luis Fernández",
@@ -25627,7 +25303,7 @@
     "cargo": "Gerente General",
     "linkedin": ""
    },
-   "angulo": "genera 36 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 12 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 23.0
   },
   {
@@ -25724,9 +25400,6 @@
    "dolor_total": 71.5,
    "dolor_max_planta": 5.5,
    "senales": [
-    "residuos peligrosos 10 t",
-    "residuos peligrosos 10 t",
-    "residuos peligrosos 10 t",
     "residuos peligrosos 10 t"
    ],
    "lineas": [
@@ -25735,7 +25408,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 136.5,
+   "residuos_t": 10.5,
    "tomadores": [
     {
      "nombre": "José Luis Murillo Collado",
@@ -25825,7 +25498,7 @@
     "cargo": "Gerente General",
     "linkedin": "https://es.linkedin.com/posts/jos%C3%A9-luis-murillo-collado-21744a2_un-honor-representar-a-chile-y-su-exitoso-activity-7335353440467886080-L7GC"
    },
-   "angulo": "genera 136 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 10 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 23.0
   },
   {
@@ -25874,9 +25547,6 @@
    "dolor_total": 27.5,
    "dolor_max_planta": 5.5,
    "senales": [
-    "residuos peligrosos 10 t",
-    "residuos peligrosos 10 t",
-    "residuos peligrosos 10 t",
     "residuos peligrosos 10 t"
    ],
    "lineas": [
@@ -25885,7 +25555,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 50.0,
+   "residuos_t": 10.0,
    "tomadores": [
     {
      "nombre": "Franz Scheel Nagel",
@@ -25985,7 +25655,7 @@
     "cargo": "Gerente General",
     "linkedin": "https://cl.linkedin.com/in/franz-scheel-nagel-8728134b"
    },
-   "angulo": "genera 50 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 10 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 22.8
   },
   {
@@ -26028,9 +25698,6 @@
    "dolor_total": 21.2,
    "dolor_max_planta": 5.3,
    "senales": [
-    "residuos peligrosos 6 t",
-    "residuos peligrosos 6 t",
-    "residuos peligrosos 6 t",
     "residuos peligrosos 6 t"
    ],
    "lineas": [
@@ -26040,7 +25707,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 25.0,
+   "residuos_t": 6.2,
    "tomadores": [
     {
      "nombre": "Alejandro Barrueto S.",
@@ -26090,7 +25757,7 @@
     "cargo": "Gerente general",
     "linkedin": "https://cl.linkedin.com/in/alejandro-barrueto-s-67007a36b"
    },
-   "angulo": "genera 25 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 6 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 21.9
   },
   {
@@ -26127,8 +25794,6 @@
    "dolor_total": 15.9,
    "dolor_max_planta": 5.3,
    "senales": [
-    "residuos peligrosos 6 t",
-    "residuos peligrosos 6 t",
     "residuos peligrosos 6 t"
    ],
    "lineas": [
@@ -26138,7 +25803,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 16.8,
+   "residuos_t": 5.6,
    "tomadores": [
     {
      "nombre": "Guillermo Schwarzenberg",
@@ -26158,7 +25823,7 @@
     "cargo": "Gerente General",
     "linkedin": "https://cl.linkedin.com/in/guillermo-schwarzenberg-14926621"
    },
-   "angulo": "genera 17 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 6 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 21.8
   },
   {
@@ -26226,9 +25891,6 @@
    "dolor_total": 55.3,
    "dolor_max_planta": 7.9,
    "senales": [
-    "residuos peligrosos 58 t",
-    "residuos peligrosos 58 t",
-    "residuos peligrosos 58 t",
     "residuos peligrosos 58 t"
    ],
    "lineas": [
@@ -26238,7 +25900,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 405.0,
+   "residuos_t": 57.9,
    "tomadores": [
     {
      "nombre": "Fernando Liebe",
@@ -26278,7 +25940,7 @@
     "cargo": "Gerente de Operaciones en Viña Santa Carolina",
     "linkedin": "https://cl.linkedin.com/in/fernando-liebe-42020428"
    },
-   "angulo": "genera 405 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 58 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 21.7
   },
   {
@@ -26323,9 +25985,6 @@
    "dolor_total": 20.4,
    "dolor_max_planta": 5.1,
    "senales": [
-    "residuos peligrosos 3 t",
-    "residuos peligrosos 3 t",
-    "residuos peligrosos 3 t",
     "residuos peligrosos 3 t"
    ],
    "lineas": [
@@ -26333,7 +25992,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 11.3,
+   "residuos_t": 2.8,
    "tomadores": [
     {
      "nombre": "Osvaldo Erbetta",
@@ -26383,7 +26042,7 @@
     "cargo": "Gerente General, Hortifrut Chile S.A.",
     "linkedin": "https://cl.linkedin.com/in/osvaldo-erbetta-568b4359"
    },
-   "angulo": "genera 11 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 3 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 21.1
   },
   {
@@ -26421,8 +26080,6 @@
    "dolor_total": 15.3,
    "dolor_max_planta": 5.1,
    "senales": [
-    "residuos peligrosos 2 t",
-    "residuos peligrosos 2 t",
     "residuos peligrosos 2 t"
    ],
    "lineas": [
@@ -26430,7 +26087,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 5.3,
+   "residuos_t": 1.8,
    "tomadores": [
     {
      "nombre": "Francisco Grohnert",
@@ -26470,7 +26127,7 @@
     "cargo": "Gerente General, Ventisquero Wine Estates",
     "linkedin": "https://cl.linkedin.com/in/francisco-grohnert-13373b35"
    },
-   "angulo": "genera 5 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 2 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 21.0
   },
   {
@@ -26639,9 +26296,6 @@
    "dolor_total": 160.0,
    "dolor_max_planta": 6.4,
    "senales": [
-    "residuos peligrosos 27 t",
-    "residuos peligrosos 27 t",
-    "residuos peligrosos 27 t",
     "residuos peligrosos 27 t"
    ],
    "lineas": [
@@ -26650,7 +26304,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 679.2,
+   "residuos_t": 27.2,
    "tomadores": [
     {
      "nombre": "Francisco Javier Dupré Núñez",
@@ -26690,7 +26344,7 @@
     "cargo": "Subgerente Zonal Talca",
     "linkedin": "https://cl.linkedin.com/in/fdupren"
    },
-   "angulo": "genera 679 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 27 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 20.2
   },
   {
@@ -26727,8 +26381,6 @@
    "dolor_total": 19.5,
    "dolor_max_planta": 6.5,
    "senales": [
-    "residuos peligrosos 29 t",
-    "residuos peligrosos 29 t",
     "residuos peligrosos 29 t"
    ],
    "lineas": [
@@ -26736,7 +26388,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 88.1,
+   "residuos_t": 29.4,
    "tomadores": [
     {
      "nombre": "Juan Pablo Bartolome Bachelet",
@@ -26756,7 +26408,7 @@
     "cargo": "Gerente",
     "linkedin": "https://cl.linkedin.com/in/juan-pablo-bartolome-bachelet-3b0807113"
    },
-   "angulo": "genera 88 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 29 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 20.1
   },
   {
@@ -26794,8 +26446,6 @@
    "dolor_total": 19.2,
    "dolor_max_planta": 6.4,
    "senales": [
-    "residuos peligrosos 28 t",
-    "residuos peligrosos 28 t",
     "residuos peligrosos 28 t"
    ],
    "lineas": [
@@ -26805,7 +26455,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 85.5,
+   "residuos_t": 28.5,
    "tomadores": [
     {
      "nombre": "Fernando Reyes",
@@ -26855,7 +26505,7 @@
     "cargo": "Gerente de Operaciones  en Maltexco",
     "linkedin": "https://cl.linkedin.com/in/fernando-reyes-b480724"
    },
-   "angulo": "genera 86 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 28 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 19.8
   },
   {
@@ -26913,9 +26563,6 @@
    "dolor_total": 28.4,
    "dolor_max_planta": 7.1,
    "senales": [
-    "residuos peligrosos 42 t",
-    "residuos peligrosos 42 t",
-    "residuos peligrosos 42 t",
     "residuos peligrosos 42 t"
    ],
    "lineas": [
@@ -26923,7 +26570,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 170.0,
+   "residuos_t": 42.5,
    "tomadores": [
     {
      "nombre": "Sebastian Santander Pérez",
@@ -26983,7 +26630,7 @@
     "cargo": "Gerente General de Resiter Industrial Chile",
     "linkedin": "https://es.linkedin.com/posts/gruporesiter_sebasti%C3%A1n-santander-asume-como-nuevo-activity-7077754679446646785-1eI2"
    },
-   "angulo": "genera 170 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 42 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 19.6
   },
   {
@@ -27021,8 +26668,6 @@
    "dolor_total": 18.6,
    "dolor_max_planta": 6.2,
    "senales": [
-    "residuos peligrosos 24 t",
-    "residuos peligrosos 24 t",
     "residuos peligrosos 24 t"
    ],
    "lineas": [
@@ -27032,7 +26677,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 72.9,
+   "residuos_t": 24.3,
    "tomadores": [
     {
      "nombre": "Luis Mena",
@@ -27072,7 +26717,7 @@
     "cargo": "Gerente de Recursos Humanos",
     "linkedin": "https://cl.linkedin.com/in/luis-mena-72b75875"
    },
-   "angulo": "genera 73 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 24 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 19.2
   },
   {
@@ -27111,8 +26756,6 @@
    "dolor_total": 18.6,
    "dolor_max_planta": 6.2,
    "senales": [
-    "residuos peligrosos 24 t",
-    "residuos peligrosos 24 t",
     "residuos peligrosos 24 t"
    ],
    "lineas": [
@@ -27122,7 +26765,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 72.6,
+   "residuos_t": 24.2,
    "tomadores": [
     {
      "nombre": "Claudio Pineda",
@@ -27192,7 +26835,7 @@
     "cargo": "Gerente de Planta en Melón S.A.",
     "linkedin": "https://cl.linkedin.com/in/claudio-pineda-b3b93634"
    },
-   "angulo": "genera 73 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 24 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 19.2
   },
   {
@@ -27223,7 +26866,6 @@
    "dolor_total": 12.4,
    "dolor_max_planta": 6.2,
    "senales": [
-    "residuos peligrosos 25 t",
     "residuos peligrosos 25 t"
    ],
    "lineas": [
@@ -27233,7 +26875,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 49.8,
+   "residuos_t": 24.9,
    "tomadores": [
     {
      "nombre": "Ricardo López Echeverría",
@@ -27283,7 +26925,7 @@
     "cargo": "Gerente Industrial",
     "linkedin": "https://cl.linkedin.com/in/ricardo-l%C3%B3pez-echeverr%C3%ADa-a2a67b20"
    },
-   "angulo": "genera 50 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 25 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 19.1
   },
   {
@@ -27314,7 +26956,6 @@
    "dolor_total": 12.2,
    "dolor_max_planta": 6.1,
    "senales": [
-    "residuos peligrosos 22 t",
     "residuos peligrosos 22 t"
    ],
    "lineas": [
@@ -27324,7 +26965,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 44.4,
+   "residuos_t": 22.2,
    "tomadores": [
     {
      "nombre": "Mauricio Redenz Rodríguez",
@@ -27354,7 +26995,7 @@
     "cargo": "Gerente de Operaciones",
     "linkedin": "https://cl.linkedin.com/in/mauricio-redenz-rodriguez-306207167"
    },
-   "angulo": "genera 44 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 22 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 18.8
   },
   {
@@ -27398,9 +27039,6 @@
    "dolor_total": 24.0,
    "dolor_max_planta": 6.0,
    "senales": [
-    "residuos peligrosos 19 t",
-    "residuos peligrosos 19 t",
-    "residuos peligrosos 19 t",
     "residuos peligrosos 19 t"
    ],
    "lineas": [
@@ -27410,7 +27048,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 77.7,
+   "residuos_t": 19.4,
    "tomadores": [
     {
      "nombre": "Francisco Javier Beltrami Fernández",
@@ -27430,7 +27068,7 @@
     "cargo": "Subgerente de Operaciones",
     "linkedin": "https://cl.linkedin.com/in/fbeltrami4"
    },
-   "angulo": "genera 78 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 19 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 18.7
   },
   {
@@ -27462,7 +27100,6 @@
    "dolor_total": 12.0,
    "dolor_max_planta": 6.0,
    "senales": [
-    "residuos peligrosos 20 t",
     "residuos peligrosos 20 t"
    ],
    "lineas": [
@@ -27471,7 +27108,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 40.7,
+   "residuos_t": 20.4,
    "tomadores": [
     {
      "nombre": "Mario Contreras Cárdenas",
@@ -27511,7 +27148,7 @@
     "cargo": "Subgerente Técnico en Polytex S.A.",
     "linkedin": "https://cl.linkedin.com/in/mario-contreras-cardenas-8a5938a6"
    },
-   "angulo": "genera 41 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 20 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 18.5
   },
   {
@@ -27573,9 +27210,6 @@
    "dolor_total": 39.9,
    "dolor_max_planta": 5.7,
    "senales": [
-    "residuos peligrosos 13 t",
-    "residuos peligrosos 13 t",
-    "residuos peligrosos 13 t",
     "residuos peligrosos 13 t"
    ],
    "lineas": [
@@ -27585,7 +27219,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 91.0,
+   "residuos_t": 13.0,
    "tomadores": [
     {
      "nombre": "Oscar Garrido Eugenin",
@@ -27625,7 +27259,7 @@
     "cargo": "Gerente de Producción",
     "linkedin": "https://cl.linkedin.com/in/ogarridoe"
    },
-   "angulo": "genera 91 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 13 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 18.0
   },
   {
@@ -27709,7 +27343,6 @@
    "dolor_total": 11.4,
    "dolor_max_planta": 5.7,
    "senales": [
-    "residuos peligrosos 13 t",
     "residuos peligrosos 13 t"
    ],
    "lineas": [
@@ -27718,7 +27351,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 26.5,
+   "residuos_t": 13.2,
    "tomadores": [
     {
      "nombre": "Eduardo Rojas",
@@ -27748,7 +27381,7 @@
     "cargo": "Gerente de Productos",
     "linkedin": "https://cl.linkedin.com/in/eduardo-rojas-b6323871"
    },
-   "angulo": "genera 26 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 13 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 17.6
   },
   {
@@ -27779,7 +27412,6 @@
    "dolor_total": 11.2,
    "dolor_max_planta": 5.6,
    "senales": [
-    "residuos peligrosos 12 t",
     "residuos peligrosos 12 t"
    ],
    "lineas": [
@@ -27789,7 +27421,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 24.3,
+   "residuos_t": 12.1,
    "tomadores": [
     {
      "nombre": "Ronald Behne Haberland",
@@ -27819,7 +27451,7 @@
     "cargo": "Gerente de operaciones, producción, planta",
     "linkedin": "https://cl.linkedin.com/in/ronald-behne-haberland"
    },
-   "angulo": "genera 24 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 12 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 17.3
   },
   {
@@ -27851,7 +27483,6 @@
    "dolor_total": 16.2,
    "dolor_max_planta": 8.1,
    "senales": [
-    "residuos peligrosos 61 t",
     "residuos peligrosos 61 t"
    ],
    "lineas": [
@@ -27859,7 +27490,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 122.8,
+   "residuos_t": 61.4,
    "tomadores": [
     {
      "nombre": "Edgar Barros",
@@ -27899,7 +27530,7 @@
     "cargo": "Jefe de Mantención de planta en Central Fruticola San Clemente",
     "linkedin": "https://cl.linkedin.com/in/edgar-barros-04a28a74"
    },
-   "angulo": "genera 123 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 61 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 16.7
   },
   {
@@ -27930,7 +27561,6 @@
    "dolor_total": 10.6,
    "dolor_max_planta": 5.3,
    "senales": [
-    "residuos peligrosos 5 t",
     "residuos peligrosos 5 t"
    ],
    "lineas": [
@@ -27938,7 +27568,7 @@
     "Instrumentación"
    ],
    "riles": 0.0,
-   "residuos_t": 10.6,
+   "residuos_t": 5.3,
    "tomadores": [
     {
      "nombre": "Cristóbal Schoennenbeck Grohnert",
@@ -27968,7 +27598,7 @@
     "cargo": "Gerente de Cultivos",
     "linkedin": "https://cl.linkedin.com/in/cristobal-schoennenbeck-grohnert-07695292"
    },
-   "angulo": "genera 11 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 5 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 16.4
   },
   {
@@ -28052,7 +27682,6 @@
    "dolor_total": 10.4,
    "dolor_max_planta": 5.2,
    "senales": [
-    "residuos peligrosos 4 t",
     "residuos peligrosos 4 t"
    ],
    "lineas": [
@@ -28060,7 +27689,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 8.0,
+   "residuos_t": 4.0,
    "tomadores": [
     {
      "nombre": "Margarita Kauak",
@@ -28080,7 +27709,7 @@
     "cargo": "Gerente",
     "linkedin": ""
    },
-   "angulo": "genera 8 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 4 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 16.1
   },
   {
@@ -28112,7 +27741,6 @@
    "dolor_total": 10.2,
    "dolor_max_planta": 5.1,
    "senales": [
-    "residuos peligrosos 1 t",
     "residuos peligrosos 1 t"
    ],
    "lineas": [
@@ -28120,7 +27748,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 2.4,
+   "residuos_t": 1.2,
    "tomadores": [
     {
      "nombre": "Francisco Enrique Contreras Del Rio",
@@ -28160,7 +27788,7 @@
     "cargo": "Gerente de Operaciones",
     "linkedin": "https://cl.linkedin.com/in/francisco-enrique-contreras-del-rio-41aba684"
    },
-   "angulo": "genera 2 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 1 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 15.8
   },
   {
@@ -28282,8 +27910,6 @@
    "dolor_total": 15.0,
    "dolor_max_planta": 5.0,
    "senales": [
-    "residuos peligrosos 0 t",
-    "residuos peligrosos 0 t",
     "residuos peligrosos 0 t"
    ],
    "lineas": [
@@ -28293,7 +27919,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 0.3,
+   "residuos_t": 0.1,
    "tomadores": [
     {
      "nombre": "Jorge Verástegui Bustamante",
@@ -28370,8 +27996,6 @@
    "dolor_total": 20.4,
    "dolor_max_planta": 6.8,
    "senales": [
-    "residuos peligrosos 36 t",
-    "residuos peligrosos 36 t",
     "residuos peligrosos 36 t"
    ],
    "lineas": [
@@ -28381,7 +28005,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 107.7,
+   "residuos_t": 35.9,
    "tomadores": [
     {
      "nombre": "Michael Villegas Verdugo",
@@ -28421,7 +28045,7 @@
     "cargo": "Jefe de Mantenimiento Planta BIC Tresmontes Lucchetti S.A",
     "linkedin": "https://cl.linkedin.com/in/michael-villegas-verdugo-0a674494"
    },
-   "angulo": "genera 108 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 36 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 14.2
   },
   {
@@ -28460,8 +28084,6 @@
    "dolor_total": 19.5,
    "dolor_max_planta": 6.5,
    "senales": [
-    "residuos peligrosos 30 t",
-    "residuos peligrosos 30 t",
     "residuos peligrosos 30 t"
    ],
    "lineas": [
@@ -28469,7 +28091,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 90.0,
+   "residuos_t": 30.0,
    "tomadores": [
     {
      "nombre": "Mittzy Morales",
@@ -28509,7 +28131,7 @@
     "cargo": "Jefe de planta, Ecofibras S.A.",
     "linkedin": "https://cl.linkedin.com/in/mittzy-morales-39b9372bb"
    },
-   "angulo": "genera 90 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 30 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 13.6
   },
   {
@@ -28546,8 +28168,6 @@
    "dolor_total": 18.3,
    "dolor_max_planta": 6.1,
    "senales": [
-    "residuos peligrosos 21 t",
-    "residuos peligrosos 21 t",
     "residuos peligrosos 21 t"
    ],
    "lineas": [
@@ -28555,7 +28175,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 63.8,
+   "residuos_t": 21.3,
    "tomadores": [
     {
      "nombre": "Florian Castellino",
@@ -28575,7 +28195,7 @@
     "cargo": "Jefe de Mantención, Viña Cousiño Macul",
     "linkedin": "https://cl.linkedin.com/in/florian-castellino-84350b129"
    },
-   "angulo": "genera 64 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 21 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 12.8
   },
   {
@@ -28606,7 +28226,6 @@
    "dolor_total": 20.8,
    "dolor_max_planta": 10.4,
    "senales": [
-    "residuos peligrosos 108 t",
     "residuos peligrosos 108 t"
    ],
    "lineas": [
@@ -28616,7 +28235,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 216.6,
+   "residuos_t": 108.3,
    "tomadores": [
     {
      "nombre": "Gustavo Adolfo Blanco Herrera",
@@ -28636,7 +28255,7 @@
     "cargo": "Jefe de Servicios Generales e Industriales",
     "linkedin": "https://cl.linkedin.com/in/gustavo-adolfo-blanco-herrera-049149150"
    },
-   "angulo": "genera 217 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 108 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 10.9
   },
   {
@@ -28667,7 +28286,6 @@
    "dolor_total": 18.0,
    "dolor_max_planta": 9.0,
    "senales": [
-    "residuos peligrosos 80 t",
     "residuos peligrosos 80 t"
    ],
    "lineas": [
@@ -28676,7 +28294,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 160.0,
+   "residuos_t": 80.0,
    "tomadores": [
     {
      "nombre": "Guillermo Peralta",
@@ -28716,7 +28334,7 @@
     "cargo": "Jefe de Logística y Distribución, Diversey Chile",
     "linkedin": "https://cl.linkedin.com/in/guillermo-peralta-48498b61"
    },
-   "angulo": "genera 160 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 80 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 9.5
   },
   {
@@ -28747,7 +28365,6 @@
    "dolor_total": 16.8,
    "dolor_max_planta": 8.4,
    "senales": [
-    "residuos peligrosos 68 t",
     "residuos peligrosos 68 t"
    ],
    "lineas": [
@@ -28755,7 +28372,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 135.0,
+   "residuos_t": 67.5,
    "tomadores": [
     {
      "nombre": "Gabriel Puentes",
@@ -28795,7 +28412,7 @@
     "cargo": "Encargado de Logística y Mantención",
     "linkedin": ""
    },
-   "angulo": "genera 135 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 68 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 8.9
   },
   {
@@ -28826,7 +28443,6 @@
    "dolor_total": 16.4,
    "dolor_max_planta": 8.2,
    "senales": [
-    "residuos peligrosos 65 t",
     "residuos peligrosos 65 t"
    ],
    "lineas": [
@@ -28834,7 +28450,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 130.0,
+   "residuos_t": 65.0,
    "tomadores": [
     {
      "nombre": "Luis Espinosa",
@@ -28874,7 +28490,7 @@
     "cargo": "Jefe de Calidad",
     "linkedin": "https://cl.linkedin.com/in/luis-espinosa-4949ab122"
    },
-   "angulo": "genera 130 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 65 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 8.7
   },
   {
@@ -29110,7 +28726,7 @@
     "Válvulas"
    ],
    "riles": 0.0,
-   "residuos_t": 1260.0,
+   "residuos_t": 515.3,
    "tomadores": [
     {
      "nombre": "Yovany Fernandez Rojas",
@@ -29170,7 +28786,7 @@
     "cargo": "Jefe de Instrumentación & Control (I&C)",
     "linkedin": "https://cl.linkedin.com/in/yovany-fernandez-rojas-a73a8526"
    },
-   "angulo": "genera 1,260 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 515 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 7.0
   },
   {
@@ -29201,7 +28817,6 @@
    "dolor_total": 11.0,
    "dolor_max_planta": 5.5,
    "senales": [
-    "residuos peligrosos 11 t",
     "residuos peligrosos 11 t"
    ],
    "lineas": [
@@ -29209,7 +28824,7 @@
     "Software y plataforma"
    ],
    "riles": 0.0,
-   "residuos_t": 21.6,
+   "residuos_t": 10.8,
    "tomadores": [
     {
      "nombre": "Cristian Kuhlenthal Becker",
@@ -29239,7 +28854,7 @@
     "cargo": "identificado como “key principal” / «General Manager» en Agricola Santa Lucía Limitada según Dun & Bradstreet. )",
     "linkedin": ""
    },
-   "angulo": "genera 22 t de residuos peligrosos (DS 43/2015)",
+   "angulo": "genera 11 t de residuos peligrosos (DS 43/2015)",
    "prioridad_contacto": 6.0
   },
   {
