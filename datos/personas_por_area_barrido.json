@@ -1,0 +1,1709 @@
+{
+ "fuente": "barrido LinkedIn (web_search por empresa × área) — nombre, cargo y perfil",
+ "advertencia": "cargo al momento del dato, NO verificado hoy: las personas se mueven",
+ "personas": 258,
+ "con_linkedin": 56,
+ "empresas": 55,
+ "por_empresa": {
+  "GNL QUINTERO SA": {
+   "Mantenimiento": [
+    {
+     "nombre": "Felipe Barriga",
+     "cargo": "Superintendente De Mantenimiento",
+     "linkedin": "https://www.linkedin.com/in/felipe-barriga-97930444"
+    },
+    {
+     "nombre": "José Daniel Marín Vidal",
+     "cargo": "Supervisor De Mantenimiento Eléctrico",
+     "linkedin": "https://www.linkedin.com/in/jos%C3%A9-daniel-mar%C3%ADn-vidal-9b279723"
+    }
+   ]
+  },
+  "EXPORTADORA LOS FIORDOS LIMITADA": {
+   "Calidad": [
+    {
+     "nombre": "Jaime Padilla Alvarez",
+     "cargo": "Supervisor General Aseguramiento De Calidad",
+     "linkedin": "https://www.linkedin.com/in/jaime-padilla-alvarez-16985368"
+    }
+   ],
+   "Mantenimiento": [
+    {
+     "nombre": "Luis Antonio Poblete Bobadilla",
+     "cargo": "Sub Gerente Mantención Agua Mar",
+     "linkedin": "https://www.linkedin.com/in/luis-antonio-poblete-bobadilla-103a4897"
+    }
+   ]
+  },
+  "CELULOSA ARAUCO Y CONSTITUCION S A": {
+   "Produccion": [
+    {
+     "nombre": "Max Constanzo",
+     "cargo": "Gerente Planta Celulosa Arauco. Planta Mapa L3",
+     "linkedin": "https://www.linkedin.com/in/max-constanzo-767605164"
+    }
+   ],
+   "Medio Ambiente": [
+    {
+     "nombre": "Jessica Rojas Agüero",
+     "cargo": "Ingeniero Senior Medio Ambiente Celulosa Arauco Transversal",
+     "linkedin": "https://www.linkedin.com/in/jessica-rojas-ag%C3%BCero-1b68a121"
+    }
+   ],
+   "Calidad": [
+    {
+     "nombre": "Natalia Pérez Castillo",
+     "cargo": "Jefe De Aseguramiento De La Calidad",
+     "linkedin": "https://www.linkedin.com/in/natalia-p%C3%A9rez-castillo-1a911841"
+    }
+   ],
+   "Instrumentacion y Control": [
+    {
+     "nombre": "Ricardo Arriagada",
+     "cargo": "Jefe Electrocontrol De Área",
+     "linkedin": "https://www.linkedin.com/in/ricardo-arriagada-35a0b446"
+    },
+    {
+     "nombre": "Luis Jiménez Pinilla",
+     "cargo": "PLANIFICADOR GESTION ELECTROCONTROL",
+     "linkedin": "https://www.linkedin.com/in/luis-jim%C3%A9nez-pinilla-a056816b"
+    },
+    {
+     "nombre": "Cristian Jimenez",
+     "cargo": "Tecnico Instrumentacion Y Contro",
+     "linkedin": "https://www.linkedin.com/in/cristian-jimenez-74571b168"
+    }
+   ],
+   "Mantenimiento": [
+    {
+     "nombre": "Zilay Edgardo Nuñez Salgado",
+     "cargo": "Jefe Turno Mantención",
+     "linkedin": "https://www.linkedin.com/in/zilay-edgardo-nu%C3%B1ez-salgado-86b118244"
+    },
+    {
+     "nombre": "Daniel Alejandro Rojas Zúñiga",
+     "cargo": "Jefe De Mantención Mecánica",
+     "linkedin": "https://www.linkedin.com/in/daniel-alejandro-rojas-z%C3%BA%C3%B1iga-b55a0b44"
+    },
+    {
+     "nombre": "Eric San Martín Medina",
+     "cargo": "Supervisor De Mantenimiento",
+     "linkedin": "https://www.linkedin.com/in/ericsanmartinmedina"
+    }
+   ]
+  },
+  "COOKE AQUACULTURE CHILE SA": {
+   "Medio Ambiente": [
+    {
+     "nombre": "Pilar Díaz Mayorga",
+     "cargo": "Jefe Gestión Ambiental",
+     "linkedin": "https://www.linkedin.com/in/pilar-d%C3%ADaz-mayorga-3a298519a"
+    },
+    {
+     "nombre": "Carlos Gonzalez Monsalvez",
+     "cargo": "Encargado De Medio Ambiente Farming",
+     "linkedin": "https://www.linkedin.com/in/carlos-gonzalez-monsalvez-7b0b4173"
+    }
+   ],
+   "Mantenimiento": [
+    {
+     "nombre": "Roberto Barrientos Romero",
+     "cargo": "Jefe De Mantención Y Tecnología",
+     "linkedin": "https://www.linkedin.com/in/roberto-barrientos-romero-06392a147"
+    },
+    {
+     "nombre": "John Laiquen Barria",
+     "cargo": "Supervisor De Mantenimiento",
+     "linkedin": "https://www.linkedin.com/in/john-laiquen-barria-8597a0222"
+    },
+    {
+     "nombre": "Hector Acuña",
+     "cargo": "Supervisor De Mantenimiento",
+     "linkedin": "https://www.linkedin.com/in/hector-acu%C3%B1a-9b3a10306"
+    },
+    {
+     "nombre": "Jorge Diaz",
+     "cargo": "Responsable De Planificación De Mantenimiento",
+     "linkedin": "https://www.linkedin.com/in/jorge-diaz-9713aa2a5"
+    }
+   ]
+  },
+  "ENAP REFINERIAS S A": {
+   "Medio Ambiente": [
+    {
+     "nombre": "Valentina Ramírez Gutiérrez",
+     "cargo": "Ingeniera ambiental, Química ambiental",
+     "linkedin": "https://www.linkedin.com/in/valentina-ram%C3%ADrez-guti%C3%A9rrez-b57705a2"
+    }
+   ],
+   "Mantenimiento": [
+    {
+     "nombre": "Ricardo Leal",
+     "cargo": "Ingeniero De Mantenimiento",
+     "linkedin": "https://www.linkedin.com/in/ricardo-leal-84088a28"
+    }
+   ]
+  },
+  "CORP NACIONAL DEL COBRE DE CHILE": {
+   "Medio Ambiente": [
+    {
+     "nombre": "Javier Arcos Pizarro",
+     "cargo": "Director De Medio Ambiente DMH",
+     "linkedin": "https://www.linkedin.com/in/javier-arcos-pizarro-4405945b"
+    },
+    {
+     "nombre": "Carolina Concha Acevedo",
+     "cargo": "Ingeniero Especialista Medio Ambiente",
+     "linkedin": "https://www.linkedin.com/in/carolina-concha-acevedo-52401827"
+    },
+    {
+     "nombre": "Ricardo Cardenas Muñoz",
+     "cargo": "Jefe Senior Sustentabilidad Gerencia Proyectos Agua",
+     "linkedin": "https://www.linkedin.com/in/rcardenasqa"
+    }
+   ],
+   "Calidad": [
+    {
+     "nombre": "Daniella Montecinos Angel",
+     "cargo": "Jefe Senior De Calidad Funcional",
+     "linkedin": "https://www.linkedin.com/in/daniellamontecinos"
+    },
+    {
+     "nombre": "Galo Andres Ortiz Bravo",
+     "cargo": "Jefe De Calidad",
+     "linkedin": "https://www.linkedin.com/in/galo-andres-ortiz-bravo-268303118"
+    },
+    {
+     "nombre": "Ricardo Rodrigo Cutipa Loayza",
+     "cargo": "Especialista Avanzado En Calidad Y Proceso",
+     "linkedin": "https://www.linkedin.com/in/ricardo-rodrigo-cutipa-loayza-2b669543"
+    }
+   ],
+   "Instrumentacion y Control": [
+    {
+     "nombre": "Humberto Fernandez",
+     "cargo": "Jefe Area Instrumentacion Y Control",
+     "linkedin": "https://www.linkedin.com/in/humberto-fernandez-565245a2"
+    },
+    {
+     "nombre": "Patricio Morales",
+     "cargo": "Especialista Instrumentacion Y Control",
+     "linkedin": "https://www.linkedin.com/in/patricio-morales-0a7304327"
+    },
+    {
+     "nombre": "Juan Manuel Contreras Castillo",
+     "cargo": "Instrumentacion Y Control",
+     "linkedin": "https://www.linkedin.com/in/juan-manuel-contreras-castillo-096b82263"
+    },
+    {
+     "nombre": "Hugo Diaz Martinez",
+     "cargo": "Instrumentista Mayor",
+     "linkedin": "https://www.linkedin.com/in/hugo-diaz-martinez-05aba47b"
+    }
+   ],
+   "Mantenimiento": [
+    {
+     "nombre": "Universidad de Santiago de Chile",
+     "cargo": "Jefe De Mantenimiento",
+     "linkedin": "https://www.linkedin.com/in/mart%C3%ADnez-codelco-teniente-8667b885"
+    },
+    {
+     "nombre": "Francisco Fierro León",
+     "cargo": "Supervisor De Mantenimiento",
+     "linkedin": "https://www.linkedin.com/in/francisco-fierro-le%C3%B3n-64577714b"
+    },
+    {
+     "nombre": "Felipe Muñoz Olivares",
+     "cargo": "Jefe De Unidad De Mantenimiento Ferrocarril Teniente 8",
+     "linkedin": "https://www.linkedin.com/in/felipe-munoz-olivares"
+    },
+    {
+     "nombre": "Patricio Novoa Olmos",
+     "cargo": "Jefe De Mantenimiento",
+     "linkedin": "https://www.linkedin.com/in/patricio-novoa-olmos-ab8436b8"
+    }
+   ]
+  },
+  "MINERA ESCONDIDA LIMITADA": {
+   "Medio Ambiente": [
+    {
+     "nombre": "Naid Garcia Arias",
+     "cargo": "Gerente De Medio Ambiente",
+     "linkedin": "https://www.linkedin.com/in/naidgarcia"
+    },
+    {
+     "nombre": "Dina Gutierrez Nobizelli",
+     "cargo": "Especialista Medio Ambiente ejecucion",
+     "linkedin": "https://www.linkedin.com/in/dina-gutierrez-nobizelli-16ab5739"
+    }
+   ],
+   "Calidad": [
+    {
+     "nombre": "Claudio Muñoz",
+     "cargo": "Monitor De Calidad",
+     "linkedin": "https://www.linkedin.com/in/claudio-mu%C3%B1oz-96861210b"
+    }
+   ],
+   "Instrumentacion y Control": [
+    {
+     "nombre": "Maria Gabriela Chacana Carrasco",
+     "cargo": "Supervisor Electrico E Instrumentista Pipeline",
+     "linkedin": "https://www.linkedin.com/in/maria-gabriela-chacana-carrasco-45874554"
+    }
+   ],
+   "Mantenimiento": [
+    {
+     "nombre": "Gilberto Chandía Faúndez",
+     "cargo": "Supervisor De Mantenimiento",
+     "linkedin": "https://www.linkedin.com/in/gilberto-chand%C3%ADa-fa%C3%BAndez-116139249"
+    },
+    {
+     "nombre": "Johans Corrales",
+     "cargo": "Supervisor De Mantenimiento",
+     "linkedin": "https://www.linkedin.com/in/johans-corrales-9217ab130"
+    },
+    {
+     "nombre": "Pedro Felipe Sierra Brunacci",
+     "cargo": "Supervisor Mantencion",
+     "linkedin": "https://www.linkedin.com/in/pedro-felipe-sierra-brunacci-b1434a171"
+    },
+    {
+     "nombre": "Luis Cortés Cordon",
+     "cargo": "Supervisor De Mantenimiento",
+     "linkedin": "https://www.linkedin.com/in/luis-cort%C3%A9s-cordon-42b00115b"
+    }
+   ]
+  },
+  "SALMONES ANTARTICA S A": {
+   "Medio Ambiente": [
+    {
+     "nombre": "Fernando Villa Romero",
+     "cargo": "Jefe De Bodega Y Medio Ambiente",
+     "linkedin": "https://www.linkedin.com/in/fernando-villa-romero-826950114"
+    }
+   ],
+   "Produccion": [
+    {
+     "nombre": "Leopoldo Roa Rebolledo",
+     "cargo": "Jefe De Certificaciones Plantas",
+     "linkedin": "https://www.linkedin.com/in/leopoldo-roa-rebolledo-091165125"
+    }
+   ],
+   "Calidad": [
+    {
+     "nombre": "Maribel Moraga",
+     "cargo": "Encargada Control Calidad",
+     "linkedin": "https://www.linkedin.com/in/maribel-moraga-8366b8b4"
+    },
+    {
+     "nombre": "Bastian Vidal M",
+     "cargo": "Supervisor De Aseguramiento De La Calidad",
+     "linkedin": "https://www.linkedin.com/in/bastian-vidal-m-7365101b0"
+    }
+   ],
+   "Mantenimiento": [
+    {
+     "nombre": "Jose Antonio Jerez Vasquez",
+     "cargo": "Asistente En Administración Mantención",
+     "linkedin": "https://www.linkedin.com/in/jose-antonio-jerez-vasquez-aa7200b6"
+    },
+    {
+     "nombre": "Renzo Chavez",
+     "cargo": "Técnico De Mantenimiento",
+     "linkedin": "https://www.linkedin.com/in/renzo-chavez-66133024a"
+    }
+   ]
+  },
+  "PISCICULTURA LAS QUEMAS CHILE S.A.": {
+   "Mantenimiento": [
+    {
+     "nombre": "Javier Barría",
+     "cargo": "Técnico Mantención Electromecánico",
+     "linkedin": "https://www.linkedin.com/in/javier-barr%C3%ADa-7b5a4455"
+    }
+   ]
+  },
+  "COLBUN S A": {
+   "Medio Ambiente": [
+    {
+     "nombre": "Carolina Lagos Alvarez",
+     "cargo": "Jefe Medioambiente Centrales Zona Norte",
+     "linkedin": "https://www.linkedin.com/in/carolina-lagos-alvarez-35921352"
+    },
+    {
+     "nombre": "Lorena Carvallo",
+     "cargo": "Gerente Corporativo Medio Ambiente",
+     "linkedin": "https://www.linkedin.com/in/lorena-carvallo-alache"
+    },
+    {
+     "nombre": "Gonzalo Rodriguez Belmar",
+     "cargo": "Gerente De Medio Ambiente Corporativo",
+     "linkedin": "https://www.linkedin.com/in/gonzalo-rodriguez-belmar-626a5011"
+    },
+    {
+     "nombre": "... ### Experience -",
+     "cargo": "Jefe de Medio Ambiente, Seguridad y Salud Ocupacional",
+     "linkedin": "https://www.linkedin.com/in/david-gonzalez-h-56048a212"
+    }
+   ],
+   "Calidad": [
+    {
+     "nombre": "Mauro Gajardo Diaz",
+     "cargo": "Ingeniero Especialista Calidad",
+     "linkedin": "https://www.linkedin.com/in/mauro-gajardo-diaz-3a974769"
+    }
+   ],
+   "Produccion": [
+    {
+     "nombre": "Daniel Barra Castro",
+     "cargo": "Jefe De Planta",
+     "linkedin": "https://www.linkedin.com/in/daniel-barra-25636163"
+    }
+   ]
+  },
+  "EMPRESA ELECTRICA ANGAMOS S.A.": {
+   "Instrumentacion y Control": [
+    {
+     "nombre": "Arturo Paredes Quiroz",
+     "cargo": "Ingeniero Senior en Control e Instrumentación",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Puerto Angamos",
+     "cargo": "Ingeniero en Instrumentación y Control",
+     "linkedin": ""
+    }
+   ],
+   "Mantenimiento": [
+    {
+     "nombre": "Marco Burotto Forman",
+     "cargo": "Subgerente De Mantenimiento",
+     "linkedin": ""
+    }
+   ]
+  },
+  "AQUAGEN CHILE S A": {
+   "Mantenimiento": [
+    {
+     "nombre": "Gaston Osorio Cárcamo",
+     "cargo": "Gerente De Mantención Y Proyectos",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Germán Vargas Olavarria",
+     "cargo": "Jefe Mantención",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Juan Pablo Torres González",
+     "cargo": "Jefe De Mantenimiento",
+     "linkedin": ""
+    }
+   ]
+  },
+  "GUACOLDA ENERGIA S.A": {
+   "Medio Ambiente": [
+    {
+     "nombre": "Felipe Bruneau",
+     "cargo": "Jefe Departamento de Medio Ambiente",
+     "linkedin": ""
+    }
+   ],
+   "Instrumentacion y Control": [
+    {
+     "nombre": "Administrador de SAP",
+     "cargo": "Supervisor Instrumentación & Control",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Marco Galleguillos",
+     "cargo": "Ingeniero Especialista Instrumentación Y Control",
+     "linkedin": ""
+    }
+   ],
+   "Mantenimiento": [
+    {
+     "nombre": "Christopher Cabrera Gallardo",
+     "cargo": "Planificador De Operaciones",
+     "linkedin": ""
+    },
+    {
+     "nombre": "José Alejandro Baría Risco",
+     "cargo": "Supervisor De Mantenimiento",
+     "linkedin": ""
+    },
+    {
+     "nombre": "GESTOR ENERGETICO",
+     "cargo": "Jefe de Departamento de Mantenimiento Eléctrico",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Alejandro Saavedra Alvarez",
+     "cargo": "Ingeniero De Mantenimiento Mecánico",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Sebastian Andres Cortes Mondaca",
+     "cargo": "Operación y mantenimiento",
+     "linkedin": ""
+    }
+   ]
+  },
+  "E.CL S.A.": {
+   "Medio Ambiente": [
+    {
+     "nombre": "Humberto Cruz",
+     "cargo": "Líder Prevención De Riesgos Y Medio Ambiente",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Espinosa Pablo",
+     "cargo": "Subgerente De Medioambiente",
+     "linkedin": ""
+    }
+   ],
+   "Mantenimiento": [
+    {
+     "nombre": "ENGIE Chile",
+     "cargo": "Jefe de Mantenimiento I&C",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Jorge Cuneo Hervieux",
+     "cargo": "Jefe De Mantencíon Eléctrico",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Arnaldo Galdames",
+     "cargo": "Jefe De Mantención Mecánica",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Oscar Gutierrez Soto",
+     "cargo": "Jefe De Mantenimiento De Lineas De Transmision En E-CL S.A",
+     "linkedin": ""
+    }
+   ],
+   "Instrumentacion y Control": [
+    {
+     "nombre": "Marco Antonio Nuñez Contreras",
+     "cargo": "Jefe de Instrumentación y Control Mantenimiento Mayor",
+     "linkedin": ""
+    }
+   ]
+  },
+  "SALMONES MULTIEXPORT S.A.": {
+   "Medio Ambiente": [
+    {
+     "nombre": "Claudia Uribe",
+     "cargo": "Jefa Departamento Medio Ambiente",
+     "linkedin": ""
+    }
+   ],
+   "Produccion": [
+    {
+     "nombre": "Patricio Zúñiga",
+     "cargo": "Gerente De Operaciones",
+     "linkedin": ""
+    }
+   ],
+   "Mantenimiento": [
+    {
+     "nombre": "Sergio Patricio Henríquez A",
+     "cargo": "Ingeniero De Mantenimiento Industrial",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Alamiro Cardenas Guerrero",
+     "cargo": "Supervisor De Mantenimiento Mecánico",
+     "linkedin": ""
+    }
+   ]
+  },
+  "CIA PESQUERA CAMANCHACA S A": {
+   "Calidad": [
+    {
+     "nombre": "Carla Pamela Marquez Schulz",
+     "cargo": "Control De Calidad",
+     "linkedin": ""
+    }
+   ],
+   "Mantenimiento": [
+    {
+     "nombre": "Roberto Peña Saldivia",
+     "cargo": "Supervisor De Mantencion",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Federico Aguilera",
+     "cargo": "Subjefe Mantencion",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Gonzalo Alarcon",
+     "cargo": "Secretario Técnico Mantencion",
+     "linkedin": ""
+    }
+   ]
+  },
+  "CMPC CELULOSA S A": {
+   "Medio Ambiente": [
+    {
+     "nombre": "Marco Rodriguez",
+     "cargo": "Subgerente Técnico y Medio Ambiente",
+     "linkedin": ""
+    }
+   ],
+   "Calidad": [
+    {
+     "nombre": "Cristian Segura Calderón",
+     "cargo": "Jefe Área Control Calidad",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Pedro Diaz Gajardo",
+     "cargo": "Jefe De Laboratorio De Control De Calidad",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Juan Jose San Martín Altamirano",
+     "cargo": "Ingeniero De Calidad & Expeditor Logistico",
+     "linkedin": ""
+    }
+   ],
+   "Instrumentacion y Control": [
+    {
+     "nombre": "Miguel Alejandro Melo Gonzalez",
+     "cargo": "ITO INSTRUMENTACION Y CONTROL INDUSTRIAL",
+     "linkedin": ""
+    }
+   ],
+   "Mantenimiento": [
+    {
+     "nombre": "Jorge Ormeño Muñoz",
+     "cargo": "Jefe De Mantencion",
+     "linkedin": ""
+    }
+   ]
+  },
+  "MARINE HARVEST CHILE S A": {
+   "Produccion": [
+    {
+     "nombre": "Elías Huinao",
+     "cargo": "Control Procesos, Marine Harvest Chile S.A.",
+     "linkedin": ""
+    }
+   ],
+   "Mantenimiento": [
+    {
+     "nombre": "Sebastian Vargas Vargas",
+     "cargo": "Jefe De Mantenimiento",
+     "linkedin": ""
+    }
+   ]
+  },
+  "AES GENER S A": {
+   "Medio Ambiente": [
+    {
+     "nombre": "Maritza Bascur Faúndez",
+     "cargo": "Jefe Departamento Gestión Ambiental",
+     "linkedin": ""
+    }
+   ],
+   "Produccion": [
+    {
+     "nombre": "Berty Luke Ortiz",
+     "cargo": "JEFE DE OPERACIONES",
+     "linkedin": ""
+    }
+   ],
+   "Instrumentacion y Control": [
+    {
+     "nombre": "Arturo Paredes Quiroz",
+     "cargo": "Ingeniero Senior en Control e Instrumentación",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Guillermo Dwinguelo",
+     "cargo": "Técnico De Instrumentación Y Control",
+     "linkedin": ""
+    }
+   ],
+   "Mantenimiento": [
+    {
+     "nombre": "Gerson Galdames Garrido",
+     "cargo": "Jefe De Área De Mantenimiento Eléctrico Complejo Centrales Cordillera",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Jose Garin",
+     "cargo": "Supervisor De Mantenimiento Mecánico",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Sergio Muttel",
+     "cargo": "Técnico De Mantenimiento",
+     "linkedin": ""
+    }
+   ]
+  },
+  "TRUSAL S A": {
+   "Medio Ambiente": [
+    {
+     "nombre": "Hector González Almonacid",
+     "cargo": "Técnico en gestión de calidad y medio ambiente",
+     "linkedin": ""
+    }
+   ],
+   "Calidad": [
+    {
+     "nombre": "Miguel Cuzmar",
+     "cargo": "Sub Gerente de Calidad en Empresas AquaChile S.A.",
+     "linkedin": ""
+    }
+   ],
+   "Instrumentacion y Control": [
+    {
+     "nombre": "Ignacio Risopatrón Gallegos",
+     "cargo": "Ingeniero en Automatización y Control Industrial",
+     "linkedin": ""
+    }
+   ],
+   "Mantenimiento": [
+    {
+     "nombre": "Elzon Ancar",
+     "cargo": "Jefe De Mantencion",
+     "linkedin": ""
+    }
+   ]
+  },
+  "SOCIEDAD ELECTRICA SANTIAGO SPA": {
+   "Produccion": [
+    {
+     "nombre": "Norman Edgardo Galaz Willson",
+     "cargo": "Jefe De Turno En Operaciones",
+     "linkedin": ""
+    }
+   ],
+   "Mantenimiento": [
+    {
+     "nombre": "Santiago E",
+     "cargo": "Gerente De Mantenimiento",
+     "linkedin": ""
+    }
+   ]
+  },
+  "SOC PESQUERA LANDES SOCIEDAD ANONIMA": {
+   "Medio Ambiente": [
+    {
+     "nombre": "Gabriel Ortiz Díaz",
+     "cargo": "Encargado de Medio Ambiente.",
+     "linkedin": ""
+    }
+   ],
+   "Produccion": [
+    {
+     "nombre": "Carlos Cardenas Alvarado",
+     "cargo": "Jefe De Operaciones",
+     "linkedin": ""
+    }
+   ]
+  },
+  "CIA MINERA DEL PACIFICO S A": {
+   "Medio Ambiente": [
+    {
+     "nombre": "Vasco Larraechea",
+     "cargo": "Gerente De Medio Ambiente Y Seguridad",
+     "linkedin": ""
+    }
+   ],
+   "Calidad": [
+    {
+     "nombre": "Ana Karina Velasquez Tapia",
+     "cargo": "Analista Control Calidad Senior",
+     "linkedin": ""
+    }
+   ],
+   "Electrico": [
+    {
+     "nombre": "Luis Rojas Flores",
+     "cargo": "Ingeniero Civil Electricista",
+     "linkedin": ""
+    }
+   ],
+   "Produccion": [
+    {
+     "nombre": "Ricardo F Berrospi Armas",
+     "cargo": "Supervisor Senior Control De Procesos Proyectos",
+     "linkedin": ""
+    }
+   ],
+   "Mantenimiento": [
+    {
+     "nombre": "Rodrigo González Fernández",
+     "cargo": "Jefe De Mantenimiento Mecánico Concentrador",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Cristobal Ignacio Carrasco García",
+     "cargo": "Supervisor De Mantenimiento",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Cristián Gonzalo Márquez Castillo",
+     "cargo": "SUPERVISOR MANTENIMIENTO MECANICO",
+     "linkedin": ""
+    }
+   ]
+  },
+  "MINERA LAS CENIZAS S A": {
+   "Medio Ambiente": [
+    {
+     "nombre": "Andrea Cáceres Arriagada",
+     "cargo": "Superintendente Corporativo De Sustentabilidad",
+     "linkedin": ""
+    }
+   ],
+   "Instrumentacion y Control": [
+    {
+     "nombre": "Luis Cobs",
+     "cargo": "Supervisor De Electricidad E Instrumentación",
+     "linkedin": ""
+    }
+   ],
+   "Mantenimiento": [
+    {
+     "nombre": "Sebastián Fonseca Rivera",
+     "cargo": "Jefe De Mantenimiento Planta",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Victor Magaña",
+     "cargo": "Jefe De Mantenimiento Planta",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Alexis Gaete Riquelme",
+     "cargo": "Jefe De Mantenimiento",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Luis Arturo Vargas Arenas",
+     "cargo": "Superintendente de Mantenimiento en Minera Las Cenizas S.A.",
+     "linkedin": ""
+    }
+   ]
+  },
+  "AGUAS DE ANTOFAGASTA S A": {
+   "Instrumentacion y Control": [
+    {
+     "nombre": "Gabriel Araneda López",
+     "cargo": "Jefe Área Eléctrica E Instrumentación - Proyecto SADDN",
+     "linkedin": ""
+    }
+   ],
+   "Mantenimiento": [
+    {
+     "nombre": "Rodrigo Vega",
+     "cargo": "Jefe Departamento Mantencion",
+     "linkedin": ""
+    },
+    {
+     "nombre": "David Castañeda Lepe",
+     "cargo": "Supervisor De Mantenimiento",
+     "linkedin": ""
+    }
+   ],
+   "Produccion": [
+    {
+     "nombre": "Pablo Lorca",
+     "cargo": "Jefe De Planta",
+     "linkedin": ""
+    }
+   ]
+  },
+  "CAMANCHACA PESCA SUR S.A.": {
+   "Calidad": [
+    {
+     "nombre": "Angela Andrea Concha Nova",
+     "cargo": "Supervisora Aseguramiento De Calidad",
+     "linkedin": ""
+    }
+   ],
+   "Instrumentacion y Control": [
+    {
+     "nombre": "Roberto Carrillo Reyes",
+     "cargo": "Ingeniero En Automatización Y Control Industrial",
+     "linkedin": ""
+    }
+   ],
+   "Mantenimiento": [
+    {
+     "nombre": "Jim Franco Gutierrez Mora",
+     "cargo": "Ingeniero De Mantenimiento",
+     "linkedin": ""
+    }
+   ]
+  },
+  "AGROINDUSTRIAL SANTA CRUZ LIMITADA": {
+   "Produccion": [
+    {
+     "nombre": "Eduardo Rauld Termini",
+     "cargo": "Jefe de Planta",
+     "linkedin": ""
+    }
+   ],
+   "Calidad": [
+    {
+     "nombre": "Ingher Uyarte Álvarez",
+     "cargo": "Monitor de Calidad PAC POS",
+     "linkedin": ""
+    }
+   ],
+   "Medio Ambiente": [
+    {
+     "nombre": "Ana Flores Vargas",
+     "cargo": "ingeniera en prevencion de riesgos, calid y ambiente",
+     "linkedin": ""
+    }
+   ]
+  },
+  "EMPRESA ELECTRICA INDUSTRIAL S A": {
+   "Calidad": [
+    {
+     "nombre": "Santiago Peñafiel",
+     "cargo": "JEFE DE DEPARTAMENTO CALIDAD DEL PRODUCTO Y PÉRDIDAS TÉCNICAS",
+     "linkedin": ""
+    }
+   ],
+   "Instrumentacion y Control": [
+    {
+     "nombre": "Pablo Pastrana Navarro",
+     "cargo": "Jefe De Sección Eléctrica E Instrumentación",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Jorge Ramirez Reyes",
+     "cargo": "Jefe Senior Electrico E Instrumentacion",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Jose Maria Villarreal Aguilera",
+     "cargo": "Jefe De Equipo Instrumentista.",
+     "linkedin": ""
+    }
+   ],
+   "Mantenimiento": [
+    {
+     "nombre": "Requisitos principales:",
+     "cargo": "¡Estamos contratando! | Jefe de Mantenimiento Eléctrico 🔌",
+     "linkedin": ""
+    }
+   ]
+  },
+  "SALMONES CAPTREN S.A.": {
+   "Medio Ambiente": [
+    {
+     "nombre": "Constanza Opazo",
+     "cargo": "Jefe Dpto. Medio Ambiente y Concesiones en Salmones Friosur S.A.",
+     "linkedin": ""
+    }
+   ]
+  },
+  "CRISTALERIAS DE CHILE S A": {
+   "Produccion": [
+    {
+     "nombre": "Andrés Aguirre Villegas",
+     "cargo": "Sub Gerente de Procesos y Mejora continua",
+     "linkedin": ""
+    }
+   ],
+   "Calidad": [
+    {
+     "nombre": "Cristalerías de Chile",
+     "cargo": "Jefe de Gestión y Aseguramiento de Calidad",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Gustavo Lara Rojas",
+     "cargo": "Jefe Gestion Calidad",
+     "linkedin": ""
+    }
+   ],
+   "Mantenimiento": [
+    {
+     "nombre": "Diego Catalán Céspedes",
+     "cargo": "Especialista En Mantenimiento",
+     "linkedin": ""
+    }
+   ]
+  },
+  "CMPC TISSUE S A": {
+   "Instrumentacion y Control": [
+    {
+     "nombre": "Oscar Caceres Poblete",
+     "cargo": "Lider De Cuentas Instrumentacion Especializada",
+     "linkedin": ""
+    }
+   ]
+  },
+  "ORIZON S A": {
+   "Medio Ambiente": [
+    {
+     "nombre": "Nicole Alavania Aranzaes",
+     "cargo": "Ingeniero Ambiental Senior",
+     "linkedin": ""
+    }
+   ],
+   "Mantenimiento": [
+    {
+     "nombre": "Orizon Seafood",
+     "cargo": "Jefe Planificacion y Confiabilidad",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Rodrigo Cárdenas Villagra",
+     "cargo": "Jefe mantención interino / Jefe turno producción en Orizon S.A.",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Roberto Velásquez",
+     "cargo": "Jefe De Mantenimiento",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Marcelo Ruiz Gonzalez",
+     "cargo": "Jefe de Mantención de Planta en Orizon S.A.",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Mario Alarcon Rivas",
+     "cargo": "Supervisor De Mantencion",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Luis Raul Ramirez Parada",
+     "cargo": "Jefe Planificacion Y Confiabilidad",
+     "linkedin": ""
+    }
+   ],
+   "Calidad": [
+    {
+     "nombre": "Héctor Oliveros Hormazábal",
+     "cargo": "Jefe De Aseguramiento Calidad Y Productos Terminados",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Larisa Burgos",
+     "cargo": "Jefa de Calidad Comercial",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Loreto San Martin Montero",
+     "cargo": "Jefe Calidad Y Desarrollo Trading",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Carolina Almendras",
+     "cargo": "Control y aseguramiento de la calidad en Orizon S.A.",
+     "linkedin": ""
+    }
+   ]
+  },
+  "WATT'S S.A.": {
+   "Medio Ambiente": [
+    {
+     "nombre": "Jean Mary Barros Escorza",
+     "cargo": "Jefe De Medioambiente",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Javiera A",
+     "cargo": "Jefe De Medio Ambiente",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Manuel Ortega Paredes",
+     "cargo": "Jefe de Medio Ambiente y Sustentabilidad",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Omara Monárdez Gómez",
+     "cargo": "Jefe De Sustentabilidad",
+     "linkedin": ""
+    }
+   ],
+   "Calidad": [
+    {
+     "nombre": "Carolina Sáez",
+     "cargo": "Jefe De Calidad",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Raul Bobadilla",
+     "cargo": "Encargado De Control De Calidad",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Valesca Marivil",
+     "cargo": "Jefe De Calidad",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Liliana Olate Valdés",
+     "cargo": "Jefe De Asuntos Corporativos Y Auditorías De Calidad",
+     "linkedin": ""
+    }
+   ],
+   "Electrico": [
+    {
+     "nombre": "Christian Araneda Inostroza",
+     "cargo": "Supervisor Electricidad Y Control",
+     "linkedin": ""
+    }
+   ],
+   "Mantenimiento": [
+    {
+     "nombre": "Cristian Lillo Baezq",
+     "cargo": "Jefe De Mantenimiento",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Ricardo Godoy Letelier",
+     "cargo": "Jefe De Ingeniería Y Mantenimiento",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Roberto Luna",
+     "cargo": "Jefe De Mantenimiento",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Jacqueline Navarrete",
+     "cargo": "Jefa de Mantención",
+     "linkedin": ""
+    }
+   ]
+  },
+  "TRANSELEC S A": {
+   "Medio Ambiente": [
+    {
+     "nombre": "Natalia Olate Gutierrez",
+     "cargo": "Jefa De Medio Ambiente",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Camila Alvarez Martinez",
+     "cargo": "Jefe Medio Ambiente Zona Norte Grande",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Jorge Andrés Valenzuela Resk",
+     "cargo": "Jefe Medio Ambiente",
+     "linkedin": ""
+    }
+   ],
+   "Produccion": [
+    {
+     "nombre": "Margarita Rojas Cardemil",
+     "cargo": "Jefa De Procesos",
+     "linkedin": ""
+    }
+   ],
+   "Calidad": [
+    {
+     "nombre": "Paula Elizabeth González Cornejo",
+     "cargo": "Jefa Aseguramiento De Calidad",
+     "linkedin": ""
+    }
+   ]
+  },
+  "FORESTAL Y PAPELERA CONCEPCION S A": {
+   "Mantenimiento": [
+    {
+     "nombre": "Jaime Ríos Winerck",
+     "cargo": "Jefe Departamento de Mantención Mecánica y Servicios",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Gonzalo Hernández Ramirez",
+     "cargo": "JEFE DE AREA INGENERIA DE MANTENIMIENTO",
+     "linkedin": ""
+    }
+   ],
+   "Medio Ambiente": [
+    {
+     "nombre": "Tania Besnier Barrales",
+     "cargo": "Jefe Medio Ambiente",
+     "linkedin": ""
+    }
+   ],
+   "Instrumentacion y Control": [
+    {
+     "nombre": "Gabriel San Martin Rifo",
+     "cargo": "Supervisor De Instrumentación",
+     "linkedin": ""
+    }
+   ],
+   "Produccion": [
+    {
+     "nombre": "Jaime E Ríos Winerck",
+     "cargo": "Supervisor Mecánico Parada General De Planta 2011",
+     "linkedin": ""
+    }
+   ]
+  },
+  "FOODCORP CHILE S.A.": {
+   "Medio Ambiente": [
+    {
+     "nombre": "Walter Eduardo Venegas Vera",
+     "cargo": "Ingeniero en Prevención de riesgos, Calidad y Medio Ambiente. .",
+     "linkedin": ""
+    }
+   ],
+   "Produccion": [
+    {
+     "nombre": "David Avilez Jeldres",
+     "cargo": "Supervisor De Planta De Tratamiento.",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Jorge Alarcon",
+     "cargo": "JEFE DE TURNO OPERACIONES",
+     "linkedin": ""
+    },
+    {
+     "nombre": "José Manuel Aponte",
+     "cargo": "Jefe De Planta De Congelado.",
+     "linkedin": ""
+    }
+   ],
+   "Calidad": [
+    {
+     "nombre": "Liliana Velasquez",
+     "cargo": "Jefe De Aseguramiento De La Calidad",
+     "linkedin": ""
+    }
+   ],
+   "Mantenimiento": [
+    {
+     "nombre": "Orlando González Vilos",
+     "cargo": "Jefe Mantención Plantas",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Matías Muñoz Faúndez",
+     "cargo": "Planificador De Mantenimiento",
+     "linkedin": ""
+    }
+   ]
+  },
+  "SAGESA S.A.": {
+   "Medio Ambiente": [
+    {
+     "nombre": "Lissette Sepúlveda Sanhueza",
+     "cargo": "Jefe Área Medio Ambiente Y Comunidades",
+     "linkedin": ""
+    }
+   ],
+   "Electrico": [
+    {
+     "nombre": "Osvaldo Molina Ramirez",
+     "cargo": "Ingeniero Electrico",
+     "linkedin": ""
+    }
+   ],
+   "Mantenimiento": [
+    {
+     "nombre": "Rodolfo Ignacio Soto Rodríguez",
+     "cargo": "Asistente Técnico De Operaciones & Mantenimiento",
+     "linkedin": ""
+    }
+   ]
+  },
+  "EMPRESAS CAROZZI S A": {
+   "Medio Ambiente": [
+    {
+     "nombre": "Esteban Cabrera Cáceres",
+     "cargo": "Jefe Ambiental",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Jaime Antonio Leiva Bustamante",
+     "cargo": "Especialista Medioambiental",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Enrique A Kong Torres",
+     "cargo": "Ingeniero Jefe Medio Ambiente",
+     "linkedin": ""
+    }
+   ],
+   "Calidad": [
+    {
+     "nombre": "Marcelo Milojevic",
+     "cargo": "Jefe De Calidad",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Marcelis Bravo",
+     "cargo": "Jefe De Turno De Aseguramiento De Calidad",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Ximena Rojas Sánchez",
+     "cargo": "Jefe De Aseguramiento De La Calidad",
+     "linkedin": ""
+    }
+   ],
+   "Instrumentacion y Control": [
+    {
+     "nombre": "Leonardo Alvarez Alvarez",
+     "cargo": "Jefe De Instrumentación Y Control",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Mauricio Serrano",
+     "cargo": "Supervisor De Automatización",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Miguel Eduardo Bonilla Meyer",
+     "cargo": "Instrumentista Y Automatización",
+     "linkedin": ""
+    }
+   ],
+   "Mantenimiento": [
+    {
+     "nombre": "Benjamín Roman",
+     "cargo": "Jefe Departamento Mantencion",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Rolando Ríos Alveal",
+     "cargo": "Jefe De Mantenimiento",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Edgardo Vasquez",
+     "cargo": "Supervisor De Mantenimiento",
+     "linkedin": ""
+    }
+   ]
+  },
+  "COMPLEJO INDUSTRIAL MOLYNOR SA": {
+   "Calidad": [
+    {
+     "nombre": "Yerko Alexis Alcayaga Guzmán",
+     "cargo": "Jefe de Calidad en Molynor",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Adolfo Eyppert Calquín",
+     "cargo": "Encargado de Calidad y Jefe de Oficina Técnica",
+     "linkedin": ""
+    }
+   ],
+   "Instrumentacion y Control": [
+    {
+     "nombre": "Miguel Alejandro Concha Rojas",
+     "cargo": "Ingeniero en automatización y control industrial",
+     "linkedin": ""
+    }
+   ],
+   "Produccion": [
+    {
+     "nombre": "Iván Alfredo Molina Balboa",
+     "cargo": "Jefe de Proyectos Planta",
+     "linkedin": ""
+    }
+   ],
+   "Mantenimiento": [
+    {
+     "nombre": "Ysmael Cisternas Araya",
+     "cargo": "Supervisor De Mantenimiento",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Victor Vega",
+     "cargo": "Jefe Mantencion Molynor",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Felipe A Pérez",
+     "cargo": "Ingeniero Senior Proyectos & Confiabilidad",
+     "linkedin": ""
+    }
+   ]
+  },
+  "ECO SALMON S.A.": {
+   "Mantenimiento": [
+    {
+     "nombre": "Sergio Huequeman Gomez",
+     "cargo": "Jefe De Mantencion Y Operaciones",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Sergio Fernández Hernández",
+     "cargo": "Jefe De Mantenimiento",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Rodrigo Anabalon",
+     "cargo": "Jefe de mantenimiento",
+     "linkedin": ""
+    }
+   ]
+  },
+  "PROCESOS SANITARIOS SPA": {
+   "Produccion": [
+    {
+     "nombre": "Christopher Gonzalo Martinez Lopez",
+     "cargo": "Jefe De Operaciones",
+     "linkedin": ""
+    }
+   ]
+  },
+  "INDUSTRIAS CERESITA S A": {
+   "Medio Ambiente": [
+    {
+     "nombre": "Sergio Fuentes Lamperein",
+     "cargo": "Sub Gerente Prevención De Riesgos, Medio Ambiente Y Serv. Generales",
+     "linkedin": ""
+    }
+   ],
+   "Calidad": [
+    {
+     "nombre": "Yislein Gómez",
+     "cargo": "Encargada De Calidad",
+     "linkedin": ""
+    }
+   ]
+  },
+  "FINNING CHILE S A": {
+   "Medio Ambiente": [
+    {
+     "nombre": "Franchesca Rivera Rios",
+     "cargo": "Asesor de Seguridad, Salud Ocupacional y Medioambiente - Sernageomin B",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Charles Craig Grevert",
+     "cargo": "Jefe Departamento Prevención De Riesgos Y Gestion Sustentable.",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Kenny Bernardo Cutipa Garcia",
+     "cargo": "Ingeniero Gestor EHS",
+     "linkedin": ""
+    }
+   ],
+   "Mantenimiento": [
+    {
+     "nombre": "Wilson Valdebenito Nassar",
+     "cargo": "Jefe Mantenimiento y Manufactura",
+     "linkedin": ""
+    }
+   ]
+  },
+  "SYNGENTA S.A.": {
+   "Calidad": [
+    {
+     "nombre": "Lenis Jácome Zapata",
+     "cargo": "Gerente De Calidad Del Sitio",
+     "linkedin": ""
+    }
+   ],
+   "Instrumentacion y Control": [
+    {
+     "nombre": "Grupo DAQ",
+     "cargo": "Jefe de Área de Instrumentación y Control",
+     "linkedin": ""
+    }
+   ],
+   "Mantenimiento": [
+    {
+     "nombre": "Oscar Martin Mendoza Juarez",
+     "cargo": "Coordinador De Mantenimiento",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Juan Manuel Lopez Jimenez",
+     "cargo": "Jefe De Turno En Línea Y Mantenimiento",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Alejandro Alcalá",
+     "cargo": "Coordinador De Mantenimiento",
+     "linkedin": ""
+    }
+   ]
+  },
+  "SOPRAVAL S A": {
+   "Medio Ambiente": [
+    {
+     "nombre": "Bernardita Wichmann Ginouves",
+     "cargo": "Jefe Gestión Ambiental Y Calidad",
+     "linkedin": ""
+    }
+   ],
+   "Produccion": [
+    {
+     "nombre": "Guido Norambuena",
+     "cargo": "Gerente De Operaciones",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Carmen Gloria",
+     "cargo": "Supervisor De Operaciones",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Christian Felipe Pinilla Herrera",
+     "cargo": "Jefe De Operaciones",
+     "linkedin": ""
+    }
+   ],
+   "Calidad": [
+    {
+     "nombre": "Fernando Pianyo Vergara Toro",
+     "cargo": "Consultor y Asesor en Normas de Calidad",
+     "linkedin": ""
+    }
+   ],
+   "Mantenimiento": [
+    {
+     "nombre": "Bernardo Arredondo Calderón",
+     "cargo": "Jefe De Mantenimiento",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Maximilano Ahumada Valencia",
+     "cargo": "Supervisor De Mantenimiento",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Roberto Rebolledo San Martin",
+     "cargo": "Jefe Planificación Y Control De Mantenimiento",
+     "linkedin": ""
+    }
+   ]
+  },
+  "CHILECTRA S.A.": {
+   "Medio Ambiente": [
+    {
+     "nombre": "Marcela Vasquez",
+     "cargo": "Experto En Prevencion De Riesgos",
+     "linkedin": ""
+    }
+   ],
+   "Calidad": [
+    {
+     "nombre": "Juan Omar Luthan Fuentes",
+     "cargo": "Consultor En Gestión Calidad, Administración Y Formación",
+     "linkedin": ""
+    }
+   ],
+   "Instrumentacion y Control": [
+    {
+     "nombre": "Ignacio Fuentes Quiroga",
+     "cargo": "Ingeniero Eléctrico / Instrumentación y Control",
+     "linkedin": ""
+    }
+   ],
+   "Mantenimiento": [
+    {
+     "nombre": "Eduardo Herrera",
+     "cargo": "Jefe Mantención Planta Bebidas",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Ricardo Jorquera",
+     "cargo": "supervisor ITO de mantenimiento",
+     "linkedin": ""
+    }
+   ]
+  },
+  "PISCICULTURA Y ACUICOLA AQUAPROTEC S.A.": {
+   "Produccion": [
+    {
+     "nombre": "Cristian Andres Silva Pulgar",
+     "cargo": "Jefe De Produccion Piscicultura Y Acuicola Aquaprotec S.A",
+     "linkedin": ""
+    }
+   ],
+   "Mantenimiento": [
+    {
+     "nombre": "Jorge Edison Lara González",
+     "cargo": "Encargado De Mantención",
+     "linkedin": ""
+    }
+   ]
+  },
+  "SOCIEDAD COMERCIAL AGRICOLA Y FORESTAL QUIMEY-CO LIMITADA": {
+   "Instrumentacion y Control": [
+    {
+     "nombre": "Joaquin Guillermo Marin Pineda",
+     "cargo": "Instrument Specialist - Pre-Commissioning",
+     "linkedin": ""
+    }
+   ],
+   "Mantenimiento": [
+    {
+     "nombre": "Julio Hernandez Vidal",
+     "cargo": "Coordinador De Mantenimiento",
+     "linkedin": ""
+    }
+   ]
+  },
+  "ECOBIO SA": {
+   "Produccion": [
+    {
+     "nombre": "Roberto Leiva Latín",
+     "cargo": "Gerente De Planta ECOBIO",
+     "linkedin": ""
+    }
+   ]
+  },
+  "QUIMETAL INDUSTRIAL S A": {
+   "Produccion": [
+    {
+     "nombre": "Daniel V",
+     "cargo": "Jefe de Planta en Quimetal Industrial S.A.",
+     "linkedin": ""
+    }
+   ],
+   "Medio Ambiente": [
+    {
+     "nombre": "Elvira Osorio",
+     "cargo": "Subgerente De Medio Ambiente, Seguridad Y Salud Ocupacional",
+     "linkedin": ""
+    }
+   ],
+   "Calidad": [
+    {
+     "nombre": "Miguel Araus",
+     "cargo": "Supervisor De Calidad",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Ximena Aranguiz Galaz",
+     "cargo": "Subgerente Aseguramiento De Calidad",
+     "linkedin": ""
+    }
+   ],
+   "Mantenimiento": [
+    {
+     "nombre": "Gerardo Godoy Jarpa",
+     "cargo": "Gerente De Ingenieria Y Mantenimiento",
+     "linkedin": ""
+    }
+   ]
+  },
+  "S Q M SALAR S A": {
+   "Calidad": [
+    {
+     "nombre": "Paola Morales Zambrano",
+     "cargo": "Ingeniero Gestion De Calidad",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Panificadora Marcelo",
+     "cargo": "Jefe Calidad Jefe Calidad",
+     "linkedin": ""
+    }
+   ],
+   "Instrumentacion y Control": [
+    {
+     "nombre": "Carlos Salvador Valdebenito Reyes",
+     "cargo": "Ing. De Automatización Y Control",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Juan Suarez",
+     "cargo": "Lider De Campo Instrumentación Y Control Automático",
+     "linkedin": ""
+    }
+   ],
+   "Produccion": [
+    {
+     "nombre": "Roberto Bustos Inostroza",
+     "cargo": "JEFE DE TURNO PRODUCCION Molyb",
+     "linkedin": ""
+    }
+   ]
+  },
+  "ANASAC CHILE S.A.": {
+   "Produccion": [
+    {
+     "nombre": "Jorge Millanao",
+     "cargo": "Jefe Administración en Anasac (Planta Lautaro)",
+     "linkedin": ""
+    }
+   ],
+   "Medio Ambiente": [
+    {
+     "nombre": "Felipe Yañez Urrutia",
+     "cargo": "Coordinador Corporativo Mesa de Sustentabilidad",
+     "linkedin": ""
+    }
+   ],
+   "Calidad": [
+    {
+     "nombre": "Gloria Llanos González",
+     "cargo": "Jefe De Aseguramiento De La Calidad",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Rodolfo Camargo",
+     "cargo": "Especialista Corporativo De Calidad",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Cristina Cáceres Núñez",
+     "cargo": "Química Farmacéutica | Gestión de Calidad",
+     "linkedin": ""
+    }
+   ]
+  },
+  "ROCKWOOD LITIO LIMITADA": {
+   "Medio Ambiente": [
+    {
+     "nombre": "Jorge Marchant Benavides",
+     "cargo": "Gerente De Medio Ambiente Y Permisos",
+     "linkedin": ""
+    }
+   ],
+   "Mantenimiento": [
+    {
+     "nombre": "Ferdinan Contreras Venegas",
+     "cargo": "JEFE DEPARTAMENTO MANTENCION",
+     "linkedin": ""
+    }
+   ]
+  },
+  "SOCIEDAD DE PROCESAMIENTO DE MOLIBDENO LIMITADA": {
+   "Mantenimiento": [
+    {
+     "nombre": "Carlos E Contreras R",
+     "cargo": "Jefe De Mantención",
+     "linkedin": ""
+    },
+    {
+     "nombre": "Alejandro Herrera",
+     "cargo": "Jefe Mantencion Mecanica",
+     "linkedin": ""
+    }
+   ]
+  },
+  "SGS MINERALS S.A.": {
+   "Produccion": [
+    {
+     "nombre": "Juan Reyes Pinochet",
+     "cargo": "Ingeniero Senior De Procesos",
+     "linkedin": ""
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,5339 @@
+[
+ {
+  "empresa": "CMPC CELULOSA S A",
+  "nombre": "Cristian Roa Muñoz",
+  "cargo": "Subgerente de Mantención e Ingeniería, Planta Santa Fe",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/cristian-roa-munoz-8492659a",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/cristian-roa-munoz-8492659a"
+ },
+ {
+  "empresa": "CARTULINAS CMPC S A",
+  "nombre": "Juan Antonio Miranda Salazar",
+  "cargo": "Jefe Departamento de Instrumentación y Control Planta Maule",
+  "tipo": "jefe_ic",
+  "linkedin": "https://cl.linkedin.com/in/juan-antonio-miranda-salazar-8971903a",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/juan-antonio-miranda-salazar-8971903a"
+ },
+ {
+  "empresa": "FORESTAL Y PAPELERA CONCEPCION S A",
+  "nombre": "Jaime Ríos Winerck",
+  "cargo": "Jefe Depto Mantención Mecánica y Servicios",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/jaime-rios-winerck-6891bb39",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/jaime-rios-winerck-6891bb39"
+ },
+ {
+  "empresa": "FORESTAL Y PAPELERA CONCEPCION S A",
+  "nombre": "Juan Fritz",
+  "cargo": "Jefe de Producción",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/juan-fritz-4ba9b357",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/juan-fritz-4ba9b357"
+ },
+ {
+  "empresa": "CMPC MADERAS S A",
+  "nombre": "Luis Bordagaray Köstner",
+  "cargo": "Subgerente Confiabilidad y Mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/luis-bordagaray-kostner-10242a140",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/luis-bordagaray-kostner-10242a140"
+ },
+ {
+  "empresa": "CMPC MADERAS S A",
+  "nombre": "Juan José Solar Vega",
+  "cargo": "Jefe de Mantención",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/juan-jose-solar-vega-a0b58a169",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/juan-jose-solar-vega-a0b58a169"
+ },
+ {
+  "empresa": "FPC TISSUE S.A.",
+  "nombre": "Gonzalo Hernández Ramirez",
+  "cargo": "Jefe de Área Ingeniería de Mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/gonzalo-hernandez-ramirez-97983082",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/gonzalo-hernandez-ramirez-97983082"
+ },
+ {
+  "empresa": "FORESTAL ARAUCO S.A.",
+  "nombre": "Ricardo Augusto Isla Montesinos",
+  "cargo": "Jefe de Ingeniería, Complejo Cholguán",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "https://cl.linkedin.com/in/ricardo-augusto-isla-montesinos-04856571",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/ricardo-augusto-isla-montesinos-04856571"
+ },
+ {
+  "empresa": "FORESTAL ARAUCO S.A.",
+  "nombre": "Luis Andrés Becerra Bustos",
+  "cargo": "Jefe Electrocontrol Máquina",
+  "tipo": "otro",
+  "linkedin": "https://cl.linkedin.com/in/luis-andres-becerra-bustos-bb025970",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/luis-andres-becerra-bustos-bb025970"
+ },
+ {
+  "empresa": "KIMBERLY-CLARK CHILE S.A.",
+  "nombre": "Víctor Enrique Criado Flores",
+  "cargo": "Jefe de Operaciones, Kimberly-Clark Chile",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/victor-enrique-criado-flores-25905024",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/victor-enrique-criado-flores-25905024"
+ },
+ {
+  "empresa": "KIMBERLY-CLARK CHILE S.A.",
+  "nombre": "Sergio Bergesio",
+  "cargo": "Jefatura de Operaciones, Mantenimiento e Ingeniería",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/sergio-bergesio",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/sergio-bergesio"
+ },
+ {
+  "empresa": "KIMBERLY-CLARK CHILE S.A.",
+  "nombre": "Edgar Vilera",
+  "cargo": "Jefe de Mantenimiento Eléctrico & Instrumentación , Kimberly-Clark Chile",
+  "tipo": "jefe_ic",
+  "linkedin": "https://cl.linkedin.com/in/edgar-vilera-73880980",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/edgar-vilera-73880980"
+ },
+ {
+  "empresa": "CELULOSA ARAUCO Y CONSTITUCION S A",
+  "nombre": "Ricardo Arriagada",
+  "cargo": "Jefe Electrocontrol Caustificación, Horno y Efluentes",
+  "tipo": "otro",
+  "linkedin": "https://cl.linkedin.com/in/ricardo-arriagada-35a0b446",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/ricardo-arriagada-35a0b446"
+ },
+ {
+  "empresa": "CELULOSA ARAUCO Y CONSTITUCION S A",
+  "nombre": "Marco Araya Badilla",
+  "cargo": "Jefe de Mantención",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/marco-araya-badilla-5b3901111",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/marco-araya-badilla-5b3901111"
+ },
+ {
+  "empresa": "CELULOSA ARAUCO Y CONSTITUCION S A",
+  "nombre": "Jaime Alberto Toro Vega",
+  "cargo": "Superintendente de Mantención Licor, Caustificación y Horno de Cal",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/jaime-alberto-toro-vega-31ab1133",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/jaime-alberto-toro-vega-31ab1133"
+ },
+ {
+  "empresa": "PAPELES BIO-BIO S.A.",
+  "nombre": "Igor Badtke",
+  "cargo": "Jefe Depto Electrocontrol & TI",
+  "tipo": "otro",
+  "linkedin": "https://www.linkedin.com/in/igor-badtke-17b55b3a",
+  "correo": "",
+  "fuente": "https://www.linkedin.com/in/igor-badtke-17b55b3a"
+ },
+ {
+  "empresa": "SQM INDUSTRIAL S.A.",
+  "nombre": "Carlos Farías Muñoz",
+  "cargo": "Jefe de Planta",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/carlos-far%C3%ADas-mu%C3%B1oz-38824489",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/carlos-far%C3%ADas-mu%C3%B1oz-38824489"
+ },
+ {
+  "empresa": "SQM INDUSTRIAL S.A.",
+  "nombre": "Carlos Irarrazabal",
+  "cargo": "Superintendente de Operaciones Mineras Mina Nueva Victoria en SQM",
+  "tipo": "superintendente",
+  "linkedin": "https://cl.linkedin.com/in/carlos-irarrazabal-3a928131",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/carlos-irarrazabal-3a928131"
+ },
+ {
+  "empresa": "SQM INDUSTRIAL S.A.",
+  "nombre": "Jorge Monroy",
+  "cargo": "Superintendente Productos Terminados Yodo en SQM",
+  "tipo": "superintendente",
+  "linkedin": "https://cl.linkedin.com/in/jorge-monroy-14498a36",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/jorge-monroy-14498a36"
+ },
+ {
+  "empresa": "SQM INDUSTRIAL S.A.",
+  "nombre": "Franco Núñez Cortés",
+  "cargo": "Superintendente de Operaciones Litio en SQM",
+  "tipo": "superintendente",
+  "linkedin": "https://cl.linkedin.com/in/franco-n%C3%BA%C3%B1ez-cort%C3%A9s-6a2459b8",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/franco-n%C3%BA%C3%B1ez-cort%C3%A9s-6a2459b8"
+ },
+ {
+  "empresa": "SQM INDUSTRIAL S.A.",
+  "nombre": "Exequiel Araya Campusano",
+  "cargo": "Jefe Dept. Distribución Eléctrica y Servicios en SQM Industrial S.A.",
+  "tipo": "jefe_electrico",
+  "linkedin": "https://cl.linkedin.com/in/exequiel-araya-campusano-589b9b24",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/exequiel-araya-campusano-589b9b24"
+ },
+ {
+  "empresa": "SQM INDUSTRIAL S.A.",
+  "nombre": "Pablo Müller Ordenes",
+  "cargo": "Jefe de Mantenimiento Planta en SQM",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/pablo-muller-ordenes-98891581",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/pablo-muller-ordenes-98891581"
+ },
+ {
+  "empresa": "OXIQUIM S A",
+  "nombre": "Cristobal Naulin",
+  "cargo": "Jefe de Mantenimiento y Proyectos",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/cristobal-naulin-12b07654",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/cristobal-naulin-12b07654"
+ },
+ {
+  "empresa": "NORACID SA",
+  "nombre": "Juan Nuñez Baeza",
+  "cargo": "Subgerente de Mantenimiento Mayor",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/juan-nu%C3%B1ez-baeza",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/juan-nu%C3%B1ez-baeza"
+ },
+ {
+  "empresa": "NORACID SA",
+  "nombre": "Rodolfo Miranda",
+  "cargo": "Jefe de Proyectos e Ingeniería",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "https://cl.linkedin.com/in/rodolfomirandapmp",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/rodolfomirandapmp"
+ },
+ {
+  "empresa": "NORACID SA",
+  "nombre": "Claudio Salinas",
+  "cargo": "Jefe de Operaciones",
+  "tipo": "jefe_produccion",
+  "linkedin": "",
+  "correo": "",
+  "fuente": "https://aladyr.net/wp-content/uploads/2022/10/brochure_chile_2022_v61-1_compressed.pdf"
+ },
+ {
+  "empresa": "LABORATORIOS RECALCINE SA",
+  "nombre": "Raúl Chaves Casas",
+  "cargo": "Gerente de Ingeniería, Mantenimiento y Medio Ambiente",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/raul-chaves-casas-811b8aab",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/raul-chaves-casas-811b8aab"
+ },
+ {
+  "empresa": "QUIMETAL INDUSTRIAL S A",
+  "nombre": "Gerardo Godoy Jarpa",
+  "cargo": "Gerente de Ingeniería y Mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/gerardo-godoy-jarpa-ba8b0974",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/gerardo-godoy-jarpa-ba8b0974"
+ },
+ {
+  "empresa": "QUIMETAL INDUSTRIAL S A",
+  "nombre": "Renan Gutiérrez Medina",
+  "cargo": "Jefe de Mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/renan-gutierrez-medina-12a672155",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/renan-gutierrez-medina-12a672155"
+ },
+ {
+  "empresa": "QUIMETAL INDUSTRIAL S A",
+  "nombre": "Heriberto Cea Jara",
+  "cargo": "Jefe Mantención Mecánica",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/heriberto-cea-jara-7063a3200",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/heriberto-cea-jara-7063a3200"
+ },
+ {
+  "empresa": "QUIMETAL INDUSTRIAL S A",
+  "nombre": "Carlos Mauricio López Rojas",
+  "cargo": "Jefe de Planta",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/carlos-mauricio-lopez-rojas-082299a2",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/carlos-mauricio-lopez-rojas-082299a2"
+ },
+ {
+  "empresa": "LABORATORIO MAVER S.A.",
+  "nombre": "Pablo Riquelme",
+  "cargo": "Jefe de Mantenimiento SAC y Metrología",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/pablo-riquelme-16154a149",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/pablo-riquelme-16154a149"
+ },
+ {
+  "empresa": "SOCIEDAD DE PROCESAMIENTO DE MOLIBDENO LIMITADA",
+  "nombre": "Víctor Chaura",
+  "cargo": "Gerente de Mantención, Proyectos, Planificación y Mejora Continua",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/v%C3%ADctor-chaura",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/v%C3%ADctor-chaura"
+ },
+ {
+  "empresa": "SOCIEDAD DE PROCESAMIENTO DE MOLIBDENO LIMITADA",
+  "nombre": "Ruth Villalobos",
+  "cargo": "Jefe de Planta",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/ruth-villalobos-89a9116a",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/ruth-villalobos-89a9116a"
+ },
+ {
+  "empresa": "SOCIEDAD DE PROCESAMIENTO DE MOLIBDENO LIMITADA",
+  "nombre": "Braulio Rodrigo Molina Padilla",
+  "cargo": "Jefe de Mantenimiento de Sistemas y Automatización",
+  "tipo": "jefe_ic",
+  "linkedin": "https://cl.linkedin.com/in/braulio-rodrigo-molina-padilla-330b2353",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/braulio-rodrigo-molina-padilla-330b2353"
+ },
+ {
+  "empresa": "LABORATORIOS SAVAL S A",
+  "nombre": "David von Schönborn Buzada",
+  "cargo": "Jefe del Departamento de Ingeniería & Mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/david-von-sch%C3%B6nborn-buzada-5bb1453a",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/david-von-sch%C3%B6nborn-buzada-5bb1453a"
+ },
+ {
+  "empresa": "LABORATORIOS SAVAL S A",
+  "nombre": "Luis Hinojosa Romero",
+  "cargo": "Jefe de Producción, Laboratorios Saval",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/luis-hinojosa-romero-80a77966",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/luis-hinojosa-romero-80a77966"
+ },
+ {
+  "empresa": "INSTITUTO SANITAS S A",
+  "nombre": "Herly Javier Vegas García",
+  "cargo": "Jefe de Mantenimiento y Proyectos de Ingeniería",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/herly-vegas",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/herly-vegas"
+ },
+ {
+  "empresa": "INSTITUTO SANITAS S A",
+  "nombre": "José Martín Velásquez Figueroa",
+  "cargo": "Jefe de Mantenimiento Planta",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/jose-martin-velasquez-figueroa-7b830a143",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/jose-martin-velasquez-figueroa-7b830a143"
+ },
+ {
+  "empresa": "EMPRESA NACIONAL DE MINERIA",
+  "nombre": "Sebastian Villalobos Pavez",
+  "cargo": "Jefe Corporativo de Ingeniería y Estudios",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "https://cl.linkedin.com/in/sebastian-villalobos-pavez-694b5b183",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/sebastian-villalobos-pavez-694b5b183"
+ },
+ {
+  "empresa": "EMPRESA NACIONAL DE MINERIA",
+  "nombre": "Jorge Varas Varas",
+  "cargo": "Superintendente Mantención Plantas",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/jorge-varas-varas-538b7291",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/jorge-varas-varas-538b7291"
+ },
+ {
+  "empresa": "EMPRESA NACIONAL DE MINERIA",
+  "nombre": "Víctor Rivera San Martín",
+  "cargo": "Superintendente Planta",
+  "tipo": "superintendente",
+  "linkedin": "https://cl.linkedin.com/in/v%C3%ADctor-rivera-san-mart%C3%ADn-428354108",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/v%C3%ADctor-rivera-san-mart%C3%ADn-428354108"
+ },
+ {
+  "empresa": "EMPRESA NACIONAL DE MINERIA",
+  "nombre": "Alejandro Pulgar Pizarro",
+  "cargo": "Superintendente de Mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/alejandro-pulgar-pizarro-10704638",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/alejandro-pulgar-pizarro-10704638"
+ },
+ {
+  "empresa": "ORICA CHILE S A",
+  "nombre": "José Luis Soto",
+  "cargo": "Manager Engineering & Asset para Chile y Argentina en Orica",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "https://cl.linkedin.com/in/jose‐luis‐soto‐90b0481b4",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/jose‐luis‐soto‐90b0481b4"
+ },
+ {
+  "empresa": "ORICA CHILE S A",
+  "nombre": "Hugo Villar Ruz",
+  "cargo": "Jefe Mantención en Orica",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/hugo‐villar‐ruz‐92237b75",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/hugo‐villar‐ruz‐92237b75"
+ },
+ {
+  "empresa": "ORICA CHILE S A",
+  "nombre": "Branco Díaz Rodríguez",
+  "cargo": "Supervisor de mantenimiento en Orica EHM",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/branco‐d%C3%ADaz‐rodr%C3%ADguez‐9b1376a7",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/branco‐d%C3%ADaz‐rodr%C3%ADguez‐9b1376a7"
+ },
+ {
+  "empresa": "ANASAC CHILE S.A.",
+  "nombre": "José Manuel Callumán Marinao",
+  "cargo": "Jefe de Mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/jos%C3%A9-manuel-callum%C3%A1n-marinao-03a4a77a",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/jos%C3%A9-manuel-callum%C3%A1n-marinao-03a4a77a"
+ },
+ {
+  "empresa": "QUIMICA DEL SUR Y CIA LTDA",
+  "nombre": "Claudio Sepúlveda Lagos",
+  "cargo": "Gerente Producción Calidad Mantención",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/claudio-sep%C3%BAlveda-lagos",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/claudio-sep%C3%BAlveda-lagos"
+ },
+ {
+  "empresa": "QUIMICA DEL SUR Y CIA LTDA",
+  "nombre": "Fabiola Contreras Muñoz",
+  "cargo": "Jefe de Producción y Mantención",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/fabiola-contreras-mu%C3%B1oz-17113214",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/fabiola-contreras-mu%C3%B1oz-17113214"
+ },
+ {
+  "empresa": "AGUASIN SPA",
+  "nombre": "Daniel Thomsen Bacigalupo",
+  "cargo": "Jefe de Producción en Aguasin",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/daniel-thomsen-bacigalupo",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/daniel-thomsen-bacigalupo"
+ },
+ {
+  "empresa": "ENAEX SERVICIOS S.A.",
+  "nombre": "Héctor De la Puente Acuña",
+  "cargo": "Superintendente de Mantenimiento en Enaex S.A.",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/h%C3%A9ctor-de-la-puente-acu%C3%B1a-37011557",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/h%C3%A9ctor-de-la-puente-acu%C3%B1a-37011557"
+ },
+ {
+  "empresa": "ENAEX SERVICIOS S.A.",
+  "nombre": "Camilo García",
+  "cargo": "Jefe de Ingeniería, Sub Gerencia de Infraestructura de Enaex Servicios S.A.",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "https://cl.linkedin.com/in/camilo-garc%C3%ADa-82962656",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/camilo-garc%C3%ADa-82962656"
+ },
+ {
+  "empresa": "ENAEX SERVICIOS S.A.",
+  "nombre": "Juan Castañeda Calderón",
+  "cargo": "Jefe Ingeniería Mantenimiento, Gerencia Minería Subterránea, Enaex Servicios S.A.",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/juan-casta%C3%B1eda-calder%C3%B3n-48531310",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/juan-casta%C3%B1eda-calder%C3%B3n-48531310"
+ },
+ {
+  "empresa": "ENAEX S A",
+  "nombre": "Guillermo Díaz Toro",
+  "cargo": "Jefe de Ingeniería, Mantenimiento y Confiabilidad",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/%F0%9F%94%B5-guillermo-d%C3%ADaz-toro-52395aa6",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/%F0%9F%94%B5-guillermo-d%C3%ADaz-toro-52395aa6"
+ },
+ {
+  "empresa": "ENAEX S A",
+  "nombre": "Eduardo Ramos Rojas",
+  "cargo": "Jefe de Operaciones",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/eduardo-ramos-rojas-a468b79a",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/eduardo-ramos-rojas-a468b79a"
+ },
+ {
+  "empresa": "EMPRESA ELECTRICA DE AISEN S A",
+  "nombre": "Edgardo Alexis Aburto Llanquileo",
+  "cargo": "Encargado de Mantenimiento y Calidad de Producto",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/edgardoaburtoll",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/edgardoaburtoll"
+ },
+ {
+  "empresa": "EMPRESA ELECTRICA PANGUIPULLI S A",
+  "nombre": "James Lee Stancampiano",
+  "cargo": "Gerente General de Empresa Eléctrica Panguipulli S.A.",
+  "tipo": "gerente_general",
+  "linkedin": "https://www.linkedin.com/in/james-lee-stancampiano-5b651817",
+  "correo": "",
+  "fuente": "https://www.linkedin.com/in/james-lee-stancampiano-5b651817"
+ },
+ {
+  "empresa": "GUACOLDA ENERGIA S.A",
+  "nombre": "Marco Galleguillos",
+  "cargo": "Ingeniero Especialista Instrumentación y Control",
+  "tipo": "jefe_ic",
+  "linkedin": "https://cl.linkedin.com/in/marco-galleguillos-83a2a847",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/marco-galleguillos-83a2a847"
+ },
+ {
+  "empresa": "GUACOLDA ENERGIA S.A",
+  "nombre": "Oscar Remigio Candia Silva",
+  "cargo": "Jefe del Departamento de Mantenimiento Mecánico",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://es.linkedin.com/posts/guacolda-energia_le-damos-la-bienvenida-a-dos-nuevos-colaboradores-activity-7457776205946085376-02tP",
+  "correo": "",
+  "fuente": "https://es.linkedin.com/posts/guacolda-energia_le-damos-la-bienvenida-a-dos-nuevos-colaboradores-activity-7457776205946085376-02tP"
+ },
+ {
+  "empresa": "EMPRESA ELECTRICA ANGAMOS S.A.",
+  "nombre": "Javier Brizuela Rodríguez",
+  "cargo": "Jefe de Mantenimiento I&C en AES Andes",
+  "tipo": "jefe_ic",
+  "linkedin": "https://cl.linkedin.com/in/javier-brizuela-rodriguez-4b1884169",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/javier-brizuela-rodriguez-4b1884169"
+ },
+ {
+  "empresa": "EMPRESA ELECTRICA ANGAMOS S.A.",
+  "nombre": "Victor Navarro",
+  "cargo": "Jefe de Mantenimiento Mecánico en AES Gener S.A.",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/victor-navarro-87814543",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/victor-navarro-87814543"
+ },
+ {
+  "empresa": "EMPRESA ELECTRICA ANGAMOS S.A.",
+  "nombre": "Roberto Caldera Tapia",
+  "cargo": "Supervisor de Instrumentación y Control en AES-Gener",
+  "tipo": "ingeniero_automatizacion",
+  "linkedin": "https://cl.linkedin.com/in/roberto-caldera-tapia-43342574",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/roberto-caldera-tapia-43342574"
+ },
+ {
+  "empresa": "EMPRESA ELECTRICA DE MAGALLANES S A",
+  "nombre": "Juan Francisco Alvarado Astudillo",
+  "cargo": "Supervisor de Mantenimiento de la Gerencia de Generación",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/juan-francisco-alvarado-astudillo-26102892",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/juan-francisco-alvarado-astudillo-26102892"
+ },
+ {
+  "empresa": "COLBUN S A",
+  "nombre": "Daniel Barra Castro",
+  "cargo": "Jefe de Planta / Gerente de Mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/daniel-barra-25636163",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/daniel-barra-25636163"
+ },
+ {
+  "empresa": "COLBUN S A",
+  "nombre": "Mario Antonio Cuevas Troncoso",
+  "cargo": "Jefe Área Sistemas de Control e Instrumentación (I&C)",
+  "tipo": "jefe_ic",
+  "linkedin": "https://cl.linkedin.com/in/mario-antonio-cuevas-troncoso-363a0896",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/mario-antonio-cuevas-troncoso-363a0896"
+ },
+ {
+  "empresa": "COLBUN S A",
+  "nombre": "Victor C. Santiago, PMP",
+  "cargo": "Gerente de Ingeniería y Proyectos",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "https://cl.linkedin.com/in/victor-c-santiago-pmp-35682a22",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/victor-c-santiago-pmp-35682a22"
+ },
+ {
+  "empresa": "ARAUCO BIOENERGIA S.A.",
+  "nombre": "William Sánchez",
+  "cargo": "Jefe de Operaciones en Arauco Bioenergía S.A.",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/william-s%C3%A1nchez-a3773313b",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/william-s%C3%A1nchez-a3773313b"
+ },
+ {
+  "empresa": "ARAUCO BIOENERGIA S.A.",
+  "nombre": "Luis Alberto Hernandez Moreno",
+  "cargo": "Jefe de Sistemas Eléctricos, Planificación y Estudios en Arauco Bioenergía",
+  "tipo": "jefe_electrico",
+  "linkedin": "https://cl.linkedin.com/in/luis-alberto-hernandez-moreno",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/luis-alberto-hernandez-moreno"
+ },
+ {
+  "empresa": "ARAUCO BIOENERGIA S.A.",
+  "nombre": "Adolfo Ramírez Díaz",
+  "cargo": "Ingeniero de Sistemas Eléctricos en Arauco Bioenergía SpA",
+  "tipo": "jefe_electrico",
+  "linkedin": "https://cl.linkedin.com/in/adolfo-ram%C3%ADrez-d%C3%ADaz-73b2433a",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/adolfo-ram%C3%ADrez-d%C3%ADaz-73b2433a"
+ },
+ {
+  "empresa": "E.CL S.A.",
+  "nombre": "Yovany Fernandez Rojas",
+  "cargo": "Jefe de Instrumentación & Control (I&C)",
+  "tipo": "jefe_ic",
+  "linkedin": "https://cl.linkedin.com/in/yovany-fernandez-rojas-a73a8526",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/yovany-fernandez-rojas-a73a8526"
+ },
+ {
+  "empresa": "ALTO MAIPO SPA",
+  "nombre": "Rodolfo Martínez",
+  "cargo": "Jefe de Operaciones Proyecto Hidroeléctrico Alto Maipo en AES",
+  "tipo": "jefe_electrico",
+  "linkedin": "https://cl.linkedin.com/in/rodolfo-martinez-15a08890",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/rodolfo-martinez-15a08890"
+ },
+ {
+  "empresa": "ENERGIAS INDUSTRIALES S.A",
+  "nombre": "Sergio Medina",
+  "cargo": "Jefe de Planta en Energías Industriales S.A.",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/sergio-medina-80a8439a>",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/sergio-medina-80a8439a>"
+ },
+ {
+  "empresa": "AES GENER S A",
+  "nombre": "Nelson Vásquez Muñoz",
+  "cargo": "Gerente de Operaciones de Centrales Hidroeléctricas",
+  "tipo": "jefe_electrico",
+  "linkedin": "https://cl.linkedin.com/in/nelson-vasquez-munoz-45111332",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/nelson-vasquez-munoz-45111332"
+ },
+ {
+  "empresa": "AES GENER S A",
+  "nombre": "Eduardo Muñoz",
+  "cargo": "Subgerente de Ingeniería Complejo Norte",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "https://cl.linkedin.com/in/eduardo-munoz-439ba643",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/eduardo-munoz-439ba643"
+ },
+ {
+  "empresa": "AES GENER S A",
+  "nombre": "Juan Flores",
+  "cargo": "Jefe Instrumentación",
+  "tipo": "jefe_ic",
+  "linkedin": "https://cl.linkedin.com/in/juan-flores-a7168134",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/juan-flores-a7168134"
+ },
+ {
+  "empresa": "AES GENER S A",
+  "nombre": "Ivan Antunez Ahumada",
+  "cargo": "Jefe Área Mantenimiento Eléctrico",
+  "tipo": "jefe_electrico",
+  "linkedin": "https://cl.linkedin.com/in/ivan-antunez-ahumada-8b7a4548",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/ivan-antunez-ahumada-8b7a4548"
+ },
+ {
+  "empresa": "ENEL GENERACION CHILE S.A.",
+  "nombre": "Cristian Valenzuela Ramírez",
+  "cargo": "Responsable Mantención Eléctrico, Instrumentación & Control",
+  "tipo": "ingeniero_automatizacion",
+  "linkedin": "https://cl.linkedin.com/in/cristian-valenzuela-ramirez-3aa8b56b",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/cristian-valenzuela-ramirez-3aa8b56b"
+ },
+ {
+  "empresa": "ELECNOR CHILE S A",
+  "nombre": "Cristian González",
+  "cargo": "Jefe de Ingeniería Renovables, Elecnor Chile",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "https://cl.linkedin.com/in/cristian-gonz%C3%A1lez-a2410633",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/cristian-gonz%C3%A1lez-a2410633"
+ },
+ {
+  "empresa": "ELECNOR CHILE S A",
+  "nombre": "Enrique Retamales Orellana",
+  "cargo": "Subgerente / Gerente de Mantenimiento y Operaciones, Elecnor Chile",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/enrique-retamales-orellana-78482635",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/enrique-retamales-orellana-78482635"
+ },
+ {
+  "empresa": "PARQUE EOLICO RENAICO S.P.A",
+  "nombre": "Abraham Rebolledo",
+  "cargo": "Supervisor Operación y Mantenimiento en Enel Green Power, Parque Eólico Renaico",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/abraham-rebolledo-0ab89a172",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/abraham-rebolledo-0ab89a172"
+ },
+ {
+  "empresa": "ENEL GREEN POWER CHILE LIMITADA",
+  "nombre": "Carlos Rodrigo Berenguela Castañon",
+  "cargo": "Jefe de Operaciones Tecnología Solar",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/carlos-rodrigo-berenguela-casta%C3%B3n-8b98217b",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/carlos-rodrigo-berenguela-casta%C3%B3n-8b98217b"
+ },
+ {
+  "empresa": "ENEL GREEN POWER CHILE LIMITADA",
+  "nombre": "Marcos Andrés González Durán",
+  "cargo": "Head Ingeniería del Mantenimiento Solar y BESS",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/marcos-andres-gonzalez-duran-48976136",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/marcos-andres-gonzalez-duran-48976136"
+ },
+ {
+  "empresa": "ENLASA GENERACION CHILE S.A.",
+  "nombre": "Werner Witker",
+  "cargo": "Jefe de Planta Zona Norte Termoeléctricas",
+  "tipo": "jefe_electrico",
+  "linkedin": "https://cl.linkedin.com/in/werner-witker-93306134",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/werner-witker-93306134"
+ },
+ {
+  "empresa": "EMPRESA ELECTRICA COCHRANE S.P.A.",
+  "nombre": "Luis Knaak",
+  "cargo": "Gerente General de Empresa Eléctrica Cochrane S.P.A.",
+  "tipo": "gerente_general",
+  "linkedin": "https://cl.linkedin.com/in/luisknaak",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/luisknaak"
+ },
+ {
+  "empresa": "EMPRESA ELECTRICA COCHRANE S.P.A.",
+  "nombre": "Javier Federico Dib",
+  "cargo": "Gerente General  de Empresa Eléctrica Cochrane SpA",
+  "tipo": "gerente_general",
+  "linkedin": "",
+  "correo": "",
+  "fuente": "https://hechos-esenciales.cl/empresa-electrica-cochrane-spa-2021-05-17-t-2047/"
+ },
+ {
+  "empresa": "FCA PAVIMENTOS Y REVESTIMIENTOS BUDNIK HNOS S A",
+  "nombre": "Marcelo Curihuan",
+  "cargo": "Jefe de Operaciones en Budnik",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/marcelo-curihuan-5b4769102",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/marcelo-curihuan-5b4769102"
+ },
+ {
+  "empresa": "FCA PAVIMENTOS Y REVESTIMIENTOS BUDNIK HNOS S A",
+  "nombre": "Ramón Cabrera",
+  "cargo": "Jefe de Operaciones",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/ramon-cabrera-1a2a99150",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/ramon-cabrera-1a2a99150"
+ },
+ {
+  "empresa": "FCA PAVIMENTOS Y REVESTIMIENTOS BUDNIK HNOS S A",
+  "nombre": "Carlos Pereira",
+  "cargo": "Sub Gerente de Mantención y Proyecto en Prefabricados Budnik",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/carlos-pereira-8068219b",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/carlos-pereira-8068219b"
+ },
+ {
+  "empresa": "KOMATSU REMAN CENTER CHILE S.A.",
+  "nombre": "Alvaro Orellana Raccoursier, Dr.-Ing",
+  "cargo": "Director of Engineering, Research & Development",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "https://cl.linkedin.com/in/alvaro-orellana-raccoursier-dr-ing-b80a8539",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/alvaro-orellana-raccoursier-dr-ing-b80a8539"
+ },
+ {
+  "empresa": "KOMATSU REMAN CENTER CHILE S.A.",
+  "nombre": "Lorenzo Reyes Méndez",
+  "cargo": "Jefe de Mantención",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/lorenzo-reyes-m%C3%A9ndez-11518258",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/lorenzo-reyes-m%C3%A9ndez-11518258"
+ },
+ {
+  "empresa": "KOMATSU REMAN CENTER CHILE S.A.",
+  "nombre": "Carlos Veas",
+  "cargo": "Jefe de Operaciones",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/carlos-veas-3a304830",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/carlos-veas-3a304830"
+ },
+ {
+  "empresa": "MELON HORMIGONES S.A.",
+  "nombre": "Hernan Medina",
+  "cargo": "Gerente de Ingeniería en Melon Hormigones",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "https://cl.linkedin.com/in/hernan-medina-18995818",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/hernan-medina-18995818"
+ },
+ {
+  "empresa": "MELON HORMIGONES S.A.",
+  "nombre": "Tomás Troncoso",
+  "cargo": "Jefe Mantenimiento Mecánico en Empresas Melón / Jefe de Mantenimiento Hormigón Región Metropolitana",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/tom%C3%A1s-troncoso-9811a020",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/tom%C3%A1s-troncoso-9811a020"
+ },
+ {
+  "empresa": "MELON HORMIGONES S.A.",
+  "nombre": "Nelson Galdames",
+  "cargo": "Jefe de Planificación y Confiabilidad Planta LCA, que incluye funciones de instrumentación y control",
+  "tipo": "jefe_ic",
+  "linkedin": "https://cl.linkedin.com/in/nelson-galdames-aa904090",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/nelson-galdames-aa904090"
+ },
+ {
+  "empresa": "MELON HORMIGONES S.A.",
+  "nombre": "Emir Rojas Barrientos",
+  "cargo": "Jefe de sección Eléctrica y Electrónica Planta Punta Arenas en Empresas Melón",
+  "tipo": "jefe_electrico",
+  "linkedin": "https://cl.linkedin.com/in/emir-rojas-barrientos",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/emir-rojas-barrientos"
+ },
+ {
+  "empresa": "J RIVEROS S A I C",
+  "nombre": "Julio Campos",
+  "cargo": "Jefe de Planta",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/julio-campos-50a9b56a",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/julio-campos-50a9b56a"
+ },
+ {
+  "empresa": "J RIVEROS S A I C",
+  "nombre": "José Miguel Molina",
+  "cargo": "Jefe de Mantención Eléctrica",
+  "tipo": "jefe_electrico",
+  "linkedin": "https://cl.linkedin.com/in/jose-miguel-molina-retamal",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/jose-miguel-molina-retamal"
+ },
+ {
+  "empresa": "MASONITE CHILE S A",
+  "nombre": "Christian Ulloa Veas",
+  "cargo": "Jefe de Producción",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/christian-ulloa-veas",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/christian-ulloa-veas"
+ },
+ {
+  "empresa": "MASONITE CHILE S A",
+  "nombre": "Juan Carlos Arias M",
+  "cargo": "Jefe de Mantención Planta Puertas",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/juan-carlos-arias-m-6b5a1b36",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/juan-carlos-arias-m-6b5a1b36"
+ },
+ {
+  "empresa": "MASONITE CHILE S A",
+  "nombre": "Carlos Pedreros",
+  "cargo": "Gerente de Mantención",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/pub/dir/Carlos/Pedreros/cl-0-Chile",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/pub/dir/Carlos/Pedreros/cl-0-Chile"
+ },
+ {
+  "empresa": "AISLAPOL S.A",
+  "nombre": "German Alvarez",
+  "cargo": "Jefe de Planta",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/germanalvarezv",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/germanalvarezv"
+ },
+ {
+  "empresa": "AISLAPOL S.A",
+  "nombre": "Jorge Vallejos",
+  "cargo": "Jefe de Planta de Punta Arenas",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/posts/guillermo-clarke-900796a0_muy-buenos-d%C3%ADas-a-tods-muy-felices-activity-7056996259215077377-Mwb-",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/posts/guillermo-clarke-900796a0_muy-buenos-d%C3%ADas-a-tods-muy-felices-activity-7056996259215077377-Mwb-"
+ },
+ {
+  "empresa": "AISLAPOL S.A",
+  "nombre": "Sergio Miranda",
+  "cargo": "Jefe de Planta, Planta Puerto Montt",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/sergio-miranda-21929068",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/sergio-miranda-21929068"
+ },
+ {
+  "empresa": "PLANTAS POLPAICO DEL PACIFICO LIMITADA",
+  "nombre": "Jose Godoy",
+  "cargo": "Jefe de Operaciones Cemento y Expedición, Planta Cerro Blanco",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/jose-godoy-06527997",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/jose-godoy-06527997"
+ },
+ {
+  "empresa": "PLANTAS POLPAICO DEL PACIFICO LIMITADA",
+  "nombre": "Gustavo Andrés Olivares Muñoz",
+  "cargo": "Superintendente Planta Concentración de Calcita",
+  "tipo": "superintendente",
+  "linkedin": "https://cl.linkedin.com/in/gustavo-andr%C3%A9s-olivares-mu%C3%B1oz-b186ab44",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/gustavo-andr%C3%A9s-olivares-mu%C3%B1oz-b186ab44"
+ },
+ {
+  "empresa": "PLANTAS POLPAICO DEL PACIFICO LIMITADA",
+  "nombre": "Andrew Moran Andrade",
+  "cargo": "Superintendente de Horno",
+  "tipo": "superintendente",
+  "linkedin": "https://cl.linkedin.com/in/andrew-moran-andrade",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/andrew-moran-andrade"
+ },
+ {
+  "empresa": "PLANTAS POLPAICO DEL PACIFICO LIMITADA",
+  "nombre": "Hernán Bahamondes Castro",
+  "cargo": "Superintendente de Mantenimiento Eléctrico",
+  "tipo": "jefe_electrico",
+  "linkedin": "https://cl.linkedin.com/in/hernan-bahamondes-castro-56631018",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/hernan-bahamondes-castro-56631018"
+ },
+ {
+  "empresa": "BOTTAI HERMANOS SOCIEDAD ANONIMA",
+  "nombre": "Alberto Flores P.",
+  "cargo": "Jefe de Planta – San Bernardo",
+  "tipo": "jefe_planta",
+  "linkedin": "",
+  "correo": "",
+  "fuente": "https://bottai.cl/nosotros/"
+ },
+ {
+  "empresa": "BOTTAI HERMANOS SOCIEDAD ANONIMA",
+  "nombre": "Luis Fuentes",
+  "cargo": "Jefe de Planta – Paillaco",
+  "tipo": "jefe_planta",
+  "linkedin": "",
+  "correo": "",
+  "fuente": "https://bottai.cl/nosotros/"
+ },
+ {
+  "empresa": "BOTTAI HERMANOS SOCIEDAD ANONIMA",
+  "nombre": "Marco Henríquez R.",
+  "cargo": "Jefe de Planta – Cabrero",
+  "tipo": "jefe_planta",
+  "linkedin": "",
+  "correo": "",
+  "fuente": "https://bottai.cl/nosotros/"
+ },
+ {
+  "empresa": "CODELPA CHILE S.A.",
+  "nombre": "Sergio Rodríguez López",
+  "cargo": "Gerente de Plantas, Ingeniería y Mantención",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/sergio-rodriguez-lopez-3a747731",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/sergio-rodriguez-lopez-3a747731"
+ },
+ {
+  "empresa": "CODELPA CHILE S.A.",
+  "nombre": "Cristian Andrés Sepulveda Domínguez",
+  "cargo": "Gerente de Mantenimiento e Ingeniería",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/cristian-andres-sepulveda-dominguez-2457851b",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/cristian-andres-sepulveda-dominguez-2457851b"
+ },
+ {
+  "empresa": "AROS DEL PACIFICO S A",
+  "nombre": "Víctor Ramírez Hurtado",
+  "cargo": "Gerente de Operaciones y Control de Gestión",
+  "tipo": "ingeniero_automatizacion",
+  "linkedin": "https://cl.linkedin.com/in/victor-ram%C3%ADrez-hurtado-5340a0123",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/victor-ram%C3%ADrez-hurtado-5340a0123"
+ },
+ {
+  "empresa": "CEMENTOS BICENTENARIO S.A",
+  "nombre": "Hernán Montenegro Olea",
+  "cargo": "Gerente de Mantenimiento Áridos, Cementos Bicentenario",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/hern%C3%A1n-montenegro-olea-b4328366",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/hern%C3%A1n-montenegro-olea-b4328366"
+ },
+ {
+  "empresa": "CEMENTOS BICENTENARIO S.A",
+  "nombre": "Rodolfo Serrano B",
+  "cargo": "Gerente de Mantención y Transporte, Cementos Bicentenario S.A.",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/rodolfo-serrano-b-31662567",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/rodolfo-serrano-b-31662567"
+ },
+ {
+  "empresa": "CEMENTOS BICENTENARIO S.A",
+  "nombre": "Miguel Cabrera",
+  "cargo": "Jefe de Producción / Jefe de Mantenimiento, Planta de Cementos Bicentenario S.A.",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/miguel-cabrera-2068694a",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/miguel-cabrera-2068694a"
+ },
+ {
+  "empresa": "CEMENTOS BICENTENARIO S.A",
+  "nombre": "Victor Urtubia",
+  "cargo": "Gerente de Ingeniería y Procesos, Polpaico-BSA",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "https://cl.linkedin.com/in/victor-urtubia-b4a6a148",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/victor-urtubia-b4a6a148"
+ },
+ {
+  "empresa": "UNITED PLASTIC CORPORATION S.A.",
+  "nombre": "Luis Arturo Mardones Rojas",
+  "cargo": "Jefe de Mantenimiento de Equipos",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://www.linkedin.com/company/united-plastic-corporation-s-a-",
+  "correo": "",
+  "fuente": "https://www.linkedin.com/company/united-plastic-corporation-s-a-"
+ },
+ {
+  "empresa": "UNITED PLASTIC CORPORATION S.A.",
+  "nombre": "Boris Espinoza Riquelme",
+  "cargo": "Jefe de Producción",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/boris-espinoza-riquelme-92aab31a3",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/boris-espinoza-riquelme-92aab31a3"
+ },
+ {
+  "empresa": "UNITED PLASTIC CORPORATION S.A.",
+  "nombre": "Ruben Riquelme",
+  "cargo": "Jefe de Planta",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/ruben-riquelme-65993a114",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/ruben-riquelme-65993a114"
+ },
+ {
+  "empresa": "EMPRESAS DEMARIA S A",
+  "nombre": "Juan Carlos Camacho Leiva",
+  "cargo": "Supervisor Mantención",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/juan-carlos-camacho-leiva-179b46273",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/juan-carlos-camacho-leiva-179b46273"
+ },
+ {
+  "empresa": "EMPRESAS DEMARIA S A",
+  "nombre": "Carlos Marcelo Ramírez Cuadra",
+  "cargo": "Jefe de Ingeniería / Jefe de Proyectos / Jefe de Mantención",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/pub/dir/Carlos%2BMarcelo/%2B/cl-0-Chile",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/pub/dir/Carlos%2BMarcelo/%2B/cl-0-Chile"
+ },
+ {
+  "empresa": "RECAUCHAJES MINEROS BAILAC LIMITADA",
+  "nombre": "Giannina Elizabeth Palomino Mejía",
+  "cargo": "Jefe de Mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://pe.linkedin.com/pub/dir/Giannina/Mej%C3%ADa",
+  "correo": "",
+  "fuente": "https://pe.linkedin.com/pub/dir/Giannina/Mej%C3%ADa"
+ },
+ {
+  "empresa": "RECAUCHAJES MINEROS BAILAC LIMITADA",
+  "nombre": "Rodrigo Álvarez Figueroa",
+  "cargo": "Jefe de Operaciones",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/rodrigo-alvarez-figueroa-99051a287",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/rodrigo-alvarez-figueroa-99051a287"
+ },
+ {
+  "empresa": "FABRICAS Y MAESTRANZAS DEL EJERCITO",
+  "nombre": "José Herrera Vergara",
+  "cargo": "Jefe Centro de Mantenimiento FAMAE Arica",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/jose-herrera-vergara-147093177",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/jose-herrera-vergara-147093177"
+ },
+ {
+  "empresa": "FABRICAS Y MAESTRANZAS DEL EJERCITO",
+  "nombre": "Alejandro Andrés Astorga Vargas",
+  "cargo": "Jefe del Departamento de Ingeniería de Mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/alejandro-andres-astorga-vargas-b864a856",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/alejandro-andres-astorga-vargas-b864a856"
+ },
+ {
+  "empresa": "FABRICAS Y MAESTRANZAS DEL EJERCITO",
+  "nombre": "Lorena Gajardo Sánchez",
+  "cargo": "Gerente de Mantenimiento de Sistemas de Armas de FAMAE",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/lorena-gajardo-97558ab7",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/lorena-gajardo-97558ab7"
+ },
+ {
+  "empresa": "ENVASES TERMOAISLANTES S A",
+  "nombre": "Eduardo Ruiz Onate",
+  "cargo": "Jefe de Planta",
+  "tipo": "jefe_planta",
+  "linkedin": "",
+  "correo": "",
+  "fuente": "https://contactout.com/eduardo-ruiz-onate-89201"
+ },
+ {
+  "empresa": "CMPC MADERAS S A",
+  "nombre": "Luis Bordagaray Köstner",
+  "cargo": "Subgerente Confiabilidad y Mantenimiento, CMPC Maderas",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/luis-bordagaray-k%C3%B6stner-10242a140",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/luis-bordagaray-k%C3%B6stner-10242a140"
+ },
+ {
+  "empresa": "CMPC MADERAS S A",
+  "nombre": "Rodrigo Sebastián Friz Godoy",
+  "cargo": "Jefe de Mantención Planta Nacimiento , CMPC Maderas",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/rodrigo-sebasti%C3%A1n-friz-godoy-908a5723b",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/rodrigo-sebasti%C3%A1n-friz-godoy-908a5723b"
+ },
+ {
+  "empresa": "CMPC MADERAS S A",
+  "nombre": "Rodrigo Santander Díaz",
+  "cargo": "Jefe de Mantención y Confiabilidad, CMPC Maderas",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/rodrigo-s-d",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/rodrigo-s-d"
+ },
+ {
+  "empresa": "CMPC MADERAS S A",
+  "nombre": "Juan Antonio Miranda Salazar",
+  "cargo": "Jefe Departamento de Instrumentación y Control Cartulinas CMPC S.p.A Planta Maule",
+  "tipo": "jefe_ic",
+  "linkedin": "https://cl.linkedin.com/in/juan-antonio-miranda-salazar-8971903a",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/juan-antonio-miranda-salazar-8971903a"
+ },
+ {
+  "empresa": "RECAUCHAJES BAILAC THOR LIMITADA",
+  "nombre": "Rodrigo Eduardo Lara Villar",
+  "cargo": "Sub Gerente Mantención",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/rodrigo-eduardo-lara-villar-9a91878b",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/rodrigo-eduardo-lara-villar-9a91878b"
+ },
+ {
+  "empresa": "RECAUCHAJES BAILAC THOR LIMITADA",
+  "nombre": "Santiago Perini Ch.",
+  "cargo": "Gerente Comercial / Gerente de Mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/santiago-perini-ch-86b30650",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/santiago-perini-ch-86b30650"
+ },
+ {
+  "empresa": "RECAUCHAJES BAILAC THOR LIMITADA",
+  "nombre": "Eduardo Toro Medina",
+  "cargo": "Jefe de Ingeniería",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "https://cl.linkedin.com/in/eduardo-toro-medina-...",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/eduardo-toro-medina-..."
+ },
+ {
+  "empresa": "RECAUCHAJES BAILAC THOR LIMITADA",
+  "nombre": "Mauricio Flores",
+  "cargo": "Supervisor de Mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/mauricio-flores-6a7400151",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/mauricio-flores-6a7400151"
+ },
+ {
+  "empresa": "EMPRESA NACIONAL DE AERONAUTICA DE CHILE",
+  "nombre": "Cristian Ortega",
+  "cargo": "Jefe de División de Ingeniería ENAER",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "https://cl.linkedin.com/in/cristian-ortega-060811189",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/cristian-ortega-060811189"
+ },
+ {
+  "empresa": "READY MIX HORMIGONES LIMITADA",
+  "nombre": "Gonzalo Ríos Barra",
+  "cargo": "Jefe de Planta, Proyecto Relaves PRET",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/gonzaloriosbarra",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/gonzaloriosbarra"
+ },
+ {
+  "empresa": "RHONA S A",
+  "nombre": "Julio Quezada",
+  "cargo": "Gerente de Ingeniería",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "https://cl.linkedin.com/in/julio-quezada-65a0a35",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/julio-quezada-65a0a35"
+ },
+ {
+  "empresa": "RENNER COATINGS CHILE SPA",
+  "nombre": "Dijanio Lopes",
+  "cargo": "Gerente de Ingeniería y Medio Ambiente",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "https://pe.linkedin.com/in/dijanio-lopes-0b6b775",
+  "correo": "",
+  "fuente": "https://pe.linkedin.com/in/dijanio-lopes-0b6b775"
+ },
+ {
+  "empresa": "ASERRADERO VICTORIA S A",
+  "nombre": "Felipe Antonio Medina Cáceres",
+  "cargo": "Planificador Senior de Mantención / Líder de Operaciones y Mantención",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/felipe-antonio-medina-c%C3%A1ceres-famc",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/felipe-antonio-medina-c%C3%A1ceres-famc"
+ },
+ {
+  "empresa": "MADERAS ARAUCO S A",
+  "nombre": "Cristian Muñoz Puentes",
+  "cargo": "Jefe de Mantención, Planta Generadora de Energía / Molduras y Moldurado, Maderas Arauco",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/cristian-mu%C3%B1oz-puentes-b6366972",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/cristian-mu%C3%B1oz-puentes-b6366972"
+ },
+ {
+  "empresa": "MADERAS ARAUCO S A",
+  "nombre": "Omar Eduardo Romo Jara",
+  "cargo": "Engineering Manager, Maderas Arauco Chile",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "https://cl.linkedin.com/in/omarromo",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/omarromo"
+ },
+ {
+  "empresa": "MADERAS ARAUCO S A",
+  "nombre": "Alan Ruiz",
+  "cargo": "Superintendente de Operaciones y Mantenimiento, ARAUCO",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/alanruizp",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/alanruizp"
+ },
+ {
+  "empresa": "MADERAS ARAUCO S A",
+  "nombre": "Mario Soto Herrera",
+  "cargo": "Superintendente Mantención Electrocontrol, Planta Arauco, Maderas Arauco",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/mario-soto-herrera-11aba1279",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/mario-soto-herrera-11aba1279"
+ },
+ {
+  "empresa": "MADERAS ARAUCO S A",
+  "nombre": "Jaime Alberto Toro Vega",
+  "cargo": "Superintendente de Mantención Licor, Caustificación y Horno de Cal, Planta Constitución, Maderas Arauco",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/jaime-alberto-toro-vega-31ab1133",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/jaime-alberto-toro-vega-31ab1133"
+ },
+ {
+  "empresa": "BITUMIX AUSTRAL S.A.",
+  "nombre": "Andy Ross Villanueva",
+  "cargo": "Jefe de Planta Bitumix Austral",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/andy-ross-villanueva",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/andy-ross-villanueva"
+ },
+ {
+  "empresa": "BITUMIX AUSTRAL S.A.",
+  "nombre": "Adolfo Soto",
+  "cargo": "Supervisor de Mantenimiento Bitumix Austral",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/adolfo-soto-a0725310b",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/adolfo-soto-a0725310b"
+ },
+ {
+  "empresa": "BITUMIX AUSTRAL S.A.",
+  "nombre": "Ricardo Loebel Delgado",
+  "cargo": "Jefe de Planta Bitumix Austral",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/ricardo-loebel-delgado",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/ricardo-loebel-delgado"
+ },
+ {
+  "empresa": "ENAP REFINERIAS S A",
+  "nombre": "Franco Ramirez Silva",
+  "cargo": "Jefe de Mantenimiento, ENAP Refinerías",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/franco-ramirez-silva-b0b39115a",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/franco-ramirez-silva-b0b39115a"
+ },
+ {
+  "empresa": "VILLALBA S A",
+  "nombre": "Carlos Ubilla",
+  "cargo": "Jefe de Ingeniería Villalba S.A.",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "https://cl.linkedin.com/in/carlos-ubilla-483b992a",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/carlos-ubilla-483b992a"
+ },
+ {
+  "empresa": "CONSTRUCTORA DE PAVIMENTOS ASFALTICOS BITUMIX S.A",
+  "nombre": "Sergio Valverde",
+  "cargo": "Gerente de Ingeniería",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "https://es.linkedin.com/posts/bitumix-s.a._bitumix-probisa-vinci-activity-7265086497576390656-1aGD",
+  "correo": "",
+  "fuente": "https://es.linkedin.com/posts/bitumix-s.a._bitumix-probisa-vinci-activity-7265086497576390656-1aGD"
+ },
+ {
+  "empresa": "CONSTRUCTORA DE PAVIMENTOS ASFALTICOS BITUMIX S.A",
+  "nombre": "Manuel Gómez Valdés",
+  "cargo": "Jefe de Operaciones",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/manuel-g%C3%B3mez-vald%C3%A9s-6a632ab0",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/manuel-g%C3%B3mez-vald%C3%A9s-6a632ab0"
+ },
+ {
+  "empresa": "CONSTRUCTORA DE PAVIMENTOS ASFALTICOS BITUMIX S.A",
+  "nombre": "Mauricio Cisneros Leiva",
+  "cargo": "Jefe de Operaciones Obras Viales & Pavimentación División ORM",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/mauricio-cisneros-leiva-a331b822",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/mauricio-cisneros-leiva-a331b822"
+ },
+ {
+  "empresa": "CONSTRUCTORA DE PAVIMENTOS ASFALTICOS BITUMIX S.A",
+  "nombre": "Rodrigo Huerta",
+  "cargo": "Jefe de Planta",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/rodrigo-huerta-109034188",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/rodrigo-huerta-109034188"
+ },
+ {
+  "empresa": "CONSTRUCTORA DE PAVIMENTOS ASFALTICOS BITUMIX S.A",
+  "nombre": "Héctor Rivero Guzmán",
+  "cargo": "Bitumix; experiencia en mantenimiento y producción de plantas industriales; ha sido Jefe de Planta Asfalto y Chancado Plantas Móviles )",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/hector-rivero-g",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/hector-rivero-g"
+ },
+ {
+  "empresa": "PLASTICOS BURGOS SA",
+  "nombre": "Boris Pizarro Rojas",
+  "cargo": "Jefe de Mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/boris-pizarro-rojas-3a63161b",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/boris-pizarro-rojas-3a63161b"
+ },
+ {
+  "empresa": "DIVERSEY INDUSTRIAL Y COMERCIAL DE CHILE LIMITADA",
+  "nombre": "Jonadab Navia Valenzuela",
+  "cargo": "Ingeniero Industrial, Técnico Automatización y Control Industrial, trabaja en roles técnicos relacionados en Diversey Chile",
+  "tipo": "jefe_ic",
+  "linkedin": "https://cl.linkedin.com/in/jonadab-navia-valenzuela-965341131",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/jonadab-navia-valenzuela-965341131"
+ },
+ {
+  "empresa": "FABRICA DE CALZADOS GINO S A",
+  "nombre": "Alexis Fabia",
+  "cargo": "Jefe de Mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/alexis-fabia-a11962129",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/alexis-fabia-a11962129"
+ },
+ {
+  "empresa": "FABRICA DE CALZADOS GINO S A",
+  "nombre": "José Miguel Maldonado R.",
+  "cargo": "Gerente de Planta y Control de Gestión",
+  "tipo": "ingeniero_automatizacion",
+  "linkedin": "https://cl.linkedin.com/in/jos%C3%A9-miguel-maldonado-r-29466135",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/jos%C3%A9-miguel-maldonado-r-29466135"
+ },
+ {
+  "empresa": "TALLERES METALURGICOS CHILE SA",
+  "nombre": "Angela Catalán Pereira",
+  "cargo": "Gerente de Procesos y Comercial",
+  "tipo": "ingeniero_procesos",
+  "linkedin": "https://cl.linkedin.com/in/angela-catalan-pereira",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/angela-catalan-pereira"
+ },
+ {
+  "empresa": "MASISA S.A.",
+  "nombre": "Gabriel Friz Roa",
+  "cargo": "Subgerente Mantenimiento y Confiabilidad Transversal / Jefe mantenimiento tableros y aserradero Planta Cabrero",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/gabriel-friz-roa-bb794b62",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/gabriel-friz-roa-bb794b62"
+ },
+ {
+  "empresa": "MASISA S.A.",
+  "nombre": "Marcelo Carrión González",
+  "cargo": "Subgerente de Mantenimiento y Sistemas Transversales",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/marcelo-carri%C3%B3n-gonz%C3%A1lez-45644051",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/marcelo-carri%C3%B3n-gonz%C3%A1lez-45644051"
+ },
+ {
+  "empresa": "MASISA S.A.",
+  "nombre": "Iván Lizama Rubilar",
+  "cargo": "Jefe de Planta Aserradero",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/iv%C3%A1n-lizama-rubilar-396a87120",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/iv%C3%A1n-lizama-rubilar-396a87120"
+ },
+ {
+  "empresa": "MASISA S.A.",
+  "nombre": "Ignacio Herrera",
+  "cargo": "Subgerente de Mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/ignacio-herrera-0b140257",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/ignacio-herrera-0b140257"
+ },
+ {
+  "empresa": "BIO BIO CEMENTOS S.A.",
+  "nombre": "Eugenio Pezo",
+  "cargo": "Jefe de Mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/eugenio-pezo-b52149381",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/eugenio-pezo-b52149381"
+ },
+ {
+  "empresa": "SOC PETREOS S A",
+  "nombre": "Ricardo Gomez Prieto",
+  "cargo": "Jefe de Planta en Sociedad Petreos S.A.",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/ricardo-gomez-prieto-287022176",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/ricardo-gomez-prieto-287022176"
+ },
+ {
+  "empresa": "SOC PETREOS S A",
+  "nombre": "Felipe Mellado Silva",
+  "cargo": "Jefe de Planta en Sociedad Minera Petreos Quilín",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/felipe-mellado-silva-7b7601279",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/felipe-mellado-silva-7b7601279"
+ },
+ {
+  "empresa": "VULCO S A",
+  "nombre": "José Luis Arellano Riquelme",
+  "cargo": "Gerente Ingeniería Chile y Andean",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "https://cl.linkedin.com/in/jos%C3%A9-luis-arellano-riquelme-7643ab14a",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/jos%C3%A9-luis-arellano-riquelme-7643ab14a"
+ },
+ {
+  "empresa": "VULCO S A",
+  "nombre": "Hugo Flores H.",
+  "cargo": "Engineering Supervisor, Weir Minerals Vulco",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "https://cl.linkedin.com/in/hugo-flores-h-561b4921",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/hugo-flores-h-561b4921"
+ },
+ {
+  "empresa": "VULCO S A",
+  "nombre": "Eduardo Herrera Cerda",
+  "cargo": "Gerente QA/QC / Jefe de Ingeniería / Jefe de Proyectos Weir Minerals Chile",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "https://cl.linkedin.com/in/eduardo-herrera-rene",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/eduardo-herrera-rene"
+ },
+ {
+  "empresa": "CAMBIASO HNOS S A C",
+  "nombre": "Juan Ramos",
+  "cargo": "Jefe de Mantención",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/juan-ramos-41910981",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/juan-ramos-41910981"
+ },
+ {
+  "empresa": "ASERRADEROS ARAUCO S A",
+  "nombre": "Cristian Muñoz Puentes",
+  "cargo": "Jefe de Mantención, Maderas ARAUCO",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/cristian-mu%C3%B1oz-puentes-b6366972",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/cristian-mu%C3%B1oz-puentes-b6366972"
+ },
+ {
+  "empresa": "ASERRADEROS ARAUCO S A",
+  "nombre": "Sebastian Arias Jeldres",
+  "cargo": "Jefe de Mantención Eléctrica, Mantenimiento Predictivo y Líder Equipo Seguro, ARAUCO",
+  "tipo": "jefe_electrico",
+  "linkedin": "https://cl.linkedin.com/in/sebastian-arias-jeldres",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/sebastian-arias-jeldres"
+ },
+ {
+  "empresa": "ASERRADEROS ARAUCO S A",
+  "nombre": "Jorge Zúñiga Palma",
+  "cargo": "Superintendente de operaciones de planta de tratamiento de aguas y efluente industrial, ARAUCO",
+  "tipo": "superintendente",
+  "linkedin": "https://cl.linkedin.com/in/jorgezunigapalma",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/jorgezunigapalma"
+ },
+ {
+  "empresa": "SOC INDUSTRIAL ROMERAL S A",
+  "nombre": "Guillermo Valenzuela Delmas",
+  "cargo": "Ingeniero en Automatización e Instrumentación",
+  "tipo": "jefe_ic",
+  "linkedin": "https://cl.linkedin.com/in/guillermo-valenzuela-delmas-ab209136",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/guillermo-valenzuela-delmas-ab209136"
+ },
+ {
+  "empresa": "INDUSTRIAS CLEANER CHILE S.A.",
+  "nombre": "Juan Pablo Soto",
+  "cargo": "Jefe de Planta de Producción",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/juan-pablo-soto-30853139",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/juan-pablo-soto-30853139"
+ },
+ {
+  "empresa": "INDUSTRIAS CLEANER CHILE S.A.",
+  "nombre": "Ramón Rodrigo Rivas Vergara",
+  "cargo": "Jefe de Planta",
+  "tipo": "jefe_planta",
+  "linkedin": "https://www.linkedin.com/pub/ramón-rodrigo-rivas-vergara",
+  "correo": "",
+  "fuente": "https://www.linkedin.com/pub/ramón-rodrigo-rivas-vergara"
+ },
+ {
+  "empresa": "VIDRIOS LIRQUEN S A",
+  "nombre": "Gonzalo Fuente",
+  "cargo": "Gerente de Procesados, Mantención y Logística",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/gonzalo-fuente-4857aa34",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/gonzalo-fuente-4857aa34"
+ },
+ {
+  "empresa": "VIDRIOS LIRQUEN S A",
+  "nombre": "Luis Bout Saez",
+  "cargo": "Jefe de Mantención Eléctrica e Instrumentación",
+  "tipo": "jefe_ic",
+  "linkedin": "https://cl.linkedin.com/in/luis-bout-saez-71750761",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/luis-bout-saez-71750761"
+ },
+ {
+  "empresa": "CTI S.A.",
+  "nombre": "Manuel Jimenez",
+  "cargo": "Jefe Depto. Ingeniería Refrigeradores",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "https://cl.linkedin.com/in/manuel-jimenez-5522136a",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/manuel-jimenez-5522136a"
+ },
+ {
+  "empresa": "CTI S.A.",
+  "nombre": "Juan Bustamante Frias",
+  "cargo": "Jefe de Planta",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/juan-bustamante-frias-539444153",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/juan-bustamante-frias-539444153"
+ },
+ {
+  "empresa": "CTI S.A.",
+  "nombre": "Iber Cristi Oporto",
+  "cargo": "Gerente Ingeniería Manufactura y Mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/iber-cristi-oporto",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/iber-cristi-oporto"
+ },
+ {
+  "empresa": "POLYTEX S.A.",
+  "nombre": "Roberto Gutiérrez",
+  "cargo": "Superintendente Corporativo de Mantenimiento en Polytex S.A.",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/roberto-gutierrez-9932636a",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/roberto-gutierrez-9932636a"
+ },
+ {
+  "empresa": "FINNING CHILE S A",
+  "nombre": "Gregorio Olivares Romero",
+  "cargo": "Gerente de Mantenimiento en Finning",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/gregorio-olivares-romero-30a996343",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/gregorio-olivares-romero-30a996343"
+ },
+ {
+  "empresa": "FINNING CHILE S A",
+  "nombre": "Carlos Alberto Candia Campos",
+  "cargo": "Jefe Procesos Mantenimiento Senior en Finning South América",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/carlos-alberto-candia-campos-347932125",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/carlos-alberto-candia-campos-347932125"
+ },
+ {
+  "empresa": "READY MIX CENTRO S A",
+  "nombre": "Michel Lemoine",
+  "cargo": "ex-Jefe de Planta en Ready Mix Centro S.A.",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/michel-lemoine-94b18366",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/michel-lemoine-94b18366"
+ },
+ {
+  "empresa": "VINA CONCHA Y TORO S A",
+  "nombre": "Cristian Zamorano",
+  "cargo": "Instrumentista Senior (instrumentación y automatización)",
+  "tipo": "ingeniero_automatizacion",
+  "linkedin": "https://cl.linkedin.com/in/cristian-zamorano-instrumentista-senior",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/cristian-zamorano-instrumentista-senior"
+ },
+ {
+  "empresa": "VINA CONCHA Y TORO S A",
+  "nombre": "Nicolas E. Droguett Inostroza",
+  "cargo": "Jefe de Mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/nicolas-e-droguett-inostroza-59966120b",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/nicolas-e-droguett-inostroza-59966120b"
+ },
+ {
+  "empresa": "VINA CONCHA Y TORO S A",
+  "nombre": "Marcelo Lecaros Farías",
+  "cargo": "Jefe de Mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/marcelo-lecaros-farias-93609024",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/marcelo-lecaros-farias-93609024"
+ },
+ {
+  "empresa": "COPEFRUT S A",
+  "nombre": "Jorge Cabeza Aro",
+  "cargo": "Jefe de Operaciones",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/jorge-cabeza-aro-a0203582",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/jorge-cabeza-aro-a0203582"
+ },
+ {
+  "empresa": "BERRIES PATAGONIA S A",
+  "nombre": "Patricio Poblete",
+  "cargo": "Jefe de Planta y Certificaciones",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/patricio-poblete-931463120",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/patricio-poblete-931463120"
+ },
+ {
+  "empresa": "AGRICOLA SANTA LUISA LTDA.",
+  "nombre": "Marcelo Catalan",
+  "cargo": "Jefe de Operaciones",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://www.linkedin.com/company/agrisma",
+  "correo": "",
+  "fuente": "https://www.linkedin.com/company/agrisma"
+ },
+ {
+  "empresa": "VINA COUSINO MACUL S A",
+  "nombre": "Florian Castellino",
+  "cargo": "Jefe de Mantención, Viña Cousiño Macul",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/florian-castellino-84350b129",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/florian-castellino-84350b129"
+ },
+ {
+  "empresa": "HORTIFRUT CHILE S A",
+  "nombre": "Guillermo Leiva Sandoval",
+  "cargo": "Jefe de Planta, Planta Gorbea",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/guillermo-leiva-sandoval-b7890aa8",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/guillermo-leiva-sandoval-b7890aa8"
+ },
+ {
+  "empresa": "HORTIFRUT CHILE S A",
+  "nombre": "Pablo Morales Salinas",
+  "cargo": "Jefe de Operaciones, Planta Virquenco",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/pablo-morales-salinas-295a3466",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/pablo-morales-salinas-295a3466"
+ },
+ {
+  "empresa": "AGRICOLA POZO BRUJO LIMITADA",
+  "nombre": "Germán Rebolledo",
+  "cargo": "Jefe de operaciones de campo",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/german-rebolledo-49175b145",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/german-rebolledo-49175b145"
+ },
+ {
+  "empresa": "SOC AGROINDUSTRIAL Y FRIGORIFICO SOTAQUI S A",
+  "nombre": "Oscar Eugenio Gómez Muñoz",
+  "cargo": "Encargado de Planta",
+  "tipo": "jefe_planta",
+  "linkedin": "",
+  "correo": "",
+  "fuente": "fuente web"
+ },
+ {
+  "empresa": "SOC AGROINDUSTRIAL Y FRIGORIFICO SOTAQUI S A",
+  "nombre": "Hugo Vigorena",
+  "cargo": "Jefe de Planta Frigorífico Sotaquí",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/hugo-vigorena-3946a4b6",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/hugo-vigorena-3946a4b6"
+ },
+ {
+  "empresa": "SOC AGROINDUSTRIAL Y FRIGORIFICO SOTAQUI S A",
+  "nombre": "Edgard Salinas",
+  "cargo": "Encargado de Planta (repositorio UV)",
+  "tipo": "jefe_planta",
+  "linkedin": "",
+  "correo": "",
+  "fuente": "fuente web"
+ },
+ {
+  "empresa": "COMERCIALIZADORA AGRICOLA Y FORESTAL PINARES LIMITADA",
+  "nombre": "Gabriel Puentes",
+  "cargo": "Encargado de Logística y Mantención",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "",
+  "correo": "",
+  "fuente": "https://www.signalhire.com/profiles/gabriel-puentes%27s-email/140378391"
+ },
+ {
+  "empresa": "AGRICOLA Y FRUTERA CURACAVI S A",
+  "nombre": "José Cárcamo",
+  "cargo": "Jefe de Mantención Planta Río Bueno",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/jos%C3%A9-c%C3%A1rcamo-08b85049",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/jos%C3%A9-c%C3%A1rcamo-08b85049"
+ },
+ {
+  "empresa": "COAGRA S A",
+  "nombre": "Sergio Cifuentes T Lideres",
+  "cargo": "Jefe de Planta en Coagra Agroindustrial S.A.",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/sergio-cifuentes-t-lideres-24919514b",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/sergio-cifuentes-t-lideres-24919514b"
+ },
+ {
+  "empresa": "DOSAL HNOS Y CIA LTDA",
+  "nombre": "Carlos Leiva Morales",
+  "cargo": "Jefe de Mantención Producción",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/carlos-leiva-morales-9a747a74",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/carlos-leiva-morales-9a747a74"
+ },
+ {
+  "empresa": "INDUSTRIALIZADORA AGRICOLA SPA",
+  "nombre": "Israel Marcos Vidal Sanchez",
+  "cargo": "Jefe de Planta",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/israel-marcos-vidal-sanchez-83463048",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/israel-marcos-vidal-sanchez-83463048"
+ },
+ {
+  "empresa": "IANSAGRO S A",
+  "nombre": "Luis Núñez Bustamante",
+  "cargo": "Ingeniero Jefe de Procesos Planta Chillán, Iansagro S.A.",
+  "tipo": "ingeniero_procesos",
+  "linkedin": "https://cl.linkedin.com/in/luis-nu%C3%B1ez-bustamante-8bb564128",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/luis-nu%C3%B1ez-bustamante-8bb564128"
+ },
+ {
+  "empresa": "IANSAGRO S A",
+  "nombre": "José Andrés Pérez Fernández",
+  "cargo": "Jefe de Mantención en Empresas Iansa",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/jos%C3%A9-andr%C3%A9s-p%C3%A9rez-fern%C3%A1ndez-b4a96384",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/jos%C3%A9-andr%C3%A9s-p%C3%A9rez-fern%C3%A1ndez-b4a96384"
+ },
+ {
+  "empresa": "IANSAGRO S A",
+  "nombre": "Marcos Monsalve",
+  "cargo": "Jefe Departamento Mantención Mecánica, Planta Chillán, Iansa",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/marcos-monsalve-01b27ab0",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/marcos-monsalve-01b27ab0"
+ },
+ {
+  "empresa": "CARNES NUBLE S A",
+  "nombre": "Luis Bastías",
+  "cargo": "Jefe de Mantenimiento Nacional",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/luis-bastias-742a6917",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/luis-bastias-742a6917"
+ },
+ {
+  "empresa": "CARNES NUBLE S A",
+  "nombre": "Mauricio Perán Rivera",
+  "cargo": "Subgerente de Producción",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/mauricio-per%C3%A1n-rivera",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/mauricio-per%C3%A1n-rivera"
+ },
+ {
+  "empresa": "CARNES NUBLE S A",
+  "nombre": "Pablo Palavecino Vásquez",
+  "cargo": "Técnico Electricidad",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/pablo-palavecino-vasquez-59b537104",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/pablo-palavecino-vasquez-59b537104"
+ },
+ {
+  "empresa": "SOC COPEVAL AGROINDUSTRIAS S A",
+  "nombre": "Arnaldo Fernandez",
+  "cargo": "Jefe de Planta Los Ángeles",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/arnaldo-fernandez-76824340",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/arnaldo-fernandez-76824340"
+ },
+ {
+  "empresa": "SOC COPEVAL AGROINDUSTRIAS S A",
+  "nombre": "Caro Hardijs",
+  "cargo": "Jefe de Operaciones",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/caro-hardijs-b874b8b3",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/caro-hardijs-b874b8b3"
+ },
+ {
+  "empresa": "CENTRAL FRUTICOLA SAN CLEMENTE S.A.",
+  "nombre": "Pedro Salazar Ruiz",
+  "cargo": "Jefe de Producción Ingeniero Civil Industrial en Central Frutícola San Clemente S.A.",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/pedro-salazar-ruiz-63b189127",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/pedro-salazar-ruiz-63b189127"
+ },
+ {
+  "empresa": "CENTRAL FRUTICOLA SAN CLEMENTE S.A.",
+  "nombre": "Edgar Barros",
+  "cargo": "Jefe de Mantención de planta en Central Fruticola San Clemente",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/edgar-barros-04a28a74",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/edgar-barros-04a28a74"
+ },
+ {
+  "empresa": "SOC FRIGORIFICO SAN NICOLAS LIMITADA",
+  "nombre": "Matías Barrera Saldaña",
+  "cargo": "Jefe de Control de Calidad y Certificaciones",
+  "tipo": "jefe_calidad",
+  "linkedin": "https://cl.linkedin.com/in/matias-barrera-salda%C3%B1a",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/matias-barrera-salda%C3%B1a"
+ },
+ {
+  "empresa": "BRITISH AMERICAN TOBACCO CHILE OPERACIONES S.A.",
+  "nombre": "Raúl Moraga Oyarce",
+  "cargo": "Production Engineering Manager  en BAT Chile",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "https://cl.linkedin.com/in/raul-moraga-oyarce",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/raul-moraga-oyarce"
+ },
+ {
+  "empresa": "FORESTAL LEON LIMITADA",
+  "nombre": "Luis Alarcón Inzunza",
+  "cargo": "Ingeniero de Mantenimiento y Operaciones en Forestal León",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/luis-alarcon-inzunza",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/luis-alarcon-inzunza"
+ },
+ {
+  "empresa": "VINA SAN PEDRO TARAPACA S.A.",
+  "nombre": "Cristian Rodrigo Tobar Riquelme",
+  "cargo": "Jefe de Operaciones Planta Molina",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/cristian-rodrigo-tobar-riquelme-b16b21125",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/cristian-rodrigo-tobar-riquelme-b16b21125"
+ },
+ {
+  "empresa": "VINA SAN PEDRO TARAPACA S.A.",
+  "nombre": "Ricardo Andrés Moraga Quinteros",
+  "cargo": "Jefe de Operaciones Viña San Pedro Tarapacá",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/ricardo-andres-moraga-quinteros-0b37151bb",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/ricardo-andres-moraga-quinteros-0b37151bb"
+ },
+ {
+  "empresa": "VINA SAN PEDRO TARAPACA S.A.",
+  "nombre": "Maximiliano Vera",
+  "cargo": "Especialista de Mantención Enología",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/maximiliano-vera-b2565811b",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/maximiliano-vera-b2565811b"
+ },
+ {
+  "empresa": "AVICOLA ANDINA SPA",
+  "nombre": "Francisco Chiang",
+  "cargo": "Jefe de Operaciones",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/francisco-chiang-20420350",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/francisco-chiang-20420350"
+ },
+ {
+  "empresa": "COMPANIA AGROPECUARIA COPEVAL S A",
+  "nombre": "Arnaldo Fernandez",
+  "cargo": "Jefe de Planta Los Ángeles",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/arnaldo-fernandez-76824340",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/arnaldo-fernandez-76824340"
+ },
+ {
+  "empresa": "AGROSUPER COMERCIALIZADORA DE ALIMENTOS LTDA",
+  "nombre": "Giovanny Ramirez",
+  "cargo": "Jefe de Mantenimiento, Agrosuper",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/giovanny-ramirez-b2a525157",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/giovanny-ramirez-b2a525157"
+ },
+ {
+  "empresa": "AGROSUPER COMERCIALIZADORA DE ALIMENTOS LTDA",
+  "nombre": "Raul Rozas Tobar",
+  "cargo": "Jefe de Mantenimiento Planta de Alimentos Longovilo",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/raul-rozas-tobar-0a50511a5",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/raul-rozas-tobar-0a50511a5"
+ },
+ {
+  "empresa": "AGROSUPER COMERCIALIZADORA DE ALIMENTOS LTDA",
+  "nombre": "Jose Leiva Salgado",
+  "cargo": "Jefe de Mantenimiento Planta Rengo",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/jose-leiva-salgado-1395a0279",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/jose-leiva-salgado-1395a0279"
+ },
+ {
+  "empresa": "AGROSUPER COMERCIALIZADORA DE ALIMENTOS LTDA",
+  "nombre": "Jonathan Lizana Figueroa",
+  "cargo": "Jefe de Planificación de Mantenimiento Rengo",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/jlizanaf",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/jlizanaf"
+ },
+ {
+  "empresa": "AGROSUPER COMERCIALIZADORA DE ALIMENTOS LTDA",
+  "nombre": "Juan Rivera Vergara",
+  "cargo": "Supervisor de Mantenimiento Eléctrico/Electrónico Rengo",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/juan-rivera-vergara-595908335",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/juan-rivera-vergara-595908335"
+ },
+ {
+  "empresa": "FRIGORIFICOS DEL LIMARI S A",
+  "nombre": "Rubén Marcos Aracena Morales",
+  "cargo": "Jefe de Frigorífico",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/ruben-marcos-aracena-morales",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/ruben-marcos-aracena-morales"
+ },
+ {
+  "empresa": "FRIGORIFICOS DEL LIMARI S A",
+  "nombre": "Mauro Campusano",
+  "cargo": "Jefe de Mantención",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/mauro-campusano-04b5653",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/mauro-campusano-04b5653"
+ },
+ {
+  "empresa": "FRIGORIFICOS DEL LIMARI S A",
+  "nombre": "Claudio Acuña González",
+  "cargo": "Jefe General de Mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/claudio-acu%C3%B1a-gonz%C3%A1lez-62546aba",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/claudio-acu%C3%B1a-gonz%C3%A1lez-62546aba"
+ },
+ {
+  "empresa": "ALIMENTOS AGROSUPER LIMITADA",
+  "nombre": "Giovanny Ramírez",
+  "cargo": "Jefe de Mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/giovanny-ramirez-b2a525157",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/giovanny-ramirez-b2a525157"
+ },
+ {
+  "empresa": "ALIMENTOS AGROSUPER LIMITADA",
+  "nombre": "Víctor Antonio Bravo Huerta",
+  "cargo": "Supervisor Mantención Eléctrica",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/v%C3%ADctor-antonio-bravo-huerta-2b4ab237",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/v%C3%ADctor-antonio-bravo-huerta-2b4ab237"
+ },
+ {
+  "empresa": "ALIMENTOS AGROSUPER LIMITADA",
+  "nombre": "Diego Ignacio Hernández Oyanedel",
+  "cargo": "Supervisor Mantención / Ing. Electricidad y Automatización Industrial",
+  "tipo": "jefe_ic",
+  "linkedin": "https://cl.linkedin.com/in/ing-diegohernandez",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/ing-diegohernandez"
+ },
+ {
+  "empresa": "ALIMENTOS AGROSUPER LIMITADA",
+  "nombre": "Sabino Palacios Mella",
+  "cargo": "Jefe de Mantenimiento Planta Rendering Lo Miranda",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/sabino-palacios-mella-b47685b6",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/sabino-palacios-mella-b47685b6"
+ },
+ {
+  "empresa": "ALIMENTOS AGROSUPER LIMITADA",
+  "nombre": "Mauricio Hernán Escobar Venegas",
+  "cargo": "Subgerente Mantenimiento Industrial",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/mauricio-hernan-escobar-venegas-66b77856",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/mauricio-hernan-escobar-venegas-66b77856"
+ },
+ {
+  "empresa": "ALIMENTOS AGROSUPER LIMITADA",
+  "nombre": "Sergio Flores Vásquez",
+  "cargo": "Subgerente de Proyectos y Mantenimiento Plantas de Alimento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/sergio-flores-v%C3%A1squez-33096a30",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/sergio-flores-v%C3%A1squez-33096a30"
+ },
+ {
+  "empresa": "ALIMENTOS AGROSUPER LIMITADA",
+  "nombre": "Juan Matamoros G.",
+  "cargo": "Jefe de Mantenimiento Área Eléctrica e Instrumentación y Servicios, Planta Lo Miranda",
+  "tipo": "jefe_ic",
+  "linkedin": "https://cl.linkedin.com/in/juan-matamoros-g-6a075718",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/juan-matamoros-g-6a075718"
+ },
+ {
+  "empresa": "FORESTAL SANTA BLANCA S.A",
+  "nombre": "Claudio Escobar Arrue",
+  "cargo": "Jefe de Mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/claudio-escobar-arrue-2b2504239",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/claudio-escobar-arrue-2b2504239"
+ },
+ {
+  "empresa": "MADERAS ARAUCO S A",
+  "nombre": "Ricardo Augusto Isla Montesinos",
+  "cargo": "Jefe de Ingeniería del Complejo Cholguán",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "https://cl.linkedin.com/in/ricardo-augusto-isla-montesinos-04856571",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/ricardo-augusto-isla-montesinos-04856571"
+ },
+ {
+  "empresa": "MADERAS ARAUCO S A",
+  "nombre": "Cristián Muñoz Puentes",
+  "cargo": "Jefe de Mantención",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/cristian-mu%C3%B1oz-puentes-b6366972",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/cristian-mu%C3%B1oz-puentes-b6366972"
+ },
+ {
+  "empresa": "MECHARV S A",
+  "nombre": "Carlos Cerda Orias",
+  "cargo": "Jefe de Mantención",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/pub/dir/Carlos/Orias/cl-0-Chile",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/pub/dir/Carlos/Orias/cl-0-Chile"
+ },
+ {
+  "empresa": "MECHARV S A",
+  "nombre": "Jorge Riveros Albornoz",
+  "cargo": "Jefe de Operaciones",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/jorge-riveros-albornoz-862161138",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/jorge-riveros-albornoz-862161138"
+ },
+ {
+  "empresa": "FRUTERA SAN FERNANDO SOCIEDAD ANONIMA",
+  "nombre": "Jorge Antonio Ibarra",
+  "cargo": "Jefe de Planta",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/jorge-antonio-ibarra-5593a2104",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/jorge-antonio-ibarra-5593a2104"
+ },
+ {
+  "empresa": "FRUTERA SAN FERNANDO SOCIEDAD ANONIMA",
+  "nombre": "Luis Marcelo Riveros Briones",
+  "cargo": "Jefe de Operaciones",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/luis-marcelo-riveros-briones-373834121",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/luis-marcelo-riveros-briones-373834121"
+ },
+ {
+  "empresa": "DEL MONTE FRESH PRODUCE (CHILE) S A",
+  "nombre": "Miguel Llarena",
+  "cargo": "SA Regional IT Deputy Manager / Jefe de Ingeniería de Sistemas en Del Monte Fresh Produce – Chile",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "https://cl.linkedin.com/in/miguel-llarena-%F0%9F%87%A8%F0%9F%87%B1-2330b437",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/miguel-llarena-%F0%9F%87%A8%F0%9F%87%B1-2330b437"
+ },
+ {
+  "empresa": "COAGRA AGROINDUSTRIAL S A",
+  "nombre": "Sergio Cifuentes",
+  "cargo": "Jefe de Planta en Coagra Agroindustrial S.A.",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/sergio-cifuentes-ba156729a",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/sergio-cifuentes-ba156729a"
+ },
+ {
+  "empresa": "FORESTAL ARAUCO S.A.",
+  "nombre": "Sergio Alejandro Rivera Bravo",
+  "cargo": "Jefe de Mantención, Vivero Quivolgo, Forestal ARAUCO S.A.",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/sergio-alejandro-rivera-bravo-96373aa0",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/sergio-alejandro-rivera-bravo-96373aa0"
+ },
+ {
+  "empresa": "FORESTAL ARAUCO S.A.",
+  "nombre": "Ricardo Arriagada",
+  "cargo": "Jefe Electrocontrol , Celulosa ARAUCO",
+  "tipo": "otro",
+  "linkedin": "https://cl.linkedin.com/in/ricardo-arriagada-35a0b446",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/ricardo-arriagada-35a0b446"
+ },
+ {
+  "empresa": "FORESTAL ARAUCO S.A.",
+  "nombre": "Cristian Muñoz Puentes",
+  "cargo": "Jefe de Mantención, Planta Generadora de Energía, Planta de Paneles y Molduras Cholguán, Maderas ARAUCO",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/cristian-mu%C3%B1oz-puentes-b6366972",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/cristian-mu%C3%B1oz-puentes-b6366972"
+ },
+ {
+  "empresa": "FULGHUM FIBRES CHILE S A",
+  "nombre": "Gerardo Herrera",
+  "cargo": "Gerente de Ingeniería",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "https://cl.linkedin.com/in/gerardo-herrera-93941079",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/gerardo-herrera-93941079"
+ },
+ {
+  "empresa": "EXPORTADORA FRUTEXPORT LIMITADA",
+  "nombre": "Edgar Salinas",
+  "cargo": "Jefe de Operaciones",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/edgar-salinas-464468151",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/edgar-salinas-464468151"
+ },
+ {
+  "empresa": "FRUTICOLA AGRICHILE S A",
+  "nombre": "Luis Albornoz",
+  "cargo": "Encargado de mantención de maquinaria agrícola y planta de secado, campo San Sebastián, Frutícola Agrichile, S.A.",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/luis-albornoz-16261a403",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/luis-albornoz-16261a403"
+ },
+ {
+  "empresa": "VINA VALDIVIESO S A",
+  "nombre": "Sebastian Andres Van Schuerbeck Serrano",
+  "cargo": "Jefe de Planta",
+  "tipo": "jefe_planta",
+  "linkedin": "",
+  "correo": "",
+  "fuente": "https://www.signalhire.com/profiles/sebastian-andres-van-schuerbeck-serrano%27s-email/140390999"
+ },
+ {
+  "empresa": "VINA VALDIVIESO S A",
+  "nombre": "Luis Salazar",
+  "cargo": "Jefe de Producción, Planta Lontué",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/luis-salazar-63bb7392",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/luis-salazar-63bb7392"
+ },
+ {
+  "empresa": "FAENADORA SAN VICENTE LIMITADA",
+  "nombre": "Luis Rodríguez",
+  "cargo": "Supervisor de Mantenimiento, Faenadora San Vicente",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/luis-rodriguez-8a83a070",
+  "correo": "lfuenzalida@agrosuper.com",
+  "fuente": "https://cl.linkedin.com/in/luis-rodriguez-8a83a070"
+ },
+ {
+  "empresa": "FAENADORA SAN VICENTE LIMITADA",
+  "nombre": "Manuel Hernán Cornejo Rojas",
+  "cargo": "Jefe de Calidad (servicios de aseo industriales)",
+  "tipo": "jefe_calidad",
+  "linkedin": "https://cl.linkedin.com/in/manuel-hernan-cornejo-rojas-43247345",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/manuel-hernan-cornejo-rojas-43247345"
+ },
+ {
+  "empresa": "FAENADORA SAN VICENTE LIMITADA",
+  "nombre": "Miguel Vargas",
+  "cargo": "Subgerente de Mantenimiento y Proyectos (Agrosuper)",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/miguel-vargas-79a32428",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/miguel-vargas-79a32428"
+ },
+ {
+  "empresa": "FAENADORA SAN VICENTE LIMITADA",
+  "nombre": "Carlos Velásquez Mansilla",
+  "cargo": "Subgerente de Mantenimiento Planta San Vicente (Agrosuper)",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/carlos-vel%C3%A1squez-mansilla-04942071",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/carlos-vel%C3%A1squez-mansilla-04942071"
+ },
+ {
+  "empresa": "SOCIEDAD AGRICOLA EL PORVENIR  S A",
+  "nombre": "Cristian Muñoz",
+  "cargo": "Jefe de Planta",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/cristian-mu%C3%B1oz-9316b953",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/cristian-mu%C3%B1oz-9316b953"
+ },
+ {
+  "empresa": "SOCIEDAD AGRICOLA EL PORVENIR  S A",
+  "nombre": "Eduardo Rivera",
+  "cargo": "Jefe de Calidad y Procesos",
+  "tipo": "ingeniero_procesos",
+  "linkedin": "https://cl.linkedin.com/in/eduardo-rivera-326131348",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/eduardo-rivera-326131348"
+ },
+ {
+  "empresa": "EXPORTADORA UNIFRUTTI TRADERS LTDA",
+  "nombre": "Jose Miguel Aguilera",
+  "cargo": "Jefe Operativo de Mantención",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://www.linkedin.com/in/jose-miguel-aguilera-9300b6129",
+  "correo": "",
+  "fuente": "https://www.linkedin.com/in/jose-miguel-aguilera-9300b6129"
+ },
+ {
+  "empresa": "COMERCIAL GREENVIC  S A",
+  "nombre": "C. Andrés Berríos",
+  "cargo": "Jefe de Planta Agrícola Ballerina / Jefe de Calidad Greenvic Placilla",
+  "tipo": "jefe_planta",
+  "linkedin": "https://www.linkedin.com/in/c-andr%C3%A9s-berr%C3%ADos-a4754616b",
+  "correo": "",
+  "fuente": "https://www.linkedin.com/in/c-andr%C3%A9s-berr%C3%ADos-a4754616b"
+ },
+ {
+  "empresa": "ESVAL S.A.",
+  "nombre": "Orlando Sepúlveda Carvajal",
+  "cargo": "Gerente de Ingeniería y Grandes Proyectos",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "https://cl.linkedin.com/in/orlando-sepulveda-8939572a",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/orlando-sepulveda-8939572a"
+ },
+ {
+  "empresa": "ESVAL S.A.",
+  "nombre": "Eric Estay Ramírez",
+  "cargo": "Subgerente de Mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/eric-estay",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/eric-estay"
+ },
+ {
+  "empresa": "AGUAS DEL ALTIPLANO S.A.",
+  "nombre": "Juan Pablo Vial",
+  "cargo": "Jefe de Departamento Mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/juan-pablo-vial-a6838438",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/juan-pablo-vial-a6838438"
+ },
+ {
+  "empresa": "AGUAS DEL ALTIPLANO S.A.",
+  "nombre": "Juan Ibarra Araya",
+  "cargo": "Jefe de Unidad de Mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/juan-ibarra-araya-8a512952",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/juan-ibarra-araya-8a512952"
+ },
+ {
+  "empresa": "AGUAS DEL ALTIPLANO S.A.",
+  "nombre": "Pablo Andrés Pérez Chamorro",
+  "cargo": "Jefe de Planta",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/pabloandresperezch",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/pabloandresperezch"
+ },
+ {
+  "empresa": "AGUAS MAGALLANES S.A.",
+  "nombre": "Jaime Asencio",
+  "cargo": "Jefe de Departamento de Mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/company/aguasmagallanes",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/company/aguasmagallanes"
+ },
+ {
+  "empresa": "NUEVOSUR S.A.",
+  "nombre": "Gustavo Hernández Jara",
+  "cargo": "Ingeniero Especialista en Automatización e Instrumentación",
+  "tipo": "jefe_ic",
+  "linkedin": "https://cl.linkedin.com/in/gustavo-hernandez-jara-686021123",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/gustavo-hernandez-jara-686021123"
+ },
+ {
+  "empresa": "NUEVOSUR S.A.",
+  "nombre": "Erik Diaz Peña",
+  "cargo": "Jefe del Departamento de Mantención Zona Norte",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/erik-diaz-pena-77853b41",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/erik-diaz-pena-77853b41"
+ },
+ {
+  "empresa": "AGUAS PATAGONIA DE AYSEN S A",
+  "nombre": "Juan Acum",
+  "cargo": "Jefe de Mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/juan-acum-61325b89",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/juan-acum-61325b89"
+ },
+ {
+  "empresa": "AGUAS ANDINAS S A",
+  "nombre": "Barry Dabovich",
+  "cargo": "Jefe Servicios de Ingeniería",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "https://cl.linkedin.com/in/barry-dabovich-3b48b538",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/barry-dabovich-3b48b538"
+ },
+ {
+  "empresa": "AGUAS ANDINAS S A",
+  "nombre": "Rodrigo Gonzalez",
+  "cargo": "Jefe Ingeniería Telecontrol",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "https://cl.linkedin.com/in/rodrigo-gonzalez-896a7b47",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/rodrigo-gonzalez-896a7b47"
+ },
+ {
+  "empresa": "AGUAS ANDINAS S A",
+  "nombre": "Claudio Gonzalez",
+  "cargo": "Jefe de Mantenimiento Electromecánico Biofactoría Farfana",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/claudio-gonzalez-06b40145",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/claudio-gonzalez-06b40145"
+ },
+ {
+  "empresa": "AGUAS DEL VALLE S A",
+  "nombre": "Eric Estay Ramírez",
+  "cargo": "Subgerente de Mantenimiento (Esval-Aguas del Valle)",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/eric-estay",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/eric-estay"
+ },
+ {
+  "empresa": "ESSBIO S.A.",
+  "nombre": "Samuel Gutierrez Correa",
+  "cargo": "Especialista Automatización e Instrumentación",
+  "tipo": "ingeniero_automatizacion",
+  "linkedin": "https://cl.linkedin.com/in/samuel-gutierrez-correa-197709132",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/samuel-gutierrez-correa-197709132"
+ },
+ {
+  "empresa": "ESSBIO S.A.",
+  "nombre": "José Manuel Sepulveda",
+  "cargo": "Jefe Departamento Ingeniería de Mantenimiento (Essbio y Nuevosur)",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/jose-manuel-sepulveda-8804039b",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/jose-manuel-sepulveda-8804039b"
+ },
+ {
+  "empresa": "FOODCORP CHILE S.A.",
+  "nombre": "José Manuel Aponte",
+  "cargo": "Jefe de Planta de Congelado",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/jos%C3%A9-manuel-aponte-5977a6a4",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/jos%C3%A9-manuel-aponte-5977a6a4"
+ },
+ {
+  "empresa": "EMPRESAS CAROZZI S A",
+  "nombre": "Nicolás Villagra Cea",
+  "cargo": "Jefe de Planta",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/nicolas-villagra-cea-b2173a104",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/nicolas-villagra-cea-b2173a104"
+ },
+ {
+  "empresa": "EMPRESAS CAROZZI S A",
+  "nombre": "Alexis Baeza",
+  "cargo": "Jefe de Mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/alexis-baeza-059367115",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/alexis-baeza-059367115"
+ },
+ {
+  "empresa": "CECINAS LA PREFERIDA S A",
+  "nombre": "Miguel Galaz Vilches",
+  "cargo": "Jefe de Planta",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/miguel-galaz-vilches-aa8340148",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/miguel-galaz-vilches-aa8340148"
+ },
+ {
+  "empresa": "CECINAS LA PREFERIDA S A",
+  "nombre": "Luis Andrés García Acuña",
+  "cargo": "Jefe de Mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/luis-andr%C3%A9s-garc%C3%ADa-acu%C3%B1a-672311135",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/luis-andr%C3%A9s-garc%C3%ADa-acu%C3%B1a-672311135"
+ },
+ {
+  "empresa": "CECINAS LA PREFERIDA S A",
+  "nombre": "Fabián Astudillo Carrera",
+  "cargo": "Jefe de Mantenimiento de Procesos Productivos de Jamones (CIAL)",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/fabi%C3%A1n-astudillo-carrera-26aa351b",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/fabi%C3%A1n-astudillo-carrera-26aa351b"
+ },
+ {
+  "empresa": "CECINAS LA PREFERIDA S A",
+  "nombre": "Emanuel Vivanco Candia",
+  "cargo": "Jefe de Mantenimiento (CIAL La Preferida)",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/emanuel-vivanco-candia-758932162",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/emanuel-vivanco-candia-758932162"
+ },
+ {
+  "empresa": "VIU MANENT Y CIA LIMITADA",
+  "nombre": "Daniel Ángel Valdés Muñoz",
+  "cargo": "Encargado de Mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://www.linkedin.com/in/daniel-angel-valdes-mu%C3%B1oz-31a8a4261",
+  "correo": "",
+  "fuente": "https://www.linkedin.com/in/daniel-angel-valdes-mu%C3%B1oz-31a8a4261"
+ },
+ {
+  "empresa": "CECINAS BAVARIA LIMITADA",
+  "nombre": "Rafael Guerra",
+  "cargo": "Jefe de Planta",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/rafael-guerra-568239107",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/rafael-guerra-568239107"
+ },
+ {
+  "empresa": "VINA ERRAZURIZ S A",
+  "nombre": "Gonzalo Carrasco Escobar",
+  "cargo": "Jefe de Planta en Viñedos Errázuriz Ovalle",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/gonzalo-carrasco-escobar-069960b1",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/gonzalo-carrasco-escobar-069960b1"
+ },
+ {
+  "empresa": "ELABORADORA DE ALIMENTOS FRUTALE LIMITADA",
+  "nombre": "Jose Morales",
+  "cargo": "Jefe de Mantención",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/jose-morales-b174214b",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/jose-morales-b174214b"
+ },
+ {
+  "empresa": "LUCCHETTI CHILE S.A",
+  "nombre": "Michael Villegas Verdugo",
+  "cargo": "Jefe de Mantenimiento Planta BIC Tresmontes Lucchetti S.A",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/michael-villegas-verdugo-0a674494",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/michael-villegas-verdugo-0a674494"
+ },
+ {
+  "empresa": "COCA COLA DE CHILE S A",
+  "nombre": "Rex Gascon Bahamondes",
+  "cargo": "Jefe de Ingeniería y Mantenimiento en Coca-Cola Embonor",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/rex-gascon-bahamondes-b50aa367",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/rex-gascon-bahamondes-b50aa367"
+ },
+ {
+  "empresa": "COCA COLA DE CHILE S A",
+  "nombre": "Cristian Ramírez González",
+  "cargo": "Gerente Nacional Ingeniería-Proyectos Estratégicos en Coca-Cola Andina-Chile",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "https://cl.linkedin.com/in/cristian-ram%C3%ADrez-gonz%C3%A1lez",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/cristian-ram%C3%ADrez-gonz%C3%A1lez"
+ },
+ {
+  "empresa": "SOFRUCO ALIMENTOS LIMITADA",
+  "nombre": "Rafael Ernesto Valenzuela Lagos",
+  "cargo": "Jefe de Operaciones y Logística",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/rafael-ernesto-valenzuela-lagos-836a0b36",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/rafael-ernesto-valenzuela-lagos-836a0b36"
+ },
+ {
+  "empresa": "COCA COLA EMBONOR S A",
+  "nombre": "Luis Ramírez",
+  "cargo": "Jefe de Mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/luis-ramirez-33483438",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/luis-ramirez-33483438"
+ },
+ {
+  "empresa": "NESTLE CHILE SA",
+  "nombre": "Cristian Fernández B.",
+  "cargo": "Head of Engineering",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "https://cl.linkedin.com/in/cristian-fernandez-b-70481a16a",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/cristian-fernandez-b-70481a16a"
+ },
+ {
+  "empresa": "NESTLE CHILE SA",
+  "nombre": "João Luiz Noronha",
+  "cargo": "Head of Engineering / Chief Engineer",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "https://cl.linkedin.com/in/joaoluiznoronha",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/joaoluiznoronha"
+ },
+ {
+  "empresa": "NESTLE CHILE SA",
+  "nombre": "Patricio Riffo Palma",
+  "cargo": "Instrumentation Specialist",
+  "tipo": "ingeniero_automatizacion",
+  "linkedin": "https://cl.linkedin.com/in/patricio-riffo-palma-1a573a168",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/patricio-riffo-palma-1a573a168"
+ },
+ {
+  "empresa": "NESTLE CHILE SA",
+  "nombre": "Julián Diez Pavez",
+  "cargo": "Jefe de Mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/julian-diez-pavez-199bb47b",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/julian-diez-pavez-199bb47b"
+ },
+ {
+  "empresa": "ALIMEX S.A.",
+  "nombre": "Jaime Gana Rojas",
+  "cargo": "Jefe de Producción Salmones Congelados",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/jaime-gana-rojas-864247275",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/jaime-gana-rojas-864247275"
+ },
+ {
+  "empresa": "ALIMENTOS Y FRUTOS S A",
+  "nombre": "Adolfo Hernán Leyton Sanhueza",
+  "cargo": "Jefe de Mantenimiento de instalaciones productivas en Alimentos y Frutos S.A.",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/adolfo-hernan-leyton-sanhueza-770a35204",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/adolfo-hernan-leyton-sanhueza-770a35204"
+ },
+ {
+  "empresa": "ALIMENTOS Y FRUTOS S A",
+  "nombre": "Felipe Tomás Kohl Zapata",
+  "cargo": "Jefe de Planta San Carlos en Alimentos y Frutos S.A.",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/felipe-tom%C3%A1s-kohl-zapata-42590023",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/felipe-tom%C3%A1s-kohl-zapata-42590023"
+ },
+ {
+  "empresa": "LACTEOS SAN IGNACIO LIMITADA",
+  "nombre": "Karen Palacios Araos",
+  "cargo": "Jefe de Planta en Lácteos San Ignacio",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/karen-palacios-araos-8237551b0",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/karen-palacios-araos-8237551b0"
+ },
+ {
+  "empresa": "ALGAS MARINAS S A ALGAMAR",
+  "nombre": "Miguel Caro",
+  "cargo": "Director de Ingeniería en Algas Marinas S.A.",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "https://cl.linkedin.com/in/miguel-caro-164254a5",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/miguel-caro-164254a5"
+ },
+ {
+  "empresa": "ALGAS MARINAS S A ALGAMAR",
+  "nombre": "Andrés Carrasco Krüberg",
+  "cargo": "Jefe de Operaciones en Algas Marinas S.A. Algamar Planta Llanquihue",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/andr%C3%A9s-carrasco-kr%C3%BCberg",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/andr%C3%A9s-carrasco-kr%C3%BCberg"
+ },
+ {
+  "empresa": "ALGAS MARINAS S A ALGAMAR",
+  "nombre": "Carlos Elías Sepúlveda Catalán",
+  "cargo": "Jefe de Mantención en Algas Marinas S.A.",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/carlossepulvedacatalan",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/carlossepulvedacatalan"
+ },
+ {
+  "empresa": "CARNES Y CECINAS PINCHEIRA LIMITADA",
+  "nombre": "Raúl Zúñiga Pincheira",
+  "cargo": "Gerente de Producción",
+  "tipo": "jefe_planta",
+  "linkedin": "",
+  "correo": "",
+  "fuente": "fuente web"
+ },
+ {
+  "empresa": "CONSERVAS CENTAURO S.A.",
+  "nombre": "Jimmy Pereira Ramirez",
+  "cargo": "Jefe de Planta",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/jimmy-pereira-ramirez-951898123",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/jimmy-pereira-ramirez-951898123"
+ },
+ {
+  "empresa": "CONSERVAS CENTAURO S.A.",
+  "nombre": "Ismael Toro",
+  "cargo": "Jefe de Mantención",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://www.linkedin.com/pub/dir/Ismael/Toro",
+  "correo": "",
+  "fuente": "https://www.linkedin.com/pub/dir/Ismael/Toro"
+ },
+ {
+  "empresa": "AGUAS CCU-NESTLE CHILE S.A.",
+  "nombre": "Juan Enrique Vergara Sepúlveda",
+  "cargo": "Jefe de planta Agua Mineral Porvenir y Jefe de Procesos Aguas CCU Nestlé",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/juan-enrique-vergara-sepulveda-b24b7156",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/juan-enrique-vergara-sepulveda-b24b7156"
+ },
+ {
+  "empresa": "AGUAS CCU-NESTLE CHILE S.A.",
+  "nombre": "Fabián Pavez Díaz",
+  "cargo": "Ex-Jefe de Mantenimiento y Proyectos en Aguas CCU Nestlé Chile S.A.",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/fabian-pavez-d%C3%ADaz-94410440",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/fabian-pavez-d%C3%ADaz-94410440"
+ },
+ {
+  "empresa": "COMPANIA PISQUERA DE CHILE S A",
+  "nombre": "Domingo Muñoz Gómez",
+  "cargo": "Jefe de Mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://www.linkedin.com/company/compania-pisquera-de-chile-s-a",
+  "correo": "",
+  "fuente": "https://www.linkedin.com/company/compania-pisquera-de-chile-s-a"
+ },
+ {
+  "empresa": "LEVADURAS COLLICO S A",
+  "nombre": "Silvana Ritter Gotschlich",
+  "cargo": "Jefe de Planta",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/silvana-ritter-gotschlich-2a05543b",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/silvana-ritter-gotschlich-2a05543b"
+ },
+ {
+  "empresa": "ISOLUX INGENIERIA AGENCIA CHILE",
+  "nombre": "Christian Farías Yáñez",
+  "cargo": "Jefe de Contratos Operacionales en transmisión eléctrica",
+  "tipo": "jefe_electrico",
+  "linkedin": "https://cl.linkedin.com/in/christian-far%C3%ADas-y%C3%A1%C3%B1ez-91a0291a",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/christian-far%C3%ADas-y%C3%A1%C3%B1ez-91a0291a"
+ },
+ {
+  "empresa": "ISOLUX INGENIERIA AGENCIA CHILE",
+  "nombre": "Juan Carlos Arce Valdés",
+  "cargo": "Técnico eléctrico en Isolux",
+  "tipo": "jefe_electrico",
+  "linkedin": "https://cl.linkedin.com/in/juan-carlos-arce-valdes-047728130",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/juan-carlos-arce-valdes-047728130"
+ },
+ {
+  "empresa": "ISOLUX INGENIERIA AGENCIA CHILE",
+  "nombre": "Leonardo Rodríguez",
+  "cargo": "Supervisor de obras civiles, eléctricas y mantenimiento en Isolux Agencia Chile",
+  "tipo": "jefe_electrico",
+  "linkedin": "https://cl.linkedin.com/in/leonardo-rodriguez-57499963",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/leonardo-rodriguez-57499963"
+ },
+ {
+  "empresa": "MATADERO FRIGORIFICO DEL SUR S A",
+  "nombre": "Alejandro Mancilla Millaquen",
+  "cargo": "Encargado de Aseguramiento de Calidad",
+  "tipo": "jefe_calidad",
+  "linkedin": "https://cl.linkedin.com/in/alejandro-mancilla-millaquen",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/alejandro-mancilla-millaquen"
+ },
+ {
+  "empresa": "MATADERO FRIGORIFICO DEL SUR S A",
+  "nombre": "José Miguel Fuentes Barrera",
+  "cargo": "Supervisor de Mantención",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/jos%C3%A9-miguel-fuentes-barrera",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/jos%C3%A9-miguel-fuentes-barrera"
+ },
+ {
+  "empresa": "MATADERO FRIGORIFICO DEL SUR S A",
+  "nombre": "Julio San Martín",
+  "cargo": "Jefe de Aseguramiento de Calidad",
+  "tipo": "jefe_calidad",
+  "linkedin": "https://cl.linkedin.com/in/julio-sanmartin-barria",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/julio-sanmartin-barria"
+ },
+ {
+  "empresa": "MATADERO FRIGORIFICO DEL SUR S A",
+  "nombre": "Adrián Vidal",
+  "cargo": "Técnico de Refrigeración",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/adrian-vidal-a9324023b",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/adrian-vidal-a9324023b"
+ },
+ {
+  "empresa": "AGROSUPER COMERCIALIZADORA DE ALIMENTOS LTDA",
+  "nombre": "Juan Pablo Larraín",
+  "cargo": "Subgerente de Ingeniería",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "https://cl.linkedin.com/in/juan-pablo-larrain-b0baa355",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/juan-pablo-larrain-b0baa355"
+ },
+ {
+  "empresa": "AGROSUPER COMERCIALIZADORA DE ALIMENTOS LTDA",
+  "nombre": "Javiera Rodríguez Vallejos",
+  "cargo": "Subgerente Mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/javiera-rodriguez-vallejos-137a919a",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/javiera-rodriguez-vallejos-137a919a"
+ },
+ {
+  "empresa": "WALMART CHILE ALIMENTOS Y SERVICIOS LIMITADA",
+  "nombre": "Daniel Alfredo Aguirre González",
+  "cargo": "Jefe de Mantenimiento planta de masas y refrigeración, Walmart Chile",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/daniel-alfredo-aguirre-gonz%C3%A1lez-37a78a219",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/daniel-alfredo-aguirre-gonz%C3%A1lez-37a78a219"
+ },
+ {
+  "empresa": "WALMART CHILE ALIMENTOS Y SERVICIOS LIMITADA",
+  "nombre": "Pedro Romero Álvarez",
+  "cargo": "Jefe de Mantenimiento en Walmart Chile",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/pedroromeroalvarez44041a53",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/pedroromeroalvarez44041a53"
+ },
+ {
+  "empresa": "SURLAT INDUSTRIAL S.A.",
+  "nombre": "Juan Pablo Torres González",
+  "cargo": "Jefe de mantenimiento  en Quillayes Surlat",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/juan-pablo-torres-gonzalez",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/juan-pablo-torres-gonzalez"
+ },
+ {
+  "empresa": "SURLAT INDUSTRIAL S.A.",
+  "nombre": "Evelyn Sánchez San Martín",
+  "cargo": "Ingeniero en Alimentos, con experiencia como Gerente de Planta y Jefe de Producción en Quillayes-Surlat",
+  "tipo": "gerente_planta",
+  "linkedin": "https://cl.linkedin.com/in/evelyn-s%C3%A1nchez-san-mart%C3%ADn-56b09215",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/evelyn-s%C3%A1nchez-san-mart%C3%ADn-56b09215"
+ },
+ {
+  "empresa": "CERVECERA CCU CHILE LIMITADA",
+  "nombre": "Alex Manriquez Mena",
+  "cargo": "Jefe de Operaciones Procesos Analcohólicos en Cervecera CCU Chile Planta Temuco",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/alex-manriquez-mena-a3ba18254",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/alex-manriquez-mena-a3ba18254"
+ },
+ {
+  "empresa": "CERVECERA CCU CHILE LIMITADA",
+  "nombre": "Luis Simón López Llancaleo",
+  "cargo": "Subgerente Mantenimiento, Suministros y Proyectos Embotelladora CCU Renca",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/luisslopezll",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/luisslopezll"
+ },
+ {
+  "empresa": "SOC COMERCIAL CECINAS ANCUD LIMITA DA",
+  "nombre": "Cristian Concha Saavedra",
+  "cargo": "Jefe de Planta (hasta abril 2025)",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/cristian-concha-saavedra-ab0714226",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/cristian-concha-saavedra-ab0714226"
+ },
+ {
+  "empresa": "ALIMENTOS AGROSUPER LIMITADA",
+  "nombre": "Giovanny Ramirez",
+  "cargo": "Jefe de Mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/giovanny-ramirez-b2a525157",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/giovanny-ramirez-b2a525157"
+ },
+ {
+  "empresa": "TRESMONTES S.A",
+  "nombre": "Juan Pablo Núñez Barría",
+  "cargo": "Jefe de Planta",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/juan-pablo-n%C3%BA%C3%B1ez-barr%C3%ADa-a2229287",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/juan-pablo-n%C3%BA%C3%B1ez-barr%C3%ADa-a2229287"
+ },
+ {
+  "empresa": "TRESMONTES S.A",
+  "nombre": "Michael Villegas Verdugo",
+  "cargo": "Jefe de Mantenimiento Planta BIC",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/michael-villegas-verdugo-0a674494",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/michael-villegas-verdugo-0a674494"
+ },
+ {
+  "empresa": "TRESMONTES S.A",
+  "nombre": "Jorge Rocco Arancibia",
+  "cargo": "Jefe de Mantenimiento y Servicios",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/jorge-rocco-arancibia-21bab1141",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/jorge-rocco-arancibia-21bab1141"
+ },
+ {
+  "empresa": "TRESMONTES S.A",
+  "nombre": "Manuel Fuentes",
+  "cargo": "*Jefe de Mantención Planta Bebidas Instantáneas Frías y Deshidratados*",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/manuel-fuentes-aa6ab3b2",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/manuel-fuentes-aa6ab3b2"
+ },
+ {
+  "empresa": "FERNANDEZ",
+  "nombre": "Fernando Aller Suárez",
+  "cargo": "Gerente Ingeniería y Mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/fernando-aller-su%C3%A1rez-90b59321",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/fernando-aller-su%C3%A1rez-90b59321"
+ },
+ {
+  "empresa": "FERNANDEZ",
+  "nombre": "Cristián Pino Kempowski",
+  "cargo": "Subgerente de Ingeniería",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "https://cl.linkedin.com/in/cristi%C3%A1n-pino-kempowski-63122787",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/cristi%C3%A1n-pino-kempowski-63122787"
+ },
+ {
+  "empresa": "FERNANDEZ",
+  "nombre": "Rodrigo Castillo Ibarra",
+  "cargo": "Encargado de mantención de distribución",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/rodrigo-castillo-ibarra-506803205",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/rodrigo-castillo-ibarra-506803205"
+ },
+ {
+  "empresa": "FRIGORIFICO SANTIAGO LIMITADA",
+  "nombre": "Leroy José Torres Milano",
+  "cargo": "Ingeniero de Mantenimiento Industrial",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/leroy-torres-309a72170",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/leroy-torres-309a72170"
+ },
+ {
+  "empresa": "TRESMONTES LUCCHETTI S.A.",
+  "nombre": "Michael Villegas Verdugo",
+  "cargo": "Jefe de Mantenimiento Planta BIC",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/michael-villegas-verdugo-0a674494",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/michael-villegas-verdugo-0a674494"
+ },
+ {
+  "empresa": "MALTEXCO S A",
+  "nombre": "Alfredo Díaz Lizana",
+  "cargo": "Jefe de Planta en Maltexco",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/alfredodiazlizana",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/alfredodiazlizana"
+ },
+ {
+  "empresa": "MALTEXCO S A",
+  "nombre": "Francisco Pinto",
+  "cargo": "Jefe de Planta y Mantención en Maltexco Coronel",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/francisco-pinto-40141050",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/francisco-pinto-40141050"
+ },
+ {
+  "empresa": "MALTEXCO S A",
+  "nombre": "Angelo Barría Rivera",
+  "cargo": "Jefe de Mantención en Maltexco Temuco",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/angelo-barria-rivera-7b57ba94",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/angelo-barria-rivera-7b57ba94"
+ },
+ {
+  "empresa": "CECINAS WINTER S A",
+  "nombre": "Christian Calderón Santis",
+  "cargo": "Supervisor de Mantenimiento Planta 2",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/christian-calderon-santis-30585124",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/christian-calderon-santis-30585124"
+ },
+ {
+  "empresa": "CECINAS WINTER S A",
+  "nombre": "Mario Gutiérrez Súarez",
+  "cargo": "Jefe de Procesos Cárnicos y Bodega (CIAL/Cecinas Winter)",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/mario-guti%C3%A9rrez-s%C3%BAarez-60a82667",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/mario-guti%C3%A9rrez-s%C3%BAarez-60a82667"
+ },
+ {
+  "empresa": "INDUSTRIA DE ALIMENTOS TRENDY S A",
+  "nombre": "Atilio Sergio Alvarez Carozzi",
+  "cargo": "Sub Gerente Ingeniería y Mantención",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/atilio-sergio-alvarez-carozzi-361329258",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/atilio-sergio-alvarez-carozzi-361329258"
+ },
+ {
+  "empresa": "LICORES MITJANS S A",
+  "nombre": "Pablo Rodríguez",
+  "cargo": "Jefe de Planta Licores Mitjans S.A.",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/pablo-rodriguez-460a2a188",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/pablo-rodriguez-460a2a188"
+ },
+ {
+  "empresa": "LICORES MITJANS S A",
+  "nombre": "Tomás Venegas",
+  "cargo": "Jefe de Mantenimiento Viña Valdivieso & Licores Mitjans",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/tomas-venegas-a994033a7",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/tomas-venegas-a994033a7"
+ },
+ {
+  "empresa": "FRIGORIFICO CAMER LIMITADA",
+  "nombre": "Francisco Bravo Ramírez",
+  "cargo": "Instrumentista (experiencia previa en Camer)",
+  "tipo": "jefe_ic",
+  "linkedin": "https://cl.linkedin.com/in/francisco-bravo-ram%C3%ADrez-69722b243",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/francisco-bravo-ram%C3%ADrez-69722b243"
+ },
+ {
+  "empresa": "SOPROLE S.A.",
+  "nombre": "Jorge Danilo Navarro Guajardo",
+  "cargo": "Jefe Ingeniería de Procesos",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "https://cl.linkedin.com/in/jorge-danilo-navarro-guajardo-05111934",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/jorge-danilo-navarro-guajardo-05111934"
+ },
+ {
+  "empresa": "SOPROLE S.A.",
+  "nombre": "Victor Adolfo Vega Flores",
+  "cargo": "Líder de Instrumentación",
+  "tipo": "ingeniero_automatizacion",
+  "linkedin": "https://cl.linkedin.com/in/victorvega29",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/victorvega29"
+ },
+ {
+  "empresa": "SOPROLE S.A.",
+  "nombre": "Jose Luis Wellmann Paredes",
+  "cargo": "Jefe Mantención en Planta Osorno",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/jose-luis-wellmann-paredes-41388729",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/jose-luis-wellmann-paredes-41388729"
+ },
+ {
+  "empresa": "SOPROLE S.A.",
+  "nombre": "Juan Carlos Silva Casanova",
+  "cargo": "Jefe de Mantenimiento de Planta 4  y Margarinas",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/juan-carlos-silva-casanova-458ba02b",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/juan-carlos-silva-casanova-458ba02b"
+ },
+ {
+  "empresa": "SOPROLE S.A.",
+  "nombre": "Fernando A. Sepúlveda Reichelt",
+  "cargo": "Jefe de Planta Margarina",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/fernando-a-sep%C3%BAlveda-reichelt-02829373",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/fernando-a-sep%C3%BAlveda-reichelt-02829373"
+ },
+ {
+  "empresa": "SOPROLE S.A.",
+  "nombre": "Johnny Cea Astete",
+  "cargo": "Jefe de Mantención de Procesos y Envasado Tetra Pak",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/johnny-cea-astete-13a83734",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/johnny-cea-astete-13a83734"
+ },
+ {
+  "empresa": "FRIGORIFICO TEMUCO S A",
+  "nombre": "Manuel Meliu",
+  "cargo": "Monitor de Aseguramiento de Calidad",
+  "tipo": "jefe_calidad",
+  "linkedin": "https://cl.linkedin.com/in/manuel-meliu-9ab68b75",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/manuel-meliu-9ab68b75"
+ },
+ {
+  "empresa": "LACTEOS DEL SUR S.A.",
+  "nombre": "Luis Fuica V. I",
+  "cargo": "Jefe de Planta",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/luis-fuica-v-i-jefe-de-planta-2aa94520",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/luis-fuica-v-i-jefe-de-planta-2aa94520"
+ },
+ {
+  "empresa": "LACTEOS DEL SUR S.A.",
+  "nombre": "Daniel Jonatan Soto Vergara",
+  "cargo": "Jefe de Mantención y Maestranza",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/daniel-jonatan-soto-vergara-25715b29",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/daniel-jonatan-soto-vergara-25715b29"
+ },
+ {
+  "empresa": "ALIMENTOS FRUNA LTDA",
+  "nombre": "Juan Loyola",
+  "cargo": "Jefe de Planta",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/juan-loyola-571076255",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/juan-loyola-571076255"
+ },
+ {
+  "empresa": "ALIMENTOS FRUNA LTDA",
+  "nombre": "Hunaldo Martinez",
+  "cargo": "Jefe de Mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/hunaldo-martinez-09b1954a",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/hunaldo-martinez-09b1954a"
+ },
+ {
+  "empresa": "ALIMENTOS FRUNA LTDA",
+  "nombre": "Noel Amador",
+  "cargo": "Jefe de Mantenimiento Eléctrico",
+  "tipo": "jefe_electrico",
+  "linkedin": "https://cl.linkedin.com/in/noelalejandroamador",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/noelalejandroamador"
+ },
+ {
+  "empresa": "ALIMENTOS FRUNA LTDA",
+  "nombre": "Rodrigo González",
+  "cargo": "Jefe de Operaciones",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/rodrigo-gonz%C3%A1lez-35175a148",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/rodrigo-gonz%C3%A1lez-35175a148"
+ },
+ {
+  "empresa": "CONSORCIO INDUSTRIAL DE ALIMENTOS S.A.",
+  "nombre": "José Rafael Hernández Guedez",
+  "cargo": "Jefe de Operaciones",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://www.linkedin.com/in/jos%C3%A9-rafael-hern%C3%A1ndez-guedez-510123141",
+  "correo": "",
+  "fuente": "https://www.linkedin.com/in/jos%C3%A9-rafael-hern%C3%A1ndez-guedez-510123141"
+ },
+ {
+  "empresa": "CONSORCIO INDUSTRIAL DE ALIMENTOS S.A.",
+  "nombre": "Luis Andrés García Acuña",
+  "cargo": "Jefe de mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://www.linkedin.com/in/luis-andr%C3%A9s-garc%C3%ADa-acu%C3%B1a-672311135",
+  "correo": "",
+  "fuente": "https://www.linkedin.com/in/luis-andr%C3%A9s-garc%C3%ADa-acu%C3%B1a-672311135"
+ },
+ {
+  "empresa": "FRIGORIFICO DE OSORNO S A",
+  "nombre": "Robin García Bravo",
+  "cargo": "Gerente de Ingeniería y Mantención",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/robin-garcia-aa814437",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/robin-garcia-aa814437"
+ },
+ {
+  "empresa": "FRIGORIFICO DE OSORNO S A",
+  "nombre": "Rodrigo Vergara Vera",
+  "cargo": "Gerente de Inocuidad y Aseguramiento de Calidad",
+  "tipo": "jefe_calidad",
+  "linkedin": "https://cl.linkedin.com/in/rodrigo-vergara-vera-79",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/rodrigo-vergara-vera-79"
+ },
+ {
+  "empresa": "FRIGORIFICO DE OSORNO S A",
+  "nombre": "Manuel Ortega Paredes",
+  "cargo": "Jefe de Medio Ambiente y Sustentabilidad",
+  "tipo": "jefe_medioambiente",
+  "linkedin": "https://cl.linkedin.com/in/manuelortega-",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/manuelortega-"
+ },
+ {
+  "empresa": "COEXCA S A",
+  "nombre": "Gloria Gutiérrez García",
+  "cargo": "Subgerente de Aseguramiento de Calidad y SIG",
+  "tipo": "jefe_calidad",
+  "linkedin": "https://cl.linkedin.com/in/gloria-gutierrez-garc%C3%ADa-5a604515",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/gloria-gutierrez-garc%C3%ADa-5a604515"
+ },
+ {
+  "empresa": "COEXCA S A",
+  "nombre": "Javier Carmona Undurraga",
+  "cargo": "Gerente de Producción Agrícola Coexca S.A.",
+  "tipo": "jefe_planta",
+  "linkedin": "",
+  "correo": "jcarmona@coexca.cl",
+  "fuente": "fuente web"
+ },
+ {
+  "empresa": "COEXCA S A",
+  "nombre": "Homero Melendez Valenzuela",
+  "cargo": "Jefe de Mantención y Prevención de Riesgos",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/homero-melendez-valenzuela-0b58761a",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/homero-melendez-valenzuela-0b58761a"
+ },
+ {
+  "empresa": "COOP AGRICOLA Y LECHERA DE LA UNION LTDA",
+  "nombre": "Claudio Almonacid",
+  "cargo": "Especialista en Instrumentación",
+  "tipo": "ingeniero_automatizacion",
+  "linkedin": "https://cl.linkedin.com/in/claudio-almonacid-87822a41",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/claudio-almonacid-87822a41"
+ },
+ {
+  "empresa": "COOP AGRICOLA Y LECHERA DE LA UNION LTDA",
+  "nombre": "Manuel Mancilla Vargas",
+  "cargo": "Jefe de Mantenimiento Industrial UHT",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/manuelmancilla",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/manuelmancilla"
+ },
+ {
+  "empresa": "PRODUCTOS FERNANDEZ SA",
+  "nombre": "Fernando Aller Suárez",
+  "cargo": "Gerente de Ingeniería y Mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/fernando-aller-su%C3%A1rez-90b59321",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/fernando-aller-su%C3%A1rez-90b59321"
+ },
+ {
+  "empresa": "PRODUCTOS FERNANDEZ SA",
+  "nombre": "Cristián Pino Kempowski",
+  "cargo": "Subgerente de Ingeniería",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "https://cl.linkedin.com/in/cristi%C3%A1n-pino-kempowski-63122787",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/cristi%C3%A1n-pino-kempowski-63122787"
+ },
+ {
+  "empresa": "CIA AGRICOLA Y LECHERA QUILLAYES DE PETEROA LTDA",
+  "nombre": "Francisco Henriquez",
+  "cargo": "Jefe de mejora continua KAIZEN y estandarización de procesos",
+  "tipo": "ingeniero_procesos",
+  "linkedin": "https://cl.linkedin.com/in/francisco-henriquez-4910069b",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/francisco-henriquez-4910069b"
+ },
+ {
+  "empresa": "IDEAL S A",
+  "nombre": "Jaime Lizama Antiman",
+  "cargo": "Jefe de Planta en IDEAL S.A.",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/jaime-lizama-antiman-62232131b",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/jaime-lizama-antiman-62232131b"
+ },
+ {
+  "empresa": "IDEAL S A",
+  "nombre": "Jorge Barrera",
+  "cargo": "Jefe de Mantenimiento en IDEAL S.A.",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/jorge-barrera-3856b692",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/jorge-barrera-3856b692"
+ },
+ {
+  "empresa": "CORP NACIONAL DEL COBRE DE CHILE",
+  "nombre": "Hugo Morales",
+  "cargo": "Jefe Unidad Área Eléctrica, Control e Instrumentación, División Chuquicamata",
+  "tipo": "jefe_ic",
+  "linkedin": "https://cl.linkedin.com/in/hugo-morales-50297967",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/hugo-morales-50297967"
+ },
+ {
+  "empresa": "CORP NACIONAL DEL COBRE DE CHILE",
+  "nombre": "Gino Paolo Francino Moraga",
+  "cargo": "Jefe de Ingeniería y Proyectos, División Ventanas",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "https://cl.linkedin.com/in/gino-paolo-francino-moraga",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/gino-paolo-francino-moraga"
+ },
+ {
+  "empresa": "CORP NACIONAL DEL COBRE DE CHILE",
+  "nombre": "Cristian Ramírez Herrera",
+  "cargo": "Jefe de Ingeniería y Proyectos, División Gabriela Mistral",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "https://cl.linkedin.com/in/cristian-ramirez-herrera-28365236",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/cristian-ramirez-herrera-28365236"
+ },
+ {
+  "empresa": "INDUSTRIAS METALURGICAS SORENA S A",
+  "nombre": "Antonio Carlos Héctor Retamales Velásquez",
+  "cargo": "Jefe de Ingeniería",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "https://cl.linkedin.com/in/antonio-carlos-hector-retamales-velasquez-936b791a4",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/antonio-carlos-hector-retamales-velasquez-936b791a4"
+ },
+ {
+  "empresa": "CIA SIDERURGICA HUACHIPATO S A",
+  "nombre": "Cristhian Carrasco Márquez",
+  "cargo": "Jefe de Planificación de la Producción, Unidad Acería (instrumentación y control)",
+  "tipo": "jefe_ic",
+  "linkedin": "https://cl.linkedin.com/in/cristhian-carrasco-marquez",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/cristhian-carrasco-marquez"
+ },
+ {
+  "empresa": "CIA SIDERURGICA HUACHIPATO S A",
+  "nombre": "Eduardo Manuel Muñoz Vásquez",
+  "cargo": "Jefe de Mantenimiento y Confiabilidad",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/eduardomanuel1975",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/eduardomanuel1975"
+ },
+ {
+  "empresa": "MOLY COP CHILE S A",
+  "nombre": "Luis Muñoz",
+  "cargo": "Encargado Área Eléctrica, Departamento de Ingeniería",
+  "tipo": "jefe_electrico",
+  "linkedin": "https://cl.linkedin.com/in/luis-munoz-54541871",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/luis-munoz-54541871"
+ },
+ {
+  "empresa": "MOLY COP CHILE S A",
+  "nombre": "Sabino Ramirez",
+  "cargo": "Jefe de Mantención Eléctrica",
+  "tipo": "jefe_electrico",
+  "linkedin": "https://cl.linkedin.com/in/sabino-ramirez-82a74164",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/sabino-ramirez-82a74164"
+ },
+ {
+  "empresa": "GERDAU AZA S A",
+  "nombre": "Jorge Fernandez",
+  "cargo": "Subgerente de Ingeniería",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "https://cl.linkedin.com/in/jorge-fernandez-4a018936",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/jorge-fernandez-4a018936"
+ },
+ {
+  "empresa": "GERDAU AZA S A",
+  "nombre": "Gustavo Moreno Polit",
+  "cargo": "Subgerente de Mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/gustavo-moreno-polit-b624b423",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/gustavo-moreno-polit-b624b423"
+ },
+ {
+  "empresa": "CIA NACIONAL DE FUERZA ELECTRICA S A",
+  "nombre": "Iván Quezada Escobar",
+  "cargo": "Director Gestor de Red Eléctrica",
+  "tipo": "jefe_electrico",
+  "linkedin": "",
+  "correo": "",
+  "fuente": "https://www.portalchile.org/empresa/cia-nacional-de-fuerza-electrica-s-a-91143000"
+ },
+ {
+  "empresa": "CGE DISTRIBUCION S A",
+  "nombre": "Rodrigo Lorca Perez",
+  "cargo": "Jefe de Mantenimiento Distribución (Antofagasta)",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/rodrigo-lorca-perez-6a6235a1",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/rodrigo-lorca-perez-6a6235a1"
+ },
+ {
+  "empresa": "CHILECTRA S.A.",
+  "nombre": "Francisco Evans Miranda",
+  "cargo": "Gerente de Planificación y Control",
+  "tipo": "ingeniero_automatizacion",
+  "linkedin": "https://cl.linkedin.com/in/franciscoevans",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/franciscoevans"
+ },
+ {
+  "empresa": "TRANSELEC S A",
+  "nombre": "Daniela Catalán Bustamante",
+  "cargo": "Jefa de Ingeniería",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "https://cl.linkedin.com/in/dcatalanb",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/dcatalanb"
+ },
+ {
+  "empresa": "TRANSELEC S A",
+  "nombre": "Cristian Guerra Arias",
+  "cargo": "Jefe de Mantenimiento Líneas",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/cristian-guerra-arias-79445a5b",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/cristian-guerra-arias-79445a5b"
+ },
+ {
+  "empresa": "EMPRESA ELECTRICA DE ANTOFAGASTA SA",
+  "nombre": "Iván Quezada Escobar",
+  "cargo": "Director Gestor de Red Eléctrica",
+  "tipo": "jefe_electrico",
+  "linkedin": "",
+  "correo": "",
+  "fuente": "https://www.cmfchile.cl/institucional/mercados/entidad.php"
+ },
+ {
+  "empresa": "TRANSNET S.A.",
+  "nombre": "Mauricio Salgado Matamala",
+  "cargo": "Subgerente Planificación de Mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/mauricio-salgado-matamala-61477713a",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/mauricio-salgado-matamala-61477713a"
+ },
+ {
+  "empresa": "AES GENER S A",
+  "nombre": "Juan Flores",
+  "cargo": "Jefe Instrumentación en AES Gener",
+  "tipo": "jefe_ic",
+  "linkedin": "https://cl.linkedin.com/in/juan-flores-a7168134",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/juan-flores-a7168134"
+ },
+ {
+  "empresa": "AES GENER S A",
+  "nombre": "Eduardo Muñoz",
+  "cargo": "Subgerente de Ingeniería Complejo Norte – VP Operaciones en AES Chile",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "https://cl.linkedin.com/in/eduardo-mu%C3%B1oz-439ba643",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/eduardo-mu%C3%B1oz-439ba643"
+ },
+ {
+  "empresa": "AES GENER S A",
+  "nombre": "Nelson Vásquez Muñoz",
+  "cargo": "Gerente de Operaciones Hydro / Gerente de Operaciones de Centrales Hidroeléctricas de AES Chile",
+  "tipo": "jefe_electrico",
+  "linkedin": "https://cl.linkedin.com/in/nelson-v%C3%A1squez-mu%C3%B1oz-45111332",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/nelson-v%C3%A1squez-mu%C3%B1oz-45111332"
+ },
+ {
+  "empresa": "TRANSELEC CONCESIONES S.A.",
+  "nombre": "Carlos Alarcón Muñoz",
+  "cargo": "Jefe de Operaciones Zona Sur, Transelec S.A.",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/carlos-alarc%C3%B3n-mu%C3%B1oz-28547669",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/carlos-alarc%C3%B3n-mu%C3%B1oz-28547669"
+ },
+ {
+  "empresa": "CHILQUINTA ENERGIA S A",
+  "nombre": "Matías Inostroza Meza",
+  "cargo": "Jefe de Mantenimiento Zonal",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/matias-inostroza-meza-490633a3",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/matias-inostroza-meza-490633a3"
+ },
+ {
+  "empresa": "ENORCHILE S A",
+  "nombre": "Carlos Sánchez Santibáñez",
+  "cargo": "Jefe de Planta",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/carlos-sanchez-santibanez-b3a96b67",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/carlos-sanchez-santibanez-b3a96b67"
+ },
+ {
+  "empresa": "TRANSMISORA ELECTRICA DEL NORTE SA",
+  "nombre": "Carlos Figueroa",
+  "cargo": "Gerente de Operación y Mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/carlos-figueroa-784a5443",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/carlos-figueroa-784a5443"
+ },
+ {
+  "empresa": "TRANSMISORA ELECTRICA DEL NORTE SA",
+  "nombre": "Francisco Vivas",
+  "cargo": "Jefe de Mantenimiento de Protección y Control",
+  "tipo": "jefe_ic",
+  "linkedin": "https://cl.linkedin.com/in/francisco-vivas-a6a64471",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/francisco-vivas-a6a64471"
+ },
+ {
+  "empresa": "TRANSMISORA ELECTRICA DEL NORTE SA",
+  "nombre": "Jaime Latin Ramos",
+  "cargo": "Subgerente de Mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/jaime-latin-ramos-833aaa139",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/jaime-latin-ramos-833aaa139"
+ },
+ {
+  "empresa": "SQM INDUSTRIAL S.A.",
+  "nombre": "Carlos Rojas Muñoz",
+  "cargo": "Jefe de Planta en SQM Industrial",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/carlos-rojas-munoz-b4600a10a",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/carlos-rojas-munoz-b4600a10a"
+ },
+ {
+  "empresa": "SQM INDUSTRIAL S.A.",
+  "nombre": "Luis Vargas Fuentes",
+  "cargo": "Jefe de Planta Producción Minera en SQM Industrial S.A.",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/luis-vargas-fuentes-0ab28b57",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/luis-vargas-fuentes-0ab28b57"
+ },
+ {
+  "empresa": "SQM INDUSTRIAL S.A.",
+  "nombre": "Pablo Müller Ordenes",
+  "cargo": "Jefe de Mantenimiento Planta",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/pablo-muller-ordenes-98891581",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/pablo-muller-ordenes-98891581"
+ },
+ {
+  "empresa": "SQM INDUSTRIAL S.A.",
+  "nombre": "Juan Albanez",
+  "cargo": "Superintendente CIO Planta Química de Litio, SQM División Litio",
+  "tipo": "superintendente",
+  "linkedin": "https://cl.linkedin.com/in/albanez",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/albanez"
+ },
+ {
+  "empresa": "SQM INDUSTRIAL S.A.",
+  "nombre": "Rodrigo Eduardo Murillo Escobar",
+  "cargo": "Jefe de Ingeniería en Mantención en SQM",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/rodrigo-eduardo-murillo-escobar-044052208",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/rodrigo-eduardo-murillo-escobar-044052208"
+ },
+ {
+  "empresa": "SQM INDUSTRIAL S.A.",
+  "nombre": "Carlos Irarrazabal",
+  "cargo": "Superintendente de Operaciones Mina Nueva Victoria en SQM",
+  "tipo": "superintendente",
+  "linkedin": "https://cl.linkedin.com/in/carlos-irarrazabal-3a928131",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/carlos-irarrazabal-3a928131"
+ },
+ {
+  "empresa": "SQM INDUSTRIAL S.A.",
+  "nombre": "Carlos Andrade",
+  "cargo": "Jefe Eléctrico Instrumentación y Control , áreas Coya Sur y Nueva Victoria",
+  "tipo": "jefe_ic",
+  "linkedin": "https://cl.linkedin.com/in/andrade-carlos-72b8322b",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/andrade-carlos-72b8322b"
+ },
+ {
+  "empresa": "SQM INDUSTRIAL S.A.",
+  "nombre": "Franco Núñez Cortés",
+  "cargo": "Superintendente de Operaciones Litio en Salar de Atacama",
+  "tipo": "superintendente",
+  "linkedin": "https://cl.linkedin.com/in/franco-n%C3%BA%C3%B1ez-cort%C3%A9s-6a2459b8",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/franco-n%C3%BA%C3%B1ez-cort%C3%A9s-6a2459b8"
+ },
+ {
+  "empresa": "CORP NACIONAL DEL COBRE DE CHILE",
+  "nombre": "Rafael Guzmán M.",
+  "cargo": "Director Corporativo de Proyectos de Tecnología & Automatización y Sistemas de Procesos Mina en Codelco",
+  "tipo": "ingeniero_automatizacion",
+  "linkedin": "https://cl.linkedin.com/in/rafael-guzm%C3%A1n-m-93a13172",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/rafael-guzm%C3%A1n-m-93a13172"
+ },
+ {
+  "empresa": "CORP NACIONAL DEL COBRE DE CHILE",
+  "nombre": "Gino Paolo Francino Moraga",
+  "cargo": "Jefe de Ingeniería y Proyectos en Codelco",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "https://cl.linkedin.com/in/gino-paolo-francino-moraga",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/gino-paolo-francino-moraga"
+ },
+ {
+  "empresa": "CORP NACIONAL DEL COBRE DE CHILE",
+  "nombre": "Alejandro David Romo Briones",
+  "cargo": "Jefe Mantenimiento Eléctrico e Instrumentación en Codelco División El Teniente",
+  "tipo": "jefe_ic",
+  "linkedin": "https://cl.linkedin.com/in/alejandro-david-romo-briones-62951b78",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/alejandro-david-romo-briones-62951b78"
+ },
+ {
+  "empresa": "CORP NACIONAL DEL COBRE DE CHILE",
+  "nombre": "Cesar Castillo Jiménez",
+  "cargo": "Jefe de Unidad Automatización y Control, División El Teniente",
+  "tipo": "jefe_ic",
+  "linkedin": "https://cl.linkedin.com/in/cesar-castillo-jim%C3%A9nez-b7959438",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/cesar-castillo-jim%C3%A9nez-b7959438"
+ },
+ {
+  "empresa": "CORP NACIONAL DEL COBRE DE CHILE",
+  "nombre": "Hugo Morales",
+  "cargo": "Jefe de Unidad de Especialidades Eléctrica, Control e Instrumentación, Superintendencia de Mantenimiento, División Chuquicamata",
+  "tipo": "jefe_ic",
+  "linkedin": "https://cl.linkedin.com/in/hugo-morales-50297967",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/hugo-morales-50297967"
+ },
+ {
+  "empresa": "CORP NACIONAL DEL COBRE DE CHILE",
+  "nombre": "Christian González Carrillo",
+  "cargo": "Superintendente de Energía y Combustibles, Chuquicamata",
+  "tipo": "superintendente",
+  "linkedin": "https://cl.linkedin.com/in/christian-gonz%C3%A1lez-carrillo",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/christian-gonz%C3%A1lez-carrillo"
+ },
+ {
+  "empresa": "SGS MINERALS S.A.",
+  "nombre": "José Bugueño",
+  "cargo": "Jefe de Operaciones en SGS Minerals SA",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/jose-bugue%C3%B1o-99209089",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/jose-bugue%C3%B1o-99209089"
+ },
+ {
+  "empresa": "SGS MINERALS S.A.",
+  "nombre": "Jorge Castillo",
+  "cargo": "Jefe de Operaciones en SGS Minerals",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/jorge-castillo-564a74b0",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/jorge-castillo-564a74b0"
+ },
+ {
+  "empresa": "SGS MINERALS S.A.",
+  "nombre": "Alejandro Rojas",
+  "cargo": "Jefe de Operaciones, Natural Resources / Metalurgia en SGS Minerals",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/alejandro-rojas-475a3736",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/alejandro-rojas-475a3736"
+ },
+ {
+  "empresa": "SGS MINERALS S.A.",
+  "nombre": "Mauricio Vargas",
+  "cargo": "Jefe de Operaciones de Laboratorio en SGS Minerals",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/mauricio-vargas-b7426a50",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/mauricio-vargas-b7426a50"
+ },
+ {
+  "empresa": "MINERA TORO SPA",
+  "nombre": "Alberto de la Vega",
+  "cargo": "Jefe de Planta Minera Toro SpA",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/alberto-de-la-vega-82b187101",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/alberto-de-la-vega-82b187101"
+ },
+ {
+  "empresa": "MINERA CENTINELA",
+  "nombre": "Luis Tapia Orellana",
+  "cargo": "Superintendente de Operaciones Planta",
+  "tipo": "superintendente",
+  "linkedin": "https://cl.linkedin.com/in/luis-tapia-orellana-159825114",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/luis-tapia-orellana-159825114"
+ },
+ {
+  "empresa": "MINERA CENTINELA",
+  "nombre": "José Luis Aranda Donoso",
+  "cargo": "Jefe Turno Mantenimiento Eléctrico e Instrumentación",
+  "tipo": "jefe_ic",
+  "linkedin": "https://cl.linkedin.com/in/jlad1978",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/jlad1978"
+ },
+ {
+  "empresa": "PROCESADORA Y COMERCIAL DE MINERALES Y GRANOS\n            INDUSTRIALES MIGRIN SA",
+  "nombre": "Juan Moscoso Yévenes",
+  "cargo": "Jefe de Producción",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/juan-moscoso-yevenes-92257813a",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/juan-moscoso-yevenes-92257813a"
+ },
+ {
+  "empresa": "MINERA ALTOS DE PUNITAQUI LIMITADA.",
+  "nombre": "Kevin Acosta",
+  "cargo": "Jefe de Planificación e Ingeniería de Minas en Minera Altos de Punitaqui Ltda.",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "https://cl.linkedin.com/in/kevin-acosta-909826207",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/kevin-acosta-909826207"
+ },
+ {
+  "empresa": "MINERA ALTOS DE PUNITAQUI LIMITADA.",
+  "nombre": "raul jara iturri",
+  "cargo": "Superintendente de Planta Altos de Punitaqui",
+  "tipo": "superintendente",
+  "linkedin": "https://cl.linkedin.com/in/raul-jara-iturri-99590b52",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/raul-jara-iturri-99590b52"
+ },
+ {
+  "empresa": "ROCKWOOD LITIO LIMITADA",
+  "nombre": "Claudio García",
+  "cargo": "Jefe de Instrumentación y Sistemas de Control",
+  "tipo": "jefe_ic",
+  "linkedin": "",
+  "correo": "",
+  "fuente": "https://www.emb.cl/electroindustria/articulo.mvc"
+ },
+ {
+  "empresa": "CIA MINERA LA PATAGUA",
+  "nombre": "Cristian Rubio",
+  "cargo": "Jefe de Operaciones",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/cristian-rubio-05b08a54",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/cristian-rubio-05b08a54"
+ },
+ {
+  "empresa": "CIA MINERA LA PATAGUA",
+  "nombre": "Cristian Vidal Roa",
+  "cargo": "Jefe de Ingeniería y Proyectos",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "https://cl.linkedin.com/in/cristian-vidal-roa",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/cristian-vidal-roa"
+ },
+ {
+  "empresa": "CIA MINERA DEL PACIFICO S A",
+  "nombre": "Jeffrey Flores Godoy",
+  "cargo": "Jefe de Mantención Planta Los Colorados",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/jeffrey-flores-godoy-8a7706149",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/jeffrey-flores-godoy-8a7706149"
+ },
+ {
+  "empresa": "CIA MINERA DEL PACIFICO S A",
+  "nombre": "Rodrigo Ugarte",
+  "cargo": "Jefe Confiabilidad y Planificación de Mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/rodrigo-ugarte-b8422589",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/rodrigo-ugarte-b8422589"
+ },
+ {
+  "empresa": "QUIBORAX S.A.",
+  "nombre": "Diego Villegas",
+  "cargo": "Jefe Instrumentación y Control",
+  "tipo": "jefe_ic",
+  "linkedin": "https://cl.linkedin.com/in/diego-villegas-3612b5a2",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/diego-villegas-3612b5a2"
+ },
+ {
+  "empresa": "QUIBORAX S.A.",
+  "nombre": "Alexander Vergara Contreras",
+  "cargo": "Superintendente General de Plantas",
+  "tipo": "superintendente",
+  "linkedin": "https://cl.linkedin.com/in/alexander-vergara-contreras-b53043a9",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/alexander-vergara-contreras-b53043a9"
+ },
+ {
+  "empresa": "QUIBORAX S.A.",
+  "nombre": "Juan Osorio",
+  "cargo": "Jefe de Control de Procesos y Calidad",
+  "tipo": "ingeniero_procesos",
+  "linkedin": "https://cl.linkedin.com/in/juan-osorio-829299183",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/juan-osorio-829299183"
+ },
+ {
+  "empresa": "S Q M SALAR S A",
+  "nombre": "Sebastian Parada",
+  "cargo": "Superintendente Servicios Operacionales en SQM Litio Salar",
+  "tipo": "superintendente",
+  "linkedin": "https://cl.linkedin.com/in/sebastian-parada-p",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/sebastian-parada-p"
+ },
+ {
+  "empresa": "S Q M SALAR S A",
+  "nombre": "Carlos Vega Rocha",
+  "cargo": "Jefe de Operaciones Plantas Químicas SOP, MOP, MOP-BL y SLi en SQM Salar",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/carlos-vega-rocha-09961044",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/carlos-vega-rocha-09961044"
+ },
+ {
+  "empresa": "S Q M SALAR S A",
+  "nombre": "Francisco Aguirre Marfull",
+  "cargo": "Jefe de Operaciones SQM Salar",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/francisco-aguirre-marfull-14404146",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/francisco-aguirre-marfull-14404146"
+ },
+ {
+  "empresa": "S Q M SALAR S A",
+  "nombre": "Maria Cristina Zenteno",
+  "cargo": "Jefe de Operaciones - Planta Química de Litio en SQM División Litio",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/maria-cristina-zenteno-4119175b",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/maria-cristina-zenteno-4119175b"
+ },
+ {
+  "empresa": "S Q M SALAR S A",
+  "nombre": "Carlos Andrade",
+  "cargo": "Jefe Eléctrico Instrumentación y Control en SQM",
+  "tipo": "jefe_ic",
+  "linkedin": "https://cl.linkedin.com/in/andrade-carlos-72b8322b",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/andrade-carlos-72b8322b"
+ },
+ {
+  "empresa": "CIA MINERA SAN GERONIMO",
+  "nombre": "Gaston González Navarrete",
+  "cargo": "Superintendente de Operaciones Mina",
+  "tipo": "superintendente",
+  "linkedin": "https://cl.linkedin.com/in/gaston-gonzalez-navarrete-16b80657",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/gaston-gonzalez-navarrete-16b80657"
+ },
+ {
+  "empresa": "CIA MINERA SAN GERONIMO",
+  "nombre": "Nelson Herrera Castillo",
+  "cargo": "Jefe de Mantención y Energía",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/nelsonherrerac",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/nelsonherrerac"
+ },
+ {
+  "empresa": "CIA MINERA SAN GERONIMO",
+  "nombre": "Thomas Piñones",
+  "cargo": "Jefe de Mantenimiento Planta Concentradora",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/thomas-pi%C3%B1ones-60778b353",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/thomas-pi%C3%B1ones-60778b353"
+ },
+ {
+  "empresa": "MINERA LAS CENIZAS S A",
+  "nombre": "Francisco Zepeda Contreras",
+  "cargo": "Jefe de Ingeniería y Planificación Mina",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "https://cl.linkedin.com/in/francisco-zepeda-contreras-01b0aa68",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/francisco-zepeda-contreras-01b0aa68"
+ },
+ {
+  "empresa": "MINERA LAS CENIZAS S A",
+  "nombre": "Sebastián Fonseca Rivera",
+  "cargo": "Jefe de Mantenimiento Planta",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/sebastian-fonseca-rivera-61148a208",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/sebastian-fonseca-rivera-61148a208"
+ },
+ {
+  "empresa": "ANGLO AMERICAN SUR S.A.",
+  "nombre": "Freddy Álvarez A",
+  "cargo": "Superintendente de Producción Integrada Los Bronces",
+  "tipo": "superintendente",
+  "linkedin": "https://cl.linkedin.com/in/freddy-alvarez-a-574b6423",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/freddy-alvarez-a-574b6423"
+ },
+ {
+  "empresa": "ANGLO AMERICAN SUR S.A.",
+  "nombre": "Francisco Vicuña",
+  "cargo": "Superintendente Operaciones Planta Molienda",
+  "tipo": "superintendente",
+  "linkedin": "https://cl.linkedin.com/in/francisco-vicu%C3%B1a-4982487b",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/francisco-vicu%C3%B1a-4982487b"
+ },
+ {
+  "empresa": "ANGLO AMERICAN SUR S.A.",
+  "nombre": "Cristián Aldana Pinedo",
+  "cargo": "Superintendente de Dewatering / Mantenimiento Planta de Ácido y Suministros",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/cristi%C3%A1n-aldana-pinedo-33b35931",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/cristi%C3%A1n-aldana-pinedo-33b35931"
+ },
+ {
+  "empresa": "ANGLO AMERICAN SUR S.A.",
+  "nombre": "René Sánchez",
+  "cargo": "Principal Electrical, C&I Technical Group Engineering & Maintenance",
+  "tipo": "jefe_electrico",
+  "linkedin": "https://cl.linkedin.com/in/s%C3%A1nchez-ren%C3%A9-8a185b79",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/s%C3%A1nchez-ren%C3%A9-8a185b79"
+ },
+ {
+  "empresa": "SOC PUNTA DEL COBRE S A",
+  "nombre": "Arnoldo Briones Mallea",
+  "cargo": "Superintendente de Ingeniería y Geología",
+  "tipo": "superintendente",
+  "linkedin": "https://cl.linkedin.com/in/arnoldo-briones-mallea-077035117",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/arnoldo-briones-mallea-077035117"
+ },
+ {
+  "empresa": "SOC PUNTA DEL COBRE S A",
+  "nombre": "Rodrigo Flores Dorador",
+  "cargo": "Ingeniero Sistemas de Control Planta Electricidad e Instrumentación",
+  "tipo": "jefe_ic",
+  "linkedin": "https://cl.linkedin.com/in/rodrigo-flores-dorador-52365444",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/rodrigo-flores-dorador-52365444"
+ },
+ {
+  "empresa": "SOC PUNTA DEL COBRE S A",
+  "nombre": "Rodrigo Contreras",
+  "cargo": "Jefe de Mantenimiento Mecánico Área Húmeda",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/rodrigo-contreras-21a15b21",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/rodrigo-contreras-21a15b21"
+ },
+ {
+  "empresa": "MINERA MELON S.A.",
+  "nombre": "Tomás Troncoso",
+  "cargo": "Jefe de Mantenimiento Mecánico en Planta Cemento La Calera",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/tom%C3%A1s-troncoso-9811a020",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/tom%C3%A1s-troncoso-9811a020"
+ },
+ {
+  "empresa": "MINERA MELON S.A.",
+  "nombre": "Emir Rojas Barrientos",
+  "cargo": "Jefe de sección Eléctrica y Electrónica Planta Punta Arenas en Empresas Melón",
+  "tipo": "jefe_electrico",
+  "linkedin": "https://cl.linkedin.com/in/emir-rojas-barrientos",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/emir-rojas-barrientos"
+ },
+ {
+  "empresa": "EMPRESA NACIONAL DE MINERIA",
+  "nombre": "Sebastian Villalobos Pavez",
+  "cargo": "Jefe Corporativo de Ingeniería y Estudios",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "https://cl.linkedin.com/in/sebastian-villalobos-pavez-694b5b183",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/sebastian-villalobos-pavez-694b5b183"
+ },
+ {
+  "empresa": "EMPRESA NACIONAL DE MINERIA",
+  "nombre": "Ramón Elorza",
+  "cargo": "Jefe de Mantenimiento, Planta Delta",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/ramon-elorza-001149294",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/ramon-elorza-001149294"
+ },
+ {
+  "empresa": "MINERA CERRO DOMINADOR S A",
+  "nombre": "Ricardo Patricio Suazo Molina",
+  "cargo": "Jefe de Operaciones Planta en Minera Cerro Dominador S.A",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/ricardo-patricio-suazo-molina-78860b28",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/ricardo-patricio-suazo-molina-78860b28"
+ },
+ {
+  "empresa": "MINERA CERRO DOMINADOR S A",
+  "nombre": "Juan Carlos Piñones Castillo",
+  "cargo": "Jefe de Mantenimiento Eléctrico en Minera Cerro Dominador S.A",
+  "tipo": "jefe_electrico",
+  "linkedin": "https://cl.linkedin.com/in/juan-carlos-pi%C3%B1ones-castillo-491767127",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/juan-carlos-pi%C3%B1ones-castillo-491767127"
+ },
+ {
+  "empresa": "CIA MINERA DONA INES DE COLLAHUASI SCM",
+  "nombre": "Gonzalo I. Núñez Miranda",
+  "cargo": "Superintendente Instrumentación y Automatización",
+  "tipo": "jefe_ic",
+  "linkedin": "https://cl.linkedin.com/in/gonzalo-i-n%C3%BA%C3%B1ez-miranda-9a67214a",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/gonzalo-i-n%C3%BA%C3%B1ez-miranda-9a67214a"
+ },
+ {
+  "empresa": "CIA MINERA DONA INES DE COLLAHUASI SCM",
+  "nombre": "Patricio Acuña",
+  "cargo": "Superintendente de Ingeniería",
+  "tipo": "superintendente",
+  "linkedin": "https://cl.linkedin.com/in/patricio-acu%C3%B1a-37a30182",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/patricio-acu%C3%B1a-37a30182"
+ },
+ {
+  "empresa": "CIA MINERA DONA INES DE COLLAHUASI SCM",
+  "nombre": "Cristian Pacheco Fuentes",
+  "cargo": "Jefe de Mantención Planta",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/cristian-pacheco-fuentes-817924b1",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/cristian-pacheco-fuentes-817924b1"
+ },
+ {
+  "empresa": "CIA MINERA DONA INES DE COLLAHUASI SCM",
+  "nombre": "Humberto Ansieta",
+  "cargo": "Superintendente de Construcción",
+  "tipo": "superintendente",
+  "linkedin": "https://cl.linkedin.com/in/humberto-ansieta-728b4a68",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/humberto-ansieta-728b4a68"
+ },
+ {
+  "empresa": "CIA MINERA DONA INES DE COLLAHUASI SCM",
+  "nombre": "Alexis Mera Martinez",
+  "cargo": "Jefe de Operaciones Planta Concentradora",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/alexis-mera-martinez-085648168",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/alexis-mera-martinez-085648168"
+ },
+ {
+  "empresa": "ARIDOS DOWLING & SCHILLING S.A.",
+  "nombre": "Luis Alberto Aguayo Olivares",
+  "cargo": "Jefe de Planta, Áridos Dowling & Schilling S.A., Osorno",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/luis-alberto-aguayo-olivares-80860aa1",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/luis-alberto-aguayo-olivares-80860aa1"
+ },
+ {
+  "empresa": "SOC MINERA PETREOS QUILIN LIMITADA",
+  "nombre": "Felipe Mellado Silva",
+  "cargo": "Jefe de Planta",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/felipe-mellado-silva-7b7601279",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/felipe-mellado-silva-7b7601279"
+ },
+ {
+  "empresa": "ARIDOS SANTA FE S.A.",
+  "nombre": "Jaime Gutiérrez Silva",
+  "cargo": "Jefe de Plantas en Áridos Santa Fe SA",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/jaime-guti%C3%A9rrez-silva-4643513b",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/jaime-guti%C3%A9rrez-silva-4643513b"
+ },
+ {
+  "empresa": "CIA MINERA PIMENTON",
+  "nombre": "Felipe Eduardo Rivera Sepúlveda",
+  "cargo": "Jefe de Departamento de Mantención en Cía. Minera Pimentón",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/felipe-eduardo-rivera-sepulveda-81929261",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/felipe-eduardo-rivera-sepulveda-81929261"
+ },
+ {
+  "empresa": "MINERA ESCONDIDA LIMITADA",
+  "nombre": "Nelson Villalobos",
+  "cargo": "Gerente de Ingeniería Proyectos Escondida",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "https://cl.linkedin.com/in/nelson-villalobos-466a4914",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/nelson-villalobos-466a4914"
+ },
+ {
+  "empresa": "MINERA ESCONDIDA LIMITADA",
+  "nombre": "Eduardo Moreno",
+  "cargo": "Gerente de Mantención Equipos Móviles",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/eduardo-moreno-4b95202b",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/eduardo-moreno-4b95202b"
+ },
+ {
+  "empresa": "MINERA ESCONDIDA LIMITADA",
+  "nombre": "Mauricio MA Vasquez",
+  "cargo": "Superintendente de Mantención Plantas Desaladora, Tranque y Campos de Pozos Coloso",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/mauricio-ma-vasquez-05b50635",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/mauricio-ma-vasquez-05b50635"
+ },
+ {
+  "empresa": "MINERA ESCONDIDA LIMITADA",
+  "nombre": "Jorge JP Leiva",
+  "cargo": "Superintendente Metalurgia",
+  "tipo": "superintendente",
+  "linkedin": "https://cl.linkedin.com/in/leiva-jorge-jp-leiva-48228038",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/leiva-jorge-jp-leiva-48228038"
+ },
+ {
+  "empresa": "COMPANIA MINERA NEVADA SPA",
+  "nombre": "Claudio Contreras Cordero",
+  "cargo": "Jefe de Mantenimiento Eléctrico I&C",
+  "tipo": "jefe_ic",
+  "linkedin": "https://cl.linkedin.com/in/clacontrerasc",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/clacontrerasc"
+ },
+ {
+  "empresa": "CIA CONTRACTUAL MINERA CANDELARIA",
+  "nombre": "René Varas P",
+  "cargo": "Subgerente de Control de Procesos",
+  "tipo": "ingeniero_procesos",
+  "linkedin": "https://cl.linkedin.com/in/ren%C3%A9-varas-p-3b249460",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/ren%C3%A9-varas-p-3b249460"
+ },
+ {
+  "empresa": "CIA CONTRACTUAL MINERA CANDELARIA",
+  "nombre": "Juan Reinaldo López Cordero",
+  "cargo": "Director de Mantenimiento, Distrito Candelaria",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/juan-reinaldo-l%C3%B3pez-cordero-3aba1647",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/juan-reinaldo-l%C3%B3pez-cordero-3aba1647"
+ },
+ {
+  "empresa": "CIA CONTRACTUAL MINERA CANDELARIA",
+  "nombre": "Mario Ossandon Araya",
+  "cargo": "Jefe de Operaciones Mina",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/mario-ossandon-araya-29246a73",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/mario-ossandon-araya-29246a73"
+ },
+ {
+  "empresa": "MANTOS COPPER S.A.",
+  "nombre": "Roberto Medinelli Cantzen",
+  "cargo": "Gerente de Ingeniería de Mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/roberto-medinelli-cantzen-6771297a",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/roberto-medinelli-cantzen-6771297a"
+ },
+ {
+  "empresa": "MANTOS COPPER S.A.",
+  "nombre": "César Navarrete",
+  "cargo": "Gerente de Mantenimiento Mina y Planta",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "",
+  "correo": "",
+  "fuente": "https://capstonecopper.com/wp-content/uploads/2023/03/Mantos-Copper-2021-Reporte-de-Sostenibilidad.pdf"
+ },
+ {
+  "empresa": "MANTOS COPPER S.A.",
+  "nombre": "Sandra López Sanhueza",
+  "cargo": "Superintendente de Ingeniería de Procesos",
+  "tipo": "superintendente",
+  "linkedin": "https://cl.linkedin.com/in/sandra-l%C3%B3pez-sanhueza-0924bbb",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/sandra-l%C3%B3pez-sanhueza-0924bbb"
+ },
+ {
+  "empresa": "MANTOS COPPER S.A.",
+  "nombre": "Cristian Alejandro Gómez Aguilar",
+  "cargo": "Gerente de Mantenimiento Mina y Planta, operación Mantoverde",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/cristian-alejandro-g%C3%B3mez-aguilar-b9129822",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/cristian-alejandro-g%C3%B3mez-aguilar-b9129822"
+ },
+ {
+  "empresa": "MANTOS COPPER S.A.",
+  "nombre": "Allan Michel Aguayo Walker",
+  "cargo": "Superintendente de Operaciones Mina en Mantos Blancos",
+  "tipo": "superintendente",
+  "linkedin": "https://cl.linkedin.com/in/allan-michel-aguayo-walker-29895958",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/allan-michel-aguayo-walker-29895958"
+ },
+ {
+  "empresa": "SALMONES CALETA BAY S.A.",
+  "nombre": "Fabián Mancilla",
+  "cargo": "Jefe de Mantención",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://www.linkedin.com/pub/dir/Fabi%C3%A1n/Mancilla",
+  "correo": "",
+  "fuente": "https://www.linkedin.com/pub/dir/Fabi%C3%A1n/Mancilla"
+ },
+ {
+  "empresa": "SALMONES CALETA BAY S.A.",
+  "nombre": "Javier París",
+  "cargo": "Jefe de Operaciones",
+  "tipo": "jefe_produccion",
+  "linkedin": "",
+  "correo": "",
+  "fuente": "https://www.caletabay.com/nosotros/"
+ },
+ {
+  "empresa": "AQUACHILE S A",
+  "nombre": "José Inzulza Aburto",
+  "cargo": "Jefe del Departamento de Mantenimiento, Planta de Alimentos Pargua, Empresas AquaChile",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/jose-inzulza-aburto-74b709177",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/jose-inzulza-aburto-74b709177"
+ },
+ {
+  "empresa": "SALMONES PACIFIC STAR S A",
+  "nombre": "Claudia Almonacid Maldonado",
+  "cargo": "Jefe de Planta",
+  "tipo": "jefe_planta",
+  "linkedin": "https://es.linkedin.com/in/claudia-almonacid-maldonado-119504136",
+  "correo": "",
+  "fuente": "https://es.linkedin.com/in/claudia-almonacid-maldonado-119504136"
+ },
+ {
+  "empresa": "AGUAS CLARAS S A",
+  "nombre": "Cristian Arel Carcamo",
+  "cargo": "fue Gerente de Planta en Integra Chile S.A., y previamente se desempeñó como Jefe de Planificación y Control en Aguas Claras S.A. )",
+  "tipo": "jefe_ic",
+  "linkedin": "https://cl.linkedin.com/in/cristian-arel-carcamo-87040267",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/cristian-arel-carcamo-87040267"
+ },
+ {
+  "empresa": "SALMONES CAPTREN S.A.",
+  "nombre": "Alvaro Sepulveda Fernandez",
+  "cargo": "Jefe de Producción y Operaciones",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/alvaro-sepulveda-fernandez-b9aaa845",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/alvaro-sepulveda-fernandez-b9aaa845"
+ },
+ {
+  "empresa": "SALMONES CAPTREN S.A.",
+  "nombre": "Luis Ignacio Schwerter Uribe",
+  "cargo": "Jefe de Planificación y Control de Gestión Captren S.A.",
+  "tipo": "jefe_ic",
+  "linkedin": "https://cl.linkedin.com/in/luis-ignacio-schwerter-uribe-b599ab6b",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/luis-ignacio-schwerter-uribe-b599ab6b"
+ },
+ {
+  "empresa": "SALMONES CAPTREN S.A.",
+  "nombre": "Jean Contreras Delgado",
+  "cargo": "Jefe de Mantención y Proyectos / Automatización Industrial",
+  "tipo": "jefe_ic",
+  "linkedin": "https://cl.linkedin.com/in/jean-contreras-delgado-b0103a88",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/jean-contreras-delgado-b0103a88"
+ },
+ {
+  "empresa": "SALMONES ANTARTICA S A",
+  "nombre": "Marco Antonio Gallegos Aravena",
+  "cargo": "Jefe de Operaciones",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/marco-antonio-gallegos-aravena-29795228",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/marco-antonio-gallegos-aravena-29795228"
+ },
+ {
+  "empresa": "SALMONES ANTARTICA S A",
+  "nombre": "Edgardo Manríquez Echeverría",
+  "cargo": "Jefe de Planta Alimento",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/edgardo-manriquez-echeverria-30908375",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/edgardo-manriquez-echeverria-30908375"
+ },
+ {
+  "empresa": "SALMONES ANTARTICA S A",
+  "nombre": "Luciano Perez",
+  "cargo": "Sub Gerente Planta Procesos",
+  "tipo": "ingeniero_procesos",
+  "linkedin": "https://cl.linkedin.com/in/luciano-perez-028753164",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/luciano-perez-028753164"
+ },
+ {
+  "empresa": "SALMONES ANTARTICA S A",
+  "nombre": "Luis Aravena",
+  "cargo": "Jefe de Mantención",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/luis-aravena-26b69199",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/luis-aravena-26b69199"
+ },
+ {
+  "empresa": "COOKE AQUACULTURE CHILE SA",
+  "nombre": "Jorge Diaz",
+  "cargo": "Responsable de planificación de mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/jorge-diaz-9713aa2a5",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/jorge-diaz-9713aa2a5"
+ },
+ {
+  "empresa": "COOKE AQUACULTURE CHILE SA",
+  "nombre": "Cesar Aguilera",
+  "cargo": "Técnico de mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/cesar-aguilera-2476aa197",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/cesar-aguilera-2476aa197"
+ },
+ {
+  "empresa": "INVERMAR S.A.",
+  "nombre": "Fernando Cárdenas Fuentes",
+  "cargo": "Jefe de Planta Primaria y Acopio",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/fernando-c%C3%A1rdenas-fuentes-61253655",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/fernando-c%C3%A1rdenas-fuentes-61253655"
+ },
+ {
+  "empresa": "INVERMAR S.A.",
+  "nombre": "Gerardo José Fernández Gutiérrez",
+  "cargo": "Jefe de Plantas de Tratamiento de Aguas",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/gerardo-jose-fernandez-gutierrez-06a7229a",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/gerardo-jose-fernandez-gutierrez-06a7229a"
+ },
+ {
+  "empresa": "CULTIVOS YADRAN S A",
+  "nombre": "Roberto Ervite Cardenas",
+  "cargo": "Jefe de Mantención en YADRAN - High Quality Salmon",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/roberto-ervite-cardenas-1a735655",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/roberto-ervite-cardenas-1a735655"
+ },
+ {
+  "empresa": "ORIZON S A",
+  "nombre": "Alexis Rivera Pérez",
+  "cargo": "Jefe Proyectos y Mantención Flota",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/alexis-rivera-p%C3%A9rez-00a063129",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/alexis-rivera-p%C3%A9rez-00a063129"
+ },
+ {
+  "empresa": "BIOMAR CHILE S A",
+  "nombre": "Miguel Enrique Navarro Muñoz",
+  "cargo": "Jefe de Planta BioMar Chile",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/miguel-enrique-navarro-mu%C3%B1oz-173292146",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/miguel-enrique-navarro-mu%C3%B1oz-173292146"
+ },
+ {
+  "empresa": "MARINE HARVEST CHILE S A",
+  "nombre": "Sebastián Eduardo Cheuquemán",
+  "cargo": "Jefe Automatización y Control Industrial",
+  "tipo": "jefe_ic",
+  "linkedin": "https://cl.linkedin.com/in/sebastian-eduardo-cheuqueman-cheuqueman-b17a14186",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/sebastian-eduardo-cheuqueman-cheuqueman-b17a14186"
+ },
+ {
+  "empresa": "MARINE HARVEST CHILE S A",
+  "nombre": "Javier Aravena",
+  "cargo": "Jefe Mantenimiento X y XI región",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/javier-aravena-73795b51",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/javier-aravena-73795b51"
+ },
+ {
+  "empresa": "CORPESCA S A",
+  "nombre": "Pedro Pablo Moreno",
+  "cargo": "Jefe de Planta Corpesca S.A.",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/pedro-pablo-moreno-a5b768175",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/pedro-pablo-moreno-a5b768175"
+ },
+ {
+  "empresa": "CORPESCA S A",
+  "nombre": "Mario Andrés Núñez",
+  "cargo": "Jefe de Operaciones Plantas Corpesca S.A.",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/marioandr%C3%A9s-nu%C3%B1ez-b7306b38",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/marioandr%C3%A9s-nu%C3%B1ez-b7306b38"
+ },
+ {
+  "empresa": "CORPESCA S A",
+  "nombre": "Pedro Manuel Portales Piñones",
+  "cargo": "Jefe de Mantención General en Corpesca Tocopilla",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/pedro-manuel-portales-pi%C3%B1ones-1b671b71",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/pedro-manuel-portales-pi%C3%B1ones-1b671b71"
+ },
+ {
+  "empresa": "SALMONES FRIOAYSEN S.A",
+  "nombre": "Héctor Cárdenas",
+  "cargo": "Jefe de Mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/hector-cardenas-b32a41135",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/hector-cardenas-b32a41135"
+ },
+ {
+  "empresa": "MULTIEXPORT PACIFIC FARMS S.A.",
+  "nombre": "Claudio Vera Silva",
+  "cargo": "Gerente de Procesos",
+  "tipo": "ingeniero_procesos",
+  "linkedin": "https://cl.linkedin.com/in/claudio-vera-silva-ab547794",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/claudio-vera-silva-ab547794"
+ },
+ {
+  "empresa": "MULTIEXPORT PACIFIC FARMS S.A.",
+  "nombre": "Antonio Hernandez",
+  "cargo": "Jefe Área Mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/antonio-hernandez-718662159",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/antonio-hernandez-718662159"
+ },
+ {
+  "empresa": "SALMONES CAMANCHACA S A",
+  "nombre": "Juan Jimenez",
+  "cargo": "Subgerente de Mantenimiento y Proyectos",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/juan-jimenez-037a0828",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/juan-jimenez-037a0828"
+ },
+ {
+  "empresa": "SALMONES CAMANCHACA S A",
+  "nombre": "Hector Bustos",
+  "cargo": "Jefe de Mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/hector-bustos-a39575249",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/hector-bustos-a39575249"
+ },
+ {
+  "empresa": "SOC PESQUERA LANDES SOCIEDAD ANONIMA",
+  "nombre": "Enrique Medina",
+  "cargo": "Jefe de Planta de Harina, Aceite e Hidrolizado",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/enrique-medina-33b9b57a",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/enrique-medina-33b9b57a"
+ },
+ {
+  "empresa": "SOC PESQUERA LANDES SOCIEDAD ANONIMA",
+  "nombre": "Víctor Poblete",
+  "cargo": "Jefe de Mantención",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/victor-poblete-318a9b70",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/victor-poblete-318a9b70"
+ },
+ {
+  "empresa": "CERMAQ CHILE S.A.",
+  "nombre": "Héctor Eduardo Rojas Oyarzun",
+  "cargo": "Jefe de Operaciones",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/hector-eduardo-rojas-oyarzun-2a148126",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/hector-eduardo-rojas-oyarzun-2a148126"
+ },
+ {
+  "empresa": "CERMAQ CHILE S.A.",
+  "nombre": "Patricio Canales",
+  "cargo": "Jefe de Mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/patricio-canales-3a1a09189",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/patricio-canales-3a1a09189"
+ },
+ {
+  "empresa": "CERMAQ CHILE S.A.",
+  "nombre": "Christopher Serres Riffo",
+  "cargo": "Jefe de Mantenimiento Planta Quemchi",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/christopher-serres-riffo-036860155",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/christopher-serres-riffo-036860155"
+ },
+ {
+  "empresa": "SALMONES AYSEN S.A.",
+  "nombre": "Héctor Cárdenas",
+  "cargo": "Jefe de Mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/hector-cardenas-b32a41135",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/hector-cardenas-b32a41135"
+ },
+ {
+  "empresa": "BLUMAR S.A.",
+  "nombre": "Marcelo Castillo Belmar",
+  "cargo": "Jefe de Automatización y Control",
+  "tipo": "jefe_ic",
+  "linkedin": "https://cl.linkedin.com/in/marcelo-castillo-belmar-a6224076",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/marcelo-castillo-belmar-a6224076"
+ },
+ {
+  "empresa": "BLUMAR S.A.",
+  "nombre": "Marcelo Inzunza",
+  "cargo": "Jefe de Planta",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/marcelo-inzunza",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/marcelo-inzunza"
+ },
+ {
+  "empresa": "AQUAGEN CHILE S A",
+  "nombre": "Gaston Osorio Cárcamo",
+  "cargo": "Gerente de Mantención y Proyectos",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/gaston-osorio-c%C3%A1rcamo-9a781232",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/gaston-osorio-c%C3%A1rcamo-9a781232"
+ },
+ {
+  "empresa": "SALMONES MAULLIN LIMITADA",
+  "nombre": "Carlos Morales",
+  "cargo": "Jefe de Operaciones en Empresas AquaChile",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/carlos-morales-4ba87ba4",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/carlos-morales-4ba87ba4"
+ },
+ {
+  "empresa": "EMPRESAS AQUACHILE S A",
+  "nombre": "José Inzulza Aburto",
+  "cargo": "Jefe Depto Mantenimiento Planta Pargua",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/jose-inzulza-aburto-74b709177",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/jose-inzulza-aburto-74b709177"
+ },
+ {
+  "empresa": "EMPRESAS AQUACHILE S A",
+  "nombre": "Luisgis Gómez",
+  "cargo": "Jefe de Mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/luisgis-gomez-807807109",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/luisgis-gomez-807807109"
+ },
+ {
+  "empresa": "SALMONES CAILIN S.A.",
+  "nombre": "Juan Nelson Guerrero Ampuero",
+  "cargo": "Jefe de Planta",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/juan-nelson-guerrero-ampuero-014b3016a",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/juan-nelson-guerrero-ampuero-014b3016a"
+ },
+ {
+  "empresa": "AUSTRALIS MAR S.A.",
+  "nombre": "Nelson Espluga",
+  "cargo": "Jefe de Mantenimiento Industrial",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/nelsonjespluga",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/nelsonjespluga"
+ },
+ {
+  "empresa": "SALMONES BLUMAR S.A.",
+  "nombre": "Marcelo Castillo Belmar",
+  "cargo": "Jefe de Automatización y Control, Blumar Planta Harina Corral",
+  "tipo": "jefe_ic",
+  "linkedin": "https://cl.linkedin.com/in/marcelo-castillo-belmar-a6224076",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/marcelo-castillo-belmar-a6224076"
+ },
+ {
+  "empresa": "SALMONES BLUMAR S.A.",
+  "nombre": "Saúl Flores Ferrada",
+  "cargo": "Jefe de Mantención , Blumar S.A.",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/sa%C3%BAl-flores-ferrada-91a22889",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/sa%C3%BAl-flores-ferrada-91a22889"
+ },
+ {
+  "empresa": "SALMONES BLUMAR S.A.",
+  "nombre": "Marcelo Inzunza",
+  "cargo": "Jefe de Planta, Planta Harina San Vicente, Blumar S.A.",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/marcelo-inzunza",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/marcelo-inzunza"
+ },
+ {
+  "empresa": "VEOLIA SI CHILE SA",
+  "nombre": "Ignacio Moraga",
+  "cargo": "Gerente de Mantenimiento en Veolia Chile",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/ignacio-moraga-9a02a767",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/ignacio-moraga-9a02a767"
+ },
+ {
+  "empresa": "VEOLIA SI CHILE SA",
+  "nombre": "Juan José Catrileo",
+  "cargo": "Subgerente de Ingeniería Telecontrol en Veolia Soluciones Ambientales Chile S.A.",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "https://cl.linkedin.com/in/jcatrileo",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/jcatrileo"
+ },
+ {
+  "empresa": "VEOLIA SI CHILE SA",
+  "nombre": "Misael Morales Velasquez",
+  "cargo": "Jefe de Mantenimiento en Telecontrol, Veolia Soluciones Ambientales Chile S.A.",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/misael-morales-velasquez-4a5a1395",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/misael-morales-velasquez-4a5a1395"
+ },
+ {
+  "empresa": "CRISTALERIAS DE CHILE S A",
+  "nombre": "Andrés Pizarro Villarroel",
+  "cargo": "Ingeniero de Automatización y Control",
+  "tipo": "jefe_ic",
+  "linkedin": "https://cl.linkedin.com/in/andr%C3%A9s-pizarro-villarroel-0aab383a",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/andr%C3%A9s-pizarro-villarroel-0aab383a"
+ },
+ {
+  "empresa": "SOLUCIONES AMBIENTALES DEL NORTE SA",
+  "nombre": "Ricardo Luis Armando Inostroza Morales",
+  "cargo": "Jefe de Operaciones Zona Norte",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/ricardo-luis-armando-inostroza-morales-b9a466a1",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/ricardo-luis-armando-inostroza-morales-b9a466a1"
+ },
+ {
+  "empresa": "SOLUCIONES AMBIENTALES DEL NORTE SA",
+  "nombre": "Carlos Cifuentes Chávez",
+  "cargo": "Jefe de Mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/carlos-cifuentes-ch%C3%A1vez-82479749",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/carlos-cifuentes-ch%C3%A1vez-82479749"
+ },
+ {
+  "empresa": "SOC RECUPERADORA DE PAPEL S A",
+  "nombre": "Jorge Fernández Vega",
+  "cargo": "Jefe de Planta Sorepa S.A., sucursal Viña del Mar",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/jorge-fernandez-vega-047321b3",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/jorge-fernandez-vega-047321b3"
+ },
+ {
+  "empresa": "AGUAS ARAUCANIA S.A.",
+  "nombre": "Andres Valenzuela Hott",
+  "cargo": "Jefe Depto Ingeniería",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "https://cl.linkedin.com/in/andres-valenzuela-hott-7a452028",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/andres-valenzuela-hott-7a452028"
+ },
+ {
+  "empresa": "CRISTALERIAS TORO SPA",
+  "nombre": "Francisco Araneda Reyes",
+  "cargo": "Jefe mantención planta",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/francisco-araneda-reyes-920245382",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/francisco-araneda-reyes-920245382"
+ },
+ {
+  "empresa": "VARAS",
+  "nombre": "Williams Varas Peña",
+  "cargo": "Superintendente Mantenimiento en Anglo American Los Bronces",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/williams-varas-pe%C3%B1a-b015aa160",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/williams-varas-pe%C3%B1a-b015aa160"
+ },
+ {
+  "empresa": "VARAS",
+  "nombre": "Gonzalo Alfredo Varas Setz",
+  "cargo": "Jefe de Planta, Viña San Pedro Tarapacá",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/gonzalo-alfredo-varas-setz-60a53b39",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/gonzalo-alfredo-varas-setz-60a53b39"
+ },
+ {
+  "empresa": "I MUNICIPALIDAD DE OSORNO",
+  "nombre": "Juan Luis Añazco Barrientos",
+  "cargo": "Jefe de Operaciones Viales",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/juan-luis-a%C3%B1azco-barrientos-045091154",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/juan-luis-a%C3%B1azco-barrientos-045091154"
+ },
+ {
+  "empresa": "ECOFIBRAS S A",
+  "nombre": "Mittzy Morales",
+  "cargo": "Jefe de planta, Ecofibras S.A.",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/mittzy-morales-39b9372bb",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/mittzy-morales-39b9372bb"
+ },
+ {
+  "empresa": "GESTION ECOLOGICA DE RESIDUOS S A",
+  "nombre": "Camilo Rodríguez Lobos",
+  "cargo": "Jefe de Mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/camilo-rodr%C3%ADguez-lobos-b1a129137",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/camilo-rodr%C3%ADguez-lobos-b1a129137"
+ },
+ {
+  "empresa": "AGUAS SAN PEDRO S A",
+  "nombre": "Alvaro Matus de la Parra Gonzalez",
+  "cargo": "Jefe de Mantención y Redes AP y AS",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "",
+  "correo": "",
+  "fuente": "https://www.signalhire.com/profiles/alvaro-matus-de-la-parra-gonzalez%27s-email/140396835"
+ },
+ {
+  "empresa": "ECO LOGICA S A",
+  "nombre": "Cristian San Juan Roco",
+  "cargo": "Jefe de Mantenimiento e Infraestructura",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/cristian-san-juan-roco-55495440",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/cristian-san-juan-roco-55495440"
+ },
+ {
+  "empresa": "ECO LOGICA S A",
+  "nombre": "Sergio Sepúlveda Ferrada",
+  "cargo": "Jefe de Planta en Ecológica S.A.",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/sergio-sep%C3%BAlveda-ferrada",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/sergio-sep%C3%BAlveda-ferrada"
+ },
+ {
+  "empresa": "AGUAS DE ANTOFAGASTA S A",
+  "nombre": "Felipe Núñez González",
+  "cargo": "Superintendente de Aguas",
+  "tipo": "superintendente",
+  "linkedin": "https://cl.linkedin.com/in/felipe-n%C3%BA%C3%B1ez-gonz%C3%A1lez-54147353",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/felipe-n%C3%BA%C3%B1ez-gonz%C3%A1lez-54147353"
+ },
+ {
+  "empresa": "AGUAS MAGALLANES S.A.",
+  "nombre": "Jaime Asencio",
+  "cargo": "Jefe de Departamento de Mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/jaime-asencio-a5904b46",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/jaime-asencio-a5904b46"
+ },
+ {
+  "empresa": "AGUAS MAGALLANES S.A.",
+  "nombre": "Belén Seguel",
+  "cargo": "Jefe Departamento Ingeniería y Obras",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "",
+  "correo": "",
+  "fuente": "https://aguas-recursos-sw.s3.us-east-1.amazonaws.com/an/memorias/2025/Memoria%20Aguas%20Magallanes%202025.pdf"
+ },
+ {
+  "empresa": "RECUPAC S A",
+  "nombre": "Juan Eusebio Saenz Echevarria",
+  "cargo": "Gerente de Operaciones / Jefe de Planta",
+  "tipo": "gerente_operaciones",
+  "linkedin": "https://www.linkedin.com/in/juan-eusebio-saenz-echevarria-15378332",
+  "correo": "",
+  "fuente": "https://www.linkedin.com/in/juan-eusebio-saenz-echevarria-15378332"
+ },
+ {
+  "empresa": "RECUPAC S A",
+  "nombre": "Nestor Osorio Montecinos",
+  "cargo": "Jefe de Planta",
+  "tipo": "jefe_planta",
+  "linkedin": "https://www.linkedin.com/in/nestor-osorio-montecinos-a2a1a5124",
+  "correo": "",
+  "fuente": "https://www.linkedin.com/in/nestor-osorio-montecinos-a2a1a5124"
+ },
+ {
+  "empresa": "AGUAS PATAGONIA DE AYSEN S A",
+  "nombre": "Juan Acum",
+  "cargo": "Jefe de Mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/juan-acum-61325b89",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/juan-acum-61325b89"
+ },
+ {
+  "empresa": "AGUAS ANDINAS S A",
+  "nombre": "Alejandra Gosthe",
+  "cargo": "Jefatura de Ingeniería de Operaciones",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "https://cl.linkedin.com/in/alejandra-gosthe-314924179",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/alejandra-gosthe-314924179"
+ },
+ {
+  "empresa": "AGUAS ANDINAS S A",
+  "nombre": "Gerardo Miranda Correa",
+  "cargo": "Jefe de Mantenimiento Zona Sur",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/gerardo-miranda-correa-82a3a544",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/gerardo-miranda-correa-82a3a544"
+ },
+ {
+  "empresa": "RESITER INDUSTRIAL S.A.",
+  "nombre": "Roberto Meneses",
+  "cargo": "Jefe de Mantenimiento, Resiter S.A.",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/roberto-meneses-933036137",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/roberto-meneses-933036137"
+ },
+ {
+  "empresa": "FAENADORA DE CARNES VICTORIA S A",
+  "nombre": "Sergio Novoa",
+  "cargo": "Jefe de Planta",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/sergio-novoa",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/sergio-novoa"
+ },
+ {
+  "empresa": "FAENADORA DE CARNES VICTORIA S A",
+  "nombre": "Marcelo Cisternas",
+  "cargo": "Jefe Departamento de Mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/marcelo-cisternas-70274b137",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/marcelo-cisternas-70274b137"
+ },
+ {
+  "empresa": "GERDAU AZA S A",
+  "nombre": "Jorge Fernandez",
+  "cargo": "Subgerente de Ingeniería AZA",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "https://cl.linkedin.com/in/jorge-fernandez-4a018936",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/jorge-fernandez-4a018936"
+ },
+ {
+  "empresa": "DISAL CHILE SANITARIOS PORTABLES LIMITADA",
+  "nombre": "Cristián Urrejola Schmied",
+  "cargo": "Gerente Corporativo de Mantención, Planificación y Control Operacional en Disal Chile  )",
+  "tipo": "ingeniero_automatizacion",
+  "linkedin": "",
+  "correo": "",
+  "fuente": "https://www.direcmin.com/_file/direcmin2019.pdf"
+ },
+ {
+  "empresa": "HIDRONOR CHILE S A",
+  "nombre": "José Aravena",
+  "cargo": "Subgerente Corporativo de Ingeniería y Proyectos",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "https://cl.linkedin.com/in/jose-aravena-9a64088a",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/jose-aravena-9a64088a"
+ },
+ {
+  "empresa": "SOC INGENIERIA CONSTRUCCION Y MAQUINARIA SPA",
+  "nombre": "Gerardo Morandé Larraín",
+  "cargo": "Representante Legal de Soc Ingenieria Construccion Y Maquinaria Spa )",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "",
+  "correo": "",
+  "fuente": "https://www.dnb.com/business-directory/company-profiles.soc_ingenieria_construccion_y_maquinaria_spa.bf355a5d12321814a52f80cbdd497d32.html"
+ },
+ {
+  "empresa": "I MUNICIPALIDAD DE CISNES",
+  "nombre": "Marcelo Reinaldo Morales",
+  "cargo": "Ingeniero Eléctrico Secplan, Municipalidad de Cisnes",
+  "tipo": "jefe_electrico",
+  "linkedin": "https://cl.linkedin.com/in/reinaldomorales>",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/reinaldomorales>"
+ },
+ {
+  "empresa": "I MUNICIPALIDAD DE SIERRA GORDA",
+  "nombre": "Víctor Riquelme",
+  "cargo": "Jefe General de Mantenimiento Eléctrico & Instrumentación Planta en Sierra Gorda SCM",
+  "tipo": "jefe_ic",
+  "linkedin": "https://cl.linkedin.com/in/v%C3%ADctor-riquelme-86824648",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/v%C3%ADctor-riquelme-86824648"
+ },
+ {
+  "empresa": "I MUNICIPALIDAD DE SIERRA GORDA",
+  "nombre": "Roberto Villalobos Munizaga",
+  "cargo": "Superintendente Gestión de Activos Mantenimiento Planta en Sierra Gorda SCM",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/roberto-villalobos-munizaga-59018431",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/roberto-villalobos-munizaga-59018431"
+ },
+ {
+  "empresa": "DEMARCO S A",
+  "nombre": "Héctor Neira Carrasco",
+  "cargo": "Jefe de Operaciones",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/h%C3%A9ctor-neira-carrasco-00493511a",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/h%C3%A9ctor-neira-carrasco-00493511a"
+ },
+ {
+  "empresa": "DEMARCO S A",
+  "nombre": "Hernan Alonso Amigo Briceño",
+  "cargo": "Jefe de Mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/hernan-alonso-amigo-brice%C3%B1o-94491023",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/hernan-alonso-amigo-brice%C3%B1o-94491023"
+ },
+ {
+  "empresa": "BIOMASA CHILE S.A",
+  "nombre": "Jorge Pizarro",
+  "cargo": "Jefe de Operaciones en BiomasaChile",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/jorge-pizarro-40757b149",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/jorge-pizarro-40757b149"
+ },
+ {
+  "empresa": "BIOMASA CHILE S.A",
+  "nombre": "Jorge H. Escalona M.",
+  "cargo": "Jefe de Mantención en BIOMASA CHILE S.A.",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/jorge-h-escalona-m-5783795a",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/jorge-h-escalona-m-5783795a"
+ },
+ {
+  "empresa": "ESSBIO S.A.",
+  "nombre": "Leonardo Seguel Huenteo",
+  "cargo": "Jefe Departamento Mantenimiento Regional Bio Bio y Ñuble",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/leonardo-seguel-huenteo-90037090",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/leonardo-seguel-huenteo-90037090"
+ },
+ {
+  "empresa": "ESSBIO S.A.",
+  "nombre": "José Manuel Sepulveda",
+  "cargo": "Jefe Departamento Ingeniería de Mantenimiento ESSBIO y Nuevosur",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/jos%C3%A9-manuel-sepulveda-8804039b",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/jos%C3%A9-manuel-sepulveda-8804039b"
+ },
+ {
+  "empresa": "ESSBIO S.A.",
+  "nombre": "Erick Castillo Hermosilla",
+  "cargo": "Supervisor de Mantenimiento en Essbio",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/erick-castillo-hermosilla-119456211",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/erick-castillo-hermosilla-119456211"
+ },
+ {
+  "empresa": "COMPANIA DE PETROLEOS DE CHILE COPEC S A",
+  "nombre": "Francisco Javier Labbé Bascuñán",
+  "cargo": "Gerente de Ingeniería",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "https://cl.linkedin.com/in/francisco-javier-labbe-bascunan-7b938344",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/francisco-javier-labbe-bascunan-7b938344"
+ },
+ {
+  "empresa": "COMPANIA DE PETROLEOS DE CHILE COPEC S A",
+  "nombre": "Jaime Cárcamo Cabrera",
+  "cargo": "Jefe de Planta",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/jaime-carcamo-cabrera-74090923",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/jaime-carcamo-cabrera-74090923"
+ },
+ {
+  "empresa": "GOMEZ",
+  "nombre": "Walter Gomez Mancilla",
+  "cargo": "Superintendente Operaciones en CAP Minería",
+  "tipo": "superintendente",
+  "linkedin": "https://cl.linkedin.com/in/waltergomezmancilla",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/waltergomezmancilla"
+ },
+ {
+  "empresa": "GOMEZ",
+  "nombre": "Cristian Gomez",
+  "cargo": "Encargado Mantención Instrumentación, CODELCO Ventanas",
+  "tipo": "ingeniero_automatizacion",
+  "linkedin": "https://cl.linkedin.com/in/cristian-gomez-765067157",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/cristian-gomez-765067157"
+ },
+ {
+  "empresa": "EMPRESA NACIONAL DE ENERGIA ENEX S.A.",
+  "nombre": "Rubén Valenzuela Gonzalez",
+  "cargo": "Jefe de Planta San Vicente y Lautaro",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/rub%C3%A9n-valenzuela-gonzalez-16906b29",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/rub%C3%A9n-valenzuela-gonzalez-16906b29"
+ },
+ {
+  "empresa": "EMPRESA NACIONAL DE ENERGIA ENEX S.A.",
+  "nombre": "Héctor Molina G.",
+  "cargo": "Jefe de Planta Combustible San Fernando",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/hector-molina-g-9b7a711b8",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/hector-molina-g-9b7a711b8"
+ },
+ {
+  "empresa": "INVERSIONES ENEX S A",
+  "nombre": "Rubén Valenzuela González",
+  "cargo": "Jefe de Planta San Vicente y Lautaro, ENEX S.A.",
+  "tipo": "jefe_planta",
+  "linkedin": "https://cl.linkedin.com/in/rub%C3%A9n-valenzuela-gonzalez-16906b29",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/rub%C3%A9n-valenzuela-gonzalez-16906b29"
+ },
+ {
+  "empresa": "INVERSIONES ENEX S A",
+  "nombre": "Pablo Martinez",
+  "cargo": "Jefe de Operaciones, Inversiones ENEX S.A.",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/pablo-martinez-4a6339bb",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/pablo-martinez-4a6339bb"
+ },
+ {
+  "empresa": "CONTRERAS",
+  "nombre": "Diego Contreras",
+  "cargo": "Jefe de mantenimiento, confiabilidad y procesos",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/diegorcg",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/diegorcg"
+ },
+ {
+  "empresa": "CONTRERAS",
+  "nombre": "Gino Contreras",
+  "cargo": "Jefe de Ingeniería y Mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/gino-contreras-bab14372",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/gino-contreras-bab14372"
+ },
+ {
+  "empresa": "CONTRERAS",
+  "nombre": "Francisco Contreras",
+  "cargo": "Jefe de Ingeniería mantenimiento y Planificación",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/francisco-contreras-7a6a1814",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/francisco-contreras-7a6a1814"
+ },
+ {
+  "empresa": "ABASTIBLE S.A.",
+  "nombre": "Jessica María Villarroel Villada",
+  "cargo": "Jefe de Operaciones Planta",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/jessica-maria-villarroel-villada-b11b6032",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/jessica-maria-villarroel-villada-b11b6032"
+ },
+ {
+  "empresa": "ABASTIBLE S.A.",
+  "nombre": "Anthony Rojas",
+  "cargo": "Jefe de Procesos SGO",
+  "tipo": "ingeniero_procesos",
+  "linkedin": "https://cl.linkedin.com/in/anthony-rojas",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/anthony-rojas"
+ },
+ {
+  "empresa": "LUBRICANTES Y SERVICIOS BEL-RAY CHILE LIMITADA",
+  "nombre": "Joan Enmanuel Alejandro Echeverría Carrazana",
+  "cargo": "Jefe de Operaciones",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/joanecheverriacarrazana",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/joanecheverriacarrazana"
+ },
+ {
+  "empresa": "ENAP REFINERIAS S A",
+  "nombre": "Ricardo Prieto Gómez",
+  "cargo": "Jefe División Equipos Electrónicos & Instrumentación, Refinería Aconcagua",
+  "tipo": "jefe_ic",
+  "linkedin": "https://cl.linkedin.com/in/ricardo-prieto-gomez-306613a7",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/ricardo-prieto-gomez-306613a7"
+ },
+ {
+  "empresa": "ENAP REFINERIAS S A",
+  "nombre": "Franco Ramírez Silva",
+  "cargo": "Jefe de Mantenimiento",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/franco-ramirez-silva-b0b39115a",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/franco-ramirez-silva-b0b39115a"
+ },
+ {
+  "empresa": "ADMINISTRADORA DE VENTAS AL DETALLE LIMITADA",
+  "nombre": "José Antonio Godoy",
+  "cargo": "Jefe de Operaciones",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/jose-antonio-godoy-2410b3361",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/jose-antonio-godoy-2410b3361"
+ },
+ {
+  "empresa": "EMPRESAS LIPIGAS S A",
+  "nombre": "Felipe Hadad Araneda",
+  "cargo": "Jefe de Ingeniería GNL (LNG)",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "https://cl.linkedin.com/in/felipe-hadad-araneda-13218073",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/felipe-hadad-araneda-13218073"
+ },
+ {
+  "empresa": "EMPRESAS LIPIGAS S A",
+  "nombre": "Carlos Villegas",
+  "cargo": "Jefe de Ingeniería y Proyectos Operacionales",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "https://cl.linkedin.com/in/carlos-villegas-48287b35",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/carlos-villegas-48287b35"
+ },
+ {
+  "empresa": "EMPRESA NACIONAL DEL PETROLEO",
+  "nombre": "Rodrigo Henríquez",
+  "cargo": "Jefe del Departamento de Ingeniería en Enap Magallanes",
+  "tipo": "jefe_ingenieria",
+  "linkedin": "https://cl.linkedin.com/in/rodrigo-henr%C3%ADquez-041b6636",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/rodrigo-henr%C3%ADquez-041b6636"
+ },
+ {
+  "empresa": "EMPRESA NACIONAL DEL PETROLEO",
+  "nombre": "Iván Rubilar Seguel",
+  "cargo": "Jefe División Electricidad e Instrumentos  en ENAP Refinería Bío Bío",
+  "tipo": "otro",
+  "linkedin": "https://cl.linkedin.com/in/ivanrubilarseguel",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/ivanrubilarseguel"
+ },
+ {
+  "empresa": "EMPRESA NACIONAL DEL PETROLEO",
+  "nombre": "Carlos Miranda Escudero",
+  "cargo": "Jefe de Mantenimiento Isla en ENAP",
+  "tipo": "jefe_mantenimiento",
+  "linkedin": "https://cl.linkedin.com/in/carlos-miranda-escudero-90950144",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/carlos-miranda-escudero-90950144"
+ },
+ {
+  "empresa": "GASCO GLP S A",
+  "nombre": "Matías Salomón Navarrete",
+  "cargo": "Jefe de Planta Coyhaique en Gasco GLP",
+  "tipo": "jefe_planta",
+  "linkedin": "https://es.linkedin.com/in/matias-salomon-navarrete-653467a7",
+  "correo": "",
+  "fuente": "https://es.linkedin.com/in/matias-salomon-navarrete-653467a7"
+ },
+ {
+  "empresa": "INTERGAS S A",
+  "nombre": "Daniel Moltedo",
+  "cargo": "Ingeniero en Automatización y Control Industrial / Encargado de Plantas y Gasoducto",
+  "tipo": "jefe_ic",
+  "linkedin": "https://cl.linkedin.com/in/daniel-moltedo-58110420a",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/daniel-moltedo-58110420a"
+ },
+ {
+  "empresa": "ADMINISTRADORA DE ESTACIONES DE SERVICIOS SERCO LTDA",
+  "nombre": "Marcelo Martínez",
+  "cargo": "Jefe de Operaciones",
+  "tipo": "jefe_produccion",
+  "linkedin": "https://cl.linkedin.com/in/marcelo-martinez-97312521",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/marcelo-martinez-97312521"
+ },
+ {
+  "empresa": "LINDE GAS CHILE S.A.",
+  "nombre": "Guido Arias Gonzalez",
+  "cargo": "Ingeniero DCS & Instrumentación",
+  "tipo": "jefe_ic",
+  "linkedin": "https://cl.linkedin.com/in/guido-arias-gonzalez-a716a146",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/guido-arias-gonzalez-a716a146"
+ },
+ {
+  "empresa": "LINDE GAS CHILE S.A.",
+  "nombre": "Israel Bustamante Espinoza",
+  "cargo": "Coordinador de Mantenimiento (electricidad, instrumentación y mecánica)",
+  "tipo": "ingeniero_automatizacion",
+  "linkedin": "https://cl.linkedin.com/in/israel-bustamante-espinoza-54952511b",
+  "correo": "",
+  "fuente": "https://cl.linkedin.com/in/israel-bustamante-espinoza-54952511b"
+ }
+]
