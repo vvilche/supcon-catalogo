@@ -1,0 +1,251 @@
+{
+ "capitulo": "84.81",
+ "total_usd": 455673947.81,
+ "items": 93683,
+ "por_partida": [
+  [
+   "MIXTO — no separable",
+   230075678.54
+  ],
+  [
+   "Partes",
+   73023022.78
+  ],
+  [
+   "Corte manual o accionado",
+   56797849.0
+  ],
+  [
+   "Potencia",
+   35892130.41
+  ],
+  [
+   "Control/regulación",
+   21305393.34
+  ],
+  [
+   "Seguridad",
+   20410547.53
+  ],
+  [
+   "Corte, sin accionamiento",
+   18169326.21
+  ]
+ ],
+ "partida_mixta": {
+  "partida": "84818090",
+  "nombre": "Los demás artículos de grifería",
+  "total": 230075678.54,
+  "control_identificado": 47685850.83,
+  "manual_identificado": 12835218.28,
+  "no_identificable": 169554609.43
+ },
+ "piso_control_usd": 68991244.17,
+ "piso_manual_usd": 87802393.49,
+ "no_clasificable_usd": 169554609.43,
+ "marcas_control": [
+  [
+   "VALMET",
+   9620843.28
+  ],
+  [
+   "CATERPILLAR",
+   9252101.75
+  ],
+  [
+   "EMERSON",
+   8382829.63
+  ],
+  [
+   "WEIR",
+   5837843.64
+  ],
+  [
+   "METSO",
+   4722176.93
+  ],
+  [
+   "VALVITALIA",
+   4577264.0
+  ],
+  [
+   "DEZURIK",
+   2939843.46
+  ],
+  [
+   "FLOWSERVE",
+   1095703.91
+  ],
+  [
+   "",
+   963232.66
+  ],
+  [
+   "CGIS",
+   947855.59
+  ],
+  [
+   "INSTRUVALVE",
+   863951.06
+  ],
+  [
+   "ORBINOX",
+   847728.4
+  ],
+  [
+   "DSS",
+   772265.17
+  ],
+  [
+   "SAMSON",
+   737710.19
+  ],
+  [
+   "MOKVELD",
+   730484.95
+  ],
+  [
+   "FISHER",
+   638145.96
+  ],
+  [
+   "SWENSON TECHNOLOGY - F",
+   594553.79
+  ],
+  [
+   "NELES",
+   566301.08
+  ],
+  [
+   "MOGAS",
+   520200.73
+  ],
+  [
+   "DRESSER",
+   458113.5
+  ],
+  [
+   "FORUM ENERGY",
+   448112.85
+  ],
+  [
+   "CAVAGNA",
+   380162.85
+  ],
+  [
+   "SOMAS",
+   340475.64
+  ],
+  [
+   "DANFOSS",
+   310257.46
+  ],
+  [
+   "BURKERT",
+   282257.75
+  ]
+ ],
+ "marcas_manual": [
+  [
+   "BRAY",
+   6350015.52
+  ],
+  [
+   "GENEBRE",
+   2634837.7
+  ],
+  [
+   "TAIZHOU",
+   2510273.02
+  ],
+  [
+   "YUHUAN",
+   1987976.17
+  ],
+  [
+   "ZHEJIANG",
+   1935400.12
+  ],
+  [
+   "ZHEJIANG GUTEKE",
+   1022858.57
+  ],
+  [
+   "M.",
+   571663.65
+  ],
+  [
+   "EBRO",
+   392444.13
+  ],
+  [
+   "O.P.W",
+   385774.32
+  ],
+  [
+   "DANFOSS",
+   380104.71
+  ],
+  [
+   "TAIZHOU G.",
+   343047.31
+  ],
+  [
+   "FLSMIDTH SHANGHAI",
+   257810.37
+  ],
+  [
+   "SHANGHAI",
+   241333.3
+  ],
+  [
+   "WENZHOU",
+   212055.76
+  ],
+  [
+   "F.B.M.C.L.",
+   198456.11
+  ],
+  [
+   "FLSMIDTH SHANGHAI LTD.",
+   192525.17
+  ],
+  [
+   "WATTS INDUSTRIES",
+   185551.14
+  ],
+  [
+   "ARGUS",
+   173961.12
+  ],
+  [
+   "EBRO ARMATUREN",
+   167806.07
+  ],
+  [
+   "WENZHOUY HI TECH",
+   157733.21
+  ],
+  [
+   "BONOMI INDUSTRIES",
+   137097.66
+  ],
+  [
+   "FLSMIDTH SHANGHAI LTDA.",
+   130803.19
+  ],
+  [
+   "VALVULAS ARCO",
+   130215.45
+  ],
+  [
+   "WENZHOU HI-TECH",
+   126087.9
+  ],
+  [
+   "TAIZHOU RIDA VALVE",
+   102160.76
+  ]
+ ],
+ "nota_metodologica": "El registro de Aduanas no permite separar manuales de control: el 50% del capítulo cae en la partida residual 84818090, donde conviven válvulas de control, manuales y grifería doméstica. La glosa suele decir solo 'VÁLVULA'. Se entrega un PISO confiable por categoría (identificado por partida o marca) y se declara el resto como no clasificable, en vez de repartirlo a ojo."
+}
