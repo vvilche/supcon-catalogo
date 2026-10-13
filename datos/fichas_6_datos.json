@@ -1,0 +1,463 @@
+{
+ "ECS-700 (DCS)": {
+  "familia": "DCS",
+  "descripcion": "Sistema de control distribuido ECS-700, la plataforma DCS de SUPCON para control de procesos continuos. Cuenta con certificación UL para el mercado de Estados Unidos y Canadá, y es la base sobre la que se montan las soluciones de control de planta del fabricante.",
+  "beneficios": [
+   "Certificación UL emitida (sin vencimiento) para uso en Estados Unidos y Canadá",
+   "Es la plataforma base del portafolio: sobre ella corren APC, OTS y las aplicaciones de proceso",
+   "Documentación técnica completa disponible en el material (Data Sheet de sistema)",
+   "Integración con el resto de las líneas SUPCON: instrumentación, válvulas y OMC",
+   "Registro extenso de implementaciones: 6.700 unidades instaladas declaradas para la línea de control"
+  ],
+  "clientes_target": [
+   "Plantas de proceso continuo: refinación, petroquímica y química",
+   "Generación eléctrica",
+   "Metalurgia y cemento",
+   "Celulosa y papel",
+   "Cualquier planta que requiera reemplazar un DCS legado o montar uno nuevo"
+  ],
+  "competencia": "POR COMPLETAR — el material no incluye battlecard del ECS-700 específicamente. En el estudio de importaciones de Chile 2025 el segmento de tableros y control está dominado por Siemens (US$23,0M), seguido de Hitachi Energy (US$5,5M) y Hyosung (US$4,7M). INFERENCIA de mercado, no dato del material.",
+  "argumentos_venta": [
+   "Es la pieza central del portafolio: quien entra con el DCS define el resto de las líneas de la planta",
+   "Certificación UL sin vencimiento: apto para proyectos con especificación norteamericana",
+   "Sobre el ECS-700 se montan APC, OTS, PRIDE y el resto del software, así que venderlo abre el resto",
+   "El material tiene data sheets de sistema completos: permite responder una especificación técnica",
+   "POR COMPLETAR: pedir al fabricante el listado de proyectos de referencia y la carta de respaldo para Chile antes de una oferta grande"
+  ],
+  "objeciones": [
+   [
+    "Ya tenemos DCS de otra marca y cambiarlo es enorme",
+    "Es la objeción central del segmento, y es real: cambiar un DCS es un proyecto mayor. La entrada honesta es por área nueva, ampliación, o reemplazo de un sistema fuera de soporte."
+   ],
+   [
+    "¿Tiene respaldo local en Chile?",
+    "POR COMPLETAR: el material no documenta estructura de servicio en Chile. Es el punto crítico a resolver con el fabricante antes de ofrecer un DCS."
+   ],
+   [
+    "¿Puedo ver proyectos de referencia?",
+    "El material menciona 6.700 unidades instaladas de la línea de control y hay proyectos chilenos en el árbol (Ramadero Tomic Fase II, ME Elecnor, entre otros). POR COMPLETAR: confirmar cuáles se pueden nombrar como referencia."
+   ],
+   [
+    "Es marca china, ¿qué pasa con la ciberseguridad?",
+    "El fabricante tiene una línea propia de ciberseguridad OT (plataforma ICS, firewall, diodo de datos, Defender Pro y USB Guard) que se puede ofrecer junto con el DCS. Ver esas fichas."
+   ]
+  ],
+  "preguntas_tecnicas": [
+   "¿Cuántos puntos de IO controla la planta?",
+   "¿El proyecto es nuevo, ampliación o reemplazo de un sistema existente?",
+   "¿Qué DCS tiene hoy y desde cuándo?",
+   "¿Está fuera de soporte del fabricante original?",
+   "¿Requiere redundancia? ¿De qué nivel?",
+   "¿La planta tiene áreas clasificadas?",
+   "¿Qué requisitos de ciberseguridad OT exige?",
+   "¿Necesita integración con el sistema eléctrico o con el historiador corporativo?",
+   "¿Requiere certificación UL o solo IEC?",
+   "¿Qué plazo tiene el proyecto y quién es el EPC?"
+  ],
+  "fuente": "DCS-OMC[ECS-700] certificado UL (EN) + Data Sheet (demo)/DCS/English/02System Software + General Technical Information/Tech Spec - PCS with Major Equipment"
+ },
+ "SmartEIO y APL (Ethernet al campo)": {
+  "familia": "DCS",
+  "descripcion": "Arquitectura de instrumentación digital de SUPCON. El SmartEIO es el gabinete de IO remoto de 96 puntos, con certificación IECEx de protección contra explosión para uso global. APL (Advanced Physical Layer) lleva Ethernet hasta el instrumento de campo. La solución incluye el adaptador HART a APL para instrumentación convencional existente.",
+  "beneficios": [
+   "SmartEIO: gabinete de 96 puntos de IO por unidad, con certificación IECEx (sin vencimiento, global)",
+   "APL: Ethernet hasta el campo, con fibra redundante entre el gabinete y el centro de datos de control",
+   "Adaptador HART a APL: permite migrar instrumentación convencional existente sin cambiarla toda",
+   "96 puntos por junction box APL, con fibra óptica redundante",
+   "Reduce el cableado de campo: un solo cable Ethernet por segmento en vez de un par por instrumento",
+   "Integra la instrumentación APL de la misma marca (CXT APL, CVP2000 APL)",
+   "Es la base física del UCS Nyx: sin APL, Nyx pierde su ventaja de arquitectura"
+  ],
+  "clientes_target": [
+   "Plantas nuevas que diseñan desde cero con instrumentación digital",
+   "Proyectos que quieren reducir el costo de instalación eléctrica de campo",
+   "Ampliaciones donde el cableado tradicional es costoso o imposible",
+   "Instalaciones con áreas clasificadas que requieren IECEx",
+   "Clientes que adoptan UCS Nyx o supOS, que necesitan la capa de campo digital"
+  ],
+  "competencia": "POR COMPLETAR — sin battlecard en el material. El concepto de Ethernet al campo (APL) lo empujan también Endress+Hauser, Pepperl+Fuchs, Phoenix Contact y Emerson, todos con productos APL. INFERENCIA de mercado.",
+  "argumentos_venta": [
+   "Es la única pieza del portafolio que reduce el costo de cableado de campo: menos cobre, menos canalizaciones y menos horas de montaje",
+   "El adaptador HART a APL permite entrar en plantas con instrumentación vieja, que es la mayoría del mercado chileno: no obliga a cambiar los instrumentos",
+   "Certificación IECEx sin vencimiento: apto para zona peligrosa sin trámite adicional",
+   "96 puntos por gabinete es densidad alta: menos gabinetes y menos espacio de sala eléctrica",
+   "Habilita UCS Nyx: sin la capa APL, la arquitectura de control definido por software no rinde"
+  ],
+  "objeciones": [
+   [
+    "¿Puedo usar APL con los instrumentos que ya tengo?",
+    "Sí, con el adaptador HART a APL. Es exactamente el propósito de ese componente: convertir instrumentación convencional a la red APL sin reemplazarla."
+   ],
+   [
+    "Es tecnología nueva, ¿hay riesgo?",
+    "Es una objeción válida. La vía honesta es aplicarla en un área o unidad nueva, no en el corazón de la instalación, y dejar el cableado tradicional para el resto."
+   ],
+   [
+    "¿Quién me da soporte de APL en Chile?",
+    "POR COMPLETAR: el material no documenta soporte local para la línea APL. Resolver con el fabricante antes de ofrecer."
+   ],
+   [
+    "Mi instrumentación es toda 4-20 mA",
+    "El adaptador existe justamente para eso. De todos modos, hay que evaluar cuántos lazos conviene convertir: no todos tienen el mismo retorno."
+   ]
+  ],
+  "preguntas_tecnicas": [
+   "¿Cuántos puntos de IO requiere el proyecto?",
+   "¿La instrumentación es digital (HART, Foundation Fieldbus) o analógica 4-20 mA?",
+   "¿Cuántos gabinetes de campo requiere la distribución de la planta?",
+   "¿Las distancias de campo justifican fibra o alcanza el cobre?",
+   "¿La instalación tiene áreas clasificadas?",
+   "¿El proyecto usa o usará UCS Nyx?",
+   "¿Requiere redundancia en la red de campo?",
+   "¿Qué ahorro de cableado se proyecta frente a la instalación tradicional?"
+  ],
+  "fuente": "OMC-SmartEIO certificado IECEx (EN) + SmartEIO Hardware User Manual + SUPCON APL Solution.pdf + UCS & APL-Nov 26 Updated"
+ },
+ "GW Series (gateway de datos)": {
+  "familia": "DCS",
+  "descripcion": "Gateway inteligente de la serie GW de SUPCON, para adquisición y conversión de datos de campo. Incluye manual de usuario bilingüe y el manual específico del modelo GW002.",
+  "beneficios": [
+   "Manual de usuario bilingüe y manual específico por modelo: documentación completa disponible",
+   "Serie con más de un modelo, para distintos alcances de adquisición",
+   "Es la pieza que conecta equipos de campo con los sistemas de nivel superior",
+   "POR COMPLETAR: el data sheet disponible es breve; pedir la guía de selección completa para dimensionar por protocolo y cantidad de puntos"
+  ],
+  "clientes_target": [
+   "Plantas que necesitan subir datos de equipos aislados al sistema de control o al historiador",
+   "Integración de equipos de terceros en una instalación SUPCON",
+   "Proyectos de digitalización que requieren capturar datos de equipos sin red",
+   "Instalaciones que ya usan protocolos propietarios y necesitan convertirlos"
+  ],
+  "competencia": "POR COMPLETAR — sin battlecard. El segmento de gateways y conversores de protocolo tiene oferta amplia (Moxa, Advantech, HMS, Digi, Phoenix Contact). INFERENCIA de mercado.",
+  "argumentos_venta": [
+   "Es la pieza de entrada económica para conectar lo que hoy está aislado: no requiere cambiar el sistema de control",
+   "Permite que CONECTA entre a una planta por integración de datos, sin vender un DCS completo",
+   "El fabricante tiene el modelo y su manual: se puede responder una especificación concreta",
+   "POR COMPLETAR: definir el diferencial frente a los gateways genéricos de Moxa o Advantech, que cuestan menos y ya tienen presencia en Chile"
+  ],
+  "objeciones": [
+   [
+    "Puedo usar un gateway genérico más barato",
+    "Es cierto para integración simple de protocolos. El diferencial de un gateway del mismo fabricante es la integración directa con el resto del sistema SUPCON. En una planta que no usa SUPCON, el argumento se debilita."
+   ],
+   [
+    "¿Cuantos protocolos soporta?",
+    "POR COMPLETAR: el material del data sheet es breve. Pedir la especificación completa de protocolos antes de cotizar."
+   ],
+   [
+    "POR COMPLETAR",
+    ""
+   ]
+  ],
+  "preguntas_tecnicas": [
+   "¿Qué equipo o protocolo hay que conectar al sistema?",
+   "¿Cuántos puntos de datos hay que adquirir?",
+   "¿A qué sistema deben llegar los datos: DCS, historiador o plataforma?",
+   "¿El equipo de origen es SUPCON o de terceros?",
+   "¿Cuál es la distancia y el medio de comunicación disponible?",
+   "¿Requiere almacenamiento local si se corta la red?",
+   "¿Requiere certificación de zona peligrosa?",
+   "POR COMPLETAR: protocolos y modelos disponibles de la serie GW"
+  ],
+  "fuente": "GW Series Smart Gateway product User Manual (Bilingual Edition) + GW002 manual.pdf + gateway datasheet.docx"
+ },
+ "G5Pro Safety (PLC de seguridad SIL3)": {
+  "familia": "PLC",
+  "descripcion": "Sistema PLC de seguridad certificado SIL3, desarrollado por SUPCON. Diseñado para control orientado a objetos, protección de parada de emergencia (ESD) y control integrado en industrias de proceso. Todos los componentes y redes soportan modo redundante.",
+  "beneficios": [
+   "Certificación SIL3 (Safety Integrity Level 3)",
+   "Diseño de doble núcleo 'control + red': asegura la seguridad de la información de red en tiempo real",
+   "Todos los componentes y redes soportan redundancia",
+   "Temperatura industrial amplia, resistencia a corrosión G3 y EMC nivel 3: apto para ambiente severo",
+   "Basado en protocolo UCP: permite construir topologías de anillo simple, anillo doble y estrella",
+   "Capacidad de control y configuración flexibles",
+   "Ofrece visualización de estado, control lógico, diagnóstico de fallas y adquisición de datos",
+   "Es la línea de seguridad de la misma familia del G5Pro, con lo que comparten herramientas"
+  ],
+  "clientes_target": [
+   "Transporte de petróleo y gas por ductos de larga distancia (la aplicación que el material declara primero)",
+   "Construcción naval",
+   "Manufactura automotriz",
+   "Transporte ferroviario",
+   "Equipamiento médico",
+   "Sistemas de parada de emergencia (ESD) en cualquier industria de proceso"
+  ],
+  "competencia": "POR COMPLETAR — el 1-Pager tiene sección 'Competitors and Sales Strategies' pero el extracto revisado no la detalla. En Chile el segmento de PLC de seguridad está dominado por Siemens, Rockwell y HIMA. INFERENCIA de mercado. Leer el 1-Pager completo antes de una oferta.",
+  "argumentos_venta": [
+   "SIL3 certificado: es el requisito de entrada para cualquier sistema de seguridad, no un diferencial por sí solo",
+   "El doble núcleo control + red es un argumento de ciberseguridad integrada a la función de seguridad, que pocos PLC de seguridad declaran",
+   "Topologías de anillo simple, doble y estrella dan flexibilidad de arquitectura para ductos largos",
+   "Resistencia a corrosión G3 y temperatura industrial: apto para salas eléctricas sin climatización extrema",
+   "Se integra con el G5Pro y el resto del portafolio SUPCON",
+   "El material incluye las aplicaciones objetivo de forma explícita, lo que facilita calificar"
+  ],
+  "objeciones": [
+   [
+    "Para seguridad usamos otra marca certificada",
+    "Es el incumbente. La evaluación debe ser por proyecto y con el requisito SIL3 sobre la mesa; sin battlecard del fabricante, la conversación es técnica y por arquitectura."
+   ],
+   [
+    "¿Tiene certificación reconocida en Chile?",
+    "El material declara SIL3, pero POR COMPLETAR: no especifica el organismo certificador en el extracto revisado. Para un sistema de seguridad esto hay que verificarlo con el certificado a la vista antes de ofrecer."
+   ],
+   [
+    "Necesito integración con mi sistema de control actual",
+    "El material declara adquisición de datos y diagnóstico. POR COMPLETAR: protocolos de integración disponibles."
+   ],
+   [
+    "¿Quién da soporte para un sistema de seguridad en Chile?",
+    "POR COMPLETAR: sin estructura de servicio local documentada. Es crítico en seguridad: no se puede ofrecer un SIL3 sin plan de mantenimiento y prueba."
+   ]
+  ],
+  "preguntas_tecnicas": [
+   "¿Cuál es el nivel SIL requerido por el estudio de riesgo (HAZOP/LOPA)?",
+   "¿Qué función de seguridad debe proteger el sistema?",
+   "¿Cuántas señales de entrada y salida maneja?",
+   "¿Requiere redundancia? ¿Con qué arquitectura?",
+   "¿Cuál es el tiempo de respuesta exigido para la parada de emergencia?",
+   "¿Se integra con el DCS existente? ¿Con qué protocolo?",
+   "¿Requiere certificación de zona peligrosa?",
+   "¿Quién hará la prueba periódica del sistema de seguridad?",
+   "¿El proyecto exige un organismo de certificación específico?",
+   "¿Existe un requisito de separación entre el sistema de control y el de seguridad?"
+  ],
+  "fuente": "G5Pro Safety One-Page Introduction-Sales 20240530.pptx"
+ },
+ "HIPPS (protección de alta presión)": {
+  "familia": "SIS",
+  "descripcion": "Sistema de protección de alta integridad de presión (High Integrity Pressure Protection System). Es una función de seguridad instrumentada que corta el flujo ante sobrepresión, permitiendo evitar el sobredimensionamiento de la tubería o del equipo aguas abajo. El material incluye lista de IO preliminar y propuesta técnica de paquete.",
+  "beneficios": [
+   "Permite reducir el rating de presión del equipo aguas abajo, que suele ser el ahorro principal del proyecto",
+   "El material del fabricante incluye lista de IO preliminar y propuesta técnica de paquete: se puede cotizar sobre documentación real",
+   "Es una función de seguridad SIL, alineada con la línea SIS del portafolio",
+   "Aplica en procesos donde el alivio por válvula de seguridad es inviable o insuficiente"
+  ],
+  "clientes_target": [
+   "Refinación y petroquímica: protección de equipos de alta presión",
+   "Procesos con sobrepresión posible por falla de regulación",
+   "Instalaciones donde no se puede aliviar a antorcha o atmósfera",
+   "Proyectos donde reducir el rating de la tubería aguas abajo genera ahorro relevante",
+   "Plantas de gas natural y GNL"
+  ],
+  "competencia": "POR COMPLETAR — sin battlecard. El segmento de HIPPS lo cubren los grandes de seguridad instrumentada (HIMA, Yokogawa, Emerson, Siemens) y suele venderse como paquete por el EPC. INFERENCIA de mercado.",
+  "argumentos_venta": [
+   "El argumento económico es fuerte: un HIPPS bien justificado permite construir la tubería aguas abajo con menor rating, y ahí está el ahorro",
+   "El material ya trae lista de IO y propuesta técnica: el fabricante trabajó el caso",
+   "Es una función de seguridad, no un producto de catálogo: se vende como ingeniería, que es donde CONECTA tiene margen",
+   "Por su naturaleza, entra en la etapa temprana del proyecto (definición de bases), donde la decisión de diseño todavía se puede influir"
+  ],
+  "objeciones": [
+   [
+    "Una válvula de seguridad es más barata",
+    "Depende del caso: si el alivio es inviable o si el ahorro de rating aguas abajo supera el costo del HIPPS, el HIPPS gana. Es un análisis de factibilidad por proyecto, no una comparación de equipos."
+   ],
+   [
+    "Es un riesgo regulatorio: si falla, no hay protección",
+    "Es la naturaleza de la función: se justifica con el estudio SIL y se mantiene con pruebas periódicas. Hay que dimensionar ese plan desde el inicio."
+   ],
+   [
+    "¿Quién hace el estudio SIL?",
+    "POR COMPLETAR: el material describe el paquete, no el alcance de ingeniería. Definir si CONECTA lo hace con ingeniería propia o de terceros."
+   ],
+   [
+    "POR COMPLETAR",
+    ""
+   ]
+  ],
+  "preguntas_tecnicas": [
+   "¿Cuál es la presión de diseño del equipo a proteger?",
+   "¿Cuál es el escenario de sobrepresión y su frecuencia?",
+   "¿Por qué no se puede usar una válvula de seguridad convencional?",
+   "¿Qué nivel SIL requiere el estudio de riesgo?",
+   "¿Cuántos lazos de presión participan?",
+   "¿Cuál es el tiempo de respuesta requerido?",
+   "¿El equipo aguas abajo se puede construir con menor rating?",
+   "¿Quién hace el estudio de integridad de seguridad?",
+   "¿Cuál es el plan de prueba periódica?",
+   "¿El proyecto está en etapa de definición o de ejecución?"
+  ],
+  "fuente": "HIPPS IO List (Preliminary for HIPPS Package) + Technical Proposal for HIPPS + MIV business/03. HIPPS"
+ },
+ "MPS5000 (protección de maquinaria)": {
+  "familia": "Software",
+  "descripcion": "Sistema de protección de maquinaria MPS5000 V2.0. Mide parámetros mecánicos críticos — keyphasor, velocidad, vibración radial, posición axial, expansión diferencial, vibración de carcasa y excentricidad — en equipos como compresores. Envía los resultados al sistema de control y al sistema de parada de emergencia, y ejecuta alarma y protección cuando los parámetros exceden el límite.",
+  "beneficios": [
+   "Conforme a la norma de diseño API 670, que es el estándar del segmento de protección de maquinaria",
+   "Monitoreo en línea ininterrumpido, con protección por vibración y diagnóstico de fallas",
+   "Tres funciones en un sistema: monitoreo de condición y visualización, enclavamiento de parada de emergencia, y diagnóstico y análisis de fallas",
+   "Redundancia con alta seguridad, alta confiabilidad y alta precisión",
+   "Compatible con sensores de proximidad, velocidad, aceleración y magnetorresistivos",
+   "Aplica a compresores, turbinas de vapor y bombas: los activos rotativos críticos"
+  ],
+  "clientes_target": [
+   "Petroquímica: compresores y turbinas de proceso",
+   "Generación eléctrica: turbinas de vapor y gas",
+   "Metalurgia: ventiladores y sopladores de gran tamaño",
+   "Cualquier planta con activos rotativos críticos donde una falla detiene la producción",
+   "Operaciones donde la falla de un equipo rotativo tiene riesgo de seguridad, no solo de producción"
+  ],
+  "competencia": "POR COMPLETAR — el 1-Pager no incluye sección de competidores en el extracto. En el segmento de protección de maquinaria el estándar de facto es Bently Nevada (Baker Hughes), seguido de Emerson (CSI/AMS) y SKF. Es INFERENCIA de mercado: el material del MP3000 y PRIDE sí menciona a Bently como competidor de las líneas de monitoreo del mismo fabricante.",
+  "argumentos_venta": [
+   "Conformidad declarada con API 670: es el requisito de especificación que exige el segmento, y sin él no se puede competir",
+   "Cubre las tres funciones que normalmente se compran por separado: monitoreo, protección y diagnóstico",
+   "Compatible con los cuatro tipos de sensor (proximidad, velocidad, aceleración, magnetorresistivo), así que no obliga a cambiar los sensores existentes",
+   "Se integra con el sistema de control y con el sistema de parada de emergencia del mismo fabricante",
+   "La planta que ya tiene TCS-900 o el DCS de SUPCON puede sumar el MPS5000 sin integración compleja"
+  ],
+  "objeciones": [
+   [
+    "Bently Nevada es el estándar y ya lo tenemos",
+    "Es el incumbente real del segmento. La entrada honesta es por equipo nuevo o por reemplazo de un sistema fuera de soporte, no por desplazamiento directo."
+   ],
+   [
+    "¿Compatible con los sensores que ya tengo instalados?",
+    "El material declara compatibilidad con los cuatro tipos de sensor del segmento. Es un dato a verificar contra los sensores instalados en el caso concreto."
+   ],
+   [
+    "¿Quién hace la puesta en marcha y la interpretación de datos?",
+    "POR COMPLETAR: la protección de maquinaria exige especialistas en análisis de vibraciones. El material no documenta si hay servicio asociado. Es un punto crítico: sin quién interprete, el sistema no se aprovecha."
+   ],
+   [
+    "¿Diferencia real con el MP3000 del mismo fabricante?",
+    "Punto a aclarar con el fabricante: MP3000 y MPS5000 son dos líneas del mismo proveedor orientadas a equipos rotativos. POR COMPLETAR: el material no explicita la frontera entre ambas. No ofrecer una u otra sin confirmar."
+   ]
+  ],
+  "preguntas_tecnicas": [
+   "¿Qué equipo rotativo se va a proteger y de qué potencia?",
+   "¿Cuántos puntos de medición requiere por máquina?",
+   "¿Qué parámetros: vibración radial, axial, velocidad, keyphasor, excentricidad?",
+   "¿Qué tipo de sensores están instalados: proximidad, velocidad o aceleración?",
+   "¿Requiere función de protección con enclavamiento o solo monitoreo?",
+   "¿Qué norma de diseño exige la especificación del cliente (API 670 u otra)?",
+   "¿Requiere redundancia en el sistema de protección?",
+   "¿La planta exige integración con el sistema de parada de emergencia?",
+   "¿Quién interpretará los datos de vibración y hará el diagnóstico?",
+   "¿El sistema reemplaza uno existente o es nuevo?"
+  ],
+  "fuente": "MPS5000 One Page Introduction-Sales 20241008.pptx"
+ },
+ "Q-Lab (control estadístico de procesos)": {
+  "familia": "Software",
+  "descripcion": "Solución de control estadístico de procesos (SPC) de SUPCON. Aplica técnicas estadísticas para evaluar y monitorear las etapas del proceso, manteniéndolo en un nivel aceptable y estable para asegurar que los productos cumplan los requisitos. Incluye terminología, control de proceso y manejo de excepciones.",
+  "beneficios": [
+   "Monitorea la estabilidad del proceso y advierte antes de que se produzca el defecto: es gestión preventiva, no inspección final",
+   "Distingue la variación normal del proceso de la variación anormal, que son dos causas distintas y exigen acciones distintas",
+   "Se apoya en que la calidad tiene variabilidad y regularidad: con el proceso bajo control estadístico, los datos siguen un patrón predecible",
+   "Incluye manejo de excepciones: define qué se hace cuando el proceso sale de control",
+   "Complementa al LIMS: el LIMS gestiona el laboratorio, Q-Lab controla la calidad del proceso"
+  ],
+  "clientes_target": [
+   "Manufactura que requiere control de calidad estadístico para certificar su producto",
+   "Plantas que necesitan reducir variabilidad para bajar costo de no calidad",
+   "Procesos con requisitos de cliente o de norma sobre control estadístico",
+   "Operaciones que hoy hacen control por inspección y quieren pasar a prevención",
+   "Plantas con laboratorio de proceso que ya usan LIMS"
+  ],
+  "competencia": "POR COMPLETAR — el material no incluye sección de competidores. El segmento de SPC tiene oferta de software especializado (InfinityQS, Minitab, PQ Systems) y de los módulos de calidad de los grandes ERP/MES (SAP QM, Siemens Opcenter). INFERENCIA de mercado.",
+  "argumentos_venta": [
+   "El cambio de enfoque es el argumento: pasar de detectar el defecto al final a prevenir la variación, y eso se traduce en costo de no calidad",
+   "Viene del mismo fabricante que el LIMS y el MES, así que la integración con el resto de la línea de calidad es directa",
+   "El material explica el concepto con claridad, lo que permite usarlo para enseñar al cliente: útil con plantas que no conocen SPC",
+   "El manejo de excepciones está incluido: no queda en el gráfico de control, define qué hacer"
+  ],
+  "objeciones": [
+   [
+    "Ya medimos la calidad de nuestro producto",
+    "Medir el producto es inspección; controlar el proceso es prevención. Son costos distintos: la inspección descubre el defecto, el SPC evita producirlo."
+   ],
+   [
+    "Tenemos el módulo de calidad del ERP",
+    "Depende del alcance: los módulos de calidad de ERP suelen gestionar documentación y no el control estadístico en línea del proceso."
+   ],
+   [
+    "¿Requiere que todos los operadores sepan estadística?",
+    "Es la barrera de adopción real de un SPC. El material no documenta un plan de capacitación. POR COMPLETAR: definir cómo se implementa."
+   ],
+   [
+    "POR COMPLETAR",
+    ""
+   ]
+  ],
+  "preguntas_tecnicas": [
+   "¿Qué variable de calidad quiere controlar?",
+   "¿Hoy mide el producto al final o monitorea el proceso?",
+   "¿Tiene datos históricos del proceso y con qué frecuencia se toman?",
+   "¿Qué tipo de gráfico de control requiere (variables o atributos)?",
+   "¿Requiere integración con los equipos de medición en línea?",
+   "¿Cuántas variables o líneas quiere monitorear?",
+   "¿Quién analizará los datos: calidad, producción o ambos?",
+   "¿Necesita certificar el control estadístico ante un cliente o norma?",
+   "¿Usa LIMS u otro sistema de laboratorio con el que integrarse?",
+   "¿Cómo piensa capacitar a los operadores en la lectura de los gráficos?"
+  ],
+  "fuente": "Q-Lab Statistical Process Control (SPC) Solution Introduction Slides 20240620 + Q-Lab Basic Version (Quality Data Monitoring)"
+ },
+ "SolisSCADA (SCADA de proceso)": {
+  "familia": "Software",
+  "descripcion": "Software SCADA distribuido a gran escala para monitoreo, configuración y control de datos industriales. Se ofrece con un modelo de licenciamiento gratuito hasta 50.000 tags por servidor, con activación de una licencia por servidor y activaciones ilimitadas por usuario.",
+  "beneficios": [
+   "Gratuito hasta 50.000 tags por servidor o PC, sin costo oculto ni límite de ejecución declarado",
+   "Una activación de licencia por servidor, con activaciones ilimitadas por usuario",
+   "Soporta más de 100 protocolos industriales: OPC DA/UA, Modbus, MQTT, IEC 60870, IEC 61850, DNP, Siemens S7, Allen-Bradley, Omron, Mitsubishi, BACnet/IP, SNMP, HTTP, entre otros",
+   "Arquitectura cliente-servidor, con redundancia de red, servidor y recolector",
+   "Soporta modelos 3D y escenas (GLB, glTF, FBX, OBJ, STL, DAE) con enlace de datos en tiempo real y capacidad de gemelo digital",
+   "Publicación web y acceso desde móvil (SolisSCADA Web con gráficos, alarmas, tendencias y reportes)",
+   "Base de datos en tiempo real con cliente-servidor",
+   "Aplicable a industria municipal, oil and gas, agua, marina, minería y metalurgia, manufactura, eléctrica y alimentos y farmacéutica",
+   "El material incluye un análisis de competencia por función, algo poco común en este portafolio"
+  ],
+  "clientes_target": [
+   "Plantas que necesitan SCADA y no quieren pagar licencia por tag",
+   "Proyectos con presupuesto de software limitado pero requisito de funcionalidad completo",
+   "Integración de equipos multi-marca: los 100+ protocolos resuelven plantas heterogéneas",
+   "Operaciones que requieren visualización 3D y gemelo digital a bajo costo",
+   "Minería, agua, eléctrica y manufactura con necesidad de monitoreo distribuido",
+   "Proyectos de CONECTA donde el cliente no puede pagar una licencia de SCADA tradicional"
+  ],
+  "competencia": "HAY ANÁLISIS DE COMPETENCIA EN EL MATERIAL: el archivo 'SCADA Competitor Analysis (Function focused).pdf' compara por función. CONTEXTO DE MERCADO (inferencia): el segmento lo dominan AVEVA (InTouch, System Platform), Siemens (WinCC), Rockwell (FactoryTalk) e Ignition (Inductive Automation). El argumento de SolisSCADA es el licenciamiento gratuito hasta 50.000 tags, que es donde los incumbentes cobran por tag.",
+  "argumentos_venta": [
+   "50.000 tags gratis por servidor es el diferencial concreto: en los SCADA tradicionales la licencia se cobra por tag, así que el ahorro crece con el tamaño de la planta",
+   "Más de 100 protocolos: resuelve plantas con equipos de cinco marcas distintas sin conversores extra",
+   "Visualización 3D y gemelo digital incluidos, no como módulo aparte",
+   "El material trae un análisis de competencia por función: es uno de los pocos productos con battlecard real en este portafolio",
+   "Publicación web y móvil incluidas: sirve para clientes que necesitan ver la planta a distancia",
+   "Es la puerta de entrada de bajo riesgo: el cliente puede probarlo sin comprometer licencia",
+   "Lleva drivers nativos para SUPCON y para PLC de mercado: no obliga a cambiar el hardware"
+  ],
+  "objeciones": [
+   [
+    "Un SCADA gratis no puede ser serio",
+    "El licenciamiento es gratuito hasta 50.000 tags por servidor, no el soporte. La pregunta honesta es cuál es el modelo comercial del soporte y las actualizaciones: POR COMPLETAR, el material no lo explicita."
+   ],
+   [
+    "Necesitamos respaldo y continuidad de un proveedor grande",
+    "Es la objeción central de todo software gratuito. Se responde mostrando la base instalada y el modelo de soporte. POR COMPLETAR: pedir al fabricante la referencia y la política de actualización."
+   ],
+   [
+    "Ya usamos Ignition o WinCC",
+    "El material tiene el análisis de competencia por función: usarlo para comparar en el caso concreto, no en general."
+   ],
+   [
+    "¿50.000 tags alcanza para mi planta?",
+    "Para una planta mediana, sí con holgura. Para una planta grande con múltiples sitios, hay que revisar el modelo de licenciamiento por servidor: la arquitectura distribuida permite repartir los tags entre servidores."
+   ],
+   [
+    "¿Cumple con los requisitos de ciberseguridad?",
+    "SolisSCADA corre sobre la red industrial y su seguridad depende de la arquitectura. El fabricante tiene línea propia de ciberseguridad OT que se puede sumar. Ver esa ficha."
+   ]
+  ],
+  "preguntas_tecnicas": [
+   "¿Cuántos tags necesita monitorear la instalación?",
+   "¿Qué protocolos usan los equipos existentes?",
+   "¿Cuántos sitios o plantas hay que integrar?",
+   "¿Requiere redundancia? ¿De servidor, de red o de recolector?",
+   "¿Necesita visualización 3D o gemelo digital?",
+   "¿Requiere acceso web y móvil?",
+   "¿Cuántos usuarios concurrentes tendrá?",
+   "¿Qué SCADA usa hoy y qué licenciamiento paga?",
+   "¿Cuál sería el ahorro de licencia frente a su costo actual?",
+   "¿Quién da soporte, actualización y respaldo del software?"
+  ],
+  "fuente": "External_SOLISCADA Deck_Updated on JUL2025.pdf (49 pp) + SCADA Competitor Analysis (Function focus) + SOLISCADA Supported Communication Drivers + Pricing_SOLISCADA"
+ }
+}

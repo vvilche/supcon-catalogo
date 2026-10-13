@@ -1,0 +1,568 @@
+{
+ "resumen": {
+  "Instrumentación": {
+   "total": 11,
+   "fichado": 10,
+   "sin_ficha": 1,
+   "sin_material": 0
+  },
+  "Analítica": {
+   "total": 9,
+   "fichado": 6,
+   "sin_ficha": 1,
+   "sin_material": 2
+  },
+  "Válvulas": {
+   "total": 3,
+   "fichado": 1,
+   "sin_ficha": 2,
+   "sin_material": 0
+  },
+  "DCS": {
+   "total": 9,
+   "fichado": 5,
+   "sin_ficha": 4,
+   "sin_material": 0
+  },
+  "PLC": {
+   "total": 3,
+   "fichado": 2,
+   "sin_ficha": 1,
+   "sin_material": 0
+  },
+  "SIS": {
+   "total": 3,
+   "fichado": 2,
+   "sin_ficha": 1,
+   "sin_material": 0
+  },
+  "Software": {
+   "total": 26,
+   "fichado": 16,
+   "sin_ficha": 10,
+   "sin_material": 0
+  },
+  "Eléctrico": {
+   "total": 9,
+   "fichado": 0,
+   "sin_ficha": 8,
+   "sin_material": 1
+  }
+ },
+ "detalle": [
+  {
+   "producto": "CXT (transmisor de presión)",
+   "area": "Instrumentación",
+   "material": true,
+   "fichado": true,
+   "estado": "FICHADO"
+  },
+  {
+   "producto": "CJT (transmisor de presión)",
+   "area": "Instrumentación",
+   "material": true,
+   "fichado": false,
+   "estado": "SIN FICHA"
+  },
+  {
+   "producto": "W Series (temperatura)",
+   "area": "Instrumentación",
+   "material": true,
+   "fichado": true,
+   "estado": "FICHADO"
+  },
+  {
+   "producto": "SFE910 (caudal electromagnético)",
+   "area": "Instrumentación",
+   "material": true,
+   "fichado": true,
+   "estado": "FICHADO"
+  },
+  {
+   "producto": "SFM800 (caudal másico)",
+   "area": "Instrumentación",
+   "material": true,
+   "fichado": true,
+   "estado": "FICHADO"
+  },
+  {
+   "producto": "LUGB (caudal vortex)",
+   "area": "Instrumentación",
+   "material": true,
+   "fichado": true,
+   "estado": "FICHADO"
+  },
+  {
+   "producto": "YHLW (caudal por turbina)",
+   "area": "Instrumentación",
+   "material": true,
+   "fichado": true,
+   "estado": "FICHADO"
+  },
+  {
+   "producto": "SF20 (rotámetro)",
+   "area": "Instrumentación",
+   "material": true,
+   "fichado": true,
+   "estado": "FICHADO"
+  },
+  {
+   "producto": "SL903 (radar 80 GHz)",
+   "area": "Instrumentación",
+   "material": true,
+   "fichado": true,
+   "estado": "FICHADO"
+  },
+  {
+   "producto": "SL10/20/30/80 (nivel)",
+   "area": "Instrumentación",
+   "material": true,
+   "fichado": true,
+   "estado": "FICHADO"
+  },
+  {
+   "producto": "X600 (calibrador)",
+   "area": "Instrumentación",
+   "material": true,
+   "fichado": true,
+   "estado": "FICHADO"
+  },
+  {
+   "producto": "C-QUAND",
+   "area": "Analítica",
+   "material": true,
+   "fichado": true,
+   "estado": "FICHADO"
+  },
+  {
+   "producto": "TISOMIC",
+   "area": "Analítica",
+   "material": true,
+   "fichado": true,
+   "estado": "FICHADO"
+  },
+  {
+   "producto": "WIM COMPAS",
+   "area": "Analítica",
+   "material": true,
+   "fichado": true,
+   "estado": "FICHADO"
+  },
+  {
+   "producto": "PRISM (Raman)",
+   "area": "Analítica",
+   "material": true,
+   "fichado": true,
+   "estado": "FICHADO"
+  },
+  {
+   "producto": "CEMS 5000",
+   "area": "Analítica",
+   "material": true,
+   "fichado": true,
+   "estado": "FICHADO"
+  },
+  {
+   "producto": "Flare CEMS",
+   "area": "Analítica",
+   "material": true,
+   "fichado": true,
+   "estado": "FICHADO"
+  },
+  {
+   "producto": "HICOSYS / BICOSYS",
+   "area": "Analítica",
+   "material": true,
+   "fichado": false,
+   "estado": "SIN FICHA"
+  },
+  {
+   "producto": "HIFISC (acondicionamiento)",
+   "area": "Analítica",
+   "material": false,
+   "fichado": false,
+   "estado": "SIN MATERIAL"
+  },
+  {
+   "producto": "NICOSYS-3",
+   "area": "Analítica",
+   "material": false,
+   "fichado": false,
+   "estado": "SIN MATERIAL"
+  },
+  {
+   "producto": "Válvulas SUPCON FLUID (13 series)",
+   "area": "Válvulas",
+   "material": true,
+   "fichado": false,
+   "estado": "SIN FICHA"
+  },
+  {
+   "producto": "CVP2000 (posicionador)",
+   "area": "Válvulas",
+   "material": true,
+   "fichado": true,
+   "estado": "FICHADO"
+  },
+  {
+   "producto": "Barrera IS (seguridad intrínseca)",
+   "area": "Válvulas",
+   "material": true,
+   "fichado": false,
+   "estado": "SIN FICHA"
+  },
+  {
+   "producto": "ECS-700 (DCS)",
+   "area": "DCS",
+   "material": true,
+   "fichado": false,
+   "estado": "SIN FICHA"
+  },
+  {
+   "producto": "OMC (control inteligente)",
+   "area": "DCS",
+   "material": true,
+   "fichado": true,
+   "estado": "FICHADO"
+  },
+  {
+   "producto": "UCS Nyx",
+   "area": "DCS",
+   "material": true,
+   "fichado": true,
+   "estado": "FICHADO"
+  },
+  {
+   "producto": "ESP-iSYS (historiador)",
+   "area": "DCS",
+   "material": true,
+   "fichado": true,
+   "estado": "FICHADO"
+  },
+  {
+   "producto": "SmartEIO (IO remoto)",
+   "area": "DCS",
+   "material": true,
+   "fichado": false,
+   "estado": "SIN FICHA"
+  },
+  {
+   "producto": "APL (Ethernet al campo)",
+   "area": "DCS",
+   "material": true,
+   "fichado": false,
+   "estado": "SIN FICHA"
+  },
+  {
+   "producto": "GW Series (gateway)",
+   "area": "DCS",
+   "material": true,
+   "fichado": false,
+   "estado": "SIN FICHA"
+  },
+  {
+   "producto": "CCS T9100 (compresores)",
+   "area": "DCS",
+   "material": true,
+   "fichado": true,
+   "estado": "FICHADO"
+  },
+  {
+   "producto": "CCS T5100 (compresores)",
+   "area": "DCS",
+   "material": true,
+   "fichado": true,
+   "estado": "FICHADO"
+  },
+  {
+   "producto": "G5Pro (PLC)",
+   "area": "PLC",
+   "material": true,
+   "fichado": true,
+   "estado": "FICHADO"
+  },
+  {
+   "producto": "G3Smart (PLC)",
+   "area": "PLC",
+   "material": true,
+   "fichado": true,
+   "estado": "FICHADO"
+  },
+  {
+   "producto": "G5Pro Safety",
+   "area": "PLC",
+   "material": true,
+   "fichado": false,
+   "estado": "SIN FICHA"
+  },
+  {
+   "producto": "TCS-900 (SIS)",
+   "area": "SIS",
+   "material": true,
+   "fichado": true,
+   "estado": "FICHADO"
+  },
+  {
+   "producto": "TCS-500 (SIS)",
+   "area": "SIS",
+   "material": true,
+   "fichado": true,
+   "estado": "FICHADO"
+  },
+  {
+   "producto": "HIPPS",
+   "area": "SIS",
+   "material": true,
+   "fichado": false,
+   "estado": "SIN FICHA"
+  },
+  {
+   "producto": "InPlant APC",
+   "area": "Software",
+   "material": true,
+   "fichado": true,
+   "estado": "FICHADO"
+  },
+  {
+   "producto": "InPlant RTO",
+   "area": "Software",
+   "material": true,
+   "fichado": true,
+   "estado": "FICHADO"
+  },
+  {
+   "producto": "APEX",
+   "area": "Software",
+   "material": true,
+   "fichado": true,
+   "estado": "FICHADO"
+  },
+  {
+   "producto": "InPlant OMS",
+   "area": "Software",
+   "material": true,
+   "fichado": true,
+   "estado": "FICHADO"
+  },
+  {
+   "producto": "InPlant OTS",
+   "area": "Software",
+   "material": true,
+   "fichado": true,
+   "estado": "FICHADO"
+  },
+  {
+   "producto": "InPlant PID",
+   "area": "Software",
+   "material": true,
+   "fichado": true,
+   "estado": "FICHADO"
+  },
+  {
+   "producto": "InPlant Blend",
+   "area": "Software",
+   "material": true,
+   "fichado": true,
+   "estado": "FICHADO"
+  },
+  {
+   "producto": "InPlant SCO",
+   "area": "Software",
+   "material": true,
+   "fichado": true,
+   "estado": "FICHADO"
+  },
+  {
+   "producto": "InPlant TAS",
+   "area": "Software",
+   "material": true,
+   "fichado": true,
+   "estado": "FICHADO"
+  },
+  {
+   "producto": "InPlant EAM",
+   "area": "Software",
+   "material": true,
+   "fichado": true,
+   "estado": "FICHADO"
+  },
+  {
+   "producto": "InPlant LIMS",
+   "area": "Software",
+   "material": true,
+   "fichado": false,
+   "estado": "SIN FICHA"
+  },
+  {
+   "producto": "InPlant IFEM ProcessSuite",
+   "area": "Software",
+   "material": true,
+   "fichado": true,
+   "estado": "FICHADO"
+  },
+  {
+   "producto": "InPlant IFEM BatchSuite",
+   "area": "Software",
+   "material": true,
+   "fichado": false,
+   "estado": "SIN FICHA"
+  },
+  {
+   "producto": "InPlant PLS",
+   "area": "Software",
+   "material": true,
+   "fichado": true,
+   "estado": "FICHADO"
+  },
+  {
+   "producto": "InPlant MP3000",
+   "area": "Software",
+   "material": true,
+   "fichado": true,
+   "estado": "FICHADO"
+  },
+  {
+   "producto": "MPS5000",
+   "area": "Software",
+   "material": true,
+   "fichado": false,
+   "estado": "SIN FICHA"
+  },
+  {
+   "producto": "PRIDE",
+   "area": "Software",
+   "material": true,
+   "fichado": true,
+   "estado": "FICHADO"
+  },
+  {
+   "producto": "Q-Lab (SPC)",
+   "area": "Software",
+   "material": true,
+   "fichado": false,
+   "estado": "SIN FICHA"
+  },
+  {
+   "producto": "TPT (IA industrial)",
+   "area": "Software",
+   "material": true,
+   "fichado": true,
+   "estado": "FICHADO"
+  },
+  {
+   "producto": "supOS",
+   "area": "Software",
+   "material": true,
+   "fichado": true,
+   "estado": "FICHADO"
+  },
+  {
+   "producto": "SoliSCADA",
+   "area": "Software",
+   "material": true,
+   "fichado": false,
+   "estado": "SIN FICHA"
+  },
+  {
+   "producto": "Smart Site Solution",
+   "area": "Software",
+   "material": true,
+   "fichado": false,
+   "estado": "SIN FICHA"
+  },
+  {
+   "producto": "PLANTBOT (robot)",
+   "area": "Software",
+   "material": true,
+   "fichado": false,
+   "estado": "SIN FICHA"
+  },
+  {
+   "producto": "Defender Pro",
+   "area": "Software",
+   "material": true,
+   "fichado": false,
+   "estado": "SIN FICHA"
+  },
+  {
+   "producto": "NG USB Guard",
+   "area": "Software",
+   "material": true,
+   "fichado": false,
+   "estado": "SIN FICHA"
+  },
+  {
+   "producto": "Ciberseguridad OT (ICS)",
+   "area": "Software",
+   "material": true,
+   "fichado": false,
+   "estado": "SIN FICHA"
+  },
+  {
+   "producto": "Switchgear KYN28-12 (MT)",
+   "area": "Eléctrico",
+   "material": true,
+   "fichado": false,
+   "estado": "SIN FICHA"
+  },
+  {
+   "producto": "Switchgear MNS (BT)",
+   "area": "Eléctrico",
+   "material": true,
+   "fichado": false,
+   "estado": "SIN FICHA"
+  },
+  {
+   "producto": "Medición fiscal / Metering",
+   "area": "Eléctrico",
+   "material": true,
+   "fichado": false,
+   "estado": "SIN FICHA"
+  },
+  {
+   "producto": "CCTV / videovigilancia",
+   "area": "Eléctrico",
+   "material": true,
+   "fichado": false,
+   "estado": "SIN FICHA"
+  },
+  {
+   "producto": "TELECOM",
+   "area": "Eléctrico",
+   "material": true,
+   "fichado": false,
+   "estado": "SIN FICHA"
+  },
+  {
+   "producto": "Sistemas de incendio",
+   "area": "Eléctrico",
+   "material": false,
+   "fichado": false,
+   "estado": "SIN MATERIAL"
+  },
+  {
+   "producto": "Fermentation Industry solution",
+   "area": "Eléctrico",
+   "material": true,
+   "fichado": false,
+   "estado": "SIN FICHA"
+  },
+  {
+   "producto": "Mining & Metallurgical",
+   "area": "Eléctrico",
+   "material": true,
+   "fichado": false,
+   "estado": "SIN FICHA"
+  },
+  {
+   "producto": "Pulp and Paper",
+   "area": "Eléctrico",
+   "material": true,
+   "fichado": false,
+   "estado": "SIN FICHA"
+  }
+ ],
+ "total": 73,
+ "fichado": 42,
+ "sin_ficha": 28
+}

@@ -676,6 +676,31 @@
      "descripcion": "Sistema de control de compresores (CCS) desarrollado por SUPCON como parte del sistema instrumentado de seguridad TCS-900. Es un sistema de control mejorado para compresores centrífugos y axiales en las industrias petroq"
     },
     {
+     "producto": "SmartEIO y APL (Ethernet al campo)",
+     "familia": "DCS",
+     "mercado": "DCS / Controladores (ECS-700, OMC)",
+     "mercado_usd": 112543952.93,
+     "mercado_items": 9297,
+     "rivales_chile": [
+      "SIEMENS",
+      "SIEMENS-F",
+      "HITACHI ENERGY~ ELK-3 550KV~ A",
+      "HYOSUNG HEAVY-F"
+     ],
+     "nicho": null,
+     "rivales_declarados": null,
+     "P": 3.5,
+     "M": 7,
+     "R": "AMARILLO",
+     "R_nota": "🟡 Respondemos: falta el argumento competitivo (no lo dio el fabricante)",
+     "battlecard": false,
+     "criticos": 1,
+     "argumentos": 5,
+     "objeciones": 4,
+     "score": 17.1,
+     "descripcion": "Arquitectura de instrumentación digital de SUPCON. El SmartEIO es el gabinete de IO remoto de 96 puntos, con certificación IECEx de protección contra explosión para uso global. APL (Advanced Physical Layer) lleva Etherne"
+    },
+    {
      "producto": "ESP-iSYS (base de datos en tiempo real)",
      "familia": "Plataforma y gestión",
      "mercado": "DCS / Controladores (ECS-700, OMC)",
@@ -701,6 +726,31 @@
      "descripcion": "Base de datos en tiempo real que actúa de puente entre la red de producción y la red de información. Entrega recolección de datos, almacenamiento, monitoreo por diagrama de flujo, alarma de proceso, reporte en tiempo rea"
     },
     {
+     "producto": "ECS-700 (DCS)",
+     "familia": "DCS",
+     "mercado": "DCS / Controladores (ECS-700, OMC)",
+     "mercado_usd": 112543952.93,
+     "mercado_items": 9297,
+     "rivales_chile": [
+      "SIEMENS",
+      "SIEMENS-F",
+      "HITACHI ENERGY~ ELK-3 550KV~ A",
+      "HYOSUNG HEAVY-F"
+     ],
+     "nicho": null,
+     "rivales_declarados": null,
+     "P": 3.0,
+     "M": 7,
+     "R": "AMARILLO",
+     "R_nota": "🟡 Respondemos con condiciones: hay campos clave por confirmar",
+     "battlecard": false,
+     "criticos": 3,
+     "argumentos": 5,
+     "objeciones": 4,
+     "score": 14.7,
+     "descripcion": "Sistema de control distribuido ECS-700, la plataforma DCS de SUPCON para control de procesos continuos. Cuenta con certificación UL para el mercado de Estados Unidos y Canadá, y es la base sobre la que se montan las solu"
+    },
+    {
      "producto": "T5100 (CCS)",
      "familia": "CCS (compresores)",
      "mercado": "DCS / Controladores (ECS-700, OMC)",
@@ -724,6 +774,31 @@
      "objeciones": 2,
      "score": 12.2,
      "descripcion": "Sistema de control de compresores de la línea CCS de SUPCON, con la solución de optimización de control supCCS. Comparte el catálogo y la arquitectura con el T9100, orientado al control de compresores en la industria de "
+    },
+    {
+     "producto": "GW Series (gateway de datos)",
+     "familia": "DCS",
+     "mercado": "DCS / Controladores (ECS-700, OMC)",
+     "mercado_usd": 112543952.93,
+     "mercado_items": 9297,
+     "rivales_chile": [
+      "SIEMENS",
+      "SIEMENS-F",
+      "HITACHI ENERGY~ ELK-3 550KV~ A",
+      "HYOSUNG HEAVY-F"
+     ],
+     "nicho": null,
+     "rivales_declarados": null,
+     "P": 2.5,
+     "M": 7,
+     "R": "ROJO",
+     "R_nota": "🔴 No podemos responder: falta el material de base para cotizar",
+     "battlecard": false,
+     "criticos": 5,
+     "argumentos": 4,
+     "objeciones": 3,
+     "score": 5.2,
+     "descripcion": "Gateway inteligente de la serie GW de SUPCON, para adquisición y conversión de datos de campo. Incluye manual de usuario bilingüe y el manual específico del modelo GW002."
     }
    ]
   },
@@ -755,6 +830,31 @@
      "objeciones": 5,
      "score": 24.5,
      "descripcion": "Sistema PLC de gran escala, alta confiabilidad y alto desempeño, perteneciente a la plataforma de control GCS con arquitectura de comunicación basada en el protocolo UCP. Diseñado para controlar uno o varios objetos: múl"
+    },
+    {
+     "producto": "G5Pro Safety (PLC de seguridad SIL3)",
+     "familia": "PLC",
+     "mercado": "PLC (G5Pro, G3Smart)",
+     "mercado_usd": 83870305.86,
+     "mercado_items": 4449,
+     "rivales_chile": [
+      "SIEMENS",
+      "SIEMENS-F",
+      "HITACHI ENERGY~ ELK-3 550KV~ A",
+      "HYOSUNG HEAVY-F"
+     ],
+     "nicho": null,
+     "rivales_declarados": null,
+     "P": 4.0,
+     "M": 7,
+     "R": "AMARILLO",
+     "R_nota": "🟡 Respondemos con condiciones: hay campos clave por confirmar",
+     "battlecard": false,
+     "criticos": 3,
+     "argumentos": 6,
+     "objeciones": 4,
+     "score": 19.6,
+     "descripcion": "Sistema PLC de seguridad certificado SIL3, desarrollado por SUPCON. Diseñado para control orientado a objetos, protección de parada de emergencia (ESD) y control integrado en industrias de proceso. Todos los componentes "
     },
     {
      "producto": "G3Smart (PLC)",
@@ -836,6 +936,31 @@
      "objeciones": 4,
      "score": 14.7,
      "descripcion": "Sistema instrumentado de seguridad flexible y de alta densidad, basado en tecnología QMR (cuádruple redundante modular). Certificado SIL3 conforme a IEC 61508. Diseñado para aplicaciones de seguridad con espacio limitado"
+    },
+    {
+     "producto": "HIPPS (protección de alta presión)",
+     "familia": "SIS",
+     "mercado": "SIS (TCS-900, TCS-500)",
+     "mercado_usd": 52802731.44,
+     "mercado_items": 8422,
+     "rivales_chile": [
+      "SIEMENS",
+      "ETP ELEKTRO-F",
+      "SIEMENS-F",
+      "ROCKWELL~ MCC2100-PEII~ 2100 L"
+     ],
+     "nicho": null,
+     "rivales_declarados": null,
+     "P": 3.5,
+     "M": 6,
+     "R": "AMARILLO",
+     "R_nota": "🟡 Respondemos: falta el argumento competitivo (no lo dio el fabricante)",
+     "battlecard": false,
+     "criticos": 2,
+     "argumentos": 4,
+     "objeciones": 4,
+     "score": 14.7,
+     "descripcion": "Sistema de protección de alta integridad de presión (High Integrity Pressure Protection System). Es una función de seguridad instrumentada que corta el flujo ante sobrepresión, permitiendo evitar el sobredimensionamiento"
     }
    ]
   },
@@ -843,6 +968,26 @@
    "desc": "Software de proceso, plataforma industrial, IA aplicada y ciberseguridad OT. NO entra por partida arancelaria: se vende dentro del proyecto, así que su mercado no es medible con el registro de importaciones.",
    "medible": false,
    "productos": [
+    {
+     "producto": "SolisSCADA (SCADA de proceso)",
+     "familia": "Software",
+     "mercado": null,
+     "mercado_usd": null,
+     "mercado_items": null,
+     "rivales_chile": null,
+     "nicho": "SCADA de proceso",
+     "rivales_declarados": "AVEVA InTouch, Siemens WinCC, Ignition",
+     "P": 7,
+     "M": null,
+     "R": "VERDE",
+     "R_nota": "🟢 Podemos responder hoy",
+     "battlecard": true,
+     "criticos": 2,
+     "argumentos": 7,
+     "objeciones": 5,
+     "score": 7,
+     "descripcion": "Software SCADA distribuido a gran escala para monitoreo, configuración y control de datos industriales. Se ofrece con un modelo de licenciamiento gratuito hasta 50.000 tags por servidor, con activación de una licencia po"
+    },
     {
      "producto": "InPlant APC (control avanzado de procesos)",
      "familia": "Software de proceso",
@@ -1102,6 +1247,46 @@
      "objeciones": 4,
      "score": 2.8,
      "descripcion": "Plataforma para la transformación digital industrial: conecta la infraestructura, gestiona y analiza el flujo de datos y permite construir aplicaciones. Incluye IoT industrial, big data e IA, y desarrollo de aplicaciones"
+    },
+    {
+     "producto": "MPS5000 (protección de maquinaria)",
+     "familia": "Software",
+     "mercado": null,
+     "mercado_usd": null,
+     "mercado_items": null,
+     "rivales_chile": null,
+     "nicho": "Protección de maquinaria",
+     "rivales_declarados": "Bently Nevada, Emerson, SKF",
+     "P": 3.5,
+     "M": null,
+     "R": "AMARILLO",
+     "R_nota": "🟡 Respondemos: falta el argumento competitivo (no lo dio el fabricante)",
+     "battlecard": false,
+     "criticos": 2,
+     "argumentos": 5,
+     "objeciones": 4,
+     "score": 2.4,
+     "descripcion": "Sistema de protección de maquinaria MPS5000 V2.0. Mide parámetros mecánicos críticos — keyphasor, velocidad, vibración radial, posición axial, expansión diferencial, vibración de carcasa y excentricidad — en equipos como"
+    },
+    {
+     "producto": "Q-Lab (control estadístico de procesos)",
+     "familia": "Software",
+     "mercado": null,
+     "mercado_usd": null,
+     "mercado_items": null,
+     "rivales_chile": null,
+     "nicho": "Control estadístico SPC",
+     "rivales_declarados": "InfinityQS, Minitab, SAP QM",
+     "P": 3.5,
+     "M": null,
+     "R": "AMARILLO",
+     "R_nota": "🟡 Respondemos: falta el argumento competitivo (no lo dio el fabricante)",
+     "battlecard": false,
+     "criticos": 2,
+     "argumentos": 4,
+     "objeciones": 4,
+     "score": 2.4,
+     "descripcion": "Solución de control estadístico de procesos (SPC) de SUPCON. Aplica técnicas estadísticas para evaluar y monitorear las etapas del proceso, manteniéndolo en un nivel aceptable y estable para asegurar que los productos cu"
     },
     {
      "producto": "InPlant OMS (gestión de movimientos de petróleo)",

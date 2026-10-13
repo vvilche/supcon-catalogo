@@ -38,7 +38,7 @@ def cargar(n):
     return d if isinstance(d, dict) else {}
 
 CAP = {}
-for arch in ["fichas_1_datos.json","fichas_2_datos.json","fichas_3_datos.json","fichas_4_datos.json","fichas_5_datos.json"]:
+for arch in ["fichas_1_datos.json","fichas_2_datos.json","fichas_3_datos.json","fichas_4_datos.json","fichas_5_datos.json","fichas_6_datos.json"]:
     for nombre, x in cargar(arch).items():
         if not isinstance(x, dict): continue
         crit = sum(json.dumps(x.get(c), ensure_ascii=False).count(PORC) for c in
@@ -79,6 +79,7 @@ LINEAS = collections.OrderedDict([
      "SL903 (radar de nivel 80 GHz)":                      P_NIV,
      "SL10 / SL20 / SL80 (nivel magnético y magnetostrictivo)": P_NIV,
      "X600 (calibrador de procesos)":                      "Calibración (X600)",
+     "CJT (transmisor de presión)":                        "Presión (CXT, CJT)",
    }}),
  ("Analítica", {
    "desc": "Analizadores de proceso: XRF elemental, fotoacústica láser, Raman, Wobbe y emisiones. Entra por el capítulo 90.27, con mercado medido.",
@@ -112,6 +113,9 @@ LINEAS = collections.OrderedDict([
      "UCS Nyx (sistema de control universal)":             "DCS / Controladores (ECS-700, OMC)",
      "OMC (Intelligent Operation Management & Control System)": "DCS / Controladores (ECS-700, OMC)",
      "ESP-iSYS (base de datos en tiempo real)":            "DCS / Controladores (ECS-700, OMC)",
+     "ECS-700 (DCS)":                                      "DCS / Controladores (ECS-700, OMC)",
+     "SmartEIO y APL (Ethernet al campo)":                 "DCS / Controladores (ECS-700, OMC)",
+     "GW Series (gateway de datos)":                       "DCS / Controladores (ECS-700, OMC)",
    }}),
  ("PLC", {
    "desc": "Controladores lógicos programables, incluida la variante de seguridad.",
@@ -119,6 +123,7 @@ LINEAS = collections.OrderedDict([
    "productos": {
      "G5Pro (PLC)":                                        "PLC (G5Pro, G3Smart)",
      "G3Smart (PLC)":                                      "PLC (G5Pro, G3Smart)",
+     "G5Pro Safety (PLC de seguridad SIL3)":               "PLC (G5Pro, G3Smart)",
    }}),
  ("SIS", {
    "desc": "Sistemas instrumentados de seguridad (SIL3).",
@@ -126,6 +131,7 @@ LINEAS = collections.OrderedDict([
    "productos": {
      "TCS-900 (SIS)":                                      "SIS (TCS-900, TCS-500)",
      "TCS-500 (SIS)":                                      "SIS (TCS-900, TCS-500)",
+     "HIPPS (protección de alta presión)":                 "SIS (TCS-900, TCS-500)",
    }}),
  ("Software y plataforma", {
    "desc": "Software de proceso, plataforma industrial, IA aplicada y ciberseguridad OT. NO entra por partida arancelaria: se vende dentro del proyecto, así que su mercado no es medible con el registro de importaciones.",
@@ -148,6 +154,9 @@ LINEAS = collections.OrderedDict([
      "supOS (plataforma industrial / sistema operativo industrial)": ("Plataforma industrial", "AVEVA PI, Siemens, Honeywell Forge"),
      "TPT (modelo de series de tiempo de industria de proceso)": ("IA industrial sobre series de tiempo", "AVEVA, Honeywell, Siemens"),
      "Sistema de ciberseguridad industrial (ICS Security Management Platform + VxDefenderPro)": ("Ciberseguridad OT", "Claroty, Nozomi, Dragos, Tenable OT"),
+     "MPS5000 (protección de maquinaria)":           ("Protección de maquinaria",  "Bently Nevada, Emerson, SKF"),
+     "Q-Lab (control estadístico de procesos)":      ("Control estadístico SPC",   "InfinityQS, Minitab, SAP QM"),
+     "SolisSCADA (SCADA de proceso)":                ("SCADA de proceso",          "AVEVA InTouch, Siemens WinCC, Ignition"),
    }}),
 ])
 
