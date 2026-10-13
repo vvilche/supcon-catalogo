@@ -1,0 +1,1841 @@
+{
+ "que_es": "LinkedIn de los compradores del eCRM, hallado por nombre + empresa con web_search. Se acepta solo perfil /in/ cuyo nombre matchee el del comprador.",
+ "metodo": "web_search('nombre' + empresa + linkedin), validado por match de tokens del nombre",
+ "totales": {
+  "compradores": 183,
+  "procesados": 183,
+  "con_linkedin": 163
+ },
+ "compradores": [
+  {
+   "nombre": "Jhonny Guamparito",
+   "empresa": "MLP",
+   "usd": 1193209.0,
+   "cotizaciones": 2,
+   "linkedin": "https://www.linkedin.com/in/jhonny-guamparito-caceres-886380304",
+   "titulo": "Jhonny Guamparito Caceres | LinkedIn",
+   "correo_inferido": "jhonny.guamparito@pelambres.cl",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "Manuel Rojas",
+   "empresa": "MLP",
+   "usd": 1066303.0,
+   "cotizaciones": 23,
+   "linkedin": "https://www.linkedin.com/in/manuel-rojas-moya-9997a861",
+   "titulo": "Manuel Rojas Moya | LinkedIn",
+   "correo_inferido": "manuel.rojas@pelambres.cl",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "Eduardo Gallardo",
+   "empresa": "Andina",
+   "usd": 1004219.0,
+   "cotizaciones": 3,
+   "linkedin": "https://www.linkedin.com/in/eduardo-gallardo-urrutia-a9948927",
+   "titulo": "Eduardo Gallardo Urrutia | LinkedIn",
+   "correo_inferido": "eduardo.gallardo@codelco.cl",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "Mario Aguilera",
+   "empresa": "Andina",
+   "usd": 877374.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/mario-aguilera",
+   "titulo": "Mario Aguilera González | LinkedIn",
+   "correo_inferido": "mario.aguilera@codelco.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Patricia Adriazola",
+   "empresa": "MLP",
+   "usd": 839709.0,
+   "cotizaciones": 25,
+   "linkedin": "https://www.linkedin.com/in/patricia-adriazola",
+   "titulo": "Patricia Adriazola | LinkedIn",
+   "correo_inferido": "patricia.adriazola@pelambres.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "German Diaz",
+   "empresa": "Candelaria",
+   "usd": 743458.0,
+   "cotizaciones": 36,
+   "linkedin": "https://www.linkedin.com/in/german-diaz-tapia-07104869",
+   "titulo": "German Diaz Tapia | LinkedIn",
+   "correo_inferido": "",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "Rodrigo Zambrano",
+   "empresa": "Candelaria",
+   "usd": 703396.0,
+   "cotizaciones": 9,
+   "linkedin": "https://www.linkedin.com/in/rodrigo-zambrano-8773b51b",
+   "titulo": "Rodrigo Zambrano | LinkedIn",
+   "correo_inferido": "",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Leonid carrizo",
+   "empresa": "MLP",
+   "usd": 581304.0,
+   "cotizaciones": 61,
+   "linkedin": "",
+   "titulo": "",
+   "correo_inferido": "leonid.carrizo@pelambres.cl",
+   "confianza": "SIN PERFIL"
+  },
+  {
+   "nombre": "Valentina Olivares",
+   "empresa": "MLP",
+   "usd": 540000.0,
+   "cotizaciones": 6,
+   "linkedin": "https://www.linkedin.com/in/valentina-olivares-98343161",
+   "titulo": "Valentina Olivares | LinkedIn",
+   "correo_inferido": "valentina.olivares@pelambres.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Luis Nieto",
+   "empresa": "MLP",
+   "usd": 500000.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/luis-nieto-cornejo-79124b23",
+   "titulo": "Luis Nieto Cornejo | LinkedIn",
+   "correo_inferido": "luis.nieto@pelambres.cl",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "Pablo Aguilera",
+   "empresa": "Caserones",
+   "usd": 491665.0,
+   "cotizaciones": 3,
+   "linkedin": "https://www.linkedin.com/in/pablo-aguilera-52843526",
+   "titulo": "Pablo Aguilera | LinkedIn",
+   "correo_inferido": "pablo.aguilera@caserones.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Juan Donoso",
+   "empresa": "MLP",
+   "usd": 460000.0,
+   "cotizaciones": 4,
+   "linkedin": "https://www.linkedin.com/in/juan-jos%C3%A9-donoso-alvarez-5b572b45",
+   "titulo": "Juan José Donoso Alvarez | LinkedIn",
+   "correo_inferido": "juan.donoso@pelambres.cl",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "Hugo Corvalan",
+   "empresa": "Andina",
+   "usd": 450328.0,
+   "cotizaciones": 2,
+   "linkedin": "https://www.linkedin.com/in/hugo-corvalan-25441197",
+   "titulo": "Hugo Corvalan | LinkedIn",
+   "correo_inferido": "hugo.corvalan@codelco.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Javiera Reyes",
+   "empresa": "Candelaria",
+   "usd": 432416.0,
+   "cotizaciones": 18,
+   "linkedin": "https://www.linkedin.com/in/javiera-reyes-reyes-25bb851ba",
+   "titulo": "Javiera Reyes Reyes | LinkedIn",
+   "correo_inferido": "",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "Cristopher Rivas",
+   "empresa": "Salvador",
+   "usd": 335404.0,
+   "cotizaciones": 4,
+   "linkedin": "https://www.linkedin.com/in/christopher-rivas-b3a4a3252",
+   "titulo": "Christopher Rivas | LinkedIn",
+   "correo_inferido": "cristopher.rivas@codelco.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Francisca Urbina",
+   "empresa": "Codelco",
+   "usd": 330000.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/francisca-urbina-montenegro-8449315b",
+   "titulo": "Francisca Urbina Montenegro | LinkedIn",
+   "correo_inferido": "francisca.urbina@codelco.cl",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "Ivan Gutierrez",
+   "empresa": "Enami",
+   "usd": 329338.0,
+   "cotizaciones": 5,
+   "linkedin": "https://www.linkedin.com/in/gutierrez-ivan",
+   "titulo": "Ivan Gutierrez | LinkedIn",
+   "correo_inferido": "ivan.gutierrez@enami.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Alejandro Alvarez",
+   "empresa": "MLP",
+   "usd": 301804.0,
+   "cotizaciones": 6,
+   "linkedin": "https://www.linkedin.com/in/alejandro-alvarez-1233b1aa",
+   "titulo": "Alejandro Alvarez | LinkedIn",
+   "correo_inferido": "alejandro.alvarez@pelambres.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Andres Gomez",
+   "empresa": "MLP",
+   "usd": 263767.0,
+   "cotizaciones": 5,
+   "linkedin": "https://www.linkedin.com/in/andres-gomez-72451b16b",
+   "titulo": "Andres Gomez | LinkedIn",
+   "correo_inferido": "andres.gomez@pelambres.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Francisco Olivares",
+   "empresa": "Enami",
+   "usd": 251248.0,
+   "cotizaciones": 5,
+   "linkedin": "https://www.linkedin.com/in/francisco-olivares-ramirez",
+   "titulo": "Francisco Olivares | LinkedIn",
+   "correo_inferido": "francisco.olivares@enami.cl",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "Barbara Cortes",
+   "empresa": "Codelco",
+   "usd": 240288.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/barbara-cortesg",
+   "titulo": "Bárbara Cortés Gallardo | LinkedIn",
+   "correo_inferido": "barbara.cortes@codelco.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Barbara Cortes Castillo",
+   "empresa": "Codelco",
+   "usd": 240288.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/barbara-cortes-4120b681",
+   "titulo": "Barbara Cortes | LinkedIn",
+   "correo_inferido": "barbara.castillo@codelco.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Francisca Milla",
+   "empresa": "Enami",
+   "usd": 222525.0,
+   "cotizaciones": 6,
+   "linkedin": "https://www.linkedin.com/in/francisca-milla-orellana-852026293",
+   "titulo": "Francisca Milla Orellana | LinkedIn",
+   "correo_inferido": "francisca.milla@enami.cl",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "Alvaro Bonilla",
+   "empresa": "Potrerillos",
+   "usd": 219228.0,
+   "cotizaciones": 2,
+   "linkedin": "https://www.linkedin.com/in/alvaro-bonilla-a33969323",
+   "titulo": "Alvaro Bonilla | LinkedIn",
+   "correo_inferido": "",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Francisco Diaz",
+   "empresa": "Enami",
+   "usd": 208498.0,
+   "cotizaciones": 4,
+   "linkedin": "https://www.linkedin.com/in/francisco-diaz-91526719",
+   "titulo": "Francisco Diaz | LinkedIn",
+   "correo_inferido": "francisco.diaz@enami.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Juan Gallardo",
+   "empresa": "Andina",
+   "usd": 198814.0,
+   "cotizaciones": 3,
+   "linkedin": "https://www.linkedin.com/in/juan-gallardo-salazar-96520687",
+   "titulo": "Juan Gallardo Salazar | LinkedIn",
+   "correo_inferido": "juan.gallardo@codelco.cl",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "Nicolas Vergara",
+   "empresa": "JRI",
+   "usd": 189112.0,
+   "cotizaciones": 2,
+   "linkedin": "https://www.linkedin.com/in/nicol%C3%A1s-vergara-araya-b01493204",
+   "titulo": "Nicolás Vergara Araya | LinkedIn",
+   "correo_inferido": "nicolas.vergara@jri.cl",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "Ariel Cuadra",
+   "empresa": "Caserones",
+   "usd": 187548.0,
+   "cotizaciones": 13,
+   "linkedin": "https://www.linkedin.com/in/ariel-cuadra-segovia-2a27ba175",
+   "titulo": "Ariel Cuadra Segovia | LinkedIn",
+   "correo_inferido": "ariel.cuadra@caserones.cl",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "Ivan Munisaga",
+   "empresa": "Kinross",
+   "usd": 186664.0,
+   "cotizaciones": 1,
+   "linkedin": "",
+   "titulo": "",
+   "correo_inferido": "",
+   "confianza": "SIN PERFIL"
+  },
+  {
+   "nombre": "Carlos Rojas",
+   "empresa": "Andina",
+   "usd": 184117.0,
+   "cotizaciones": 3,
+   "linkedin": "https://www.linkedin.com/in/carlos-rojas-rojas-b43179131",
+   "titulo": "Carlos Rojas Rojas | LinkedIn",
+   "correo_inferido": "carlos.rojas@codelco.cl",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "Nelson Carvajal",
+   "empresa": "Caserones",
+   "usd": 182572.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/nelson-carvajal-rodr%C3%ADguez-93a99544",
+   "titulo": "Nelson Carvajal Rodríguez | LinkedIn",
+   "correo_inferido": "nelson.carvajal@caserones.cl",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "Sebastian Zamora",
+   "empresa": "Andina",
+   "usd": 166141.0,
+   "cotizaciones": 2,
+   "linkedin": "https://www.linkedin.com/in/sebastian-zamora-79b037282",
+   "titulo": "Sebastian Zamora | LinkedIn",
+   "correo_inferido": "sebastian.zamora@codelco.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Pablo Cordero",
+   "empresa": "Salvador",
+   "usd": 159118.0,
+   "cotizaciones": 4,
+   "linkedin": "https://www.linkedin.com/in/pablo-cordero-sanhueza-62538238",
+   "titulo": "Pablo Cordero Sanhueza | LinkedIn",
+   "correo_inferido": "pablo.cordero@codelco.cl",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "Cesar Fuentes",
+   "empresa": "Andina",
+   "usd": 159044.0,
+   "cotizaciones": 11,
+   "linkedin": "https://www.linkedin.com/in/cesar-fuentes-3919654a",
+   "titulo": "Cesar Fuentes | LinkedIn",
+   "correo_inferido": "cesar.fuentes@codelco.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Carolina Valenzuela",
+   "empresa": "Andina",
+   "usd": 156272.0,
+   "cotizaciones": 7,
+   "linkedin": "https://www.linkedin.com/in/carolina-valenzuela-139033217",
+   "titulo": "Carolina Valenzuela | LinkedIn",
+   "correo_inferido": "carolina.valenzuela@codelco.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Javier Villanueva",
+   "empresa": "Servasol",
+   "usd": 138284.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/javier-villanueva-0974236a",
+   "titulo": "Javier Villanueva | LinkedIn",
+   "correo_inferido": "",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Sebastean Paez",
+   "empresa": "JRI",
+   "usd": 137184.0,
+   "cotizaciones": 2,
+   "linkedin": "https://www.linkedin.com/in/sebasti%C3%A1n-paez-lira-comprador-senior",
+   "titulo": "Sebastián Paez Lira | LinkedIn",
+   "correo_inferido": "sebastean.paez@jri.cl",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "Sebastian Godoy",
+   "empresa": "Candelaria",
+   "usd": 135352.0,
+   "cotizaciones": 4,
+   "linkedin": "https://www.linkedin.com/in/sebastian-godoy-48203466",
+   "titulo": "Sebastian Godoy | LinkedIn",
+   "correo_inferido": "",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Maria Jesús Caballero",
+   "empresa": "Verne SPA",
+   "usd": 129093.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/maria-jesus-caballero-4aa52942",
+   "titulo": "Maria Jesus Caballero | LinkedIn",
+   "correo_inferido": "",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "marcela torrejon",
+   "empresa": "Candelaria",
+   "usd": 123565.0,
+   "cotizaciones": 5,
+   "linkedin": "https://www.linkedin.com/in/marcela-torrej%C3%B3n-b8948b64",
+   "titulo": "Marcela Torrejón | LinkedIn",
+   "correo_inferido": "",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Paola Ruano",
+   "empresa": "Salvador",
+   "usd": 122907.0,
+   "cotizaciones": 2,
+   "linkedin": "https://www.linkedin.com/in/paola-ruano-",
+   "titulo": "Paola Ruano | LinkedIn",
+   "correo_inferido": "paola.ruano@codelco.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Ruben Alarcon",
+   "empresa": "MLP",
+   "usd": 121988.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/ruben-alarcon-a8089071",
+   "titulo": "Ruben Alarcon | LinkedIn",
+   "correo_inferido": "ruben.alarcon@pelambres.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Juan Carlos Jofre",
+   "empresa": "Caserones",
+   "usd": 117901.0,
+   "cotizaciones": 4,
+   "linkedin": "https://www.linkedin.com/in/juan-carlos-jofre-72182152",
+   "titulo": "Juan Carlos Jofre | LinkedIn",
+   "correo_inferido": "juan.jofre@caserones.cl",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "Paula Montes",
+   "empresa": "Salvador",
+   "usd": 114825.0,
+   "cotizaciones": 11,
+   "linkedin": "https://www.linkedin.com/in/paula-montes-3438633a0",
+   "titulo": "Paula Montes | LinkedIn",
+   "correo_inferido": "paula.montes@codelco.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Jeannette Reyes",
+   "empresa": "Salvador",
+   "usd": 114474.0,
+   "cotizaciones": 2,
+   "linkedin": "https://www.linkedin.com/in/jeannette-reyes-72767228",
+   "titulo": "Jeannette Reyes | LinkedIn",
+   "correo_inferido": "jeannette.reyes@codelco.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Rigoberto Barrera",
+   "empresa": "Candelaria",
+   "usd": 111377.0,
+   "cotizaciones": 9,
+   "linkedin": "https://www.linkedin.com/in/rigoberto-adri%C3%A1n-barrera-d%C3%ADaz-64513468",
+   "titulo": "Rigoberto Adrián Barrera Díaz | LinkedIn",
+   "correo_inferido": "",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "German Cabello",
+   "empresa": "Ventana",
+   "usd": 104615.0,
+   "cotizaciones": 2,
+   "linkedin": "https://www.linkedin.com/in/german-cabello",
+   "titulo": "German Cabello | LinkedIn",
+   "correo_inferido": "",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Jorge Marcano",
+   "empresa": "MLP",
+   "usd": 103107.0,
+   "cotizaciones": 15,
+   "linkedin": "https://www.linkedin.com/in/jorge-marcano-71713227",
+   "titulo": "Jorge Marcano | LinkedIn",
+   "correo_inferido": "jorge.marcano@pelambres.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Alejandro Llanos",
+   "empresa": "Soltex",
+   "usd": 101050.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/alejandro-llanos-953715177",
+   "titulo": "Alejandro Llanos | LinkedIn",
+   "correo_inferido": "",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Pedro Carrasco",
+   "empresa": "MLP",
+   "usd": 100000.0,
+   "cotizaciones": 2,
+   "linkedin": "https://www.linkedin.com/in/pedro-carrasco-8740a586",
+   "titulo": "Pedro Carrasco | LinkedIn",
+   "correo_inferido": "pedro.carrasco@pelambres.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Gonzalo Cisternas",
+   "empresa": "Enami",
+   "usd": 100000.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/gonzalo-a-cisternas-m",
+   "titulo": "Gonzalo A Cisternas M | LinkedIn",
+   "correo_inferido": "gonzalo.cisternas@enami.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Eduardo Lagos",
+   "empresa": "KOSLAN-MLP",
+   "usd": 87519.0,
+   "cotizaciones": 3,
+   "linkedin": "https://www.linkedin.com/in/eduardo-lagos-5287b24b",
+   "titulo": "Eduardo Lagos | LinkedIn",
+   "correo_inferido": "",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Karen Pasten Toledo",
+   "empresa": "Salvador",
+   "usd": 80930.0,
+   "cotizaciones": 1,
+   "linkedin": "",
+   "titulo": "",
+   "correo_inferido": "karen.toledo@codelco.cl",
+   "confianza": "SIN PERFIL"
+  },
+  {
+   "nombre": "Rossanny Carrasqueño",
+   "empresa": "MLP",
+   "usd": 80331.0,
+   "cotizaciones": 3,
+   "linkedin": "",
+   "titulo": "",
+   "correo_inferido": "rossanny.carrasqueno@pelambres.cl",
+   "confianza": "SIN PERFIL"
+  },
+  {
+   "nombre": "Mario Taucan",
+   "empresa": "Andina",
+   "usd": 80000.0,
+   "cotizaciones": 1,
+   "linkedin": "",
+   "titulo": "",
+   "correo_inferido": "mario.taucan@codelco.cl",
+   "confianza": "SIN PERFIL"
+  },
+  {
+   "nombre": "Franli Delgado",
+   "empresa": "MLP",
+   "usd": 74928.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/franli-delgado-155702a2",
+   "titulo": "Franli Delgado | LinkedIn",
+   "correo_inferido": "franli.delgado@pelambres.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Felipe Henriquez",
+   "empresa": "MLP",
+   "usd": 73003.0,
+   "cotizaciones": 2,
+   "linkedin": "https://www.linkedin.com/in/felipe-henriquez-06759a32",
+   "titulo": "Felipe Henriquez | LinkedIn",
+   "correo_inferido": "felipe.henriquez@pelambres.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Jaime Espinosa",
+   "empresa": "MLP",
+   "usd": 70050.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/jaime-espinosa-600ba831",
+   "titulo": "Jaime Espinosa | LinkedIn",
+   "correo_inferido": "jaime.espinosa@pelambres.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Richard Flores",
+   "empresa": "Andina",
+   "usd": 65375.0,
+   "cotizaciones": 3,
+   "linkedin": "https://www.linkedin.com/in/richard-flores-23a4a023",
+   "titulo": "Richard Flores | LinkedIn",
+   "correo_inferido": "richard.flores@codelco.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Octavio Romano",
+   "empresa": "Pucobre",
+   "usd": 65026.0,
+   "cotizaciones": 3,
+   "linkedin": "https://www.linkedin.com/in/octavio-romano",
+   "titulo": "Octavio Romano | LinkedIn",
+   "correo_inferido": "octavio.romano@pucobre.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Crispulo Mancilla",
+   "empresa": "CMP",
+   "usd": 62440.0,
+   "cotizaciones": 1,
+   "linkedin": "",
+   "titulo": "",
+   "correo_inferido": "crispulo.mancilla@cmp.cl",
+   "confianza": "SIN PERFIL"
+  },
+  {
+   "nombre": "Cristian Rojas",
+   "empresa": "CMP",
+   "usd": 60856.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/cristian-rojas-944b41122",
+   "titulo": "Cristian Rojas | LinkedIn",
+   "correo_inferido": "cristian.rojas@cmp.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Felipe Varas",
+   "empresa": "Candelaria",
+   "usd": 60000.0,
+   "cotizaciones": 2,
+   "linkedin": "https://www.linkedin.com/in/felipe-varas-2378a5292",
+   "titulo": "Felipe Varas | LinkedIn",
+   "correo_inferido": "",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Rodrigo Frittis",
+   "empresa": "Candelaria",
+   "usd": 60000.0,
+   "cotizaciones": 3,
+   "linkedin": "https://www.linkedin.com/in/rodrigo-fritis-l%C3%B3pez-39931b207",
+   "titulo": "Rodrigo Fritis López | LinkedIn",
+   "correo_inferido": "",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "Rodrigo Fritis",
+   "empresa": "Candelaria",
+   "usd": 60000.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/rodrigo-fritis-l%C3%B3pez-39931b207",
+   "titulo": "Rodrigo Fritis López | LinkedIn",
+   "correo_inferido": "",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "George Quicham",
+   "empresa": "SGS",
+   "usd": 56918.0,
+   "cotizaciones": 1,
+   "linkedin": "",
+   "titulo": "",
+   "correo_inferido": "george.quicham@sgs.com",
+   "confianza": "SIN PERFIL"
+  },
+  {
+   "nombre": "Maria Elena Jeraldo",
+   "empresa": "Contac",
+   "usd": 55006.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/maria-elena-jeraldo-dovizio",
+   "titulo": "Maria Elena Jeraldo Dovizio | LinkedIn",
+   "correo_inferido": "",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "Oscar Tapia",
+   "empresa": "Andina",
+   "usd": 54368.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/oscar-silva-tapia-64a3057a",
+   "titulo": "Oscar Silva Tapia | LinkedIn",
+   "correo_inferido": "oscar.tapia@codelco.cl",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "Elizabeth Cuevas",
+   "empresa": "Enami",
+   "usd": 50000.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/cuevas-c-elizabeth-74a5b828",
+   "titulo": "Cuevas C Elizabeth | LinkedIn",
+   "correo_inferido": "elizabeth.cuevas@enami.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Nelson Manzanares",
+   "empresa": "MLP",
+   "usd": 50000.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/nelson-manzanares-m-20477234",
+   "titulo": "Nelson Manzanares M | LinkedIn",
+   "correo_inferido": "nelson.manzanares@pelambres.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Jorge Gonzalez",
+   "empresa": "Varitec",
+   "usd": 46094.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/jorge-gonzalez-80792077",
+   "titulo": "Jorge Gonzalez | LinkedIn",
+   "correo_inferido": "",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "JOSELINE LAHOZ",
+   "empresa": "Andina",
+   "usd": 45756.0,
+   "cotizaciones": 2,
+   "linkedin": "https://www.linkedin.com/in/joseline-lahoz-454b5994",
+   "titulo": "Joseline Lahoz | LinkedIn",
+   "correo_inferido": "joseline.lahoz@codelco.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Alejandro Torres",
+   "empresa": "Salvador",
+   "usd": 45296.0,
+   "cotizaciones": 7,
+   "linkedin": "https://www.linkedin.com/in/alejandro-torres-939563a0",
+   "titulo": "Alejandro Torres | LinkedIn",
+   "correo_inferido": "alejandro.torres@codelco.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Jennifer Puelles",
+   "empresa": "MLP",
+   "usd": 43458.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/jennifer-puelles-nu%C3%B1ez-22114772",
+   "titulo": "Jennifer Puelles Nuñez | LinkedIn",
+   "correo_inferido": "jennifer.puelles@pelambres.cl",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "Eduardo Marin",
+   "empresa": "MLP",
+   "usd": 42065.0,
+   "cotizaciones": 3,
+   "linkedin": "https://www.linkedin.com/in/eduardo-marin-carvajal-2686389b",
+   "titulo": "Eduardo Marin Carvajal | LinkedIn",
+   "correo_inferido": "eduardo.marin@pelambres.cl",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "Patricio Serra",
+   "empresa": "Salvador",
+   "usd": 40634.0,
+   "cotizaciones": 4,
+   "linkedin": "https://www.linkedin.com/in/patricio-serra-a02406235",
+   "titulo": "Patricio Serra | LinkedIn",
+   "correo_inferido": "patricio.serra@codelco.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Daniel Rojas",
+   "empresa": "MLP",
+   "usd": 40000.0,
+   "cotizaciones": 2,
+   "linkedin": "https://www.linkedin.com/in/daniel-rojas-de-la-fuente-449008a9",
+   "titulo": "Daniel Rojas De La Fuente | LinkedIn",
+   "correo_inferido": "daniel.rojas@pelambres.cl",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "Juan Velasquez",
+   "empresa": "MLP",
+   "usd": 40000.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/juan-velasquez-04297a52",
+   "titulo": "Juan Velasquez | LinkedIn",
+   "correo_inferido": "juan.velasquez@pelambres.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Mariangel Flores",
+   "empresa": "MLP",
+   "usd": 38744.0,
+   "cotizaciones": 5,
+   "linkedin": "https://www.linkedin.com/in/mariangel-flores-348707281",
+   "titulo": "Mariangel Flores | LinkedIn",
+   "correo_inferido": "mariangel.flores@pelambres.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Geraldine Luna Acevedo",
+   "empresa": "Candelaria",
+   "usd": 35577.0,
+   "cotizaciones": 2,
+   "linkedin": "https://www.linkedin.com/in/geraldine-luna-acevedo-16a25b206",
+   "titulo": "Geraldine Luna Acevedo | LinkedIn",
+   "correo_inferido": "",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "Hector Correa",
+   "empresa": "Candelaria",
+   "usd": 34986.0,
+   "cotizaciones": 2,
+   "linkedin": "https://www.linkedin.com/in/hector-correa-neira-16501052",
+   "titulo": "Hector Correa Neira | LinkedIn",
+   "correo_inferido": "",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "Macarena Vela",
+   "empresa": "JRI",
+   "usd": 31680.0,
+   "cotizaciones": 2,
+   "linkedin": "https://www.linkedin.com/in/macarena-vela-luengo-a0a652135",
+   "titulo": "Macarena Vela Luengo | LinkedIn",
+   "correo_inferido": "macarena.vela@jri.cl",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "Carola aburto",
+   "empresa": "CMP",
+   "usd": 30901.0,
+   "cotizaciones": 2,
+   "linkedin": "https://www.linkedin.com/in/carola-aburto-b048374a",
+   "titulo": "Carola Aburto | LinkedIn",
+   "correo_inferido": "carola.aburto@cmp.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Ivan Latorre",
+   "empresa": "Caserones",
+   "usd": 30728.0,
+   "cotizaciones": 3,
+   "linkedin": "https://www.linkedin.com/in/ivan-latorre-1954a071",
+   "titulo": "Ivan Latorre | LinkedIn",
+   "correo_inferido": "ivan.latorre@caserones.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Jerson Contreras",
+   "empresa": "MLP",
+   "usd": 30427.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/jerson-reinier-contreras-17646954",
+   "titulo": "Jerson Reinier Contreras | LinkedIn",
+   "correo_inferido": "jerson.contreras@pelambres.cl",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "Cristian Bravo",
+   "empresa": "Calimport",
+   "usd": 30300.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/cristian-bravo-46abb413a",
+   "titulo": "Cristian Bravo | LinkedIn",
+   "correo_inferido": "",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Rodrigo Donoso",
+   "empresa": "Andina",
+   "usd": 28866.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/rodrigo-donoso-1b2518129",
+   "titulo": "Rodrigo Donoso | LinkedIn",
+   "correo_inferido": "rodrigo.donoso@codelco.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Pedro Gonzalez",
+   "empresa": "Pk Ingeneiria",
+   "usd": 26545.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/pedro-gonzalez-83aa14a2",
+   "titulo": "Pedro Gonzalez | LinkedIn",
+   "correo_inferido": "",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Sandra Lavanderos",
+   "empresa": "Molymetnos",
+   "usd": 25336.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/sandra-lavanderos",
+   "titulo": "Sandra Lavanderos | LinkedIn",
+   "correo_inferido": "",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Gonzalo Tapia",
+   "empresa": "Ventana",
+   "usd": 23467.0,
+   "cotizaciones": 3,
+   "linkedin": "https://www.linkedin.com/in/gonzalo-tapia",
+   "titulo": "Gonzalo Tapia Marín | LinkedIn",
+   "correo_inferido": "",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Wilson Palma",
+   "empresa": "MLP",
+   "usd": 23268.0,
+   "cotizaciones": 2,
+   "linkedin": "https://www.linkedin.com/in/wilson-palma-guerrero-85292519",
+   "titulo": "Wilson Palma Guerrero | LinkedIn",
+   "correo_inferido": "wilson.palma@pelambres.cl",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "Angelo Orellana",
+   "empresa": "MLP",
+   "usd": 22972.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/angelo-orellana-4383b419a",
+   "titulo": "Angelo Orellana | LinkedIn",
+   "correo_inferido": "angelo.orellana@pelambres.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Margarita Naretto",
+   "empresa": "JRI",
+   "usd": 22132.0,
+   "cotizaciones": 1,
+   "linkedin": "",
+   "titulo": "",
+   "correo_inferido": "margarita.naretto@jri.cl",
+   "confianza": "SIN PERFIL"
+  },
+  {
+   "nombre": "Cristian Bahamonde",
+   "empresa": "eecol",
+   "usd": 21840.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/cristian-bahamonde",
+   "titulo": "Cristian Bahamonde Sanchez | LinkedIn",
+   "correo_inferido": "",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "María Jesus Caballeros",
+   "empresa": "Verne SPA",
+   "usd": 21312.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/maria-jesus-caballero-4aa52942",
+   "titulo": "Maria Jesus Caballero | LinkedIn",
+   "correo_inferido": "",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "Ariel Ñancupil",
+   "empresa": "Verne SPA",
+   "usd": 21190.0,
+   "cotizaciones": 5,
+   "linkedin": "",
+   "titulo": "",
+   "correo_inferido": "",
+   "confianza": "SIN PERFIL"
+  },
+  {
+   "nombre": "Rodrigo Flores",
+   "empresa": "Pucobre",
+   "usd": 20000.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/rodrigo-flores-dorador-52365444",
+   "titulo": "Rodrigo Flores Dorador | LinkedIn",
+   "correo_inferido": "rodrigo.flores@pucobre.cl",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "victoriano blanco",
+   "empresa": "Pessa",
+   "usd": 19391.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/victor-blanco",
+   "titulo": "Víctor Blanco | LinkedIn",
+   "correo_inferido": "",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Ivan Caro",
+   "empresa": "Andina",
+   "usd": 19031.0,
+   "cotizaciones": 2,
+   "linkedin": "https://www.linkedin.com/in/ivan-caro",
+   "titulo": "Ivan Caro | LinkedIn",
+   "correo_inferido": "ivan.caro@codelco.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Katherine Granados",
+   "empresa": "MLP",
+   "usd": 18742.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/katherine-granados-p%C3%A9rez-43898152",
+   "titulo": "Katherine Granados Pérez | LinkedIn",
+   "correo_inferido": "katherine.granados@pelambres.cl",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "Mario Maldonado",
+   "empresa": "Andina",
+   "usd": 17493.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/mario-maldonado-166956b3",
+   "titulo": "Mario Maldonado | LinkedIn",
+   "correo_inferido": "mario.maldonado@codelco.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Mauricio Sangueza",
+   "empresa": "INSTRUVALVE SPA",
+   "usd": 15715.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/mauricio-sanhueza-8a4b76a9",
+   "titulo": "Mauricio Sanhueza | LinkedIn",
+   "correo_inferido": "",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Maria Asuncion",
+   "empresa": "MLP",
+   "usd": 15476.0,
+   "cotizaciones": 2,
+   "linkedin": "https://www.linkedin.com/in/maria-asuncion-o-38032b30a",
+   "titulo": "Maria Asuncion O | LinkedIn",
+   "correo_inferido": "maria.asuncion@pelambres.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Ricardo Catalan",
+   "empresa": "Salvador",
+   "usd": 15134.0,
+   "cotizaciones": 2,
+   "linkedin": "https://www.linkedin.com/in/ricardo-catalan-24700061",
+   "titulo": "Ricardo Catalan | LinkedIn",
+   "correo_inferido": "ricardo.catalan@codelco.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Daniel Gerrero",
+   "empresa": "Andina",
+   "usd": 15106.0,
+   "cotizaciones": 1,
+   "linkedin": "",
+   "titulo": "",
+   "correo_inferido": "daniel.gerrero@codelco.cl",
+   "confianza": "SIN PERFIL"
+  },
+  {
+   "nombre": "Francisco Pinto",
+   "empresa": "Mantos Verdes",
+   "usd": 15106.0,
+   "cotizaciones": 2,
+   "linkedin": "",
+   "titulo": "",
+   "correo_inferido": "",
+   "confianza": "SIN PERFIL"
+  },
+  {
+   "nombre": "Jose Gonzalez",
+   "empresa": "rotork",
+   "usd": 15106.0,
+   "cotizaciones": 1,
+   "linkedin": "",
+   "titulo": "",
+   "correo_inferido": "",
+   "confianza": "SIN PERFIL"
+  },
+  {
+   "nombre": "Pedro Correa",
+   "empresa": "Bechtel",
+   "usd": 14796.0,
+   "cotizaciones": 1,
+   "linkedin": "",
+   "titulo": "",
+   "correo_inferido": "",
+   "confianza": "SIN PERFIL"
+  },
+  {
+   "nombre": "Nilton Coloma",
+   "empresa": "MLP",
+   "usd": 14556.0,
+   "cotizaciones": 1,
+   "linkedin": "",
+   "titulo": "",
+   "correo_inferido": "nilton.coloma@pelambres.cl",
+   "confianza": "SIN PERFIL"
+  },
+  {
+   "nombre": "Ricardo Castillo",
+   "empresa": "CMP",
+   "usd": 13981.0,
+   "cotizaciones": 1,
+   "linkedin": "",
+   "titulo": "",
+   "correo_inferido": "ricardo.castillo@cmp.cl",
+   "confianza": "SIN PERFIL"
+  },
+  {
+   "nombre": "Joel Salamanca",
+   "empresa": "Andina",
+   "usd": 13520.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/joel-salamanca-44a076158",
+   "titulo": "Joel Salamanca | LinkedIn",
+   "correo_inferido": "joel.salamanca@codelco.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Denis Navarro",
+   "empresa": "Aguas Andina",
+   "usd": 13473.0,
+   "cotizaciones": 2,
+   "linkedin": "https://www.linkedin.com/in/denis-navarro-navarro-673370198",
+   "titulo": "Denis Navarro Navarro | LinkedIn",
+   "correo_inferido": "",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "Carla Herrera",
+   "empresa": "Enami",
+   "usd": 13101.0,
+   "cotizaciones": 2,
+   "linkedin": "https://www.linkedin.com/in/carla-herrera-79354915",
+   "titulo": "Carla Herrera | LinkedIn",
+   "correo_inferido": "carla.herrera@enami.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Valentina Toro",
+   "empresa": "codelco",
+   "usd": 12630.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/valentina-toro-badillo-b8b161164",
+   "titulo": "Valentina Toro Badillo | LinkedIn",
+   "correo_inferido": "",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "Sebastian Carvajal",
+   "empresa": "MLP",
+   "usd": 12491.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/sebastian-carvajal-764a3a54",
+   "titulo": "Sebastian Carvajal | LinkedIn",
+   "correo_inferido": "sebastian.carvajal@pelambres.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Gabriela Mora",
+   "empresa": "CMP",
+   "usd": 12267.0,
+   "cotizaciones": 2,
+   "linkedin": "https://www.linkedin.com/in/gabriela-mora-67b21b77",
+   "titulo": "Gabriela Mora | LinkedIn",
+   "correo_inferido": "gabriela.mora@cmp.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Paulina Santander",
+   "empresa": "Caserones",
+   "usd": 11831.0,
+   "cotizaciones": 8,
+   "linkedin": "https://www.linkedin.com/in/paulina-santander-83b72468",
+   "titulo": "Paulina Santander | LinkedIn",
+   "correo_inferido": "paulina.santander@caserones.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Maria Emilia Zapata",
+   "empresa": "Caserones",
+   "usd": 11444.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/maria-emilia-zapata-a62b26280",
+   "titulo": "Maria Emilia Zapata | LinkedIn",
+   "correo_inferido": "maria.zapata@caserones.cl",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "Jose Diaz",
+   "empresa": "RHOTECNICA",
+   "usd": 10928.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/jose-diaz-4513106a",
+   "titulo": "Jose Diaz | LinkedIn",
+   "correo_inferido": "",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Gabriela Montaner",
+   "empresa": "MLP",
+   "usd": 9828.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/gabriela-montaner-ab3828123",
+   "titulo": "Gabriela Montaner | LinkedIn",
+   "correo_inferido": "gabriela.montaner@pelambres.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Waldo Aguilera",
+   "empresa": "Anglo",
+   "usd": 9686.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/waldo-aguilera-maturana-899359157",
+   "titulo": "Waldo Aguilera Maturana | LinkedIn",
+   "correo_inferido": "waldo.aguilera@angloamerican.com",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "Patrizia Adriazola",
+   "empresa": "MLP",
+   "usd": 9126.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/patricia-adriazola-92644a45",
+   "titulo": "Patricia Adriazola | LinkedIn",
+   "correo_inferido": "patrizia.adriazola@pelambres.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Cristian Haro",
+   "empresa": "Pucobre",
+   "usd": 8709.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/cristian-haro-55588116b",
+   "titulo": "Cristian Haro | LinkedIn",
+   "correo_inferido": "cristian.haro@pucobre.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Maria Angelica Villalobos",
+   "empresa": "Minera Tres Valles",
+   "usd": 8344.0,
+   "cotizaciones": 2,
+   "linkedin": "https://www.linkedin.com/in/mar%C3%ADa-villalobos-603a3b1ab",
+   "titulo": "María Villalobos | LinkedIn",
+   "correo_inferido": "",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Romeglys Díaz",
+   "empresa": "CMP",
+   "usd": 8333.0,
+   "cotizaciones": 2,
+   "linkedin": "https://www.linkedin.com/in/romeglys-d%C3%ADaz-bracho-256233197",
+   "titulo": "Romeglys Díaz Bracho | LinkedIn",
+   "correo_inferido": "romeglys.diaz@cmp.cl",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "Francisco Dias",
+   "empresa": "Enami",
+   "usd": 7874.0,
+   "cotizaciones": 2,
+   "linkedin": "https://www.linkedin.com/in/francisco-s-dias",
+   "titulo": "Francisco Dias | LinkedIn",
+   "correo_inferido": "francisco.dias@enami.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Bryan Navarro",
+   "empresa": "MLP",
+   "usd": 7381.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/bryan-navarro-51a6632a3",
+   "titulo": "Bryan Navarro | LinkedIn",
+   "correo_inferido": "bryan.navarro@pelambres.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Lister Muñoz",
+   "empresa": "Cristalerias Chile",
+   "usd": 7320.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/marcelo-lister-mu%C3%B1oz-5481a7196",
+   "titulo": "Marcelo Lister Muñoz | LinkedIn",
+   "correo_inferido": "",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "Kareen Zambrano",
+   "empresa": "Enami",
+   "usd": 6599.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/karen-zambrano-87a8b7130",
+   "titulo": "Karen Zambrano | LinkedIn",
+   "correo_inferido": "kareen.zambrano@enami.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Cristobal Palma",
+   "empresa": "MG Proveedores",
+   "usd": 6574.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/crist%C3%B3bal-palma-314b59140",
+   "titulo": "Cristóbal Palma | LinkedIn",
+   "correo_inferido": "",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Jose Cañas",
+   "empresa": "Acciona",
+   "usd": 6000.0,
+   "cotizaciones": 2,
+   "linkedin": "https://www.linkedin.com/in/jose-vicente-ca%C3%B1as-935471b7",
+   "titulo": "Jose Vicente Cañas | LinkedIn",
+   "correo_inferido": "",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "Patricio Farias",
+   "empresa": "MLP",
+   "usd": 5164.0,
+   "cotizaciones": 2,
+   "linkedin": "https://www.linkedin.com/in/patricio-farias-155a8730",
+   "titulo": "Patricio Farias | LinkedIn",
+   "correo_inferido": "patricio.farias@pelambres.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Wilmer Chirino",
+   "empresa": "Andina",
+   "usd": 4832.0,
+   "cotizaciones": 3,
+   "linkedin": "https://www.linkedin.com/in/wilmer-chirino-aa562a44",
+   "titulo": "Wilmer Chirino | LinkedIn",
+   "correo_inferido": "wilmer.chirino@codelco.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "ROSSANNY CARRASQUE",
+   "empresa": "MLP",
+   "usd": 4745.0,
+   "cotizaciones": 2,
+   "linkedin": "",
+   "titulo": "",
+   "correo_inferido": "rossanny.carrasque@pelambres.cl",
+   "confianza": "SIN PERFIL"
+  },
+  {
+   "nombre": "ariangel Flores",
+   "empresa": "MLP",
+   "usd": 4270.0,
+   "cotizaciones": 1,
+   "linkedin": "",
+   "titulo": "",
+   "correo_inferido": "ariangel.flores@pelambres.cl",
+   "confianza": "SIN PERFIL"
+  },
+  {
+   "nombre": "Jason Diaz",
+   "empresa": "Ventana",
+   "usd": 4149.0,
+   "cotizaciones": 4,
+   "linkedin": "https://www.linkedin.com/in/jason-diaz-4ba79745",
+   "titulo": "Jason Diaz | LinkedIn",
+   "correo_inferido": "",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Alex Jamet",
+   "empresa": "Bechtel",
+   "usd": 4018.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/alex-fernando-jamet-navarrete-15879371",
+   "titulo": "Alex Fernando Jamet Navarrete | LinkedIn",
+   "correo_inferido": "",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "Cinthia Villegas",
+   "empresa": "EGAFLOW",
+   "usd": 3959.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/cinthia-villegas-burgos-9811b7177",
+   "titulo": "Cinthia Villegas Burgos | LinkedIn",
+   "correo_inferido": "",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "Mauricio Claveria",
+   "empresa": "Ventana",
+   "usd": 3850.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/mauricio-claveria-cortez-22837b329",
+   "titulo": "Mauricio Claveria Cortez | LinkedIn",
+   "correo_inferido": "",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "Rossanny Carrasquero",
+   "empresa": "MLP",
+   "usd": 3807.0,
+   "cotizaciones": 1,
+   "linkedin": "",
+   "titulo": "",
+   "correo_inferido": "rossanny.carrasquero@pelambres.cl",
+   "confianza": "SIN PERFIL"
+  },
+  {
+   "nombre": "Jorge Torres",
+   "empresa": "Pucobre",
+   "usd": 3514.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/jorge-torres-hernandez-5b904022",
+   "titulo": "Jorge Torres Hernandez | LinkedIn",
+   "correo_inferido": "jorge.torres@pucobre.cl",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "Maria Estefania",
+   "empresa": "Anglo",
+   "usd": 2636.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/maria-estefania-arias-leal-45327b18",
+   "titulo": "Maria Estefania Arias Leal | LinkedIn",
+   "correo_inferido": "maria.estefania@angloamerican.com",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "Ender Pinto",
+   "empresa": "MLP",
+   "usd": 2475.0,
+   "cotizaciones": 1,
+   "linkedin": "",
+   "titulo": "",
+   "correo_inferido": "ender.pinto@pelambres.cl",
+   "confianza": "SIN PERFIL"
+  },
+  {
+   "nombre": "Jamet Navarrete",
+   "empresa": "Bechtel",
+   "usd": 2151.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/alex-fernando-jamet-navarrete-15879371",
+   "titulo": "Alex Fernando Jamet Navarrete | LinkedIn",
+   "correo_inferido": "",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "Claudia Bascuñan",
+   "empresa": "Pucobre",
+   "usd": 2000.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/claudia-bascunan-herrera-",
+   "titulo": "Claudia Bascuñán Herrera | LinkedIn",
+   "correo_inferido": "claudia.bascunan@pucobre.cl",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "Juan Vega",
+   "empresa": "Candelaria",
+   "usd": 1800.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/juan-vega-97aa7399",
+   "titulo": "Juan Vega | LinkedIn",
+   "correo_inferido": "",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Marcelo Catrileo",
+   "empresa": "MLP",
+   "usd": 1660.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/marcelo-catrileo-ruiz-280076118",
+   "titulo": "Marcelo Catrileo Ruiz | LinkedIn",
+   "correo_inferido": "marcelo.catrileo@pelambres.cl",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "Maria Arias",
+   "empresa": "Anglo",
+   "usd": 1288.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/maria-arias-a726891b8",
+   "titulo": "Maria Arias | LinkedIn",
+   "correo_inferido": "maria.arias@angloamerican.com",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Raul Nova",
+   "empresa": "INGENIERIA Y SERVICIOS RANCO SPA",
+   "usd": 1180.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/raul-nova-a2665039",
+   "titulo": "Raul Nova | LinkedIn",
+   "correo_inferido": "",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Hugo Morales",
+   "empresa": "Caserones",
+   "usd": 1024.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/hugo-morales",
+   "titulo": "Hugo Morales | LinkedIn",
+   "correo_inferido": "hugo.morales@caserones.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Francisco Martinez",
+   "empresa": "Andina",
+   "usd": 913.0,
+   "cotizaciones": 2,
+   "linkedin": "https://www.linkedin.com/in/francisco-mart%C3%ADnez-6194b928",
+   "titulo": "Francisco Martínez | LinkedIn",
+   "correo_inferido": "francisco.martinez@codelco.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Matias Labrin",
+   "empresa": "Molymetnos",
+   "usd": 703.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/matias-labrin-rodr%C3%ADguez-37a671194",
+   "titulo": "Matias Labrin Rodríguez | LinkedIn",
+   "correo_inferido": "",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "Maria Hernandez",
+   "empresa": "Caserones",
+   "usd": 556.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/maria-hernandez-1791b12b",
+   "titulo": "Maria Hernandez | LinkedIn",
+   "correo_inferido": "maria.hernandez@caserones.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "octavio castro",
+   "empresa": "Pucobre",
+   "usd": 506.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/octavio-castro-s-a89172329",
+   "titulo": "Octavio Castro S | LinkedIn",
+   "correo_inferido": "octavio.castro@pucobre.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Samuel Fernandez",
+   "empresa": "Codelco",
+   "usd": 0.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/samuel-fernandez-973628228",
+   "titulo": "Samuel Fernandez | LinkedIn",
+   "correo_inferido": "samuel.fernandez@codelco.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Ruben Pino",
+   "empresa": "Andina",
+   "usd": 0.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/ruben-pino",
+   "titulo": "Ruben Pino | LinkedIn",
+   "correo_inferido": "ruben.pino@codelco.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Jean Japaz",
+   "empresa": "Ing CPF",
+   "usd": 0.0,
+   "cotizaciones": 2,
+   "linkedin": "https://www.linkedin.com/in/jean-ing-84ab0a40",
+   "titulo": "Jean Ing | LinkedIn",
+   "correo_inferido": "",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Carla Martinez",
+   "empresa": "Salvador",
+   "usd": 0.0,
+   "cotizaciones": 2,
+   "linkedin": "https://www.linkedin.com/in/carla-martinez-9b292574",
+   "titulo": "Carla Martinez | LinkedIn",
+   "correo_inferido": "carla.martinez@codelco.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Miguel Aranis",
+   "empresa": "ASMAR",
+   "usd": 0.0,
+   "cotizaciones": 1,
+   "linkedin": "",
+   "titulo": "",
+   "correo_inferido": "",
+   "confianza": "SIN PERFIL"
+  },
+  {
+   "nombre": "Liliana Santamaria",
+   "empresa": "MLP",
+   "usd": 0.0,
+   "cotizaciones": 4,
+   "linkedin": "https://www.linkedin.com/in/liliana-santamaria-52b09a11a",
+   "titulo": "Liliana Santamaria | LinkedIn",
+   "correo_inferido": "liliana.santamaria@pelambres.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Jose Casareggio",
+   "empresa": "Enami",
+   "usd": 0.0,
+   "cotizaciones": 2,
+   "linkedin": "https://www.linkedin.com/in/casareggio-jose-52b7a6b9",
+   "titulo": "Casareggio Jose | LinkedIn",
+   "correo_inferido": "jose.casareggio@enami.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Rodrigo cortes",
+   "empresa": "CMP",
+   "usd": 0.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/rodrigo-cortes-gajardo-9744bb330",
+   "titulo": "Rodrigo Cortes Gajardo | LinkedIn",
+   "correo_inferido": "rodrigo.cortes@cmp.cl",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "Sergio Vergara",
+   "empresa": "Tecnasic",
+   "usd": 0.0,
+   "cotizaciones": 2,
+   "linkedin": "https://www.linkedin.com/in/sergio-vergara-bb7ab611a",
+   "titulo": "Sergio Vergara | LinkedIn",
+   "correo_inferido": "",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Jorge Lazo",
+   "empresa": "Candelaria",
+   "usd": 0.0,
+   "cotizaciones": 4,
+   "linkedin": "https://www.linkedin.com/in/jorge-lazo-48795869",
+   "titulo": "Jorge Lazo | LinkedIn",
+   "correo_inferido": "",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Marco Fernandez",
+   "empresa": "Enami",
+   "usd": 0.0,
+   "cotizaciones": 3,
+   "linkedin": "https://www.linkedin.com/in/marco-fernandez-895793163",
+   "titulo": "Marco Fernandez | LinkedIn",
+   "correo_inferido": "marco.fernandez@enami.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Fernando Morales",
+   "empresa": "Andina",
+   "usd": 0.0,
+   "cotizaciones": 2,
+   "linkedin": "https://www.linkedin.com/in/fernando-morales-641b4811",
+   "titulo": "Fernando Morales | LinkedIn",
+   "correo_inferido": "fernando.morales@codelco.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Patricio Guajardo",
+   "empresa": "MLP",
+   "usd": 0.0,
+   "cotizaciones": 2,
+   "linkedin": "https://www.linkedin.com/in/patricio-guajardo-701829195",
+   "titulo": "Patricio Guajardo | LinkedIn",
+   "correo_inferido": "patricio.guajardo@pelambres.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Eugenio Vasquez",
+   "empresa": "Candelaria",
+   "usd": 0.0,
+   "cotizaciones": 2,
+   "linkedin": "https://www.linkedin.com/in/eugenio-vasquez-a-ab64373b9",
+   "titulo": "Eugenio Vasquez A | LinkedIn",
+   "correo_inferido": "",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Victor Donoso",
+   "empresa": "Andina",
+   "usd": 0.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/victor-donoso-dassonvalle-678b9655",
+   "titulo": "Victor Donoso Dassonvalle | LinkedIn",
+   "correo_inferido": "victor.donoso@codelco.cl",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "Constanza Lazo",
+   "empresa": "MLP",
+   "usd": 0.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/constanza-lazo",
+   "titulo": "Constanza Lazo Muñoz | LinkedIn",
+   "correo_inferido": "constanza.lazo@pelambres.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Simon  McPhillips",
+   "empresa": "Salvador",
+   "usd": 0.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/simon-mcphillips-71b8485",
+   "titulo": "Simon Mcphillips | LinkedIn",
+   "correo_inferido": "simon.mcphillips@codelco.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Carlos Oviedo Alarcon",
+   "empresa": "Goldfields",
+   "usd": 0.0,
+   "cotizaciones": 2,
+   "linkedin": "https://www.linkedin.com/in/carlos-roberto-oviedo-alarcon-80b632212",
+   "titulo": "Carlos Roberto Oviedo Alarcon | LinkedIn",
+   "correo_inferido": "",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "Jorge Alberto Marcano",
+   "empresa": "MLP",
+   "usd": 0.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/jorge-marcano-71713227",
+   "titulo": "Jorge Marcano | LinkedIn",
+   "correo_inferido": "jorge.marcano@pelambres.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Miguel del Rio",
+   "empresa": "MLP",
+   "usd": 0.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/miguel-del-rio-324a35b8",
+   "titulo": "Miguel Del Rio | LinkedIn",
+   "correo_inferido": "miguel.rio@pelambres.cl",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "Manuel Rivas",
+   "empresa": "ICI",
+   "usd": 0.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/manuel-rivas-ici-ltda-107aa7127",
+   "titulo": "Manuel Rivas Ltda | LinkedIn",
+   "correo_inferido": "",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "Ivan Zuleta",
+   "empresa": "Pucobre",
+   "usd": 0.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/ivan-zuleta-0269998a",
+   "titulo": "Ivan Zuleta | LinkedIn",
+   "correo_inferido": "ivan.zuleta@pucobre.cl",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Eduardo Riveros",
+   "empresa": "MLP",
+   "usd": 0.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/eduardo-riveros-medina",
+   "titulo": "Eduardo Riveros | LinkedIn",
+   "correo_inferido": "eduardo.riveros@pelambres.cl",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "Nayaret Cornejo",
+   "empresa": "MLP",
+   "usd": 0.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/nayaret-cornejo-caro-25038b62",
+   "titulo": "Nayaret Cornejo | LinkedIn",
+   "correo_inferido": "nayaret.cornejo@pelambres.cl",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "Cristobal Sepulveda",
+   "empresa": "MLP",
+   "usd": 0.0,
+   "cotizaciones": 2,
+   "linkedin": "https://www.linkedin.com/in/cristobal-sep%C3%BAlveda-valdivia-b51296102",
+   "titulo": "Cristobal Sepulveda | LinkedIn",
+   "correo_inferido": "cristobal.sepulveda@pelambres.cl",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "Gabriela Rojas",
+   "empresa": "candelaria",
+   "usd": 0.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/gabriela-rojas-grillo-13007671",
+   "titulo": "Gabriela Rojas Grillo | LinkedIn",
+   "correo_inferido": "",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "Sheila Cuenca",
+   "empresa": "MLP",
+   "usd": 0.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/sheila-cuenca-jim%C3%A9nez-780540137",
+   "titulo": "Sheila Cuenca Jiménez | LinkedIn",
+   "correo_inferido": "sheila.cuenca@pelambres.cl",
+   "confianza": "ALTA (nombre completo)"
+  },
+  {
+   "nombre": "Marco Carranza",
+   "empresa": "Molymet",
+   "usd": 0.0,
+   "cotizaciones": 1,
+   "linkedin": "https://www.linkedin.com/in/marco-carranza",
+   "titulo": "Marco Carranza | LinkedIn",
+   "correo_inferido": "",
+   "confianza": "MEDIA (verificar homónimo)"
+  },
+  {
+   "nombre": "Elisa Jara",
+   "empresa": "Ventana",
+   "usd": 0.0,
+   "cotizaciones": 2,
+   "linkedin": "https://www.linkedin.com/in/elisa-jara",
+   "titulo": "Elisa Jara | LinkedIn",
+   "correo_inferido": "",
+   "confianza": "MEDIA (verificar homónimo)"
+  }
+ ]
+}
