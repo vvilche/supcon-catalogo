@@ -1,0 +1,108 @@
+{
+ "que_es": "Empresas que hacen BPO de abastecimiento en Chile: le operan el proceso de compras a la minera con equipo y procesos propios. SupplyNet es una de ellas (spin-off de Quadrem / SAP Ariba).",
+ "modelo": "BPO de abastecimiento = la empresa entrega su FUNCIÓN de compras a un tercero. No venden insumos: venden el proceso (compras, licitaciones, contratos, backoffice).",
+ "por_que_importa": "Son intermediarios: corren la licitación y el contrato de la minera. Son CANAL (pueden incluir el producto en las bases técnicas) y a la vez COMPETIDOR por el presupuesto de gestión.",
+ "cuantas": 10,
+ "empresas": {
+  "SupplyNet": {
+   "web": "supplynet.cl",
+   "origen": "spin-off de Quadrem y SAP Ariba",
+   "industrias": "Minería, Oil&Gas, Forestal, Utilities, Ingeniería",
+   "cliente": "Grupo minero (Gerencia Corporativa + faenas) e importante empresa minera global",
+   "cert": "ISO 27001",
+   "evidencia": "BPO, Servicios Profesionales, Consultoría, Capacitación, Soluciones Digitales"
+  },
+  "Andean BPO": {
+   "web": "andeanbpo.com",
+   "origen": "no declarado",
+   "industrias": "Minería (Chile y Latinoamérica)",
+   "cliente": "diversas compañías en Chile y Latinoamérica",
+   "cert": "",
+   "evidencia": "5/6 rasgos: BPO + abastecimiento + minería + contratos + licitación. Metodología propia OPTiMO para mantenimiento minero"
+  },
+  "CAS Group Consulting": {
+   "web": "casgroup.cl",
+   "origen": "no declarado",
+   "industrias": "Minería e industria",
+   "cliente": "no declarado",
+   "cert": "",
+   "evidencia": "5/6 rasgos. BPO Gestión de Licitaciones: spend analysis, bases técnicas, RFP, análisis de ofertas, adjudicación"
+  },
+  "Adelanta": {
+   "web": "adelanta.cl",
+   "origen": "no declarado",
+   "industrias": "Minería e industria",
+   "cliente": "proyectos mineros",
+   "cert": "ISO 9001:2015",
+   "evidencia": "5/6 rasgos: outsourcing + abastecimiento + minería + contratos + licitación"
+  },
+  "Sourcing": {
+   "web": "sourcing.cl",
+   "origen": "no declarado",
+   "industrias": "Minería e industria",
+   "cliente": "no declarado",
+   "cert": "",
+   "evidencia": "3/6 rasgos: administración de contratos, abastecimiento de servicios y proyectos, gestión de claims"
+  },
+  "IDE Consulting": {
+   "web": "ideconsulting.cl",
+   "origen": "no declarado",
+   "industrias": "Minería e industria",
+   "cliente": "no declarado",
+   "cert": "",
+   "evidencia": "3/6: consultoría estratégica en abastecimiento, gestión de licitaciones, administración de operaciones logísticas (+15 años)"
+  },
+  "SPS Global": {
+   "web": "spsglobal.cl",
+   "origen": "no declarado",
+   "industrias": "Minería e industria",
+   "cliente": "no declarado",
+   "cert": "",
+   "evidencia": "servicio de gestión de compras"
+  },
+  "Metaproject": {
+   "web": "metaprojectgroup.com",
+   "origen": "no declarado",
+   "industrias": "Minería",
+   "cliente": "CODELCO (renovó por 5 años su servicio de abastecimiento)",
+   "cert": "",
+   "evidencia": "servicios de abastecimiento y logística (supply chain); contrato real con Codelco"
+  },
+  "MIMS Projects": {
+   "web": "mimsprojects.com",
+   "origen": "no declarado",
+   "industrias": "Minería e industria",
+   "cliente": "no declarado",
+   "cert": "",
+   "evidencia": "gestión y automatización de proyectos"
+  },
+  "SGAI": {
+   "web": "sgai.cl",
+   "origen": "no declarado",
+   "industrias": "Minería e industria",
+   "cliente": "no declarado",
+   "cert": "",
+   "evidencia": "BPO + plataforma de procurement con IA; sitio no respondió a la lectura (contenido tras JS) — declarado como tal"
+  }
+ },
+ "no_es_bpo": {
+  "Miningtec SpA": "vende suministros, repuestos, equipos e importaciones: es proveedor, no BPO",
+  "ManpowerGroup (outsourcing minero)": "outsourcing de PERSONAL, no del proceso de compras",
+  "24-7 Ingeniería": "ingeniería y consultoría, no opera el proceso de compras",
+  "Escribano y Cía": "consultoría legal/contractual, no BPO",
+  "Salas ING": "servicios para minería (operacionales), no compras",
+  "Direcmin / Observatorio Minero / SupplierNet": "DIRECTORIOS de proveedores, no BPO"
+ },
+ "en_ecrm": {
+  "SupplyNet": 0,
+  "Andean BPO": 0,
+  "CAS Group Consulting": 0,
+  "Adelanta": 0,
+  "Sourcing": 0,
+  "IDE Consulting": 0,
+  "SPS Global": 0,
+  "Metaproject": 0,
+  "MIMS Projects": 0,
+  "SGAI": 0
+ }
+}
