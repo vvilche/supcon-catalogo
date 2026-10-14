@@ -105,7 +105,12 @@ def direcmin_slug(empresa):
                     "codelco-chile-divisi-n-el-teniente", "codelco-chile-divisi-n-ministro-hales",
                     "codelco-chile-divisi-n-radomiro-tomic", "codelco-chile-divisi-n-salvador",
                     "codelco-chile-divisi-n-ventanas"],
-        "cobre": ["codelco-chile-divisi-n-chuquicamata", "codelco-divisi-n-andina"],
+        # OJO (bug medido): un alias con la palabra suelta "cobre" matchea CUALQUIER empresa que la
+        # contenga — le asignó los ejecutivos de Chuquicamata a 'SOC PUNTA DEL COBRE S A' (Pucobre).
+        # Los alias de Codelco van por su nombre COMPLETO, nunca por la palabra genérica.
+        "corp nacional del cobre": ["codelco-chile-divisi-n-chuquicamata", "codelco-divisi-n-andina",
+                                    "codelco-chile-divisi-n-el-teniente"],
+        "codelco chile": ["codelco-chile-divisi-n-chuquicamata", "codelco-divisi-n-andina"],
         "candelaria": ["compa-a-contractual-minera-candelaria"],
         "pelambres": ["minera-los-pelambres"],
         "escondida": ["minera-escondida"],
@@ -268,9 +273,14 @@ def busca_direcmin(slug):
 # Verificado: ENAP (tabla de gerencias) y Codelco (tabla completa con CV).
 TRANSPARENCIA = {
     "enap": "https://www.enap.cl/la-empresa/estructura-corporativa/administracion",
+    "empresa nacional del petroleo": "https://www.enap.cl/la-empresa/estructura-corporativa/administracion",
     "codelco": "https://www.codelco.com/transparencia/responsables-de-la-administracion",
-    "cobre": "https://www.codelco.com/transparencia/responsables-de-la-administracion",
+    "corp nacional del cobre": "https://www.codelco.com/transparencia/responsables-de-la-administracion",
+    # OJO (bug medido): acá también estaba la clave suelta "cobre", que matchea CUALQUIER empresa que
+    # la contenga. Le cargó 12 gerentes de CODELCO a 'SOC PUNTA DEL COBRE S A' (Pucobre), incluidas
+    # las divisiones Radomiro Tomic, Gabriela Mistral y Ventanas. Los alias van por nombre completo.
     "enami": "https://www.enami.cl/transparencia-activa/responsables-de-la-administracion",
+    "empresa nacional de miner": "https://www.enami.cl/transparencia-activa/responsables-de-la-administracion",
 }
 
 RX_REG = re.compile(
