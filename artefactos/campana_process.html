@@ -1,0 +1,859 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Campaña Process · plan de uso</title><style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#f7f8fa;--cd:#fff;--bd:#e5e7eb;--tx:#111827;--mu:#6b7280;--ac:#1d4ed8;--vd:#047857;--am:#b45309}
+body{background:var(--bg);color:var(--tx);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;font-size:14.5px;line-height:1.6;padding:24px 16px 70px}
+.wrap{max-width:1240px;margin:0 auto}
+h1{font-size:26px;font-weight:680;letter-spacing:-.4px;margin-bottom:5px}
+.sub0{color:var(--mu);font-size:14px;margin-bottom:18px;max-width:970px}
+.kpis{display:flex;gap:9px;flex-wrap:wrap;margin-bottom:18px}
+.kpis div{background:var(--cd);border:1px solid var(--bd);border-radius:10px;padding:10px 15px;font-size:12px;color:var(--mu)}
+.kpis b{display:block;font-size:20px;font-weight:700;color:var(--tx)}
+.card{background:var(--cd);border:1px solid var(--bd);border-radius:12px;padding:15px 18px;margin-bottom:13px}
+h2{font-size:19px;font-weight:660;margin:26px 0 11px;letter-spacing:-.2px}
+h3{font-size:14px;font-weight:660;margin:13px 0 7px}
+.aviso{background:#fffbeb;border:1px solid #fde68a;border-left:4px solid var(--am);border-radius:9px;padding:12px 16px;margin:14px 0;font-size:13.5px}
+.aviso b{color:#92400e}
+.aviso.vd{background:#f0fdf4;border-color:#bbf7d0;border-left-color:#047857}
+.aviso.vd b{color:#065f46}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th{text-align:left;font-size:10.5px;text-transform:uppercase;letter-spacing:.4px;color:var(--mu);font-weight:700;padding:8px 8px;border-bottom:2px solid var(--bd)}
+td{padding:7px 8px;border-bottom:1px solid #f3f4f6;vertical-align:top}
+tr:last-child td{border-bottom:none}
+.sub{display:block;font-size:11px;color:var(--mu);margin-top:1px}
+.sub2{font-size:12.5px;color:#4b5563}
+.tel{font-family:ui-monospace,Menlo,monospace;font-size:12px;color:var(--vd)}
+.falta{color:var(--am);font-weight:600;font-size:12.5px}
+.ext{font-size:12px;color:#92400e;background:#fffbeb;border-radius:4px;padding:1px 6px}
+.gris{color:var(--mu);font-style:italic}
+.chip{display:inline-block;font-size:12px;background:#f3f4f6;color:#374151;border-radius:5px;padding:3px 9px;margin:0 4px 4px 0}
+.chip b{color:#1d4ed8}
+.jugada{background:var(--cd);border:1px solid var(--bd);border-left:4px solid var(--ac);border-radius:10px;padding:13px 17px;margin-bottom:11px}
+.jugada b.t{color:var(--ac)}
+ul{margin:7px 0 7px 19px} li{margin-bottom:5px}
+footer{margin-top:28px;padding-top:15px;border-top:1px solid var(--bd);font-size:12.5px;color:var(--mu)}
+footer a{color:var(--ac)}
+code{background:#f3f4f6;padding:1px 5px;border-radius:4px;font-size:12.5px}
+</style></head><body><div class="wrap">
+
+<h1>Campaña de Detección Process: análisis y plan de uso</h1>
+<p class="sub0">El archivo <code>Campaña de Detección Process.xlsx</code> es el CRM de la campaña
+para detectar oportunidades de la línea <b>Process</b>. Acá está qué contiene, qué le falta, y
+<b>cómo se combina con el trabajo de prospección</b> ya hecho.</p>
+
+<div class="kpis">
+  <div><b>75</b>plantas target</div>
+  <div><b>31</b>proyectos (US$33.6 mil M)</div>
+  <div><b>13</b>actividades</div>
+  <div><b>5</b>fuentes</div>
+  <div><b>10</b>plantas ya con decisores</div>
+</div>
+
+<h2>1. Qué contiene el archivo (las 5 hojas)</h2>
+<div class="card">
+  <table><thead><tr><th>Hoja</th><th>Qué trae</th><th>Estado real</th></tr></thead><tbody>
+    <tr><td><b>Plan</b></td><td>La estructura: Planta | Industria | Ubicación | Prioridad</td>
+        <td class="sub2">solo el encabezado (es la plantilla)</td></tr>
+    <tr><td><b>Targets</b></td><td>75 plantas, con dueño, industria y 6 columnas de
+        línea (BI, SYS, FDS, Válvulas, Analítica, Scada) para marcar lo detectado</td>
+        <td class="falta">2 con contacto · 3 con siguiente paso
+        · 20 marcas de línea de 450</td></tr>
+    <tr><td><b>Proyectos</b></td><td>31 proyectos con inversión, estado (Aprobado/EIA),
+        EPCM y <b>link a la fuente</b></td>
+        <td class="sub2">completa y con fuente</td></tr>
+    <tr><td><b>Actividades</b></td><td>Siguiente acción por cliente con responsable + una sección de
+        <b>Puntos Claves</b> con deadlines (visitas KL, lanzamiento de marca, proceso de ventas)</td>
+        <td class="sub2">parcial</td></tr>
+    <tr><td><b>Fuentes</b></td><td>5 URLs de seguimiento (LinkedIn, Coordinador,
+        ReporteMinero, MCH, SEIA…)</td><td class="sub2">lista de trabajo</td></tr>
+  </tbody></table>
+</div>
+
+<div class="aviso">
+  <b>El diagnóstico, derecho:</b> el archivo tiene <b>el QUÉ</b> — las 75 plantas
+  objetivo, 31 proyectos con su inversión y las fuentes — pero está <b>a medio
+  hacer</b>: de 75 plantas hay <b>2 con contacto</b> y
+  <b>3 con siguiente paso</b>. Las seis columnas de línea están
+  <b>casi vacías (20 marcas)</b>: la detección no se hizo.
+  <br><br>
+  El trabajo de prospección tiene <b>el QUIÉN</b>: 2.691 decisores con cargo, LinkedIn y teléfono.
+  Pero no sabía qué planta era target de esta campaña. <b>Cada uno cubre el hueco del otro.</b>
+</div>
+
+<h2>2. El cruce: qué se encontró</h2>
+<div class="card">
+  <ul>
+    <li><b>10 de 75 plantas ya tienen decisores mapeados</b> —
+    y hay <b>161 decisores disponibles</b> para las que el Excel dejó sin
+    contacto.</li>
+    <li><b>65 plantas sin ningún decisor</b>: son en su mayoría
+    <b>generación</b> (ENEL GP, Statkraft, parques eólicos, GAS SUR), que es justo el rubro que el
+    barrido cubrió menos.</li>
+    <li><b>4 plantas tienen proyecto en carpeta</b> con su monto: ahí el Excel y
+    los decisores ya convergen.</li>
+    <li><b>6 con teléfono</b> de central (el cruce con el RETC lo aportó).</li>
+  </ul>
+  <h3>Industrias del target</h3>
+  <span class="chip">Generacion <b>32</b></span><span class="chip">Minería <b>11</b></span><span class="chip">Alimentos <b>10</b></span><span class="chip">Química y combustibles <b>5</b></span><span class="chip">Pulpa y papel <b>4</b></span><span class="chip">Construcción <b>2</b></span><span class="chip">Aguas y saneamiento <b>2</b></span><span class="chip">Metalmecánica <b>2</b></span><span class="chip">Oil &amp; Gas <b>1</b></span><span class="chip">Mineria (Hierro | Cobre) <b>1</b></span><span class="chip">Manufactura <b>1</b></span><span class="chip">Mineria <b>1</b></span>
+</div>
+
+<h2>3. Las 3 jugadas del uso combinado</h2>
+
+<div class="jugada">
+  <b class="t">JUGADA 1 — Llenar el contacto que falta (lo más rápido)</b>
+  <p class="sub2">El Excel tiene <b>2</b> contactos para 75 plantas.
+  El buscador tiene decisores con cargo y LinkedIn para <b>10</b> de esas plantas
+  — <b>161 personas</b>. Es pegar una columna en la otra.</p>
+  <ul>
+    <li><b>Minera Las Cenizas</b> (Explotación Mina Aguilucho, US$12,5M, Aprobado): 31 decisores
+    mapeados — <i>Cristian Argandoña León, Gerente General</i>.</li>
+    <li><b>Minera San Gerónimo</b>: 25 decisores — <i>Patricio Rendic Lazo, Director Ejecutivo</i>.</li>
+    <li><b>Los Bronces / El Soldado / Fundición Chagres</b> (Anglo American): 21 decisores cada
+    una, con teléfono de central.</li>
+    <li><b>Minera Valle Central</b>: 18 — <i>Christian Cáceres Meneses</i>.</li>
+  </ul>
+</div>
+
+<div class="jugada">
+  <b class="t">JUGADA 2 — Priorizar por la plata del proyecto, no por la lista</b>
+  <p class="sub2">El Excel tiene la inversión de cada proyecto. Eso permite ordenar el ataque por
+  tamaño real y no por orden de carga. Los 12 mayores:</p>
+  <table><thead><tr><th>Inversión</th><th>Proyecto</th><th>Dueño</th><th>Estado</th></tr></thead>
+  <tbody><tr><td>US$<b>16,000M</b></td><td>H2 Magallanes</td><td class="sub2"></td><td class="sub2"></td></tr><tr><td>US$<b>7,500M</b></td><td>mineria el abra</td><td class="sub2">Freeport-McMoRan-Codel</td><td class="sub2"></td></tr><tr><td>US$<b>2,000M</b></td><td>Pozuelos y Pastos Grandes Lithium</td><td class="sub2">Ganfeng &amp; Lithium Arge</td><td class="sub2"></td></tr><tr><td>US$<b>1,700M</b></td><td>modernización de la Fundición Hernán Videla Li</td><td class="sub2">ENAMI</td><td class="sub2">Aprobado</td></tr><tr><td>US$<b>1,300M</b></td><td>Optimización Operacional en Pila de Lixiviació</td><td class="sub2">BHP - Minera Escondida</td><td class="sub2">En Calificació</td></tr><tr><td>US$<b>750M</b></td><td>Parque Híbrido Eólico y Solar Vientos de Talta</td><td class="sub2">EDP</td><td class="sub2">Suspendido</td></tr><tr><td>US$<b>700M</b></td><td>Modificación Pila de Lixiviación Sulfolix El A</td><td class="sub2">El Abra</td><td class="sub2">Aprobado</td></tr><tr><td>US$<b>550M</b></td><td>Parque Hibrido Pampas</td><td class="sub2">AES</td><td class="sub2">Por iniciar Ev</td></tr><tr><td>US$<b>500M</b></td><td>Marimaca Copper</td><td class="sub2"></td><td class="sub2">Aprobado</td></tr><tr><td>US$<b>466M</b></td><td>dos nuevas subestaciones -Casablanca, de 220/6</td><td class="sub2">Elecnor</td><td class="sub2"></td></tr><tr><td>US$<b>350M</b></td><td>Nueva Victoria Planta Yoduro</td><td class="sub2">SQM</td><td class="sub2">Aprobado</td></tr><tr><td>US$<b>320M</b></td><td>RWE Renewables</td><td class="sub2">RWE Renewables</td><td class="sub2"></td></tr></tbody></table>
+  <p class="sub2" style="margin-top:9px">Ojo con dos lecturas: <b>Aprobado</b> = listo para
+  especificar; <b>EIA / En Calificación</b> = todavía se puede entrar en las bases técnicas
+  (que es donde conviene influir).</p>
+</div>
+
+<div class="jugada">
+  <b class="t">JUGADA 3 — Cerrar el hueco de generación</b>
+  <p class="sub2">65 plantas del target no tienen ningún decisor mapeado, y el
+  patrón es claro: <b>generación</b> (ENEL GP, Statkeeper, parques eólicos, PUCLARO, GAS SUR,
+  LIPIGAS). El barrido anterior se concentró en minería y acuicultura.</p>
+  <ul>
+    <li>Acción concreta: correr el buscador sobre esas 65 plantas con la capa
+    LinkedIn — el mismo motor que rindió 89% en las mineras.</li>
+    <li>Y usar las <b>5 fuentes</b> que el propio Excel lista para encontrar los
+    dueños de los parques que están sin dueño en la planilla.</li>
+  </ul>
+</div>
+
+<h2>4. Las 75 plantas del target, con lo que ya se sabe de cada una</h2>
+<div class="card">
+  <table><thead><tr>
+    <th>Planta / Dueño</th><th>Industria</th><th>Decisores mapeados</th><th>Teléfono</th>
+    <th>Proyecto</th><th>Contacto en Excel</th><th>Siguiente paso</th>
+  </tr></thead><tbody>
+    <tr>
+      <td><b>Minera Las Cenizas</b><span class="sub">Minera Las Cenizas</span></td>
+      <td class="sub2">Minería</td>
+      <td><b>31</b><span class="sub">Cristian Argandoña León</span></td>
+      <td><span class="tel">+56 2 2368 8300</span></td>
+      <td><b>US$12M</b></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>Minera San Gerónimo</b><span class="sub">Minera San Gerónimo</span></td>
+      <td class="sub2">Minería</td>
+      <td><b>25</b><span class="sub">Patricio Rendic Lazo</span></td>
+      <td><span class="tel">257 1100</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>Los Bronces</b><span class="sub">Anglo American Sur S.A.</span></td>
+      <td class="sub2">Minería</td>
+      <td><b>21</b><span class="sub">Patricio Hidalgo</span></td>
+      <td><span class="tel">2534310</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>Anglo American - El Soldado</b><span class="sub">Anglo American</span></td>
+      <td class="sub2">Minería</td>
+      <td><b>21</b><span class="sub">Patricio Hidalgo</span></td>
+      <td><span class="tel">2534310</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>Fundición Chagres (Anglo American)</b><span class="sub">Anglo American</span></td>
+      <td class="sub2">Minería</td>
+      <td><b>21</b><span class="sub">Patricio Hidalgo</span></td>
+      <td><span class="tel">2534310</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>Miner a Valle Central</b><span class="sub">Minera Valle Central</span></td>
+      <td class="sub2">Minería</td>
+      <td><b>18</b><span class="sub">Christian Cáceres Menese</span></td>
+      <td><span class="tel">+56 2 2368 8300</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>Minera Yamana Gold - Planta Florida ( villa alemana)</b><span class="sub">Yamana Gold ( gold fields)</span></td>
+      <td class="sub2">Minería</td>
+      <td><b>12</b><span class="sub">Manuel Carrasco</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>Nestlé Chile - Planta Graneros</b><span class="sub">Nestlé Chile</span></td>
+      <td class="sub2">Alimentos</td>
+      <td><b>9</b><span class="sub">Paulino Aravena Albarrán</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>ENEL GENERACION</b><span class="sub"></span></td>
+      <td class="sub2">Generacion</td>
+      <td><b>2</b><span class="sub">William Univaso Hansen</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>Agrosuper - Planta Faenadora San Vicente</b><span class="sub">Agrosuper</span></td>
+      <td class="sub2">Alimentos</td>
+      <td><b>1</b><span class="sub">Olea Hector</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>Codelco - El Teniente</b><span class="sub">Codelco</span></td>
+      <td class="sub2">Minería</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><b>US$7,500M</b></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>Codelco - BP</b><span class="sub">Codelco</span></td>
+      <td class="sub2"></td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><b>US$7,500M</b></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>pisa ( Quilicura)</b><span class="sub">Pisa</span></td>
+      <td class="sub2">Pulpa y papel</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><b>US$35M</b></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>ENEL GREEN POWER</b><span class="sub">ENEL GP</span></td>
+      <td class="sub2">Generacion</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>ALLIPEN</b><span class="sub">GPE</span></td>
+      <td class="sub2">Generacion</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>RUCATAYO</b><span class="sub">Statkraft</span></td>
+      <td class="sub2">Generacion</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>PARQUE EOLICO LEBU</b><span class="sub"></span></td>
+      <td class="sub2">Generacion</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>EL PELICANO</b><span class="sub"></span></td>
+      <td class="sub2">Generacion</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>PUCLARO</b><span class="sub"></span></td>
+      <td class="sub2">Generacion</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>TACORA ENERGY</b><span class="sub"></span></td>
+      <td class="sub2">Generacion</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>PUNTILLA</b><span class="sub">Electrica Puntilla / Canal del Mai</span></td>
+      <td class="sub2">Generacion</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>GAS SUR</b><span class="sub"></span></td>
+      <td class="sub2">Generacion</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>CHACAYES</b><span class="sub"></span></td>
+      <td class="sub2">Generacion</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>SGA</b><span class="sub"></span></td>
+      <td class="sub2">Generacion</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>LIPIGAS</b><span class="sub"></span></td>
+      <td class="sub2">Generacion</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>LA HIGUERA</b><span class="sub"></span></td>
+      <td class="sub2">Generacion</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>ALMEYDA</b><span class="sub"></span></td>
+      <td class="sub2">Generacion</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>LA CONFLUENCIA</b><span class="sub"></span></td>
+      <td class="sub2">Generacion</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>SAN JUAN (LAP)</b><span class="sub"></span></td>
+      <td class="sub2">Generacion</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>ATRIA ENERGIA</b><span class="sub"></span></td>
+      <td class="sub2">Generacion</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>ACCIONA</b><span class="sub"></span></td>
+      <td class="sub2">Generacion</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>NORVIND</b><span class="sub"></span></td>
+      <td class="sub2">Generacion</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>BESALCO</b><span class="sub"></span></td>
+      <td class="sub2">Generacion</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>EMELDA</b><span class="sub"></span></td>
+      <td class="sub2">Generacion</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>MONTE REDONDO</b><span class="sub"></span></td>
+      <td class="sub2">Generacion</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>CHUNGUNGO</b><span class="sub"></span></td>
+      <td class="sub2">Generacion</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>SANTIAGO SOLAR</b><span class="sub"></span></td>
+      <td class="sub2">Generacion</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>CAREN</b><span class="sub"></span></td>
+      <td class="sub2">Generacion</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>GM HOLDINGS</b><span class="sub"></span></td>
+      <td class="sub2">Generacion</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>CERRO DOMINADOR CSP</b><span class="sub"></span></td>
+      <td class="sub2">Generacion</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>IMELSA ENERGIA</b><span class="sub"></span></td>
+      <td class="sub2">Generacion</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>LUZ DEL NORTE</b><span class="sub"></span></td>
+      <td class="sub2">Generacion</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>AELA GENERACION</b><span class="sub"></span></td>
+      <td class="sub2">Generacion</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>Central Lautaro</b><span class="sub">Comasa</span></td>
+      <td class="sub2">Generacion</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="ext">Hector Saavedra
+56 9 5</span></td>
+      <td class="sub2">VVD Le solicito info de PLC, instrumentación</td>
+    </tr>
+    <tr>
+      <td><b>Refineria Aconcagua</b><span class="sub">Enap</span></td>
+      <td class="sub2">Oil &amp; Gas</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>Proyecto Dominga</b><span class="sub">Andes Iron</span></td>
+      <td class="sub2">Mineria (Hierro | Cobre)</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2">01Sept2026 | Buscar contactos [EQR]</td>
+    </tr>
+    <tr>
+      <td><b>Múltiplas S.A. - Lampa</b><span class="sub">Múltiplas</span></td>
+      <td class="sub2">Manufactura</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>Fibrocementos James Hardie Ltda. - Lampa</b><span class="sub">Fibrocementos Volcán Limitada</span></td>
+      <td class="sub2">Construcción</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>PTAS La Farfana</b><span class="sub">Aguas Andinas S.A.</span></td>
+      <td class="sub2">Aguas y saneamiento</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>PTAS Barrancas - Pudahuel</b><span class="sub">Aguas Santiago Poniente S.A.</span></td>
+      <td class="sub2">Aguas y saneamiento</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>Harsco Metals Chile - Til Til</b><span class="sub">Harsco Metals Chile S.A.</span></td>
+      <td class="sub2">Metalmecánica</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>Faenadora Lo Valledor</b><span class="sub">Agrícola AASA</span></td>
+      <td class="sub2">Alimentos</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>Cintac S.A.I.C. - Maipú</b><span class="sub">Cintac S.A.I.C.</span></td>
+      <td class="sub2">Metalmecánica</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>GNL Quintero (terminal de regasificación)</b><span class="sub">GNL Quintero</span></td>
+      <td class="sub2">Química y combustibles</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>Oxiquim - Terminal Marítimo Quintero</b><span class="sub">Oxiquim</span></td>
+      <td class="sub2">Química y combustibles</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>Melón - Planta Cemento Til Til / La Calera</b><span class="sub">Melón</span></td>
+      <td class="sub2">Construcción</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>Indura - Planta de Gases Industriales Quilicura</b><span class="sub">Indura</span></td>
+      <td class="sub2">Química y combustibles</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>Gasco - Planta GLP San Bernardo / Batuco</b><span class="sub">Gasco</span></td>
+      <td class="sub2">Química y combustibles</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>CMPC - Papeles Cordillera</b><span class="sub">CMPC</span></td>
+      <td class="sub2">Pulpa y papel</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>CMPC - Planta Tissue Talagante</b><span class="sub">CMPC</span></td>
+      <td class="sub2">Pulpa y papel</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="ext">Antonio perez</span></td>
+      <td class="sub2">visita semana del 19 de octubre</td>
+    </tr>
+    <tr>
+      <td><b>CPP San Francisco de Mostazal</b><span class="sub">Compañia papeles pacifico (CPP)</span></td>
+      <td class="sub2">Pulpa y papel</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>Carozzi - Planta Nos</b><span class="sub">Carozzi</span></td>
+      <td class="sub2">Alimentos</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>Watts - Planta San Bernardo</b><span class="sub">Watts</span></td>
+      <td class="sub2">Alimentos</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>Minera Tres Valles</b><span class="sub">Minera Tres Valles</span></td>
+      <td class="sub2">Minería</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>Ariztía - Planta Melipilla</b><span class="sub">Ariztía</span></td>
+      <td class="sub2">Alimentos</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>Empresas Lucchetti - Planta Renca</b><span class="sub">Empresas Lucchetti</span></td>
+      <td class="sub2">Alimentos</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>Evercrisp - Planta de Snacks RM</b><span class="sub">Evercrisp</span></td>
+      <td class="sub2">Alimentos</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>Molymet - Planta Nos</b><span class="sub">Molymet</span></td>
+      <td class="sub2">Minería</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>CEMIN Holding Minero - Planta Catemu</b><span class="sub">CEMIN Holding Minero</span></td>
+      <td class="sub2">Minería</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>CORPORA</b><span class="sub">CORPORA</span></td>
+      <td class="sub2">Alimentos</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>fruna ( camino a melipilla)</b><span class="sub">Fruna</span></td>
+      <td class="sub2">Alimentos</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>Quimetal (lonquen)</b><span class="sub">Quimetal</span></td>
+      <td class="sub2">Química y combustibles</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>Las Tortolas</b><span class="sub">Angloamerican</span></td>
+      <td class="sub2">Mineria</td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>Juntarme con Mario y Victoriano</b><span class="sub"></span></td>
+      <td class="sub2"></td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr>
+    <tr>
+      <td><b>Peronas de operaciones, mantenimiento, instriumentistas</b><span class="sub"></span></td>
+      <td class="sub2"></td>
+      <td><span class="falta">0 — a cubrir</span></td>
+      <td><span class="gris">—</span></td>
+      <td><span class="gris">—</span></td>
+      <td class="sub2"><span class="falta">falta</span></td>
+      <td class="sub2"><span class="gris">sin siguiente paso</span></td>
+    </tr></tbody></table>
+  <p class="sub" style="margin-top:10px">Columna <b>Decisores mapeados</b>: los que ya existen en
+  el buscador (nombre del primero y total). <b>Contacto en Excel</b>: lo que la campaña ya tenía
+  cargado — naranjo = falta. <b>Proyecto</b>: inversión sumada de los proyectos del dueño.</p>
+</div>
+
+<h2>5. Qué hacer esta semana (ordenado)</h2>
+<div class="card">
+  <h3>Los 3 puntos clave de la propia campaña (con su deadline)</h3>
+  <table><thead><tr><th>#</th><th>Tema</th><th>Acción pendiente</th><th>Próxima acción</th><th>Deadline</th></tr></thead>
+  <tbody><tr><td><b>1</b></td><td>Visitas KL</td><td class="sub2">Coordinar la visita de ENAMI</td><td class="sub2">CAO va a preparar material para Viera, se lo va a mandar</td><td class="sub2">2025-11-25</td></tr><tr><td><b>2</b></td><td>Lanzamiento de la Marca</td><td class="sub2">—</td><td class="sub2">—</td><td class="sub2">sin fecha</td></tr><tr><td><b>3</b></td><td>Conceptos del Proceso de Ventas</td><td class="sub2">—</td><td class="sub2">—</td><td class="sub2">sin fecha</td></tr></tbody></table>
+  <p class="sub" style="margin-top:9px">El único con deadline cargado es el <b>1</b>: coordinar la
+  visita de ENAMI antes del <b>25-11-2025</b>. Los puntos 2 y 3 (lanzamiento de la marca y
+  conceptos del proceso de ventas) están sin fecha.</p>
+
+  <h3 style="margin-top:16px">El orden que propongo, cruzado con lo que ya existe</h3>
+  <ul>
+    <li><b>1.</b> Cargar en el Excel los decisores de las 10 plantas que ya los
+    tienen — <b>161 contactos nuevos</b>, de un pegado.</li>
+    <li><b>2.</b> Arrancar por las 3 con siguiente paso ya escrito: <b>ENAMI</b> (presentación
+    presencial en Paipote, con deadline 25-11), <b>Dominga</b> (buscar contactos) y <b>CMPC
+    Talagante</b> (visita del 19 de octubre). Las tres tienen decisores disponibles y teléfono.</li>
+    <li><b>3.</b> Correr el buscador sobre las 65 plantas de generación — es el
+    hueco más grande del target (ENEL GP, Statkraft, parques eólicos, GAS SUR, LIPIGAS).</li>
+    <li><b>4.</b> Marcar las columnas de línea (BI/SYS/FDS/Válvulas/Analítica/Scada) con lo que el
+    <a href="cliente_producto_persona.html">cruce de producto</a> ya resolvió por dolor medido.</li>
+  </ul>
+</div>
+
+<footer>
+  Fuentes: <code>Campaña de Detección Process.xlsx</code> (5 hojas) ·
+  <a href="plan_accion_geo.html">plan de acción por región</a> ·
+  <a href="cliente_producto_persona.html">empresa→producto→persona</a> ·
+  <a href="buscador_decisores.html">buscador de decisores</a> ·
+  <a href="../index.html">catálogo</a>.
+</footer>
+</div></body></html>
