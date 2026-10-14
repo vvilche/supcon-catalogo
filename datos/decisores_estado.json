@@ -1,0 +1,171 @@
+{
+ "que_es": "Gerentes y decisores de empresas del ESTADO (ENAP), tomados de su página de transparencia: nombre, cargo, profesión y RUT. La ley obliga a publicarlos.",
+ "la_leccion": "Se había contado a ENAP como 'hueco: 7 contactos, ninguno de Medio Ambiente'. FALSO: el Gerente Corporativo de Medio Ambiente está publicado en el sitio de transparencia. El error fue buscar en LinkedIn/catálogo en vez de en la fuente pública obligatoria.",
+ "donde_buscar": "empresas del Estado con transparencia activa: ENAP, Codelco, Enami, EFE, Metro, Correos, BancoEstado. Todas publican sus ejecutivos con nombre y cargo.",
+ "totales": {
+  "pagina_administracion": 13,
+  "ambiente_hse_extra": 6
+ },
+ "pagina_administracion": [
+  {
+   "empresa": "ENAP",
+   "nombre": "Julio Alexis Friedmann Encina",
+   "cargo": "Gerente General",
+   "profesion": "Ingeniero Civil",
+   "rut": "7.988.418-9",
+   "fuente": "enap.cl/la-empresa/estructura-corporativa/administracion"
+  },
+  {
+   "empresa": "ENAP",
+   "nombre": "Rodrigo José Bustamante Villegas",
+   "cargo": "Gerente Corporativo de Exploración y Producción (E&P)",
+   "profesion": "Ingeniero Civil Electrónico",
+   "rut": "12.219.794-8",
+   "fuente": "enap.cl/la-empresa/estructura-corporativa/administracion"
+  },
+  {
+   "empresa": "ENAP",
+   "nombre": "Álvaro Eduardo Hillerns Velasco",
+   "cargo": "Gerente Corporativo de Refinerías",
+   "profesion": "Ingeniero Civil Mecánico",
+   "rut": "13.104.142-K",
+   "fuente": "enap.cl/la-empresa/estructura-corporativa/administracion"
+  },
+  {
+   "empresa": "ENAP",
+   "nombre": "Mariano Ignacio Pallero Alonso",
+   "cargo": "Gerente Corporativo de Desarrollo y Planificación Estratégica",
+   "profesion": "Contador Auditor",
+   "rut": "26.663.598-2",
+   "fuente": "enap.cl/la-empresa/estructura-corporativa/administracion"
+  },
+  {
+   "empresa": "ENAP",
+   "nombre": "Marcelo Alberto Hernández Pérez",
+   "cargo": "Gerente Corporativo de Personas",
+   "profesion": "Psicólogo",
+   "rut": "11.416.007-5",
+   "fuente": "enap.cl/la-empresa/estructura-corporativa/administracion"
+  },
+  {
+   "empresa": "ENAP",
+   "nombre": "José Ignacio Dougnac Vera",
+   "cargo": "Gerente Corporativo de Administración y Finanzas",
+   "profesion": "Ingeniero Comercial",
+   "rut": "15.343.274-0",
+   "fuente": "enap.cl/la-empresa/estructura-corporativa/administracion"
+  },
+  {
+   "empresa": "ENAP",
+   "nombre": "Eduardo Andrés Jara Arnal",
+   "cargo": "Gerente Corporativo Legal",
+   "profesion": "Abogado",
+   "rut": "12.231.716-1",
+   "fuente": "enap.cl/la-empresa/estructura-corporativa/administracion"
+  },
+  {
+   "empresa": "ENAP",
+   "nombre": "Carlos Mauricio Naveas Farías",
+   "cargo": "Gerente Corporativo de Logística",
+   "profesion": "Ingeniero Civil Industrial",
+   "rut": "11.736.487-9",
+   "fuente": "enap.cl/la-empresa/estructura-corporativa/administracion"
+  },
+  {
+   "empresa": "ENAP",
+   "nombre": "Rodrigo José Bustamante Villegas",
+   "cargo": "Gerente General Enap E&P Magallanes",
+   "profesion": "Ingeniero Civil Electrónico",
+   "rut": "12.219.794-8",
+   "fuente": "enap.cl/la-empresa/estructura-corporativa/administracion"
+  },
+  {
+   "empresa": "ENAP",
+   "nombre": "Mauricio Abraham Oyarzo Rodríguez",
+   "cargo": "Gerente de Ingeniería, Operación y Mantenimiento",
+   "profesion": "Ingeniero Civil Electrónico",
+   "rut": "9.368.185-1",
+   "fuente": "enap.cl/la-empresa/estructura-corporativa/administracion"
+  },
+  {
+   "empresa": "ENAP",
+   "nombre": "Edwards Arturo Godoy Dobson",
+   "cargo": "Gerente de Perforación y Reparación de Pozos",
+   "profesion": "Ingeniero Ejecución Químico con mención en Petróleo y Petroquímico",
+   "rut": "15.309.437-3",
+   "fuente": "enap.cl/la-empresa/estructura-corporativa/administracion"
+  },
+  {
+   "empresa": "ENAP",
+   "nombre": "Iván Marcelo Arriagada Saldías",
+   "cargo": "Gerente de Exploración y Reservorios",
+   "profesion": "Geólogo",
+   "rut": "9.599.132-7",
+   "fuente": "enap.cl/la-empresa/estructura-corporativa/administracion"
+  },
+  {
+   "empresa": "ENAP",
+   "nombre": "Omar Alejandro Oyaneder Leiva",
+   "cargo": "Gerente Corporativo de Auditoría Interna",
+   "profesion": "Ingeniero Comercial",
+   "rut": "12.231.994-6",
+   "fuente": "enap.cl/la-empresa/estructura-corporativa/administracion"
+  }
+ ],
+ "ambiente_y_hse": [
+  {
+   "empresa": "ENAP",
+   "nombre": "Jorge Lobato Urrutia",
+   "cargo": "Gerente Corporativo de Medio Ambiente",
+   "area": "Medio Ambiente",
+   "detalle": "Desde febrero de 2022",
+   "fuente": "enap.cl/files/get/1368",
+   "linkedin": ""
+  },
+  {
+   "empresa": "ENAP",
+   "nombre": "Lorena Carvallo Alache",
+   "cargo": "Gerente Corporativo Medio Ambiente",
+   "area": "Medio Ambiente",
+   "detalle": "Environmental Impact Assessment / Compliance / Biodiversity",
+   "fuente": "linkedin.com/in/lorena-carvallo-alache",
+   "linkedin": "https://www.linkedin.com/in/lorena-carvallo-alache"
+  },
+  {
+   "empresa": "ENAP",
+   "nombre": "Fabián Guerrero",
+   "cargo": "Director de Gestión Ambiental Corporativo",
+   "area": "Medio Ambiente",
+   "detalle": "",
+   "fuente": "linkedin.com/in/faguerrero",
+   "linkedin": "https://www.linkedin.com/in/faguerrero"
+  },
+  {
+   "empresa": "ENAP",
+   "nombre": "Claudia Arancibia Fuenzalida",
+   "cargo": "Jefa de División Gestión Ambiental",
+   "area": "Medio Ambiente",
+   "detalle": "Desde mayo 2023; Quintero, Valparaíso",
+   "fuente": "contactout (perfil público)",
+   "linkedin": ""
+  },
+  {
+   "empresa": "ENAP",
+   "nombre": "Douglas Sequeira Morgado",
+   "cargo": "Gerente Corporativo de Salud Ocupacional y Seguridad (HSEC)",
+   "area": "HSE",
+   "detalle": "Ingeniero en Prevención de Riesgos y Medio Ambiente",
+   "fuente": "enap.cl (versión EN)",
+   "linkedin": ""
+  },
+  {
+   "empresa": "ENAP",
+   "nombre": "Gian Franco Ferrari",
+   "cargo": "Jefe División Mantención Mayor de Plantas e Instalaciones (Ref. Aconcagua)",
+   "area": "Mantenimiento",
+   "detalle": "Fuente de prensa local, 2024",
+   "fuente": "observador.cl",
+   "linkedin": ""
+  }
+ ]
+}

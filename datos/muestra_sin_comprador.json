@@ -1,0 +1,3922 @@
+{
+ "sin_contacto": [
+  {
+   "empresa": "Empresa Electrica Campiche Spa",
+   "rubro": "Termoeléctricas",
+   "carga_peligrosa_t": 2739.62,
+   "respel_t": 399.0,
+   "lineas": [
+    "Analítica",
+    "Instrumentación",
+    "SIS",
+    "Válvulas"
+   ]
+  },
+  {
+   "empresa": "Gnl Quintero Sa",
+   "rubro": "Otras actividades",
+   "carga_peligrosa_t": 2030.01,
+   "respel_t": 675.5,
+   "lineas": [
+    "Analítica",
+    "Instrumentación",
+    "SIS",
+    "Válvulas"
+   ]
+  },
+  {
+   "empresa": "Engie Energia Chile S.A.",
+   "rubro": "Termoeléctricas",
+   "carga_peligrosa_t": 653.17,
+   "respel_t": 8437.4,
+   "lineas": [
+    "Analítica",
+    "Instrumentación",
+    "SIS"
+   ]
+  },
+  {
+   "empresa": "Empresa Electrica Ventanas Spa",
+   "rubro": "Termoeléctricas",
+   "carga_peligrosa_t": 614.8,
+   "respel_t": 1633.5,
+   "lineas": [
+    "Analítica",
+    "Instrumentación",
+    "SIS",
+    "Válvulas"
+   ]
+  },
+  {
+   "empresa": "Aquachile Maullin Limitada",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 483.91,
+   "respel_t": 15.4,
+   "lineas": []
+  },
+  {
+   "empresa": "Aes Andes S A",
+   "rubro": "Termoeléctricas",
+   "carga_peligrosa_t": 468.09,
+   "respel_t": 2742.0,
+   "lineas": [
+    "Analítica",
+    "Instrumentación",
+    "Válvulas"
+   ]
+  },
+  {
+   "empresa": "Inversiones Agua Mansa Spa",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 432.76,
+   "respel_t": 107.6,
+   "lineas": [
+    "Analítica",
+    "SIS"
+   ]
+  },
+  {
+   "empresa": "Piscicultura Las Quemas Chile S.A.",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 226.61,
+   "respel_t": 31.1,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Kelar S.A.",
+   "rubro": "Termoeléctricas",
+   "carga_peligrosa_t": 177.96,
+   "respel_t": 1065.3,
+   "lineas": [
+    "Analítica",
+    "Instrumentación",
+    "Válvulas"
+   ]
+  },
+  {
+   "empresa": "Multi X S.A.",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 162.18,
+   "respel_t": 1197.1,
+   "lineas": [
+    "Software y plataforma"
+   ]
+  },
+  {
+   "empresa": "Central Termoelectrica Andina Spa",
+   "rubro": "Termoeléctricas",
+   "carga_peligrosa_t": 158.07,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Camanchaca S.A.",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 144.88,
+   "respel_t": 2828.7,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Mowi Chile S.A.",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 130.33,
+   "respel_t": 931.5,
+   "lineas": [
+    "Software y plataforma",
+    "SIS"
+   ]
+  },
+  {
+   "empresa": "Cmpc Pulp Spa",
+   "rubro": "Industria del papel y celulosa",
+   "carga_peligrosa_t": 128.44,
+   "respel_t": 13579.9,
+   "lineas": [
+    "Software y plataforma",
+    "DCS",
+    "SIS"
+   ]
+  },
+  {
+   "empresa": "Gasmar Spa",
+   "rubro": "Comercio mayorista",
+   "carga_peligrosa_t": 124.74,
+   "respel_t": 179.9,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Aquafarms S.A.",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 123.04,
+   "respel_t": 57.4,
+   "lineas": [
+    "Analítica",
+    "SIS"
+   ]
+  },
+  {
+   "empresa": "Soc Comercial Nilque Limitada",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 122.2,
+   "respel_t": 8.5,
+   "lineas": [
+    "Analítica",
+    "SIS"
+   ]
+  },
+  {
+   "empresa": "Caitan Spa",
+   "rubro": "Captación, tratamiento y distribución de agua",
+   "carga_peligrosa_t": 121.68,
+   "respel_t": 57.2,
+   "lineas": [
+    "Analítica",
+    "Instrumentación",
+    "Válvulas"
+   ]
+  },
+  {
+   "empresa": "Methanex Chile Sa",
+   "rubro": "Industria química, de plástico y caucho",
+   "carga_peligrosa_t": 105.04,
+   "respel_t": 598.0,
+   "lineas": [
+    "Analítica",
+    "Instrumentación",
+    "DCS"
+   ]
+  },
+  {
+   "empresa": "Piscicultura Iculpe Spa",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 85.17,
+   "respel_t": 3.4,
+   "lineas": [
+    "Analítica",
+    "SIS"
+   ]
+  },
+  {
+   "empresa": "Envases Impresos Cordillera Spa",
+   "rubro": "Industria del papel y celulosa",
+   "carga_peligrosa_t": 83.99,
+   "respel_t": 778.4,
+   "lineas": [
+    "Analítica",
+    "DCS",
+    "SIS"
+   ]
+  },
+  {
+   "empresa": "Piscicultura Nilahue Spa",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 81.4,
+   "respel_t": 54.4,
+   "lineas": [
+    "Analítica",
+    "SIS"
+   ]
+  },
+  {
+   "empresa": "Compania Minera Teck Quebrada Blanca S.A.",
+   "rubro": "Minería",
+   "carga_peligrosa_t": 74.97,
+   "respel_t": 34906.7,
+   "lineas": [
+    "Analítica",
+    "Instrumentación",
+    "DCS",
+    "Válvulas"
+   ]
+  },
+  {
+   "empresa": "Acuicola E Inversiones Nalcahue Limitada",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 74.35,
+   "respel_t": 123.1,
+   "lineas": [
+    "Software y plataforma",
+    "SIS"
+   ]
+  },
+  {
+   "empresa": "Granjamar S A",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 73.45,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Enaex S A",
+   "rubro": "Industria química, de plástico y caucho",
+   "carga_peligrosa_t": 72.59,
+   "respel_t": 1890.8,
+   "lineas": [
+    "Analítica",
+    "Instrumentación",
+    "DCS",
+    "SIS",
+    "Válvulas"
+   ]
+  },
+  {
+   "empresa": "Crustaceos Sur S.A.",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 72.25,
+   "respel_t": 3370.4,
+   "lineas": [
+    "Analítica",
+    "SIS"
+   ]
+  },
+  {
+   "empresa": "Sur Inversiones Sociedad Anonima",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 65.02,
+   "respel_t": 941.4,
+   "lineas": []
+  },
+  {
+   "empresa": "Hendrix Genetics Aquaculture Sa",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 59.1,
+   "respel_t": 4.3,
+   "lineas": []
+  },
+  {
+   "empresa": "Eco Salmon S.A.",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 56.63,
+   "respel_t": 45.5,
+   "lineas": [
+    "Analítica",
+    "SIS"
+   ]
+  },
+  {
+   "empresa": "Piscicultura Y Acuicola Aquaprotec S.A.",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 49.35,
+   "respel_t": 46.0,
+   "lineas": [
+    "Analítica",
+    "SIS"
+   ]
+  },
+  {
+   "empresa": "Sociedad Comercial Agricola Y Forestal Quimey-Co Limitada",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 48.15,
+   "respel_t": 7.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Pisicultura Puerto Octay S A",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 39.99,
+   "respel_t": 30.7,
+   "lineas": [
+    "SIS"
+   ]
+  },
+  {
+   "empresa": "Sociedad De Inversiones Sth Limitada",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 35.87,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Sociedad Comercial Agricola Y Forestal Huincacara Limitada",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 34.12,
+   "respel_t": 24.1,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Acuicola, Inmobiliaria E Inversiones Araucania Limitada",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 34.06,
+   "respel_t": 10.3,
+   "lineas": [
+    "Analítica",
+    "SIS"
+   ]
+  },
+  {
+   "empresa": "Salmoprocesos S A",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 34.0,
+   "respel_t": 30.3,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Aqua Farming Spa",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 33.64,
+   "respel_t": 7.9,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Mantoverde S.A.",
+   "rubro": "Captación, tratamiento y distribución de agua",
+   "carga_peligrosa_t": 28.44,
+   "respel_t": 18735.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Sealand Aquaculture S.A",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 28.07,
+   "respel_t": 97.1,
+   "lineas": [
+    "Analítica",
+    "SIS"
+   ]
+  },
+  {
+   "empresa": "Fpc Papeles Spa",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 24.83,
+   "respel_t": 141.8,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Golden Omega S.A.",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 24.31,
+   "respel_t": 653.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Faenadora Lo Miranda Limitada",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 22.55,
+   "respel_t": 281.3,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Sociedad Pesquera Landes Sociedad Anonima",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 22.34,
+   "respel_t": 536.2,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Cleanairtech Sudamerica S.A.",
+   "rubro": "Captación, tratamiento y distribución de agua",
+   "carga_peligrosa_t": 20.77,
+   "respel_t": 65.8,
+   "lineas": [
+    "Analítica",
+    "SIS"
+   ]
+  },
+  {
+   "empresa": "Benchmark Genetics Chile Spa",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 20.49,
+   "respel_t": 37.9,
+   "lineas": [
+    "SIS"
+   ]
+  },
+  {
+   "empresa": "Generadora Metropolitana Spa",
+   "rubro": "Termoeléctricas",
+   "carga_peligrosa_t": 20.41,
+   "respel_t": 1808.7,
+   "lineas": [
+    "Analítica",
+    "SIS"
+   ]
+  },
+  {
+   "empresa": "Lago Sofia Spa",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 18.0,
+   "respel_t": 54.4,
+   "lineas": [
+    "Analítica",
+    "SIS"
+   ]
+  },
+  {
+   "empresa": "Acuicola, Inmobiliaria E Inversiones Flor Del Rio Limitada",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 16.53,
+   "respel_t": 4.6,
+   "lineas": [
+    "Analítica",
+    "SIS"
+   ]
+  },
+  {
+   "empresa": "Softys Chile Spa",
+   "rubro": "Industria del papel y celulosa",
+   "carga_peligrosa_t": 16.22,
+   "respel_t": 3514.4,
+   "lineas": [
+    "SIS",
+    "PLC"
+   ]
+  },
+  {
+   "empresa": "Agroindustrial El Paico S.A.",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 15.69,
+   "respel_t": 164.0,
+   "lineas": []
+  },
+  {
+   "empresa": "Multisea S.A.",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 15.53,
+   "respel_t": 209.6,
+   "lineas": [
+    "Analítica",
+    "SIS"
+   ]
+  },
+  {
+   "empresa": "Papelera Dos S.A",
+   "rubro": "Industria del papel y celulosa",
+   "carga_peligrosa_t": 14.14,
+   "respel_t": 204.4,
+   "lineas": [
+    "Analítica",
+    "PLC"
+   ]
+  },
+  {
+   "empresa": "Pesquera Fiordo Austral S.A.",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 13.43,
+   "respel_t": 26.5,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Ewos Chile Alimentos Limitada",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 12.17,
+   "respel_t": 181.9,
+   "lineas": [
+    "SIS"
+   ]
+  },
+  {
+   "empresa": "Inmobiliaria Club Mantagua S A",
+   "rubro": "Otras actividades",
+   "carga_peligrosa_t": 11.42,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Aconcagua Foods S.A.",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 8.76,
+   "respel_t": 53.1,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Lota Protein S A",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 8.52,
+   "respel_t": 194.1,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Caleta Bay Agua Dulce Spa",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 8.49,
+   "respel_t": 26.7,
+   "lineas": [
+    "Analítica",
+    "SIS"
+   ]
+  },
+  {
+   "empresa": "Occidental Chemical Chile Limitada",
+   "rubro": "Industria química, de plástico y caucho",
+   "carga_peligrosa_t": 8.21,
+   "respel_t": 1662.5,
+   "lineas": [
+    "Analítica",
+    "PLC"
+   ]
+  },
+  {
+   "empresa": "Pesquera Bahia Caldera S A",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 8.2,
+   "respel_t": 280.3,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Sociedad Concesionaria Nuevo Pudahuel S.A.",
+   "rubro": "Otras actividades",
+   "carga_peligrosa_t": 7.81,
+   "respel_t": 8.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Piscicultura Codinhue Spa",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 7.63,
+   "respel_t": 3.6,
+   "lineas": [
+    "SIS"
+   ]
+  },
+  {
+   "empresa": "St Andrews Smoky Delicacies S A",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 7.01,
+   "respel_t": 30.3,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Lesaffre Industrial Chile S.A",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 6.81,
+   "respel_t": 57.2,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Procesadora Dumestre Limitada",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 6.79,
+   "respel_t": 72.3,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Patagoniafresh S.A.",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 6.7,
+   "respel_t": 187.7,
+   "lineas": []
+  },
+  {
+   "empresa": "Inversiones Hidricas El Caudal Limitada",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 5.87,
+   "respel_t": 19.4,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Extractos Naturales Gelymar S A",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 5.28,
+   "respel_t": 60.3,
+   "lineas": [
+    "SIS"
+   ]
+  },
+  {
+   "empresa": "Granero Sociedad Anonima",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 5.26,
+   "respel_t": 22.4,
+   "lineas": [
+    "Analítica",
+    "SIS"
+   ]
+  },
+  {
+   "empresa": "Cultivos Marinos San Cristobal S A",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 4.86,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Novofish S.A.",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 4.58,
+   "respel_t": 22.2,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Piscicultura Tierra Del Fuego S.A.",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 4.0,
+   "respel_t": 90.3,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Ria Austral S A",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 3.97,
+   "respel_t": 44.5,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Empresa De Alimentos Y Conservas San Clemente Spa",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 3.95,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Yadran Quellon S A",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 3.92,
+   "respel_t": 39.8,
+   "lineas": [
+    "Analítica",
+    "SIS"
+   ]
+  },
+  {
+   "empresa": "Prolesur S.A.",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 3.82,
+   "respel_t": 197.1,
+   "lineas": [
+    "SIS"
+   ]
+  },
+  {
+   "empresa": "Surproceso S.A.",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 3.78,
+   "respel_t": 24.7,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Aquainnovo Spa",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 3.59,
+   "respel_t": 17.1,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Blue Shell S A",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 3.09,
+   "respel_t": 89.4,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Sugal Chile Limitada",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 3.03,
+   "respel_t": 170.3,
+   "lineas": []
+  },
+  {
+   "empresa": "Soc Agricola Y Ganadera Curileufu Ltda",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 2.98,
+   "respel_t": 0.7,
+   "lineas": [
+    "Analítica",
+    "SIS"
+   ]
+  },
+  {
+   "empresa": "Procesadora Mar Del Sur Spa",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 2.84,
+   "respel_t": 81.9,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Piscicultura Pichi-Coreo Limitada",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 2.8,
+   "respel_t": 221.3,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Aquachile Magallanes Spa",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 2.66,
+   "respel_t": 464.6,
+   "lineas": [
+    "Analítica",
+    "SIS"
+   ]
+  },
+  {
+   "empresa": "Industria Frigorifica Simunovic S A",
+   "rubro": "Producción agropecuaria",
+   "carga_peligrosa_t": 2.51,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Diana Food Chile Spa",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 2.23,
+   "respel_t": 6.4,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Pesquera Trans Antartic Limitada",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 2.23,
+   "respel_t": 35.6,
+   "lineas": [
+    "Analítica",
+    "SIS"
+   ]
+  },
+  {
+   "empresa": "Agroindustrias Lomas Coloradas Ltda",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 2.21,
+   "respel_t": 6.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Industrias Isla Quihua S A",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 2.2,
+   "respel_t": 5.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Pesquera Friosur S A",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 2.19,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Spinetech Chile Sociedad Anonima",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 2.05,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Pesquera Quintero Sa",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 2.02,
+   "respel_t": 2.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Mejillones Aucar Limitada",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 2.0,
+   "respel_t": 34.0,
+   "lineas": [
+    "Analítica",
+    "SIS"
+   ]
+  },
+  {
+   "empresa": "Soc Pesquera Silgar Limitada",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 2.0,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Paimasa S A",
+   "rubro": "Industria del papel y celulosa",
+   "carga_peligrosa_t": 1.81,
+   "respel_t": 58.0,
+   "lineas": [
+    "Analítica",
+    "PLC"
+   ]
+  },
+  {
+   "empresa": "Copec S.A.",
+   "rubro": "Comercio mayorista",
+   "carga_peligrosa_t": 1.77,
+   "respel_t": 29700.1,
+   "lineas": [
+    "Analítica",
+    "SIS"
+   ]
+  },
+  {
+   "empresa": "Essity Chile S.A.",
+   "rubro": "Industria del papel y celulosa",
+   "carga_peligrosa_t": 1.59,
+   "respel_t": 319.9,
+   "lineas": [
+    "Analítica",
+    "PLC"
+   ]
+  },
+  {
+   "empresa": "Agar Del Pacifico S A",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 1.59,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Inmuebles Cataluna Limitada",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 1.44,
+   "respel_t": 37.2,
+   "lineas": [
+    "Analítica",
+    "SIS"
+   ]
+  },
+  {
+   "empresa": "I Municipalidad De Olmue",
+   "rubro": "Otras actividades",
+   "carga_peligrosa_t": 1.41,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Coop Serv Abast Distr Agua Pot Alcan Saneam Ambient Sta            Margarita Ltda",
+   "rubro": "Captación, tratamiento y distribución de agua",
+   "carga_peligrosa_t": 1.41,
+   "respel_t": 0.0,
+   "lineas": []
+  },
+  {
+   "empresa": "Universidad De Los Lagos",
+   "rubro": "Otras actividades",
+   "carga_peligrosa_t": 1.33,
+   "respel_t": 41.7,
+   "lineas": [
+    "Analítica",
+    "SIS"
+   ]
+  },
+  {
+   "empresa": "Cia Papelera Del Pacifico S A",
+   "rubro": "Industria del papel y celulosa",
+   "carga_peligrosa_t": 1.28,
+   "respel_t": 175.4,
+   "lineas": [
+    "Analítica",
+    "PLC"
+   ]
+  },
+  {
+   "empresa": "Danisco Chile S.A.",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 1.23,
+   "respel_t": 19.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Operaciones Costeras S.A.",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 1.22,
+   "respel_t": 115.5,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Comfrut Chile Spa",
+   "rubro": "Comercio mayorista",
+   "carga_peligrosa_t": 1.1,
+   "respel_t": 67.5,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Santiago Agrisupply Spa",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 1.02,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Hidrocultivos S A",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 1.01,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Orafti Chile S A",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.98,
+   "respel_t": 409.9,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Rio Dulce S A",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 0.92,
+   "respel_t": 602.5,
+   "lineas": [
+    "Analítica",
+    "SIS"
+   ]
+  },
+  {
+   "empresa": "Sociedad Minera Pacifico Del Sur Spa",
+   "rubro": "Minería",
+   "carga_peligrosa_t": 0.91,
+   "respel_t": 1283.4,
+   "lineas": [
+    "Analítica",
+    "PLC"
+   ]
+  },
+  {
+   "empresa": "Esturiones Andes - Chile S.A",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 0.88,
+   "respel_t": 0.0,
+   "lineas": []
+  },
+  {
+   "empresa": "Servicios Geoservice Limitada",
+   "rubro": "Otras actividades",
+   "carga_peligrosa_t": 0.84,
+   "respel_t": 13.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Universidad De Antofagasta",
+   "rubro": "Otras actividades",
+   "carga_peligrosa_t": 0.84,
+   "respel_t": 59.4,
+   "lineas": [
+    "Analítica",
+    "SIS"
+   ]
+  },
+  {
+   "empresa": "Alginatos Chile S.A.",
+   "rubro": "Industria química, de plástico y caucho",
+   "carga_peligrosa_t": 0.84,
+   "respel_t": 62.8,
+   "lineas": [
+    "Analítica",
+    "PLC"
+   ]
+  },
+  {
+   "empresa": "Productos Del Sur Limitada",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 0.83,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Los Glaciares S A",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.75,
+   "respel_t": 697.8,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Intervet Veterinaria Chile Limitada",
+   "rubro": "Comercio mayorista",
+   "carga_peligrosa_t": 0.75,
+   "respel_t": 193.6,
+   "lineas": []
+  },
+  {
+   "empresa": "Cultivos Marinos Tongoy Sa",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 0.69,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Agrocomercial Quillota S A",
+   "rubro": "Producción agropecuaria",
+   "carga_peligrosa_t": 0.67,
+   "respel_t": 167.2,
+   "lineas": []
+  },
+  {
+   "empresa": "Landes Mussels S.A.",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.66,
+   "respel_t": 8.3,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Forestal Collicura Limitada",
+   "rubro": "Industria de la madera y silvicultura",
+   "carga_peligrosa_t": 0.66,
+   "respel_t": 20.4,
+   "lineas": []
+  },
+  {
+   "empresa": "I Municipalidad De Puerto Varas",
+   "rubro": "Gestores de residuos",
+   "carga_peligrosa_t": 0.65,
+   "respel_t": 3.9,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Servicios Acuicolas Yusary Gavilan Roa E.I.R.L.",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 0.62,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Exportaciones E Importaciones Miguel Depolo S A C",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.61,
+   "respel_t": 0.0,
+   "lineas": []
+  },
+  {
+   "empresa": "Procesadora Calbuco Spa",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 0.56,
+   "respel_t": 43.7,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Central Yungay S.A",
+   "rubro": "Termoeléctricas",
+   "carga_peligrosa_t": 0.51,
+   "respel_t": 517.5,
+   "lineas": [
+    "Analítica",
+    "SIS"
+   ]
+  },
+  {
+   "empresa": "Procesos Industriales Crowan Uno Limitada",
+   "rubro": "Gestores de residuos",
+   "carga_peligrosa_t": 0.48,
+   "respel_t": 3799.3,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Santa Teresa S. A.",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.47,
+   "respel_t": 10.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Toralla Sociedad Anonima",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.46,
+   "respel_t": 28.8,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Fruticola Olmue Spa",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.44,
+   "respel_t": 17.3,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Universidad Austral De Chile",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 0.43,
+   "respel_t": 83.2,
+   "lineas": [
+    "Software y plataforma",
+    "SIS"
+   ]
+  },
+  {
+   "empresa": "Central Colmito S.A.",
+   "rubro": "Termoeléctricas",
+   "carga_peligrosa_t": 0.42,
+   "respel_t": 60.0,
+   "lineas": [
+    "Analítica",
+    "SIS"
+   ]
+  },
+  {
+   "empresa": "Acuicola Del Norte S A",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 0.37,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Patagonia Salmon Farming S A",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 0.35,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Sociedad Proa Ltda",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.34,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Salmonoil S A",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.31,
+   "respel_t": 183.5,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Procesadora Cailin Spa",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 0.3,
+   "respel_t": 22.4,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Pesquera Y Conservera Tamai Ltda",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.3,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Marine Farms Limitada",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 0.3,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Chile Botanics Spa",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.29,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Complejo Industrial Molynor S.A.",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.28,
+   "respel_t": 1404.2,
+   "lineas": [
+    "Analítica",
+    "SIS"
+   ]
+  },
+  {
+   "empresa": "Universidad Catolica Del Norte",
+   "rubro": "Otras actividades",
+   "carga_peligrosa_t": 0.27,
+   "respel_t": 106.3,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Comercial Y Servicios Sur Austral Limitada",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.26,
+   "respel_t": 28.6,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "I Municipalidad De Lautaro",
+   "rubro": "Otras actividades",
+   "carga_peligrosa_t": 0.24,
+   "respel_t": 4.7,
+   "lineas": [
+    "SIS"
+   ]
+  },
+  {
+   "empresa": "Rellenos Sanitarios Del Maule S A",
+   "rubro": "Gestores de residuos",
+   "carga_peligrosa_t": 0.23,
+   "respel_t": 5.1,
+   "lineas": []
+  },
+  {
+   "empresa": "Agricola Don Pollo Limitada",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.21,
+   "respel_t": 20.3,
+   "lineas": []
+  },
+  {
+   "empresa": "Curtiembre Rufino Melero S A",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.21,
+   "respel_t": 24.8,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Safcol Chile S A",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 0.21,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Invertec Natural Juice S A",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.2,
+   "respel_t": 55.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Redes Y Nets Limitada",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 0.2,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Manufactura De Cueros Del Sur Limitada",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.2,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Condominio Barrio Privado Silos De Torobayo",
+   "rubro": "Otras actividades",
+   "carga_peligrosa_t": 0.19,
+   "respel_t": 0.0,
+   "lineas": []
+  },
+  {
+   "empresa": "Inversiones Coihuin Limitada",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 0.19,
+   "respel_t": 50.4,
+   "lineas": [
+    "Analítica",
+    "SIS"
+   ]
+  },
+  {
+   "empresa": "Congelados Y Conservas Fitz Roy S A",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.18,
+   "respel_t": 21.7,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Vitapro Chile S.A.",
+   "rubro": "Otras actividades",
+   "carga_peligrosa_t": 0.18,
+   "respel_t": 159.4,
+   "lineas": [
+    "Software y plataforma",
+    "SIS"
+   ]
+  },
+  {
+   "empresa": "Scallop Chile S.A.",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 0.18,
+   "respel_t": 17.5,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Bayas Del Sur S.A.",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.16,
+   "respel_t": 15.0,
+   "lineas": [
+    "Analítica",
+    "SIS"
+   ]
+  },
+  {
+   "empresa": "Sociedad De Turismo Rio Serrano S.A.",
+   "rubro": "Otras actividades",
+   "carga_peligrosa_t": 0.15,
+   "respel_t": 11.4,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Cerveceria Kunstmann S A",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.14,
+   "respel_t": 41.4,
+   "lineas": []
+  },
+  {
+   "empresa": "Comite De Agua Potable Santa Fe",
+   "rubro": "Plantas de tratamiento de aguas servidas",
+   "carga_peligrosa_t": 0.14,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "I Municipalidad De Curaco De Velez",
+   "rubro": "Plantas de tratamiento de aguas servidas",
+   "carga_peligrosa_t": 0.14,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "I Municipalidad De Aysen",
+   "rubro": "Otras actividades",
+   "carga_peligrosa_t": 0.13,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Agricola Y Comercial Cabilfrut S A",
+   "rubro": "Comercio mayorista",
+   "carga_peligrosa_t": 0.12,
+   "respel_t": 1.1,
+   "lineas": []
+  },
+  {
+   "empresa": "Aceros Aza S.A.",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.11,
+   "respel_t": 76174.0,
+   "lineas": [
+    "Analítica",
+    "SIS"
+   ]
+  },
+  {
+   "empresa": "Taller De Redes S.A.",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 0.11,
+   "respel_t": 14.7,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Los Guindos Generacion Spa.",
+   "rubro": "Termoeléctricas",
+   "carga_peligrosa_t": 0.11,
+   "respel_t": 2.9,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Puerto Bories S.A.",
+   "rubro": "Otras actividades",
+   "carga_peligrosa_t": 0.1,
+   "respel_t": 2.5,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Inversiones E Industrias Valle Verde S.A.",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.09,
+   "respel_t": 3.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Ala Base N.1",
+   "rubro": "Plantas de tratamiento de aguas servidas",
+   "carga_peligrosa_t": 0.09,
+   "respel_t": 154.7,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Interagro Sa",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.08,
+   "respel_t": 20.7,
+   "lineas": [
+    "SIS"
+   ]
+  },
+  {
+   "empresa": "Minera Tres Valles Spa.",
+   "rubro": "Minería",
+   "carga_peligrosa_t": 0.08,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica",
+    "PLC"
+   ]
+  },
+  {
+   "empresa": "Pesquera Deep Sea Food S A",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.08,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Pesquera Grimar S.A.",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 0.08,
+   "respel_t": 12.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Piscicultura Chinquihue Spa",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 0.08,
+   "respel_t": 1.7,
+   "lineas": []
+  },
+  {
+   "empresa": "Empresas Lourdes S A",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.07,
+   "respel_t": 39.2,
+   "lineas": []
+  },
+  {
+   "empresa": "Soc Com Agricola Ganadera E Ind Dollinco Ltda",
+   "rubro": "Producción agropecuaria",
+   "carga_peligrosa_t": 0.07,
+   "respel_t": 1.5,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Chile Seafoods Comercial Spa",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.07,
+   "respel_t": 6.3,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Ac Redes Servicios Acuicolas Limitada",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.07,
+   "respel_t": 61.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Ifco Systems Chile S.A.",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.07,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Ball Chile S.A.",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.06,
+   "respel_t": 9339.2,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Pesquera Tubul S A",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.06,
+   "respel_t": 1.2,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Ecomaule Spa",
+   "rubro": "Gestores de residuos",
+   "carga_peligrosa_t": 0.05,
+   "respel_t": 45.8,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Pesquera Y Conservera Real Ltda",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 0.05,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Mina Invierno S.A.",
+   "rubro": "Minería",
+   "carga_peligrosa_t": 0.05,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica",
+    "PLC"
+   ]
+  },
+  {
+   "empresa": "Exportadora Subsole Sa",
+   "rubro": "Producción agropecuaria",
+   "carga_peligrosa_t": 0.05,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Cia Fruticola Alessandrini Ltda",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.04,
+   "respel_t": 17.8,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Inmobiliaria Socovesa Sur S A",
+   "rubro": "Construcción",
+   "carga_peligrosa_t": 0.04,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Pesquera Pacific  Farmer Limitada",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 0.04,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Sociedad Agrolacteos De Chiloe S.A.",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.04,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Vinicola Patacon Spa",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.04,
+   "respel_t": 38.8,
+   "lineas": [
+    "Analítica",
+    "SIS"
+   ]
+  },
+  {
+   "empresa": "Sociedad Industrial Y Comercial De Lacteos Y Energia S.A.",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.03,
+   "respel_t": 6.2,
+   "lineas": []
+  },
+  {
+   "empresa": "Vital Aguas S.A.",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.03,
+   "respel_t": 64.3,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Davila Y Diaz Limitada",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.03,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Marine Gel Antartic S.A.",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.03,
+   "respel_t": 19.1,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Ocean Spray Chile Spa",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.03,
+   "respel_t": 55.1,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "San Clemente Foods S.A",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.03,
+   "respel_t": 15.9,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Kaweshkar Spa",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.03,
+   "respel_t": 3.2,
+   "lineas": []
+  },
+  {
+   "empresa": "I Municipalidad De Vichuquen",
+   "rubro": "Plantas de tratamiento de aguas servidas",
+   "carga_peligrosa_t": 0.03,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "I Municipalidad De Los Angeles",
+   "rubro": "Plantas de tratamiento de aguas servidas",
+   "carga_peligrosa_t": 0.03,
+   "respel_t": 101.5,
+   "lineas": [
+    "SIS"
+   ]
+  },
+  {
+   "empresa": "Rocofrut S A",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.02,
+   "respel_t": 12.9,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Ceramica Santiago S A",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.02,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Soc Agricola Requingua Ltda",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.02,
+   "respel_t": 25.1,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Universidad Catolica De Temuco",
+   "rubro": "Otras actividades",
+   "carga_peligrosa_t": 0.02,
+   "respel_t": 9.4,
+   "lineas": [
+    "SIS"
+   ]
+  },
+  {
+   "empresa": "Productos Marinos Puerto Williams Limitada",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 0.02,
+   "respel_t": 9.1,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Forestal Rio Calle Calle S A",
+   "rubro": "Industria de la madera y silvicultura",
+   "carga_peligrosa_t": 0.02,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Procesos Naturales Vilkun S.A.",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.02,
+   "respel_t": 4.2,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Friofort S A",
+   "rubro": "Otras actividades",
+   "carga_peligrosa_t": 0.02,
+   "respel_t": 26.5,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Sociedad Faenadora Frigosur Limitada",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.02,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Soc Comercial Importadora Y Exportadora Roxana Limitada",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 0.02,
+   "respel_t": 0.0,
+   "lineas": []
+  },
+  {
+   "empresa": "Pesquera Ocean Mart Spa",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.02,
+   "respel_t": 0.0,
+   "lineas": []
+  },
+  {
+   "empresa": "Agroindustrias Cepia Sociedad Anonima",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.01,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Emporio Aleman S A",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.01,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Industrial Glover S.P.A",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.01,
+   "respel_t": 450.0,
+   "lineas": []
+  },
+  {
+   "empresa": "Frutexsa Raisins Spa",
+   "rubro": "Producción agropecuaria",
+   "carga_peligrosa_t": 0.01,
+   "respel_t": 0.0,
+   "lineas": []
+  },
+  {
+   "empresa": "Agricola Y Packing Cachapoal S A",
+   "rubro": "Producción agropecuaria",
+   "carga_peligrosa_t": 0.01,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "I Municipalidad De Laja",
+   "rubro": "Otras actividades",
+   "carga_peligrosa_t": 0.01,
+   "respel_t": 2.7,
+   "lineas": [
+    "Analítica",
+    "SIS"
+   ]
+  },
+  {
+   "empresa": "Maersk Logistics & Services Chile Spa",
+   "rubro": "Otras actividades",
+   "carga_peligrosa_t": 0.01,
+   "respel_t": 2334.7,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Soc De Desarrollos De Montanas A",
+   "rubro": "Otras actividades",
+   "carga_peligrosa_t": 0.01,
+   "respel_t": 6.8,
+   "lineas": []
+  },
+  {
+   "empresa": "Comercial Inducar Limitada",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.01,
+   "respel_t": 0.0,
+   "lineas": []
+  },
+  {
+   "empresa": "I Municipalidad De Perquenco",
+   "rubro": "Otras actividades",
+   "carga_peligrosa_t": 0.01,
+   "respel_t": 1.3,
+   "lineas": []
+  },
+  {
+   "empresa": "Servicios Industriales B Y B Limitada",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 0.01,
+   "respel_t": 0.0,
+   "lineas": []
+  },
+  {
+   "empresa": "Servicios Y Comercializacion Pinguinos Limitada",
+   "rubro": "Industria de la madera y silvicultura",
+   "carga_peligrosa_t": 0.01,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Matadero Miguel Cortes Pena E.I.R.L.",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.01,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Chocolateria Entrelagos S.A.",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.01,
+   "respel_t": 0.0,
+   "lineas": []
+  },
+  {
+   "empresa": "Fundacion Chinquihue",
+   "rubro": "Otras actividades",
+   "carga_peligrosa_t": 0.01,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Soc Comercial E Industrial Agromar Limitada",
+   "rubro": "Comercio mayorista",
+   "carga_peligrosa_t": 0.01,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Campomar Spa",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 0.01,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Aridos Petromin S.A.",
+   "rubro": "Minería",
+   "carga_peligrosa_t": 0.01,
+   "respel_t": 11.7,
+   "lineas": [
+    "Analítica",
+    "PLC"
+   ]
+  },
+  {
+   "empresa": "Caja De Compensacion De Asignacion Familiar De Los Andes",
+   "rubro": "Otras actividades",
+   "carga_peligrosa_t": 0.01,
+   "respel_t": 6.3,
+   "lineas": []
+  },
+  {
+   "empresa": "Explora Chile S.A.",
+   "rubro": "Otras actividades",
+   "carga_peligrosa_t": 0.01,
+   "respel_t": 26.6,
+   "lineas": [
+    "SIS"
+   ]
+  },
+  {
+   "empresa": "Alimentos E Inversiones Valles De Chile Limitada",
+   "rubro": "Producción agropecuaria",
+   "carga_peligrosa_t": 0.01,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Turismo Cabanas Del Paine Limitada",
+   "rubro": "Otras actividades",
+   "carga_peligrosa_t": 0.01,
+   "respel_t": 2.4,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Contenedores San Fernando Spa",
+   "rubro": "Industria del papel y celulosa",
+   "carga_peligrosa_t": 0.0,
+   "respel_t": 304.3,
+   "lineas": [
+    "Analítica",
+    "PLC"
+   ]
+  },
+  {
+   "empresa": "Prunesco Spa",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.0,
+   "respel_t": 0.0,
+   "lineas": []
+  },
+  {
+   "empresa": "Astilleros Y Maestranzas De La Armada",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.0,
+   "respel_t": 8608.2,
+   "lineas": [
+    "SIS"
+   ]
+  },
+  {
+   "empresa": "Lacteos Tinguiririca S.A.",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.0,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Lapostolle Wines Spa",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.0,
+   "respel_t": 4.2,
+   "lineas": []
+  },
+  {
+   "empresa": "Sociedad Vitivinicola Lomas De Cauquenes Spa",
+   "rubro": "Producción agropecuaria",
+   "carga_peligrosa_t": 0.0,
+   "respel_t": 0.0,
+   "lineas": []
+  },
+  {
+   "empresa": "Soc Agricola La Isla Ltda",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.0,
+   "respel_t": 0.0,
+   "lineas": []
+  },
+  {
+   "empresa": "Soc Pesquera San Fernando Limitada",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 0.0,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Foraction Chili Spa",
+   "rubro": "Industria de la madera y silvicultura",
+   "carga_peligrosa_t": 0.0,
+   "respel_t": 132.1,
+   "lineas": [
+    "Analítica",
+    "SIS"
+   ]
+  },
+  {
+   "empresa": "Vina Von Siebenthal Socidedad Anonima",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.0,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Soc Pesquera Comercial Chaicas Limitada",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 0.0,
+   "respel_t": 0.0,
+   "lineas": []
+  },
+  {
+   "empresa": "Montes S A",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.0,
+   "respel_t": 55.7,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Fruticola Dosal Limitada",
+   "rubro": "Producción agropecuaria",
+   "carga_peligrosa_t": 0.0,
+   "respel_t": 0.0,
+   "lineas": []
+  },
+  {
+   "empresa": "Soc Gonzalez Manes Y Cia Ltda",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.0,
+   "respel_t": 0.0,
+   "lineas": []
+  },
+  {
+   "empresa": "Vina Morande S A",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.0,
+   "respel_t": 5.1,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Inmobiliaria Nunez Limitada",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.0,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Rico Foods S A",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 0.0,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Syntheon Chile Limitada",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.0,
+   "respel_t": 10.8,
+   "lineas": []
+  },
+  {
+   "empresa": "Industrias Vinicas S A",
+   "rubro": "Otras actividades",
+   "carga_peligrosa_t": 0.0,
+   "respel_t": 13.9,
+   "lineas": []
+  },
+  {
+   "empresa": "Agroindustrial Jaime Soler S A",
+   "rubro": "Producción agropecuaria",
+   "carga_peligrosa_t": 0.0,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Agrizano S A",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.0,
+   "respel_t": 10.8,
+   "lineas": [
+    "SIS"
+   ]
+  },
+  {
+   "empresa": "Vina Los Nogales Spa",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.0,
+   "respel_t": 2.6,
+   "lineas": []
+  },
+  {
+   "empresa": "Servicios Integrales Chiloe Redes Limitada",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 0.0,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Skysal S A",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 0.0,
+   "respel_t": 25.9,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Agricola La Higuera Limitada",
+   "rubro": "Producción agropecuaria",
+   "carga_peligrosa_t": 0.0,
+   "respel_t": 1.8,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Badinotti Net Services Aysen Spa",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.0,
+   "respel_t": 63.4,
+   "lineas": []
+  },
+  {
+   "empresa": "Comercial Bb Trading Spa",
+   "rubro": "Producción agropecuaria",
+   "carga_peligrosa_t": 0.0,
+   "respel_t": 6.6,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Agroindustrial Pedregal Sociedad Anonima",
+   "rubro": "Producción agropecuaria",
+   "carga_peligrosa_t": 0.0,
+   "respel_t": 4.2,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Vina Echeverria Ltda",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.0,
+   "respel_t": 1.6,
+   "lineas": []
+  },
+  {
+   "empresa": "Lacteos Pelales Limitada",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.0,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Ostimar S.A.",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 0.0,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Agricola E Inmobiliaria Vichiculen S A",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.0,
+   "respel_t": 9.2,
+   "lineas": []
+  },
+  {
+   "empresa": "Molduras E Insumos Limitada",
+   "rubro": "Industria de la madera y silvicultura",
+   "carga_peligrosa_t": 0.0,
+   "respel_t": 233.9,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Inmobiliaria Reconquista S.A.",
+   "rubro": "Otras actividades",
+   "carga_peligrosa_t": 0.0,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  },
+  {
+   "empresa": "Salmones Las Garzas Limitada",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 0.0,
+   "respel_t": 9.3,
+   "lineas": []
+  },
+  {
+   "empresa": "Vina Selentia Limitada",
+   "rubro": "Otras actividades",
+   "carga_peligrosa_t": 0.0,
+   "respel_t": 0.0,
+   "lineas": [
+    "Analítica"
+   ]
+  }
+ ],
+ "analitica_sin_comprador": [
+  {
+   "empresa": "Empresa Electrica Campiche Spa",
+   "rubro": "Termoeléctricas",
+   "carga_peligrosa_t": 2739.62,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Gnl Quintero Sa",
+   "rubro": "Otras actividades",
+   "carga_peligrosa_t": 2030.01,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Engie Energia Chile S.A.",
+   "rubro": "Termoeléctricas",
+   "carga_peligrosa_t": 653.17,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Empresa Electrica Ventanas Spa",
+   "rubro": "Termoeléctricas",
+   "carga_peligrosa_t": 614.8,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Aes Andes S A",
+   "rubro": "Termoeléctricas",
+   "carga_peligrosa_t": 468.09,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Inversiones Agua Mansa Spa",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 432.76,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Cooke Aquaculture Chile Sa",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 430.26,
+   "n_contactos": 6
+  },
+  {
+   "empresa": "Enap Refinerias S A",
+   "rubro": "Refinería de petróleo",
+   "carga_peligrosa_t": 397.71,
+   "n_contactos": 7
+  },
+  {
+   "empresa": "Corp Nacional Del Cobre De Chile",
+   "rubro": "Minería",
+   "carga_peligrosa_t": 347.01,
+   "n_contactos": 15
+  },
+  {
+   "empresa": "Minera Escondida Limitada",
+   "rubro": "Minería",
+   "carga_peligrosa_t": 265.66,
+   "n_contactos": 6
+  },
+  {
+   "empresa": "Piscicultura Las Quemas Chile S.A.",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 226.61,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Colbun S A",
+   "rubro": "Termoeléctricas",
+   "carga_peligrosa_t": 206.5,
+   "n_contactos": 4
+  },
+  {
+   "empresa": "Kelar S.A.",
+   "rubro": "Termoeléctricas",
+   "carga_peligrosa_t": 177.96,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Cia Contractual Minera Candelaria",
+   "rubro": "Minería",
+   "carga_peligrosa_t": 166.59,
+   "n_contactos": 4
+  },
+  {
+   "empresa": "Central Termoelectrica Andina Spa",
+   "rubro": "Termoeléctricas",
+   "carga_peligrosa_t": 158.07,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Camanchaca S.A.",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 144.88,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Empresa Electrica Cochrane S.P.A.",
+   "rubro": "Termoeléctricas",
+   "carga_peligrosa_t": 142.73,
+   "n_contactos": 2
+  },
+  {
+   "empresa": "Gasmar Spa",
+   "rubro": "Comercio mayorista",
+   "carga_peligrosa_t": 124.74,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Aquafarms S.A.",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 123.04,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Soc Comercial Nilque Limitada",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 122.2,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Caitan Spa",
+   "rubro": "Captación, tratamiento y distribución de agua",
+   "carga_peligrosa_t": 121.68,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Methanex Chile Sa",
+   "rubro": "Industria química, de plástico y caucho",
+   "carga_peligrosa_t": 105.04,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Piscicultura Iculpe Spa",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 85.17,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Envases Impresos Cordillera Spa",
+   "rubro": "Industria del papel y celulosa",
+   "carga_peligrosa_t": 83.99,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Piscicultura Nilahue Spa",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 81.4,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Salmones Humboldt Spa",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 75.41,
+   "n_contactos": 4
+  },
+  {
+   "empresa": "Compania Minera Teck Quebrada Blanca S.A.",
+   "rubro": "Minería",
+   "carga_peligrosa_t": 74.97,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Granjamar S A",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 73.45,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Enaex S A",
+   "rubro": "Industria química, de plástico y caucho",
+   "carga_peligrosa_t": 72.59,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Crustaceos Sur S.A.",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 72.25,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Foodcorp Chile S.A.",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 60.72,
+   "n_contactos": 4
+  },
+  {
+   "empresa": "Eco Salmon S.A.",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 56.63,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Piscicultura Y Acuicola Aquaprotec S.A.",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 49.35,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Sociedad Comercial Agricola Y Forestal Quimey-Co Limitada",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 48.15,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Aquasmolt Limitada",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 45.54,
+   "n_contactos": 1
+  },
+  {
+   "empresa": "Invermar S.A.",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 42.05,
+   "n_contactos": 4
+  },
+  {
+   "empresa": "Sociedad De Inversiones Sth Limitada",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 35.87,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Pesquera La Portada S A",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 34.85,
+   "n_contactos": 3
+  },
+  {
+   "empresa": "Sociedad Comercial Agricola Y Forestal Huincacara Limitada",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 34.12,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Acuicola, Inmobiliaria E Inversiones Araucania Limitada",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 34.06,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Salmoprocesos S A",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 34.0,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Aqua Farming Spa",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 33.64,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Blumar S.A.",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 29.34,
+   "n_contactos": 6
+  },
+  {
+   "empresa": "Mantoverde S.A.",
+   "rubro": "Captación, tratamiento y distribución de agua",
+   "carga_peligrosa_t": 28.44,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Sealand Aquaculture S.A",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 28.07,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Fpc Papeles Spa",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 24.83,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Golden Omega S.A.",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 24.31,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Faenadora Lo Miranda Limitada",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 22.55,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Sociedad Pesquera Landes Sociedad Anonima",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 22.34,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Cleanairtech Sudamerica S.A.",
+   "rubro": "Captación, tratamiento y distribución de agua",
+   "carga_peligrosa_t": 20.77,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Generadora Metropolitana Spa",
+   "rubro": "Termoeléctricas",
+   "carga_peligrosa_t": 20.41,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Lago Sofia Spa",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 18.0,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Acuicola, Inmobiliaria E Inversiones Flor Del Rio Limitada",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 16.53,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Multisea S.A.",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 15.53,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Papelera Dos S.A",
+   "rubro": "Industria del papel y celulosa",
+   "carga_peligrosa_t": 14.14,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Pesquera Fiordo Austral S.A.",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 13.43,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Inmobiliaria Club Mantagua S A",
+   "rubro": "Otras actividades",
+   "carga_peligrosa_t": 11.42,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Camanchaca Cultivos Sur S.A.",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 10.16,
+   "n_contactos": 3
+  },
+  {
+   "empresa": "Aconcagua Foods S.A.",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 8.76,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Lota Protein S A",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 8.52,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Caleta Bay Agua Dulce Spa",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 8.49,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Occidental Chemical Chile Limitada",
+   "rubro": "Industria química, de plástico y caucho",
+   "carga_peligrosa_t": 8.21,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Pesquera Bahia Caldera S A",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 8.2,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Aguas Claras S A",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 8.01,
+   "n_contactos": 1
+  },
+  {
+   "empresa": "Sociedad Concesionaria Nuevo Pudahuel S.A.",
+   "rubro": "Otras actividades",
+   "carga_peligrosa_t": 7.81,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "St Andrews Smoky Delicacies S A",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 7.01,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Lesaffre Industrial Chile S.A",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 6.81,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Procesadora Dumestre Limitada",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 6.79,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Inversiones Hidricas El Caudal Limitada",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 5.87,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Granero Sociedad Anonima",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 5.26,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Cultivos Marinos San Cristobal S A",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 4.86,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Novofish S.A.",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 4.58,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Empresa Electrica Angamos Spa",
+   "rubro": "Termoeléctricas",
+   "carga_peligrosa_t": 4.14,
+   "n_contactos": 3
+  },
+  {
+   "empresa": "Piscicultura Tierra Del Fuego S.A.",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 4.0,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Ria Austral S A",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 3.97,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Empresa De Alimentos Y Conservas San Clemente Spa",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 3.95,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Yadran Quellon S A",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 3.92,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Surproceso S.A.",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 3.78,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Aquainnovo Spa",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 3.59,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Consorcio Santa Marta S A",
+   "rubro": "Gestores de residuos",
+   "carga_peligrosa_t": 3.46,
+   "n_contactos": 4
+  },
+  {
+   "empresa": "Blue Shell S A",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 3.09,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Soc Agricola Y Ganadera Curileufu Ltda",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 2.98,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Carnes Nuble S A",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 2.87,
+   "n_contactos": 6
+  },
+  {
+   "empresa": "Procesadora Mar Del Sur Spa",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 2.84,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Piscicultura Pichi-Coreo Limitada",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 2.8,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Aquachile Magallanes Spa",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 2.66,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Industria Frigorifica Simunovic S A",
+   "rubro": "Producción agropecuaria",
+   "carga_peligrosa_t": 2.51,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Diana Food Chile Spa",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 2.23,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Pesquera Trans Antartic Limitada",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 2.23,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Agroindustrias Lomas Coloradas Ltda",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 2.21,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Industrias Isla Quihua S A",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 2.2,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Pesquera Friosur S A",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 2.19,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Spinetech Chile Sociedad Anonima",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 2.05,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Empresa Nacional Del Petroleo",
+   "rubro": "Minería",
+   "carga_peligrosa_t": 2.03,
+   "n_contactos": 5
+  },
+  {
+   "empresa": "Pesquera Quintero Sa",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 2.02,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Mejillones Aucar Limitada",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 2.0,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Soc Pesquera Silgar Limitada",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 2.0,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Coop Agricola Y Lechera De La Union Ltda",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 1.92,
+   "n_contactos": 3
+  },
+  {
+   "empresa": "Paimasa S A",
+   "rubro": "Industria del papel y celulosa",
+   "carga_peligrosa_t": 1.81,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Copec S.A.",
+   "rubro": "Comercio mayorista",
+   "carga_peligrosa_t": 1.77,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Essity Chile S.A.",
+   "rubro": "Industria del papel y celulosa",
+   "carga_peligrosa_t": 1.59,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Agar Del Pacifico S A",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 1.59,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Inmuebles Cataluna Limitada",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 1.44,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "I Municipalidad De Olmue",
+   "rubro": "Otras actividades",
+   "carga_peligrosa_t": 1.41,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Universidad De Los Lagos",
+   "rubro": "Otras actividades",
+   "carga_peligrosa_t": 1.33,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Cia Papelera Del Pacifico S A",
+   "rubro": "Industria del papel y celulosa",
+   "carga_peligrosa_t": 1.28,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Danisco Chile S.A.",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 1.23,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Operaciones Costeras S.A.",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 1.22,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Comfrut Chile Spa",
+   "rubro": "Comercio mayorista",
+   "carga_peligrosa_t": 1.1,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Santiago Agrisupply Spa",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 1.02,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Hidrocultivos S A",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 1.01,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Minera Centinela",
+   "rubro": "Minería",
+   "carga_peligrosa_t": 0.99,
+   "n_contactos": 5
+  },
+  {
+   "empresa": "Orafti Chile S A",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.98,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Rio Dulce S A",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 0.92,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Sociedad Minera Pacifico Del Sur Spa",
+   "rubro": "Minería",
+   "carga_peligrosa_t": 0.91,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Servicios Geoservice Limitada",
+   "rubro": "Otras actividades",
+   "carga_peligrosa_t": 0.84,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Universidad De Antofagasta",
+   "rubro": "Otras actividades",
+   "carga_peligrosa_t": 0.84,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Alginatos Chile S.A.",
+   "rubro": "Industria química, de plástico y caucho",
+   "carga_peligrosa_t": 0.84,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Productos Del Sur Limitada",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 0.83,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Los Glaciares S A",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.75,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Cultivos Marinos Tongoy Sa",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 0.69,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Watt'S S.A",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.69,
+   "n_contactos": 5
+  },
+  {
+   "empresa": "Landes Mussels S.A.",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.66,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "I Municipalidad De Puerto Varas",
+   "rubro": "Gestores de residuos",
+   "carga_peligrosa_t": 0.65,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Servicios Acuicolas Yusary Gavilan Roa E.I.R.L.",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 0.62,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Procesadora Calbuco Spa",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 0.56,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Central Yungay S.A",
+   "rubro": "Termoeléctricas",
+   "carga_peligrosa_t": 0.51,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Procesos Industriales Crowan Uno Limitada",
+   "rubro": "Gestores de residuos",
+   "carga_peligrosa_t": 0.48,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Santa Teresa S. A.",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.47,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Toralla Sociedad Anonima",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.46,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Salmones Cailin S.A.",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 0.45,
+   "n_contactos": 2
+  },
+  {
+   "empresa": "Noracid Sa",
+   "rubro": "Industria química, de plástico y caucho",
+   "carga_peligrosa_t": 0.45,
+   "n_contactos": 6
+  },
+  {
+   "empresa": "Fruticola Olmue Spa",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.44,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Tresmontes S.A",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.43,
+   "n_contactos": 6
+  },
+  {
+   "empresa": "Central Colmito S.A.",
+   "rubro": "Termoeléctricas",
+   "carga_peligrosa_t": 0.42,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Acuicola Del Norte S A",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 0.37,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Salmones Pacific Star S A",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.36,
+   "n_contactos": 3
+  },
+  {
+   "empresa": "David Del Curto Spa",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.35,
+   "n_contactos": 2
+  },
+  {
+   "empresa": "Patagonia Salmon Farming S A",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 0.35,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Alto Maipo Spa",
+   "rubro": "Otras centrales de generación eléctrica",
+   "carga_peligrosa_t": 0.34,
+   "n_contactos": 2
+  },
+  {
+   "empresa": "Sociedad Proa Ltda",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.34,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Alimex S.A.",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.32,
+   "n_contactos": 3
+  },
+  {
+   "empresa": "Moly Cop Chile S A",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.32,
+   "n_contactos": 4
+  },
+  {
+   "empresa": "Salmonoil S A",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.31,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Procesadora Cailin Spa",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 0.3,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Pesquera Y Conservera Tamai Ltda",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.3,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Marine Farms Limitada",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 0.3,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Chile Botanics Spa",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.29,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Complejo Industrial Molynor S.A.",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.28,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Universidad Catolica Del Norte",
+   "rubro": "Otras actividades",
+   "carga_peligrosa_t": 0.27,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Comercial Y Servicios Sur Austral Limitada",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.26,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Empresas Lipigas S A",
+   "rubro": "Otras actividades",
+   "carga_peligrosa_t": 0.25,
+   "n_contactos": 4
+  },
+  {
+   "empresa": "Anglo American Sur S.A.",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.24,
+   "n_contactos": 5
+  },
+  {
+   "empresa": "Seafood Resources Chile S A",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 0.22,
+   "n_contactos": 2
+  },
+  {
+   "empresa": "Curtiembre Rufino Melero S A",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.21,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Safcol Chile S A",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 0.21,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Invertec Natural Juice S A",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.2,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Redes Y Nets Limitada",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 0.2,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Manufactura De Cueros Del Sur Limitada",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.2,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Hidronor Chile S.A",
+   "rubro": "Gestores de residuos",
+   "carga_peligrosa_t": 0.19,
+   "n_contactos": 3
+  },
+  {
+   "empresa": "Inversiones Coihuin Limitada",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 0.19,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Congelados Y Conservas Fitz Roy S A",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.18,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Scallop Chile S.A.",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 0.18,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Bayas Del Sur S.A.",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.16,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Sociedad De Turismo Rio Serrano S.A.",
+   "rubro": "Otras actividades",
+   "carga_peligrosa_t": 0.15,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Copefrut S A",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.14,
+   "n_contactos": 3
+  },
+  {
+   "empresa": "Comite De Agua Potable Santa Fe",
+   "rubro": "Plantas de tratamiento de aguas servidas",
+   "carga_peligrosa_t": 0.14,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "I Municipalidad De Curaco De Velez",
+   "rubro": "Plantas de tratamiento de aguas servidas",
+   "carga_peligrosa_t": 0.14,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "I Municipalidad De Aysen",
+   "rubro": "Otras actividades",
+   "carga_peligrosa_t": 0.13,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Aceros Aza S.A.",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.11,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Taller De Redes S.A.",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 0.11,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Los Guindos Generacion Spa.",
+   "rubro": "Termoeléctricas",
+   "carga_peligrosa_t": 0.11,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Puerto Bories S.A.",
+   "rubro": "Otras actividades",
+   "carga_peligrosa_t": 0.1,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Inversiones E Industrias Valle Verde S.A.",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.09,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Ala Base N.1",
+   "rubro": "Plantas de tratamiento de aguas servidas",
+   "carga_peligrosa_t": 0.09,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Minera Tres Valles Spa.",
+   "rubro": "Minería",
+   "carga_peligrosa_t": 0.08,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Pesquera Deep Sea Food S A",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.08,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Pesquera Grimar S.A.",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 0.08,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Soc Com Agricola Ganadera E Ind Dollinco Ltda",
+   "rubro": "Producción agropecuaria",
+   "carga_peligrosa_t": 0.07,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Chile Seafoods Comercial Spa",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.07,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Ac Redes Servicios Acuicolas Limitada",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.07,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Ifco Systems Chile S.A.",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.07,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Ball Chile S.A.",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.06,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Pesquera Tubul S A",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.06,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Ecomaule Spa",
+   "rubro": "Gestores de residuos",
+   "carga_peligrosa_t": 0.05,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Pesquera Y Conservera Real Ltda",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 0.05,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Mina Invierno S.A.",
+   "rubro": "Minería",
+   "carga_peligrosa_t": 0.05,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Exportadora Subsole Sa",
+   "rubro": "Producción agropecuaria",
+   "carga_peligrosa_t": 0.05,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Fabricas Y Maestranzas Del Ejercito",
+   "rubro": "Industria química, de plástico y caucho",
+   "carga_peligrosa_t": 0.04,
+   "n_contactos": 4
+  },
+  {
+   "empresa": "Cia Fruticola Alessandrini Ltda",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.04,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Inmobiliaria Socovesa Sur S A",
+   "rubro": "Construcción",
+   "carga_peligrosa_t": 0.04,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Pesquera Pacific  Farmer Limitada",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 0.04,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Sociedad Agrolacteos De Chiloe S.A.",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.04,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Vinicola Patacon Spa",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.04,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Aislapol S.A",
+   "rubro": "Industria química, de plástico y caucho",
+   "carga_peligrosa_t": 0.03,
+   "n_contactos": 6
+  },
+  {
+   "empresa": "Agricola Y Frutera Curacavi S.A.",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.03,
+   "n_contactos": 4
+  },
+  {
+   "empresa": "Vital Aguas S.A.",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.03,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Davila Y Diaz Limitada",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.03,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Marine Gel Antartic S.A.",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.03,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Masonite Chile S A",
+   "rubro": "Industria de la madera y silvicultura",
+   "carga_peligrosa_t": 0.03,
+   "n_contactos": 6
+  },
+  {
+   "empresa": "Ocean Spray Chile Spa",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.03,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "San Clemente Foods S.A",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.03,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "I Municipalidad De Vichuquen",
+   "rubro": "Plantas de tratamiento de aguas servidas",
+   "carga_peligrosa_t": 0.03,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Rocofrut S A",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.02,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Ceramica Santiago S A",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.02,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Soc Agricola Requingua Ltda",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.02,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Productos Marinos Puerto Williams Limitada",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 0.02,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Forestal Rio Calle Calle S A",
+   "rubro": "Industria de la madera y silvicultura",
+   "carga_peligrosa_t": 0.02,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Compania Minera Nevada Spa",
+   "rubro": "Minería",
+   "carga_peligrosa_t": 0.02,
+   "n_contactos": 1
+  },
+  {
+   "empresa": "Procesos Naturales Vilkun S.A.",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.02,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Friofort S A",
+   "rubro": "Otras actividades",
+   "carga_peligrosa_t": 0.02,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Sociedad Faenadora Frigosur Limitada",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.02,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Agroindustrias Cepia Sociedad Anonima",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.01,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Emporio Aleman S A",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.01,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Agricola Y Packing Cachapoal S A",
+   "rubro": "Producción agropecuaria",
+   "carga_peligrosa_t": 0.01,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "I Municipalidad De Laja",
+   "rubro": "Otras actividades",
+   "carga_peligrosa_t": 0.01,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Maersk Logistics & Services Chile Spa",
+   "rubro": "Otras actividades",
+   "carga_peligrosa_t": 0.01,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Cmpc Maderas Spa",
+   "rubro": "Termoeléctricas",
+   "carga_peligrosa_t": 0.01,
+   "n_contactos": 8
+  },
+  {
+   "empresa": "Cia Minera Del Pacifico S.A.",
+   "rubro": "Minería",
+   "carga_peligrosa_t": 0.01,
+   "n_contactos": 3
+  },
+  {
+   "empresa": "Servicios Y Comercializacion Pinguinos Limitada",
+   "rubro": "Industria de la madera y silvicultura",
+   "carga_peligrosa_t": 0.01,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Matadero Miguel Cortes Pena E.I.R.L.",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.01,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Fundacion Chinquihue",
+   "rubro": "Otras actividades",
+   "carga_peligrosa_t": 0.01,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Soc Comercial E Industrial Agromar Limitada",
+   "rubro": "Comercio mayorista",
+   "carga_peligrosa_t": 0.01,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Campomar Spa",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 0.01,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Aridos Petromin S.A.",
+   "rubro": "Minería",
+   "carga_peligrosa_t": 0.01,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Lacteos San Ignacio S.A.",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.01,
+   "n_contactos": 2
+  },
+  {
+   "empresa": "Alimentos E Inversiones Valles De Chile Limitada",
+   "rubro": "Producción agropecuaria",
+   "carga_peligrosa_t": 0.01,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Turismo Cabanas Del Paine Limitada",
+   "rubro": "Otras actividades",
+   "carga_peligrosa_t": 0.01,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Contenedores San Fernando Spa",
+   "rubro": "Industria del papel y celulosa",
+   "carga_peligrosa_t": 0.0,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Lacteos Tinguiririca S.A.",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.0,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Exportadora De Mostos Y Vinos Jucosol Sociedad Anonima",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.0,
+   "n_contactos": 1
+  },
+  {
+   "empresa": "Soc Pesquera San Fernando Limitada",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 0.0,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Foraction Chili Spa",
+   "rubro": "Industria de la madera y silvicultura",
+   "carga_peligrosa_t": 0.0,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Vina Von Siebenthal Socidedad Anonima",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.0,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Montes S A",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.0,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Vina Morande S A",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.0,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Inmobiliaria Nunez Limitada",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.0,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Rico Foods S A",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 0.0,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Agroindustrial Jaime Soler S A",
+   "rubro": "Producción agropecuaria",
+   "carga_peligrosa_t": 0.0,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Servicios Integrales Chiloe Redes Limitada",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 0.0,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Skysal S A",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 0.0,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Agricola La Higuera Limitada",
+   "rubro": "Producción agropecuaria",
+   "carga_peligrosa_t": 0.0,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Comercial Bb Trading Spa",
+   "rubro": "Producción agropecuaria",
+   "carga_peligrosa_t": 0.0,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Agroindustrial Pedregal Sociedad Anonima",
+   "rubro": "Producción agropecuaria",
+   "carga_peligrosa_t": 0.0,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Lacteos Pelales Limitada",
+   "rubro": "Otras industrias manufactureras",
+   "carga_peligrosa_t": 0.0,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Ostimar S.A.",
+   "rubro": "Pesca y acuicultura",
+   "carga_peligrosa_t": 0.0,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Molduras E Insumos Limitada",
+   "rubro": "Industria de la madera y silvicultura",
+   "carga_peligrosa_t": 0.0,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Inmobiliaria Reconquista S.A.",
+   "rubro": "Otras actividades",
+   "carga_peligrosa_t": 0.0,
+   "n_contactos": 0
+  },
+  {
+   "empresa": "Vina Selentia Limitada",
+   "rubro": "Otras actividades",
+   "carga_peligrosa_t": 0.0,
+   "n_contactos": 0
+  }
+ ]
+}
