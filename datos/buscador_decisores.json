@@ -5,7 +5,7 @@
   "Transparencia (empresas del Estado)",
   "Web search / LinkedIn"
  ],
- "total_empresas": 112,
+ "total_empresas": 115,
  "resultados": [
   {
    "empresa": "Guacolda Energia Spa",
@@ -4806,6 +4806,101 @@
    "notas": [],
    "n_decisores": 7,
    "n_relevantes": 7
+  },
+  {
+   "empresa": "Inversiones Hidricas El Caudal Limitada",
+   "hallazgos": [],
+   "fuentes_usadas": [],
+   "notas": [
+    "sin decisores en las fuentes consultadas"
+   ],
+   "n_decisores": 0,
+   "n_relevantes": 0
+  },
+  {
+   "empresa": "Surlat Industrial Spa.",
+   "hallazgos": [
+    {
+     "nombre": "Juan Pablo Torres González",
+     "cargo": "Maintenance manager at Quillayes Surlat",
+     "linkedin": "https://cl.linkedin.com/in/juan-pablo-torres-gonzalez",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "pablo andres chodin",
+     "cargo": "Jefe de mantencion en Surlat",
+     "linkedin": "https://cl.linkedin.com/in/pablo-andres-chodin-b7184a6b",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Felipe Matamala",
+     "cargo": "Coordinador de mantenimiento en Quillayes Surlat",
+     "linkedin": "https://cl.linkedin.com/in/felipe-matamala-882354200",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Alejandro Javier Quijada Muñoz",
+     "cargo": "gerente de mantenimiento",
+     "linkedin": "https://cl.linkedin.com/in/alejandro-javier-quijada-mu%C3%B1oz-951725ab",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Camilo Coche",
+     "cargo": "Ingeniero Industrial | Instrumentación, Automatización y Control Industrial en Quillayes-S",
+     "linkedin": "https://cl.linkedin.com/in/camilocoche",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Carrie Córdova",
+     "cargo": "Sustentabilidad Quillayes Surlat",
+     "linkedin": "https://cl.linkedin.com/in/carrie-c%C3%B3rdova-24867775",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "OSVALDO MARTELL AHUMADA",
+     "cargo": "Jefe de operaciones Quillayes Surlat.",
+     "linkedin": "https://cl.linkedin.com/in/osvaldo-martell-ahumada-648a18164",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Yessenia Troncoso Liempi",
+     "cargo": "Encargada seguridad, salud ocupacional y medio ambiente",
+     "linkedin": "https://cl.linkedin.com/in/yessenia-troncoso-liempi-52293014b",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    }
+   ],
+   "fuentes_usadas": [
+    "LinkedIn: 9"
+   ],
+   "notas": [],
+   "n_decisores": 8,
+   "n_relevantes": 8
+  },
+  {
+   "empresa": "Extractos Naturales Gelymar S A",
+   "hallazgos": [
+    {
+     "nombre": "Miguel Angel Salinas Abarzúa",
+     "cargo": "Gerente de Ingeniería y Proyectos en Extractos Naturales Gelymar S.A.",
+     "linkedin": "https://cl.linkedin.com/in/miguel-angel-salinas-abarz%C3%BAa-3a21a488",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    }
+   ],
+   "fuentes_usadas": [
+    "LinkedIn: 1"
+   ],
+   "notas": [],
+   "n_decisores": 1,
+   "n_relevantes": 1
   }
  ]
 }
