@@ -19419,86 +19419,73 @@
    "dolor_t": 69.58
   },
   {
-   "empresa": "EMPRESA NACIONAL DE MINERIA",
+   "empresa": "ENAMI (Empresa Nacional de Minería)",
    "hallazgos": [
     {
-     "nombre": "José Castro",
-     "cargo": "Jefe Mantenimiento Fundición en ENAMI Empresa Nacional de Minería",
-     "linkedin": "https://cl.linkedin.com/in/jos%C3%A9-castro-6b2ba727",
-     "fuente": "LinkedIn (AIsa, headline validado)",
+     "nombre": "Jaime Pérez de Arce Araya",
+     "cargo": "Vicepresidente Ejecutivo",
+     "linkedin": "",
+     "fuente": "direcmin.com/enami-empresa-nacional-de-miner-a/ejecutivos",
+     "relevante": false
+    },
+    {
+     "nombre": "Marcelo Rocha Arredondo",
+     "cargo": "Fiscal",
+     "linkedin": "",
+     "fuente": "direcmin.com/enami-empresa-nacional-de-miner-a/ejecutivos",
+     "relevante": false
+    },
+    {
+     "nombre": "Boris Iván Fortín Ruiz",
+     "cargo": "Gerente Comercial",
+     "linkedin": "",
+     "fuente": "direcmin.com/enami-empresa-nacional-de-miner-a/ejecutivos",
      "relevante": true
     },
     {
-     "nombre": "Sebastian Fehrmann",
-     "cargo": "Gerente de Mantenimiento de Mina – BHP Spence",
-     "linkedin": "https://cl.linkedin.com/in/sebastian-fehrmann-3994064b",
-     "fuente": "LinkedIn (AIsa, headline validado)",
+     "nombre": "Manuel Antonio Carmona Navea",
+     "cargo": "Gerente de Plantas",
+     "linkedin": "",
+     "fuente": "direcmin.com/enami-empresa-nacional-de-miner-a/ejecutivos",
      "relevante": true
     },
     {
-     "nombre": "Leonardo Arancibia Silva",
-     "cargo": "Jefe Mantención Suministros en Empresa Nacional de Mineria",
-     "linkedin": "https://cl.linkedin.com/in/leonardo-arancibia-silva-1468ba115",
-     "fuente": "LinkedIn (AIsa, headline validado)",
+     "nombre": "Patricia Marchant Cortés",
+     "cargo": "Gerente de Auditoría Corporativa",
+     "linkedin": "",
+     "fuente": "direcmin.com/enami-empresa-nacional-de-miner-a/ejecutivos",
+     "relevante": false
+    },
+    {
+     "nombre": "Hernán Santander González",
+     "cargo": "Gerente de Fundición Hernán Videla Lira",
+     "linkedin": "",
+     "fuente": "direcmin.com/enami-empresa-nacional-de-miner-a/ejecutivos",
      "relevante": true
     },
     {
-     "nombre": "Patricio Arturo Olguín Alday",
-     "cargo": "Jefe de Turno en Empresa Nacional de Mineria ENAMI",
-     "linkedin": "https://cl.linkedin.com/in/patricio-arturo-olgu%C3%ADn-alday-0275b948",
-     "fuente": "LinkedIn (AIsa, headline validado)",
-     "relevante": true
+     "nombre": "Viviana Ireland Cortés",
+     "cargo": "Gerente de Fomento y Minería",
+     "linkedin": "",
+     "fuente": "direcmin.com/enami-empresa-nacional-de-miner-a/ejecutivos",
+     "relevante": false
     },
     {
-     "nombre": "Iván Muñoz Cabello",
-     "cargo": "Jefe de Proyectos en Empresa Nacional de Minería | Ingeniero Civil en Obras Civiles",
-     "linkedin": "https://cl.linkedin.com/in/ivanmunozcabello",
-     "fuente": "LinkedIn (AIsa, headline validado)",
-     "relevante": true
-    },
-    {
-     "nombre": "Alejandro Diez",
-     "cargo": "Jefe Corporativo de Gestión Ambiental en Empresa Nacional de Minería",
-     "linkedin": "https://cl.linkedin.com/in/alejandro-diez-08ab4024",
-     "fuente": "LinkedIn (AIsa, headline validado)",
-     "relevante": true
-    },
-    {
-     "nombre": "Swindy Kopp",
-     "cargo": "Gerente de Medio Ambiente y Permisos | Minería | IA aplicada a regulación, sostenibilidad",
-     "linkedin": "https://cl.linkedin.com/in/swindykoppesghseq",
-     "fuente": "LinkedIn (AIsa, headline validado)",
-     "relevante": true
-    },
-    {
-     "nombre": "Valentina Santelices",
-     "cargo": "Gerenta de Sustentabilidad | Directora de Empresas | Medio Ambiente, Seguridad y Asuntos C",
-     "linkedin": "https://cl.linkedin.com/in/valentina-santelices-corporativo-socioambiental",
-     "fuente": "LinkedIn (AIsa, headline validado)",
-     "relevante": true
-    },
-    {
-     "nombre": "Montserrat P.",
-     "cargo": "Gerente de Medio Ambiente Antofagasta Minerals",
-     "linkedin": "https://cl.linkedin.com/in/montserrat-p-a7367647",
-     "fuente": "LinkedIn (AIsa, headline validado)",
-     "relevante": true
-    },
-    {
-     "nombre": "Stephanie Wilhelm Núñez",
-     "cargo": "gerente de medio ambiente",
-     "linkedin": "https://cl.linkedin.com/in/stephanie-wilhelm-n",
-     "fuente": "LinkedIn (AIsa, headline validado)",
+     "nombre": "María Cristina Vallejos Cox",
+     "cargo": "Gerente de Proyectos",
+     "linkedin": "",
+     "fuente": "direcmin.com/enami-empresa-nacional-de-miner-a/ejecutivos",
      "relevante": true
     }
    ],
    "fuentes_usadas": [
-    "LinkedIn: 10"
+    "Direcmin: 8 (ejecutivos verificados por cargo)"
    ],
-   "notas": [],
-   "n_decisores": 10,
-   "n_relevantes": 10,
-   "dolor_t": 69.3
+   "notas": [
+    "Cargos de Direcmin. La corrida por LinkedIn se descartó: traía 3 personas de otras mineras (BHP Spence, Antofagasta Minerals) por homonimia."
+   ],
+   "n_decisores": 8,
+   "n_relevantes": 4
   },
   {
    "empresa": "ARIDOS GUERRICO CHILE LIMITADA",
