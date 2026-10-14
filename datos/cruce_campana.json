@@ -3,13 +3,15 @@
  "diagnostico": "El Excel tiene el QUÉ (75 plantas target, 31 proyectos con inversión, fuentes) pero está a medio hacer: 2 contactos, 3 siguientes pasos. El trabajo de prospección tiene el QUIÉN (2.691 decisores) pero no sabe qué planta es target. Cada uno cubre el hueco del otro.",
  "totales": {
   "plantas_target": 75,
-  "con_decisores": 10,
-  "sin_decisores": 65,
+  "con_decisores": 9,
+  "sin_decisores": 66,
   "con_proyecto": 4,
-  "con_telefono": 6,
+  "con_telefono": 3,
   "con_contacto": 2,
   "con_siguiente": 3,
-  "decisores_disponibles": 161
+  "decisores_disponibles": 121,
+  "plantas_con_decisores": 49,
+  "decisores_del_barrido": 433
  },
  "filas": [
   {
@@ -30,7 +32,53 @@
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": {
+    "empresa": "Enel Green Power",
+    "n": 8,
+    "personas": [
+     {
+      "nombre": "Christopher Petrola, P.E.",
+      "cargo": "Director, Maintenance and Technical Support at Enel Green Power",
+      "linkedin": "https://www.linkedin.com/in/christopher-petrola-p-e-3240b211"
+     },
+     {
+      "nombre": "Luis Vergara",
+      "cargo": "Gerente de Operation and Maintenance Improvement en Enel Green Power",
+      "linkedin": "https://cl.linkedin.com/in/vergaraluis"
+     },
+     {
+      "nombre": "Evan Herring",
+      "cargo": "Sr. Renewables O&M Site Manager at Enel Green Power NA",
+      "linkedin": "https://www.linkedin.com/in/evan-herring-64b3331b3"
+     },
+     {
+      "nombre": "Antonio Crisol Puertas",
+      "cargo": "Head of Enel Green Power and Thermal Generation Colombia and Central America",
+      "linkedin": "https://co.linkedin.com/in/antonio-crisol-puertas-510441108"
+     },
+     {
+      "nombre": "Stephen Pike",
+      "cargo": "Head of Enel Green Power North America",
+      "linkedin": "https://www.linkedin.com/in/stephen-d-pike"
+     },
+     {
+      "nombre": "Pablo Dominguez",
+      "cargo": "Supervisor O&M en Enel Green Power",
+      "linkedin": "https://cl.linkedin.com/in/pablo-dominguez-59a3b2b1"
+     },
+     {
+      "nombre": "Alex Palma Avila",
+      "cargo": "Head of Health Safety Environment and Quality Enel Green Power and Thermal Generation Arge",
+      "linkedin": "https://cl.linkedin.com/in/alex-palma-avila-b6063936"
+     },
+     {
+      "nombre": "Felipe Umaña Ortiz",
+      "cargo": "SEQ Manager Enel Green Power Chile and Andean Countries",
+      "linkedin": "https://cl.linkedin.com/in/felipe-alejandro-uma%C3%B1a-ortiz-23871624/en"
+     }
+    ]
+   }
   },
   {
    "planta": "ALLIPEN",
@@ -50,7 +98,8 @@
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": null
   },
   {
    "planta": "RUCATAYO",
@@ -72,7 +121,33 @@
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": {
+    "empresa": "Statkraft",
+    "n": 4,
+    "personas": [
+     {
+      "nombre": "Germán Ortega Vargas",
+      "cargo": "Jefe de mantenimiento en Statkraft Peru",
+      "linkedin": "https://pe.linkedin.com/in/germ%C3%A1n-ortega-vargas-7323ba1a0"
+     },
+     {
+      "nombre": "Juan Manuel López",
+      "cargo": "VP Strategic Operations at Statkraft Peru",
+      "linkedin": "https://pe.linkedin.com/in/juanmanuellopezteves"
+     },
+     {
+      "nombre": "Laurent Talbot – Head of Energy Storage Germany ",
+      "cargo": "Head of Energy Storage Germany at Statkraft",
+      "linkedin": "https://de.linkedin.com/in/ltalbot01"
+     },
+     {
+      "nombre": "Cesar Morgado Martin",
+      "cargo": "Gerente de Medioambiente y Permisos en Statkraft",
+      "linkedin": "https://cl.linkedin.com/in/cesar-morgado-martin-311b26103"
+     }
+    ]
+   }
   },
   {
    "planta": "PARQUE EOLICO LEBU",
@@ -92,7 +167,8 @@
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": null
   },
   {
    "planta": "EL PELICANO",
@@ -117,7 +193,8 @@
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": null
   },
   {
    "planta": "PUCLARO",
@@ -137,7 +214,8 @@
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": null
   },
   {
    "planta": "TACORA ENERGY",
@@ -157,7 +235,8 @@
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": null
   },
   {
    "planta": "PUNTILLA",
@@ -179,7 +258,28 @@
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": {
+    "empresa": "Eléctrica Puntilla",
+    "n": 3,
+    "personas": [
+     {
+      "nombre": "Francisco Novoa Rodriguez",
+      "cargo": "Jefe de Mantenimiento en Eléctrica Puntilla S.A.",
+      "linkedin": "https://cl.linkedin.com/in/francisco-novoa-rodriguez"
+     },
+     {
+      "nombre": "Alejandro Gómez Vidal",
+      "cargo": "Gerente General en Eléctrica Puntilla S.A.",
+      "linkedin": "https://cl.linkedin.com/in/alejandro-g%C3%B3mez-vidal-79682652"
+     },
+     {
+      "nombre": "Luis Delgado",
+      "cargo": "\"Encargado Operativo\" en Eléctrica Puntilla S. A.",
+      "linkedin": "https://cl.linkedin.com/in/luis-delgado-91583531"
+     }
+    ]
+   }
   },
   {
    "planta": "GAS SUR",
@@ -199,7 +299,8 @@
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": null
   },
   {
    "planta": "CHACAYES",
@@ -219,7 +320,8 @@
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": null
   },
   {
    "planta": "SGA",
@@ -239,7 +341,8 @@
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": null
   },
   {
    "planta": "LIPIGAS",
@@ -259,7 +362,48 @@
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": {
+    "empresa": "Lipigas",
+    "n": 7,
+    "personas": [
+     {
+      "nombre": "Rodrigo Clavijo",
+      "cargo": "Jefe de Proyectos TI en Empresas Lipigas",
+      "linkedin": "https://cl.linkedin.com/in/rodrigo-clavijo-570b5327"
+     },
+     {
+      "nombre": "Sigisfredo Garcia",
+      "cargo": "Jefe de Planta en Empresas Lipigas",
+      "linkedin": "https://cl.linkedin.com/in/sigisfredo-garcia-b8905627"
+     },
+     {
+      "nombre": "Rodrigo Banda Velásquez",
+      "cargo": "Jefe de proyectos de TI en Empresas Lipigas",
+      "linkedin": "https://cl.linkedin.com/in/rodrigo-banda-vel%C3%A1squez-0147aa23"
+     },
+     {
+      "nombre": "Mario Vera Arancibia",
+      "cargo": "Supervisor de Instalaciones y Mantenimiento Gas Natural en Empresas Lipigas",
+      "linkedin": "https://cl.linkedin.com/in/mario-vera-arancibia-7781b822b"
+     },
+     {
+      "nombre": "luis inostroza",
+      "cargo": "Jefe Logística Venta Directa RM en Empresas Lipigas",
+      "linkedin": "https://cl.linkedin.com/in/luis-inostrozam"
+     },
+     {
+      "nombre": "Vladimir Valdivia",
+      "cargo": "Sub Gerente de Prevención de Riesgos y Medio Ambiente en Empresas Lipigas",
+      "linkedin": "https://cl.linkedin.com/in/vladimir-valdivia-94b83440"
+     },
+     {
+      "nombre": "Ana María Salinas Delgado",
+      "cargo": "Gerente Asuntos Corporativos y Sostenibilidad Lipigas/LipiAndes",
+      "linkedin": "https://cl.linkedin.com/in/ana-mar%C3%ADa-salinas-delgado-48023120"
+     }
+    ]
+   }
   },
   {
    "planta": "LA HIGUERA",
@@ -279,7 +423,8 @@
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": null
   },
   {
    "planta": "ALMEYDA",
@@ -299,7 +444,8 @@
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": null
   },
   {
    "planta": "LA CONFLUENCIA",
@@ -319,7 +465,8 @@
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": null
   },
   {
    "planta": "SAN JUAN (LAP)",
@@ -341,7 +488,8 @@
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": null
   },
   {
    "planta": "ATRIA ENERGIA",
@@ -361,7 +509,28 @@
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": {
+    "empresa": "Atria Energia",
+    "n": 3,
+    "personas": [
+     {
+      "nombre": "Maximiliano Herreros",
+      "cargo": "Gerente de Energía en Atria",
+      "linkedin": "https://cl.linkedin.com/in/maximiliano-herreros-81944550"
+     },
+     {
+      "nombre": "Guillermo Cox",
+      "cargo": "Director Ejecutivo en Atria Energia",
+      "linkedin": "https://pe.linkedin.com/in/guillermocox"
+     },
+     {
+      "nombre": "Marco Benza",
+      "cargo": "Gerente Comercial en Atria Energía",
+      "linkedin": "https://pe.linkedin.com/in/marco-benza-benavides"
+     }
+    ]
+   }
   },
   {
    "planta": "ACCIONA",
@@ -381,7 +550,43 @@
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": {
+    "empresa": "Acciona Energia Chile",
+    "n": 6,
+    "personas": [
+     {
+      "nombre": "Tayane Ghannam",
+      "cargo": "Gerente de Recursos Humanos en ACCIONA Energía",
+      "linkedin": "https://cl.linkedin.com/in/tayane-ghannam"
+     },
+     {
+      "nombre": "Eduar Salinas",
+      "cargo": "Gerente Comercial en ACCIONA Energía",
+      "linkedin": "https://cl.linkedin.com/in/eduarsalinas"
+     },
+     {
+      "nombre": "Jose Luis Andreu Pons",
+      "cargo": "Ex - Jefe Eléctrico e Instrumentación en ACCIONA",
+      "linkedin": "https://cl.linkedin.com/in/jose-luis-andreu-pons-b8769623"
+     },
+     {
+      "nombre": "Claudia Alejandra Poblete Avendaño",
+      "cargo": "Subgerente de Medio Ambiente - Acciona Energía",
+      "linkedin": "https://cl.linkedin.com/in/claudia-alejandra-poblete-avenda%C3%B1o-300a1254"
+     },
+     {
+      "nombre": "Rodrigo Soto Tellez",
+      "cargo": "Gerente de acciona.org Chile | Marketing y Comunicaciones | Branding | Reputación | Sosten",
+      "linkedin": "https://es.linkedin.com/in/rodrigo-soto-tellez"
+     },
+     {
+      "nombre": "Manuel Ezquerra",
+      "cargo": "Director de Producción en ACCIONA Energía en Chile para Sudamérica",
+      "linkedin": "https://cl.linkedin.com/in/manuel-ezquerra-a6065421"
+     }
+    ]
+   }
   },
   {
    "planta": "NORVIND",
@@ -401,7 +606,8 @@
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": null
   },
   {
    "planta": "BESALCO",
@@ -421,7 +627,58 @@
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": {
+    "empresa": "Besalco",
+    "n": 9,
+    "personas": [
+     {
+      "nombre": "Pablo Pérez Burgos",
+      "cargo": "Jefe de Mantenimiento Besalco Energía Renovable",
+      "linkedin": "https://cl.linkedin.com/in/pablo-p%C3%A9rez-burgos-3abb37134"
+     },
+     {
+      "nombre": "Diego Rosselot",
+      "cargo": "Gerente de Maquinarias Besalco Construcciones",
+      "linkedin": "https://cl.linkedin.com/in/diego-rosselot-6843b1152"
+     },
+     {
+      "nombre": "Orlando Parraguez",
+      "cargo": "Gerente de operaciones Besalco Construcciones",
+      "linkedin": "https://cl.linkedin.com/in/orlando-parraguez-8258935b"
+     },
+     {
+      "nombre": "Guillermo Garcia",
+      "cargo": "GERENTE GENERAL BESALCO CONSTRUCCIONES SA",
+      "linkedin": "https://cl.linkedin.com/in/guillermo-garcia-35011532"
+     },
+     {
+      "nombre": "Eugenio Navea",
+      "cargo": "Jefe de área en Besalco MD Montajes",
+      "linkedin": "https://cl.linkedin.com/in/eugenio-navea-aa8a2aa5"
+     },
+     {
+      "nombre": "Alfonso Calvo Toro",
+      "cargo": "Jefe de Maquinarias Besalco Maquinarias",
+      "linkedin": "https://cl.linkedin.com/in/alfonso-calvo-toro"
+     },
+     {
+      "nombre": "Besalco Araya",
+      "cargo": "JEFE DE OFICINA TÉCNICA en BESALCO SA",
+      "linkedin": "https://cl.linkedin.com/in/besalco-araya-034383a6"
+     },
+     {
+      "nombre": "Macarena Poblete Perines",
+      "cargo": "Jefe Corporativo de Medio Ambiente en Besalco Construcciones S.A",
+      "linkedin": "https://cl.linkedin.com/in/macarena-poblete-perines-5b6098b0"
+     },
+     {
+      "nombre": "Pablo Nilo Véliz",
+      "cargo": "Gerente de operaciones en Besalco Construcciones",
+      "linkedin": "https://cl.linkedin.com/in/pnilo"
+     }
+    ]
+   }
   },
   {
    "planta": "EMELDA",
@@ -441,7 +698,8 @@
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": null
   },
   {
    "planta": "MONTE REDONDO",
@@ -461,7 +719,8 @@
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": null
   },
   {
    "planta": "CHUNGUNGO",
@@ -481,7 +740,8 @@
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": null
   },
   {
    "planta": "SANTIAGO SOLAR",
@@ -503,7 +763,8 @@
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": null
   },
   {
    "planta": "CAREN",
@@ -523,7 +784,8 @@
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": null
   },
   {
    "planta": "GM HOLDINGS",
@@ -543,7 +805,8 @@
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": null
   },
   {
    "planta": "ENEL GENERACION",
@@ -554,31 +817,37 @@
    "quien_contacto": "",
    "siguiente_paso": "",
    "lineas_excel": {},
-   "decisores": 2,
-   "empresa_buscador": "Enel Generacion Chile S.A.",
-   "decisores_detalle": [
-    {
-     "nombre": "William Univaso Hansen",
-     "cargo": "Supervisor de Mantenimiento en Enel Generación Chile",
-     "linkedin": "https://cl.linkedin.com/in/william-univaso-hansen-548659109",
-     "fuente": "LinkedIn (AIsa, headline validado)",
-     "relevante": true
-    },
-    {
-     "nombre": "Pablo Arnés Poggi",
-     "cargo": "Ejecutivo y Director de empresas del sector eléctrico | Generación y transporte de energía",
-     "linkedin": "https://cl.linkedin.com/in/pablo-arn%C3%A9s-poggi",
-     "fuente": "LinkedIn (AIsa, headline validado)",
-     "relevante": true
-    }
-   ],
+   "decisores": 0,
+   "empresa_buscador": "",
+   "decisores_detalle": [],
    "dolor_t": 0,
    "region_real": "",
    "comuna_real": "",
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": {
+    "empresa": "Enel Generacion Chile",
+    "n": 3,
+    "personas": [
+     {
+      "nombre": "Luis Vergara",
+      "cargo": "Gerente de Operation and Maintenance Improvement en Enel Green Power",
+      "linkedin": "https://cl.linkedin.com/in/vergaraluis"
+     },
+     {
+      "nombre": "Gonzalo Ruiz Cisternas",
+      "cargo": "Head Power Plant Mid-Country, en Enel Generacion Chile",
+      "linkedin": "https://cl.linkedin.com/in/gonzaloruizc"
+     },
+     {
+      "nombre": "Cristian Aguilera",
+      "cargo": "Supervisor de Sistemas de Control Enel Generación Chile",
+      "linkedin": "https://cl.linkedin.com/in/cristian-aguilera-a3295b48"
+     }
+    ]
+   }
   },
   {
    "planta": "CERRO DOMINADOR CSP",
@@ -600,7 +869,23 @@
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": {
+    "empresa": "Cerro Dominador",
+    "n": 2,
+    "personas": [
+     {
+      "nombre": "Gonzalo Schneeberger",
+      "cargo": "Gerente Operaciones Minera Cerro Dominador",
+      "linkedin": "https://cl.linkedin.com/in/gonzalo-schneeberger-b930b669"
+     },
+     {
+      "nombre": "Juan carlos Piñones castillo",
+      "cargo": "Jefe de mantenimiento eléctrico en Minera Cerro Dominador S.A.",
+      "linkedin": "https://cl.linkedin.com/in/juan-carlos-pi%C3%B1ones-castillo-491767127"
+     }
+    ]
+   }
   },
   {
    "planta": "IMELSA ENERGIA",
@@ -620,7 +905,33 @@
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": {
+    "empresa": "Imelsa Energia",
+    "n": 4,
+    "personas": [
+     {
+      "nombre": "Edison Flores Lazcano",
+      "cargo": "Jefe Área Personas en Imelsa S.A. | Ingeniero en Administración de Recursos Humanos con Es",
+      "linkedin": "https://cl.linkedin.com/in/edisonfloreslazcano"
+     },
+     {
+      "nombre": "Valeria Margarita Guerrero Valle",
+      "cargo": "Lider de Eficiencia Energética en IMELSA ENERGIA",
+      "linkedin": "https://cl.linkedin.com/in/valeria-margarita-guerrero-valle-9984811ba"
+     },
+     {
+      "nombre": "Osvaldo Luengo De la Barrera",
+      "cargo": "Sub Gerente de sistemas de control y protección en IMELSA",
+      "linkedin": "https://cl.linkedin.com/in/osvaldo-luengo-de-la-barrera-463428a0"
+     },
+     {
+      "nombre": "John Edward Daly Bravo",
+      "cargo": "Assistant Manager of Energy Markets In IMELSA ENERGIA",
+      "linkedin": "https://cl.linkedin.com/in/john-edward-daly-bravo-791620142"
+     }
+    ]
+   }
   },
   {
    "planta": "LUZ DEL NORTE",
@@ -640,7 +951,8 @@
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": null
   },
   {
    "planta": "AELA GENERACION",
@@ -660,7 +972,8 @@
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": null
   },
   {
    "planta": "Central Lautaro",
@@ -682,7 +995,28 @@
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": {
+    "empresa": "Comasa",
+    "n": 3,
+    "personas": [
+     {
+      "nombre": "Evans Moreira",
+      "cargo": "Jefe de mantenimiento en Comasa SPA",
+      "linkedin": "https://cl.linkedin.com/in/evans-moreira-5210a1251"
+     },
+     {
+      "nombre": "Oscar Modinger",
+      "cargo": "supervisor de instrumentacion en COMASA SA",
+      "linkedin": "https://cl.linkedin.com/in/oscar-modinger-84bab5130"
+     },
+     {
+      "nombre": "Moises Pavez Lillo",
+      "cargo": "Supervisor de Instrumentacion en COMASA generacion",
+      "linkedin": "https://cl.linkedin.com/in/moises-pavez-lillo-a178832b"
+     }
+    ]
+   }
   },
   {
    "planta": "Refineria Aconcagua",
@@ -696,16 +1030,82 @@
     "fds": "si",
     "valvulas": "si"
    },
-   "decisores": 0,
-   "empresa_buscador": "",
-   "decisores_detalle": [],
+   "decisores": 20,
+   "empresa_buscador": "Enap Refinerias S A",
+   "decisores_detalle": [
+    {
+     "nombre": "Julio Alexis Friedmann Encina",
+     "cargo": "Gerente General",
+     "profesion": "Ingeniero Civil",
+     "rut": "7.988.418-9",
+     "fuente": "https://www.enap.cl/la-empresa/estructura-corporativa/administracion",
+     "relevante": true
+    },
+    {
+     "nombre": "Rodrigo José Bustamante Villegas",
+     "cargo": "Gerente Corporativo de Exploración y Producción (E&P)",
+     "profesion": "Ingeniero Civil Electrónico",
+     "rut": "12.219.794-8",
+     "fuente": "https://www.enap.cl/la-empresa/estructura-corporativa/administracion",
+     "relevante": true
+    },
+    {
+     "nombre": "Álvaro Eduardo Hillerns Velasco",
+     "cargo": "Gerente Corporativo de Refinerías",
+     "profesion": "Ingeniero Civil Mecánico",
+     "rut": "13.104.142-K",
+     "fuente": "https://www.enap.cl/la-empresa/estructura-corporativa/administracion",
+     "relevante": true
+    },
+    {
+     "nombre": "Mariano Ignacio Pallero Alonso",
+     "cargo": "Gerente Corporativo de Desarrollo y Planificación Estratégica",
+     "profesion": "Contador Auditor",
+     "rut": "26.663.598-2",
+     "fuente": "https://www.enap.cl/la-empresa/estructura-corporativa/administracion",
+     "relevante": true
+    },
+    {
+     "nombre": "Marcelo Alberto Hernández Pérez",
+     "cargo": "Gerente Corporativo de Personas",
+     "profesion": "Psicólogo",
+     "rut": "11.416.007-5",
+     "fuente": "https://www.enap.cl/la-empresa/estructura-corporativa/administracion",
+     "relevante": true
+    },
+    {
+     "nombre": "José Ignacio Dougnac Vera",
+     "cargo": "Gerente Corporativo de Administración y Finanzas",
+     "profesion": "Ingeniero Comercial",
+     "rut": "15.343.274-0",
+     "fuente": "https://www.enap.cl/la-empresa/estructura-corporativa/administracion",
+     "relevante": true
+    },
+    {
+     "nombre": "Eduardo Andrés Jara Arnal",
+     "cargo": "Gerente Corporativo Legal",
+     "profesion": "Abogado",
+     "rut": "12.231.716-1",
+     "fuente": "https://www.enap.cl/la-empresa/estructura-corporativa/administracion",
+     "relevante": true
+    },
+    {
+     "nombre": "Carlos Mauricio Naveas Farías",
+     "cargo": "Gerente Corporativo de Logística",
+     "profesion": "Ingeniero Civil Industrial",
+     "rut": "11.736.487-9",
+     "fuente": "https://www.enap.cl/la-empresa/estructura-corporativa/administracion",
+     "relevante": true
+    }
+   ],
    "dolor_t": 0,
    "region_real": "",
    "comuna_real": "",
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": null
   },
   {
    "planta": "Proyecto Dominga",
@@ -730,7 +1130,28 @@
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": {
+    "empresa": "Andes Iron",
+    "n": 3,
+    "personas": [
+     {
+      "nombre": "Milton Rojas Zúñiga",
+      "cargo": "Gerente de Procesos en Andes Iron",
+      "linkedin": "https://cl.linkedin.com/in/milton-rojas-z%C3%BA%C3%B1iga-a070396b"
+     },
+     {
+      "nombre": "Jorge Antonio Santiago Carpio",
+      "cargo": "Gerente de Seguridad y Salud Ocupacional / ANDES IRON PROYECTO DOMINGA",
+      "linkedin": "https://cl.linkedin.com/in/jorge-antonio-santiago-carpio-a935204a"
+     },
+     {
+      "nombre": "Cristian Hornig",
+      "cargo": "Superintendente de Gestión de Activos en Andes Iron",
+      "linkedin": "https://cl.linkedin.com/in/cristian-hornig-851a6b16"
+     }
+    ]
+   }
   },
   {
    "planta": "Múltiplas S.A. - Lampa",
@@ -750,7 +1171,8 @@
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": null
   },
   {
    "planta": "Fibrocementos James Hardie Ltda. - Lampa",
@@ -770,7 +1192,23 @@
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": {
+    "empresa": "Fibrocementos Volcán",
+    "n": 2,
+    "personas": [
+     {
+      "nombre": "Pablo Sepulveda",
+      "cargo": "Jefe de modernización Industrial en Fibrocementos Volcán Ltda.",
+      "linkedin": "https://cl.linkedin.com/in/pablo-sepulveda-9566391a2"
+     },
+     {
+      "nombre": "Victor Gonzalez Espinosa",
+      "cargo": "Jefe Producción Fibrocementos Volcán",
+      "linkedin": "https://cl.linkedin.com/in/victor-gonzalez-espinosa-3b89b815"
+     }
+    ]
+   }
   },
   {
    "planta": "Los Bronces",
@@ -839,7 +1277,103 @@
    "telefono": "2534310",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": {
+    "empresa": "Anglo American Sur",
+    "n": 18,
+    "personas": [
+     {
+      "nombre": "Patricio Hidalgo",
+      "cargo": "Presidente Ejecutivo",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Eleanor Blyth",
+      "cargo": "Vicepresidente de Finanzas",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Marcelo Bustos",
+      "cargo": "Gerente General Los Bronces",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Cristina Bruce",
+      "cargo": "Vicepresidente de Asuntos Corporativos, Permisos y Medioambiente",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Sofía Sánchez",
+      "cargo": "Vicepresidente de Personas y Organización",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Paulina Jaramillo",
+      "cargo": "Gerente General El Soldado",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Benjamín Martinich",
+      "cargo": "Gerente General de Chagres",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Fernando Acosta",
+      "cargo": "Vicepresidente de Seguridad y Salud Ocupacional",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Rory Wallace",
+      "cargo": "Vicepresidente de Proyectos",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Rodrigo Subiabre",
+      "cargo": "Vicepresidente de Tecnología e Innovación",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Cecilia Arrué",
+      "cargo": "Vicepresidente de Joint Ventures",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Hector Olmos",
+      "cargo": "Gerente Mantenimiento en Anglo American",
+      "linkedin": "https://cl.linkedin.com/in/hector-olmos-98233330"
+     },
+     {
+      "nombre": "Zilleruelo Francisco",
+      "cargo": "Gerente Servicios de Apoyo Exploraciones en Anglo American Exploration",
+      "linkedin": "https://cl.linkedin.com/in/zilleruelo-francisco-97834163"
+     },
+     {
+      "nombre": "Miguel Morales Donayre",
+      "cargo": "Gerente de Asuntos Ambientales Anglo American Quellaveco SA",
+      "linkedin": "https://pe.linkedin.com/in/miguel-morales-donayre-b468523a"
+     },
+     {
+      "nombre": "Carlos Salvo",
+      "cargo": "Gerente de Sustentabilidad en Angloamerican Sur S.A. Chagres",
+      "linkedin": "https://cl.linkedin.com/in/carlos-salvo-39807b7a"
+     },
+     {
+      "nombre": "Kattherine Ferrada",
+      "cargo": "Gerente de Medio Ambiente Anglo American Chile. Sujeto responsable del Modelo de Prevenció",
+      "linkedin": "https://cl.linkedin.com/in/kattherine-ferrada-50247b237"
+     },
+     {
+      "nombre": "Chantal Maurer",
+      "cargo": "SHE way, IRM & Permitting Manager at Anglo American | Sustainability | Permitting & Risk |",
+      "linkedin": "https://pe.linkedin.com/in/chantal-maurer-53595322"
+     },
+     {
+      "nombre": "Marcela Díaz Torres",
+      "cargo": "Jefe de Permisos Sectoriales en Anglo American | Permisos | Sustentabilidad | Medio Ambien",
+      "linkedin": "https://cl.linkedin.com/in/marcela-d%C3%ADaz-torres-66165039"
+     }
+    ]
+   }
   },
   {
    "planta": "PTAS La Farfana",
@@ -859,7 +1393,58 @@
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": {
+    "empresa": "Aguas Andinas",
+    "n": 9,
+    "personas": [
+     {
+      "nombre": "Claudio Gonzalez",
+      "cargo": "Jefe de Mantenimiento Electromecánico Biofactoria Farfana Aguas Andinas",
+      "linkedin": "https://cl.linkedin.com/in/claudio-gonzalez-06b40145"
+     },
+     {
+      "nombre": "Cristián Rosas",
+      "cargo": "Gerente de Compras en Aguas Andinas",
+      "linkedin": "https://cl.linkedin.com/in/cristi%C3%A1n-rosas-14988552"
+     },
+     {
+      "nombre": "Alejandro Riquelme Hernandez",
+      "cargo": "Gerente de Desarrollo Comercial en Aguas Andinas",
+      "linkedin": "https://cl.linkedin.com/in/alejandro-riquelme-hernandez-3229bb25"
+     },
+     {
+      "nombre": "EUGENIO RODRIGUEZ MINGO",
+      "cargo": "Director de Clientes y Desarrollo Comercial en Aguas Andinas S.A.",
+      "linkedin": "https://cl.linkedin.com/in/eugenio-rodriguez-mingo-3551a2145"
+     },
+     {
+      "nombre": "Christian Martinez Espina",
+      "cargo": "Jefe de infraestructura y comunicaciones TI en Aguas Andinas",
+      "linkedin": "https://cl.linkedin.com/in/christian-martinez-espina-0850b0197"
+     },
+     {
+      "nombre": "Gerardo Miranda Correa",
+      "cargo": "Jefe Mtto Zona Sur en Aguas Andinas",
+      "linkedin": "https://cl.linkedin.com/in/gerardo-miranda-correa-82a3a544"
+     },
+     {
+      "nombre": "Marcial Soto Campos",
+      "cargo": "Jefe Atencion Nocturna en Aguas andinas",
+      "linkedin": "https://cl.linkedin.com/in/marcial-soto-campos-1a70255b"
+     },
+     {
+      "nombre": "Paola Arata",
+      "cargo": "Directora Territorial en Aguas Andinas",
+      "linkedin": "https://cl.linkedin.com/in/paola-arata-7682b353"
+     },
+     {
+      "nombre": "Francisco Javier C.",
+      "cargo": "Chief Information Officer en Aguas Andinas | MBA",
+      "linkedin": "https://cl.linkedin.com/in/fcruzfer"
+     }
+    ]
+   }
   },
   {
    "planta": "PTAS Barrancas - Pudahuel",
@@ -879,7 +1464,18 @@
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": {
+    "empresa": "Aguas Santiago Poniente",
+    "n": 1,
+    "personas": [
+     {
+      "nombre": "Héctor Vargas Cerda",
+      "cargo": "Encargado de Servicios en Aguas Santiago Poniente S.A",
+      "linkedin": "https://cl.linkedin.com/in/h%C3%A9ctor-vargas-cerda-51052140"
+     }
+    ]
+   }
   },
   {
    "planta": "Harsco Metals Chile - Til Til",
@@ -899,7 +1495,8 @@
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": null
   },
   {
    "planta": "Faenadora Lo Valledor",
@@ -919,7 +1516,33 @@
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": {
+    "empresa": "Agrícola AASA",
+    "n": 4,
+    "personas": [
+     {
+      "nombre": "eduardo luchsinger",
+      "cargo": "Gerente de gestión en agricola aasa",
+      "linkedin": "https://cl.linkedin.com/in/eduardo-luchsinger-08588818a"
+     },
+     {
+      "nombre": "Jaime Bascuñan Noguera",
+      "cargo": "Gerente General en Agrícola AASA S.A.",
+      "linkedin": "https://cl.linkedin.com/in/jaime-bascu%C3%B1an-noguera-53b95615"
+     },
+     {
+      "nombre": "Alejandro Gebauer",
+      "cargo": "Gerente de Gestión y Proyectos en Empresas AASA",
+      "linkedin": "https://cl.linkedin.com/in/alejandro-gebauer-11748838"
+     },
+     {
+      "nombre": "Alejandro Muñoz Wendler",
+      "cargo": "Gerente Comercial / Director of Sales and Marketing en Agrícola AASA Ltda. y Carnes AASA P",
+      "linkedin": "https://cl.linkedin.com/in/alejandro-munoz-wendler-081b3426"
+     }
+    ]
+   }
   },
   {
    "planta": "Cintac S.A.I.C. - Maipú",
@@ -939,7 +1562,43 @@
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": {
+    "empresa": "Cintac",
+    "n": 6,
+    "personas": [
+     {
+      "nombre": "Sebastian Espinoza Ormazabal",
+      "cargo": "Gerente de Operaciones Cintac - Tupemesa / Industrialización.",
+      "linkedin": "https://cl.linkedin.com/in/sebastian-espinoza-ormazabal-95786434"
+     },
+     {
+      "nombre": "jose antonio aguirre silva",
+      "cargo": "gerente i+d en cintac s.a.i.c.",
+      "linkedin": "https://cl.linkedin.com/in/jose-antonio-aguirre-silva-ba6142a2"
+     },
+     {
+      "nombre": "Juan Perez",
+      "cargo": "Jefe de operaciones en Cintac",
+      "linkedin": "https://fr.linkedin.com/in/juan-perez-a0b160164"
+     },
+     {
+      "nombre": "Mauricio Pérez",
+      "cargo": "Jefe de Planificación Comercial en Cintac",
+      "linkedin": "https://linkedin.com/in/mauricio-p%C3%A9rez-712945198"
+     },
+     {
+      "nombre": "Aníbal Canales Prado",
+      "cargo": "Jefe de Planta en CINTAC SAIC",
+      "linkedin": "https://cl.linkedin.com/in/an%C3%ADbal-canales-prado-7513a360"
+     },
+     {
+      "nombre": "Guido Solari Quiñones",
+      "cargo": "Jefe de Ventas en Cintac S.A.I.C",
+      "linkedin": "https://www.linkedin.com/in/guido-solari-qui%C3%B1ones-423196240"
+     }
+    ]
+   }
   },
   {
    "planta": "GNL Quintero (terminal de regasificación)",
@@ -950,16 +1609,114 @@
    "quien_contacto": "",
    "siguiente_paso": "",
    "lineas_excel": {},
-   "decisores": 0,
-   "empresa_buscador": "",
-   "decisores_detalle": [],
+   "decisores": 13,
+   "empresa_buscador": "Gnl Quintero Sa",
+   "decisores_detalle": [
+    {
+     "nombre": "Felipe Barriga",
+     "cargo": "Superintendente de Mantenimiento en GNL Quintero S.A.",
+     "linkedin": "https://cl.linkedin.com/in/felipe-barriga-97930444",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Felipe Manríquez Quezada",
+     "cargo": "Sub Gerente de Sostenibilidad y Asuntos Corporativos en GNL Quintero S.A.",
+     "linkedin": "https://cl.linkedin.com/in/felipe-manr%C3%ADquez-quezada",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Alejandro Amorin Torres",
+     "cargo": "Gerente de Planta en GNL Quintero S.A.",
+     "linkedin": "https://cl.linkedin.com/in/alejandro-amorin-torres-16944420",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Jaime Collins",
+     "cargo": "Gerente Recursos Humanos en GNL Quintero S.A.",
+     "linkedin": "https://cl.linkedin.com/in/jaime-collins-33242b14",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Pedro Brignardello Suárez",
+     "cargo": "Gerente de Ingeniería en GNL Quintero S.A.",
+     "linkedin": "https://cl.linkedin.com/in/pedro-brignardello-su%C3%A1rez-ab2b2020",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Sebastián Curinao Ladino",
+     "cargo": "Subgerente de Desarrollo en GNL Quintero | Energía e Infraestructura | Hidrógeno verde | G",
+     "linkedin": "https://cl.linkedin.com/in/sebastian-curinao/en",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Justin Quintero",
+     "cargo": "Signals Intelligence Analyst at US Army",
+     "linkedin": "https://www.linkedin.com/in/justin-quintero-aa85423b",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Jorge Quintero, MSIE, BSME, PMP",
+     "cargo": "Event Processes & System Data Manager",
+     "linkedin": "https://www.linkedin.com/in/jorge-quintero-msie-bsme-pmp-33b0a83",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    }
+   ],
    "dolor_t": 0,
    "region_real": "",
    "comuna_real": "",
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": {
+    "empresa": "GNL Quintero",
+    "n": 7,
+    "personas": [
+     {
+      "nombre": "Felipe Barriga",
+      "cargo": "Superintendente de Mantenimiento en GNL Quintero S.A.",
+      "linkedin": "https://cl.linkedin.com/in/felipe-barriga-97930444"
+     },
+     {
+      "nombre": "Felipe Manríquez Quezada",
+      "cargo": "Sub Gerente de Sostenibilidad y Asuntos Corporativos en GNL Quintero S.A.",
+      "linkedin": "https://cl.linkedin.com/in/felipe-manr%C3%ADquez-quezada"
+     },
+     {
+      "nombre": "Alejandro Amorin Torres",
+      "cargo": "Gerente de Planta en GNL Quintero S.A.",
+      "linkedin": "https://cl.linkedin.com/in/alejandro-amorin-torres-16944420"
+     },
+     {
+      "nombre": "Jaime Collins",
+      "cargo": "Gerente Recursos Humanos en GNL Quintero S.A.",
+      "linkedin": "https://cl.linkedin.com/in/jaime-collins-33242b14"
+     },
+     {
+      "nombre": "Lisbett Olivares Cáceres",
+      "cargo": "Jefa de Medio Ambiente en GNL Quintero S.A.",
+      "linkedin": "https://cl.linkedin.com/in/lisbett-olivares-c%C3%A1ceres-bb94a527"
+     },
+     {
+      "nombre": "Juan Francisco Richards Ovalle",
+      "cargo": "Gerente Desarrollo at GNL Quintero",
+      "linkedin": "https://cl.linkedin.com/in/juan-francisco-richards-ovalle-01085838"
+     },
+     {
+      "nombre": "Sebastián Curinao Ladino",
+      "cargo": "Subgerente de Desarrollo en GNL Quintero | Energía e Infraestructura | Hidrógeno verde | G",
+      "linkedin": "https://cl.linkedin.com/in/sebastian-curinao/en"
+     }
+    ]
+   }
   },
   {
    "planta": "Oxiquim - Terminal Marítimo Quintero",
@@ -979,7 +1736,58 @@
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": {
+    "empresa": "Oxiquim",
+    "n": 9,
+    "personas": [
+     {
+      "nombre": "Alec Grau",
+      "cargo": "Jefe de Proyectos y Sistemas en Oxiquim S.A.",
+      "linkedin": "https://cl.linkedin.com/in/alec-grau-77524797"
+     },
+     {
+      "nombre": "Cristobal Naulin",
+      "cargo": "Jefe de Mantenimiento y Proyectos en Oxiquim S.A.",
+      "linkedin": "https://cl.linkedin.com/in/cristobal-naulin-12b07654"
+     },
+     {
+      "nombre": "Cecilia Pardo Pizarro",
+      "cargo": "GERENTE GENERAL OXIQUIM",
+      "linkedin": "https://cl.linkedin.com/in/cecilia-pardo-pizarro-82a906185"
+     },
+     {
+      "nombre": "Exequiel Maldonado Oxiquim",
+      "cargo": "Gerente de Seguridad y Medio Ambiente en OXIQUIM S.A",
+      "linkedin": "https://cl.linkedin.com/in/exequiel-maldonado-oxiquim-848b804b"
+     },
+     {
+      "nombre": "Jose Luis Cayón Giambruno",
+      "cargo": "Jefe de operaciones en Oxiquim S.A.",
+      "linkedin": "https://cl.linkedin.com/in/jose-luis-cay%C3%B3n-giambruno-1850b53b"
+     },
+     {
+      "nombre": "Alberto Pino Rivera",
+      "cargo": "Jefe de Investigación y Desarrollo en Oxiquim S.A.",
+      "linkedin": "https://cl.linkedin.com/in/alberto-pino-rivera-92907459"
+     },
+     {
+      "nombre": "Nelson José Lacret Silva",
+      "cargo": "Jefe de Mantención en Terminal Marítimo Oxiquim Mejillones S.A. | Ingeniero Mecánico | Mag",
+      "linkedin": "https://cl.linkedin.com/in/nelson-jos%C3%A9-lacret-silva-5669a76a"
+     },
+     {
+      "nombre": "Exequiel Maldonado Urzua",
+      "cargo": "Gerente de seguridad y medio ambiente en Oxiquim S.A.",
+      "linkedin": "https://cl.linkedin.com/in/exequiel-maldonado-urzua-a7367418a"
+     },
+     {
+      "nombre": "Juan Patricio Canales Vera",
+      "cargo": "Gerente de I+D y Asistencia Técnica en Oxiquim S.A.",
+      "linkedin": "https://cl.linkedin.com/in/juanpatriciocanalesvera"
+     }
+    ]
+   }
   },
   {
    "planta": "Melón - Planta Cemento Til Til / La Calera",
@@ -999,7 +1807,38 @@
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": {
+    "empresa": "Melón",
+    "n": 5,
+    "personas": [
+     {
+      "nombre": "Alcides A Blas Melon",
+      "cargo": "Gerente",
+      "linkedin": "https://www.linkedin.com/in/alcides-a-blas-melon-b761332a"
+     },
+     {
+      "nombre": "Alcides A. Blas Melon",
+      "cargo": "Gerente",
+      "linkedin": "https://pe.linkedin.com/in/alcides-a-blas-melon-b761332a"
+     },
+     {
+      "nombre": "Martín Alfonso Llancafil Chandía",
+      "cargo": "Gerente Zona Sur Melón S.A. en Empresas Melón",
+      "linkedin": "https://cl.linkedin.com/in/mart%C3%ADn-alfonso-llancafil-chand%C3%ADa-1b528670"
+     },
+     {
+      "nombre": "Felipe San Martín",
+      "cargo": "Gerente Supply Chain Cemento Melón",
+      "linkedin": "https://cl.linkedin.com/in/felipe-san-mart%C3%ADn-859b8b85"
+     },
+     {
+      "nombre": "Marcelo Mallea",
+      "cargo": "Gerente Operaciones en Melon Hormigones",
+      "linkedin": "https://cl.linkedin.com/in/marcelo-mallea-30710231"
+     }
+    ]
+   }
   },
   {
    "planta": "Indura - Planta de Gases Industriales Quilicura",
@@ -1019,7 +1858,58 @@
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": {
+    "empresa": "Indura",
+    "n": 9,
+    "personas": [
+     {
+      "nombre": "Fabian Veloso Canchig",
+      "cargo": "Supervisor de mantenimiento de producción en Indura S.A.",
+      "linkedin": "https://ec.linkedin.com/in/fabian-veloso-canchig-260167169"
+     },
+     {
+      "nombre": "Julio Alejandro Rojas Ochoa",
+      "cargo": "Gerente de Abastecimiento Chile en Indura S.A (Grupo Air Products US)",
+      "linkedin": "https://cl.linkedin.com/in/julio-alejandro-rojas-ochoa-44490933"
+     },
+     {
+      "nombre": "Leonardo Díaz",
+      "cargo": "Gerente Nacional de Ventas INDURA S.A.",
+      "linkedin": "https://cl.linkedin.com/in/leonardo-d%C3%ADaz-15825814"
+     },
+     {
+      "nombre": "Claudio Quijada",
+      "cargo": "Gerente de Producción de Gases en Indura S. A.",
+      "linkedin": "https://cl.linkedin.com/in/claudio-quijada-62298bba"
+     },
+     {
+      "nombre": "Juan Carlos Ruiz Fernandez",
+      "cargo": "Supervisor Eléctrico e Instrumentacion en Air Products INDURA.",
+      "linkedin": "https://cl.linkedin.com/in/juan-carlos-ruiz-fernandez-996823160"
+     },
+     {
+      "nombre": "Juan Francisco Ortega Nuñez",
+      "cargo": "Jefe Planta Electrodos en Indura S.A.",
+      "linkedin": "https://cl.linkedin.com/in/juan-francisco-ortega-nu%C3%B1ez-378b8168"
+     },
+     {
+      "nombre": "Magdalena Viertel Frank",
+      "cargo": "Gerente SHEQ @ Air Products Indura Chile | Quality Management, Operations Management",
+      "linkedin": "https://cl.linkedin.com/in/magdalenaviertelfrank"
+     },
+     {
+      "nombre": "Mauricio Esteban Machuca González",
+      "cargo": "Gerente de Producción de Gases comprimidos en Air Products Indura Chile",
+      "linkedin": "https://cl.linkedin.com/in/mauricio-machuca7/es"
+     },
+     {
+      "nombre": "Carolina Guevara",
+      "cargo": "Gerente Recursos Humanos en INDURA Chile",
+      "linkedin": "https://cl.linkedin.com/in/carolina-guevara-perez"
+     }
+    ]
+   }
   },
   {
    "planta": "Gasco - Planta GLP San Bernardo / Batuco",
@@ -1039,7 +1929,38 @@
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": {
+    "empresa": "Gasco",
+    "n": 5,
+    "personas": [
+     {
+      "nombre": "Cristian Alfredo Román Palacios",
+      "cargo": "Subgerente Mantenimiento de Activos e Instalaciones Granel en GASCO",
+      "linkedin": "https://cl.linkedin.com/in/cristian-alfredo-rom%C3%A1n-palacios-17659821"
+     },
+     {
+      "nombre": "Jaime Alamos",
+      "cargo": "Subgerente de operaciones en GASCO",
+      "linkedin": "https://cl.linkedin.com/in/jaime-alamos-01abaa15"
+     },
+     {
+      "nombre": "Kris Valdebenito",
+      "cargo": "Jefe de Negocio Industrial en GASCO",
+      "linkedin": "https://cl.linkedin.com/in/kris-valdebenito-moreno"
+     },
+     {
+      "nombre": "Edwin Garrao",
+      "cargo": "Jefe de Mantencion en GASCO GLP S.A.",
+      "linkedin": "https://cl.linkedin.com/in/edwin-garrao-693aa974"
+     },
+     {
+      "nombre": "Rodrigo Baeza Costa",
+      "cargo": "Gerente de Finanzas Corporativo en Empresas Gasco/ Master of Finance at Melbourne Universi",
+      "linkedin": "https://cl.linkedin.com/in/rodrigo-baeza-costa-baba9428"
+     }
+    ]
+   }
   },
   {
    "planta": "CMPC - Papeles Cordillera",
@@ -1050,16 +1971,86 @@
    "quien_contacto": "",
    "siguiente_paso": "",
    "lineas_excel": {},
-   "decisores": 0,
-   "empresa_buscador": "",
-   "decisores_detalle": [],
+   "decisores": 16,
+   "empresa_buscador": "Cmpc Pulp Spa",
+   "decisores_detalle": [
+    {
+     "nombre": "Francisco Carvajal Palacios",
+     "cargo": "Gerente General",
+     "fuente": "direcmin.com/compa-a-minera-del-pac-fico-cmp/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Patricio Venegas Troncoso",
+     "cargo": "Gerente Comercial",
+     "fuente": "direcmin.com/compa-a-minera-del-pac-fico-cmp/ejecutivos",
+     "relevante": false
+    },
+    {
+     "nombre": "Makarina Orellana",
+     "cargo": "Gerente de Operaciones",
+     "fuente": "direcmin.com/compa-a-minera-del-pac-fico-cmp/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Carlos Sepúlveda Vélez",
+     "cargo": "Gerente de Adm. y Finanzas",
+     "fuente": "direcmin.com/compa-a-minera-del-pac-fico-cmp/ejecutivos",
+     "relevante": false
+    },
+    {
+     "nombre": "Carlos Gómez Vega",
+     "cargo": "Gerente de Proyectos",
+     "fuente": "direcmin.com/compa-a-minera-del-pac-fico-cmp/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Claudia Monreal",
+     "cargo": "Gerente de Planificación y Desarrollo",
+     "fuente": "direcmin.com/compa-a-minera-del-pac-fico-cmp/ejecutivos",
+     "relevante": false
+    },
+    {
+     "nombre": "John Patrick Mc Nab Martin",
+     "cargo": "Gerente de Sutentabilidad",
+     "fuente": "direcmin.com/compa-a-minera-del-pac-fico-cmp/ejecutivos",
+     "relevante": false
+    },
+    {
+     "nombre": "Carolina Lomuscio Zamorano",
+     "cargo": "Gerente de Personas",
+     "fuente": "direcmin.com/compa-a-minera-del-pac-fico-cmp/ejecutivos",
+     "relevante": false
+    }
+   ],
    "dolor_t": 0,
    "region_real": "",
    "comuna_real": "",
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": {
+    "empresa": "CMPC",
+    "n": 3,
+    "personas": [
+     {
+      "nombre": "Claudio Díaz López",
+      "cargo": "Jefe de mantenimiento CMPC Biopackaging corrugados, Magister ing. Industrial",
+      "linkedin": "https://cl.linkedin.com/in/claudio-d%C3%ADaz-l%C3%B3pez-ba5033125"
+     },
+     {
+      "nombre": "Diego Hernández Parada",
+      "cargo": "Jefe de Área Instrumentación F&S en CMPC",
+      "linkedin": "https://cl.linkedin.com/in/diego-hern%C3%A1ndez-parada-61398115b"
+     },
+     {
+      "nombre": "Miguel Silva Aguilera",
+      "cargo": "Ingeniero Electrónico Jefe de Mantenimiento Electrocontrol e Instrumentacion en CMPC Papel",
+      "linkedin": "https://cl.linkedin.com/in/miguel-silva-aguilera-61949a22"
+     }
+    ]
+   }
   },
   {
    "planta": "CMPC - Planta Tissue Talagante",
@@ -1073,16 +2064,86 @@
     "fds": "si",
     "valvulas": "si"
    },
-   "decisores": 0,
-   "empresa_buscador": "",
-   "decisores_detalle": [],
+   "decisores": 16,
+   "empresa_buscador": "Cmpc Pulp Spa",
+   "decisores_detalle": [
+    {
+     "nombre": "Francisco Carvajal Palacios",
+     "cargo": "Gerente General",
+     "fuente": "direcmin.com/compa-a-minera-del-pac-fico-cmp/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Patricio Venegas Troncoso",
+     "cargo": "Gerente Comercial",
+     "fuente": "direcmin.com/compa-a-minera-del-pac-fico-cmp/ejecutivos",
+     "relevante": false
+    },
+    {
+     "nombre": "Makarina Orellana",
+     "cargo": "Gerente de Operaciones",
+     "fuente": "direcmin.com/compa-a-minera-del-pac-fico-cmp/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Carlos Sepúlveda Vélez",
+     "cargo": "Gerente de Adm. y Finanzas",
+     "fuente": "direcmin.com/compa-a-minera-del-pac-fico-cmp/ejecutivos",
+     "relevante": false
+    },
+    {
+     "nombre": "Carlos Gómez Vega",
+     "cargo": "Gerente de Proyectos",
+     "fuente": "direcmin.com/compa-a-minera-del-pac-fico-cmp/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Claudia Monreal",
+     "cargo": "Gerente de Planificación y Desarrollo",
+     "fuente": "direcmin.com/compa-a-minera-del-pac-fico-cmp/ejecutivos",
+     "relevante": false
+    },
+    {
+     "nombre": "John Patrick Mc Nab Martin",
+     "cargo": "Gerente de Sutentabilidad",
+     "fuente": "direcmin.com/compa-a-minera-del-pac-fico-cmp/ejecutivos",
+     "relevante": false
+    },
+    {
+     "nombre": "Carolina Lomuscio Zamorano",
+     "cargo": "Gerente de Personas",
+     "fuente": "direcmin.com/compa-a-minera-del-pac-fico-cmp/ejecutivos",
+     "relevante": false
+    }
+   ],
    "dolor_t": 0,
    "region_real": "",
    "comuna_real": "",
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": {
+    "empresa": "CMPC",
+    "n": 3,
+    "personas": [
+     {
+      "nombre": "Claudio Díaz López",
+      "cargo": "Jefe de mantenimiento CMPC Biopackaging corrugados, Magister ing. Industrial",
+      "linkedin": "https://cl.linkedin.com/in/claudio-d%C3%ADaz-l%C3%B3pez-ba5033125"
+     },
+     {
+      "nombre": "Diego Hernández Parada",
+      "cargo": "Jefe de Área Instrumentación F&S en CMPC",
+      "linkedin": "https://cl.linkedin.com/in/diego-hern%C3%A1ndez-parada-61398115b"
+     },
+     {
+      "nombre": "Miguel Silva Aguilera",
+      "cargo": "Ingeniero Electrónico Jefe de Mantenimiento Electrocontrol e Instrumentacion en CMPC Papel",
+      "linkedin": "https://cl.linkedin.com/in/miguel-silva-aguilera-61949a22"
+     }
+    ]
+   }
   },
   {
    "planta": "CPP San Francisco de Mostazal",
@@ -1102,7 +2163,48 @@
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": {
+    "empresa": "Compañía Papelera del Pacífico",
+    "n": 7,
+    "personas": [
+     {
+      "nombre": "Miguel Zárate Bertin",
+      "cargo": "Subgerente de mantenimiento Compañía Papelera Pacífico",
+      "linkedin": "https://cl.linkedin.com/in/miguel-z%C3%A1rate-bertin-1b6002b5"
+     },
+     {
+      "nombre": "omar moreno",
+      "cargo": "Coordinador de mantenimiento en Compañía Papelera Pacífico",
+      "linkedin": "https://cl.linkedin.com/in/omar-moreno-8211a7105"
+     },
+     {
+      "nombre": "Cesar Antonio Gómez Verdugo",
+      "cargo": "Jefe de mantenimiento en Compañia Papelera Pacifico S.A",
+      "linkedin": "https://cl.linkedin.com/in/cesar-a-gomez-verdugo"
+     },
+     {
+      "nombre": "Roberto Bascuñan Yáñez",
+      "cargo": "Jefe de departamento Electrocontrol en Compañia Papelera Pacifico S.A",
+      "linkedin": "https://cl.linkedin.com/in/roberto-bascu%C3%B1an-y%C3%A1%C3%B1ez-a1705115"
+     },
+     {
+      "nombre": "Pedro Zambrano Cortes",
+      "cargo": "Jefe turno en Compañia Papelera Pacifico S.A",
+      "linkedin": "https://cl.linkedin.com/in/pedro-zambrano-cortes-47611144"
+     },
+     {
+      "nombre": "Fabian Carrasco Montoya",
+      "cargo": "Jefe Mantenimiento Electrocontrol Máquinas Papeleras",
+      "linkedin": "https://cl.linkedin.com/in/fabian-carrasco-montoya"
+     },
+     {
+      "nombre": "Francisco Moscoso",
+      "cargo": "Gerente de Ventas en Compañía Papelera del Pacífico S.A.",
+      "linkedin": "https://cl.linkedin.com/in/francisco-moscoso-9556aa25"
+     }
+    ]
+   }
   },
   {
    "planta": "Nestlé Chile - Planta Graneros",
@@ -1113,73 +2215,47 @@
    "quien_contacto": "",
    "siguiente_paso": "",
    "lineas_excel": {},
-   "decisores": 9,
-   "empresa_buscador": "Nestle Chile Sa",
-   "decisores_detalle": [
-    {
-     "nombre": "Paulino Aravena Albarrán",
-     "cargo": "Jefe de mantenimiento en Nestlé",
-     "linkedin": "https://cl.linkedin.com/in/paulino-aravena-albarr%C3%A1n-b386a417b",
-     "fuente": "LinkedIn (AIsa, headline validado)",
-     "relevante": true
-    },
-    {
-     "nombre": "Julián Diez Pavez",
-     "cargo": "Jefe de Mantenimiento en Nestle Chile",
-     "linkedin": "https://cl.linkedin.com/in/juli%C3%A1n-diez-pavez-199bb47b",
-     "fuente": "LinkedIn (AIsa, headline validado)",
-     "relevante": true
-    },
-    {
-     "nombre": "marcos Marcos.Oporto",
-     "cargo": "Jefe Mantencion y Seguridas en Nestlé S.A.",
-     "linkedin": "https://cl.linkedin.com/in/marcos-marcos-oporto-02374163",
-     "fuente": "LinkedIn (AIsa, headline validado)",
-     "relevante": true
-    },
-    {
-     "nombre": "María Salas",
-     "cargo": "Project Engineering Manager en Nestle S.A.",
-     "linkedin": "https://cl.linkedin.com/in/mar%C3%ADa-salas-8553b588",
-     "fuente": "LinkedIn (AIsa, headline validado)",
-     "relevante": true
-    },
-    {
-     "nombre": "Elba Carrillo",
-     "cargo": "Supervisor de operaciones en distribución Nestlé Chile",
-     "linkedin": "https://ve.linkedin.com/in/elba-carrillo-895a496a",
-     "fuente": "LinkedIn (AIsa, headline validado)",
-     "relevante": true
-    },
-    {
-     "nombre": "Gimena Mondragon",
-     "cargo": "Business Executive Officer at Nestlé",
-     "linkedin": "https://www.linkedin.com/in/gimenamondragon",
-     "fuente": "LinkedIn (AIsa, headline validado)",
-     "relevante": true
-    },
-    {
-     "nombre": "Francisco Mualim – Vice President",
-     "cargo": "Business Executive Officer (VP) - Nestlé Purina Petcare Mexico | Chief Diversity Officer -",
-     "linkedin": "https://ch.linkedin.com/in/francisco-mualim-9b10a41a",
-     "fuente": "LinkedIn (AIsa, headline validado)",
-     "relevante": true
-    },
-    {
-     "nombre": "Fernando César – Nestlé",
-     "cargo": "Business Executive Officer (VP), Coffee & Beverages at Nestlé",
-     "linkedin": "https://ch.linkedin.com/in/fernando-cesar-e",
-     "fuente": "LinkedIn (AIsa, headline validado)",
-     "relevante": true
-    }
-   ],
+   "decisores": 0,
+   "empresa_buscador": "",
+   "decisores_detalle": [],
    "dolor_t": 0,
    "region_real": "",
    "comuna_real": "",
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": {
+    "empresa": "Nestlé Chile",
+    "n": 5,
+    "personas": [
+     {
+      "nombre": "Francisco Mualim – Vice President",
+      "cargo": "Business Executive Officer (VP) - Nestlé Purina Petcare Mexico | Chief Diversity Officer -",
+      "linkedin": "https://ch.linkedin.com/in/francisco-mualim-9b10a41a"
+     },
+     {
+      "nombre": "Fernando César – Nestlé",
+      "cargo": "Business Executive Officer (VP), Coffee & Beverages at Nestlé",
+      "linkedin": "https://ch.linkedin.com/in/fernando-cesar-e"
+     },
+     {
+      "nombre": "Elba Carrillo",
+      "cargo": "Supervisor de operaciones en distribución Nestlé Chile",
+      "linkedin": "https://ve.linkedin.com/in/elba-carrillo-895a496a"
+     },
+     {
+      "nombre": "Jorge Fernandez",
+      "cargo": "Project Manager - Nestle USA",
+      "linkedin": "https://www.linkedin.com/in/jorge-fernandez-07b1236"
+     },
+     {
+      "nombre": "Isabel González",
+      "cargo": "Innovation and Renovation Manager en Nestlé",
+      "linkedin": "https://cl.linkedin.com/in/isabel-gonz%C3%A1lez-423aa872"
+     }
+    ]
+   }
   },
   {
    "planta": "Carozzi - Planta Nos",
@@ -1199,7 +2275,43 @@
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": {
+    "empresa": "Carozzi",
+    "n": 6,
+    "personas": [
+     {
+      "nombre": "Alexis Baeza",
+      "cargo": "Jefe de mantenimiento en Empresas Carozzi S.A.",
+      "linkedin": "https://cl.linkedin.com/in/alexis-baeza-059367115"
+     },
+     {
+      "nombre": "Jaime Puentes",
+      "cargo": "Gerente de Ingenieria en Empresas Carozzi S.A.",
+      "linkedin": "https://cl.linkedin.com/in/jaime-puentes-82960092"
+     },
+     {
+      "nombre": "Mauricio Serrano",
+      "cargo": "Supervisor de automatización en Empresas Carozzi S.A. | Control e instrumentación industri",
+      "linkedin": "https://cl.linkedin.com/in/mauricio-serrano-96370355"
+     },
+     {
+      "nombre": "Nicolás Villagra Cea",
+      "cargo": "Jefe de Planta Empresas Carozzi S.A.",
+      "linkedin": "https://cl.linkedin.com/in/nicol%C3%A1s-villagra-cea-b2173a104"
+     },
+     {
+      "nombre": "Pedro Marin",
+      "cargo": "Jefe Trade Mkt en Empresas Carozzi S.A.",
+      "linkedin": "https://cl.linkedin.com/in/pedro-marin-24687665"
+     },
+     {
+      "nombre": "Luz Maria Rojas",
+      "cargo": "Gerente Corporativo de Sostenibilidad y Marketing en Empresas Carozzi",
+      "linkedin": "https://cl.linkedin.com/in/luz-maria-rojas-60533116"
+     }
+    ]
+   }
   },
   {
    "planta": "Watts - Planta San Bernardo",
@@ -1219,7 +2331,38 @@
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": {
+    "empresa": "Watts",
+    "n": 5,
+    "personas": [
+     {
+      "nombre": "Jeff Watts",
+      "cargo": "Director of Operations at SIG SAUER, Inc.",
+      "linkedin": "https://www.linkedin.com/in/jeff-watts-23ab606a"
+     },
+     {
+      "nombre": "Chuck Watts",
+      "cargo": "Director of Service and Operations",
+      "linkedin": "https://www.linkedin.com/in/chuck-watts-18b9811ab"
+     },
+     {
+      "nombre": "Thomas Watts III",
+      "cargo": "Human Resources Supervisor at UPS",
+      "linkedin": "https://www.linkedin.com/in/thomas-watts-iii-966523146"
+     },
+     {
+      "nombre": "Gonzalo Molina",
+      "cargo": "Gerente de Abastecimiento en Watts",
+      "linkedin": "https://cl.linkedin.com/in/gonzalo-molina-33b54948"
+     },
+     {
+      "nombre": "Adrienne Watts",
+      "cargo": "Zero Waste and Circularity Manager, Responsible Supply Chain @ Nike",
+      "linkedin": "https://www.linkedin.com/in/adrawa"
+     }
+    ]
+   }
   },
   {
    "planta": "Agrosuper - Planta Faenadora San Vicente",
@@ -1247,7 +2390,73 @@
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": {
+    "empresa": "Agrosuper",
+    "n": 12,
+    "personas": [
+     {
+      "nombre": "Giovanny Ramirez",
+      "cargo": "Jefe de mantenimiento en Agrosuper",
+      "linkedin": "https://cl.linkedin.com/in/giovanny-ramirez-b2a525157"
+     },
+     {
+      "nombre": "Loyola Gabriel",
+      "cargo": "jefe de mantenimiento en Agrosuper",
+      "linkedin": "https://cl.linkedin.com/in/loyola-gabriel-54a18890"
+     },
+     {
+      "nombre": "Raul Rozas Tobar",
+      "cargo": "Jefe de mantenimiento en Agrosuper",
+      "linkedin": "https://cl.linkedin.com/in/raul-rozas-tobar-0a50511a5"
+     },
+     {
+      "nombre": "Sergio Flores Vásquez",
+      "cargo": "Subgerente de Proyectos y Mantenimiento Plantas de alimento en Agrosuper",
+      "linkedin": "https://cl.linkedin.com/in/sergio-flores-v%C3%A1squez-33096a30"
+     },
+     {
+      "nombre": "Bernardo Arredondo Calderón",
+      "cargo": "Jefe de Mantención en Agrosuper",
+      "linkedin": "https://cl.linkedin.com/in/bernardo-arredondo-calder%C3%B3n-7ab387a0"
+     },
+     {
+      "nombre": "Jorge B.",
+      "cargo": "Jefe de Operaciones en Agrosuper",
+      "linkedin": "https://cl.linkedin.com/in/industrialbarra"
+     },
+     {
+      "nombre": "Kurt Bernhardt Lavin",
+      "cargo": "Jefe de Planificación en Agrosuper",
+      "linkedin": "https://cl.linkedin.com/in/kurt-bernhardt-lavin-356490158"
+     },
+     {
+      "nombre": "Raimundo Parker Ahumada",
+      "cargo": "Jefe Área Tratamiento en Agrosuper",
+      "linkedin": "https://cl.linkedin.com/in/raimundo-parker-ahumada-a2195a1a9"
+     },
+     {
+      "nombre": "Rafael Prieto Castillo",
+      "cargo": "Gerente de Asuntos Corporativos y Sustentabilidad en Agrosuper",
+      "linkedin": "https://cl.linkedin.com/in/rafaelprietoc"
+     },
+     {
+      "nombre": "Manuel Jose Icaza",
+      "cargo": "Gerente Plantas de Alimento en Agrosuper",
+      "linkedin": "https://cl.linkedin.com/in/manuel-jose-icaza-49811427"
+     },
+     {
+      "nombre": "Rodrigo Echeverria Olate",
+      "cargo": "Gerente Corporativo de Informatica at Empresas Agrosuper y AquaChile (Corporate CIO)",
+      "linkedin": "https://cl.linkedin.com/in/rodrigo-echeverria-olate-4b9a1384"
+     },
+     {
+      "nombre": "Andrés Burgos Ortúzar",
+      "cargo": "Gerente Ventas Agrosuper | Country Manager | Food Industry | MBA Candidate",
+      "linkedin": "https://cl.linkedin.com/in/andr%C3%A9s-burgos-ort%C3%BAzar"
+     }
+    ]
+   }
   },
   {
    "planta": "Codelco - El Teniente",
@@ -1274,7 +2483,148 @@
      "fuente": "https://www.df.cl/empresas/mineria/freeport-mcmoran-invertira-us-7-500-millones-en-expansi"
     }
    ],
-   "inv_proyectos_usd": 7500000000.0
+   "inv_proyectos_usd": 7500000000.0,
+   "decisores_barrido": {
+    "empresa": "Codelco",
+    "n": 27,
+    "personas": [
+     {
+      "nombre": "Christian Caviedes Núñez",
+      "cargo": "Gerente General",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Juan Francisco San Martín Reyes",
+      "cargo": "Gerente de Recursos Mineros y Desarrollo",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Fernando Rojas Cortés",
+      "cargo": "Gerente de Fundición",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Rene Galleguillos",
+      "cargo": "Gerente de Operaciones",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Hugo Acevedo",
+      "cargo": "Gerente Operaciones Concentradora",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Marcos Santander Tapia",
+      "cargo": "Gerente de Recursos Humanos",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Hipólito Hurtado Iguain",
+      "cargo": "Gerente Seguridad y Salud Ocupacional",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Cristián de la Piedra",
+      "cargo": "Gerente de Sustentabilidad y Asuntos Externos",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Jorge Misle",
+      "cargo": "Jefe de Proyectos",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Jorge Gómez Díaz",
+      "cargo": "Presidente Ejecutivo",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Hernán Sepúlveda A.",
+      "cargo": "Gerente Corporativo Secretaría General",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Marta Herrera S.",
+      "cargo": "Gerente de Ética y Cumplimiento",
+      "linkedin": ""
+     },
+     {
+      "nombre": "División Radomiro Tomic",
+      "cargo": "Gerente General",
+      "linkedin": ""
+     },
+     {
+      "nombre": "División Chuquicamata",
+      "cargo": "Gerente General",
+      "linkedin": ""
+     },
+     {
+      "nombre": "División Gabriela Mistral",
+      "cargo": "Gerente General",
+      "linkedin": ""
+     },
+     {
+      "nombre": "División Ministro Hales (i)",
+      "cargo": "Gerente General",
+      "linkedin": ""
+     },
+     {
+      "nombre": "División Salvador",
+      "cargo": "Gerente General",
+      "linkedin": ""
+     },
+     {
+      "nombre": "División Andina (i)",
+      "cargo": "Gerente General",
+      "linkedin": ""
+     },
+     {
+      "nombre": "División Ventanas (i)",
+      "cargo": "Gerente General",
+      "linkedin": ""
+     },
+     {
+      "nombre": "División El Teniente",
+      "cargo": "Gerente General",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Jose Oyanadel Cortes",
+      "cargo": "Gerente de Mantenimiento en CODELCO – División Ministro Hales",
+      "linkedin": "https://cl.linkedin.com/in/jose-oyanadel-cortes-986a443b"
+     },
+     {
+      "nombre": "Gonzalo Varela",
+      "cargo": "Gerente de Mantenimiento y Servicios en Codelco División Radomiro Tomic",
+      "linkedin": "https://cl.linkedin.com/in/gonzalo-varela-45216489"
+     },
+     {
+      "nombre": "Oscar Quiroga Díaz",
+      "cargo": "Gerente Mantenimiento Plantas en CODELCO",
+      "linkedin": "https://cl.linkedin.com/in/oscarquirogad%C3%ADaz"
+     },
+     {
+      "nombre": "Patricio Zambrano Villarroel",
+      "cargo": "Gerente Mantenimiento Mina - Codelco Radomiro Tomic, MBA y Magister en Confiabilidad de Ac",
+      "linkedin": "https://cl.linkedin.com/in/patricio-zambrano-villarroel-42547b60"
+     },
+     {
+      "nombre": "Erwin Schmidt",
+      "cargo": "Gerente Mantenimiento Planta Concentradora en Codelco Division Teniente",
+      "linkedin": "https://cl.linkedin.com/in/erwin-schmidt-13011999"
+     },
+     {
+      "nombre": "Humberto Rivas",
+      "cargo": "Gerente Corporativo Medio Ambiente en CODELCO – Corporación Nacional del Cobre de Chile",
+      "linkedin": "https://cl.linkedin.com/in/humberto-rivas-93673823"
+     },
+     {
+      "nombre": "Ina Peña M.",
+      "cargo": "Jefe de Permisos - Proyectos CODELCO",
+      "linkedin": "https://cl.linkedin.com/in/ina-pe%C3%B1a-m-3689463b"
+     }
+    ]
+   }
   },
   {
    "planta": "Codelco - BP",
@@ -1301,7 +2651,148 @@
      "fuente": "https://www.df.cl/empresas/mineria/freeport-mcmoran-invertira-us-7-500-millones-en-expansi"
     }
    ],
-   "inv_proyectos_usd": 7500000000.0
+   "inv_proyectos_usd": 7500000000.0,
+   "decisores_barrido": {
+    "empresa": "Codelco",
+    "n": 27,
+    "personas": [
+     {
+      "nombre": "Christian Caviedes Núñez",
+      "cargo": "Gerente General",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Juan Francisco San Martín Reyes",
+      "cargo": "Gerente de Recursos Mineros y Desarrollo",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Fernando Rojas Cortés",
+      "cargo": "Gerente de Fundición",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Rene Galleguillos",
+      "cargo": "Gerente de Operaciones",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Hugo Acevedo",
+      "cargo": "Gerente Operaciones Concentradora",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Marcos Santander Tapia",
+      "cargo": "Gerente de Recursos Humanos",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Hipólito Hurtado Iguain",
+      "cargo": "Gerente Seguridad y Salud Ocupacional",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Cristián de la Piedra",
+      "cargo": "Gerente de Sustentabilidad y Asuntos Externos",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Jorge Misle",
+      "cargo": "Jefe de Proyectos",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Jorge Gómez Díaz",
+      "cargo": "Presidente Ejecutivo",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Hernán Sepúlveda A.",
+      "cargo": "Gerente Corporativo Secretaría General",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Marta Herrera S.",
+      "cargo": "Gerente de Ética y Cumplimiento",
+      "linkedin": ""
+     },
+     {
+      "nombre": "División Radomiro Tomic",
+      "cargo": "Gerente General",
+      "linkedin": ""
+     },
+     {
+      "nombre": "División Chuquicamata",
+      "cargo": "Gerente General",
+      "linkedin": ""
+     },
+     {
+      "nombre": "División Gabriela Mistral",
+      "cargo": "Gerente General",
+      "linkedin": ""
+     },
+     {
+      "nombre": "División Ministro Hales (i)",
+      "cargo": "Gerente General",
+      "linkedin": ""
+     },
+     {
+      "nombre": "División Salvador",
+      "cargo": "Gerente General",
+      "linkedin": ""
+     },
+     {
+      "nombre": "División Andina (i)",
+      "cargo": "Gerente General",
+      "linkedin": ""
+     },
+     {
+      "nombre": "División Ventanas (i)",
+      "cargo": "Gerente General",
+      "linkedin": ""
+     },
+     {
+      "nombre": "División El Teniente",
+      "cargo": "Gerente General",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Jose Oyanadel Cortes",
+      "cargo": "Gerente de Mantenimiento en CODELCO – División Ministro Hales",
+      "linkedin": "https://cl.linkedin.com/in/jose-oyanadel-cortes-986a443b"
+     },
+     {
+      "nombre": "Gonzalo Varela",
+      "cargo": "Gerente de Mantenimiento y Servicios en Codelco División Radomiro Tomic",
+      "linkedin": "https://cl.linkedin.com/in/gonzalo-varela-45216489"
+     },
+     {
+      "nombre": "Oscar Quiroga Díaz",
+      "cargo": "Gerente Mantenimiento Plantas en CODELCO",
+      "linkedin": "https://cl.linkedin.com/in/oscarquirogad%C3%ADaz"
+     },
+     {
+      "nombre": "Patricio Zambrano Villarroel",
+      "cargo": "Gerente Mantenimiento Mina - Codelco Radomiro Tomic, MBA y Magister en Confiabilidad de Ac",
+      "linkedin": "https://cl.linkedin.com/in/patricio-zambrano-villarroel-42547b60"
+     },
+     {
+      "nombre": "Erwin Schmidt",
+      "cargo": "Gerente Mantenimiento Planta Concentradora en Codelco Division Teniente",
+      "linkedin": "https://cl.linkedin.com/in/erwin-schmidt-13011999"
+     },
+     {
+      "nombre": "Humberto Rivas",
+      "cargo": "Gerente Corporativo Medio Ambiente en CODELCO – Corporación Nacional del Cobre de Chile",
+      "linkedin": "https://cl.linkedin.com/in/humberto-rivas-93673823"
+     },
+     {
+      "nombre": "Ina Peña M.",
+      "cargo": "Jefe de Permisos - Proyectos CODELCO",
+      "linkedin": "https://cl.linkedin.com/in/ina-pe%C3%B1a-m-3689463b"
+     }
+    ]
+   }
   },
   {
    "planta": "Anglo American - El Soldado",
@@ -1370,7 +2861,103 @@
    "telefono": "2534310",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": {
+    "empresa": "Anglo American Sur",
+    "n": 18,
+    "personas": [
+     {
+      "nombre": "Patricio Hidalgo",
+      "cargo": "Presidente Ejecutivo",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Eleanor Blyth",
+      "cargo": "Vicepresidente de Finanzas",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Marcelo Bustos",
+      "cargo": "Gerente General Los Bronces",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Cristina Bruce",
+      "cargo": "Vicepresidente de Asuntos Corporativos, Permisos y Medioambiente",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Sofía Sánchez",
+      "cargo": "Vicepresidente de Personas y Organización",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Paulina Jaramillo",
+      "cargo": "Gerente General El Soldado",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Benjamín Martinich",
+      "cargo": "Gerente General de Chagres",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Fernando Acosta",
+      "cargo": "Vicepresidente de Seguridad y Salud Ocupacional",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Rory Wallace",
+      "cargo": "Vicepresidente de Proyectos",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Rodrigo Subiabre",
+      "cargo": "Vicepresidente de Tecnología e Innovación",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Cecilia Arrué",
+      "cargo": "Vicepresidente de Joint Ventures",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Hector Olmos",
+      "cargo": "Gerente Mantenimiento en Anglo American",
+      "linkedin": "https://cl.linkedin.com/in/hector-olmos-98233330"
+     },
+     {
+      "nombre": "Zilleruelo Francisco",
+      "cargo": "Gerente Servicios de Apoyo Exploraciones en Anglo American Exploration",
+      "linkedin": "https://cl.linkedin.com/in/zilleruelo-francisco-97834163"
+     },
+     {
+      "nombre": "Miguel Morales Donayre",
+      "cargo": "Gerente de Asuntos Ambientales Anglo American Quellaveco SA",
+      "linkedin": "https://pe.linkedin.com/in/miguel-morales-donayre-b468523a"
+     },
+     {
+      "nombre": "Carlos Salvo",
+      "cargo": "Gerente de Sustentabilidad en Angloamerican Sur S.A. Chagres",
+      "linkedin": "https://cl.linkedin.com/in/carlos-salvo-39807b7a"
+     },
+     {
+      "nombre": "Kattherine Ferrada",
+      "cargo": "Gerente de Medio Ambiente Anglo American Chile. Sujeto responsable del Modelo de Prevenció",
+      "linkedin": "https://cl.linkedin.com/in/kattherine-ferrada-50247b237"
+     },
+     {
+      "nombre": "Chantal Maurer",
+      "cargo": "SHE way, IRM & Permitting Manager at Anglo American | Sustainability | Permitting & Risk |",
+      "linkedin": "https://pe.linkedin.com/in/chantal-maurer-53595322"
+     },
+     {
+      "nombre": "Marcela Díaz Torres",
+      "cargo": "Jefe de Permisos Sectoriales en Anglo American | Permisos | Sustentabilidad | Medio Ambien",
+      "linkedin": "https://cl.linkedin.com/in/marcela-d%C3%ADaz-torres-66165039"
+     }
+    ]
+   }
   },
   {
    "planta": "Fundición Chagres (Anglo American)",
@@ -1439,7 +3026,103 @@
    "telefono": "2534310",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": {
+    "empresa": "Anglo American Sur",
+    "n": 18,
+    "personas": [
+     {
+      "nombre": "Patricio Hidalgo",
+      "cargo": "Presidente Ejecutivo",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Eleanor Blyth",
+      "cargo": "Vicepresidente de Finanzas",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Marcelo Bustos",
+      "cargo": "Gerente General Los Bronces",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Cristina Bruce",
+      "cargo": "Vicepresidente de Asuntos Corporativos, Permisos y Medioambiente",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Sofía Sánchez",
+      "cargo": "Vicepresidente de Personas y Organización",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Paulina Jaramillo",
+      "cargo": "Gerente General El Soldado",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Benjamín Martinich",
+      "cargo": "Gerente General de Chagres",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Fernando Acosta",
+      "cargo": "Vicepresidente de Seguridad y Salud Ocupacional",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Rory Wallace",
+      "cargo": "Vicepresidente de Proyectos",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Rodrigo Subiabre",
+      "cargo": "Vicepresidente de Tecnología e Innovación",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Cecilia Arrué",
+      "cargo": "Vicepresidente de Joint Ventures",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Hector Olmos",
+      "cargo": "Gerente Mantenimiento en Anglo American",
+      "linkedin": "https://cl.linkedin.com/in/hector-olmos-98233330"
+     },
+     {
+      "nombre": "Zilleruelo Francisco",
+      "cargo": "Gerente Servicios de Apoyo Exploraciones en Anglo American Exploration",
+      "linkedin": "https://cl.linkedin.com/in/zilleruelo-francisco-97834163"
+     },
+     {
+      "nombre": "Miguel Morales Donayre",
+      "cargo": "Gerente de Asuntos Ambientales Anglo American Quellaveco SA",
+      "linkedin": "https://pe.linkedin.com/in/miguel-morales-donayre-b468523a"
+     },
+     {
+      "nombre": "Carlos Salvo",
+      "cargo": "Gerente de Sustentabilidad en Angloamerican Sur S.A. Chagres",
+      "linkedin": "https://cl.linkedin.com/in/carlos-salvo-39807b7a"
+     },
+     {
+      "nombre": "Kattherine Ferrada",
+      "cargo": "Gerente de Medio Ambiente Anglo American Chile. Sujeto responsable del Modelo de Prevenció",
+      "linkedin": "https://cl.linkedin.com/in/kattherine-ferrada-50247b237"
+     },
+     {
+      "nombre": "Chantal Maurer",
+      "cargo": "SHE way, IRM & Permitting Manager at Anglo American | Sustainability | Permitting & Risk |",
+      "linkedin": "https://pe.linkedin.com/in/chantal-maurer-53595322"
+     },
+     {
+      "nombre": "Marcela Díaz Torres",
+      "cargo": "Jefe de Permisos Sectoriales en Anglo American | Permisos | Sustentabilidad | Medio Ambien",
+      "linkedin": "https://cl.linkedin.com/in/marcela-d%C3%ADaz-torres-66165039"
+     }
+    ]
+   }
   },
   {
    "planta": "Minera Las Cenizas",
@@ -1450,62 +3133,13 @@
    "quien_contacto": "",
    "siguiente_paso": "",
    "lineas_excel": {},
-   "decisores": 31,
-   "empresa_buscador": "MINERA LAS CENIZAS S A",
-   "decisores_detalle": [
-    {
-     "nombre": "Cristian Argandoña León",
-     "cargo": "Gerente General",
-     "fuente": "direcmin.com/minera-las-cenizas/ejecutivos",
-     "relevante": true
-    },
-    {
-     "nombre": "Vito Furnaro Said",
-     "cargo": "Gerente de Finanzas",
-     "fuente": "direcmin.com/minera-las-cenizas/ejecutivos",
-     "relevante": false
-    },
-    {
-     "nombre": "Rene Fonseca Riquelme",
-     "cargo": "Gerente de Operaciones Corporativo",
-     "fuente": "direcmin.com/minera-las-cenizas/ejecutivos",
-     "relevante": true
-    },
-    {
-     "nombre": "Marcelo Araya Becerra",
-     "cargo": "Gerente de Geología",
-     "fuente": "direcmin.com/minera-las-cenizas/ejecutivos",
-     "relevante": false
-    },
-    {
-     "nombre": "Gabriel Lira",
-     "cargo": "Gerente de Mantenimiento",
-     "fuente": "direcmin.com/minera-las-cenizas/ejecutivos",
-     "relevante": true
-    },
-    {
-     "nombre": "Fernando Robles Pérez",
-     "cargo": "Gerente de Construcción y Proyectos Infraestructura",
-     "fuente": "direcmin.com/minera-las-cenizas/ejecutivos",
-     "relevante": true
-    },
-    {
-     "nombre": "Miguel Arancibia",
-     "cargo": "Gerente de RR.HH.",
-     "fuente": "direcmin.com/minera-las-cenizas/ejecutivos",
-     "relevante": false
-    },
-    {
-     "nombre": "Cristián Argandoña",
-     "cargo": "Gerente General Eléctrica Cenizas",
-     "fuente": "direcmin.com/minera-las-cenizas/ejecutivos",
-     "relevante": true
-    }
-   ],
-   "dolor_t": 3698.43,
+   "decisores": 0,
+   "empresa_buscador": "",
+   "decisores_detalle": [],
+   "dolor_t": 0,
    "region_real": "",
    "comuna_real": "",
-   "telefono": "+56 2 2368 8300",
+   "telefono": "",
    "n_proyectos": 1,
    "proyectos": [
     {
@@ -1515,7 +3149,153 @@
      "fuente": "https://www.mch.cl/negocios-industria/sea-califica-favorablemente-dia-de-proyecto-de-miner"
     }
    ],
-   "inv_proyectos_usd": 12500000.0
+   "inv_proyectos_usd": 12500000.0,
+   "decisores_barrido": {
+    "empresa": "Minera Las Cenizas",
+    "n": 28,
+    "personas": [
+     {
+      "nombre": "Cristian Argandoña León",
+      "cargo": "Gerente General",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Vito Furnaro Said",
+      "cargo": "Gerente de Finanzas",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Rene Fonseca Riquelme",
+      "cargo": "Gerente de Operaciones Corporativo",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Marcelo Araya Becerra",
+      "cargo": "Gerente de Geología",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Gabriel Lira",
+      "cargo": "Gerente de Mantenimiento",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Fernando Robles Pérez",
+      "cargo": "Gerente de Construcción y Proyectos Infraestructura",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Miguel Arancibia",
+      "cargo": "Gerente de RR.HH.",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Cristián Argandoña",
+      "cargo": "Gerente General Eléctrica Cenizas",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Francisco Calaf González",
+      "cargo": "Gerente de Proyectos y Control de Gestión",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Hugo Adrián Flores",
+      "cargo": "Gerente de Operaciones de Cabildo",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Andrés Monardes Rozas",
+      "cargo": "Superintendente de Planta Cabildo",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Sergio Polanco Ramírez",
+      "cargo": "Superintendente de Minas Cabildo",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Miguel Arancibia Espinoza",
+      "cargo": "Superintendente de Administración Cabildo",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Felipe Sepúlveda González",
+      "cargo": "Superintendente de Geología Cabildo",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Raúl Silva Delgado",
+      "cargo": "Gerente de Operaciones Taltal",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Juan Marcó Marré",
+      "cargo": "Superintendente General de Minas Taltal",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Cristián Salgado Quintana",
+      "cargo": "Superintendente de Planta Sulfuro Taltal",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Luis Trincado Clavero",
+      "cargo": "Superintendente de Planta Lixiviación Taltal",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Cristián Lagos Quivira",
+      "cargo": "Superintendente de Administración Taltal",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Mario Castro González",
+      "cargo": "Superintendente de Exploraciones Taltal",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Francisco Chocobar Palacios",
+      "cargo": "Superintendente de Minas Subterráneas Taltal",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Fernando Urzúa Fernández",
+      "cargo": "Superintendente de Ingeniería de Minas Taltal",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Carlos Delpiano Prett",
+      "cargo": "Gerente de Mantenimiento y Logistica en Cia. Minera Las Cenizas",
+      "linkedin": "https://cl.linkedin.com/in/carlos-delpiano-prett-2439b358"
+     },
+     {
+      "nombre": "Rodrigo Riveros",
+      "cargo": "Jefe de mantenimiento en Minera Las Cenizas S.A.",
+      "linkedin": "https://cl.linkedin.com/in/rodrigo-riveros-64494b360"
+     },
+     {
+      "nombre": "Victor Magaña",
+      "cargo": "Jefe de mantenimiento planta en Minera Las Cenizas S.A.",
+      "linkedin": "https://cl.linkedin.com/in/victor-maga%C3%B1a-83571a130"
+     },
+     {
+      "nombre": "Erika Rivera",
+      "cargo": "Jefe de Recursos Humanos Minera Las Cenizas S.A - Cabildo",
+      "linkedin": "https://cl.linkedin.com/in/erika-rivera-314b5759"
+     },
+     {
+      "nombre": "Margarita Anza",
+      "cargo": "Jefe de Turno Planta Oxidos, Minera Las Cenizas",
+      "linkedin": "https://cl.linkedin.com/in/margarita-anza-8a806715"
+     },
+     {
+      "nombre": "Daniel Calderon",
+      "cargo": "Jefe Abastecimiento Minera las Cenizas Cabildo",
+      "linkedin": "https://cl.linkedin.com/in/daniel-calderon-431b6268"
+     }
+    ]
+   }
   },
   {
    "planta": "Miner a Valle Central",
@@ -1526,65 +3306,117 @@
    "quien_contacto": "",
    "siguiente_paso": "",
    "lineas_excel": {},
-   "decisores": 18,
-   "empresa_buscador": "MINERA VALLE CENTRAL S A",
-   "decisores_detalle": [
-    {
-     "nombre": "Christian Cáceres Meneses",
-     "cargo": "Gerente General",
-     "fuente": "direcmin.com/minera-valle-central/ejecutivos",
-     "relevante": true
-    },
-    {
-     "nombre": "Benjamín Campos Ordaz",
-     "cargo": "Gerente de Continuidad Operacional",
-     "fuente": "direcmin.com/minera-valle-central/ejecutivos",
-     "relevante": false
-    },
-    {
-     "nombre": "Javier Tapia Ávila",
-     "cargo": "Gerente de Administración y Finanzas",
-     "fuente": "direcmin.com/minera-valle-central/ejecutivos",
-     "relevante": false
-    },
-    {
-     "nombre": "Alfonso Burgos Quilamán",
-     "cargo": "Subgerente de Operaciones Planta",
-     "fuente": "direcmin.com/minera-valle-central/ejecutivos",
-     "relevante": true
-    },
-    {
-     "nombre": "Felipe Noriega Álvarez",
-     "cargo": "Subgerente de Operaciones Relaves y Molibdeno",
-     "fuente": "direcmin.com/minera-valle-central/ejecutivos",
-     "relevante": true
-    },
-    {
-     "nombre": "Simón Campos Rivera",
-     "cargo": "Subgerente de Mantenimiento",
-     "fuente": "direcmin.com/minera-valle-central/ejecutivos",
-     "relevante": true
-    },
-    {
-     "nombre": "Francisco Reyes Jara",
-     "cargo": "Subgerente de Sustentabilidad",
-     "fuente": "direcmin.com/minera-valle-central/ejecutivos",
-     "relevante": true
-    },
-    {
-     "nombre": "José Miguel Parraguez Fontalba",
-     "cargo": "Subgerente de Recursos Humanos",
-     "fuente": "direcmin.com/minera-valle-central/ejecutivos",
-     "relevante": false
-    }
-   ],
-   "dolor_t": 714.9,
+   "decisores": 0,
+   "empresa_buscador": "",
+   "decisores_detalle": [],
+   "dolor_t": 0,
    "region_real": "",
    "comuna_real": "",
-   "telefono": "+56 2 2368 8300",
+   "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": {
+    "empresa": "Minera Valle Central",
+    "n": 19,
+    "personas": [
+     {
+      "nombre": "Christian Cáceres Meneses",
+      "cargo": "Gerente General",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Benjamín Campos Ordaz",
+      "cargo": "Gerente de Continuidad Operacional",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Javier Tapia Ávila",
+      "cargo": "Gerente de Administración y Finanzas",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Alfonso Burgos Quilamán",
+      "cargo": "Subgerente de Operaciones Planta",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Felipe Noriega Álvarez",
+      "cargo": "Subgerente de Operaciones Relaves y Molibdeno",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Simón Campos Rivera",
+      "cargo": "Subgerente de Mantenimiento",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Francisco Reyes Jara",
+      "cargo": "Subgerente de Sustentabilidad",
+      "linkedin": ""
+     },
+     {
+      "nombre": "José Miguel Parraguez Fontalba",
+      "cargo": "Subgerente de Recursos Humanos",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Julio Leiva Sánchez",
+      "cargo": "Gerente de Producción",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Eugenio Espinosa Lynch",
+      "cargo": "Subgerente de Sustentabilidad",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Enrique Correa",
+      "cargo": "Subgerente de Control de Gestión y Cumplimiento",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Carlos Córdova",
+      "cargo": "Supervisor de mantenimiento mecánico en Minera Valle Central",
+      "linkedin": "https://cl.linkedin.com/in/carlos-c%C3%B3rdova-13576965"
+     },
+     {
+      "nombre": "Carlos Orellana Moraga",
+      "cargo": "Jefe Mantto y Servicios Minera Valle Central",
+      "linkedin": "https://cl.linkedin.com/in/carlos-orellana-moraga-559365a8"
+     },
+     {
+      "nombre": "Juan Raul Jorquera Maulén",
+      "cargo": "Supervisor de Abastecimiento Minera Valle Central",
+      "linkedin": "https://cl.linkedin.com/in/juan-raul-jorquera-maul%C3%A9n-9a9154b9"
+     },
+     {
+      "nombre": "Sergio Gonzalo Gonzalez Jara",
+      "cargo": "Supervisor Eléctrico e Instrumentación Minera Valle Central S.A.",
+      "linkedin": "https://cl.linkedin.com/in/sergio-gonzalo-gonzalez-jara-693b6728"
+     },
+     {
+      "nombre": "Hector Rebolledo Gomez",
+      "cargo": "Supervisor de mantención eléctrica en Minera Valle Central Chile",
+      "linkedin": "https://cl.linkedin.com/in/hector-rebolledo-gomez-44820350"
+     },
+     {
+      "nombre": "Jorge Carreño Venegas",
+      "cargo": "Jefe Mantencion en Minera Valle central",
+      "linkedin": "https://cl.linkedin.com/in/jorge-carre%C3%B1o-venegas-8a977449"
+     },
+     {
+      "nombre": "Benjamín Meléndez Bobadilla",
+      "cargo": "Coordinador Permisos Ambientales en Minera Valle Central | Ingeniero Ambiental | SEIA, eva",
+      "linkedin": "https://cl.linkedin.com/in/benjam%C3%ADn-mel%C3%A9ndez-bobadilla-ingenieroambiental"
+     },
+     {
+      "nombre": "Sebastián Rojas Núñez",
+      "cargo": "Jefe de departamneto de sustentabilidad y riesgos en Minera Valle Central Chile",
+      "linkedin": "https://cl.linkedin.com/in/sebasti%C3%A1n-rojas-n%C3%BA%C3%B1ez-0b5a1228"
+     }
+    ]
+   }
   },
   {
    "planta": "Minera Tres Valles",
@@ -1604,7 +3436,58 @@
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": {
+    "empresa": "Minera Tres Valles",
+    "n": 9,
+    "personas": [
+     {
+      "nombre": "Gonzalo Jofré",
+      "cargo": "Director de Operaciones",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Eduardo Hasan",
+      "cargo": "Gerente de Operaciones de Planta",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Juan Pablo Gálvez",
+      "cargo": "Gerente de Sostenibilidad",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Rafael Pérez de Arce",
+      "cargo": "Vicepresidente de Asuntos Comerciales y Corporativos",
+      "linkedin": ""
+     },
+     {
+      "nombre": "José Zapata",
+      "cargo": "Gerente de Cadena de Suministros y Tecnología",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Sergio Molina",
+      "cargo": "Gerente de Sustentabilidad",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Jorge Baraqui",
+      "cargo": "Gerente de Minería",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Eduardo Reyes",
+      "cargo": "Gerente de Recursos Humanos",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Evelio Sebastian Carvajal Ibacache",
+      "cargo": "Lider electrico e instrumentacion y control Planta Minera Tres Valles spa",
+      "linkedin": "https://cl.linkedin.com/in/evelio-sebastian-carvajal-ibacache-53145b169"
+     }
+    ]
+   }
   },
   {
    "planta": "Ariztía - Planta Melipilla",
@@ -1624,7 +3507,33 @@
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": {
+    "empresa": "Ariztía",
+    "n": 4,
+    "personas": [
+     {
+      "nombre": "Paulo Dubó Contreras",
+      "cargo": "Jefe de mantenimiento en Empresas Ariztía (Agrícola Tarapaca)",
+      "linkedin": "https://cl.linkedin.com/in/paulo-dub%C3%B3-contreras-28889311a"
+     },
+     {
+      "nombre": "Armando R.",
+      "cargo": "Supervisor de producción en Empresas Ariztía",
+      "linkedin": "https://cl.linkedin.com/in/armando-r-62a288168"
+     },
+     {
+      "nombre": "Juan Morales",
+      "cargo": "Supervisor Electricista en Empresa Ariztia",
+      "linkedin": "https://cl.linkedin.com/in/juan-morales-671407102"
+     },
+     {
+      "nombre": "Antonio Ariztia Reyes",
+      "cargo": "Gerente General ALCI",
+      "linkedin": "https://cl.linkedin.com/in/antonio-ariztia-reyes"
+     }
+    ]
+   }
   },
   {
    "planta": "Minera San Gerónimo",
@@ -1635,65 +3544,107 @@
    "quien_contacto": "",
    "siguiente_paso": "",
    "lineas_excel": {},
-   "decisores": 25,
-   "empresa_buscador": "CIA MINERA SAN GERONIMO",
-   "decisores_detalle": [
-    {
-     "nombre": "Patricio Rendic Lazo",
-     "cargo": "Director Ejecutivo",
-     "fuente": "direcmin.com/minera-san-geronimo/ejecutivos",
-     "relevante": false
-    },
-    {
-     "nombre": "Yerko Rendic Vladislavic",
-     "cargo": "Presidente del Directorio",
-     "fuente": "direcmin.com/minera-san-geronimo/ejecutivos",
-     "relevante": true
-    },
-    {
-     "nombre": "Juan Carlos Sáez Zamorano",
-     "cargo": "Gerente General",
-     "fuente": "direcmin.com/minera-san-geronimo/ejecutivos",
-     "relevante": true
-    },
-    {
-     "nombre": "Rubén Labrin Figueroa",
-     "cargo": "Superintendente de Minas Talcuna",
-     "fuente": "direcmin.com/minera-san-geronimo/ejecutivos",
-     "relevante": false
-    },
-    {
-     "nombre": "Francisco Muñoz Cordovéz",
-     "cargo": "Superintendente de Planta Talcuna",
-     "fuente": "direcmin.com/minera-san-geronimo/ejecutivos",
-     "relevante": false
-    },
-    {
-     "nombre": "Guido Vásquez",
-     "cargo": "Superintendente de Planta Lambert",
-     "fuente": "direcmin.com/minera-san-geronimo/ejecutivos",
-     "relevante": false
-    },
-    {
-     "nombre": "Alejandro Aravena",
-     "cargo": "Superintendente de Minas Lambert",
-     "fuente": "direcmin.com/minera-san-geronimo/ejecutivos",
-     "relevante": false
-    },
-    {
-     "nombre": "Claudio Didier Valdés",
-     "cargo": "Gerente de Finanzas",
-     "fuente": "direcmin.com/minera-san-geronimo/ejecutivos",
-     "relevante": false
-    }
-   ],
-   "dolor_t": 1404.78,
+   "decisores": 0,
+   "empresa_buscador": "",
+   "decisores_detalle": [],
+   "dolor_t": 0,
    "region_real": "",
    "comuna_real": "",
-   "telefono": "257 1100",
+   "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": {
+    "empresa": "Minera San Gerónimo",
+    "n": 17,
+    "personas": [
+     {
+      "nombre": "Patricio Rendic Lazo",
+      "cargo": "Director Ejecutivo",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Yerko Rendic Vladislavic",
+      "cargo": "Presidente del Directorio",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Juan Carlos Sáez Zamorano",
+      "cargo": "Gerente General",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Rubén Labrin Figueroa",
+      "cargo": "Superintendente de Minas Talcuna",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Francisco Muñoz Cordovéz",
+      "cargo": "Superintendente de Planta Talcuna",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Guido Vásquez",
+      "cargo": "Superintendente de Planta Lambert",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Alejandro Aravena",
+      "cargo": "Superintendente de Minas Lambert",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Claudio Didier Valdés",
+      "cargo": "Gerente de Finanzas",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Carlos Vásquez Riquelme",
+      "cargo": "Gerente de Sustentabilidad",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Pedro Miguras Silva",
+      "cargo": "Gerente de Abastecimiento y Comercialización",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Yuvitza Sáez Tapia",
+      "cargo": "Gerente de Personas",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Arnoldo Briones Mallea",
+      "cargo": "Gerente de Minas",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Paola Botto Mahan",
+      "cargo": "Gerente Legal",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Ricardo Sánchez",
+      "cargo": "Jefe de Operaciones Mina Subterranea en Compañia Minera San Geronimo",
+      "linkedin": "https://cl.linkedin.com/in/ricardo-s%C3%A1nchez-b0a30562"
+     },
+     {
+      "nombre": "CRISTIAN R. ESPINOZA LEÓN",
+      "cargo": "jefe de turno mina en Minera San Gerónimo",
+      "linkedin": "https://cl.linkedin.com/in/cristian-r-espinoza-le%C3%B3n-a2371a45"
+     },
+     {
+      "nombre": "FELIPE HERRERA",
+      "cargo": "Jefe de Abastecimientos en Cia. Minera San Geronimo",
+      "linkedin": "https://cl.linkedin.com/in/felipe-herrera-b7bb5997"
+     },
+     {
+      "nombre": "Mauricio de la Torre Izquierdo",
+      "cargo": "Gerente de Desarrollo y Gestión en Compañía Minera San Gerónimo",
+      "linkedin": "https://cl.linkedin.com/in/mauricio-de-la-torre-izquierdo-436921124"
+     }
+    ]
+   }
   },
   {
    "planta": "Empresas Lucchetti - Planta Renca",
@@ -1713,7 +3664,58 @@
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": {
+    "empresa": "Empresas Lucchetti",
+    "n": 9,
+    "personas": [
+     {
+      "nombre": "Marcelo Quiroga",
+      "cargo": "Jefe de Mantenimiento en Tresmontes Lucchetti Chile",
+      "linkedin": "https://cl.linkedin.com/in/marcelo-quiroga-56a88547"
+     },
+     {
+      "nombre": "Gabriel Villagra",
+      "cargo": "Supervisor de mantenimiento en Tresmontes Lucchetti S.A - Grupo Empresarial Nutresa",
+      "linkedin": "https://cl.linkedin.com/in/gabriel-villagra-2b16b31a4"
+     },
+     {
+      "nombre": "Jorge Rocco Arancibia",
+      "cargo": "Jefe de mantenimiento y servicios Tresmontes Lucchetti S.A - Grupo Empresarial Nutresa",
+      "linkedin": "https://cl.linkedin.com/in/jorge-rocco-arancibia-21bab1141"
+     },
+     {
+      "nombre": "Patricio Abarca Toro",
+      "cargo": "Plant Manager en Tresmontes Lucchetti S.A - Grupo Empresarial Nutresa",
+      "linkedin": "https://cl.linkedin.com/in/patricio-abarca-toro-4312067a"
+     },
+     {
+      "nombre": "Manuel Toloza",
+      "cargo": "Jefe de linea en lucchetti chile s a",
+      "linkedin": "https://cl.linkedin.com/in/manuel-toloza-a85a7211b"
+     },
+     {
+      "nombre": "LUTTI GARCIAS",
+      "cargo": "JEFE PRODUCTO INTERNACIONAL en TRESMONTES LUCCHETTI S.A.",
+      "linkedin": "https://cl.linkedin.com/in/lutti-garcias-56426732"
+     },
+     {
+      "nombre": "Luis Montero Toro",
+      "cargo": "JEFE DE BODEGA en Tresmontes Lucchetti S.A - Grupo Empresarial Nutresa",
+      "linkedin": "https://cl.linkedin.com/in/luis-montero-toro-aba038a1"
+     },
+     {
+      "nombre": "Tomás Gumucio Zegers",
+      "cargo": "Gerente de Personas Tresmontes Lucchetti - Grupo Nutresa",
+      "linkedin": "https://cl.linkedin.com/in/tom%C3%A1s-gumucio-zegers-016a8a17"
+     },
+     {
+      "nombre": "Kelly Lucchetti",
+      "cargo": "Global Human Resources Director at Seabury Capital (formerly Seabury Group)",
+      "linkedin": "https://www.linkedin.com/in/kelly-lucchetti"
+     }
+    ]
+   }
   },
   {
    "planta": "Evercrisp - Planta de Snacks RM",
@@ -1733,7 +3735,28 @@
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": {
+    "empresa": "Evercrisp",
+    "n": 3,
+    "personas": [
+     {
+      "nombre": "Hemil Jordan Reyes",
+      "cargo": "Jefe administrativo en Evercrisp Snack Productos de Chile S.A.",
+      "linkedin": "https://cl.linkedin.com/in/hemil-jordan-reyes-515862a5"
+     },
+     {
+      "nombre": "DAVID DIAZ GUMERAS",
+      "cargo": "Jefe Administrativo en Evercrisp Snack Productos de Chile S.A.",
+      "linkedin": "https://cl.linkedin.com/in/david-diaz-gumeras-618b8b180"
+     },
+     {
+      "nombre": "Eric Marcelo Betancour Riquelme",
+      "cargo": "Jefe de operaciones de venta en Evercrisp Snack Productos de Chile S.A.",
+      "linkedin": "https://cl.linkedin.com/in/eric-marcelo-betancour-riquelme-8028a0270"
+     }
+    ]
+   }
   },
   {
    "planta": "Minera Yamana Gold - Planta Florida ( villa alemana)",
@@ -1744,70 +3767,218 @@
    "quien_contacto": "",
    "siguiente_paso": "",
    "lineas_excel": {},
-   "decisores": 12,
-   "empresa_buscador": "MINERA FLORIDA LIMITADA",
+   "decisores": 8,
+   "empresa_buscador": "MINERA GOLD FIELDS SALARES NORTE SPA",
    "decisores_detalle": [
     {
-     "nombre": "Manuel Carrasco",
-     "cargo": "Gerente de Planta",
-     "fuente": "direcmin.com/minera-florida/ejecutivos",
+     "nombre": "Diego Roberto Huete Verdugo",
+     "cargo": "Gerente de Exploración",
+     "fuente": "direcmin.com/gold-fields-salares-norte/ejecutivos",
      "relevante": false
     },
     {
-     "nombre": "Fernando Arredondo",
-     "cargo": "Jefe de Operaciones Planta de Procesos",
-     "fuente": "direcmin.com/minera-florida/ejecutivos",
-     "relevante": true
-    },
-    {
-     "nombre": "Luis González Zenteno",
-     "cargo": "Superintendente Mantenimiento Planta",
-     "fuente": "direcmin.com/minera-florida/ejecutivos",
-     "relevante": true
-    },
-    {
-     "nombre": "Carlos Garate",
-     "cargo": "Encargado de Explosivos Minera Florida Ltda. - Yamana Gold",
-     "linkedin": "https://cl.linkedin.com/in/carlos-garate-95858155",
+     "nombre": "Héctor Pavez Díaz",
+     "cargo": "Gerente de Mantenimiento Salares Norte",
+     "linkedin": "https://cl.linkedin.com/in/hpavez",
      "fuente": "LinkedIn (AIsa, headline validado)",
      "relevante": true
     },
     {
-     "nombre": "Gonzalo Troncoso Hernandez",
-     "cargo": "ITO en Minera Florida Ltda, Yamana Gold",
-     "linkedin": "https://cl.linkedin.com/in/gonzalo-troncoso-hernandez-b4187751",
-     "fuente": "LinkedIn (AIsa, headline validado)",
-     "relevante": true
-    },
-    {
-     "nombre": "César Andrés A.",
+     "nombre": "Moises Aracena",
      "cargo": "gerente de mantenimiento",
-     "linkedin": "https://cl.linkedin.com/in/c%C3%A9sar-andr%C3%A9s-a-aa32a71a/es",
+     "linkedin": "https://cl.linkedin.com/in/moises-aracena",
      "fuente": "LinkedIn (AIsa, headline validado)",
      "relevante": true
     },
     {
-     "nombre": "fernando ivan astudillo allende",
-     "cargo": "tecnico instrumentacion en minera florida",
-     "linkedin": "https://cl.linkedin.com/in/fernando-ivan-astudillo-allende-655ba376",
+     "nombre": "Claudio Salinas",
+     "cargo": "Jefe de tecnología en Minera Gold Fields Salares Norte",
+     "linkedin": "https://cl.linkedin.com/in/claudio-salinas-210a9618",
      "fuente": "LinkedIn (AIsa, headline validado)",
      "relevante": true
     },
     {
-     "nombre": "Cristian Roca Parra",
-     "cargo": "Jefe de Turno area desarrollo en Minera Florida",
-     "linkedin": "https://cl.linkedin.com/in/cristianrocaparra",
+     "nombre": "Juan José Anabalón",
+     "cargo": "Gerente del Estudio de Impacto Ambiental. Proyecto Salares Norte en GOLD FIELDS",
+     "linkedin": "https://cl.linkedin.com/in/juan-jos%C3%A9-anabal%C3%B3n-7591ab16",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Luis Ortega",
+     "cargo": "gerente de medio ambiente",
+     "linkedin": "https://cl.linkedin.com/in/luis-ortega-30644273",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Catalina Cortes Morales",
+     "cargo": "Ingeniera Civil Ambiental",
+     "linkedin": "https://cl.linkedin.com/in/catalina-cortes-morales-751028177",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "paz zamorano",
+     "cargo": "gerente de medio ambiente",
+     "linkedin": "https://cl.linkedin.com/in/paz-zamorano-8569a718a",
      "fuente": "LinkedIn (AIsa, headline validado)",
      "relevante": true
     }
    ],
-   "dolor_t": 9778.39,
+   "dolor_t": 8709.83,
    "region_real": "",
    "comuna_real": "",
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": {
+    "empresa": "Minera Las Cenizas",
+    "n": 28,
+    "personas": [
+     {
+      "nombre": "Cristian Argandoña León",
+      "cargo": "Gerente General",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Vito Furnaro Said",
+      "cargo": "Gerente de Finanzas",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Rene Fonseca Riquelme",
+      "cargo": "Gerente de Operaciones Corporativo",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Marcelo Araya Becerra",
+      "cargo": "Gerente de Geología",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Gabriel Lira",
+      "cargo": "Gerente de Mantenimiento",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Fernando Robles Pérez",
+      "cargo": "Gerente de Construcción y Proyectos Infraestructura",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Miguel Arancibia",
+      "cargo": "Gerente de RR.HH.",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Cristián Argandoña",
+      "cargo": "Gerente General Eléctrica Cenizas",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Francisco Calaf González",
+      "cargo": "Gerente de Proyectos y Control de Gestión",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Hugo Adrián Flores",
+      "cargo": "Gerente de Operaciones de Cabildo",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Andrés Monardes Rozas",
+      "cargo": "Superintendente de Planta Cabildo",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Sergio Polanco Ramírez",
+      "cargo": "Superintendente de Minas Cabildo",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Miguel Arancibia Espinoza",
+      "cargo": "Superintendente de Administración Cabildo",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Felipe Sepúlveda González",
+      "cargo": "Superintendente de Geología Cabildo",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Raúl Silva Delgado",
+      "cargo": "Gerente de Operaciones Taltal",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Juan Marcó Marré",
+      "cargo": "Superintendente General de Minas Taltal",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Cristián Salgado Quintana",
+      "cargo": "Superintendente de Planta Sulfuro Taltal",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Luis Trincado Clavero",
+      "cargo": "Superintendente de Planta Lixiviación Taltal",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Cristián Lagos Quivira",
+      "cargo": "Superintendente de Administración Taltal",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Mario Castro González",
+      "cargo": "Superintendente de Exploraciones Taltal",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Francisco Chocobar Palacios",
+      "cargo": "Superintendente de Minas Subterráneas Taltal",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Fernando Urzúa Fernández",
+      "cargo": "Superintendente de Ingeniería de Minas Taltal",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Carlos Delpiano Prett",
+      "cargo": "Gerente de Mantenimiento y Logistica en Cia. Minera Las Cenizas",
+      "linkedin": "https://cl.linkedin.com/in/carlos-delpiano-prett-2439b358"
+     },
+     {
+      "nombre": "Rodrigo Riveros",
+      "cargo": "Jefe de mantenimiento en Minera Las Cenizas S.A.",
+      "linkedin": "https://cl.linkedin.com/in/rodrigo-riveros-64494b360"
+     },
+     {
+      "nombre": "Victor Magaña",
+      "cargo": "Jefe de mantenimiento planta en Minera Las Cenizas S.A.",
+      "linkedin": "https://cl.linkedin.com/in/victor-maga%C3%B1a-83571a130"
+     },
+     {
+      "nombre": "Erika Rivera",
+      "cargo": "Jefe de Recursos Humanos Minera Las Cenizas S.A - Cabildo",
+      "linkedin": "https://cl.linkedin.com/in/erika-rivera-314b5759"
+     },
+     {
+      "nombre": "Margarita Anza",
+      "cargo": "Jefe de Turno Planta Oxidos, Minera Las Cenizas",
+      "linkedin": "https://cl.linkedin.com/in/margarita-anza-8a806715"
+     },
+     {
+      "nombre": "Daniel Calderon",
+      "cargo": "Jefe Abastecimiento Minera las Cenizas Cabildo",
+      "linkedin": "https://cl.linkedin.com/in/daniel-calderon-431b6268"
+     }
+    ]
+   }
   },
   {
    "planta": "Molymet - Planta Nos",
@@ -1827,7 +3998,58 @@
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": {
+    "empresa": "Molymet",
+    "n": 9,
+    "personas": [
+     {
+      "nombre": "Oscar Ley",
+      "cargo": "General Manager at MolymetNos",
+      "linkedin": "https://cl.linkedin.com/in/oscar-ley-b6847a52"
+     },
+     {
+      "nombre": "Carlos Salinas Bruna",
+      "cargo": "Gerente de Ingeniería en Molymet",
+      "linkedin": "https://cl.linkedin.com/in/carlos-salinas-bruna-98624053"
+     },
+     {
+      "nombre": "Jose Mengido",
+      "cargo": "Gerente de Tecnología y Transformación Digital at Molymet",
+      "linkedin": "https://cl.linkedin.com/in/jose-mengido"
+     },
+     {
+      "nombre": "PATRICIO RAMIREZ MORALES",
+      "cargo": "Jefe de Mantención Eléctrica e Instrumentación en Molymet S.A.",
+      "linkedin": "https://cl.linkedin.com/in/patricio-ramirez-morales-49b02428"
+     },
+     {
+      "nombre": "Patricio Valdés Henríquez",
+      "cargo": "Supervisor Mantención Electrica e Instrumentacion en Molymet",
+      "linkedin": "https://cl.linkedin.com/in/patricio-vald%C3%A9s-henr%C3%ADquez-19b15511a"
+     },
+     {
+      "nombre": "Marco Antonio Carranza Beltran",
+      "cargo": "Supervisor de mantencion electrica , instrumentacion y mecanica en molymet",
+      "linkedin": "https://cl.linkedin.com/in/marco-antonio-carranza-beltran-5972a159"
+     },
+     {
+      "nombre": "cristian ruz",
+      "cargo": "Superintendente de Mantención Eléctrica e Instrumentación en Molymet S.A.",
+      "linkedin": "https://cl.linkedin.com/in/cristian-ruz-1a89b341"
+     },
+     {
+      "nombre": "Braulio Cid Díaz",
+      "cargo": "Operations Manager at Molymet Belgium",
+      "linkedin": "https://be.linkedin.com/in/braulio-cid-diaz"
+     },
+     {
+      "nombre": "Samuel Baeza",
+      "cargo": "Managing Director / Corporate Trading & Commercial Risk Manager at Molymet London, UK",
+      "linkedin": "https://uk.linkedin.com/in/samuel-baeza-a307ba26/es"
+     }
+    ]
+   }
   },
   {
    "planta": "CEMIN Holding Minero - Planta Catemu",
@@ -1847,7 +4069,68 @@
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": {
+    "empresa": "CEMIN Holding Minero",
+    "n": 11,
+    "personas": [
+     {
+      "nombre": "Juan Enrique Rassmus Raier",
+      "cargo": "Presidente del Directorio",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Mauricio Alamos Elías",
+      "cargo": "Presidente Ejecutivo del Holding Cemin",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Claudio Campos Salas",
+      "cargo": "Gerente Corporativo de Planificación y Desarrollo",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Claudia Alcaíno Bustamante",
+      "cargo": "Gerente Corporativo de Gestión de Personas",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Susan Henry Henry",
+      "cargo": "Gerente Corporativo de Sustentabilidad",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Fernanda Proboste Villagrán",
+      "cargo": "Gerente Corporativo de Adm. y Finanzas",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Alejandro Contreras Cifuentes",
+      "cargo": "Gerente Corporativo de Exploraciones y Geología",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Alejandro Berenguela Zúñiga",
+      "cargo": "Gerente General Catemu",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Patricio González Pérez",
+      "cargo": "Gerente General Pullalli",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Pedro Salfate",
+      "cargo": "Gerente Faena Catemu",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Roberto Rojas Rivera",
+      "cargo": "Gerente General CEMIN - Ingeniero de Minas (MBA)",
+      "linkedin": "https://cl.linkedin.com/in/roberto-rojas-rivera-140a6269"
+     }
+    ]
+   }
   },
   {
    "planta": "CORPORA",
@@ -1867,7 +4150,8 @@
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": null
   },
   {
    "planta": "fruna ( camino a melipilla)",
@@ -1887,7 +4171,63 @@
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": {
+    "empresa": "Fruna",
+    "n": 10,
+    "personas": [
+     {
+      "nombre": "Hunaldo Martinez",
+      "cargo": "Jefe de Mantenimiento en Alimentos Fruna LTDA",
+      "linkedin": "https://cl.linkedin.com/in/hunaldo-martinez-09b1954a"
+     },
+     {
+      "nombre": "Fabian Llanos",
+      "cargo": "jefe mantencion en alimentos fruna",
+      "linkedin": "https://cl.linkedin.com/in/fabian-llanos-25229169"
+     },
+     {
+      "nombre": "Eduardo Herrera",
+      "cargo": "Jefe Mantención Planta Bebidas en Alimentos Fruna Ltda.",
+      "linkedin": "https://cl.linkedin.com/in/eduardo-herrera-aa1ab189"
+     },
+     {
+      "nombre": "Homero Gonzales",
+      "cargo": "Jefe de organización en alimentos fruna ltda",
+      "linkedin": "https://cl.linkedin.com/in/homero-gonzales-795545201"
+     },
+     {
+      "nombre": "Gabriel Castro Flores",
+      "cargo": "Jefe de Aseguramiento de Calidad, Alimentos Fruna",
+      "linkedin": "https://cl.linkedin.com/in/gabriel-castro-flores-520021187"
+     },
+     {
+      "nombre": "Noel Amador/Ing. Electricista",
+      "cargo": "Jefe de Mantenimiento Electrico en Alimentos Fruna Ltda",
+      "linkedin": "https://cl.linkedin.com/in/noelalejandroamador"
+     },
+     {
+      "nombre": "LUIGGI CAMPOS",
+      "cargo": "Jefe de administración en alimentos fruna ltda",
+      "linkedin": "https://cl.linkedin.com/in/luiggi-campos-879ab5158"
+     },
+     {
+      "nombre": "Lalo MAYOR",
+      "cargo": "Gerente en alimentos fruna ltda",
+      "linkedin": "https://cl.linkedin.com/in/lalo-mayor-6b7508188"
+     },
+     {
+      "nombre": "Lucas Muller",
+      "cargo": "Principal Chief Executive Officer en alimentos fruna ltda",
+      "linkedin": "https://cl.linkedin.com/in/lucas-muller-a09ba7239"
+     },
+     {
+      "nombre": "Oscar Contreras",
+      "cargo": "Jefe de Aseguramiento de Calidad. en Alimentos Fruna Ltda.",
+      "linkedin": "https://cl.linkedin.com/in/oscar-contreras-27116111a"
+     }
+    ]
+   }
   },
   {
    "planta": "pisa ( Quilicura)",
@@ -1914,7 +4254,18 @@
      "fuente": "https://www.isa.co/es/press/isa-gana-proyecto-en-chile/?utm_source=chatgpt.com"
     }
    ],
-   "inv_proyectos_usd": 35000000.0
+   "inv_proyectos_usd": 35000000.0,
+   "decisores_barrido": {
+    "empresa": "Pisa",
+    "n": 1,
+    "personas": [
+     {
+      "nombre": "Jaime Pisa",
+      "cargo": "Gerente Automatizacion en Control y Fuerza",
+      "linkedin": "https://mx.linkedin.com/in/jaime-pisa-16a27a77"
+     }
+    ]
+   }
   },
   {
    "planta": "Quimetal (lonquen)",
@@ -1934,7 +4285,43 @@
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": {
+    "empresa": "Quimetal",
+    "n": 6,
+    "personas": [
+     {
+      "nombre": "Gerardo Godoy Jarpa",
+      "cargo": "Gerente de ingenieria y mantenimiento en Quimetal Industrial S.A.",
+      "linkedin": "https://cl.linkedin.com/in/gerardo-godoy-jarpa-ba8b0974"
+     },
+     {
+      "nombre": "Renan Gutierrez Medina",
+      "cargo": "Jefe Mantenimiento - producción planta SO2- BS. Quimetal Lonquén Stgo.",
+      "linkedin": "https://cl.linkedin.com/in/renan-gutierrez-medina-12a672155"
+     },
+     {
+      "nombre": "Felipe Lailhacar",
+      "cargo": "Gerente Comercial en Quimetal Industrial S.A.",
+      "linkedin": "https://cl.linkedin.com/in/felipe-lailhacar-10836519"
+     },
+     {
+      "nombre": "Daniel V.",
+      "cargo": "Jefe de Planta en Quimetal Industrial S.A.",
+      "linkedin": "https://cl.linkedin.com/in/daniel-v-b448a9173"
+     },
+     {
+      "nombre": "Victor Saez",
+      "cargo": "Jefe Area Electrica e Instrumentacion. en Quimetal Industrial S.A.",
+      "linkedin": "https://cl.linkedin.com/in/victor-saez-5154663a"
+     },
+     {
+      "nombre": "Juan Pablo Muñoz",
+      "cargo": "Subgerente de Producción Línea de Cobres y Azufres en Quimetal Industrial S.A.",
+      "linkedin": "https://cl.linkedin.com/in/juan-pablo-mu%C3%B1oz-57b6ab38"
+     }
+    ]
+   }
   },
   {
    "planta": "Las Tortolas",
@@ -1957,7 +4344,103 @@
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": {
+    "empresa": "Anglo American Sur",
+    "n": 18,
+    "personas": [
+     {
+      "nombre": "Patricio Hidalgo",
+      "cargo": "Presidente Ejecutivo",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Eleanor Blyth",
+      "cargo": "Vicepresidente de Finanzas",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Marcelo Bustos",
+      "cargo": "Gerente General Los Bronces",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Cristina Bruce",
+      "cargo": "Vicepresidente de Asuntos Corporativos, Permisos y Medioambiente",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Sofía Sánchez",
+      "cargo": "Vicepresidente de Personas y Organización",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Paulina Jaramillo",
+      "cargo": "Gerente General El Soldado",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Benjamín Martinich",
+      "cargo": "Gerente General de Chagres",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Fernando Acosta",
+      "cargo": "Vicepresidente de Seguridad y Salud Ocupacional",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Rory Wallace",
+      "cargo": "Vicepresidente de Proyectos",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Rodrigo Subiabre",
+      "cargo": "Vicepresidente de Tecnología e Innovación",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Cecilia Arrué",
+      "cargo": "Vicepresidente de Joint Ventures",
+      "linkedin": ""
+     },
+     {
+      "nombre": "Hector Olmos",
+      "cargo": "Gerente Mantenimiento en Anglo American",
+      "linkedin": "https://cl.linkedin.com/in/hector-olmos-98233330"
+     },
+     {
+      "nombre": "Zilleruelo Francisco",
+      "cargo": "Gerente Servicios de Apoyo Exploraciones en Anglo American Exploration",
+      "linkedin": "https://cl.linkedin.com/in/zilleruelo-francisco-97834163"
+     },
+     {
+      "nombre": "Miguel Morales Donayre",
+      "cargo": "Gerente de Asuntos Ambientales Anglo American Quellaveco SA",
+      "linkedin": "https://pe.linkedin.com/in/miguel-morales-donayre-b468523a"
+     },
+     {
+      "nombre": "Carlos Salvo",
+      "cargo": "Gerente de Sustentabilidad en Angloamerican Sur S.A. Chagres",
+      "linkedin": "https://cl.linkedin.com/in/carlos-salvo-39807b7a"
+     },
+     {
+      "nombre": "Kattherine Ferrada",
+      "cargo": "Gerente de Medio Ambiente Anglo American Chile. Sujeto responsable del Modelo de Prevenció",
+      "linkedin": "https://cl.linkedin.com/in/kattherine-ferrada-50247b237"
+     },
+     {
+      "nombre": "Chantal Maurer",
+      "cargo": "SHE way, IRM & Permitting Manager at Anglo American | Sustainability | Permitting & Risk |",
+      "linkedin": "https://pe.linkedin.com/in/chantal-maurer-53595322"
+     },
+     {
+      "nombre": "Marcela Díaz Torres",
+      "cargo": "Jefe de Permisos Sectoriales en Anglo American | Permisos | Sustentabilidad | Medio Ambien",
+      "linkedin": "https://cl.linkedin.com/in/marcela-d%C3%ADaz-torres-66165039"
+     }
+    ]
+   }
   },
   {
    "planta": "Juntarme con Mario y Victoriano",
@@ -1977,7 +4460,8 @@
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": null
   },
   {
    "planta": "Peronas de operaciones, mantenimiento, instriumentistas",
@@ -1997,7 +4481,8 @@
    "telefono": "",
    "n_proyectos": 0,
    "proyectos": [],
-   "inv_proyectos_usd": 0
+   "inv_proyectos_usd": 0,
+   "decisores_barrido": null
   }
  ]
 }

@@ -99,6 +99,19 @@ def direcmin_slug(empresa):
     """
     idx = direcmin_indice()
 
+    # SI LA RAZÓN SOCIAL NO ES MINERA, NO SE BUSCA EN EL ÍNDICE MINERO DE DIRECMIN.
+    # Va PRIMERO, antes del ALIAS: si no, un alias como "mantos" capturaba a
+    # "AGRICOLA MANTOS VERDES" y le asignaba los ejecutivos de "minera-mantos-de-la-luna", y
+    # "SPENCER" le daba los de "minera-spence-s-a" a una SOCIEDAD MEDICA. Poner los contactos de
+    # una minera en una agrícola o en una sociedad médica es peor que no tener contacto: se llama
+    # a la persona equivocada y se contamina el archivo.
+    NO_MINERO = {"agricola", "agro", "medica", "medical", "clinica", "spencer", "aridos", "turismo",
+                 "constructora", "comercial", "forestal", "transporte", "inmobiliaria", "alimentos",
+                 "servicios", "tecnologia", "ingenieria", "consultora", "laboratorio", "pesquera",
+                 "acuicultura", "hotel", "gastronomia", "textil", "quimica", "cemento", "papelera"}
+    if tokens(empresa) & NO_MINERO:
+        return None
+
     # alias verificados: razón social del catálogo -> slug(s) de Direcmin
     ALIAS = {
         "codelco": ["codelco-chile-divisi-n-chuquicamata", "codelco-divisi-n-andina",
@@ -224,9 +237,15 @@ def direcmin_slug(empresa):
         clave = max(distintivos, key=len)
         if clave not in ts:
             continue
-        sc = len(comunes) + 1
+        sc = len(comunes)
         if sc > score:
             mejor, score, tiene_clave = slug, sc, True
+    # EXIGIR 2 TOKENS DISTINTIVOS REALES, no 1.
+    # Antes era `len(comunes) + 1` y el umbral 2, o sea que UN solo token en común bastaba, y
+    # eso asignó ejecutivos de OTRAS empresas (medido): "ECOVAL MINERALS" tomó
+    # `antofagasta-minerals` (por "minerals"), "AGRICOLA MANTOS VERDES" tomó `minera-mantos-de-la-luna`
+    # (por "mantos"), "SOCIEDAD MEDICA SPENCER" tomó `minera-spence-s-a` (por "spencer"). Poner los
+    # ejecutivos de una minera en una sociedad médica es peor que no tener contacto.
     return mejor if (mejor and tiene_clave and score >= 2) else None
 
 
@@ -463,6 +482,8 @@ def main():
     ap.add_argument("--fuente", default="matriz",
                     help="de dónde tomar la lista de empresas: 'matriz' (dolor RETC) o "
                          "'mineras' (los 220 mineros del RETC, que la matriz perdió)")
+    ap.add_argument("--noguardar", action="store_true",
+                    help="consultar sin escribir en buscador_decisores.json (para pruebas)")
     a = ap.parse_args()
 
     if a.indice:
@@ -479,6 +500,24 @@ def main():
             mark = "*" if h.get("relevante") else " "
             print(f"   {mark} {h['nombre'][:30]:32s} {h['cargo'][:46]}")
             print(f"       fuente: {h['fuente'][:70]}")
+        # GUARDAR: el modo --empresa también persiste. Sin esto, correr empresa por empresa
+        # imprimía el resultado y lo TIRABA (bug medido: 52 empresas barridas, 0 guardadas;
+        # el guardado por empresa solo existía en el camino --lote).
+        acc = {}
+        if os.path.exists(OUT):
+            try:
+                acc = {x["empresa"]: x for x in json.load(open(OUT, encoding="utf-8"))["resultados"]}
+            except Exception:
+                acc = {}
+        if not a.noguardar:
+            acc[r["empresa"]] = r
+            json.dump({"que_es": "Buscador multi-fuente de decisores por empresa.",
+                       "fuentes": ["Direcmin /ejecutivos (93 mineras)",
+                                   "Transparencia (empresas del Estado)",
+                                   "Web search / LinkedIn"],
+                       "total_empresas": len(acc), "resultados": list(acc.values())},
+                      open(OUT, "w"), ensure_ascii=False, indent=1)
+            print(f"  guardado: {r['empresa']} (total en archivo: {len(acc)})")
         return
 
     # lote: procesar empresas de la fuente elegida

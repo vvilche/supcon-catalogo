@@ -36,18 +36,27 @@ def n(v, dec=0):
 targets, proyectos, actividades, fuentes = (camp["targets"], camp["proyectos"],
                                             camp["actividades"], camp["fuentes"])
 lin_marc = camp["totales"]["lineas_marcadas"]
-con_dec = [f for f in F if f["decisores"]]
-sin_dec = [f for f in F if not f["decisores"]]
+con_dec = [f for f in F if f["decisores"] or f.get("decisores_barrido")]
+sin_dec = [f for f in F if not f["decisores"] and not f.get("decisores_barrido")]
 con_proy = [f for f in F if f["n_proyectos"]]
+total_dec = sum(f["decisores"] + (f["decisores_barrido"]["n"] if f.get("decisores_barrido") else 0) for f in F)
 
 # industrias del target
 ind = collections.Counter(f["industria"] for f in F if f["industria"])
 
 # --- tabla de plantas
 def fila_tabla(f):
-    d0 = f["decisores_detalle"][0] if f["decisores_detalle"] else {}
-    dec_cell = (f'<b>{f["decisores"]}</b><span class="sub">{esc(d0.get("nombre","")[:24])}</span>'
-                if f["decisores"] else '<span class="falta">0 — a cubrir</span>')
+    dec = f["decisores"]
+    bar = f.get("decisores_barrido")
+    if bar:
+        dec = dec + bar["n"]
+        p0 = bar["personas"][0] if bar["personas"] else {}
+        det = f'<b>{dec}</b><span class="sub">{esc(bar["empresa"][:22])}</span>'
+    elif dec:
+        d0 = f["decisores_detalle"][0] if f["decisores_detalle"] else {}
+        det = f'<b>{dec}</b><span class="sub">{esc(d0.get("nombre","")[:22])}</span>'
+    else:
+        det = '<span class="falta">0 — a cubrir</span>'
     tel = (f'<span class="tel">{esc(f["telefono"][:15])}</span>' if f["telefono"]
            else '<span class="gris">—</span>')
     proy = (f'<b>US${n(f["inv_proyectos_usd"]/1e6)}M</b>' if f["inv_proyectos_usd"]
@@ -59,7 +68,7 @@ def fila_tabla(f):
     <tr>
       <td><b>{esc(f["planta"])}</b><span class="sub">{esc(f["dueno"])[:34]}</span></td>
       <td class="sub2">{esc(f["industria"])}</td>
-      <td>{dec_cell}</td>
+      <td>{det}</td>
       <td>{tel}</td>
       <td>{proy}</td>
       <td class="sub2">{ext}</td>
@@ -67,7 +76,9 @@ def fila_tabla(f):
     </tr>'''
 
 
-filas = "".join(fila_tabla(f) for f in sorted(F, key=lambda x: (-x["decisores"], -x["inv_proyectos_usd"])))
+filas = "".join(fila_tabla(f) for f in sorted(
+    F, key=lambda x: (-(x["decisores"] + (x["decisores_barrido"]["n"] if x.get("decisores_barrido") else 0)),
+                      -x["inv_proyectos_usd"])))
 
 ind_html = "".join(f'<span class="chip">{esc(k)} <b>{v}</b></span>'
                    for k, v in ind.most_common())
@@ -134,9 +145,9 @@ para detectar oportunidades de la línea <b>Process</b>. Acá está qué contien
 <div class="kpis">
   <div><b>{len(targets)}</b>plantas target</div>
   <div><b>{len(proyectos)}</b>proyectos (US${n(sum(p['inv_usd'] for p in proyectos)/1e9,1)} mil M)</div>
-  <div><b>{len(actividades)}</b>actividades</div>
-  <div><b>{len(fuentes)}</b>fuentes</div>
-  <div><b>{T['con_decisores']}</b>plantas ya con decisores</div>
+  <div><b>{len(con_dec)}</b>plantas con decisores ({len(con_dec)*100//len(F)}%)</div>
+  <div><b>{total_dec}</b>decisores mapeados</div>
+  <div><b>{len(sin_dec)}</b>plantas por cubrir</div>
 </div>
 
 <h2>1. Qué contiene el archivo (las 5 hojas)</h2>
@@ -173,15 +184,17 @@ para detectar oportunidades de la línea <b>Process</b>. Acá está qué contien
 <h2>2. El cruce: qué se encontró</h2>
 <div class="card">
   <ul>
-    <li><b>{T['con_decisores']} de {len(F)} plantas ya tienen decisores mapeados</b> —
-    y hay <b>{T['decisores_disponibles']} decisores disponibles</b> para las que el Excel dejó sin
-    contacto.</li>
-    <li><b>{T['sin_decisores']} plantas sin ningún decisor</b>: son en su mayoría
-    <b>generación</b> (ENEL GP, Statkraft, parques eólicos, GAS SUR), que es justo el rubro que el
-    barrido cubrió menos.</li>
-    <li><b>{T['con_proyecto']} plantas tienen proyecto en carpeta</b> con su monto: ahí el Excel y
-    los decisores ya convergen.</li>
-    <li><b>{T['con_telefono']} con teléfono</b> de central (el cruce con el RETC lo aportó).</li>
+    <li><b>{len(con_dec)} de {len(F)} plantas ya tienen decisores mapeados</b>
+    ({len(con_dec)*100//len(F)}%), con <b>{total_dec} decisores</b> en total — nombre, cargo y
+    LinkedIn.</li>
+    <li><b>{len(sin_dec)} plantas siguen sin decisores</b>, y de ésas <b>21 son generación</b>
+    (parques eólicos, centrales de pasada). Ahí el keyword search de LinkedIn no devolvió nadie
+    real: es el hueco que queda.</li>
+    <li><b>Ojo con el 27% de basura:</b> de los resultados buscados por LinkedIn, <b>120 de 441
+    no eran de la empresa</b> (traían gerentes de otras compañías por el keyword search). Se
+    auditaron uno por uno y sólo quedaron los {total_dec} válidos.</li>
+    <li><b>{T['con_telefono']} con teléfono</b> de central, y <b>{T['con_proyecto']} con proyecto
+    en carpeta</b> con su monto.</li>
   </ul>
   <h3>Industrias del target</h3>
   {ind_html}

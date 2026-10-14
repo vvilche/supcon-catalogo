@@ -53,20 +53,52 @@ idx_buscador = {norm(x["empresa"]): x for x in buscador}
 idx_mineras = {norm(m["empresa"]): m for m in mineras}
 idx_plan = {norm(p["empresa"]): p for p in plan}
 
+# Marcas de 4 letras o menos: el match por token es ruidoso ("enap" dentro de otra palabra),
+# así que van por tabla explícita con match de token EXACTO. Sin esto, CMPC/Codelco/ENAP/AASA
+# quedaban sin matchear aunque la empresa SÍ estuviera en el índice.
+MARCA_CORTA = {"cmpc", "enap", "aasa", "sqm", "gnl", "cpp", "cge", "enaex", "cbb", "sip"}
+
 
 def buscar(planta_o_dueno, idx, min_tokens=2):
-    """Busca una planta/dueño del Excel en un índice de empresas."""
+    """Busca una planta/dueño del Excel en un índice de empresas.
+
+    EL CRITERIO (aprendido midiendo falsos positivos uno por uno):
+      - 2+ tokens compartidos -> acepta ("San Geronimo", "Valle Central", "Cmpc Pulp")
+      - 1 token -> acepta SOLO si es marca principal (primer token de la empresa) Y tiene 5+
+        letras. Con 4 letras o menos (CMPC, ENAP, AASA) el match por token es ruidoso, así que
+        esos van por la tabla de MARCA_CORTA.
+      - los tokens genéricos no cuentan nunca.
+    Casos que ESTA regla rechaza y estaba mal aceptar: "Oxiquim"->"GNL Quintero" (por el token
+    "quintero"), "Tacora Energy"->"Gregorio Energy" (por "energy"), "Refineria Aconcagua" (ENAP)
+    -> "Aconcagua Foods" (otra empresa), "Santiago Solar"->"Santiago Agrisupply".
+    """
     n = norm(planta_o_dueno)
-    if not n or len(n) < 4:
+    if not n or len(n) < 3:
         return None
     if n in idx:
         return idx[n]
-    toks = set(t for t in n.split() if len(t) > 3)
+    # marcas cortas: match exacto por token, sin ambigüedad posible
+    for marca in MARCA_CORTA:
+        if marca in n.split():
+            for k, v in idx.items():
+                if marca in k.split():
+                    return v
+            break
+    GENERICOS = {"chile", "papel", "planta", "minera", "empresa", "empresas", "compania", "sociedad",
+                 "limitada", "pacifico", "norte", "sur", "central", "grupo", "holding", "energia",
+                 "energy", "industria", "industrial", "nacional", "andina", "andino", "servicios",
+                 "generacion", "chilena", "chileno", "holding", "minero", "metals"}
+    toks = set(t for t in n.split() if len(t) > 3 and t not in GENERICOS)
     if not toks:
         return None
     mejor, sc = None, 0
     for k, v in idx.items():
-        c = len(toks & set(k.split()))
+        kt = k.split()
+        c = len(toks & set(kt))
+        marca = kt[0] if kt else ""
+        # 1 token solo vale si es marca principal y tiene 5+ letras
+        if c == 1 and not (marca in toks and len(marca) >= 5):
+            continue
         if c > sc and c >= min_tokens:
             mejor, sc = v, c
     return mejor
