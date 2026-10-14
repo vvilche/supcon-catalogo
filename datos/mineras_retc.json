@@ -7,7 +7,9 @@
  "totales": {
   "mineras": 220,
   "con_riles": 9,
-  "respel_total_t": 2992581.12
+  "respel_total_t": 2992581.12,
+  "operadores": 161,
+  "proveedores_mineros": 59
  },
  "mineras": [
   {
@@ -28,7 +30,8 @@
     "Tóxico crónico",
     "Corrosivo",
     "Inflamable"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "MINERA CENTINELA",
@@ -48,7 +51,8 @@
     "Tóxico crónico",
     "Corrosivo",
     "Inflamable"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "MINERA SPENCE S.A.",
@@ -68,7 +72,8 @@
     "Inflamable",
     "Tóxico por lixiviación",
     "Tóxico por lixiviación; Corros"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "MINERA ESCONDIDA LIMITADA",
@@ -88,7 +93,8 @@
     "Tóxico crónico",
     "Corrosivo",
     "Tóxico crónico; Inflamable"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "ANGLO AMERICAN SUR S.A.",
@@ -108,7 +114,8 @@
     "Tóxico por lixiviación",
     "Tóxico crónico",
     "Corrosivo"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "COMPANIA MINERA MANTOS DE ORO",
@@ -128,7 +135,8 @@
     "Tóxico por lixiviación",
     "Tóxico agudo",
     "Inflamable"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "COMPANIA MINERA TECK QUEBRADA BLANCA S.A.",
@@ -148,7 +156,8 @@
     "Corrosivo",
     "Tóxico por lixiviación",
     "Inflamable"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "CIA CONTRACTUAL MINERA CANDELARIA",
@@ -168,7 +177,8 @@
     "Tóxico por lixiviación",
     "Corrosivo",
     "Inflamable"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "SIERRA GORDA S.C.M.",
@@ -188,7 +198,8 @@
     "Inflamable; Tóxico crónico",
     "Corrosivo",
     "Corrosivo; Inflamable; Tóxico "
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "CIA MINERA DEL PACIFICO S.A.",
@@ -208,7 +219,8 @@
     "Inflamable",
     "Corrosivo",
     "Inflamable; Tóxico por lixivia"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "CIA MINERA DONA INES DE COLLAHUASI SCM",
@@ -228,7 +240,8 @@
     "Tóxico por lixiviación",
     "Corrosivo",
     "Inflamable"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "S Q M SALAR S A",
@@ -248,7 +261,8 @@
     "Tóxico crónico",
     "Inflamable",
     "Corrosivo"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "SOC CONTRACTUAL MINERA EL ABRA",
@@ -268,7 +282,8 @@
     "Tóxico por lixiviación",
     "Tóxico crónico",
     "Inflamable; Tóxico por lixivia"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "KOMATSU REMAN CENTER CHILE S.A.",
@@ -288,7 +303,8 @@
     "Inflamable",
     "Tóxico crónico",
     "Corrosivo"
-   ]
+   ],
+   "tipo": "proveedor_minero"
   },
   {
    "empresa": "MINERA MERIDIAN LIMITADA",
@@ -307,7 +323,8 @@
    "peligrosidades": [
     "Tóxico crónico",
     "Tóxico agudo"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "MANTOVERDE S.A.",
@@ -327,7 +344,8 @@
     "Corrosivo",
     "Tóxico crónico",
     "Inflamable"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "MINERA LOS PELAMBRES",
@@ -347,7 +365,8 @@
     "Tóxico por lixiviación",
     "Inflamable",
     "Corrosivo"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "MANTOS COPPER  S.A.",
@@ -367,7 +386,8 @@
     "Corrosivo",
     "Inflamable; Tóxico agudo",
     "Tóxico agudo; Inflamable; Corr"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "EMPRESA NACIONAL DEL PETROLEO",
@@ -387,7 +407,8 @@
     "Tóxico por lixiviación",
     "Tóxico crónico",
     "Tóxico crónico; Inflamable"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "MOLYMETNOS S.A.",
@@ -407,7 +428,8 @@
     "Inflamable",
     "Tóxico crónico",
     "Corrosivo"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "SOC QUIMICA Y MINERA DE CHILE S A",
@@ -427,7 +449,8 @@
     "Tóxico crónico",
     "Tóxico por lixiviación",
     "Corrosivo"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "SCM MINERA LUMINA COPPER CHILE",
@@ -447,7 +470,8 @@
     "Tóxico por lixiviación",
     "Corrosivo",
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "COMPANIA MINERA LOMAS BAYAS",
@@ -467,7 +491,8 @@
     "Tóxico crónico; Inflamable",
     "Tóxico crónico",
     "Reactivo; Corrosivo; Tóxico cr"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "ALBEMARLE LIMITADA",
@@ -487,7 +512,8 @@
     "Corrosivo",
     "Tóxico crónico",
     "Inflamable"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "MINERA ANTUCOYA",
@@ -507,7 +533,8 @@
     "Tóxico crónico",
     "Inflamable",
     "Tóxico crónico; Reactivo; Corr"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "MINERA FLORIDA LIMITADA",
@@ -527,7 +554,8 @@
     "Tóxico por lixiviación",
     "Tóxico crónico",
     "Corrosivo"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "MINERA GOLD FIELDS SALARES NORTE SPA",
@@ -547,7 +575,8 @@
     "Tóxico crónico",
     "Tóxico agudo",
     "Tóxico por lixiviación"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "SQM INDUSTRIAL S.A.",
@@ -567,7 +596,8 @@
     "Tóxico crónico",
     "Corrosivo",
     "Tóxico por lixiviación"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "COMPANIA MINERA ZALDIVAR SPA",
@@ -587,7 +617,8 @@
     "Tóxico por lixiviación",
     "Inflamable",
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "SGS MINERALS S.A.",
@@ -607,7 +638,8 @@
     "Corrosivo",
     "Tóxico agudo",
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "proveedor_minero"
   },
   {
    "empresa": "COMPANIA MINERA TECK CARMEN DE ANDACOLLO",
@@ -627,7 +659,8 @@
     "Tóxico por lixiviación",
     "Corrosivo",
     "Inflamable"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "SOC CONTRACTUAL MINERA CAROLA",
@@ -647,7 +680,8 @@
     "Inflamable",
     "Tóxico crónico",
     "Tóxico por lixiviación"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "MINERA HMC S.A.",
@@ -667,7 +701,8 @@
     "Inflamable",
     "Tóxico crónico",
     "Tóxico agudo"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "SOCIEDAD CONTRACTUAL MINERA COSAYACH YODO",
@@ -685,7 +720,8 @@
    "peligrosidades": [
     "Tóxico crónico",
     "Corrosivo"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "ALGORTA NORTE SA",
@@ -702,7 +738,8 @@
    "peligrosidades": [
     "Inflamable",
     "Corrosivo"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "MINERA LAS CENIZAS S A",
@@ -722,7 +759,8 @@
     "Tóxico crónico",
     "Corrosivo",
     "Inflamable"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "WEIR MINERALS CHILE SA",
@@ -742,7 +780,8 @@
     "Inflamable",
     "Tóxico crónico",
     "Tóxico por lixiviación"
-   ]
+   ],
+   "tipo": "proveedor_minero"
   },
   {
    "empresa": "SOC PUNTA DEL COBRE S A",
@@ -762,7 +801,8 @@
     "Tóxico crónico",
     "Tóxico por lixiviación",
     "Inflamable"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "ZUBLIN INTERNATIONAL GMBH CHILE SPA",
@@ -782,7 +822,8 @@
     "Inflamable",
     "Tóxico crónico",
     "Tóxico crónico; Tóxico por lix"
-   ]
+   ],
+   "tipo": "proveedor_minero"
   },
   {
    "empresa": "SOCIEDAD PUNTA DE LOBOS S.A.",
@@ -802,7 +843,8 @@
     "Tóxico crónico",
     "Inflamable",
     "Corrosivo"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "CIA CONTRACTUAL MINERA OJOS DEL SALADO",
@@ -822,7 +864,8 @@
     "Tóxico por lixiviación",
     "Infeccioso",
     "Inflamable"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "SOC DE SERVICIOS TECNICOS GEOLOGI  COS GEOTEC BOYLES            BROS S A",
@@ -842,7 +885,8 @@
     "Inflamable",
     "Tóxico crónico",
     "Reactivo"
-   ]
+   ],
+   "tipo": "proveedor_minero"
   },
   {
    "empresa": "GUANACO COMPANIA MINERA SPA",
@@ -862,7 +906,8 @@
     "Corrosivo",
     "Tóxico crónico",
     "Tóxico agudo"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "LIEBHERR CHILE SPA",
@@ -882,7 +927,8 @@
     "Tóxico crónico",
     "Inflamable",
     "Corrosivo"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "PAMPA CAMARONES SPA.",
@@ -902,7 +948,8 @@
     "Tóxico crónico",
     "Inflamable; Tóxico crónico",
     "Inflamable; Corrosivo"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "CALIDRA CHILE IMPORTACIONES MINERALES SPA",
@@ -922,7 +969,8 @@
     "Corrosivo",
     "Inflamable",
     "Tóxico agudo"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "CIA MINERA SAN GERONIMO",
@@ -942,7 +990,8 @@
     "Tóxico crónico",
     "Corrosivo",
     "Inflamable"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "MAS ERRAZURIZ MAQUINARIAS Y SERVICIOS LIMITADA",
@@ -959,7 +1008,8 @@
    "peligrosidades": [
     "Tóxico crónico",
     "Inflamable"
-   ]
+   ],
+   "tipo": "proveedor_minero"
   },
   {
    "empresa": "ACF MINERA S.A.",
@@ -976,7 +1026,8 @@
    "peligrosidades": [
     "Tóxico por lixiviación",
     "Inflamable"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "SOCIEDAD MINERA PACIFICO DEL SUR SPA",
@@ -995,7 +1046,8 @@
    "peligrosidades": [
     "Tóxico crónico",
     "Corrosivo"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "CIA MINERA CERRO NEGRO S A",
@@ -1015,7 +1067,8 @@
     "Tóxico crónico",
     "Corrosivo",
     "Inflamable"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "COMPANIA  MANTOS DE LA LUNA S A",
@@ -1035,7 +1088,8 @@
     "Tóxico crónico",
     "Tóxico por lixiviación",
     "Corrosivo"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "COMPANIA MINERA FLORIDA S.A",
@@ -1055,7 +1109,8 @@
     "Corrosivo",
     "Inflamable",
     "Tóxico crónico; Inflamable"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "SOCIEDAD CONTRACTUAL MINERA FRANKE",
@@ -1075,7 +1130,8 @@
     "Corrosivo",
     "Inflamable",
     "Infeccioso; Tóxico agudo"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "SANDVIK CHILE S.A.",
@@ -1095,7 +1151,8 @@
     "Tóxico crónico",
     "Tóxico por lixiviación",
     "Corrosivo"
-   ]
+   ],
+   "tipo": "proveedor_minero"
   },
   {
    "empresa": "ATACAMA MINERALS CHILE S C M",
@@ -1110,7 +1167,8 @@
    ],
    "peligrosidades": [
     "Inflamable"
-   ]
+   ],
+   "tipo": "proveedor_minero"
   },
   {
    "empresa": "MAXAM CHILE S.A.",
@@ -1127,7 +1185,8 @@
    "peligrosidades": [
     "Tóxico agudo",
     "Corrosivo"
-   ]
+   ],
+   "tipo": "proveedor_minero"
   },
   {
    "empresa": "MINERA CEMIN-PULLALLI SPA",
@@ -1147,7 +1206,8 @@
     "Tóxico crónico",
     "Corrosivo",
     "Tóxico por lixiviación"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "GREGORIO ENERGY FELL SPA",
@@ -1163,7 +1223,8 @@
    ],
    "peligrosidades": [
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "SOC CONTRACTUAL MINERA ATACAMA KOZAN LIMITADA",
@@ -1183,7 +1244,8 @@
     "Tóxico crónico",
     "Tóxico crónico; Corrosivo",
     "Corrosivo; Tóxico crónico"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "MINERA VALLE CENTRAL S A",
@@ -1203,7 +1265,8 @@
     "Tóxico crónico",
     "Corrosivo",
     "Inflamable"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "BOART LONGYEAR CHILE LIMITADA",
@@ -1222,7 +1285,8 @@
    "peligrosidades": [
     "Tóxico crónico",
     "Inflamable"
-   ]
+   ],
+   "tipo": "proveedor_minero"
   },
   {
    "empresa": "FLSMIDTH S.A.",
@@ -1241,7 +1305,8 @@
     "Inflamable",
     "Tóxico crónico",
     "Corrosivo"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "CIA MINERA CERRO COLORADO LTDA",
@@ -1261,7 +1326,8 @@
     "Inflamable",
     "Corrosivo",
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "EXPLORATION DRILL MASTERS CHILE S.A.",
@@ -1279,7 +1345,8 @@
    "peligrosidades": [
     "Tóxico crónico",
     "Corrosivo"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "MINERA BMR SPA",
@@ -1294,7 +1361,8 @@
    ],
    "peligrosidades": [
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "AKD INTERNATIONAL CHILE S.A.",
@@ -1313,7 +1381,8 @@
     "Inflamable",
     "Tóxico agudo",
     "Tóxico por lixiviación"
-   ]
+   ],
+   "tipo": "proveedor_minero"
   },
   {
    "empresa": "FOREST CENTER SPA",
@@ -1332,7 +1401,8 @@
     "Tóxico crónico",
     "Corrosivo",
     "Inflamable"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "HALLIBURTON SERVICIOS CHILE LIMITADA",
@@ -1351,7 +1421,8 @@
    "peligrosidades": [
     "Tóxico crónico",
     "Corrosivo; Tóxico por lixiviac"
-   ]
+   ],
+   "tipo": "proveedor_minero"
   },
   {
    "empresa": "COMPANIA MINERA CARMEN BAJO",
@@ -1371,7 +1442,8 @@
     "Inflamable; Tóxico crónico",
     "Tóxico agudo",
     "Tóxico crónico; Inflamable"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "EL ESPINO SPA",
@@ -1390,7 +1462,8 @@
     "Tóxico crónico",
     "Inflamable",
     "Corrosivo"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "DAVID BROWN SANTASALO SOUTH AMERICA S.A.",
@@ -1410,7 +1483,8 @@
     "Tóxico crónico; Inflamable",
     "Tóxico crónico",
     "Inflamable"
-   ]
+   ],
+   "tipo": "proveedor_minero"
   },
   {
    "empresa": "MINERA CRUZ LIMITADA",
@@ -1429,7 +1503,8 @@
     "Tóxico crónico",
     "Tóxico crónico; Inflamable",
     "Inflamable; Tóxico crónico"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "CIA MINERA SANTA LAURA LIMITADA",
@@ -1446,7 +1521,8 @@
    "peligrosidades": [
     "Tóxico crónico",
     "Tóxico crónico; Corrosivo"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "COMPAÑIA MINERA CARMEN BAJO LIMITADA",
@@ -1465,7 +1541,8 @@
    "peligrosidades": [
     "Tóxico agudo",
     "Corrosivo"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "COMPANIA MINERA NEVADA SPA",
@@ -1485,7 +1562,8 @@
     "Tóxico agudo",
     "Inflamable",
     "Corrosivo"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "INVERSIONES  NUTRAM SPA",
@@ -1504,7 +1582,8 @@
    "peligrosidades": [
     "Inflamable",
     "Corrosivo"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "COMPANIA MINERA CHIPANA S.A.",
@@ -1522,7 +1601,8 @@
    "peligrosidades": [
     "Tóxico agudo",
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "MAJOR DRILLING CHILE S A",
@@ -1541,7 +1621,8 @@
    "peligrosidades": [
     "Inflamable",
     "Tóxico agudo"
-   ]
+   ],
+   "tipo": "proveedor_minero"
   },
   {
    "empresa": "COMPAÑÍA MINERA CERRO BAYO SPA",
@@ -1561,7 +1642,8 @@
     "Inflamable",
     "Tóxico crónico",
     "Inflamable; Tóxico por lixivia"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "SOLETANCHE BACHY CHILE SPA",
@@ -1581,7 +1663,8 @@
     "Tóxico crónico",
     "Inflamable",
     "Tóxico por lixiviación"
-   ]
+   ],
+   "tipo": "proveedor_minero"
   },
   {
    "empresa": "SOCIEDAD DE TRANSPORTES MINEROS S.A.",
@@ -1596,7 +1679,8 @@
    ],
    "peligrosidades": [
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "COMPANIA MINERA MARICUNGA",
@@ -1613,7 +1697,8 @@
    "peligrosidades": [
     "Tóxico crónico",
     "Inflamable"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "MINERIA Y CONSTRUCCIONES CERRO ALTO LIMITADA",
@@ -1629,7 +1714,8 @@
    "peligrosidades": [
     "Tóxico crónico",
     "Inflamable"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "COMPANIA MINERA ARQUEROS S.A.",
@@ -1649,7 +1735,8 @@
     "Tóxico crónico",
     "Corrosivo",
     "Inflamable"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "TALLERES LUCAS SA",
@@ -1667,7 +1754,8 @@
     "Tóxico crónico",
     "Inflamable; Tóxico crónico",
     "Inflamable"
-   ]
+   ],
+   "tipo": "proveedor_minero"
   },
   {
    "empresa": "PESCA CHILE S.A.",
@@ -1684,7 +1772,8 @@
    ],
    "peligrosidades": [
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "CONCREMAG S.A",
@@ -1703,7 +1792,8 @@
     "Tóxico crónico",
     "Inflamable",
     "Corrosivo; Inflamable"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "SOC DE EXPLORACION Y DESARROLLO MINERO",
@@ -1721,7 +1811,8 @@
    "peligrosidades": [
     "Tóxico crónico",
     "Corrosivo"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "TEGA INDUSTRIES CHILE SPA",
@@ -1740,7 +1831,8 @@
     "Inflamable",
     "Inflamable; Corrosivo; Tóxico ",
     "Inflamable; Corrosivo; Reactiv"
-   ]
+   ],
+   "tipo": "proveedor_minero"
   },
   {
    "empresa": "COMPAÑIA MINERA LA PATAGUA S.A.",
@@ -1755,7 +1847,8 @@
    ],
    "peligrosidades": [
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "MINERA SAN FIERRO CHILE LIMITADA",
@@ -1770,7 +1863,8 @@
    ],
    "peligrosidades": [
     "Tóxico por lixiviación; Inflam"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "SOC DE INGENIERIA Y MOVIMIENTOS DE TIERRA DEL PACIFICO LTDA",
@@ -1785,7 +1879,8 @@
    ],
    "peligrosidades": [
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "proveedor_minero"
   },
   {
    "empresa": "ACF BAQUEDANO S.A",
@@ -1804,7 +1899,8 @@
    "peligrosidades": [
     "Inflamable",
     "Corrosivo"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "SERVICIOS MINEROS DEL VALLE SPA",
@@ -1819,7 +1915,8 @@
    ],
    "peligrosidades": [
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "proveedor_minero"
   },
   {
    "empresa": "BOSCH REXROTH CHILE SPA.",
@@ -1838,7 +1935,8 @@
    "peligrosidades": [
     "Tóxico crónico",
     "Inflamable"
-   ]
+   ],
+   "tipo": "proveedor_minero"
   },
   {
    "empresa": "INDUSTRIAL WEATHERFORD INTERNATIONAL DE CHILE S.A.",
@@ -1855,7 +1953,8 @@
    "peligrosidades": [
     "Inflamable",
     "Corrosivo"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "TERRA SERVICE S.A.",
@@ -1872,7 +1971,8 @@
    "peligrosidades": [
     "Tóxico agudo",
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "proveedor_minero"
   },
   {
    "empresa": "EMPRESA CONSTRUCTORA AGUA SANTA S A",
@@ -1887,7 +1987,8 @@
    ],
    "peligrosidades": [
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "ANTOFAGASTA MINERALS S.A.",
@@ -1903,7 +2004,8 @@
    ],
    "peligrosidades": [
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "GHH CHILE SPA",
@@ -1919,7 +2021,8 @@
    ],
    "peligrosidades": [
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "AJAY SQM CHILE SOCIEDAD ANONIMA",
@@ -1939,7 +2042,8 @@
     "Corrosivo",
     "Inflamable",
     "Inflamable; Tóxico crónico"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "IKA MINERÍA S.A.",
@@ -1956,7 +2060,8 @@
    "peligrosidades": [
     "Tóxico crónico",
     "Corrosivo"
-   ]
+   ],
+   "tipo": "proveedor_minero"
   },
   {
    "empresa": "ORBIT GARANT CHILE S.A.",
@@ -1976,7 +2081,8 @@
     "Tóxico crónico",
     "Corrosivo",
     "Inflamable"
-   ]
+   ],
+   "tipo": "proveedor_minero"
   },
   {
    "empresa": "FENIX GOLD LIMITADA",
@@ -1993,7 +2099,8 @@
    "peligrosidades": [
     "Tóxico crónico; Tóxico agudo",
     "Inflamable; Tóxico agudo"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "COMPANIA EXPLOTADORA DE MINAS SPA",
@@ -2008,7 +2115,8 @@
    ],
    "peligrosidades": [
     "Corrosivo"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "MINERA ZUPILOCOS LIMITADA",
@@ -2023,7 +2131,8 @@
    ],
    "peligrosidades": [
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "BIGNOTTI HERMANOS SOCIEDAD ANONIMA",
@@ -2043,7 +2152,8 @@
     "Tóxico crónico",
     "Corrosivo",
     "Inflamable"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "COMPANIA MINERA MINERALES COPIAPO LIMITADA",
@@ -2059,7 +2169,8 @@
    ],
    "peligrosidades": [
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "FLUITEK MARCO SPA",
@@ -2074,7 +2185,8 @@
    ],
    "peligrosidades": [
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "proveedor_minero"
   },
   {
    "empresa": "AC PERFORACIONES S.A.",
@@ -2093,7 +2205,8 @@
    "peligrosidades": [
     "Tóxico crónico",
     "Tóxico agudo"
-   ]
+   ],
+   "tipo": "proveedor_minero"
   },
   {
    "empresa": "SOC MINERA ROSARIO LTDA",
@@ -2111,7 +2224,8 @@
     "Tóxico crónico",
     "Inflamable; Tóxico por lixivia",
     "Inflamable"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "FORACO CHILE S.A.",
@@ -2127,7 +2241,8 @@
    ],
    "peligrosidades": [
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "proveedor_minero"
   },
   {
    "empresa": "MAESTRANZA DIESEL SOCIEDAD ANONIMA",
@@ -2146,7 +2261,8 @@
     "Inflamable; Tóxico agudo",
     "Inflamable",
     "Tóxico por lixiviación; Inflam"
-   ]
+   ],
+   "tipo": "proveedor_minero"
   },
   {
    "empresa": "MELON ARIDOS LIMITADA",
@@ -2162,7 +2278,8 @@
    ],
    "peligrosidades": [
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "DAVID VILLANUEVA PEREZ SERVICIOS DE PROSPECCION            GEOLOGICA Y COMPUTACIO",
@@ -2178,7 +2295,8 @@
    ],
    "peligrosidades": [
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "proveedor_minero"
   },
   {
    "empresa": "PROCESADORA Y COMERCIAL DE MINERALES Y GRANOS INDUSTRIALES MIGRIN SA",
@@ -2195,7 +2313,8 @@
    "peligrosidades": [
     "Tóxico crónico",
     "Tóxico por lixiviación"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "COMPANIA MINERA CORDILLERA CHILE SCM",
@@ -2213,7 +2332,8 @@
     "Tóxico por lixiviación",
     "Inflamable; Tóxico crónico; Tó",
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "ANDRES PIRAZZOLI Y COMPANIA LIMITADA",
@@ -2231,7 +2351,8 @@
    "peligrosidades": [
     "Tóxico crónico",
     "Tóxico por lixiviación; Tóxico"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "SANTIAGO METALS PROYECTO DOS LIMITADA",
@@ -2250,7 +2371,8 @@
     "Tóxico crónico",
     "Corrosivo",
     "Inflamable"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "LEONIDAS POO ZENTENO Y CIA LTDA",
@@ -2269,7 +2391,8 @@
     "Tóxico crónico",
     "Corrosivo",
     "Tóxico agudo"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "PATRICIO CARRASCO SCHLEEF Y CIA LTDA",
@@ -2285,7 +2408,8 @@
    "peligrosidades": [
     "Tóxico crónico",
     "Tóxico por lixiviación; Tóxico"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "DTS CHILE SPA",
@@ -2303,7 +2427,8 @@
    "peligrosidades": [
     "Inflamable",
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "proveedor_minero"
   },
   {
    "empresa": "IMERYS MINERALES CHILE SPA",
@@ -2323,7 +2448,8 @@
     "Corrosivo",
     "Tóxico crónico",
     "Tóxico por lixiviación"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "SOCIEDAD CONTRACTUAL MINERA COPIAPO",
@@ -2338,7 +2464,8 @@
    ],
    "peligrosidades": [
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "HRI S A",
@@ -2354,7 +2481,8 @@
    ],
    "peligrosidades": [
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "FORESTAL GALVARINO LTDA",
@@ -2370,7 +2498,8 @@
    ],
    "peligrosidades": [
     "Inflamable"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "HORMIGONES Y ARIDOS SANTA NATALIA LIMITADA",
@@ -2385,7 +2514,8 @@
    ],
    "peligrosidades": [
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "NUEVO COBRE S.A.",
@@ -2405,7 +2535,8 @@
     "Tóxico agudo",
     "Inflamable",
     "Corrosivo"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "SOC AGRICOLA Y FORESTAL HABERT HABERT LIMITADA",
@@ -2421,7 +2552,8 @@
    ],
    "peligrosidades": [
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "DRILLCO TOOLS SPA",
@@ -2437,7 +2569,8 @@
    ],
    "peligrosidades": [
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "IMPORTADORA TERMOMIN LIMITADA",
@@ -2453,7 +2586,8 @@
    ],
    "peligrosidades": [
     "Inflamable"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "EMPRESA NACIONAL DE MINERIA",
@@ -2469,7 +2603,8 @@
    ],
    "peligrosidades": [
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "ARIDOS GUERRICO CHILE LIMITADA",
@@ -2485,7 +2620,8 @@
    ],
    "peligrosidades": [
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "TALLERES LUCAS SUR SPA",
@@ -2500,7 +2636,8 @@
    ],
    "peligrosidades": [
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "proveedor_minero"
   },
   {
    "empresa": "PESCA CISNE S A",
@@ -2520,7 +2657,8 @@
     "Inflamable; Tóxico crónico",
     "Tóxico crónico; Corrosivo",
     "Tóxico crónico; Inflamable"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "ARIDOS ACONCAGUA S.A.",
@@ -2535,7 +2673,8 @@
    ],
    "peligrosidades": [
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "MINERA JILGUERO S.A.",
@@ -2552,7 +2691,8 @@
    "peligrosidades": [
     "Inflamable",
     "Tóxico crónico; Inflamable"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "TALLERES LUCAS ATACAMA SPA",
@@ -2570,7 +2710,8 @@
     "Tóxico crónico",
     "Tóxico agudo",
     "Inflamable"
-   ]
+   ],
+   "tipo": "proveedor_minero"
   },
   {
    "empresa": "SERVICIOS FORESTALES Y CARGUIOS LOMA GRANDE LTDA",
@@ -2585,7 +2726,8 @@
    ],
    "peligrosidades": [
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "proveedor_minero"
   },
   {
    "empresa": "DMC MINING SERVICES CHILE SPA",
@@ -2601,7 +2743,8 @@
    ],
    "peligrosidades": [
     "Inflamable"
-   ]
+   ],
+   "tipo": "proveedor_minero"
   },
   {
    "empresa": "SANTIAGO METALS PROYECTO CUATRO LIMITADA",
@@ -2618,7 +2761,8 @@
    "peligrosidades": [
     "Corrosivo",
     "Tóxico agudo; Tóxico crónico"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "SOC FORESTAL CHUMULCO LTDA",
@@ -2636,7 +2780,8 @@
    "peligrosidades": [
     "Inflamable",
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "ARIDOS LIVIO MAGGI LIMITADA",
@@ -2652,7 +2797,8 @@
    "peligrosidades": [
     "Corrosivo; Tóxico crónico",
     "Corrosivo"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "CIA MINERA DELIRIO",
@@ -2667,7 +2813,8 @@
    ],
    "peligrosidades": [
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "NORTE ABIERTO SPA",
@@ -2687,7 +2834,8 @@
     "Tóxico por lixiviación",
     "Tóxico crónico",
     "Inflamable"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "INGENIERIA Y MOVIMIENTO DE TIERRAS TRANEX LIMITADA",
@@ -2703,7 +2851,8 @@
    ],
    "peligrosidades": [
     "Corrosivo"
-   ]
+   ],
+   "tipo": "proveedor_minero"
   },
   {
    "empresa": "SOC COMERCIAL ROBERTO MUNOZ LIMITADA",
@@ -2718,7 +2867,8 @@
    ],
    "peligrosidades": [
     "Inflamable"
-   ]
+   ],
+   "tipo": "proveedor_minero"
   },
   {
    "empresa": "SOCIEDAD ARIDOS Y ASFALTOS SERVITERRA LIMITADA",
@@ -2733,7 +2883,8 @@
    ],
    "peligrosidades": [
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "HIDROMFD COPIAPO S.A.",
@@ -2753,7 +2904,8 @@
     "Inflamable",
     "Tóxico crónico; Tóxico agudo; ",
     "Tóxico agudo; Inflamable"
-   ]
+   ],
+   "tipo": "proveedor_minero"
   },
   {
    "empresa": "FMA INDUSTRIAL(CHILE) S.A.",
@@ -2773,7 +2925,8 @@
     "Tóxico por lixiviación",
     "Tóxico crónico",
     "Inflamable"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "CONSTRUCCIONES Y SERVICIOS AGUSTIN LUIS VILCA TICUNA E.I.R.L",
@@ -2788,7 +2941,8 @@
    ],
    "peligrosidades": [
     "Tóxico agudo"
-   ]
+   ],
+   "tipo": "proveedor_minero"
   },
   {
    "empresa": "ARIDOS TINGUIRIRICA SPA",
@@ -2804,7 +2958,8 @@
    "peligrosidades": [
     "Tóxico crónico",
     "Tóxico agudo"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "CHRISTENSEN CHILE S A",
@@ -2821,7 +2976,8 @@
    "peligrosidades": [
     "Corrosivo",
     "Inflamable"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "DRILLING SERVICES AND SOLUTIONS SPA",
@@ -2836,7 +2992,8 @@
    ],
    "peligrosidades": [
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "proveedor_minero"
   },
   {
    "empresa": "MINERA SAN PEDRO S.A",
@@ -2851,7 +3008,8 @@
    ],
    "peligrosidades": [
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "JOHN M. PHILLIPS SERVICIOS DE ENERGIA LIMITADA",
@@ -2871,7 +3029,8 @@
     "Inflamable",
     "Tóxico crónico",
     "Inflamable; Corrosivo"
-   ]
+   ],
+   "tipo": "proveedor_minero"
   },
   {
    "empresa": "SOC DE DESARROLLO URBANO VALDIVIA LIMITADA",
@@ -2888,7 +3047,8 @@
    "peligrosidades": [
     "Tóxico crónico",
     "Inflamable"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "SOCIEDAD CONTRACTUAL MINERA BUFALO",
@@ -2903,7 +3063,8 @@
    ],
    "peligrosidades": [
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "proveedor_minero"
   },
   {
    "empresa": "MINERA EL WAY S.A.",
@@ -2918,7 +3079,8 @@
    ],
    "peligrosidades": [
     "Inflamable"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "CESAR EMILIO COVILI",
@@ -2933,7 +3095,8 @@
    ],
    "peligrosidades": [
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "SERVICIOS COMERCIALES PETROHUE LIMITADA",
@@ -2949,7 +3112,8 @@
    "peligrosidades": [
     "Tóxico crónico",
     "Tóxico por lixiviación"
-   ]
+   ],
+   "tipo": "proveedor_minero"
   },
   {
    "empresa": "ABRATEC S A",
@@ -2965,7 +3129,8 @@
    "peligrosidades": [
     "Tóxico por lixiviación",
     "Inflamable; Tóxico crónico"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "ARIDOS Y CONSTRUCTORA SAN VICENTE SPA",
@@ -2980,7 +3145,8 @@
    ],
    "peligrosidades": [
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "RUSSELL MINERAL EQUIPMENT S A",
@@ -2996,7 +3162,8 @@
    ],
    "peligrosidades": [
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "ATEX VALERIANO SPA",
@@ -3011,7 +3178,8 @@
    ],
    "peligrosidades": [
     "Tóxico por lixiviación"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "HILTI CHILE LIMITADA",
@@ -3028,7 +3196,8 @@
    ],
    "peligrosidades": [
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "SOC EXPLOTADORA DE ARIDOS ARIMIX LIMITADA",
@@ -3043,7 +3212,8 @@
    ],
    "peligrosidades": [
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "CONSTRUCCION DE OBRAS,PRODUCCION Y VENTA DE ARIDOS JUAN LUIS GATICA AV",
@@ -3058,7 +3228,8 @@
    ],
    "peligrosidades": [
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "NUEVA PUDAHUEL S A",
@@ -3074,7 +3245,8 @@
    ],
    "peligrosidades": [
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "OBRAS CIVILES LGP S A",
@@ -3089,7 +3261,8 @@
    ],
    "peligrosidades": [
     "Inflamable"
-   ]
+   ],
+   "tipo": "proveedor_minero"
   },
   {
    "empresa": "MINERA MELON S.A.",
@@ -3109,7 +3282,8 @@
     "Tóxico por lixiviación",
     "Corrosivo",
     "Inflamable; Tóxico agudo"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "EXPLOTACIÓN Y COMERCIALIZACIÓN DE MINERALES SERCAL SPA",
@@ -3126,7 +3300,8 @@
    "peligrosidades": [
     "Tóxico crónico",
     "Corrosivo"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "SOC MINERA PETREOS QUILIN LIMITADA",
@@ -3142,7 +3317,8 @@
    ],
    "peligrosidades": [
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "SOC DE SERVICIOS GENERALES A LA MI NERIA HOLESTECK LIMITADA",
@@ -3159,7 +3335,8 @@
    "peligrosidades": [
     "Inflamable",
     "Corrosivo"
-   ]
+   ],
+   "tipo": "proveedor_minero"
   },
   {
    "empresa": "ZITRON CHILE SPA",
@@ -3179,7 +3356,8 @@
     "Tóxico crónico",
     "Inflamable",
     "Corrosivo"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "SEW-EURODRIVE CHILE SPA",
@@ -3194,7 +3372,8 @@
    ],
    "peligrosidades": [
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "proveedor_minero"
   },
   {
    "empresa": "CAL AUSTRAL SOCIEDAD ANONIMA",
@@ -3212,7 +3391,8 @@
     "Corrosivo",
     "Tóxico por lixiviación; Tóxico",
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "HCA MINERIA SPA",
@@ -3231,7 +3411,8 @@
    "peligrosidades": [
     "Inflamable",
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "ACTIVATION GEOLOGICAL SERVICES SPA",
@@ -3248,7 +3429,8 @@
    "peligrosidades": [
     "Corrosivo",
     "Tóxico por lixiviación"
-   ]
+   ],
+   "tipo": "proveedor_minero"
   },
   {
    "empresa": "VISION PERFORACIONES SPA",
@@ -3265,7 +3447,8 @@
     "Tóxico crónico",
     "Inflamable",
     "Tóxico agudo"
-   ]
+   ],
+   "tipo": "proveedor_minero"
   },
   {
    "empresa": "MINERA CARRIZALILLO SPA",
@@ -3280,7 +3463,8 @@
    ],
    "peligrosidades": [
     "Inflamable"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "SOCIEDAD MINERA EL AGUILA SPA",
@@ -3295,7 +3479,8 @@
    ],
    "peligrosidades": [
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "HUGO JOFRE E HIJOS S.A.",
@@ -3314,7 +3499,8 @@
    "peligrosidades": [
     "Inflamable",
     "Tóxico agudo"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "CRUSTACEOS SUR S.A.",
@@ -3329,7 +3515,8 @@
    ],
    "peligrosidades": [
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "SOC MINERA FORESTAL SAN ENRIQUE LIMITADA",
@@ -3344,7 +3531,8 @@
    ],
    "peligrosidades": [
     "Tóxico agudo"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "TURISMO Y TRANSPORTES DE PASAJEROS Y CARGA SAN PEDRO LIMITADA",
@@ -3359,7 +3547,8 @@
    ],
    "peligrosidades": [
     "Tóxico agudo"
-   ]
+   ],
+   "tipo": "proveedor_minero"
   },
   {
    "empresa": "FORESTAL ERICA TORRES ZAMBRANO E.I.R.L.",
@@ -3375,7 +3564,8 @@
    ],
    "peligrosidades": [
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "SOCIEDAD ARIDOS SAN VICENTE SPA",
@@ -3390,7 +3580,8 @@
    ],
    "peligrosidades": [
     "Tóxico agudo"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "MINERA LO VALDES LIMITADA",
@@ -3410,7 +3601,8 @@
     "Tóxico crónico",
     "Inflamable",
     "Corrosivo"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "MOUNTAIN DRILLING SPA",
@@ -3426,7 +3618,8 @@
    "peligrosidades": [
     "Tóxico crónico",
     "Inflamable"
-   ]
+   ],
+   "tipo": "proveedor_minero"
   },
   {
    "empresa": "COMERCIAL TECNIPAK LIMITADA",
@@ -3443,7 +3636,8 @@
    "peligrosidades": [
     "Inflamable",
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "ARIDOS PETROMIN S.A.",
@@ -3458,7 +3652,8 @@
    ],
    "peligrosidades": [
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "TALLERES SERVMAQ LIMITADA",
@@ -3475,7 +3670,8 @@
    "peligrosidades": [
     "Tóxico agudo; Corrosivo; Tóxic",
     "Inflamable"
-   ]
+   ],
+   "tipo": "proveedor_minero"
   },
   {
    "empresa": "REFLEX INSTRUMENT SOUTH AMERICA SPA",
@@ -3493,7 +3689,8 @@
    "peligrosidades": [
     "Tóxico crónico",
     "Inflamable"
-   ]
+   ],
+   "tipo": "proveedor_minero"
   },
   {
    "empresa": "MINERA TRUCCO SPA.",
@@ -3508,7 +3705,8 @@
    ],
    "peligrosidades": [
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "SERGIO CERVA S A",
@@ -3523,7 +3721,8 @@
    ],
    "peligrosidades": [
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "SOCIEDAD COMERCIAL DE ARIDOS CRISTIAN ALFONSO CORDOVA URTUBIA E.I.R.L",
@@ -3538,7 +3737,8 @@
    ],
    "peligrosidades": [
     "Tóxico por lixiviación"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "ARIDOS E INVERSIONES SAN VICENTE SPA",
@@ -3553,7 +3753,8 @@
    ],
    "peligrosidades": [
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "PRODUCTOS MARINOS PUERTO WILLIAMS LIMITADA",
@@ -3570,7 +3771,8 @@
    "peligrosidades": [
     "Corrosivo",
     "Tóxico agudo"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "SOCIEDAD DE SERVICIOS FORESTALES SANTA JUANA LIMITADA",
@@ -3587,7 +3789,8 @@
     "Tóxico crónico",
     "Tóxico por lixiviación",
     "Inflamable"
-   ]
+   ],
+   "tipo": "proveedor_minero"
   },
   {
    "empresa": "AGRICOLA LOS NOTROS PAILLACO LIMITADA",
@@ -3602,7 +3805,8 @@
    ],
    "peligrosidades": [
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "SERVIALL SOCIEDAD ANONIMA",
@@ -3617,7 +3821,8 @@
    ],
    "peligrosidades": [
     "Inflamable"
-   ]
+   ],
+   "tipo": "proveedor_minero"
   },
   {
    "empresa": "QUIBORAX S.A.",
@@ -3637,7 +3842,8 @@
     "Tóxico crónico",
     "Corrosivo",
     "Tóxico por lixiviación"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "ERAL-CHILE S A",
@@ -3652,7 +3858,8 @@
    ],
    "peligrosidades": [
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "FORESTAL RUSSFIN LIMITADA",
@@ -3669,7 +3876,8 @@
    "peligrosidades": [
     "Inflamable; Tóxico crónico",
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "COMERCIALIZADORA PROTORQ S.A.",
@@ -3688,7 +3896,8 @@
     "Tóxico crónico",
     "Corrosivo",
     "Inflamable"
-   ]
+   ],
+   "tipo": "proveedor_minero"
   },
   {
    "empresa": "PRIME DRILLING SERVICES SPA",
@@ -3706,7 +3915,8 @@
    "peligrosidades": [
     "Inflamable",
     "Corrosivo"
-   ]
+   ],
+   "tipo": "proveedor_minero"
   },
   {
    "empresa": "INGENIERIA DE PROYECTOS DESARROLLO ESTUDIOS Y SERVICIOS            H I T LTDA",
@@ -3721,7 +3931,8 @@
    ],
    "peligrosidades": [
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "proveedor_minero"
   },
   {
    "empresa": "VLADIMIR HERNAN MUNOZ CAVALLERA",
@@ -3736,7 +3947,8 @@
    ],
    "peligrosidades": [
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "ECOVAL MINERALS S.A.",
@@ -3752,7 +3964,8 @@
    "peligrosidades": [
     "Tóxico crónico; Tóxico por lix",
     "Tóxico por lixiviación"
-   ]
+   ],
+   "tipo": "proveedor_minero"
   },
   {
    "empresa": "AGRICOLA MANTOS VERDES LIMITADA",
@@ -3770,7 +3983,8 @@
    "peligrosidades": [
     "Tóxico crónico",
     "Corrosivo"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "INVERSIONES TABOLANGO S.A.",
@@ -3787,7 +4001,8 @@
    "peligrosidades": [
     "Tóxico crónico",
     "Inflamable"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "COMERCIAL E INDUSTRIAL MINERA SANTA TERESA LTDA",
@@ -3802,7 +4017,8 @@
    ],
    "peligrosidades": [
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "COMERCIAL Y SERVICIOS CANDELARIA LIMITADA",
@@ -3817,7 +4033,8 @@
    ],
    "peligrosidades": [
     "Inflamable"
-   ]
+   ],
+   "tipo": "proveedor_minero"
   },
   {
    "empresa": "EMBOTELLADORA AGUA MINERAL PUYEHUE S A",
@@ -3837,7 +4054,8 @@
     "Inflamable",
     "Corrosivo",
     "Inflamable; Tóxico crónico"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "SOCIEDAD MEDICA SPENCER Y COMPANIA LIMITADA",
@@ -3854,7 +4072,8 @@
    "peligrosidades": [
     "Corrosivo; Tóxico crónico; Inf",
     "Tóxico crónico; Corrosivo; Inf"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "MINE TRUST SPA",
@@ -3869,7 +4088,8 @@
    ],
    "peligrosidades": [
     "Tóxico crónico"
-   ]
+   ],
+   "tipo": "proveedor_minero"
   },
   {
    "empresa": "CIA SIDERURGICA HUACHIPATO S.A.",
@@ -3884,7 +4104,8 @@
    ],
    "peligrosidades": [
     "Inflamable"
-   ]
+   ],
+   "tipo": "operador"
   },
   {
    "empresa": "LABORATORIO QUIMICO SAN LORENZO LIMITADA",
@@ -3899,7 +4120,9 @@
    ],
    "peligrosidades": [
     "Tóxico agudo; Corrosivo"
-   ]
+   ],
+   "tipo": "proveedor_minero"
   }
- ]
+ ],
+ "nota_tipo": "Se distingue operador (dueño de la faena) de proveedor minero (Sandvik, Komatsu, SGS, Zublin, Boart). Ambos son clientes potenciales, pero la venta es distinta: al operador se le vende a su área de abastecimiento; al proveedor, a su taller."
 }

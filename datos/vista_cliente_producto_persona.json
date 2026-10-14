@@ -2,8 +2,8 @@
  "que_es": "Vista única por empresa: cuánto compró (eCRM), cuánto dolor declaró (RETC), qué línea le sirve (matriz) y quiénes deciden (buscador).",
  "el_problema_que_resuelve": "El eCRM usa siglas y las otras bases razón social: sin alias el cruce daba CERO, justo en las cuentas más grandes.",
  "totales": {
-  "empresas": 63,
-  "con_decisores": 54,
+  "empresas": 66,
+  "con_decisores": 58,
   "con_compras_reales": 13
  },
  "empresas": [
@@ -5631,8 +5631,282 @@
    "respel_t": 1033.5,
    "lineas": [],
    "productos": [],
-   "decisores": [],
-   "n_decisores": 0,
+   "decisores": [
+    {
+     "nombre": "Jose Lopez zertuche",
+     "cargo": "Gerente de mantenimiento en Sandvik",
+     "linkedin": "https://mx.linkedin.com/in/jose-lopez-zertuche-b7b763164",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Julian Orue",
+     "cargo": "International Trade & Logistic Manager en SANDVIK GROUP CHILE S.A.",
+     "linkedin": "https://cl.linkedin.com/in/julian-orue-79273522",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    }
+   ],
+   "n_decisores": 2,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "ATACAMA MINERALS CHILE S C M",
+   "sigla_ecrm": "",
+   "usd_cotizado": 0,
+   "usd_ganado": 0,
+   "n_oc": 0,
+   "respel_t": 988.6,
+   "lineas": [],
+   "productos": [],
+   "decisores": [
+    {
+     "nombre": "Germán Villarroel",
+     "cargo": "Gerente de Operaciones",
+     "fuente": "direcmin.com/atacama-minerals-chile-scm/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "José Huenche",
+     "cargo": "Jefe de Mina",
+     "fuente": "direcmin.com/atacama-minerals-chile-scm/ejecutivos",
+     "relevante": false
+    },
+    {
+     "nombre": "Mónica Müller García",
+     "cargo": "Gerente de Adm. y Finanzas",
+     "fuente": "direcmin.com/atacama-minerals-chile-scm/ejecutivos",
+     "relevante": false
+    },
+    {
+     "nombre": "Julio Zenteno",
+     "cargo": "JEFE DE AREA . MANTENIMIENTO EQUIPOS MINA EN ATACAMA MINERALS",
+     "linkedin": "https://cl.linkedin.com/in/julio-zenteno-968b4359",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "RODOLFO TORO",
+     "cargo": "Jefe de turno mantencion Atacama minerals Chile",
+     "linkedin": "https://cl.linkedin.com/in/rodolfo-toro-80b31652",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Nestor Olivares",
+     "cargo": "Jefe de turno Mantencion mina",
+     "linkedin": "https://cl.linkedin.com/in/nestor-olivares-2371ab15b",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Jose Bahamondes",
+     "cargo": "Jefe de turno Bodega atacama minerals",
+     "linkedin": "https://cl.linkedin.com/in/jose-bahamondes-3645b551",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Eleazar Muñoz",
+     "cargo": "jefe de turno en atacama minerals s.c.m",
+     "linkedin": "https://cl.linkedin.com/in/eleazar-mu%C3%B1oz-57938593",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Claudio Jara",
+     "cargo": "Supervisor Mantención Equipos Mina en Atacama minerals SCM Chile",
+     "linkedin": "https://cl.linkedin.com/in/claudio-jara-230003aa",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Roberto Llancao Lazcano",
+     "cargo": "Encargado Medio Ambiente - Atacama Minerals Chile SCM",
+     "linkedin": "https://cl.linkedin.com/in/roberto-llancao-lazcano-47652375",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Luis Villegas",
+     "cargo": "Mine Area Manager / Short-Term Open-Pit Mine Planning Superintendent / Open-Pit Mine Opera",
+     "linkedin": "https://cl.linkedin.com/in/luis-villegas-meza",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    }
+   ],
+   "n_decisores": 11,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "MAXAM CHILE S.A.",
+   "sigla_ecrm": "",
+   "usd_cotizado": 0,
+   "usd_ganado": 0,
+   "n_oc": 0,
+   "respel_t": 904.44,
+   "lineas": [],
+   "productos": [],
+   "decisores": [
+    {
+     "nombre": "Francisco Navarrete Lewin",
+     "cargo": "Project Manager Maxam Chile",
+     "linkedin": "https://cl.linkedin.com/in/francisco-navarrete-lewin-16b87a99",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Paula Corzo",
+     "cargo": "Jefe de Planta en MAXAM",
+     "linkedin": "https://cl.linkedin.com/in/paula-corzo-683a25129",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Jorge Blazquez",
+     "cargo": "Gerente Regional LATAM en MAXAM | Desarrollo de negocios, Gestión de operaciones",
+     "linkedin": "https://cl.linkedin.com/in/jorgeblazquez",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Rodrigo Andres Villalobos Leon",
+     "cargo": "Operador Maxam Chile SA",
+     "linkedin": "https://cl.linkedin.com/in/rodrigo-andres-villalobos-leon-8a1587170",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Sergio Donoso",
+     "cargo": "gerente de mantenimiento",
+     "linkedin": "https://cl.linkedin.com/in/sergio-donoso-b9947074",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Jhol Dueñas",
+     "cargo": "Drill & Blast Projects Head at Geoblast",
+     "linkedin": "https://pe.linkedin.com/in/jholdue%C3%B1asgutierrez",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "JEFE DE OPERACION at MAXAM FANEXA S.A.M",
+     "cargo": "JEFE DE OPERACION at MAXAM FANEXA S.A.M",
+     "linkedin": "https://es.linkedin.com/in/garcia-ariel-80b77abb",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Daniel Tamashiro",
+     "cargo": "Gerente General - MAXAM Perú | Country Manager | Branch Manager",
+     "linkedin": "https://pe.linkedin.com/in/daniel-tamashiro-6721b43a",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Jorge Pujado Cáceres",
+     "cargo": "Jefe de Seguridad, Salud y Medioambiente en MAXAM | Diplomado en Habilidades de Liderazgo",
+     "linkedin": "https://cl.linkedin.com/in/jorge-pujado-c%C3%A1ceres-20895384",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Andrea Gonzalez Orellana",
+     "cargo": "MAXAM CHILE S.A.",
+     "linkedin": "https://cl.linkedin.com/in/andrea-gonzalez-orellana-898403125",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "WALTER CARDENAS DEL VILLAR",
+     "cargo": "Especialista en el Área Técnico-Comercial de Explosivos / Ex Miembro del Comité Nacional d",
+     "linkedin": "https://pe.linkedin.com/in/walter-cardenas-del-villar-a1760454",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    }
+   ],
+   "n_decisores": 11,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "MINERA CEMIN-PULLALLI SPA",
+   "sigla_ecrm": "",
+   "usd_cotizado": 0,
+   "usd_ganado": 0,
+   "n_oc": 0,
+   "respel_t": 848.9,
+   "lineas": [],
+   "productos": [],
+   "decisores": [
+    {
+     "nombre": "Juan Enrique Rassmus Raier",
+     "cargo": "Presidente del Directorio",
+     "fuente": "direcmin.com/cemin/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Mauricio Alamos Elías",
+     "cargo": "Presidente Ejecutivo del Holding Cemin",
+     "fuente": "direcmin.com/cemin/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Claudio Campos Salas",
+     "cargo": "Gerente Corporativo de Planificación y Desarrollo",
+     "fuente": "direcmin.com/cemin/ejecutivos",
+     "relevante": false
+    },
+    {
+     "nombre": "Claudia Alcaíno Bustamante",
+     "cargo": "Gerente Corporativo de Gestión de Personas",
+     "fuente": "direcmin.com/cemin/ejecutivos",
+     "relevante": false
+    },
+    {
+     "nombre": "Susan Henry Henry",
+     "cargo": "Gerente Corporativo de Sustentabilidad",
+     "fuente": "direcmin.com/cemin/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Fernanda Proboste Villagrán",
+     "cargo": "Gerente Corporativo de Adm. y Finanzas",
+     "fuente": "direcmin.com/cemin/ejecutivos",
+     "relevante": false
+    },
+    {
+     "nombre": "Alejandro Contreras Cifuentes",
+     "cargo": "Gerente Corporativo de Exploraciones y Geología",
+     "fuente": "direcmin.com/cemin/ejecutivos",
+     "relevante": false
+    },
+    {
+     "nombre": "Alejandro Berenguela Zúñiga",
+     "cargo": "Gerente General Catemu",
+     "fuente": "direcmin.com/cemin/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Patricio González Pérez",
+     "cargo": "Gerente General Pullalli",
+     "fuente": "direcmin.com/cemin/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Marcelo Valenzuela",
+     "cargo": "Adquisiciones y Contratos",
+     "fuente": "direcmin.com/cemin/ejecutivos",
+     "relevante": false
+    },
+    {
+     "nombre": "Pedro Salfate",
+     "cargo": "Gerente Faena Catemu",
+     "fuente": "direcmin.com/cemin/ejecutivos",
+     "relevante": false
+    }
+   ],
+   "n_decisores": 11,
    "compradores_reales": []
   },
   {
