@@ -323,11 +323,49 @@ CARGOS_AISA = ["gerente de mantenimiento", "jefe de instrumentacion",
 
 
 def _nombra_empresa(texto, empresa):
-    """El headline nombra a la empresa? (evita homónimos de otra compañía)."""
+    """El headline nombra a ESTA empresa? (no una del mismo rubro)
+
+    OJO (bugs medidos): con match laxo entraron contaminaciones reales de la acuicultura, donde
+    muchas empresas comparten la palabra del rubro:
+      - "Gerente general en Piscicultura y Acuícola Aquaprotec" se asignó a 4 empresas distintas
+        (Las Quemas, Iculpe, Nilahue, Aquaprotec) porque todas dicen "Piscicultura/Acuícola".
+      - "Gerente General Regional para Latinoamérica" (de otra empresa) entró en 2 más.
+    Exigencia: el token MÁS DISTINTIVO (el más largo) de la empresa debe estar en el texto.
+
+    OJO 2: la razón social puede no contener el nombre comercial. 'Corp Nacional Del Cobre De Chile'
+    se conoce en el headline como 'Codelco'. Por eso hay ALIAS_NOMBRE_COMERCIAL.
+    """
+    ALIAS_NOMBRE_COMERCIAL = {
+        "corp nacional del cobre": ["codelco"],
+        "codelco": ["codelco"],
+        "celulosa arauco": ["arauco"],
+        "cmpc": ["cmpc"],
+        "empresa nacional del petroleo": ["enap"],
+        "enap": ["enap"],
+        "cia siderurgica huachipato": ["huachipato", "cap acero"],
+        "compa a minera del pac fico": ["cmp"],
+    }
+    n = norm(empresa)
     t = tokens(texto)
-    e = tokens(empresa) - {"minera", "compania", "sociedad", "chile", "del", "de", "la",
-                           "los", "spa", "limitada", "ltda", "sas", "s", "a"}
-    return bool(e) and len(e & t) >= 1
+    for k, alias in ALIAS_NOMBRE_COMERCIAL.items():
+        if k in n:
+            for a in alias:
+                if a in t or a in norm(texto):
+                    return True
+
+    GENERICOS_RUBRO = {"minera", "compania", "sociedad", "chile", "nacional", "del", "de", "la",
+                       "los", "las", "empresa", "corp", "corporacion", "spa", "limitada", "ltda",
+                       "grupo", "scm", "piscicultura", "acuicola", "acuicultura", "salmones",
+                       "pesquera", "servicios", "productos", "granja", "marina", "cultivos",
+                       "chilena", "sudamerica", "generadora", "electrica", "energia", "power",
+                       "planta", "industrial", "alimentos", "exportadora", "inversiones", "sur"}
+    e = tokens(empresa) - GENERICOS_RUBRO
+    if not e:
+        return False
+    clave = max(e, key=len)
+    if clave not in t:
+        return False
+    return len(e & t) >= 1
 
 
 def capa_aisa(empresa, max_cargos=3):
