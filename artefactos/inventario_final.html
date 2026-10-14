@@ -1,0 +1,541 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Inventario final: 617 empresas por industria</title><style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#f7f8fa;--cd:#fff;--bd:#e5e7eb;--tx:#111827;--mu:#6b7280;--ac:#1d4ed8;--vd:#047857;--am:#b45309}
+body{background:var(--bg);color:var(--tx);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;font-size:14.5px;line-height:1.6;padding:24px 16px 70px}
+.wrap{max-width:1200px;margin:0 auto}
+h1{font-size:26px;font-weight:680;letter-spacing:-.4px;margin-bottom:5px}
+.sub0{color:var(--mu);font-size:14px;margin-bottom:20px;max-width:960px}
+h2{font-size:19px;font-weight:660;margin:28px 0 11px}
+.kpis{display:flex;gap:9px;flex-wrap:wrap;margin-bottom:18px}
+.kpis div{background:var(--cd);border:1px solid var(--bd);border-radius:10px;padding:10px 16px;font-size:12px;color:var(--mu)}
+.kpis b{display:block;font-size:22px;font-weight:700;color:var(--tx)}
+.card{background:var(--cd);border:1px solid var(--bd);border-radius:12px;padding:16px 19px;margin-bottom:13px}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+th{text-align:left;font-size:10.5px;text-transform:uppercase;letter-spacing:.4px;color:var(--mu);font-weight:700;padding:8px;border-bottom:2px solid var(--bd)}
+td{padding:7px 8px;border-bottom:1px solid #f3f4f6}
+tr:last-child td{border-bottom:none}
+.num{text-align:right;font-variant-numeric:tabular-nums;font-weight:600;white-space:nowrap}
+.bar{width:150px;padding:0 10px}
+.bar span{display:block;height:8px;border-radius:4px;background:#3b82f6}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:10px}
+.emp{background:var(--cd);border:1px solid var(--bd);border-radius:10px;padding:11px 14px}
+.eh{margin-bottom:6px;padding-bottom:5px;border-bottom:1px solid #f3f4f6}
+.eh b{font-size:13.5px;display:block}
+.rb{font-size:11px;color:var(--mu);display:block}
+.nd{font-size:11.5px;font-weight:700;color:var(--vd)}
+.p{font-size:12px;margin-bottom:2px}
+.p b{font-weight:600}
+.p span{color:var(--mu);font-size:11.5px}
+.mas{font-size:11px;color:var(--mu);font-style:italic;margin-top:3px}
+.embudo{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:14px}
+.eb{background:var(--cd);border:1px solid var(--bd);border-left:4px solid var(--ac);border-radius:10px;padding:11px 16px;flex:1;min-width:200px}
+.eb b{display:block;font-size:11.5px;color:var(--mu)} .eb .v{font-size:22px;font-weight:700}
+.eb .d{font-size:11.5px;color:var(--mu)}
+.aviso{background:#fffbeb;border:1px solid #fde68a;border-left:4px solid var(--am);border-radius:9px;padding:12px 16px;margin:14px 0;font-size:13.5px}
+.aviso b{color:#92400e}
+.aviso.vd{background:#f0fdf4;border-color:#bbf7d0;border-left-color:#047857}
+.aviso.vd b{color:#065f46}
+footer{margin-top:28px;padding-top:15px;border-top:1px solid var(--bd);font-size:12.5px;color:var(--mu)}
+footer a{color:var(--ac)}
+code{background:#f3f4f6;padding:1px 5px;border-radius:4px;font-size:12.5px}
+</style></head><body><div class="wrap">
+
+<h1>Inventario final: 617 empresas con decisores, por industria</h1>
+<p class="sub0">El universo de prospección clasificado por rubro, con los decisores <b>auditados</b>
+(sólo los que pertenecen de verdad a la empresa y tienen cargo de decisión).</p>
+
+<div class="kpis">
+  <div><b>617</b>empresas con decisores</div>
+  <div><b>4,269</b>decisores</div>
+  <div><b>14</b>industrias</div>
+  <div><b>219</b>grandes</div>
+</div>
+
+<h2>El embudo de cobertura</h2>
+<div class="embudo">
+  <div class="eb"><b>Universo RETC</b><span class="v">3,157</span>
+    <span class="d">el padrón completo</span></div>
+  <div class="eb"><b>Vendibles (grandes+medianas)</b><span class="v">579</span>
+    <span class="d">el target con tamaño</span></div>
+  <div class="eb"><b>Con decisores</b><span class="v">617</span>
+    <span class="d">nombre y cargo mapeados</span></div>
+</div>
+
+<div class="aviso">
+  <b>De dónde salen los 4,269 decisores:</b> se barrieron las 356 empresas que
+  faltaban en 3 fuentes y se auditó uno por uno. <b>De 1.226 hallazgos brutos, 445 (36%) eran de
+  otras empresas</b> y se descartaron. Casos medidos:
+  <ul style="margin:7px 0 0 19px">
+    <li><b>Direcmin contaminado:</b> "CMPC Tissue", "CMPC Celulosa" e "Inversiones del Pacífico"
+    recibieron los MISMOS ejecutivos de <i>Compañía Minera del Pacífico</i> (otra empresa).</li>
+    <li><b>LinkedIn con homónimos:</b> razones sociales que son un apellido ("CONTRERAS",
+    "GOMEZ", "FERNANDEZ") devolvieron el headline de cualquier persona con ese apellido.</li>
+  </ul>
+</div>
+
+<h2>Por tipo de industria</h2>
+<div class="card">
+  <table><thead><tr><th>Industria</th><th class="num">Empresas</th><th class="num">Decisores</th><th></th></tr></thead>
+  <tbody>
+  <tr>
+    <td><b>Extracción de minerales</b></td>
+    <td class="num">91</td>
+    <td class="num">965</td>
+    <td class="bar"><span style="width:100%"></span></td>
+  </tr>
+  <tr>
+    <td><b>Industria agropecuaria y silvicultura</b></td>
+    <td class="num">72</td>
+    <td class="num">431</td>
+    <td class="bar"><span style="width:45%"></span></td>
+  </tr>
+  <tr>
+    <td><b>Industria manufacturera</b></td>
+    <td class="num">63</td>
+    <td class="num">423</td>
+    <td class="bar"><span style="width:44%"></span></td>
+  </tr>
+  <tr>
+    <td><b>(sin rubro)</b></td>
+    <td class="num">68</td>
+    <td class="num">414</td>
+    <td class="bar"><span style="width:43%"></span></td>
+  </tr>
+  <tr>
+    <td><b>Producción de alimentos</b></td>
+    <td class="num">48</td>
+    <td class="num">359</td>
+    <td class="bar"><span style="width:37%"></span></td>
+  </tr>
+  <tr>
+    <td><b>Pesca</b></td>
+    <td class="num">80</td>
+    <td class="num">352</td>
+    <td class="bar"><span style="width:36%"></span></td>
+  </tr>
+  <tr>
+    <td><b>Generación de energía</b></td>
+    <td class="num">45</td>
+    <td class="num">308</td>
+    <td class="bar"><span style="width:32%"></span></td>
+  </tr>
+  <tr>
+    <td><b>Combustibles</b></td>
+    <td class="num">38</td>
+    <td class="num">212</td>
+    <td class="bar"><span style="width:22%"></span></td>
+  </tr>
+  <tr>
+    <td><b>Gestor de residuos</b></td>
+    <td class="num">36</td>
+    <td class="num">186</td>
+    <td class="bar"><span style="width:19%"></span></td>
+  </tr>
+  <tr>
+    <td><b>Producción química</b></td>
+    <td class="num">27</td>
+    <td class="num">185</td>
+    <td class="bar"><span style="width:19%"></span></td>
+  </tr>
+  <tr>
+    <td><b>Producción de metal</b></td>
+    <td class="num">14</td>
+    <td class="num">157</td>
+    <td class="bar"><span style="width:16%"></span></td>
+  </tr>
+  <tr>
+    <td><b>Papel y celulosa</b></td>
+    <td class="num">9</td>
+    <td class="num">106</td>
+    <td class="bar"><span style="width:11%"></span></td>
+  </tr>
+  <tr>
+    <td><b>Suministro y tratamiento de aguas</b></td>
+    <td class="num">15</td>
+    <td class="num">96</td>
+    <td class="bar"><span style="width:10%"></span></td>
+  </tr>
+  <tr>
+    <td><b>Transmision y distribucion de energía eléctrica</b></td>
+    <td class="num">11</td>
+    <td class="num">75</td>
+    <td class="bar"><span style="width:8%"></span></td>
+  </tr>
+  <tr style="border-top:2px solid var(--bd)"><td><b>TOTAL</b></td>
+  <td class="num"><b>617</b></td>
+  <td class="num"><b>4,269</b></td><td></td></tr></tbody></table>
+</div>
+
+<h2>Las 60 empresas con más decisores</h2>
+<div class="grid">
+    <div class="emp">
+      <div class="eh"><b>Codelco</b>
+        <span class="rb">(sin rubro)</span>
+        <span class="nd">33 decisores</span></div>
+      <div class="p"><b>Benjamin Ordenes</b> <span>Ingeniero en CODELCO – Corporación Nacional del Cobr</span></div><div class="p"><b>Carolina Pinilla Nuñez</b> <span>Directora Corporativa de Gestión Ambiental de Operac</span></div><div class="p"><b>Christian Caviedes Núñez</b> <span>Gerente General</span></div><div class="mas">+30 más</div>
+    </div>
+    <div class="emp">
+      <div class="eh"><b>CORP NACIONAL DEL COBRE DE CHILE</b>
+        <span class="rb">Producción de metal</span>
+        <span class="nd">32 decisores</span></div>
+      <div class="p"><b>Alejandro Pacheco A.</b> <span>Gerente Mantenimiento Mina</span></div><div class="p"><b>Christian Caviedes Núñez</b> <span>Gerente General</span></div><div class="p"><b>Cristian Opazo</b> <span>Jefe de Mantencion en CODELCO – Corporación Nacional</span></div><div class="mas">+29 más</div>
+    </div>
+    <div class="emp">
+      <div class="eh"><b>MINERA LAS CENIZAS S A</b>
+        <span class="rb">Extracción de minerales</span>
+        <span class="nd">31 decisores</span></div>
+      <div class="p"><b>Andrea Cáceres Arriagada</b> <span>gerente de medio ambiente</span></div><div class="p"><b>Andrés Monardes Rozas</b> <span>Superintendente de Planta Cabildo</span></div><div class="p"><b>Bastian Saavedra Vera</b> <span>Ingeniero gestión de Mantenimiento</span></div><div class="mas">+28 más</div>
+    </div>
+    <div class="emp">
+      <div class="eh"><b>Minera Las Cenizas</b>
+        <span class="rb">Extracción de minerales</span>
+        <span class="nd">30 decisores</span></div>
+      <div class="p"><b>Andrea Cáceres Arriagada</b> <span>gerente de medio ambiente</span></div><div class="p"><b>Andrés Monardes Rozas</b> <span>Superintendente de Planta Cabildo</span></div><div class="p"><b>Carlos Delpiano Prett</b> <span>Gerente de Mantenimiento y Logistica en Cia. Minera </span></div><div class="mas">+27 más</div>
+    </div>
+    <div class="emp">
+      <div class="eh"><b>MINERA LOS PELAMBRES</b>
+        <span class="rb">Extracción de minerales</span>
+        <span class="nd">29 decisores</span></div>
+      <div class="p"><b>Alba López Vega</b> <span>Jefe Comunicaciones Externas</span></div><div class="p"><b>Alejandro Astudillo</b> <span>Gerente de Servicios de Soporte a la Operación</span></div><div class="p"><b>Alejandro Vásquez Montero</b> <span>Gerente General</span></div><div class="mas">+26 más</div>
+    </div>
+    <div class="emp">
+      <div class="eh"><b>Universidad De Antofagasta</b>
+        <span class="rb">Producción de alimentos</span>
+        <span class="nd">27 decisores</span></div>
+      <div class="p"><b>Alan Muchnik</b> <span>Vicepresidente de Estrategia e Innovación</span></div><div class="p"><b>Alejandro Vásquez Montero</b> <span>Vicepresidente de Operaciones y Gerente de Minera Lo</span></div><div class="p"><b>Andrónico Luksic L.</b> <span>Vicepresidente de Desarrollo</span></div><div class="mas">+24 más</div>
+    </div>
+    <div class="emp">
+      <div class="eh"><b>MINERA ESCONDIDA LIMITADA</b>
+        <span class="rb">Extracción de minerales</span>
+        <span class="nd">26 decisores</span></div>
+      <div class="p"><b>Alfredo López</b> <span>Engineer Maintenance Analysis &amp; Improvement en Miner</span></div><div class="p"><b>Andres Santoro Flores</b> <span>Tecnico Instrumentista en Minera Escondida Limitada</span></div><div class="p"><b>Arman Barha</b> <span>Vicepresidente Recursos, Planificación y Desarrollo</span></div><div class="mas">+23 más</div>
+    </div>
+    <div class="emp">
+      <div class="eh"><b>CIA MINERA SAN GERONIMO</b>
+        <span class="rb">Extracción de minerales</span>
+        <span class="nd">25 decisores</span></div>
+      <div class="p"><b>Alejandro Aravena</b> <span>Superintendente de Minas Lambert</span></div><div class="p"><b>Arnoldo Briones Mallea</b> <span>Gerente de Minas</span></div><div class="p"><b>Carlos Vásquez Riquelme</b> <span>Gerente de Sustentabilidad</span></div><div class="mas">+22 más</div>
+    </div>
+    <div class="emp">
+      <div class="eh"><b>Cia Papelera Del Pacifico S A</b>
+        <span class="rb">Papel y celulosa</span>
+        <span class="nd">22 decisores</span></div>
+      <div class="p"><b>Alejandro Ross Romero</b> <span>Jefe de Administración Ventas y Logística en Compañí</span></div><div class="p"><b>Alfredo Mondaca</b> <span>jefe de instrumentacion</span></div><div class="p"><b>Arturo Zamorano Oyarce</b> <span>Supervisor de calidad en Papelera del Pacífico</span></div><div class="mas">+19 más</div>
+    </div>
+    <div class="emp">
+      <div class="eh"><b>ANTOFAGASTA MINERALS S.A.</b>
+        <span class="rb">Suministro y tratamiento de aguas</span>
+        <span class="nd">22 decisores</span></div>
+      <div class="p"><b>Alan Muchnik</b> <span>Vicepresidente de Estrategia e Innovación</span></div><div class="p"><b>Alejandro Rojas Basoalto</b> <span>Gerente de Mantenimiento Minera Antucoya, Antofagast</span></div><div class="p"><b>Alejandro Vásquez Montero</b> <span>Vicepresidente de Operaciones y Gerente de Minera Lo</span></div><div class="mas">+19 más</div>
+    </div>
+    <div class="emp">
+      <div class="eh"><b>Minera San Gerónimo</b>
+        <span class="rb">Extracción de minerales</span>
+        <span class="nd">22 decisores</span></div>
+      <div class="p"><b>Alejandro Aravena</b> <span>Superintendente de Minas Lambert</span></div><div class="p"><b>Arnoldo Briones Mallea</b> <span>Gerente de Minas</span></div><div class="p"><b>CRISTIAN R. ESPINOZA LEÓN</b> <span>jefe de turno mina en Minera San Gerónimo</span></div><div class="mas">+19 más</div>
+    </div>
+    <div class="emp">
+      <div class="eh"><b>EMPRESA NACIONAL DEL PETROLEO</b>
+        <span class="rb">Combustibles</span>
+        <span class="nd">21 decisores</span></div>
+      <div class="p"><b>Aaron Vallejos</b> <span>Control e Instrunentación Empresa Nacional del Petro</span></div><div class="p"><b>Alejandro Varas</b> <span>Field Supervisor DCU &amp; Alkilation Division, Empresa </span></div><div class="p"><b>Christian Gonzalez</b> <span>Director Cumplimiento Ambiental en ENAP</span></div><div class="mas">+18 más</div>
+    </div>
+    <div class="emp">
+      <div class="eh"><b>ANGLO AMERICAN SUR S.A.</b>
+        <span class="rb">Producción de metal</span>
+        <span class="nd">21 decisores</span></div>
+      <div class="p"><b>Alfredo Fuentes</b> <span>Jefe mantenimiento planta Catodo AngloAmerican</span></div><div class="p"><b>Benjamín Martinich</b> <span>Gerente General de Chagres</span></div><div class="p"><b>Carlos Reyes</b> <span>Ingeniero Programador Mantención</span></div><div class="mas">+18 más</div>
+    </div>
+    <div class="emp">
+      <div class="eh"><b>SCM MINERA LUMINA COPPER CHILE</b>
+        <span class="rb">Extracción de minerales</span>
+        <span class="nd">21 decisores</span></div>
+      <div class="p"><b>Alejandro Canut De Bon Lagos</b> <span>Gerente Corporativo Legal</span></div><div class="p"><b>Claudio Raffo Barasorda</b> <span>Gerente Corporativo de Recursos Humanos</span></div><div class="p"><b>Eugenio Puelles M</b> <span>Jefe Mantencion Mina en Lumina Copper chile</span></div><div class="mas">+18 más</div>
+    </div>
+    <div class="emp">
+      <div class="eh"><b>COMERCIAL Y SERVICIOS CANDELARIA LIMITADA</b>
+        <span class="rb">Extracción de minerales</span>
+        <span class="nd">21 decisores</span></div>
+      <div class="p"><b>Alison Candelaria</b> <span>Vice President, Enterprise Sales - Southeast Region</span></div><div class="p"><b>Andrés Barraza Arriagada</b> <span>Gerente de Recursos Humanos</span></div><div class="p"><b>Candelaria Calvo</b> <span>Gerente comercial - en Grupo Peñaflor</span></div><div class="mas">+18 más</div>
+    </div>
+    <div class="emp">
+      <div class="eh"><b>CMPC TISSUE S A</b>
+        <span class="rb">Papel y celulosa</span>
+        <span class="nd">21 decisores</span></div>
+      <div class="p"><b>Alberto Marin</b> <span>Gerente Nacional en ABSORMEX CMPC TISSUE SA DE CV</span></div><div class="p"><b>Antonio Horvath</b> <span>PLANNING MANAGER en CMPC Tissue</span></div><div class="p"><b>Carlos Gómez Vega</b> <span>Gerente de Proyectos</span></div><div class="mas">+18 más</div>
+    </div>
+    <div class="emp">
+      <div class="eh"><b>Minera Valle Central</b>
+        <span class="rb">Generación de energía</span>
+        <span class="nd">21 decisores</span></div>
+      <div class="p"><b>Alfonso Burgos Quilamán</b> <span>Subgerente de Operaciones Planta</span></div><div class="p"><b>Benjamín Campos Ordaz</b> <span>Gerente de Continuidad Operacional</span></div><div class="p"><b>Benjamín Meléndez Bobadilla</b> <span>Coordinador Permisos Ambientales en Minera Valle Cen</span></div><div class="mas">+18 más</div>
+    </div>
+    <div class="emp">
+      <div class="eh"><b>CMPC</b>
+        <span class="rb">(sin rubro)</span>
+        <span class="nd">21 decisores</span></div>
+      <div class="p"><b>Andrea Cullen Castro</b> <span>gerente de medio ambiente</span></div><div class="p"><b>Andrés Richmagui Tomic</b> <span>Gerente de Gestión Ambiental Operativa de Bosques / </span></div><div class="p"><b>Arturo Maturana F.</b> <span>Gerente de Ingeniería y Construcción, Medio Ambiente</span></div><div class="mas">+18 más</div>
+    </div>
+    <div class="emp">
+      <div class="eh"><b>Enap Refinerias S A</b>
+        <span class="rb">Industria manufacturera</span>
+        <span class="nd">20 decisores</span></div>
+      <div class="p"><b>Carlos Mauricio Naveas Farías</b> <span>Gerente Corporativo de Logística</span></div><div class="p"><b>Cristián Oyanedel Catalán</b> <span>Director de Comunidades ENAP Refinería Biobío / Inge</span></div><div class="p"><b>Eduardo Andrés Jara Arnal</b> <span>Gerente Corporativo Legal</span></div><div class="mas">+17 más</div>
+    </div>
+    <div class="emp">
+      <div class="eh"><b>WEIR MINERALS CHILE SA</b>
+        <span class="rb">Extracción de minerales</span>
+        <span class="nd">20 decisores</span></div>
+      <div class="p"><b>Alan Muchnik</b> <span>Vicepresidente de Estrategia e Innovación</span></div><div class="p"><b>Alejandro Vásquez Montero</b> <span>Vicepresidente de Operaciones y Gerente de Minera Lo</span></div><div class="p"><b>Andrés Costa</b> <span>gerente de mantenimiento</span></div><div class="mas">+17 más</div>
+    </div>
+    <div class="emp">
+      <div class="eh"><b>CIA MINERA CERRO NEGRO S A</b>
+        <span class="rb">Extracción de minerales</span>
+        <span class="nd">20 decisores</span></div>
+      <div class="p"><b>Beatriz Yáñez</b> <span>Jefa de Medioambiente</span></div><div class="p"><b>Carlos Oyanedel</b> <span>Mecánico de mantenimiento en Compañía Minera Cerro N</span></div><div class="p"><b>Carolina del Valle</b> <span>Director, Environment - Newmont Cerro Negro</span></div><div class="mas">+17 más</div>
+    </div>
+    <div class="emp">
+      <div class="eh"><b>QUIBORAX S.A.</b>
+        <span class="rb">Extracción de minerales</span>
+        <span class="nd">20 decisores</span></div>
+      <div class="p"><b>Alan Fosk</b> <span>Gerente General</span></div><div class="p"><b>Alejandra Quintana</b> <span>Jefa de Adquisiciones</span></div><div class="p"><b>Alex Osorio</b> <span>Gerente de Planta</span></div><div class="mas">+17 más</div>
+    </div>
+    <div class="emp">
+      <div class="eh"><b>SOCIEDAD MEDICA SPENCER Y COMPANIA LIMITADA</b>
+        <span class="rb">Generación de energía</span>
+        <span class="nd">20 decisores</span></div>
+      <div class="p"><b>Chad Spencer</b> <span>CEO at Spencer Medical Sales</span></div><div class="p"><b>Cristián Cano Rodríguez</b> <span>Gerente de Aguas y Tranque Relaves</span></div><div class="p"><b>Cristián Concha</b> <span>Gerente de NPI &amp; Contratos</span></div><div class="mas">+17 más</div>
+    </div>
+    <div class="emp">
+      <div class="eh"><b>Cartulinas Cmpc Spa</b>
+        <span class="rb">Papel y celulosa</span>
+        <span class="nd">19 decisores</span></div>
+      <div class="p"><b>Carlos Gómez Vega</b> <span>Gerente de Proyectos</span></div><div class="p"><b>Carlos Sepúlveda Vélez</b> <span>Gerente de Adm. y Finanzas</span></div><div class="p"><b>Carolina Lomuscio Zamorano</b> <span>Gerente de Personas</span></div><div class="mas">+16 más</div>
+    </div>
+    <div class="emp">
+      <div class="eh"><b>MINERA SPENCE S.A.</b>
+        <span class="rb">Extracción de minerales</span>
+        <span class="nd">19 decisores</span></div>
+      <div class="p"><b>Alicia Rodriguez</b> <span>Gerente Autonomía BHP / Aerospace Engineer</span></div><div class="p"><b>Cristián Cano Rodríguez</b> <span>Gerente de Aguas y Tranque Relaves</span></div><div class="p"><b>Cristián Concha</b> <span>Gerente de NPI &amp; Contratos</span></div><div class="mas">+16 más</div>
+    </div>
+    <div class="emp">
+      <div class="eh"><b>SIERRA GORDA S.C.M.</b>
+        <span class="rb">Extracción de minerales</span>
+        <span class="nd">19 decisores</span></div>
+      <div class="p"><b>Beata Choragwicka Majstrowicz</b> <span>Vicepresidente de RR.HH.</span></div><div class="p"><b>Christian Henríquez</b> <span>Ejecutivo Senior | Gerente salud, seguridad y medio </span></div><div class="p"><b>David García Allendes</b> <span>Superintendente de Sustentabilidad y Permisos en Sie</span></div><div class="mas">+16 más</div>
+    </div>
+    <div class="emp">
+      <div class="eh"><b>CIA MINERA DEL PACIFICO S.A.</b>
+        <span class="rb">Extracción de minerales</span>
+        <span class="nd">19 decisores</span></div>
+      <div class="p"><b>Andrés Ortega</b> <span>Jefe de Ingeniería de Mantenimiento en Minera del Pa</span></div><div class="p"><b>Carlos Gómez Vega</b> <span>Gerente de Proyectos</span></div><div class="p"><b>Carlos Sepúlveda Vélez</b> <span>Gerente de Adm. y Finanzas</span></div><div class="mas">+16 más</div>
+    </div>
+    <div class="emp">
+      <div class="eh"><b>Anglo American Sur</b>
+        <span class="rb">Producción de metal</span>
+        <span class="nd">19 decisores</span></div>
+      <div class="p"><b>Benjamín Martinich</b> <span>Gerente General de Chagres</span></div><div class="p"><b>Carlos Salvo</b> <span>Gerente de Sustentabilidad en Angloamerican Sur S.A.</span></div><div class="p"><b>Cecilia Arrué</b> <span>Vicepresidente de Joint Ventures</span></div><div class="mas">+16 más</div>
+    </div>
+    <div class="emp">
+      <div class="eh"><b>MINERA ANTUCOYA</b>
+        <span class="rb">Extracción de minerales</span>
+        <span class="nd">18 decisores</span></div>
+      <div class="p"><b>Alejandro Rojas Basoalto</b> <span>Gerente de Mantenimiento Minera Antucoya, Antofagast</span></div><div class="p"><b>Alex Calderón</b> <span>Gerente de Planificación y Desarrollo</span></div><div class="p"><b>Boris Astete</b> <span>Gerente de Recursos Humanos</span></div><div class="mas">+15 más</div>
+    </div>
+    <div class="emp">
+      <div class="eh"><b>MINERA VALLE CENTRAL S A</b>
+        <span class="rb">Extracción de minerales</span>
+        <span class="nd">18 decisores</span></div>
+      <div class="p"><b>Alfonso Antonio Burgos Quilamá</b> <span>Subgerente de Producción en Minera Valle Central</span></div><div class="p"><b>Alfonso Burgos Quilamán</b> <span>Subgerente de Operaciones Planta</span></div><div class="p"><b>Benjamín Campos Ordaz</b> <span>Gerente de Continuidad Operacional</span></div><div class="mas">+15 más</div>
+    </div>
+    <div class="emp">
+      <div class="eh"><b>INVERSIONES DEL PACIFICO LIMITADA</b>
+        <span class="rb">Industria agropecuaria y silvicultura</span>
+        <span class="nd">18 decisores</span></div>
+      <div class="p"><b>Carlos Enrique Nuñez Prado</b> <span>Ingeniero Agronomo, Administrador General Agrícola e</span></div><div class="p"><b>Carlos Gómez Vega</b> <span>Gerente de Proyectos</span></div><div class="p"><b>Carlos Sepúlveda Vélez</b> <span>Gerente de Adm. y Finanzas</span></div><div class="mas">+15 más</div>
+    </div>
+    <div class="emp">
+      <div class="eh"><b>Minera Tres Valles</b>
+        <span class="rb">Extracción de minerales</span>
+        <span class="nd">18 decisores</span></div>
+      <div class="p"><b>Cristian Vega Olmos</b> <span>Jefe Eléctrico e Instrumentación</span></div><div class="p"><b>Eduardo Hasan</b> <span>Gerente de Operaciones de Planta</span></div><div class="p"><b>Eduardo Reyes</b> <span>Gerente de Recursos Humanos</span></div><div class="mas">+15 más</div>
+    </div>
+    <div class="emp">
+      <div class="eh"><b>CIA MINERA DONA INES DE COLLAHUASI SCM</b>
+        <span class="rb">Extracción de minerales</span>
+        <span class="nd">17 decisores</span></div>
+      <div class="p"><b>Alejandro Verdugo P.</b> <span>Vicepresidente de Proyectos</span></div><div class="p"><b>Carlos Arriagada</b> <span>Gerente de Contratos y Abastecimiento</span></div><div class="p"><b>Dalibor Dragicevic Pizarro</b> <span>Vicepresidente Ejecutivo Operaciones</span></div><div class="mas">+14 más</div>
+    </div>
+    <div class="emp">
+      <div class="eh"><b>COMPANIA MINERA ZALDIVAR SPA</b>
+        <span class="rb">Extracción de minerales</span>
+        <span class="nd">17 decisores</span></div>
+      <div class="p"><b>Cristian Eduardo Diaz Herrera</b> <span>CFO Minera Zaldivar</span></div><div class="p"><b>Eduardo Urra</b> <span>Gerente Medio Ambiente en Minera Zaldívar</span></div><div class="p"><b>Eduardo Urra Sánchez</b> <span>Gerente de Medio Ambiente</span></div><div class="mas">+14 más</div>
+    </div>
+    <div class="emp">
+      <div class="eh"><b>SGS MINERALS S.A.</b>
+        <span class="rb">Extracción de minerales</span>
+        <span class="nd">17 decisores</span></div>
+      <div class="p"><b>Alan Muchnik</b> <span>Vicepresidente de Estrategia e Innovación</span></div><div class="p"><b>Alejandro Vásquez Montero</b> <span>Vicepresidente de Operaciones y Gerente de Minera Lo</span></div><div class="p"><b>Andrónico Luksic L.</b> <span>Vicepresidente de Desarrollo</span></div><div class="mas">+14 más</div>
+    </div>
+    <div class="emp">
+      <div class="eh"><b>PAMPA CAMARONES SPA.</b>
+        <span class="rb">Extracción de minerales</span>
+        <span class="nd">17 decisores</span></div>
+      <div class="p"><b>Alfredo Hervas</b> <span>Jefe de Turno Planta en Minera Pampa Camarones S.A.</span></div><div class="p"><b>Arturo Prieto</b> <span>Minería | Inversion |</span></div><div class="p"><b>Boris Ormeño Rojas</b> <span>Superintendente de Recursos Humanos</span></div><div class="mas">+14 más</div>
+    </div>
+    <div class="emp">
+      <div class="eh"><b>ECOVAL MINERALS S.A.</b>
+        <span class="rb">Extracción de minerales</span>
+        <span class="nd">17 decisores</span></div>
+      <div class="p"><b>Alan Muchnik</b> <span>Vicepresidente de Estrategia e Innovación</span></div><div class="p"><b>Alejandro Vásquez Montero</b> <span>Vicepresidente de Operaciones y Gerente de Minera Lo</span></div><div class="p"><b>Andrónico Luksic L.</b> <span>Vicepresidente de Desarrollo</span></div><div class="mas">+14 más</div>
+    </div>
+    <div class="emp">
+      <div class="eh"><b>CMPC CELULOSA S A</b>
+        <span class="rb">Papel y celulosa</span>
+        <span class="nd">17 decisores</span></div>
+      <div class="p"><b>Arturo Maturana F.</b> <span>Gerente de Ingeniería y Construcción, Medio Ambiente</span></div><div class="p"><b>Carlos Gómez Vega</b> <span>Gerente de Proyectos</span></div><div class="p"><b>Carlos Sepúlveda Vélez</b> <span>Gerente de Adm. y Finanzas</span></div><div class="mas">+14 más</div>
+    </div>
+    <div class="emp">
+      <div class="eh"><b>Cmpc Pulp Spa</b>
+        <span class="rb">(sin rubro)</span>
+        <span class="nd">16 decisores</span></div>
+      <div class="p"><b>Carlos Gómez Vega</b> <span>Gerente de Proyectos</span></div><div class="p"><b>Carlos Sepúlveda Vélez</b> <span>Gerente de Adm. y Finanzas</span></div><div class="p"><b>Carolina Lomuscio Zamorano</b> <span>Gerente de Personas</span></div><div class="mas">+13 más</div>
+    </div>
+    <div class="emp">
+      <div class="eh"><b>CIA SIDERURGICA HUACHIPATO S.A.</b>
+        <span class="rb">Producción de metal</span>
+        <span class="nd">16 decisores</span></div>
+      <div class="p"><b>Claudio Sarmiento</b> <span>Jefe de Laboratorio Ensayos Físicos y Metalografía n</span></div><div class="p"><b>Claudio Sarmiento Moreno</b> <span>gerente de mantenimiento</span></div><div class="p"><b>Eduardo Carrasco</b> <span>Gerente de Personas y Asuntos Corporativos</span></div><div class="mas">+13 más</div>
+    </div>
+    <div class="emp">
+      <div class="eh"><b>Agroindustrias Lomas Coloradas Ltda</b>
+        <span class="rb">Industria agropecuaria y silvicultura</span>
+        <span class="nd">16 decisores</span></div>
+      <div class="p"><b>Carlos Mella Care</b> <span>Gerente de Administración y Finanzas</span></div><div class="p"><b>Claudia Zazzali</b> <span>Jefa de Asuntos Externos y Comunicaciones</span></div><div class="p"><b>Cristian Oneto</b> <span>Jefe de Proyectos</span></div><div class="mas">+13 más</div>
+    </div>
+    <div class="emp">
+      <div class="eh"><b>COMPANIA MINERA LOMAS BAYAS</b>
+        <span class="rb">Extracción de minerales</span>
+        <span class="nd">16 decisores</span></div>
+      <div class="p"><b>Carlos Mella Care</b> <span>Gerente de Administración y Finanzas</span></div><div class="p"><b>Claudia Zazzali</b> <span>Jefa de Asuntos Externos y Comunicaciones</span></div><div class="p"><b>Cristian Oneto</b> <span>Jefe de Proyectos</span></div><div class="mas">+13 más</div>
+    </div>
+    <div class="emp">
+      <div class="eh"><b>Agar Del Pacifico S A</b>
+        <span class="rb">Industria manufacturera</span>
+        <span class="nd">15 decisores</span></div>
+      <div class="p"><b>Andrés Martí</b> <span>Executive MBA UAI | Maintenance Manager in Grupo Met</span></div><div class="p"><b>Carlos Gómez Vega</b> <span>Gerente de Proyectos</span></div><div class="p"><b>Carlos Sepúlveda Vélez</b> <span>Gerente de Adm. y Finanzas</span></div><div class="mas">+12 más</div>
+    </div>
+    <div class="emp">
+      <div class="eh"><b>Universidad Austral De Chile</b>
+        <span class="rb">Producción de alimentos</span>
+        <span class="nd">15 decisores</span></div>
+      <div class="p"><b>Benjamin Ordenes</b> <span>Ingeniero en CODELCO – Corporación Nacional del Cobr</span></div><div class="p"><b>Claudia C.</b> <span>Gerente de Mantenimiento</span></div><div class="p"><b>Claudia Campillay</b> <span>Directora de Medio Ambiente en Chile desde el ADN</span></div><div class="mas">+12 más</div>
+    </div>
+    <div class="emp">
+      <div class="eh"><b>SOC CONTRACTUAL MINERA EL ABRA</b>
+        <span class="rb">Extracción de minerales</span>
+        <span class="nd">15 decisores</span></div>
+      <div class="p"><b>Aaron Draper</b> <span>Gerente General</span></div><div class="p"><b>Alfonso Gaete Rojas</b> <span>Jefe General de Recursos Hídricos en Sociedad contra</span></div><div class="p"><b>Alvarez Can</b> <span>Superintendente Operaciones Planta Beneficio at Soci</span></div><div class="mas">+12 más</div>
+    </div>
+    <div class="emp">
+      <div class="eh"><b>SOC PUNTA DEL COBRE S A</b>
+        <span class="rb">Extracción de minerales</span>
+        <span class="nd">15 decisores</span></div>
+      <div class="p"><b>Christian Caviedes Núñez</b> <span>Gerente General</span></div><div class="p"><b>Claudia C.</b> <span>Gerente de Mantenimiento</span></div><div class="p"><b>Cristián de la Piedra</b> <span>Gerente de Sustentabilidad y Asuntos Externos</span></div><div class="mas">+12 más</div>
+    </div>
+    <div class="emp">
+      <div class="eh"><b>CIA MINERA CERRO COLORADO LTDA</b>
+        <span class="rb">Extracción de minerales</span>
+        <span class="nd">15 decisores</span></div>
+      <div class="p"><b>Alejandro Heilbron Batista</b> <span>Gerente General Cerro Colorado</span></div><div class="p"><b>Bernardo Castillo</b> <span>Asesor Prevención de Riesgos, Mantenimiento Planta e</span></div><div class="p"><b>Cesar Gaete Alvarado</b> <span>Gerente de Operaciones, Compañía Minera Cerro Colora</span></div><div class="mas">+12 más</div>
+    </div>
+    <div class="emp">
+      <div class="eh"><b>MINERA CRUZ LIMITADA</b>
+        <span class="rb">Extracción de minerales</span>
+        <span class="nd">15 decisores</span></div>
+      <div class="p"><b>Carolina Rivera Canibilo</b> <span>Socio</span></div><div class="p"><b>Diómedes Cruz Solorzano</b> <span>Socio</span></div><div class="p"><b>Enrique Aguirre Somerville</b> <span>Gerente Prevención de Riesgos</span></div><div class="mas">+12 más</div>
+    </div>
+    <div class="emp">
+      <div class="eh"><b>CONTRERAS</b>
+        <span class="rb">Combustibles</span>
+        <span class="nd">15 decisores</span></div>
+      <div class="p"><b>Alejandro Contreras</b> <span>Instrumentista Industrial en Petróleo &amp; Gas Pérez Co</span></div><div class="p"><b>Andres Contreras Verdugo</b> <span>Coordinador en Jefe del área de Instrumentación y Me</span></div><div class="p"><b>Angel David Contreras Meza</b> <span>Técnico en instrumentación y control</span></div><div class="mas">+12 más</div>
+    </div>
+    <div class="emp">
+      <div class="eh"><b>CEMIN Holding Minero</b>
+        <span class="rb">Generación de energía</span>
+        <span class="nd">15 decisores</span></div>
+      <div class="p"><b>Alejandro Berenguela Zúñiga</b> <span>Gerente General Catemu</span></div><div class="p"><b>Alejandro Contreras Cifuentes</b> <span>Gerente Corporativo de Exploraciones y Geología</span></div><div class="p"><b>Claudia Alcaíno Bustamante</b> <span>Gerente Corporativo de Gestión de Personas</span></div><div class="mas">+12 más</div>
+    </div>
+    <div class="emp">
+      <div class="eh"><b>SOCIEDAD MINERA PACIFICO DEL SUR SPA</b>
+        <span class="rb">Generación de energía</span>
+        <span class="nd">14 decisores</span></div>
+      <div class="p"><b>Carlos Gómez Vega</b> <span>Gerente de Proyectos</span></div><div class="p"><b>Carlos Sepúlveda Vélez</b> <span>Gerente de Adm. y Finanzas</span></div><div class="p"><b>Carolina Lomuscio Zamorano</b> <span>Gerente de Personas</span></div><div class="mas">+11 más</div>
+    </div>
+    <div class="emp">
+      <div class="eh"><b>Universidad Catolica Del Norte</b>
+        <span class="rb">Producción de alimentos</span>
+        <span class="nd">14 decisores</span></div>
+      <div class="p"><b>Andres Soccal</b> <span>JEFE DE MANTENIMIENTO en Pontificia Universidad Cato</span></div><div class="p"><b>Bernardo Sepúlveda</b> <span>técnico superior en Mecánica automotriz. técnico sup</span></div><div class="p"><b>Carlos A. Monardes-Concha, Ph.</b> <span>Head of Research of the School of Engineering at Uni</span></div><div class="mas">+11 más</div>
+    </div>
+    <div class="emp">
+      <div class="eh"><b>ALBEMARLE LIMITADA</b>
+        <span class="rb">(sin rubro)</span>
+        <span class="nd">14 decisores</span></div>
+      <div class="p"><b>Bayron Ovando Zepeda</b> <span>Operador jefe Off Site en Albemarle Corporation | Ha</span></div><div class="p"><b>Diego Maldonado Villanueva</b> <span>Gestión General y Evaluación Ambiental</span></div><div class="p"><b>Diego Zuleta Morales</b> <span>Supervisor de Operaciones en Albemarle Corporation |</span></div><div class="mas">+11 más</div>
+    </div>
+    <div class="emp">
+      <div class="eh"><b>ZUBLIN INTERNATIONAL GMBH CHILE SPA</b>
+        <span class="rb">Extracción de minerales</span>
+        <span class="nd">14 decisores</span></div>
+      <div class="p"><b>Alejandro S.</b> <span>Gerente Maquinarias/Wokshop Manager/ Site Manager/ A</span></div><div class="p"><b>Alexander Wilkes</b> <span>Commercial Manager - Plant &amp; Equipment Unit at STRAB</span></div><div class="p"><b>Bruno González Sepúlveda</b> <span>Jefe oficina Técnica en Züblin International GmbH Ch</span></div><div class="mas">+11 más</div>
+    </div>
+    <div class="emp">
+      <div class="eh"><b>SERGIO CERVA S A</b>
+        <span class="rb">(sin rubro)</span>
+        <span class="nd">14 decisores</span></div>
+      <div class="p"><b>Sergio A.</b> <span>CEO | Founder | MBA | MSc | MA | BSc | PDD</span></div><div class="p"><b>Sergio Ascención Macías</b> <span>Maintenance chief</span></div><div class="p"><b>Sergio B.</b> <span>Dirección de Infraestructura Institucional y Facilit</span></div><div class="mas">+11 más</div>
+    </div>
+    <div class="emp">
+      <div class="eh"><b>ESVAL S.A.</b>
+        <span class="rb">Suministro y tratamiento de aguas</span>
+        <span class="nd">14 decisores</span></div>
+      <div class="p"><b>Alejandro Gaete Ríos</b> <span>Jefe de Eficiencia Hídrica en ESVAL S.A.</span></div><div class="p"><b>Andelka Vrsalovic</b> <span>Environmental Director</span></div><div class="p"><b>Andres Osorios</b> <span>Jefe de mantenimiento</span></div><div class="mas">+11 más</div>
+    </div>
+    <div class="emp">
+      <div class="eh"><b>FERNANDEZ</b>
+        <span class="rb">Producción de alimentos</span>
+        <span class="nd">14 decisores</span></div>
+      <div class="p"><b>Claudio Fernández</b> <span>supervisor de instrumentación y control</span></div><div class="p"><b>Fabian Fernandez</b> <span>Maintenance manager</span></div><div class="p"><b>Felipe Fernandez</b> <span>Gerente de Mantenimiento en Aerocardal</span></div><div class="mas">+11 más</div>
+    </div>
+    <div class="emp">
+      <div class="eh"><b>HIDALGO E HIJOS LIMITADA</b>
+        <span class="rb">Combustibles</span>
+        <span class="nd">14 decisores</span></div>
+      <div class="p"><b>Angie Hidalgo Valencia</b> <span>Diseñador en Instrumentación y Control</span></div><div class="p"><b>Carlos Hidalgo</b> <span>Gerente de Mantenimiento (Servicios Generales)</span></div><div class="p"><b>Claudia Hidalgo</b> <span>Responsable de Seguridad y Medio Ambiente</span></div><div class="mas">+11 más</div>
+    </div>
+    <div class="emp">
+      <div class="eh"><b>GOMEZ</b>
+        <span class="rb">Producción de alimentos</span>
+        <span class="nd">14 decisores</span></div>
+      <div class="p"><b>Aarón Gómez</b> <span>Gerente de Mantenimiento</span></div><div class="p"><b>Adrian Gomez Balboa</b> <span>Environmental Director LATAM | Independent Board Mem</span></div><div class="p"><b>Aldo Gómez</b> <span>Executive Director @ Aptiv | Global Sustainability, </span></div><div class="mas">+11 más</div>
+    </div>
+    <div class="emp">
+      <div class="eh"><b>Gnl Quintero Sa</b>
+        <span class="rb">Combustibles</span>
+        <span class="nd">13 decisores</span></div>
+      <div class="p"><b>Alejandro Amorin Torres</b> <span>Gerente de Planta en GNL Quintero S.A.</span></div><div class="p"><b>Daniela Quintero</b> <span>Sustainability Analyst at Cooper Carry | LEED Green </span></div><div class="p"><b>Felipe Barriga</b> <span>Superintendente de Mantenimiento en GNL Quintero S.A</span></div><div class="mas">+10 más</div>
+    </div></div>
+
+<footer>
+  Fuentes: <code>universo_prospeccion_supcon.json</code> (3.157 del RETC) ·
+  <code>buscador_decisores.json</code> · <code>barrido_universo_auditado.json</code>.
+  Auditoría: <code>generadores/auditar_universo.py</code>.
+  <a href="inventario_universo.html">inventario por industria y formato del Excel</a> ·
+  <a href="campana_process.html">la campaña Process</a> · <a href="../index.html">catálogo</a>.
+</footer>
+</div></body></html>

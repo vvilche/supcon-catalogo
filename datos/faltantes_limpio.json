@@ -1,0 +1,1612 @@
+[
+ {
+  "empresa": "RECYCLING S.A.",
+  "rubro": "Producción química",
+  "tier": "GRANDE",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 94756.2
+ },
+ {
+  "empresa": "GERDAU AZA S A",
+  "rubro": "Gestor de residuos",
+  "tier": "GRANDE",
+  "region": "Biobío",
+  "residuos_t": 76173.99
+ },
+ {
+  "empresa": "PROCESOS SANITARIOS SPA",
+  "rubro": "Gestor de residuos",
+  "tier": "GRANDE",
+  "region": "Biobío",
+  "residuos_t": 64793.96
+ },
+ {
+  "empresa": "HIDRONOR CHILE S A",
+  "rubro": "Gestor de residuos",
+  "tier": "GRANDE",
+  "region": "Biobío",
+  "residuos_t": 52911.97
+ },
+ {
+  "empresa": "FINNING CHILE S A",
+  "rubro": "Industria manufacturera",
+  "tier": "GRANDE",
+  "region": "Libertador Gral. Bernardo O'Higgins",
+  "residuos_t": 34364.5
+ },
+ {
+  "empresa": "COMPANIA DE PETROLEOS DE CHILE COPEC S A",
+  "rubro": "Combustibles",
+  "tier": "GRANDE",
+  "region": "Los Lagos",
+  "residuos_t": 29700.06
+ },
+ {
+  "empresa": "KAUFMANN S A VEHICULOS MOTORIZADOS",
+  "rubro": "Industria manufacturera",
+  "tier": "GRANDE",
+  "region": "Los Ríos",
+  "residuos_t": 24047.88
+ },
+ {
+  "empresa": "COMERCIAL ANTUCO LTDA",
+  "rubro": "Combustibles",
+  "tier": "GRANDE",
+  "region": "Valparaíso",
+  "residuos_t": 21241.29
+ },
+ {
+  "empresa": "EMPRESA NACIONAL DE ENERGIA ENEX S.A.",
+  "rubro": "Combustibles",
+  "tier": "GRANDE",
+  "region": "Biobío",
+  "residuos_t": 21241.29
+ },
+ {
+  "empresa": "NEUMASERVICE S A",
+  "rubro": "Combustibles",
+  "tier": "GRANDE",
+  "region": "Maule",
+  "residuos_t": 21241.29
+ },
+ {
+  "empresa": "RECICLAJES ECOTRANS LIMITADA",
+  "rubro": "Gestor de residuos",
+  "tier": "GRANDE",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 20778.29
+ },
+ {
+  "empresa": "SOLUCIONES AMBIENTALES DEL NORTE SA",
+  "rubro": "Gestor de residuos",
+  "tier": "GRANDE",
+  "region": "Antofagasta",
+  "residuos_t": 19602.4
+ },
+ {
+  "empresa": "CMPC CELULOSA S A",
+  "rubro": "Papel y celulosa",
+  "tier": "GRANDE",
+  "region": "Biobío",
+  "residuos_t": 13579.93
+ },
+ {
+  "empresa": "ADMINISTRADORA DE VENTAS AL DETALLE LIMITADA",
+  "rubro": "Combustibles",
+  "tier": "GRANDE",
+  "region": "Los Lagos",
+  "residuos_t": 9658.12
+ },
+ {
+  "empresa": "MONSANTO CHILE  S.A.",
+  "rubro": "Industria agropecuaria y silvicultura",
+  "tier": "GRANDE",
+  "region": "Araucanía",
+  "residuos_t": 9385.07
+ },
+ {
+  "empresa": "CRISTALERIAS DE CHILE S A",
+  "rubro": "Gestor de residuos",
+  "tier": "GRANDE",
+  "region": "Coquimbo",
+  "residuos_t": 8760.21
+ },
+ {
+  "empresa": "E.CL S.A.",
+  "rubro": "Generación de energía",
+  "tier": "GRANDE",
+  "region": "Antofagasta",
+  "residuos_t": 8437.38
+ },
+ {
+  "empresa": "SEMILLAS PIONEER CHILE LTDA",
+  "rubro": "Industria agropecuaria y silvicultura",
+  "tier": "GRANDE",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 4383.02
+ },
+ {
+  "empresa": "TRANSELEC NORTE S A",
+  "rubro": "Transmision y distribucion de energía eléctrica",
+  "tier": "GRANDE",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 4088.93
+ },
+ {
+  "empresa": "PETROBRAS CHILE RED LIMITADA",
+  "rubro": "Combustibles",
+  "tier": "GRANDE",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 3580.0
+ },
+ {
+  "empresa": "VULCO S A",
+  "rubro": "Industria manufacturera",
+  "tier": "GRANDE",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 3485.85
+ },
+ {
+  "empresa": "LINDE GAS CHILE S.A.",
+  "rubro": "Combustibles",
+  "tier": "GRANDE",
+  "region": "Biobío",
+  "residuos_t": 3249.05
+ },
+ {
+  "empresa": "AES GENER S A",
+  "rubro": "Generación de energía",
+  "tier": "GRANDE",
+  "region": "Biobío",
+  "residuos_t": 2742.0
+ },
+ {
+  "empresa": "ASERRADEROS ARAUCO S A",
+  "rubro": "Industria manufacturera",
+  "tier": "GRANDE",
+  "region": "Biobío",
+  "residuos_t": 2588.65
+ },
+ {
+  "empresa": "FORESTAL ARAUCO S.A.",
+  "rubro": "Papel y celulosa",
+  "tier": "GRANDE",
+  "region": "Los Ríos",
+  "residuos_t": 2137.56
+ },
+ {
+  "empresa": "METALURGICA Y MECANICAS MIDAS LIMITADA",
+  "rubro": "Gestor de residuos",
+  "tier": "GRANDE",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 1923.05
+ },
+ {
+  "empresa": "FABRICAS Y MAESTRANZAS DEL EJERCITO",
+  "rubro": "Industria manufacturera",
+  "tier": "GRANDE",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 1920.95
+ },
+ {
+  "empresa": "CGE DISTRIBUCION S A",
+  "rubro": "Transmision y distribucion de energía eléctrica",
+  "tier": "GRANDE",
+  "region": "Biobío",
+  "residuos_t": 1890.18
+ },
+ {
+  "empresa": "CIA NACIONAL DE FUERZA ELECTRICA S A",
+  "rubro": "Transmision y distribucion de energía eléctrica",
+  "tier": "GRANDE",
+  "region": "Valparaíso",
+  "residuos_t": 1890.18
+ },
+ {
+  "empresa": "TRANSNET S.A.",
+  "rubro": "Transmision y distribucion de energía eléctrica",
+  "tier": "GRANDE",
+  "region": "Biobío",
+  "residuos_t": 1890.18
+ },
+ {
+  "empresa": "COSEMAR S A",
+  "rubro": "Gestor de residuos",
+  "tier": "GRANDE",
+  "region": "Valparaíso",
+  "residuos_t": 1477.2
+ },
+ {
+  "empresa": "EMARESA INGENIEROS Y REPRESENTACIONES S A",
+  "rubro": "Industria manufacturera",
+  "tier": "GRANDE",
+  "region": "Biobío",
+  "residuos_t": 1406.17
+ },
+ {
+  "empresa": "SALMONES MULTIEXPORT S.A.",
+  "rubro": "Pesca",
+  "tier": "GRANDE",
+  "region": "Aysén del Gral. Carlos Ibañez del Campo",
+  "residuos_t": 1197.09
+ },
+ {
+  "empresa": "ENLASA GENERACION CHILE S.A.",
+  "rubro": "Generación de energía",
+  "tier": "GRANDE",
+  "region": "Los Lagos",
+  "residuos_t": 1150.12
+ },
+ {
+  "empresa": "MARINE HARVEST CHILE S A",
+  "rubro": "Pesca",
+  "tier": "GRANDE",
+  "region": "Aysén del Gral. Carlos Ibañez del Campo",
+  "residuos_t": 931.55
+ },
+ {
+  "empresa": "AGRICOLA SUPER LIMITADA",
+  "rubro": "Industria agropecuaria y silvicultura",
+  "tier": "GRANDE",
+  "region": "Valparaíso",
+  "residuos_t": 876.34
+ },
+ {
+  "empresa": "CHILE SEA FOOD S A",
+  "rubro": "Pesca",
+  "tier": "GRANDE",
+  "region": "Aysén del Gral. Carlos Ibañez del Campo",
+  "residuos_t": 763.55
+ },
+ {
+  "empresa": "ABASTIBLE S.A.",
+  "rubro": "Combustibles",
+  "tier": "GRANDE",
+  "region": "Biobío",
+  "residuos_t": 754.3
+ },
+ {
+  "empresa": "SYNGENTA S.A.",
+  "rubro": "Industria agropecuaria y silvicultura",
+  "tier": "GRANDE",
+  "region": "Libertador Gral. Bernardo O'Higgins",
+  "residuos_t": 703.57
+ },
+ {
+  "empresa": "COCA COLA EMBONOR S A",
+  "rubro": "Producción de alimentos",
+  "tier": "GRANDE",
+  "region": "Los Ríos",
+  "residuos_t": 665.19
+ },
+ {
+  "empresa": "CHILECTRA S.A.",
+  "rubro": "Transmision y distribucion de energía eléctrica",
+  "tier": "GRANDE",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 628.21
+ },
+ {
+  "empresa": "PRODUCTOS FERNANDEZ SA",
+  "rubro": "Producción de alimentos",
+  "tier": "GRANDE",
+  "region": "Ñuble",
+  "residuos_t": 540.79
+ },
+ {
+  "empresa": "CHILQUINTA ENERGIA S A",
+  "rubro": "Transmision y distribucion de energía eléctrica",
+  "tier": "GRANDE",
+  "region": "Valparaíso",
+  "residuos_t": 523.43
+ },
+ {
+  "empresa": "WENCO S A",
+  "rubro": "Industria manufacturera",
+  "tier": "GRANDE",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 484.0
+ },
+ {
+  "empresa": "BITUMIX AUSTRAL S.A.",
+  "rubro": "Industria manufacturera",
+  "tier": "GRANDE",
+  "region": "Los Ríos",
+  "residuos_t": 467.17
+ },
+ {
+  "empresa": "SERVICIOS DE ACUICULTURA ACUIMAG SOCIEDAD ANONIMA",
+  "rubro": "Pesca",
+  "tier": "GRANDE",
+  "region": "Magallanes y de la Antártica Chilena",
+  "residuos_t": 464.57
+ },
+ {
+  "empresa": "INVERSIONES ENEX S A",
+  "rubro": "Combustibles",
+  "tier": "GRANDE",
+  "region": "Magallanes y de la Antártica Chilena",
+  "residuos_t": 454.3
+ },
+ {
+  "empresa": "ITT FLUID TECHNOLOGY S A",
+  "rubro": "Industria manufacturera",
+  "tier": "GRANDE",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 435.0
+ },
+ {
+  "empresa": "SAGESA S.A.",
+  "rubro": "Generación de energía",
+  "tier": "GRANDE",
+  "region": "Biobío",
+  "residuos_t": 358.32
+ },
+ {
+  "empresa": "CODELPA CHILE S.A.",
+  "rubro": "Industria manufacturera",
+  "tier": "GRANDE",
+  "region": "Biobío",
+  "residuos_t": 305.19
+ },
+ {
+  "empresa": "ESSBIO S.A.",
+  "rubro": "Gestor de residuos",
+  "tier": "GRANDE",
+  "region": "Biobío",
+  "residuos_t": 296.66
+ },
+ {
+  "empresa": "DEMARCO S A",
+  "rubro": "Gestor de residuos",
+  "tier": "GRANDE",
+  "region": "Biobío",
+  "residuos_t": 296.01
+ },
+ {
+  "empresa": "SOCIEDAD AGRICOLA EL PORVENIR  S A",
+  "rubro": "Industria agropecuaria y silvicultura",
+  "tier": "GRANDE",
+  "region": "Maule",
+  "residuos_t": 222.73
+ },
+ {
+  "empresa": "DOLE CHILE S A",
+  "rubro": "Industria agropecuaria y silvicultura",
+  "tier": "GRANDE",
+  "region": "Maule",
+  "residuos_t": 204.38
+ },
+ {
+  "empresa": "COLCHONES ROSEN SAIC",
+  "rubro": "Industria manufacturera",
+  "tier": "GRANDE",
+  "region": "Araucanía",
+  "residuos_t": 203.38
+ },
+ {
+  "empresa": "VINA CONCHA Y TORO S A",
+  "rubro": "Industria agropecuaria y silvicultura",
+  "tier": "GRANDE",
+  "region": "Maule",
+  "residuos_t": 202.53
+ },
+ {
+  "empresa": "COPEFRUT S A",
+  "rubro": "Industria agropecuaria y silvicultura",
+  "tier": "GRANDE",
+  "region": "Maule",
+  "residuos_t": 198.71
+ },
+ {
+  "empresa": "AGUAS MANQUEHUE S A",
+  "rubro": "Gestor de residuos",
+  "tier": "GRANDE",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 187.44
+ },
+ {
+  "empresa": "SOC ANONIMA VINA SANTA RITA",
+  "rubro": "Industria agropecuaria y silvicultura",
+  "tier": "GRANDE",
+  "region": "Libertador Gral. Bernardo O'Higgins",
+  "residuos_t": 162.65
+ },
+ {
+  "empresa": "FRUTERA SAN FERNANDO SOCIEDAD ANONIMA",
+  "rubro": "Industria agropecuaria y silvicultura",
+  "tier": "GRANDE",
+  "region": "Araucanía",
+  "residuos_t": 157.59
+ },
+ {
+  "empresa": "FULGHUM FIBRES CHILE S A",
+  "rubro": "Industria agropecuaria y silvicultura",
+  "tier": "GRANDE",
+  "region": "Los Ríos",
+  "residuos_t": 128.0
+ },
+ {
+  "empresa": "ESVAL S.A.",
+  "rubro": "Gestor de residuos",
+  "tier": "GRANDE",
+  "region": "Valparaíso",
+  "residuos_t": 127.54
+ },
+ {
+  "empresa": "DISAL CHILE SANITARIOS PORTABLES LIMITADA",
+  "rubro": "Gestor de residuos",
+  "tier": "GRANDE",
+  "region": "Biobío",
+  "residuos_t": 124.76
+ },
+ {
+  "empresa": "BIOMAR CHILE S A",
+  "rubro": "Pesca",
+  "tier": "GRANDE",
+  "region": "Los Lagos",
+  "residuos_t": 123.77
+ },
+ {
+  "empresa": "INDUSTRIA DE ALIMENTOS DOS EN UNO SOCIEDAD ANONIMA",
+  "rubro": "Producción de alimentos",
+  "tier": "GRANDE",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 108.32
+ },
+ {
+  "empresa": "PUERTO AGUIRRE S.A.",
+  "rubro": "Pesca",
+  "tier": "GRANDE",
+  "region": "Aysén del Gral. Carlos Ibañez del Campo",
+  "residuos_t": 88.22
+ },
+ {
+  "empresa": "DEL MONTE FRESH PRODUCE (CHILE) S A",
+  "rubro": "Industria agropecuaria y silvicultura",
+  "tier": "GRANDE",
+  "region": "Valparaíso",
+  "residuos_t": 75.9
+ },
+ {
+  "empresa": "SALMOCONCESIONES S A",
+  "rubro": "Pesca",
+  "tier": "GRANDE",
+  "region": "Los Lagos",
+  "residuos_t": 74.88
+ },
+ {
+  "empresa": "ELEKTRA GENERACION S A",
+  "rubro": "Generación de energía",
+  "tier": "GRANDE",
+  "region": "Los Lagos",
+  "residuos_t": 70.05
+ },
+ {
+  "empresa": "KDM INDUSTRIAL S.A",
+  "rubro": "Gestor de residuos",
+  "tier": "GRANDE",
+  "region": "Biobío",
+  "residuos_t": 60.0
+ },
+ {
+  "empresa": "COAGRA S A",
+  "rubro": "Industria agropecuaria y silvicultura",
+  "tier": "GRANDE",
+  "region": "Los Ríos",
+  "residuos_t": 50.27
+ },
+ {
+  "empresa": "RESITER INDUSTRIAL S.A.",
+  "rubro": "Gestor de residuos",
+  "tier": "GRANDE",
+  "region": "Los Lagos",
+  "residuos_t": 42.5
+ },
+ {
+  "empresa": "ECOFIBRAS S A",
+  "rubro": "Gestor de residuos",
+  "tier": "GRANDE",
+  "region": "Biobío",
+  "residuos_t": 30.0
+ },
+ {
+  "empresa": "AGRISOUTH ESTATES (CHILE) S A",
+  "rubro": "Industria agropecuaria y silvicultura",
+  "tier": "GRANDE",
+  "region": "Maule",
+  "residuos_t": 29.35
+ },
+ {
+  "empresa": "MALTEXCO S A",
+  "rubro": "Producción de alimentos",
+  "tier": "GRANDE",
+  "region": "Biobío",
+  "residuos_t": 28.5
+ },
+ {
+  "empresa": "NUEVOSUR S.A.",
+  "rubro": "Gestor de residuos",
+  "tier": "GRANDE",
+  "region": "Maule",
+  "residuos_t": 27.17
+ },
+ {
+  "empresa": "RECAUCHAJES MINEROS BAILAC LIMITADA",
+  "rubro": "Industria manufacturera",
+  "tier": "GRANDE",
+  "region": "Biobío",
+  "residuos_t": 25.13
+ },
+ {
+  "empresa": "COOP AGRICOLA PISQUERA ELQUI LTDA",
+  "rubro": "Producción de alimentos",
+  "tier": "GRANDE",
+  "region": "Coquimbo",
+  "residuos_t": 21.5
+ },
+ {
+  "empresa": "ACUICOLA PUYUHUAPI S.A.",
+  "rubro": "Pesca",
+  "tier": "GRANDE",
+  "region": "Aysén del Gral. Carlos Ibañez del Campo",
+  "residuos_t": 15.12
+ },
+ {
+  "empresa": "EMPRESAS VITIVINICOLAS S A",
+  "rubro": "Industria agropecuaria y silvicultura",
+  "tier": "GRANDE",
+  "region": "Libertador Gral. Bernardo O'Higgins",
+  "residuos_t": 7.08
+ },
+ {
+  "empresa": "ALIMENTOS EL GLOBO S.A.",
+  "rubro": "Producción de alimentos",
+  "tier": "GRANDE",
+  "region": "Biobío",
+  "residuos_t": 6.24
+ },
+ {
+  "empresa": "LICORES MITJANS S A",
+  "rubro": "Producción de alimentos",
+  "tier": "GRANDE",
+  "region": "Maule",
+  "residuos_t": 0.1
+ },
+ {
+  "empresa": "COMERC Y DISTRIB DE COMBUSTIBLES LUBRICANTES Y AFINES LTDA",
+  "rubro": "Combustibles",
+  "tier": "GRANDE",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "DISTRIBUIDORA DE COMBUSTIBLES Y ACCESORIOS DIGESA LIMITADA",
+  "rubro": "Combustibles",
+  "tier": "GRANDE",
+  "region": "Valparaíso",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "EDUARDO HERRAN Y COMPANIA LIMITADA",
+  "rubro": "Combustibles",
+  "tier": "GRANDE",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "OPERADORA DE ESTACIONES DE SERVICIO OPES LIMITADA,",
+  "rubro": "Combustibles",
+  "tier": "GRANDE",
+  "region": "Los Lagos",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "ROBERTO GUTIERREZ L Y COMPANIA LIMITADA",
+  "rubro": "Combustibles",
+  "tier": "GRANDE",
+  "region": "Biobío",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "ARENEX S.A.",
+  "rubro": "Extracción de minerales",
+  "tier": "GRANDE",
+  "region": "Ñuble",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "ENERGIAS INDUSTRIALES S.A",
+  "rubro": "Generación de energía",
+  "tier": "GRANDE",
+  "region": "Los Lagos",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "CONCEMET SPA",
+  "rubro": "Gestor de residuos",
+  "tier": "GRANDE",
+  "region": "Biobío",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "GESTION ECOLOGICA DE RESIDUOS S A",
+  "rubro": "Gestor de residuos",
+  "tier": "GRANDE",
+  "region": "Araucanía",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "RECICLADOS INDUSTRIALES S.A",
+  "rubro": "Gestor de residuos",
+  "tier": "GRANDE",
+  "region": "Biobío",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "RECUPAC S A",
+  "rubro": "Gestor de residuos",
+  "tier": "GRANDE",
+  "region": "Maule",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "DOSAL HNOS Y CIA LTDA",
+  "rubro": "Industria agropecuaria y silvicultura",
+  "tier": "GRANDE",
+  "region": "Maule",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "MASSAI AGRICULTURAL SERVICES S.A",
+  "rubro": "Industria agropecuaria y silvicultura",
+  "tier": "GRANDE",
+  "region": "Libertador Gral. Bernardo O'Higgins",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "ASFALTOS CHILENOS S A",
+  "rubro": "Industria manufacturera",
+  "tier": "GRANDE",
+  "region": "Biobío",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "PLASTICOS BURGOS SA",
+  "rubro": "Industria manufacturera",
+  "tier": "GRANDE",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "ACUINOVA CHILE S.A., EN QUIEBRA",
+  "rubro": "Pesca",
+  "tier": "GRANDE",
+  "region": "Aysén del Gral. Carlos Ibañez del Campo",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "CULTIVADORA DE SALMONES LINAO  S.A.",
+  "rubro": "Pesca",
+  "tier": "GRANDE",
+  "region": "Los Lagos",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "LANDCATCH CHILE S.A.",
+  "rubro": "Pesca",
+  "tier": "GRANDE",
+  "region": "Biobío",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "MAINSTREAM CHILE S A",
+  "rubro": "Pesca",
+  "tier": "GRANDE",
+  "region": "Aysén del Gral. Carlos Ibañez del Campo",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "PACIFIC SEAFOODS S A",
+  "rubro": "Pesca",
+  "tier": "GRANDE",
+  "region": "Aysén del Gral. Carlos Ibañez del Campo",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "SALMONESAUSTRALES S A",
+  "rubro": "Pesca",
+  "tier": "GRANDE",
+  "region": "Aysén del Gral. Carlos Ibañez del Campo",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "FERNANDEZ",
+  "rubro": "Producción de alimentos",
+  "tier": "GRANDE",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "FOODS COMPANIA DE ALIMENTOS CCU S.A.",
+  "rubro": "Producción de alimentos",
+  "tier": "GRANDE",
+  "region": "Maule",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "ECOBIO SA",
+  "rubro": "Gestor de residuos",
+  "tier": "MEDIANA",
+  "region": "Biobío",
+  "residuos_t": 32497.94
+ },
+ {
+  "empresa": "EXPENDIO DE COMBUSTIBLE Y MINIMARKET CARLOS ALBERTO\n            HERRERA AGUILAR E.",
+  "rubro": "Combustibles",
+  "tier": "MEDIANA",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 21241.29
+ },
+ {
+  "empresa": "HIDALGO E HIJOS LIMITADA",
+  "rubro": "Combustibles",
+  "tier": "MEDIANA",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 21241.29
+ },
+ {
+  "empresa": "ANASAC CHILE S.A.",
+  "rubro": "Producción química",
+  "tier": "MEDIANA",
+  "region": "Araucanía",
+  "residuos_t": 11143.04
+ },
+ {
+  "empresa": "ROCKWOOD LITIO LIMITADA",
+  "rubro": "Extracción de minerales",
+  "tier": "MEDIANA",
+  "region": "Antofagasta",
+  "residuos_t": 10315.5
+ },
+ {
+  "empresa": "LABORATORIOS RECALCINE SA",
+  "rubro": "Producción química",
+  "tier": "MEDIANA",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 3106.35
+ },
+ {
+  "empresa": "BASF CHILE S A",
+  "rubro": "Producción química",
+  "tier": "MEDIANA",
+  "region": "Valparaíso",
+  "residuos_t": 2827.21
+ },
+ {
+  "empresa": "PARQUE EOLICO RENAICO S.P.A",
+  "rubro": "Generación de energía",
+  "tier": "MEDIANA",
+  "region": "Araucanía",
+  "residuos_t": 2642.75
+ },
+ {
+  "empresa": "K + S CHILE S.A.",
+  "rubro": "Industria manufacturera",
+  "tier": "MEDIANA",
+  "region": "Biobío",
+  "residuos_t": 2572.92
+ },
+ {
+  "empresa": "AGUASIN SPA",
+  "rubro": "Producción química",
+  "tier": "MEDIANA",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 2497.78
+ },
+ {
+  "empresa": "RHONA S A",
+  "rubro": "Industria manufacturera",
+  "tier": "MEDIANA",
+  "region": "Valparaíso",
+  "residuos_t": 2138.35
+ },
+ {
+  "empresa": "SIBELCO CHILE LIMITADA",
+  "rubro": "Extracción de minerales",
+  "tier": "MEDIANA",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 1453.25
+ },
+ {
+  "empresa": "RENNER COATINGS CHILE SPA",
+  "rubro": "Industria manufacturera",
+  "tier": "MEDIANA",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 1403.5
+ },
+ {
+  "empresa": "INSTITUTO SANITAS S A",
+  "rubro": "Producción química",
+  "tier": "MEDIANA",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 1133.2
+ },
+ {
+  "empresa": "COMPLEMENTOS SANITARIOS CHILE LTDA",
+  "rubro": "Industria manufacturera",
+  "tier": "MEDIANA",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 1099.2
+ },
+ {
+  "empresa": "INDUSTRIAS METALURGICAS SORENA S A",
+  "rubro": "Producción de metal",
+  "tier": "MEDIANA",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 1092.05
+ },
+ {
+  "empresa": "CEMENTOS BICENTENARIO S.A",
+  "rubro": "Industria manufacturera",
+  "tier": "MEDIANA",
+  "region": "Valparaíso",
+  "residuos_t": 1059.16
+ },
+ {
+  "empresa": "BIO BIO CEMENTOS S.A.",
+  "rubro": "Industria manufacturera",
+  "tier": "MEDIANA",
+  "region": "Valparaíso",
+  "residuos_t": 1003.23
+ },
+ {
+  "empresa": "CENTRO VETERINARIO Y AGRICOLA LTDA",
+  "rubro": "Industria agropecuaria y silvicultura",
+  "tier": "MEDIANA",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 849.57
+ },
+ {
+  "empresa": "ORICA CHILE S A",
+  "rubro": "Producción química",
+  "tier": "MEDIANA",
+  "region": "Antofagasta",
+  "residuos_t": 767.08
+ },
+ {
+  "empresa": "IXOM CHILE S.A.",
+  "rubro": "Producción química",
+  "tier": "MEDIANA",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 766.96
+ },
+ {
+  "empresa": "MECHARV S A",
+  "rubro": "Industria agropecuaria y silvicultura",
+  "tier": "MEDIANA",
+  "region": "Biobío",
+  "residuos_t": 723.1
+ },
+ {
+  "empresa": "VILLALBA S A",
+  "rubro": "Industria manufacturera",
+  "tier": "MEDIANA",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 587.04
+ },
+ {
+  "empresa": "IDEAL S A",
+  "rubro": "Producción de alimentos",
+  "tier": "MEDIANA",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 480.5
+ },
+ {
+  "empresa": "CTI S.A.",
+  "rubro": "Industria manufacturera",
+  "tier": "MEDIANA",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 450.14
+ },
+ {
+  "empresa": "SOPROLE S.A.",
+  "rubro": "Producción de alimentos",
+  "tier": "MEDIANA",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 432.03
+ },
+ {
+  "empresa": "QUIMICA LATINOAMERICANA S A",
+  "rubro": "Producción química",
+  "tier": "MEDIANA",
+  "region": "Biobío",
+  "residuos_t": 411.3
+ },
+ {
+  "empresa": "READY MIX CENTRO S A",
+  "rubro": "Industria manufacturera",
+  "tier": "MEDIANA",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 381.75
+ },
+ {
+  "empresa": "AM EOLICA SARCO SPA",
+  "rubro": "Generación de energía",
+  "tier": "MEDIANA",
+  "region": "Atacama",
+  "residuos_t": 369.0
+ },
+ {
+  "empresa": "LUEJE Y CRIGNOLA LIMITADA",
+  "rubro": "Combustibles",
+  "tier": "MEDIANA",
+  "region": "Valparaíso",
+  "residuos_t": 338.28
+ },
+ {
+  "empresa": "ESTACION DE SERVICIO VINA DEL MAR LTDA",
+  "rubro": "Combustibles",
+  "tier": "MEDIANA",
+  "region": "Valparaíso",
+  "residuos_t": 330.47
+ },
+ {
+  "empresa": "LUBRICANTES Y SERVICIOS BEL-RAY CHILE LIMITADA",
+  "rubro": "Combustibles",
+  "tier": "MEDIANA",
+  "region": "Biobío",
+  "residuos_t": 281.28
+ },
+ {
+  "empresa": "TRANSMISORA ELECTRICA DEL NORTE SA",
+  "rubro": "Transmision y distribucion de energía eléctrica",
+  "tier": "MEDIANA",
+  "region": "Antofagasta",
+  "residuos_t": 276.26
+ },
+ {
+  "empresa": "VEOLIA SU CHILE SA",
+  "rubro": "Gestor de residuos",
+  "tier": "MEDIANA",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 218.12
+ },
+ {
+  "empresa": "DERIS S A",
+  "rubro": "Pesca",
+  "tier": "MEDIANA",
+  "region": "Aysén del Gral. Carlos Ibañez del Campo",
+  "residuos_t": 214.5
+ },
+ {
+  "empresa": "MASONITE CHILE S A",
+  "rubro": "Industria manufacturera",
+  "tier": "MEDIANA",
+  "region": "Biobío",
+  "residuos_t": 210.61
+ },
+ {
+  "empresa": "PINTURAS TAJAMAR S A",
+  "rubro": "Industria manufacturera",
+  "tier": "MEDIANA",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 198.15
+ },
+ {
+  "empresa": "J RIVEROS S A I C",
+  "rubro": "Industria manufacturera",
+  "tier": "MEDIANA",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 155.19
+ },
+ {
+  "empresa": "AUTOMOTRIZ VARONA LIMITADA",
+  "rubro": "Combustibles",
+  "tier": "MEDIANA",
+  "region": "Aysén del Gral. Carlos Ibañez del Campo",
+  "residuos_t": 143.15
+ },
+ {
+  "empresa": "AISLAPOL S.A",
+  "rubro": "Industria manufacturera",
+  "tier": "MEDIANA",
+  "region": "Los Lagos",
+  "residuos_t": 134.25
+ },
+ {
+  "empresa": "ALEJANDRO MADARIAGA Y COMPANIA LIMITADA",
+  "rubro": "Combustibles",
+  "tier": "MEDIANA",
+  "region": "Libertador Gral. Bernardo O'Higgins",
+  "residuos_t": 111.0
+ },
+ {
+  "empresa": "PROQUIEL QUIMICOS LIMITADA",
+  "rubro": "Producción química",
+  "tier": "MEDIANA",
+  "region": "Biobío",
+  "residuos_t": 110.24
+ },
+ {
+  "empresa": "EDIGARDO OJEDA Y CIA LTDA",
+  "rubro": "Combustibles",
+  "tier": "MEDIANA",
+  "region": "Los Lagos",
+  "residuos_t": 108.0
+ },
+ {
+  "empresa": "EOLICA MONTE REDONDO S.A.",
+  "rubro": "Generación de energía",
+  "tier": "MEDIANA",
+  "region": "Biobío",
+  "residuos_t": 101.64
+ },
+ {
+  "empresa": "VIDRIOS LIRQUEN S A",
+  "rubro": "Industria manufacturera",
+  "tier": "MEDIANA",
+  "region": "Biobío",
+  "residuos_t": 94.4
+ },
+ {
+  "empresa": "ECOSTANDARD SPA",
+  "rubro": "Industria manufacturera",
+  "tier": "MEDIANA",
+  "region": "Valparaíso",
+  "residuos_t": 94.3
+ },
+ {
+  "empresa": "CONTRERAS",
+  "rubro": "Combustibles",
+  "tier": "MEDIANA",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 80.3
+ },
+ {
+  "empresa": "DIVERSEY INDUSTRIAL Y COMERCIAL DE CHILE LIMITADA",
+  "rubro": "Industria manufacturera",
+  "tier": "MEDIANA",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 80.0
+ },
+ {
+  "empresa": "BIOMASA CHILE S.A",
+  "rubro": "Gestor de residuos",
+  "tier": "MEDIANA",
+  "region": "Biobío",
+  "residuos_t": 78.0
+ },
+ {
+  "empresa": "CAMBIASO HNOS S A C",
+  "rubro": "Industria manufacturera",
+  "tier": "MEDIANA",
+  "region": "Valparaíso",
+  "residuos_t": 70.78
+ },
+ {
+  "empresa": "COMERCIALIZADORA AGRICOLA Y FORESTAL PINARES LIMITADA",
+  "rubro": "Industria agropecuaria y silvicultura",
+  "tier": "MEDIANA",
+  "region": "Maule",
+  "residuos_t": 67.5
+ },
+ {
+  "empresa": "BIODIVERSA S.A.",
+  "rubro": "Gestor de residuos",
+  "tier": "MEDIANA",
+  "region": "Libertador Gral. Bernardo O'Higgins",
+  "residuos_t": 65.22
+ },
+ {
+  "empresa": "PFIZER CHILE S A",
+  "rubro": "Producción química",
+  "tier": "MEDIANA",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 63.24
+ },
+ {
+  "empresa": "AIR LIQUIDE CHILE S A",
+  "rubro": "Producción química",
+  "tier": "MEDIANA",
+  "region": "Biobío",
+  "residuos_t": 60.71
+ },
+ {
+  "empresa": "COMBUSTIBLES MAM Y COMPANIA LIMITADA",
+  "rubro": "Combustibles",
+  "tier": "MEDIANA",
+  "region": "Valparaíso",
+  "residuos_t": 60.0
+ },
+ {
+  "empresa": "BIOCLEAN S A",
+  "rubro": "Gestor de residuos",
+  "tier": "MEDIANA",
+  "region": "Biobío",
+  "residuos_t": 44.6
+ },
+ {
+  "empresa": "BOTTAI HERMANOS SOCIEDAD ANONIMA",
+  "rubro": "Industria manufacturera",
+  "tier": "MEDIANA",
+  "region": "Arica y Parinacota",
+  "residuos_t": 44.4
+ },
+ {
+  "empresa": "COMISION CHILENA DE ENERGIA NUCLEAR",
+  "rubro": "Generación de energía",
+  "tier": "MEDIANA",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 42.87
+ },
+ {
+  "empresa": "MULTIFRUTA S A",
+  "rubro": "Industria agropecuaria y silvicultura",
+  "tier": "MEDIANA",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 41.78
+ },
+ {
+  "empresa": "COMBUSTIBLE SERVICIO DE TRANSPORTE Y CARGO S A",
+  "rubro": "Combustibles",
+  "tier": "MEDIANA",
+  "region": "Biobío",
+  "residuos_t": 36.6
+ },
+ {
+  "empresa": "WALMART CHILE ALIMENTOS Y SERVICIOS LIMITADA",
+  "rubro": "Producción de alimentos",
+  "tier": "MEDIANA",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 29.28
+ },
+ {
+  "empresa": "LEVADURAS COLLICO S A",
+  "rubro": "Producción de alimentos",
+  "tier": "MEDIANA",
+  "region": "Los Ríos",
+  "residuos_t": 24.91
+ },
+ {
+  "empresa": "POLYTEX S.A.",
+  "rubro": "Industria manufacturera",
+  "tier": "MEDIANA",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 20.37
+ },
+ {
+  "empresa": "LENCK Y COMPANIA",
+  "rubro": "Combustibles",
+  "tier": "MEDIANA",
+  "region": "Coquimbo",
+  "residuos_t": 20.0
+ },
+ {
+  "empresa": "SCHONFFELDT",
+  "rubro": "Combustibles",
+  "tier": "MEDIANA",
+  "region": "Biobío",
+  "residuos_t": 20.0
+ },
+ {
+  "empresa": "FUENZALIDA MOURE Y COMPANIA LIMITADA",
+  "rubro": "Industria agropecuaria y silvicultura",
+  "tier": "MEDIANA",
+  "region": "Maule",
+  "residuos_t": 17.0
+ },
+ {
+  "empresa": "ENVASES PLÁSTICOS TÉCNICOS SPA",
+  "rubro": "Industria manufacturera",
+  "tier": "MEDIANA",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 16.3
+ },
+ {
+  "empresa": "VINOS SANTA EMA SA",
+  "rubro": "Industria agropecuaria y silvicultura",
+  "tier": "MEDIANA",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 14.89
+ },
+ {
+  "empresa": "AROS DEL PACIFICO S A",
+  "rubro": "Industria manufacturera",
+  "tier": "MEDIANA",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 13.25
+ },
+ {
+  "empresa": "ELABORADORA DE ALIMENTOS FRUTALE LIMITADA",
+  "rubro": "Producción de alimentos",
+  "tier": "MEDIANA",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 12.14
+ },
+ {
+  "empresa": "VIU MANENT Y CIA LIMITADA",
+  "rubro": "Producción de alimentos",
+  "tier": "MEDIANA",
+  "region": "Libertador Gral. Bernardo O'Higgins",
+  "residuos_t": 10.14
+ },
+ {
+  "empresa": "MARTINEZ",
+  "rubro": "Producción de alimentos",
+  "tier": "MEDIANA",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 10.0
+ },
+ {
+  "empresa": "FABRICA DE ENVASES PLASTICOS SERVIFORM SPA",
+  "rubro": "Industria manufacturera",
+  "tier": "MEDIANA",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 5.8
+ },
+ {
+  "empresa": "DORIN SERVICIOS LIMITADA",
+  "rubro": "Gestor de residuos",
+  "tier": "MEDIANA",
+  "region": "Los Lagos",
+  "residuos_t": 3.99
+ },
+ {
+  "empresa": "HORTIFRUT CHILE S A",
+  "rubro": "Industria agropecuaria y silvicultura",
+  "tier": "MEDIANA",
+  "region": "Araucanía",
+  "residuos_t": 2.82
+ },
+ {
+  "empresa": "SOFRUCO ALIMENTOS LIMITADA",
+  "rubro": "Producción de alimentos",
+  "tier": "MEDIANA",
+  "region": "Libertador Gral. Bernardo O'Higgins",
+  "residuos_t": 2.39
+ },
+ {
+  "empresa": "ELECNOR CHILE S A",
+  "rubro": "Generación de energía",
+  "tier": "MEDIANA",
+  "region": "Ñuble",
+  "residuos_t": 0.6
+ },
+ {
+  "empresa": "SEAFOOD RESOURCES CHILE S A",
+  "rubro": "Producción de alimentos",
+  "tier": "MEDIANA",
+  "region": "Valparaíso",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "KIMBERLY-CLARK CHILE S.A.",
+  "rubro": "Papel y celulosa",
+  "tier": "MEDIANA",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "ARTEAGA",
+  "rubro": "Combustibles",
+  "tier": "MEDIANA",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "DISTRIB DE COMBUSTIBLES Y LUBRICANTES QUELLON LTDA",
+  "rubro": "Combustibles",
+  "tier": "MEDIANA",
+  "region": "Los Lagos",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "INTERGAS S A",
+  "rubro": "Combustibles",
+  "tier": "MEDIANA",
+  "region": "Araucanía",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "LACAZETTE",
+  "rubro": "Combustibles",
+  "tier": "MEDIANA",
+  "region": "Biobío",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "METROGAS S A",
+  "rubro": "Combustibles",
+  "tier": "MEDIANA",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "SERVINTEGRA SPA",
+  "rubro": "Combustibles",
+  "tier": "MEDIANA",
+  "region": "Los Lagos",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "VENTA COMISIONISTA COMBUSTIBLE Y LUBRICANTES LIMITADA",
+  "rubro": "Combustibles",
+  "tier": "MEDIANA",
+  "region": "Biobío",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "ARIDOS DOWLING & SCHILLING S.A.",
+  "rubro": "Extracción de minerales",
+  "tier": "MEDIANA",
+  "region": "Los Lagos",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "MINERA ALTOS DE PUNITAQUI LIMITADA.",
+  "rubro": "Extracción de minerales",
+  "tier": "MEDIANA",
+  "region": "Coquimbo",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "ARAUCO BIOENERGIA S.A.",
+  "rubro": "Generación de energía",
+  "tier": "MEDIANA",
+  "region": "Biobío",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "AFIPA ASOCIADOS S A",
+  "rubro": "Gestor de residuos",
+  "tier": "MEDIANA",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "ECO LOGICA S A",
+  "rubro": "Gestor de residuos",
+  "tier": "MEDIANA",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "RECUPERADORA DE EXCEDENTES INDUSTRIALES NORTE VERDE SPA",
+  "rubro": "Gestor de residuos",
+  "tier": "MEDIANA",
+  "region": "Coquimbo",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "AGROORGANICOS MOSTAZAL LIMITADA",
+  "rubro": "Industria agropecuaria y silvicultura",
+  "tier": "MEDIANA",
+  "region": "Libertador Gral. Bernardo O'Higgins",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "AVICOLA ANDINA SPA",
+  "rubro": "Industria agropecuaria y silvicultura",
+  "tier": "MEDIANA",
+  "region": "Valparaíso",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "INDUSTRIALIZADORA AGRICOLA SPA",
+  "rubro": "Industria agropecuaria y silvicultura",
+  "tier": "MEDIANA",
+  "region": "Libertador Gral. Bernardo O'Higgins",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "LIRA, GARNHAM Y COMPANIA LIMITADA",
+  "rubro": "Industria agropecuaria y silvicultura",
+  "tier": "MEDIANA",
+  "region": "Libertador Gral. Bernardo O'Higgins",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "MADERAS JAIME VENTURELLI Y COMPANIA LTDA",
+  "rubro": "Industria agropecuaria y silvicultura",
+  "tier": "MEDIANA",
+  "region": "Araucanía",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "MARAMBIO LTDA",
+  "rubro": "Industria agropecuaria y silvicultura",
+  "tier": "MEDIANA",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "PABLO MASSOUD L Y COMPANIA LIMITADA",
+  "rubro": "Industria agropecuaria y silvicultura",
+  "tier": "MEDIANA",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "TERRAMATER S A",
+  "rubro": "Industria agropecuaria y silvicultura",
+  "tier": "MEDIANA",
+  "region": "Maule",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "ALUSA CHILE S.A.",
+  "rubro": "Industria manufacturera",
+  "tier": "MEDIANA",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "ASERRADERO VICTORIA S A",
+  "rubro": "Industria manufacturera",
+  "tier": "MEDIANA",
+  "region": "Araucanía",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "DE VICENTE PLASTICOS S A",
+  "rubro": "Industria manufacturera",
+  "tier": "MEDIANA",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "FCA PAVIMENTOS Y REVESTIMIENTOS BUDNIK HNOS S A",
+  "rubro": "Industria manufacturera",
+  "tier": "MEDIANA",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "HILADOS Y TEJIDOS GARIB SA",
+  "rubro": "Industria manufacturera",
+  "tier": "MEDIANA",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "HORMIGONES BICENTENARIO S.A.",
+  "rubro": "Industria manufacturera",
+  "tier": "MEDIANA",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "MADECO MILLS S.A.",
+  "rubro": "Industria manufacturera",
+  "tier": "MEDIANA",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "OXFORD S A",
+  "rubro": "Industria manufacturera",
+  "tier": "MEDIANA",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "PAREX CHILE LIMITADA",
+  "rubro": "Industria manufacturera",
+  "tier": "MEDIANA",
+  "region": "Biobío",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "PLANTAS POLPAICO DEL PACIFICO LIMITADA",
+  "rubro": "Industria manufacturera",
+  "tier": "MEDIANA",
+  "region": "Biobío",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "TALLERES METALURGICOS CHILE SA",
+  "rubro": "Industria manufacturera",
+  "tier": "MEDIANA",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "UNITED PLASTIC CORPORATION S.A.",
+  "rubro": "Industria manufacturera",
+  "tier": "MEDIANA",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "MULTIEXPORT PACIFIC FARMS S.A.",
+  "rubro": "Pesca",
+  "tier": "MEDIANA",
+  "region": "Los Lagos",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "FRIGORIFICO CAMER LIMITADA",
+  "rubro": "Producción de alimentos",
+  "tier": "MEDIANA",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "LE MAGUERESSE E HIJO Y COMPANIA LIMITADA",
+  "rubro": "Producción de alimentos",
+  "tier": "MEDIANA",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "MOLINO BALMACEDA S A",
+  "rubro": "Producción de alimentos",
+  "tier": "MEDIANA",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "NEOLNEOL",
+  "rubro": "Producción de alimentos",
+  "tier": "MEDIANA",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "PANADERIA Y GASTRONOMIA RODRIGO MORENO ZAPATA EIRL",
+  "rubro": "Producción de alimentos",
+  "tier": "MEDIANA",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "PANIFICADORA BAZTAN LIMITADA",
+  "rubro": "Producción de alimentos",
+  "tier": "MEDIANA",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "QUINTANA",
+  "rubro": "Producción de alimentos",
+  "tier": "MEDIANA",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "RENE ROA Y COMPANIA LIMITADA",
+  "rubro": "Producción de alimentos",
+  "tier": "MEDIANA",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "TECNOLOGIA Y ALIMENTOS LTDA",
+  "rubro": "Producción de alimentos",
+  "tier": "MEDIANA",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "ZUNIGA",
+  "rubro": "Producción de alimentos",
+  "tier": "MEDIANA",
+  "region": "Metropolitana de Santiago",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "SALOMON SACK S A",
+  "rubro": "Producción de metal",
+  "tier": "MEDIANA",
+  "region": "Araucanía",
+  "residuos_t": 0
+ },
+ {
+  "empresa": "ENORCHILE S A",
+  "rubro": "Transmision y distribucion de energía eléctrica",
+  "tier": "MEDIANA",
+  "region": "Libertador Gral. Bernardo O'Higgins",
+  "residuos_t": 0
+ }
+]
