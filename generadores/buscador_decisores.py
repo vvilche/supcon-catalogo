@@ -444,6 +444,14 @@ def main():
     for e in pend:
         r = buscar(e["empresa"], con_web=a.web)
         acc[e["empresa"]] = r
+        # GUARDAR EMPRESA POR EMPRESA: sin esto, un corte pierde toda la corrida
+        # (bug medido: se pidieron 200 empresas y el archivo quedó con 70).
+        json.dump({"que_es": "Buscador multi-fuente de decisores por empresa.",
+                   "fuentes": ["Direcmin /ejecutivos (93 mineras)",
+                               "Transparencia (empresas del Estado)",
+                               "Web search / LinkedIn"],
+                   "total_empresas": len(acc), "resultados": list(acc.values())},
+                  open(OUT, "w"), ensure_ascii=False, indent=1)
         print(f"  {r['n_decisores']:>3} decisores | {e['empresa'][:44]:46s} {', '.join(r['fuentes_usadas'])[:44]}")
     json.dump({"que_es": "Buscador multi-fuente de decisores por empresa.",
                "fuentes": ["Direcmin /ejecutivos (93 mineras)",
