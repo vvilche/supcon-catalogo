@@ -5,7 +5,7 @@
   "Transparencia (empresas del Estado)",
   "Web search / LinkedIn"
  ],
- "total_empresas": 188,
+ "total_empresas": 204,
  "resultados": [
   {
    "empresa": "Guacolda Energia Spa",
@@ -8290,6 +8290,928 @@
    "notas": [],
    "n_decisores": 1,
    "n_relevantes": 1
+  },
+  {
+   "empresa": "Central Yungay S.A",
+   "hallazgos": [
+    {
+     "nombre": "Christian Cáceres Meneses",
+     "cargo": "Gerente General",
+     "fuente": "direcmin.com/minera-valle-central/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Benjamín Campos Ordaz",
+     "cargo": "Gerente de Continuidad Operacional",
+     "fuente": "direcmin.com/minera-valle-central/ejecutivos",
+     "relevante": false
+    },
+    {
+     "nombre": "Javier Tapia Ávila",
+     "cargo": "Gerente de Administración y Finanzas",
+     "fuente": "direcmin.com/minera-valle-central/ejecutivos",
+     "relevante": false
+    },
+    {
+     "nombre": "Alfonso Burgos Quilamán",
+     "cargo": "Subgerente de Operaciones Planta",
+     "fuente": "direcmin.com/minera-valle-central/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Felipe Noriega Álvarez",
+     "cargo": "Subgerente de Operaciones Relaves y Molibdeno",
+     "fuente": "direcmin.com/minera-valle-central/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Simón Campos Rivera",
+     "cargo": "Subgerente de Mantenimiento",
+     "fuente": "direcmin.com/minera-valle-central/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Francisco Reyes Jara",
+     "cargo": "Subgerente de Sustentabilidad",
+     "fuente": "direcmin.com/minera-valle-central/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "José Miguel Parraguez Fontalba",
+     "cargo": "Subgerente de Recursos Humanos",
+     "fuente": "direcmin.com/minera-valle-central/ejecutivos",
+     "relevante": false
+    },
+    {
+     "nombre": "Julio Leiva Sánchez",
+     "cargo": "Gerente de Producción",
+     "fuente": "direcmin.com/minera-valle-central/ejecutivos",
+     "relevante": false
+    },
+    {
+     "nombre": "Eugenio Espinosa Lynch",
+     "cargo": "Subgerente de Sustentabilidad",
+     "fuente": "direcmin.com/minera-valle-central/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Enrique Correa",
+     "cargo": "Subgerente de Control de Gestión y Cumplimiento",
+     "fuente": "direcmin.com/minera-valle-central/ejecutivos",
+     "relevante": false
+    },
+    {
+     "nombre": "Rodrigo Eyzaguirre",
+     "cargo": "MBA Plant Manager / Project Manager Mechanical Engineer. Experience in Operation & Mainten",
+     "linkedin": "https://pe.linkedin.com/in/rodrigo-eyzaguirre-98725b21",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "María Teresa Parra Osses",
+     "cargo": "Gerente Medio Ambiente",
+     "linkedin": "https://cl.linkedin.com/in/mtpo-78649547",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    }
+   ],
+   "fuentes_usadas": [
+    "Direcmin (minera-valle-central): 11",
+    "LinkedIn: 2"
+   ],
+   "notas": [],
+   "n_decisores": 13,
+   "n_relevantes": 8
+  },
+  {
+   "empresa": "Procesos Industriales Crowan Uno Limitada",
+   "hallazgos": [
+    {
+     "nombre": "Severo Bedriñana Manyavilca",
+     "cargo": "Ingeniero Mecánico",
+     "linkedin": "https://pe.linkedin.com/in/severobedri%C3%B1ana",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "César R.",
+     "cargo": "Jefe de operaciones granel",
+     "linkedin": "https://cl.linkedin.com/in/c%C3%A9sar-reyesalvarez",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    }
+   ],
+   "fuentes_usadas": [
+    "LinkedIn: 2"
+   ],
+   "notas": [],
+   "n_decisores": 2,
+   "n_relevantes": 2
+  },
+  {
+   "empresa": "Santa Teresa S. A.",
+   "hallazgos": [
+    {
+     "nombre": "Andres Chumaceiro V.",
+     "cargo": "Chief Operating Officer in C.A. Ron Santa Teresa",
+     "linkedin": "https://ve.linkedin.com/in/andres-chumaceiro-v-9563514a",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "frederic hermoso",
+     "cargo": "tecnico en instrumentacion y control",
+     "linkedin": "https://ve.linkedin.com/in/frederic-hermoso-213823167",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Fredy Acevedo",
+     "cargo": "Experto en espumado con poliuretano",
+     "linkedin": "https://co.linkedin.com/in/fredy-acevedo-96254497",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "María Teresa Parra Osses",
+     "cargo": "Gerente Medio Ambiente",
+     "linkedin": "https://cl.linkedin.com/in/mtpo-78649547",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Flor Guerra",
+     "cargo": "Ingeniero Ambiental de C.A. Ron Santa Teresa/",
+     "linkedin": "https://ve.linkedin.com/in/flor-guerra-39765a98",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Jaime Yáñez",
+     "cargo": "Gerente Técnico Santa Teresa SpA",
+     "linkedin": "https://cl.linkedin.com/in/jaime-y%C3%A1%C3%B1ez-5827b36a",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Natalia Nunes",
+     "cargo": "Gerente de Recursos Humanos en C.A. Ron Santa Teresa | Licenciada en Relaciones Industrial",
+     "linkedin": "https://ve.linkedin.com/in/mnatalianunesv",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    }
+   ],
+   "fuentes_usadas": [
+    "LinkedIn: 9"
+   ],
+   "notas": [],
+   "n_decisores": 7,
+   "n_relevantes": 7
+  },
+  {
+   "empresa": "Toralla Sociedad Anonima",
+   "hallazgos": [
+    {
+     "nombre": "Saile Colin Valenzuela",
+     "cargo": "Jefe de Administración y Finanzas en Toralla S.A.",
+     "linkedin": "https://cl.linkedin.com/in/saile-colin-valenzuela-b0688539",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Claudio Salazar Heredia",
+     "cargo": "Jefe produccion Cultivos Toralla S.A",
+     "linkedin": "https://cl.linkedin.com/in/claudio-salazar-heredia-b87405194",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "jaime pino",
+     "cargo": "Soldador en toralla sociedad anonima",
+     "linkedin": "https://cl.linkedin.com/in/jaime-pino-58b585150",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Cesar Rodriguez",
+     "cargo": "Jefe de mantenimiento en Toralla S.A.",
+     "linkedin": "https://cl.linkedin.com/in/cesar-rodriguez-b3528a202",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "De Lara Juan",
+     "cargo": "Subgerente General en Cultivos Toralla, S.A.",
+     "linkedin": "https://cl.linkedin.com/in/de-lara-juan-78a4146b",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    }
+   ],
+   "fuentes_usadas": [
+    "LinkedIn: 7"
+   ],
+   "notas": [],
+   "n_decisores": 5,
+   "n_relevantes": 5
+  },
+  {
+   "empresa": "Salmones Cailin S.A.",
+   "hallazgos": [
+    {
+     "nombre": "Samuel Burgos",
+     "cargo": "jefe de instrumentacion",
+     "linkedin": "https://cl.linkedin.com/in/samuel-burgos-8541a3226",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Cailin Sauve",
+     "cargo": "Senior Social Media Specialist | Hilton Grand Vacations",
+     "linkedin": "https://www.linkedin.com/in/cailin-sauve-45499b189",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    }
+   ],
+   "fuentes_usadas": [
+    "LinkedIn: 2"
+   ],
+   "notas": [],
+   "n_decisores": 2,
+   "n_relevantes": 2
+  },
+  {
+   "empresa": "Noracid Sa",
+   "hallazgos": [
+    {
+     "nombre": "Juan Nuñez Baeza",
+     "cargo": "Subgerente de Mantenimiento Mayor en Noracid S.A.",
+     "linkedin": "https://cl.linkedin.com/in/juan-nu%C3%B1ez-baeza",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Boris Pivalica Negrete",
+     "cargo": "Jefe Mantenimiento Mecánico en Noracid SA",
+     "linkedin": "https://cl.linkedin.com/in/boris-pivalica-negrete-676609109",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Sergio Gatica B.",
+     "cargo": "Jefe de Mantención Mecanica, Planeación y Confiabilidad en Noracid S.A",
+     "linkedin": "https://cl.linkedin.com/in/sergio-gatica",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Vicente Espinoza Castro",
+     "cargo": "Ingeniero Programador y Control de Gestión en área de Mantenimiento Mayor en Noracid S.A.",
+     "linkedin": "https://cl.linkedin.com/in/vicente-espinoza-castro",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Alejandro Contreras Mardones",
+     "cargo": "Ingeniero en Automatización y Control automático",
+     "linkedin": "https://cl.linkedin.com/in/alejandro-contreras-mardones-34a022101",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Rodolfo Miranda, Jefe de Proyectos e Ingeniería,",
+     "cargo": "Máster en Gestión de Riesgos EALDE Business School.",
+     "linkedin": "https://cl.linkedin.com/in/rodolfomirandapmp",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    }
+   ],
+   "fuentes_usadas": [
+    "LinkedIn: 7"
+   ],
+   "notas": [],
+   "n_decisores": 6,
+   "n_relevantes": 6
+  },
+  {
+   "empresa": "Fruticola Olmue Spa",
+   "hallazgos": [
+    {
+     "nombre": "José Miguel Cruz Balmaceda",
+     "cargo": "Gerente Comercial en Fruticola Olmue SpA - Empresas Sutil",
+     "linkedin": "https://cl.linkedin.com/in/jos%C3%A9-miguel-cruz-balmaceda-9824b42b",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Alex Riquelme Díaz",
+     "cargo": "Gerente de Producción y Planificacion en Frutícola Olmué",
+     "linkedin": "https://cl.linkedin.com/in/alex-riquelme-d%C3%ADaz-38563559",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Carlos Valdés Pardo",
+     "cargo": "Jefe de adquisiciones en Frutícola Olmué SpA",
+     "linkedin": "https://cl.linkedin.com/in/carlos-vald%C3%A9s-pardo-3013086b",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Carlos Diaz Olalde",
+     "cargo": "Gerente de Administración y Finanzas / CFO en Frutícola Olmué",
+     "linkedin": "https://cl.linkedin.com/in/carlos-diaz-olalde-b9836b163",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Gonzalo Suazo Figueroa",
+     "cargo": "Gerente de abastecimiento Agrícola en Frutícola Olmue",
+     "linkedin": "https://cl.linkedin.com/in/gonzalo-suazo-figueroa-94800640",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Christian miranda",
+     "cargo": "Jefe de planta en Fruticola Olmue SpA",
+     "linkedin": "https://cl.linkedin.com/in/christian-miranda-03a421163",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Pedro Díaz",
+     "cargo": "Jefe de Recepción de materias primas y jefe de patio en Frutícola Olmué SpA",
+     "linkedin": "https://cl.linkedin.com/in/pedro-d%C3%ADaz-186b77159",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    }
+   ],
+   "fuentes_usadas": [
+    "LinkedIn: 8"
+   ],
+   "notas": [],
+   "n_decisores": 7,
+   "n_relevantes": 7
+  },
+  {
+   "empresa": "Tresmontes S.A",
+   "hallazgos": [
+    {
+     "nombre": "Gabriel Villagra",
+     "cargo": "Supervisor de mantenimiento en Tresmontes Lucchetti S.A - Grupo Empresarial Nutresa",
+     "linkedin": "https://cl.linkedin.com/in/gabriel-villagra-2b16b31a4",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Jorge Rocco Arancibia",
+     "cargo": "Jefe de mantenimiento y servicios Tresmontes Lucchetti S.A - Grupo Empresarial Nutresa",
+     "linkedin": "https://cl.linkedin.com/in/jorge-rocco-arancibia-21bab1141",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Marcelo Quiroga",
+     "cargo": "Jefe de Mantenimiento en Tresmontes Lucchetti Chile",
+     "linkedin": "https://cl.linkedin.com/in/marcelo-quiroga-56a88547",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Roberto Isla Pollinger",
+     "cargo": "Gerente de Logística at Tresmontes Lucchetti S.A - Grupo Empresarial NUTRESA",
+     "linkedin": "https://cl.linkedin.com/in/roberto-isla-pollinger-30a10017",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Gonzalo Atlagich Cerda",
+     "cargo": "Gerente de Ingeniería en Tresmontes Lucchetti S.A - Grupo Empresarial Nutresa",
+     "linkedin": "https://cl.linkedin.com/in/gonzalo-atlagich-cerda-729670109",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "María José Espinoza",
+     "cargo": "Jefa de Desarrollo Humano y Organizacional en Tresmontes Lucchetti S.A - Grupo Empresarial",
+     "linkedin": "https://cl.linkedin.com/in/mar%C3%ADa-jos%C3%A9-espinoza-5b732025",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Brian Oropeza Jimenez",
+     "cargo": "Jefe de Ingenieria y Mantenimiento  en Tresmontes Lucchetti - Nutresa - Región México",
+     "linkedin": "https://mx.linkedin.com/in/brian-oropeza-jimenez-b1911a167",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Luis Felipe De Pablo Zuñiga",
+     "cargo": "Gerente de Cuentas Zona Norte Tresmontes Lucchetti",
+     "linkedin": "https://cl.linkedin.com/in/luis-felipe-de-pablo-zu%C3%B1iga-34476215",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Andrés Sepúlveda",
+     "cargo": "Gerente de Marketing y Trade Marketing en Tresmontes Lucchetti S.A - Grupo Empresarial Nut",
+     "linkedin": "https://cl.linkedin.com/in/andres-sepulveda",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Tomás Gumucio Zegers",
+     "cargo": "Gerente de Personas Tresmontes Lucchetti - Grupo Nutresa",
+     "linkedin": "https://cl.linkedin.com/in/tom%C3%A1s-gumucio-zegers-016a8a17",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    }
+   ],
+   "fuentes_usadas": [
+    "LinkedIn: 13"
+   ],
+   "notas": [],
+   "n_decisores": 10,
+   "n_relevantes": 10
+  },
+  {
+   "empresa": "Universidad Austral De Chile",
+   "hallazgos": [
+    {
+     "nombre": "Ulises Navea Diaz",
+     "cargo": "Gerente de Mantenimiento y Proyectos en Fiordo Austral",
+     "linkedin": "https://cl.linkedin.com/in/ulises-navea-diaz-1b4239303",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Claudia C.",
+     "cargo": "Gerente de Mantenimiento",
+     "linkedin": "https://cl.linkedin.com/in/claudia-c-b4892628",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Marcelo Aguila",
+     "cargo": "Estudiante en Universidad Austral de Chile",
+     "linkedin": "https://cl.linkedin.com/in/marcelo-aguila-a78363200",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "alejandro L.",
+     "cargo": "Superintendente / Subgerente Mantenimiento",
+     "linkedin": "https://cl.linkedin.com/in/alejandro-l-272b9a58",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Roberto Luna",
+     "cargo": "Supervisor de mantenimiento Watt´s",
+     "linkedin": "https://cl.linkedin.com/in/roberto-luna-39133b10b",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Cristian Rubio",
+     "cargo": "Ingeniero comercial Universidad Austral de Chile",
+     "linkedin": "https://cl.linkedin.com/in/cristian-rubio-5a3a4254",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Felix Fuders",
+     "cargo": "Director, Economics Institute, Universidad Austral de Chile",
+     "linkedin": "https://cl.linkedin.com/in/felix-fuders-558b6276/es",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Danilo Pérez Garrido",
+     "cargo": "Ingeniero Instrumentación y Control",
+     "linkedin": "https://cl.linkedin.com/in/daniloopg",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Benjamin Ordenes",
+     "cargo": "Ingeniero en CODELCO – Corporación Nacional del Cobre de Chile",
+     "linkedin": "https://cl.linkedin.com/in/benjamin-ordenes-43873413b",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "pablo garcia marchant",
+     "cargo": "Estudiante de Universidad Austral de Chile",
+     "linkedin": "https://cl.linkedin.com/in/pablo-garcia-marchant-89a0aa1b",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Claudia Campillay",
+     "cargo": "Directora de Medio Ambiente en Chile desde el ADN",
+     "linkedin": "https://cl.linkedin.com/in/claudia-campillay-66872142",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Daniela Ruiz",
+     "cargo": "gerente de medio ambiente",
+     "linkedin": "https://cl.linkedin.com/in/daniela-ruiz-b1185982",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Francisco Mauricio Niefercol Roca",
+     "cargo": "Medio ambiente",
+     "linkedin": "https://cl.linkedin.com/in/francisco-mauricio-niefercol-roca-092a6ab9",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Esteban Herrera",
+     "cargo": "Gerente General GesAmbiental SpA",
+     "linkedin": "https://cl.linkedin.com/in/esteban-herrera-61b86b72",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Mathias Hüne",
+     "cargo": "Biólogo Marino",
+     "linkedin": "https://cl.linkedin.com/in/mathias-h%C3%BCne-32361a72",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    }
+   ],
+   "fuentes_usadas": [
+    "LinkedIn: 15"
+   ],
+   "notas": [],
+   "n_decisores": 15,
+   "n_relevantes": 15
+  },
+  {
+   "empresa": "Central Colmito S.A.",
+   "hallazgos": [
+    {
+     "nombre": "José Larrondo Carrillo",
+     "cargo": "gerente de mantenimiento",
+     "linkedin": "https://cl.linkedin.com/in/jos%C3%A9-larrondo-carrillo-4523b967",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Sc Colmito Sala Control Colmito",
+     "cargo": "central generadora at Central termica Colmito ltda",
+     "linkedin": "https://www.linkedin.com/in/sc-colmito-sala-control-colmito-7580a3b1",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    }
+   ],
+   "fuentes_usadas": [
+    "LinkedIn: 2"
+   ],
+   "notas": [],
+   "n_decisores": 2,
+   "n_relevantes": 2
+  },
+  {
+   "empresa": "Acuicola Del Norte S A",
+   "hallazgos": [
+    {
+     "nombre": "DANIEL FEDERICO ELTON HEAVEY",
+     "cargo": "GERENTE GENERAL en ACUICOLA DEL NORTE S.A.",
+     "linkedin": "https://cl.linkedin.com/in/daniel-federico-elton-heavey-69b37196",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Juan Enrique Gaete Larraín",
+     "cargo": "Hatchery Manager Seriola lalandi Acuinor.cl",
+     "linkedin": "https://cl.linkedin.com/in/juan-enrique-gaete-larra%C3%ADn-90560054",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Carlos Cortes",
+     "cargo": "Aquaculture engineer, with extensive experience in university teaching and applied researc",
+     "linkedin": "https://cl.linkedin.com/in/karloskortes/en",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    }
+   ],
+   "fuentes_usadas": [
+    "LinkedIn: 5"
+   ],
+   "notas": [],
+   "n_decisores": 3,
+   "n_relevantes": 3
+  },
+  {
+   "empresa": "Salmones Pacific Star S A",
+   "hallazgos": [
+    {
+     "nombre": "Gmo Davidson",
+     "cargo": "Jefe Departamento de Mantencion en Salmones Pacific Star S.A.",
+     "linkedin": "https://cl.linkedin.com/in/gmo-davidson-46652251",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Andrés Rosa Koelichen",
+     "cargo": "Gerente Técnico en Salmones Pacific Star",
+     "linkedin": "https://cl.linkedin.com/in/andr%C3%A9s-rosa-koelichen-1b407951",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Rene Fernandez",
+     "cargo": "Jefe de Administración en Salmones Pacific Star S.A.",
+     "linkedin": "https://cl.linkedin.com/in/rene-fernandez-65352515",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Milton Castaing Cornejo",
+     "cargo": "Gerente de Recursos Humanos en Salmones Austral S.A. (Trusal S.A. + Salmones Pacific Star",
+     "linkedin": "https://cl.linkedin.com/in/milton-castaing-cornejo-9587a216",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "norman alvarado",
+     "cargo": "trazabilidad.jt calidad.supervisor calidad en salmones pacific star s a",
+     "linkedin": "https://cl.linkedin.com/in/norman-alvarado-290272163",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Galvarino Hinostroza",
+     "cargo": "Gerente Produccion agua dulce en Salmones Pacific Star s.a.",
+     "linkedin": "https://cl.linkedin.com/in/galvarino-hinostroza-a7460115",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Alfonso Flores",
+     "cargo": "Gerente Plantas de Proceso X region en Chileseafoods S.P.A.",
+     "linkedin": "https://cl.linkedin.com/in/alfonso-flores-091a43a9",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Gastón Cortez",
+     "cargo": "CEO en Salmones Pacific Star",
+     "linkedin": "https://cl.linkedin.com/in/gast%C3%B3n-cortez-0930854b",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    }
+   ],
+   "fuentes_usadas": [
+    "LinkedIn: 12"
+   ],
+   "notas": [],
+   "n_decisores": 8,
+   "n_relevantes": 8
+  },
+  {
+   "empresa": "David Del Curto Spa",
+   "hallazgos": [
+    {
+     "nombre": "Marco Carrasco Carmona",
+     "cargo": "Jefe de mantención en DDC - David Del Curto",
+     "linkedin": "https://cl.linkedin.com/in/marco-carrasco-carmona-b3296b303",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Diego Correa Pino",
+     "cargo": "Gerente de Abastecimiento en David Del Curto S.A.",
+     "linkedin": "https://cl.linkedin.com/in/diego-correa-pino-9b98b16a",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Tomas Campos Sotta",
+     "cargo": "Director Comercial en David Del Curto SpA",
+     "linkedin": "https://cl.linkedin.com/in/tomas-campos-sotta-609409284",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Paulo Aceituno",
+     "cargo": "Gerente de Planta en David Del Curto S.A.",
+     "linkedin": "https://cl.linkedin.com/in/paulo-aceituno-97540894",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Juan Pablo Casas R.",
+     "cargo": "David Del Curto - CEO",
+     "linkedin": "https://cl.linkedin.com/in/juan-pablo-casas-r-8672a524",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "David Del Toro",
+     "cargo": "jefe de instrumentacion",
+     "linkedin": "https://www.linkedin.com/in/david-del-toro-4671911",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "David Del Monte",
+     "cargo": "jefe de instrumentacion",
+     "linkedin": "https://www.linkedin.com/in/david-del-monte-550a1a",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "David C.",
+     "cargo": "Executive Search Consultant | Talent Acquisition | Results-Driven | People-Focused | Navy",
+     "linkedin": "https://www.linkedin.com/in/david-c-969806168",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Johanna Espinoza Burgos",
+     "cargo": "Sub Gerente de Sustentabilidad e Inocuidad Alimentaria David Del Curto Spa.",
+     "linkedin": "https://cl.linkedin.com/in/johanna-espinoza-burgos-915879260",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    }
+   ],
+   "fuentes_usadas": [
+    "LinkedIn: 12"
+   ],
+   "notas": [],
+   "n_decisores": 9,
+   "n_relevantes": 9
+  },
+  {
+   "empresa": "Patagonia Salmon Farming S A",
+   "hallazgos": [
+    {
+     "nombre": "Janal Cruz",
+     "cargo": "VP of Operations at Guayaki, SRP",
+     "linkedin": "https://www.linkedin.com/in/janal-cruz-b30544a0",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "JAIME GUZMAN ANTONIN",
+     "cargo": "gerente de medio ambiente",
+     "linkedin": "https://ca.linkedin.com/in/jaime-guzman-antonin-a1b2bb51",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    }
+   ],
+   "fuentes_usadas": [
+    "LinkedIn: 2"
+   ],
+   "notas": [],
+   "n_decisores": 2,
+   "n_relevantes": 2
+  },
+  {
+   "empresa": "Alto Maipo Spa",
+   "hallazgos": [
+    {
+     "nombre": "Sergio Garcia Arenas",
+     "cargo": "Gerente de Planta | Gerente de Mantenimiento | Gerente Operaciones",
+     "linkedin": "https://cl.linkedin.com/in/sergio-garcia-arenas-bb733536",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Giorgio Piaggio",
+     "cargo": "Tunnel Engineer",
+     "linkedin": "https://cl.linkedin.com/in/giorgio-piaggio-24a27248",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Rodolfo Martinez",
+     "cargo": "Jefe de operaciones Proyecto Hidroeléctrico Alto Maipo. en AES",
+     "linkedin": "https://cl.linkedin.com/in/rodolfo-martinez-15a08890",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Roberto A. Wörner Bustos",
+     "cargo": "Deputy Manager of Occupational Safety-Health / Leader of Occupational Safety-Health at PHA",
+     "linkedin": "https://cl.linkedin.com/in/robertoarielwornerbustos/en",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "MARCELO MORALES",
+     "cargo": "Gerente de Operaciones | Director de Operaciones | Gerente de Innovación & Mantenimiento |",
+     "linkedin": "https://cl.linkedin.com/in/marcelo-morales-247b5b25",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Leandro Melo",
+     "cargo": "Jefe de Aseguramiento y Control de Calidad, Proyecto Hidroeléctrico Alto Maipo. RyQ Ingeni",
+     "linkedin": "https://cl.linkedin.com/in/leandro-melo-58a97538",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Ivan Arancibia Caceres",
+     "cargo": "tecnico electricista strabag alto maipo",
+     "linkedin": "https://cl.linkedin.com/in/ivan-arancibia-caceres-78345050",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Nelson Saieg Paez",
+     "cargo": "Gerente, Director, medio ambiente, permisos, energías renovables, evaluación ambiental, de",
+     "linkedin": "https://cl.linkedin.com/in/nelson-saieg-paez-893a4714",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Maritza del Pilar Moya Cáceres",
+     "cargo": "Control Medio Ambiente en Proyecto Hidroeléctrico Alto Maipo",
+     "linkedin": "https://cl.linkedin.com/in/maritza-del-pilar-moya-c%C3%A1ceres-b8088975",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Sebastián Ignacio M.",
+     "cargo": "Gerente de Sostenibilidad, ESG y Cumplimiento Regulatorio | MBA | Ing. Civil Industrial &",
+     "linkedin": "https://cl.linkedin.com/in/smaldonadoc",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Cristian Ramirez C.",
+     "cargo": "Jefe Asuntos Legales Ambientales en Prime Energia SpA",
+     "linkedin": "https://cl.linkedin.com/in/cristian-ramirez-c-5192a467",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    }
+   ],
+   "fuentes_usadas": [
+    "LinkedIn: 14"
+   ],
+   "notas": [],
+   "n_decisores": 11,
+   "n_relevantes": 11
+  },
+  {
+   "empresa": "Sociedad Proa Ltda",
+   "hallazgos": [
+    {
+     "nombre": "Franco Martinez Gatica",
+     "cargo": "Responsable Area Mantenimiento Grupo PROA",
+     "linkedin": "https://cl.linkedin.com/in/franco-martinez-gatica-a6526b12b",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Benedicto Aguado",
+     "cargo": "Gerente General en Grupo Proa",
+     "linkedin": "https://cl.linkedin.com/in/benedicto-aguado-80712562",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Joaquín Ruedi",
+     "cargo": "Gerente Corporativo de Administración y Finanzas en Empresas PROA S.A.",
+     "linkedin": "https://cl.linkedin.com/in/joaquinruedigonzalez",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "José Miguel Ortúzar A.",
+     "cargo": "Gerente Logística en Grupo Proa",
+     "linkedin": "https://cl.linkedin.com/in/jos%C3%A9-miguel-ort%C3%BAzar-a-1600b819",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Arturo Proa Nieto",
+     "cargo": "Process Enginner- NPI Coordinator en Signify",
+     "linkedin": "https://mx.linkedin.com/in/arturo-proa-nieto-61a135190",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "jorge Balbontin Araneda",
+     "cargo": "coordinodr de calidad y medio ambiente en proa s.a.",
+     "linkedin": "https://cl.linkedin.com/in/jorge-balbontin-araneda-6726521b3",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    }
+   ],
+   "fuentes_usadas": [
+    "LinkedIn: 9"
+   ],
+   "notas": [],
+   "n_decisores": 6,
+   "n_relevantes": 6
   }
  ]
 }

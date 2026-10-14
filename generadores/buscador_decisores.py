@@ -450,6 +450,9 @@ def main():
     ap.add_argument("--lote", type=int)
     ap.add_argument("--web", action="store_true",
                     help="usar también la capa LinkedIn/AIsa (cubre rubros sin directorio)")
+    ap.add_argument("--fuente", default="matriz",
+                    help="de dónde tomar la lista de empresas: 'matriz' (dolor RETC) o "
+                         "'mineras' (los 220 mineros del RETC, que la matriz perdió)")
     a = ap.parse_args()
 
     if a.indice:
@@ -468,9 +471,16 @@ def main():
             print(f"       fuente: {h['fuente'][:70]}")
         return
 
-    # lote: procesar empresas del catálogo
-    m = json.load(open(os.path.join(D, "matriz_dolor_linea_perfil.json"), encoding="utf-8"))
-    emp = sorted(m["empresas"], key=lambda x: -(x.get("carga_peligrosa_t") or 0))
+    # lote: procesar empresas de la fuente elegida
+    if a.fuente == "mineras":
+        mn = json.load(open(os.path.join(D, "mineras_retc.json"), encoding="utf-8"))
+        emp = [{"empresa": x["empresa"], "carga_peligrosa_t": x["respel_t"]}
+               for x in mn["mineras"]]
+        print(f"fuente: mineras del RETC ({len(emp)} empresas, que la matriz había perdido)")
+    else:
+        m = json.load(open(os.path.join(D, "matriz_dolor_linea_perfil.json"), encoding="utf-8"))
+        emp = sorted(m["empresas"], key=lambda x: -(x.get("carga_peligrosa_t") or 0))
+    emp = sorted(emp, key=lambda x: -(x.get("carga_peligrosa_t") or 0))
     acc = {}
     if os.path.exists(OUT):
         try:
@@ -481,6 +491,7 @@ def main():
     print(f"procesando {len(pend)} empresas (ya hechas: {len(acc)})...\n")
     for e in pend:
         r = buscar(e["empresa"], con_web=a.web)
+        r["dolor_t"] = e.get("carga_peligrosa_t") or 0
         acc[e["empresa"]] = r
         # GUARDAR EMPRESA POR EMPRESA: sin esto, un corte pierde toda la corrida
         # (bug medido: se pidieron 200 empresas y el archivo quedó con 70).

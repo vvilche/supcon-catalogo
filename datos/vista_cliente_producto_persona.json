@@ -1,0 +1,1997 @@
+{
+ "que_es": "Vista única por empresa: cuánto compró (eCRM), cuánto dolor declaró (RETC), qué línea le sirve (matriz) y quiénes deciden (buscador).",
+ "el_problema_que_resuelve": "El eCRM usa siglas y las otras bases razón social: sin alias el cruce daba CERO, justo en las cuentas más grandes.",
+ "totales": {
+  "empresas": 63,
+  "con_decisores": 11,
+  "con_compras_reales": 13
+ },
+ "empresas": [
+  {
+   "empresa": "MINERA LOS PELAMBRES",
+   "sigla_ecrm": "MLP",
+   "usd_cotizado": 7774847.0,
+   "usd_ganado": 2358072.0,
+   "n_oc": 122,
+   "respel_t": 18669.86,
+   "lineas": [],
+   "productos": [],
+   "decisores": [],
+   "n_decisores": 0,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "CORP NACIONAL DEL COBRE DE CHILE",
+   "sigla_ecrm": "Andina",
+   "usd_cotizado": 3874847.0,
+   "usd_ganado": 673742.0,
+   "n_oc": 18,
+   "respel_t": 2210090.43,
+   "lineas": [
+    "Software y plataforma",
+    "Analítica",
+    "Instrumentación",
+    "DCS",
+    "SIS"
+   ],
+   "productos": [
+    "SolisSCADA",
+    "InPlant APC",
+    "InPlant RTO",
+    "InPlant MP3000",
+    "CEMS 5000",
+    "Analítica en línea (línea Hobre)",
+    "HIFISC",
+    "TISOMIC"
+   ],
+   "decisores": [
+    {
+     "nombre": "Christian Caviedes Núñez",
+     "cargo": "Gerente General",
+     "fuente": "direcmin.com/codelco-chile-divisi-n-chuquicamata/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Juan Francisco San Martín Reyes",
+     "cargo": "Gerente de Recursos Mineros y Desarrollo",
+     "fuente": "direcmin.com/codelco-chile-divisi-n-chuquicamata/ejecutivos",
+     "relevante": false
+    },
+    {
+     "nombre": "Fernando Rojas Cortés",
+     "cargo": "Gerente de Fundición",
+     "fuente": "direcmin.com/codelco-chile-divisi-n-chuquicamata/ejecutivos",
+     "relevante": false
+    },
+    {
+     "nombre": "Rene Galleguillos",
+     "cargo": "Gerente de Operaciones",
+     "fuente": "direcmin.com/codelco-chile-divisi-n-chuquicamata/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Hugo Acevedo",
+     "cargo": "Gerente Operaciones Concentradora",
+     "fuente": "direcmin.com/codelco-chile-divisi-n-chuquicamata/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Marcos Santander Tapia",
+     "cargo": "Gerente de Recursos Humanos",
+     "fuente": "direcmin.com/codelco-chile-divisi-n-chuquicamata/ejecutivos",
+     "relevante": false
+    },
+    {
+     "nombre": "Hipólito Hurtado Iguain",
+     "cargo": "Gerente Seguridad y Salud Ocupacional",
+     "fuente": "direcmin.com/codelco-chile-divisi-n-chuquicamata/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Cristián de la Piedra",
+     "cargo": "Gerente de Sustentabilidad y Asuntos Externos",
+     "fuente": "direcmin.com/codelco-chile-divisi-n-chuquicamata/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Jorge Misle",
+     "cargo": "Jefe de Proyectos",
+     "fuente": "direcmin.com/codelco-chile-divisi-n-chuquicamata/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Jorge Gómez Díaz",
+     "cargo": "Presidente Ejecutivo",
+     "fuente": "https://www.codelco.com/transparencia/responsables-de-la-administracion",
+     "relevante": true
+    },
+    {
+     "nombre": "Raúl Puerto Mendoza",
+     "cargo": "Auditor General",
+     "fuente": "https://www.codelco.com/transparencia/responsables-de-la-administracion",
+     "relevante": true
+    },
+    {
+     "nombre": "Hernán Sepúlveda A.",
+     "cargo": "Gerente Corporativo Secretaría General",
+     "fuente": "https://www.codelco.com/transparencia/responsables-de-la-administracion",
+     "relevante": true
+    },
+    {
+     "nombre": "Marta Herrera S.",
+     "cargo": "Gerente de Ética y Cumplimiento",
+     "fuente": "https://www.codelco.com/transparencia/responsables-de-la-administracion",
+     "relevante": true
+    },
+    {
+     "nombre": "División Radomiro Tomic",
+     "cargo": "Gerente General",
+     "fuente": "https://www.codelco.com/transparencia/responsables-de-la-administracion",
+     "relevante": true
+    },
+    {
+     "nombre": "División Chuquicamata",
+     "cargo": "Gerente General",
+     "fuente": "https://www.codelco.com/transparencia/responsables-de-la-administracion",
+     "relevante": true
+    },
+    {
+     "nombre": "División Gabriela Mistral",
+     "cargo": "Gerente General",
+     "fuente": "https://www.codelco.com/transparencia/responsables-de-la-administracion",
+     "relevante": true
+    },
+    {
+     "nombre": "División Ministro Hales (i)",
+     "cargo": "Gerente General",
+     "fuente": "https://www.codelco.com/transparencia/responsables-de-la-administracion",
+     "relevante": true
+    },
+    {
+     "nombre": "División Salvador",
+     "cargo": "Gerente General",
+     "fuente": "https://www.codelco.com/transparencia/responsables-de-la-administracion",
+     "relevante": true
+    },
+    {
+     "nombre": "División Andina (i)",
+     "cargo": "Gerente General",
+     "fuente": "https://www.codelco.com/transparencia/responsables-de-la-administracion",
+     "relevante": true
+    },
+    {
+     "nombre": "División Ventanas (i)",
+     "cargo": "Gerente General",
+     "fuente": "https://www.codelco.com/transparencia/responsables-de-la-administracion",
+     "relevante": true
+    },
+    {
+     "nombre": "División El Teniente",
+     "cargo": "Gerente General",
+     "fuente": "https://www.codelco.com/transparencia/responsables-de-la-administracion",
+     "relevante": true
+    },
+    {
+     "nombre": "Cristian Opazo",
+     "cargo": "Jefe de Mantencion en CODELCO – Corporación Nacional del Cobre de Chile",
+     "linkedin": "https://cl.linkedin.com/in/cristian-opazo-5608a6103",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Patricio Zambrano Villarroel",
+     "cargo": "Gerente Mantenimiento Mina - Codelco Radomiro Tomic, MBA y Magister en Confiabilidad de Ac",
+     "linkedin": "https://cl.linkedin.com/in/patricio-zambrano-villarroel-42547b60",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Luis Moraga",
+     "cargo": "Técnico de instrumentación en CODELCO – Corporación Nacional del Cobre de Chile",
+     "linkedin": "https://cl.linkedin.com/in/luis-moraga-7113ab1a1",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Veliz (Codelco-Teniente)",
+     "cargo": "Instrumentista en CODELCO – Corporación Nacional del Cobre de Chile",
+     "linkedin": "https://cl.linkedin.com/in/veliz-codelco-teniente-10a59590",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Benjamin Ordenes",
+     "cargo": "Ingeniero en CODELCO – Corporación Nacional del Cobre de Chile",
+     "linkedin": "https://cl.linkedin.com/in/benjamin-ordenes-43873413b",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Humberto Rivas",
+     "cargo": "Gerente Corporativo Medio Ambiente en CODELCO – Corporación Nacional del Cobre de Chile",
+     "linkedin": "https://cl.linkedin.com/in/humberto-rivas-93673823",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Javier Olivares Pizarro",
+     "cargo": "Director Medio Ambiente Operaciones Norte – Corporación Nacional del Cobre de Chile",
+     "linkedin": "https://cl.linkedin.com/in/javierolivarespizarro",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Ina Peña M.",
+     "cargo": "Jefe de Permisos - Proyectos CODELCO",
+     "linkedin": "https://cl.linkedin.com/in/ina-pe%C3%B1a-m-3689463b",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    }
+   ],
+   "n_decisores": 29,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "CIA CONTRACTUAL MINERA CANDELARIA",
+   "sigla_ecrm": "Candelaria",
+   "usd_cotizado": 2477728.0,
+   "usd_ganado": 1470998.0,
+   "n_oc": 50,
+   "respel_t": 26396.68,
+   "lineas": [
+    "Analítica",
+    "DCS"
+   ],
+   "productos": [
+    "CEMS 5000",
+    "Analítica en línea (línea Hobre)",
+    "HIFISC",
+    "TISOMIC",
+    "ECS-700",
+    "UCS Nyx",
+    "OMC",
+    "T9100 (CCS)"
+   ],
+   "decisores": [
+    {
+     "nombre": "Luis Sánchez Rodríguez",
+     "cargo": "Presidente y Director Ejecutivo",
+     "fuente": "direcmin.com/compa-a-contractual-minera-candelaria/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Gabriel Roberto Ocaranza Henríquez",
+     "cargo": "Gerente General de Operaciones",
+     "fuente": "direcmin.com/compa-a-contractual-minera-candelaria/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Karina Briño",
+     "cargo": "Gerente General de Administración",
+     "fuente": "direcmin.com/compa-a-contractual-minera-candelaria/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Peter Ramírez Villalobos",
+     "cargo": "Chief Financial Officer",
+     "fuente": "direcmin.com/compa-a-contractual-minera-candelaria/ejecutivos",
+     "relevante": false
+    },
+    {
+     "nombre": "Fabián Gutiérrez",
+     "cargo": "Director de Salud, Seguridad, Medio Ambiente y Permisos",
+     "fuente": "direcmin.com/compa-a-contractual-minera-candelaria/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Roberto Alfato",
+     "cargo": "Director de Servicios Técnicos",
+     "fuente": "direcmin.com/compa-a-contractual-minera-candelaria/ejecutivos",
+     "relevante": false
+    },
+    {
+     "nombre": "Andrés Barraza Arriagada",
+     "cargo": "Gerente de Recursos Humanos",
+     "fuente": "direcmin.com/compa-a-contractual-minera-candelaria/ejecutivos",
+     "relevante": false
+    },
+    {
+     "nombre": "Jorge Bravo",
+     "cargo": "Gerente de Medio Ambiente",
+     "fuente": "direcmin.com/compa-a-contractual-minera-candelaria/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Edwin Hidalgo Cepeda",
+     "cargo": "Gerente de Comunicaciones y Asuntos Públicos",
+     "fuente": "direcmin.com/compa-a-contractual-minera-candelaria/ejecutivos",
+     "relevante": false
+    },
+    {
+     "nombre": "Carlos Aguilera",
+     "cargo": "Gerente de Salud y Seguridad Ocupacional",
+     "fuente": "direcmin.com/compa-a-contractual-minera-candelaria/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Samuel Mendoza",
+     "cargo": "Gerente de Abastecimiento",
+     "fuente": "direcmin.com/compa-a-contractual-minera-candelaria/ejecutivos",
+     "relevante": true
+    }
+   ],
+   "n_decisores": 11,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "Enami",
+   "sigla_ecrm": "Enami",
+   "usd_cotizado": 1292485.0,
+   "usd_ganado": 91643.0,
+   "n_oc": 7,
+   "respel_t": 0,
+   "lineas": [],
+   "productos": [],
+   "decisores": [],
+   "n_decisores": 0,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "SCM MINERA LUMINA COPPER CHILE",
+   "sigla_ecrm": "Caserones",
+   "usd_cotizado": 1047699.0,
+   "usd_ganado": 443835.0,
+   "n_oc": 23,
+   "respel_t": 12867.9,
+   "lineas": [],
+   "productos": [],
+   "decisores": [],
+   "n_decisores": 0,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "JRI",
+   "sigla_ecrm": "JRI",
+   "usd_cotizado": 380108.0,
+   "usd_ganado": 22132.0,
+   "n_oc": 1,
+   "respel_t": 0,
+   "lineas": [],
+   "productos": [],
+   "decisores": [],
+   "n_decisores": 0,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "Kinross",
+   "sigla_ecrm": "Kinross",
+   "usd_cotizado": 286664.0,
+   "usd_ganado": 186664.0,
+   "n_oc": 1,
+   "respel_t": 0,
+   "lineas": [],
+   "productos": [],
+   "decisores": [],
+   "n_decisores": 0,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "Potrerillos",
+   "sigla_ecrm": "Potrerillos",
+   "usd_cotizado": 219228.0,
+   "usd_ganado": 0.0,
+   "n_oc": 0,
+   "respel_t": 0,
+   "lineas": [],
+   "productos": [],
+   "decisores": [],
+   "n_decisores": 0,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "CIA MINERA DEL PACIFICO S.A.",
+   "sigla_ecrm": "CMP",
+   "usd_cotizado": 193109.0,
+   "usd_ganado": 128473.0,
+   "n_oc": 8,
+   "respel_t": 23430.98,
+   "lineas": [
+    "Analítica"
+   ],
+   "productos": [
+    "CEMS 5000",
+    "Analítica en línea (línea Hobre)",
+    "HIFISC",
+    "TISOMIC"
+   ],
+   "decisores": [
+    {
+     "nombre": "Francisco Carvajal Palacios",
+     "cargo": "Gerente General",
+     "fuente": "direcmin.com/compa-a-minera-del-pac-fico-cmp/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Patricio Venegas Troncoso",
+     "cargo": "Gerente Comercial",
+     "fuente": "direcmin.com/compa-a-minera-del-pac-fico-cmp/ejecutivos",
+     "relevante": false
+    },
+    {
+     "nombre": "Makarina Orellana",
+     "cargo": "Gerente de Operaciones",
+     "fuente": "direcmin.com/compa-a-minera-del-pac-fico-cmp/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Carlos Sepúlveda Vélez",
+     "cargo": "Gerente de Adm. y Finanzas",
+     "fuente": "direcmin.com/compa-a-minera-del-pac-fico-cmp/ejecutivos",
+     "relevante": false
+    },
+    {
+     "nombre": "Carlos Gómez Vega",
+     "cargo": "Gerente de Proyectos",
+     "fuente": "direcmin.com/compa-a-minera-del-pac-fico-cmp/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Claudia Monreal",
+     "cargo": "Gerente de Planificación y Desarrollo",
+     "fuente": "direcmin.com/compa-a-minera-del-pac-fico-cmp/ejecutivos",
+     "relevante": false
+    },
+    {
+     "nombre": "John Patrick Mc Nab Martin",
+     "cargo": "Gerente de Sutentabilidad",
+     "fuente": "direcmin.com/compa-a-minera-del-pac-fico-cmp/ejecutivos",
+     "relevante": false
+    },
+    {
+     "nombre": "Carolina Lomuscio Zamorano",
+     "cargo": "Gerente de Personas",
+     "fuente": "direcmin.com/compa-a-minera-del-pac-fico-cmp/ejecutivos",
+     "relevante": false
+    },
+    {
+     "nombre": "Macarena Herrera Sandoval",
+     "cargo": "Gerente de Seguridad y Salud Ocupacional",
+     "fuente": "direcmin.com/compa-a-minera-del-pac-fico-cmp/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Paulina Andreoli",
+     "cargo": "Gerencia de Medio Ambiente y Cambio Climático",
+     "fuente": "direcmin.com/compa-a-minera-del-pac-fico-cmp/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Juan Germany",
+     "cargo": "Director Gerente en Agar del Pacifico S.A.",
+     "linkedin": "https://cl.linkedin.com/in/juan-germany-06543689",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Mauricio Gonzalez",
+     "cargo": "Encargado Departamento Mecánico Agar del Pacífico S.A.",
+     "linkedin": "https://cl.linkedin.com/in/mauricio-gonzalez-1104792a",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Andrés Martí",
+     "cargo": "Executive MBA UAI | Maintenance Manager in Grupo Metropol Chile",
+     "linkedin": "https://cl.linkedin.com/in/andr%C3%A9s-mart%C3%AD",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Edgar Hernandez",
+     "cargo": "Jefe de mantenimiento en Alimentadora del Pacifico",
+     "linkedin": "https://mx.linkedin.com/in/edgar-hernandez-a738702a",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Patricio Alvarado Naranjo",
+     "cargo": "gerente de medio ambiente",
+     "linkedin": "https://cl.linkedin.com/in/pan-sustentabilidad-medioambiente-finanzas",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    }
+   ],
+   "n_decisores": 15,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "MINERA CENTINELA",
+   "sigla_ecrm": "Verne SPA",
+   "usd_cotizado": 171595.0,
+   "usd_ganado": 129093.0,
+   "n_oc": 1,
+   "respel_t": 75108.73,
+   "lineas": [
+    "Analítica",
+    "DCS",
+    "SIS"
+   ],
+   "productos": [
+    "CEMS 5000",
+    "Analítica en línea (línea Hobre)",
+    "HIFISC",
+    "TISOMIC",
+    "ECS-700",
+    "UCS Nyx",
+    "OMC",
+    "T9100 (CCS)"
+   ],
+   "decisores": [
+    {
+     "nombre": "Nicolas Rivera",
+     "cargo": "Gerente General Compañía Minera Centinela",
+     "linkedin": "https://cl.linkedin.com/in/nicolas-rivera-60693512",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Francisca Diaz Hinojosa",
+     "cargo": "Gerente de Abastecimiento Minera Centinela en Antofagasta Minerals",
+     "linkedin": "https://cl.linkedin.com/in/francisca-diaz-hinojosa-8334a239",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Patricio Arce Valdebenito",
+     "cargo": "Gerente de Mantenimiento de Plantas",
+     "linkedin": "https://cl.linkedin.com/in/patricio-arce-valdebenito-71586850",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Carlos Poblete Alvarez",
+     "cargo": "Gerente Mantenimiento Mina",
+     "linkedin": "https://cl.linkedin.com/in/carlos-poblete-alvarez-307825a1",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Sergio E. López Fuentes",
+     "cargo": "Ingeniero Civil en Mecánica",
+     "linkedin": "https://cl.linkedin.com/in/sergio-e-l%C3%B3pez-fuentes-96220826",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Alberto Portales",
+     "cargo": "Jefe de turno de Instrumentación en Minera Centinela",
+     "linkedin": "https://cl.linkedin.com/in/alberto-portales-2264b51b1",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Jose Luis Aranda Donoso",
+     "cargo": "Jefe Turno Mantenimiento Eléctrico e Instrumentacion en Minera Centinela",
+     "linkedin": "https://cl.linkedin.com/in/jlad1978",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Crhistian Montaña",
+     "cargo": "Jefe de Turno Mantenimiento Eléctrico e Instrumentación Minera Centinela",
+     "linkedin": "https://cl.linkedin.com/in/crhistian-monta%C3%B1a-abb77b88",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Jose Caro",
+     "cargo": "Jefe Turno Mantenimiento Mecánico en Minera Centinela",
+     "linkedin": "https://cl.linkedin.com/in/jose-caro-62847a3a",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Jose Faustino Proboste Sepulveda",
+     "cargo": "Jefe de Turno Mantencion Eléctrica e Instrumentación",
+     "linkedin": "https://cl.linkedin.com/in/jfps987470481",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Jorge Calderon",
+     "cargo": "Technical Services Director | MBA",
+     "linkedin": "https://cl.linkedin.com/in/jorge-calderon-3611b012a",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    }
+   ],
+   "n_decisores": 11,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "Pucobre",
+   "sigla_ecrm": "Pucobre",
+   "usd_cotizado": 99755.0,
+   "usd_ganado": 75384.0,
+   "n_oc": 5,
+   "respel_t": 0,
+   "lineas": [],
+   "productos": [],
+   "decisores": [],
+   "n_decisores": 0,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "Empresa Electrica Ventanas Spa",
+   "sigla_ecrm": "Ventana",
+   "usd_cotizado": 58984.0,
+   "usd_ganado": 10949.0,
+   "n_oc": 4,
+   "respel_t": 614.8,
+   "lineas": [
+    "Analítica",
+    "Instrumentación",
+    "SIS",
+    "Válvulas"
+   ],
+   "productos": [
+    "CEMS 5000",
+    "Analítica en línea (línea Hobre)",
+    "HIFISC",
+    "TISOMIC",
+    "SFE910 (caudal electromagnético)",
+    "SL903 (radar de nivel 80 GHz)",
+    "CXT (presión)",
+    "W Series (temperatura)"
+   ],
+   "decisores": [
+    {
+     "nombre": "Luis Fuentes Martinez",
+     "cargo": "Gerente de Explotación Sustentable, Puerto Ventanas S.A.",
+     "linkedin": "https://cl.linkedin.com/in/luis-fuentes-martinez-00747239",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    }
+   ],
+   "n_decisores": 1,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "SGS MINERALS S.A.",
+   "sigla_ecrm": "SGS",
+   "usd_cotizado": 56918.0,
+   "usd_ganado": 56918.0,
+   "n_oc": 1,
+   "respel_t": 6646.97,
+   "lineas": [],
+   "productos": [],
+   "decisores": [],
+   "n_decisores": 0,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "MINERA SPENCE S.A.",
+   "sigla_ecrm": "",
+   "usd_cotizado": 0,
+   "usd_ganado": 0,
+   "n_oc": 0,
+   "respel_t": 69779.63,
+   "lineas": [],
+   "productos": [],
+   "decisores": [],
+   "n_decisores": 0,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "MINERA ESCONDIDA LIMITADA",
+   "sigla_ecrm": "",
+   "usd_cotizado": 0,
+   "usd_ganado": 0,
+   "n_oc": 0,
+   "respel_t": 51374.55,
+   "lineas": [
+    "Analítica",
+    "Instrumentación",
+    "DCS",
+    "Válvulas"
+   ],
+   "productos": [
+    "CEMS 5000",
+    "Analítica en línea (línea Hobre)",
+    "HIFISC",
+    "TISOMIC",
+    "SFE910 (caudal electromagnético)",
+    "SL903 (radar de nivel 80 GHz)",
+    "CXT (presión)",
+    "W Series (temperatura)"
+   ],
+   "decisores": [
+    {
+     "nombre": "James Whittaker",
+     "cargo": "Presidente de Minera Escondida",
+     "fuente": "direcmin.com/minera-escondida/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Cristiana Moraes",
+     "cargo": "Vicepresidente de Finanzas",
+     "fuente": "direcmin.com/minera-escondida/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Rodrigo Caballero",
+     "cargo": "Vicepresidente de Operaciones Integradas",
+     "fuente": "direcmin.com/minera-escondida/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Marcela Madrid",
+     "cargo": "Vicepresidente de Recursos Humanos",
+     "fuente": "direcmin.com/minera-escondida/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Arman Barha",
+     "cargo": "Vicepresidente Recursos, Planificación y Desarrollo",
+     "fuente": "direcmin.com/minera-escondida/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Juan Mardones",
+     "cargo": "Vicepresidente de Proyectos",
+     "fuente": "direcmin.com/minera-escondida/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Juan Cristóbal Marshall",
+     "cargo": "Vicepresidente de Asuntos Corporativos",
+     "fuente": "direcmin.com/minera-escondida/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Jaime Rivera",
+     "cargo": "Gerente Operaciones Mina",
+     "fuente": "direcmin.com/minera-escondida/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Juan Reinaga",
+     "cargo": "Gerente General de NPI&CHO",
+     "fuente": "direcmin.com/minera-escondida/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Claudio Muñoz",
+     "cargo": "Gerente General de Operaciones Concentradoras",
+     "fuente": "direcmin.com/minera-escondida/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Olga Alfaro",
+     "cargo": "Gerente General de Operaciones Cátodos",
+     "fuente": "direcmin.com/minera-escondida/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Eduardo Moreno",
+     "cargo": "Gerente Mantención Equipos Móviles en Minera Escondida Limitada",
+     "linkedin": "https://cl.linkedin.com/in/eduardo-moreno-4b95202b",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Pedro Vasallo Fernandez",
+     "cargo": "Supervisor de mantenimiento en Minera Escondida Limitada",
+     "linkedin": "https://cl.linkedin.com/in/pedro-vasallo-fernandez-967ba941",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "hector santibañez tapia",
+     "cargo": "Superintendente Mantención Laguna Seca en Minera Escondida",
+     "linkedin": "https://cl.linkedin.com/in/hector-santiba%C3%B1ez-tapia-6a430538",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Jose Carlos Quiñones",
+     "cargo": "General Manager at Minera Escondida Limited",
+     "linkedin": "https://cl.linkedin.com/in/jose-carlos-qui%C3%B1ones-a52a2623",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Andres Santoro Flores",
+     "cargo": "Tecnico Instrumentista en Minera Escondida Limitada",
+     "linkedin": "https://cl.linkedin.com/in/andres-santoro-flores-64003970",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "andres labarca contreras",
+     "cargo": "tecnico universitario en instrumentacion y automatizacion en minera escondida limitada",
+     "linkedin": "https://cl.linkedin.com/in/andres-labarca-contreras-5182a0a3",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Claudia Loeza",
+     "cargo": "Engineer DCS Cathode & Mine Minera Escondida Ltda",
+     "linkedin": "https://cl.linkedin.com/in/claudia-loeza-1711a7b1",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Johans Corrales",
+     "cargo": "Supervisor de mantenimiento en Minera Escondida Limitada",
+     "linkedin": "https://cl.linkedin.com/in/johans-corrales-9217ab130",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Nora González",
+     "cargo": "Jefe de Medio Ambiente en Minera Escondida Ltda",
+     "linkedin": "https://cl.linkedin.com/in/nora-gonz%C3%A1lez-59975950",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "JoséMiguel Saldías",
+     "cargo": "Gerente de RRHH Minera Escondida Ltada",
+     "linkedin": "https://cl.linkedin.com/in/jos%C3%A9miguel-sald%C3%ADas-045a075",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Paola Sandoval",
+     "cargo": "Manager Resource Engineering Escondida",
+     "linkedin": "https://cl.linkedin.com/in/paola-sandoval-43aa4028",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    }
+   ],
+   "n_decisores": 22,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "ANGLO AMERICAN SUR S.A.",
+   "sigla_ecrm": "",
+   "usd_cotizado": 0,
+   "usd_ganado": 0,
+   "n_oc": 0,
+   "respel_t": 49943.07,
+   "lineas": [
+    "Analítica",
+    "SIS"
+   ],
+   "productos": [
+    "CEMS 5000",
+    "Analítica en línea (línea Hobre)",
+    "HIFISC",
+    "TISOMIC",
+    "TCS-900",
+    "TCS-500",
+    "HIPPS"
+   ],
+   "decisores": [],
+   "n_decisores": 0,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "COMPANIA MINERA MANTOS DE ORO",
+   "sigla_ecrm": "",
+   "usd_cotizado": 0,
+   "usd_ganado": 0,
+   "n_oc": 0,
+   "respel_t": 48093.63,
+   "lineas": [],
+   "productos": [],
+   "decisores": [],
+   "n_decisores": 0,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "COMPANIA MINERA TECK QUEBRADA BLANCA S.A.",
+   "sigla_ecrm": "",
+   "usd_cotizado": 0,
+   "usd_ganado": 0,
+   "n_oc": 0,
+   "respel_t": 34906.7,
+   "lineas": [
+    "Analítica",
+    "Instrumentación",
+    "DCS",
+    "Válvulas"
+   ],
+   "productos": [
+    "CEMS 5000",
+    "Analítica en línea (línea Hobre)",
+    "HIFISC",
+    "TISOMIC",
+    "SFE910 (caudal electromagnético)",
+    "SL903 (radar de nivel 80 GHz)",
+    "CXT (presión)",
+    "W Series (temperatura)"
+   ],
+   "decisores": [
+    {
+     "nombre": "Enrique Castro",
+     "cargo": "Gerente General",
+     "fuente": "direcmin.com/teck-quebrada-blanca/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Jaime Ferrada",
+     "cargo": "Gerente de Operaciones",
+     "fuente": "direcmin.com/teck-quebrada-blanca/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Patricio Marabolí",
+     "cargo": "Gerente de Recursos Humanos",
+     "fuente": "direcmin.com/teck-quebrada-blanca/ejecutivos",
+     "relevante": false
+    },
+    {
+     "nombre": "José Miguel Ríos",
+     "cargo": "Gerente Mantenimiento",
+     "fuente": "direcmin.com/teck-quebrada-blanca/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Claudia Garcés",
+     "cargo": "Gerente Medio Ambiente",
+     "fuente": "direcmin.com/teck-quebrada-blanca/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Cristian Rojas",
+     "cargo": "Gerente Servicios Técnicos",
+     "fuente": "direcmin.com/teck-quebrada-blanca/ejecutivos",
+     "relevante": false
+    },
+    {
+     "nombre": "Juan Carlos Astorga",
+     "cargo": "Gerente Salud y Seguridad",
+     "fuente": "direcmin.com/teck-quebrada-blanca/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Francisco Javier Escudero Pinto",
+     "cargo": "Jefe Área Mantencion Mina en Teck Quebrada Blanca",
+     "linkedin": "https://cl.linkedin.com/in/francisco-javier-escudero-pinto-50a67057",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Patricio Muñoz Campos",
+     "cargo": "Gerencia de Operaciones Integradas Cía. Minera Teck Quebrada Blanca S.A.",
+     "linkedin": "https://cl.linkedin.com/in/patricio-mu%C3%B1oz-campos-0bb26234",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Sandra B Henriquez",
+     "cargo": "Gerente Medio Ambiente y Recursos Hidricos Teck Quebrada Blanca",
+     "linkedin": "https://cl.linkedin.com/in/sandra-b-henriquez-77793b39",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Mario Ortiz",
+     "cargo": "General Manager, Quebrada Blanca",
+     "linkedin": "https://cl.linkedin.com/in/mario-ortiz-054a30128",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Cristian Soto araneda",
+     "cargo": "Gerente Seguridad , Salud y emergencias compañia minera teck quebrada blanca s.a.",
+     "linkedin": "https://cl.linkedin.com/in/cristian-soto-araneda-40062a34",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    }
+   ],
+   "n_decisores": 12,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "SIERRA GORDA S.C.M.",
+   "sigla_ecrm": "",
+   "usd_cotizado": 0,
+   "usd_ganado": 0,
+   "n_oc": 0,
+   "respel_t": 24933.09,
+   "lineas": [],
+   "productos": [],
+   "decisores": [],
+   "n_decisores": 0,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "CIA MINERA DONA INES DE COLLAHUASI SCM",
+   "sigla_ecrm": "",
+   "usd_cotizado": 0,
+   "usd_ganado": 0,
+   "n_oc": 0,
+   "respel_t": 22023.96,
+   "lineas": [],
+   "productos": [],
+   "decisores": [],
+   "n_decisores": 0,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "S Q M SALAR S A",
+   "sigla_ecrm": "",
+   "usd_cotizado": 0,
+   "usd_ganado": 0,
+   "n_oc": 0,
+   "respel_t": 21292.49,
+   "lineas": [],
+   "productos": [],
+   "decisores": [],
+   "n_decisores": 0,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "SOC CONTRACTUAL MINERA EL ABRA",
+   "sigla_ecrm": "",
+   "usd_cotizado": 0,
+   "usd_ganado": 0,
+   "n_oc": 0,
+   "respel_t": 20012.9,
+   "lineas": [],
+   "productos": [],
+   "decisores": [],
+   "n_decisores": 0,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "KOMATSU REMAN CENTER CHILE S.A.",
+   "sigla_ecrm": "",
+   "usd_cotizado": 0,
+   "usd_ganado": 0,
+   "n_oc": 0,
+   "respel_t": 19491.34,
+   "lineas": [],
+   "productos": [],
+   "decisores": [],
+   "n_decisores": 0,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "MINERA MERIDIAN LIMITADA",
+   "sigla_ecrm": "",
+   "usd_cotizado": 0,
+   "usd_ganado": 0,
+   "n_oc": 0,
+   "respel_t": 19307.58,
+   "lineas": [],
+   "productos": [],
+   "decisores": [],
+   "n_decisores": 0,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "MANTOVERDE S.A.",
+   "sigla_ecrm": "",
+   "usd_cotizado": 0,
+   "usd_ganado": 0,
+   "n_oc": 0,
+   "respel_t": 18729.2,
+   "lineas": [
+    "Analítica"
+   ],
+   "productos": [
+    "CEMS 5000",
+    "Analítica en línea (línea Hobre)",
+    "HIFISC",
+    "TISOMIC"
+   ],
+   "decisores": [
+    {
+     "nombre": "Cristian Alejandro Gómez Aguilar",
+     "cargo": "Gerente Mantenimiento Mina y Plantas en Capstone Copper Chile - Mantoverde",
+     "linkedin": "https://cl.linkedin.com/in/cristian-alejandro-g%C3%B3mez-aguilar-b9129822",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Manuel CISTERNAS CORTÉS",
+     "cargo": "Jefe de Turno Mantenimiento Eléctrico e Instrumentación Mantoverde",
+     "linkedin": "https://cl.linkedin.com/in/manuel-cisternas-cort%C3%A9s-9914a91b8",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Daniela Araya",
+     "cargo": "Asesora de Permisos Mantoverde S.A.",
+     "linkedin": "https://cl.linkedin.com/in/daniela-araya-348b7761",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    }
+   ],
+   "n_decisores": 3,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "MANTOS COPPER  S.A.",
+   "sigla_ecrm": "",
+   "usd_cotizado": 0,
+   "usd_ganado": 0,
+   "n_oc": 0,
+   "respel_t": 17954.82,
+   "lineas": [],
+   "productos": [],
+   "decisores": [],
+   "n_decisores": 0,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "EMPRESA NACIONAL DEL PETROLEO",
+   "sigla_ecrm": "",
+   "usd_cotizado": 0,
+   "usd_ganado": 0,
+   "n_oc": 0,
+   "respel_t": 17611.42,
+   "lineas": [
+    "Analítica",
+    "DCS"
+   ],
+   "productos": [
+    "CEMS 5000",
+    "Analítica en línea (línea Hobre)",
+    "HIFISC",
+    "TISOMIC",
+    "ECS-700",
+    "UCS Nyx",
+    "OMC",
+    "T9100 (CCS)"
+   ],
+   "decisores": [
+    {
+     "nombre": "Cristián Apablaza R.",
+     "cargo": "Vicepresidente de Operaciones",
+     "fuente": "direcmin.com/minera-el-pe-n/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Hugo Díaz",
+     "cargo": "Gerente de Mina",
+     "fuente": "direcmin.com/minera-el-pe-n/ejecutivos",
+     "relevante": false
+    },
+    {
+     "nombre": "Marcelo Echeverría",
+     "cargo": "Gerente de Planta",
+     "fuente": "direcmin.com/minera-el-pe-n/ejecutivos",
+     "relevante": false
+    },
+    {
+     "nombre": "Jorge Camacho",
+     "cargo": "Gerente de Geología",
+     "fuente": "direcmin.com/minera-el-pe-n/ejecutivos",
+     "relevante": false
+    },
+    {
+     "nombre": "Sergio Castro",
+     "cargo": "Gerente de Servicios Técnicos",
+     "fuente": "direcmin.com/minera-el-pe-n/ejecutivos",
+     "relevante": false
+    },
+    {
+     "nombre": "Martín Peralta",
+     "cargo": "Gerente Contralor",
+     "fuente": "direcmin.com/minera-el-pe-n/ejecutivos",
+     "relevante": false
+    },
+    {
+     "nombre": "Luis Benvenuto",
+     "cargo": "Gerente Corporativo RR.HH.",
+     "fuente": "direcmin.com/minera-el-pe-n/ejecutivos",
+     "relevante": false
+    },
+    {
+     "nombre": "Miguel Donoso",
+     "cargo": "Gerente de HSEC",
+     "fuente": "direcmin.com/minera-el-pe-n/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Mauricio Muñoz",
+     "cargo": "Jefe de Compras y Contratos",
+     "fuente": "direcmin.com/minera-el-pe-n/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Marcelo Garces Vasquez",
+     "cargo": "Director de Mantenimiento Mayor en Empresa Nacional del Petroleo ENAP",
+     "linkedin": "https://cl.linkedin.com/in/marcelo-garces-vasquez-3061a360",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Frederic Bellenger",
+     "cargo": "Ingeniero de mantenimiento en Empresa Nacional del Petroleo ENAP",
+     "linkedin": "https://cl.linkedin.com/in/frederic-bellenger-8b797968",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Yasna Ross Romero",
+     "cargo": "Gerente Comercial en Empresa Nacional del Petroleo ENAP",
+     "linkedin": "https://cl.linkedin.com/in/yasnarossromero",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Jorge Jaque",
+     "cargo": "Gerente de Tecnologías de la Información (TI) at ENAP (Empresa Nacional del Petróleo, Chil",
+     "linkedin": "https://cl.linkedin.com/in/jorge-jaque-gerente-ti",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Iván Rubilar Seguel",
+     "cargo": "Jefe División Electricidad e Instrumentos en Empresa Nacional del Petroleo ENAP",
+     "linkedin": "https://cl.linkedin.com/in/ivanrubilarseguel",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Aaron Vallejos",
+     "cargo": "Control e Instrunentación Empresa Nacional del Petroleo",
+     "linkedin": "https://cl.linkedin.com/in/aaron-vallejos-07504847",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Franklin Camus",
+     "cargo": "Jefe División Proceso en Empresa Nacional del Petroleo ENAP",
+     "linkedin": "https://cl.linkedin.com/in/franklin-camus-826815bb",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Alejandro Varas",
+     "cargo": "Field Supervisor DCU & Alkilation Division, Empresa Nacional del Petroleo ENAP",
+     "linkedin": "https://cl.linkedin.com/in/alejandro-varas-a4864446",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Roberto Preau N.",
+     "cargo": "Director de Proyectos en Empresa Nacional del Petróleo",
+     "linkedin": "https://www.linkedin.com/in/roberto-preau-n-20b16550",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Fabián Guerrero",
+     "cargo": "DIRECTOR DE GESTIÓN AMBIENTAL CORPORATIVO",
+     "linkedin": "https://cl.linkedin.com/in/faguerrero",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Christian Gonzalez",
+     "cargo": "Director Cumplimiento Ambiental en ENAP",
+     "linkedin": "https://cl.linkedin.com/in/christian-gonzalez-0923b636",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Lorena Carvallo Alache",
+     "cargo": "Head of Renewable Environmental Management / Environmental Impact Assessment / Environment",
+     "linkedin": "https://cl.linkedin.com/in/lorena-carvallo-alache",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    }
+   ],
+   "n_decisores": 21,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "MOLYMETNOS S.A.",
+   "sigla_ecrm": "",
+   "usd_cotizado": 0,
+   "usd_ganado": 0,
+   "n_oc": 0,
+   "respel_t": 16789.4,
+   "lineas": [],
+   "productos": [],
+   "decisores": [],
+   "n_decisores": 0,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "SOC QUIMICA Y MINERA DE CHILE S A",
+   "sigla_ecrm": "",
+   "usd_cotizado": 0,
+   "usd_ganado": 0,
+   "n_oc": 0,
+   "respel_t": 13512.06,
+   "lineas": [],
+   "productos": [],
+   "decisores": [],
+   "n_decisores": 0,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "COMPANIA MINERA LOMAS BAYAS",
+   "sigla_ecrm": "",
+   "usd_cotizado": 0,
+   "usd_ganado": 0,
+   "n_oc": 0,
+   "respel_t": 11988.74,
+   "lineas": [],
+   "productos": [],
+   "decisores": [],
+   "n_decisores": 0,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "ALBEMARLE LIMITADA",
+   "sigla_ecrm": "",
+   "usd_cotizado": 0,
+   "usd_ganado": 0,
+   "n_oc": 0,
+   "respel_t": 10315.5,
+   "lineas": [],
+   "productos": [],
+   "decisores": [],
+   "n_decisores": 0,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "MINERA ANTUCOYA",
+   "sigla_ecrm": "",
+   "usd_cotizado": 0,
+   "usd_ganado": 0,
+   "n_oc": 0,
+   "respel_t": 9902.5,
+   "lineas": [],
+   "productos": [],
+   "decisores": [],
+   "n_decisores": 0,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "MINERA FLORIDA LIMITADA",
+   "sigla_ecrm": "",
+   "usd_cotizado": 0,
+   "usd_ganado": 0,
+   "n_oc": 0,
+   "respel_t": 9778.39,
+   "lineas": [],
+   "productos": [],
+   "decisores": [],
+   "n_decisores": 0,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "MINERA GOLD FIELDS SALARES NORTE SPA",
+   "sigla_ecrm": "",
+   "usd_cotizado": 0,
+   "usd_ganado": 0,
+   "n_oc": 0,
+   "respel_t": 8709.83,
+   "lineas": [],
+   "productos": [],
+   "decisores": [],
+   "n_decisores": 0,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "SQM INDUSTRIAL S.A.",
+   "sigla_ecrm": "",
+   "usd_cotizado": 0,
+   "usd_ganado": 0,
+   "n_oc": 0,
+   "respel_t": 8107.89,
+   "lineas": [],
+   "productos": [],
+   "decisores": [],
+   "n_decisores": 0,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "COMPANIA MINERA ZALDIVAR SPA",
+   "sigla_ecrm": "",
+   "usd_cotizado": 0,
+   "usd_ganado": 0,
+   "n_oc": 0,
+   "respel_t": 7747.48,
+   "lineas": [],
+   "productos": [],
+   "decisores": [],
+   "n_decisores": 0,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "COMPANIA MINERA TECK CARMEN DE ANDACOLLO",
+   "sigla_ecrm": "",
+   "usd_cotizado": 0,
+   "usd_ganado": 0,
+   "n_oc": 0,
+   "respel_t": 6129.1,
+   "lineas": [],
+   "productos": [],
+   "decisores": [],
+   "n_decisores": 0,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "SOC CONTRACTUAL MINERA CAROLA",
+   "sigla_ecrm": "",
+   "usd_cotizado": 0,
+   "usd_ganado": 0,
+   "n_oc": 0,
+   "respel_t": 5917.04,
+   "lineas": [],
+   "productos": [],
+   "decisores": [],
+   "n_decisores": 0,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "MINERA HMC S.A.",
+   "sigla_ecrm": "",
+   "usd_cotizado": 0,
+   "usd_ganado": 0,
+   "n_oc": 0,
+   "respel_t": 4782.7,
+   "lineas": [],
+   "productos": [],
+   "decisores": [],
+   "n_decisores": 0,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "SOCIEDAD CONTRACTUAL MINERA COSAYACH YODO",
+   "sigla_ecrm": "",
+   "usd_cotizado": 0,
+   "usd_ganado": 0,
+   "n_oc": 0,
+   "respel_t": 4700.0,
+   "lineas": [],
+   "productos": [],
+   "decisores": [],
+   "n_decisores": 0,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "ALGORTA NORTE SA",
+   "sigla_ecrm": "",
+   "usd_cotizado": 0,
+   "usd_ganado": 0,
+   "n_oc": 0,
+   "respel_t": 3711.6,
+   "lineas": [],
+   "productos": [],
+   "decisores": [],
+   "n_decisores": 0,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "MINERA LAS CENIZAS S A",
+   "sigla_ecrm": "",
+   "usd_cotizado": 0,
+   "usd_ganado": 0,
+   "n_oc": 0,
+   "respel_t": 3698.43,
+   "lineas": [],
+   "productos": [],
+   "decisores": [],
+   "n_decisores": 0,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "WEIR MINERALS CHILE SA",
+   "sigla_ecrm": "",
+   "usd_cotizado": 0,
+   "usd_ganado": 0,
+   "n_oc": 0,
+   "respel_t": 3485.85,
+   "lineas": [],
+   "productos": [],
+   "decisores": [],
+   "n_decisores": 0,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "SOC PUNTA DEL COBRE S A",
+   "sigla_ecrm": "",
+   "usd_cotizado": 0,
+   "usd_ganado": 0,
+   "n_oc": 0,
+   "respel_t": 3367.06,
+   "lineas": [],
+   "productos": [],
+   "decisores": [],
+   "n_decisores": 0,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "ZUBLIN INTERNATIONAL GMBH CHILE SPA",
+   "sigla_ecrm": "",
+   "usd_cotizado": 0,
+   "usd_ganado": 0,
+   "n_oc": 0,
+   "respel_t": 2743.42,
+   "lineas": [],
+   "productos": [],
+   "decisores": [],
+   "n_decisores": 0,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "SOCIEDAD PUNTA DE LOBOS S.A.",
+   "sigla_ecrm": "",
+   "usd_cotizado": 0,
+   "usd_ganado": 0,
+   "n_oc": 0,
+   "respel_t": 2563.7,
+   "lineas": [],
+   "productos": [],
+   "decisores": [],
+   "n_decisores": 0,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "CIA CONTRACTUAL MINERA OJOS DEL SALADO",
+   "sigla_ecrm": "",
+   "usd_cotizado": 0,
+   "usd_ganado": 0,
+   "n_oc": 0,
+   "respel_t": 2423.91,
+   "lineas": [],
+   "productos": [],
+   "decisores": [],
+   "n_decisores": 0,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "SOC DE SERVICIOS TECNICOS GEOLOGI  COS GEOTEC BOYLES            BROS S A",
+   "sigla_ecrm": "",
+   "usd_cotizado": 0,
+   "usd_ganado": 0,
+   "n_oc": 0,
+   "respel_t": 2336.21,
+   "lineas": [],
+   "productos": [],
+   "decisores": [],
+   "n_decisores": 0,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "GUANACO COMPANIA MINERA SPA",
+   "sigla_ecrm": "",
+   "usd_cotizado": 0,
+   "usd_ganado": 0,
+   "n_oc": 0,
+   "respel_t": 1784.5,
+   "lineas": [],
+   "productos": [],
+   "decisores": [],
+   "n_decisores": 0,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "LIEBHERR CHILE SPA",
+   "sigla_ecrm": "",
+   "usd_cotizado": 0,
+   "usd_ganado": 0,
+   "n_oc": 0,
+   "respel_t": 1708.3,
+   "lineas": [],
+   "productos": [],
+   "decisores": [],
+   "n_decisores": 0,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "PAMPA CAMARONES SPA.",
+   "sigla_ecrm": "",
+   "usd_cotizado": 0,
+   "usd_ganado": 0,
+   "n_oc": 0,
+   "respel_t": 1495.2,
+   "lineas": [],
+   "productos": [],
+   "decisores": [],
+   "n_decisores": 0,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "CALIDRA CHILE IMPORTACIONES MINERALES SPA",
+   "sigla_ecrm": "",
+   "usd_cotizado": 0,
+   "usd_ganado": 0,
+   "n_oc": 0,
+   "respel_t": 1453.25,
+   "lineas": [],
+   "productos": [],
+   "decisores": [],
+   "n_decisores": 0,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "CIA MINERA SAN GERONIMO",
+   "sigla_ecrm": "",
+   "usd_cotizado": 0,
+   "usd_ganado": 0,
+   "n_oc": 0,
+   "respel_t": 1404.78,
+   "lineas": [],
+   "productos": [],
+   "decisores": [],
+   "n_decisores": 0,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "MAS ERRAZURIZ MAQUINARIAS Y SERVICIOS LIMITADA",
+   "sigla_ecrm": "",
+   "usd_cotizado": 0,
+   "usd_ganado": 0,
+   "n_oc": 0,
+   "respel_t": 1322.4,
+   "lineas": [],
+   "productos": [],
+   "decisores": [],
+   "n_decisores": 0,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "ACF MINERA S.A.",
+   "sigla_ecrm": "",
+   "usd_cotizado": 0,
+   "usd_ganado": 0,
+   "n_oc": 0,
+   "respel_t": 1307.69,
+   "lineas": [],
+   "productos": [],
+   "decisores": [],
+   "n_decisores": 0,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "SOCIEDAD MINERA PACIFICO DEL SUR SPA",
+   "sigla_ecrm": "",
+   "usd_cotizado": 0,
+   "usd_ganado": 0,
+   "n_oc": 0,
+   "respel_t": 1283.4,
+   "lineas": [
+    "Analítica",
+    "PLC"
+   ],
+   "productos": [
+    "CEMS 5000",
+    "Analítica en línea (línea Hobre)",
+    "HIFISC",
+    "TISOMIC",
+    "G5Pro",
+    "G5Pro Safety (SIL3)",
+    "G3Smart"
+   ],
+   "decisores": [
+    {
+     "nombre": "Francisco Carvajal Palacios",
+     "cargo": "Gerente General",
+     "fuente": "direcmin.com/compa-a-minera-del-pac-fico-cmp/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Patricio Venegas Troncoso",
+     "cargo": "Gerente Comercial",
+     "fuente": "direcmin.com/compa-a-minera-del-pac-fico-cmp/ejecutivos",
+     "relevante": false
+    },
+    {
+     "nombre": "Makarina Orellana",
+     "cargo": "Gerente de Operaciones",
+     "fuente": "direcmin.com/compa-a-minera-del-pac-fico-cmp/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Carlos Sepúlveda Vélez",
+     "cargo": "Gerente de Adm. y Finanzas",
+     "fuente": "direcmin.com/compa-a-minera-del-pac-fico-cmp/ejecutivos",
+     "relevante": false
+    },
+    {
+     "nombre": "Carlos Gómez Vega",
+     "cargo": "Gerente de Proyectos",
+     "fuente": "direcmin.com/compa-a-minera-del-pac-fico-cmp/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Claudia Monreal",
+     "cargo": "Gerente de Planificación y Desarrollo",
+     "fuente": "direcmin.com/compa-a-minera-del-pac-fico-cmp/ejecutivos",
+     "relevante": false
+    },
+    {
+     "nombre": "John Patrick Mc Nab Martin",
+     "cargo": "Gerente de Sutentabilidad",
+     "fuente": "direcmin.com/compa-a-minera-del-pac-fico-cmp/ejecutivos",
+     "relevante": false
+    },
+    {
+     "nombre": "Carolina Lomuscio Zamorano",
+     "cargo": "Gerente de Personas",
+     "fuente": "direcmin.com/compa-a-minera-del-pac-fico-cmp/ejecutivos",
+     "relevante": false
+    },
+    {
+     "nombre": "Macarena Herrera Sandoval",
+     "cargo": "Gerente de Seguridad y Salud Ocupacional",
+     "fuente": "direcmin.com/compa-a-minera-del-pac-fico-cmp/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Paulina Andreoli",
+     "cargo": "Gerencia de Medio Ambiente y Cambio Climático",
+     "fuente": "direcmin.com/compa-a-minera-del-pac-fico-cmp/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Jose Quiroga Fica",
+     "cargo": "Gerente General en Sociedad Minera Pacifico del Sur",
+     "linkedin": "https://cl.linkedin.com/in/jose-quiroga-fica-92140950",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Luis Enrique Lavin Barrios",
+     "cargo": "Sociedad Minera Pacífico del Sur",
+     "linkedin": "https://cl.linkedin.com/in/luis-enrique-lavin-barrios-4335328b",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Eduardo Morales Muñoz",
+     "cargo": "Jefe de Operaciones en Puerto Chacabuco para Minera Pacifico del Sur Spa. - Mina El Toqui",
+     "linkedin": "https://cl.linkedin.com/in/epmoralesm",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Cristian Mena Basoalto",
+     "cargo": "Magister en ingeniería, Ingeniero civil industrial y Mecánica con 18 años de experiencia e",
+     "linkedin": "https://cl.linkedin.com/in/cristian-mena-basoalto-49653254",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    }
+   ],
+   "n_decisores": 14,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "CIA MINERA CERRO NEGRO S A",
+   "sigla_ecrm": "",
+   "usd_cotizado": 0,
+   "usd_ganado": 0,
+   "n_oc": 0,
+   "respel_t": 1119.36,
+   "lineas": [],
+   "productos": [],
+   "decisores": [],
+   "n_decisores": 0,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "COMPANIA  MANTOS DE LA LUNA S A",
+   "sigla_ecrm": "",
+   "usd_cotizado": 0,
+   "usd_ganado": 0,
+   "n_oc": 0,
+   "respel_t": 1114.6,
+   "lineas": [],
+   "productos": [],
+   "decisores": [],
+   "n_decisores": 0,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "COMPANIA MINERA FLORIDA S.A",
+   "sigla_ecrm": "",
+   "usd_cotizado": 0,
+   "usd_ganado": 0,
+   "n_oc": 0,
+   "respel_t": 1107.0,
+   "lineas": [],
+   "productos": [],
+   "decisores": [],
+   "n_decisores": 0,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "SOCIEDAD CONTRACTUAL MINERA FRANKE",
+   "sigla_ecrm": "",
+   "usd_cotizado": 0,
+   "usd_ganado": 0,
+   "n_oc": 0,
+   "respel_t": 1058.36,
+   "lineas": [],
+   "productos": [],
+   "decisores": [],
+   "n_decisores": 0,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "SANDVIK CHILE S.A.",
+   "sigla_ecrm": "",
+   "usd_cotizado": 0,
+   "usd_ganado": 0,
+   "n_oc": 0,
+   "respel_t": 1033.5,
+   "lineas": [],
+   "productos": [],
+   "decisores": [],
+   "n_decisores": 0,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "CRUSTACEOS SUR S.A.",
+   "sigla_ecrm": "",
+   "usd_cotizado": 0,
+   "usd_ganado": 0,
+   "n_oc": 0,
+   "respel_t": 14.0,
+   "lineas": [
+    "Analítica",
+    "SIS"
+   ],
+   "productos": [
+    "CEMS 5000",
+    "Analítica en línea (línea Hobre)",
+    "HIFISC",
+    "TISOMIC",
+    "TCS-900",
+    "TCS-500",
+    "HIPPS"
+   ],
+   "decisores": [],
+   "n_decisores": 0,
+   "compradores_reales": []
+  },
+  {
+   "empresa": "CIA SIDERURGICA HUACHIPATO S.A.",
+   "sigla_ecrm": "",
+   "usd_cotizado": 0,
+   "usd_ganado": 0,
+   "n_oc": 0,
+   "respel_t": 0.37,
+   "lineas": [
+    "SIS"
+   ],
+   "productos": [
+    "TCS-900",
+    "TCS-500",
+    "HIPPS"
+   ],
+   "decisores": [
+    {
+     "nombre": "Rodrigo Briceño Carrasco",
+     "cargo": "Gerente General",
+     "fuente": "direcmin.com/compa-a-siderurgica-huachipato-cap-acero/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Juan Carlos Ponti",
+     "cargo": "Gerente de Operaciones",
+     "fuente": "direcmin.com/compa-a-siderurgica-huachipato-cap-acero/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Jaime Quadri Rosen",
+     "cargo": "Gerente Comercial",
+     "fuente": "direcmin.com/compa-a-siderurgica-huachipato-cap-acero/ejecutivos",
+     "relevante": false
+    },
+    {
+     "nombre": "Pablo Pacheco Bastidas",
+     "cargo": "Gerente de Sustentabilidad y Personas",
+     "fuente": "direcmin.com/compa-a-siderurgica-huachipato-cap-acero/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Filippo Bustos Loyola",
+     "cargo": "Gerente de Abastecimientoy Logística",
+     "fuente": "direcmin.com/compa-a-siderurgica-huachipato-cap-acero/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Marco Carrasco",
+     "cargo": "Gerente de Innovación y Desarrollo",
+     "fuente": "direcmin.com/compa-a-siderurgica-huachipato-cap-acero/ejecutivos",
+     "relevante": false
+    },
+    {
+     "nombre": "Hernán del Valle",
+     "cargo": "Gerente de Ingeniería",
+     "fuente": "direcmin.com/compa-a-siderurgica-huachipato-cap-acero/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Jean Paul Sauré",
+     "cargo": "Gerente de Proyectos",
+     "fuente": "direcmin.com/compa-a-siderurgica-huachipato-cap-acero/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Piero Lertora",
+     "cargo": "Gerente de Finanzas y Gestión",
+     "fuente": "direcmin.com/compa-a-siderurgica-huachipato-cap-acero/ejecutivos",
+     "relevante": false
+    },
+    {
+     "nombre": "Swindy Kopp",
+     "cargo": "Gerente de Medio Ambiente, Seguridad y Salud Ocupacional",
+     "fuente": "direcmin.com/compa-a-siderurgica-huachipato-cap-acero/ejecutivos",
+     "relevante": true
+    },
+    {
+     "nombre": "Eduardo Carrasco",
+     "cargo": "Gerente de Personas y Asuntos Corporativos",
+     "fuente": "direcmin.com/compa-a-siderurgica-huachipato-cap-acero/ejecutivos",
+     "relevante": false
+    },
+    {
+     "nombre": "José Luis Bustos Lagos",
+     "cargo": "Compañía Siderúrgica Huachipato S.A. Planificador de Mantenimiento",
+     "linkedin": "https://cl.linkedin.com/in/jos%C3%A9-luis-bustos-lagos-339ab12bb",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Juan Martinez",
+     "cargo": "gerente de Medio Ambiente y Seguridad en Compañía Siderúrgica Huachipato",
+     "linkedin": "https://cl.linkedin.com/in/juan-martinez-53373728",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Juan Carlos Ponti Cisternas",
+     "cargo": "Gerente de Operaciones en Compañía Siderúrgica Huachipato",
+     "linkedin": "https://cl.linkedin.com/in/juan-carlos-ponti-cisternas-6a56666a",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "alexis mosquera",
+     "cargo": "Jefe de equipo en Compañía Siderúrgica Huachipato",
+     "linkedin": "https://cl.linkedin.com/in/alexis-mosquera-5207a81b6",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Luis Moena Zuñiga",
+     "cargo": "Jefe de sección Almacenamiento en Cía. Siderúrgica Huachipato S.A.",
+     "linkedin": "https://cl.linkedin.com/in/luis-moena-zu%C3%B1iga-56a16b50",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Alvaro E. Letelier Guerrero",
+     "cargo": "Jefe de Operación Contratos en CAP Acero Compañia Siderurgica Huachipato",
+     "linkedin": "https://bh.linkedin.com/in/alvaro-e-letelier-guerrero-63915910",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Juan Carlos Torres Torres",
+     "cargo": "Jefe de Turno Muelle en Cia. Siderúrgica Huachipato S.A.",
+     "linkedin": "https://cl.linkedin.com/in/juan-carlos-torres-torres-6a48b2ab",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    }
+   ],
+   "n_decisores": 18,
+   "compradores_reales": []
+  }
+ ]
+}

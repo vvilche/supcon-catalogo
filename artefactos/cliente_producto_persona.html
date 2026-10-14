@@ -1,0 +1,825 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cliente · qué comprar · a quién</title><style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#f7f8fa;--cd:#fff;--bd:#e5e7eb;--tx:#111827;--mu:#6b7280;--ac:#1d4ed8;--vd:#047857;--am:#b45309}
+body{background:var(--bg);color:var(--tx);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;font-size:14.5px;line-height:1.6;padding:26px 18px 70px}
+.wrap{max-width:1120px;margin:0 auto}
+h1{font-size:26px;font-weight:680;letter-spacing:-.4px;margin-bottom:5px}
+.sub0{color:var(--mu);font-size:14px;margin-bottom:18px;max-width:940px}
+.kpis{display:flex;gap:9px;flex-wrap:wrap;margin-bottom:18px}
+.kpis div{background:var(--cd);border:1px solid var(--bd);border-radius:10px;padding:10px 15px;font-size:12px;color:var(--mu)}
+.kpis b{display:block;font-size:20px;font-weight:700;color:var(--tx)}
+.aviso{background:#eff6ff;border:1px solid #bfdbfe;border-left:4px solid var(--ac);border-radius:9px;padding:12px 16px;margin:14px 0;font-size:13.5px}
+.aviso b{color:#1e40af}
+.card{background:var(--cd);border:1px solid var(--bd);border-radius:12px;padding:14px 17px;margin-bottom:11px}
+.head{display:flex;gap:16px;align-items:baseline;flex-wrap:wrap;margin-bottom:7px}
+.nom b{font-size:15.5px}
+.sig{font-size:10.5px;background:#eef2ff;color:#3730a3;border-radius:4px;padding:1px 7px;margin-left:6px;font-weight:700}
+.met{font-size:13px;color:var(--mu);text-align:right}
+.met:first-of-type{margin-left:auto}
+.monto{font-weight:700;color:var(--tx)} .dolor{font-weight:700;color:#991b1b}
+.num{font-weight:700;color:var(--tx);font-size:15px}
+.sub{display:block;font-size:11px;color:var(--mu)}
+.lin{font-size:13px;margin:6px 0;padding:7px 10px;background:#f0fdf4;border-radius:7px}
+.lb{font-size:10.5px;text-transform:uppercase;letter-spacing:.4px;color:var(--mu);font-weight:700;margin-right:8px}
+.prod{color:var(--mu);font-size:12px;margin-left:10px}
+.dec{margin-top:8px;border-top:1px solid #f3f4f6;padding-top:7px}
+.p{font-size:12.5px;padding:2px 0;display:flex;gap:6px;align-items:baseline;flex-wrap:wrap}
+.p .st{color:var(--vd);font-weight:700} .p .dt{color:#d1d5db}
+.cg{color:#4b5563;font-size:12px} .mas{color:var(--mu);font-style:italic}
+.creales{margin-top:7px;font-size:12.5px}
+.chip{display:inline-block;background:#fffbeb;color:#92400e;border:1px solid #fde68a;border-radius:5px;padding:2px 8px;margin:0 4px 3px 0;font-size:12px}
+.gris{color:var(--mu);font-style:italic}
+a{color:var(--ac);text-decoration:none} a:hover{text-decoration:underline}
+footer{margin-top:30px;padding-top:15px;border-top:1px solid var(--bd);font-size:12.5px;color:var(--mu)}
+footer a{color:var(--ac)}
+</style></head><body><div class="wrap">
+
+<h1>Cliente · qué comprar · a quién</h1>
+<p class="sub0">Una sola vista por empresa, con los cuatro datos juntos: <b>cuánto compró</b>
+(eCRM 2023-2025), <b>cuánto dolor declaró</b> (RETC), <b>qué línea SUPCON le sirve</b> (matriz
+dolor × producto) y <b>quiénes deciden</b> (buscador multi-fuente). <b>★</b> = cargo que compra
+esa línea.</p>
+
+<div class="kpis">
+  <div><b>63</b>empresas</div>
+  <div><b>11</b>con decisores</div>
+  <div><b>13</b>con compras reales</div>
+  <div><b>157</b>decisores</div>
+</div>
+
+<div class="aviso">
+  <b>Por qué esto no existía antes:</b> las cuatro bases se construyeron por separado y <b>no
+  cruzaban por nombre</b> — el eCRM usa siglas internas ("MLP", "Andina") y las otras usan razón
+  social ("MINERA LOS PELAMBRES"). El cruce daba <b>cero justo en las cuentas más grandes</b>, y
+  eso fue lo que reveló que faltaba la gran minería. Ahora hay alias verificados sigla → razón
+  social.
+</div>
+
+
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>MINERA LOS PELAMBRES</b>
+          <span class="sig">MLP</span></div>
+        <div class="met"><span class="monto">US$7,774,847</span><span class="sub">ganado US$2,358,072 · 122 OC</span></div>
+        <div class="met"><span class="dolor">18,669.9 t</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">0</span><span class="sub">decisores</span></div>
+      </div>
+      
+      
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>CORP NACIONAL DEL COBRE DE CHILE</b>
+          <span class="sig">Andina</span></div>
+        <div class="met"><span class="monto">US$3,874,847</span><span class="sub">ganado US$673,742 · 18 OC</span></div>
+        <div class="met"><span class="dolor">2,210,090.4 t</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">29</span><span class="sub">decisores</span></div>
+      </div>
+      <div class="lin"><span class="lb">Línea</span> Software y plataforma · Analítica · Instrumentación · DCS · SIS<span class="prod">SolisSCADA · InPlant APC · InPlant RTO · InPlant MP3000 · CEMS 5000</span></div>
+      <div class="dec"><div class="p"><span class="st">★</span><b>Benjamin Ordenes</b> <span class="cg">Ingeniero en CODELCO – Corporación Nacional del Cobre de Chile</span> <a href="https://cl.linkedin.com/in/benjamin-ordenes-43873413b" target="_blank">in</a></div><div class="p"><span class="st">★</span><b>Christian Caviedes Núñez</b> <span class="cg">Gerente General</span> </div><div class="p"><span class="st">★</span><b>Cristian Opazo</b> <span class="cg">Jefe de Mantencion en CODELCO – Corporación Nacional del Cobre d</span> <a href="https://cl.linkedin.com/in/cristian-opazo-5608a6103" target="_blank">in</a></div><div class="p"><span class="st">★</span><b>Cristián de la Piedra</b> <span class="cg">Gerente de Sustentabilidad y Asuntos Externos</span> </div><div class="p"><span class="st">★</span><b>División Andina (i)</b> <span class="cg">Gerente General</span> </div><div class="p"><span class="st">★</span><b>División Chuquicamata</b> <span class="cg">Gerente General</span> </div><div class="p"><span class="st">★</span><b>División El Teniente</b> <span class="cg">Gerente General</span> </div><div class="p"><span class="st">★</span><b>División Gabriela Mistral</b> <span class="cg">Gerente General</span> </div><div class="p"><span class="st">★</span><b>División Ministro Hales (i)</b> <span class="cg">Gerente General</span> </div><div class="p"><span class="st">★</span><b>División Radomiro Tomic</b> <span class="cg">Gerente General</span> </div><div class="p"><span class="st">★</span><b>División Salvador</b> <span class="cg">Gerente General</span> </div><div class="p"><span class="st">★</span><b>División Ventanas (i)</b> <span class="cg">Gerente General</span> </div><div class="p mas">+17 más</div></div>
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>CIA CONTRACTUAL MINERA CANDELARIA</b>
+          <span class="sig">Candelaria</span></div>
+        <div class="met"><span class="monto">US$2,477,728</span><span class="sub">ganado US$1,470,998 · 50 OC</span></div>
+        <div class="met"><span class="dolor">26,396.7 t</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">11</span><span class="sub">decisores</span></div>
+      </div>
+      <div class="lin"><span class="lb">Línea</span> Analítica · DCS<span class="prod">CEMS 5000 · Analítica en línea (línea Hobre) · HIFISC · TISOMIC · ECS-700</span></div>
+      <div class="dec"><div class="p"><span class="st">★</span><b>Carlos Aguilera</b> <span class="cg">Gerente de Salud y Seguridad Ocupacional</span> </div><div class="p"><span class="st">★</span><b>Fabián Gutiérrez</b> <span class="cg">Director de Salud, Seguridad, Medio Ambiente y Permisos</span> </div><div class="p"><span class="st">★</span><b>Gabriel Roberto Ocaranza Henríquez</b> <span class="cg">Gerente General de Operaciones</span> </div><div class="p"><span class="st">★</span><b>Jorge Bravo</b> <span class="cg">Gerente de Medio Ambiente</span> </div><div class="p"><span class="st">★</span><b>Karina Briño</b> <span class="cg">Gerente General de Administración</span> </div><div class="p"><span class="st">★</span><b>Luis Sánchez Rodríguez</b> <span class="cg">Presidente y Director Ejecutivo</span> </div><div class="p"><span class="st">★</span><b>Samuel Mendoza</b> <span class="cg">Gerente de Abastecimiento</span> </div><div class="p"><span class="dt">·</span><b>Andrés Barraza Arriagada</b> <span class="cg">Gerente de Recursos Humanos</span> </div><div class="p"><span class="dt">·</span><b>Edwin Hidalgo Cepeda</b> <span class="cg">Gerente de Comunicaciones y Asuntos Públicos</span> </div><div class="p"><span class="dt">·</span><b>Peter Ramírez Villalobos</b> <span class="cg">Chief Financial Officer</span> </div><div class="p"><span class="dt">·</span><b>Roberto Alfato</b> <span class="cg">Director de Servicios Técnicos</span> </div></div>
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>Enami</b>
+          <span class="sig">Enami</span></div>
+        <div class="met"><span class="monto">US$1,292,485</span><span class="sub">ganado US$91,643 · 7 OC</span></div>
+        <div class="met"><span class="gris">—</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">0</span><span class="sub">decisores</span></div>
+      </div>
+      
+      
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>SCM MINERA LUMINA COPPER CHILE</b>
+          <span class="sig">Caserones</span></div>
+        <div class="met"><span class="monto">US$1,047,699</span><span class="sub">ganado US$443,835 · 23 OC</span></div>
+        <div class="met"><span class="dolor">12,867.9 t</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">0</span><span class="sub">decisores</span></div>
+      </div>
+      
+      
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>JRI</b>
+          <span class="sig">JRI</span></div>
+        <div class="met"><span class="monto">US$380,108</span><span class="sub">ganado US$22,132 · 1 OC</span></div>
+        <div class="met"><span class="gris">—</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">0</span><span class="sub">decisores</span></div>
+      </div>
+      
+      
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>Kinross</b>
+          <span class="sig">Kinross</span></div>
+        <div class="met"><span class="monto">US$286,664</span><span class="sub">ganado US$186,664 · 1 OC</span></div>
+        <div class="met"><span class="gris">—</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">0</span><span class="sub">decisores</span></div>
+      </div>
+      
+      
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>Potrerillos</b>
+          <span class="sig">Potrerillos</span></div>
+        <div class="met"><span class="monto">US$219,228</span><span class="sub">ganado US$0 · 0 OC</span></div>
+        <div class="met"><span class="gris">—</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">0</span><span class="sub">decisores</span></div>
+      </div>
+      
+      
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>CIA MINERA DEL PACIFICO S.A.</b>
+          <span class="sig">CMP</span></div>
+        <div class="met"><span class="monto">US$193,109</span><span class="sub">ganado US$128,473 · 8 OC</span></div>
+        <div class="met"><span class="dolor">23,431.0 t</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">15</span><span class="sub">decisores</span></div>
+      </div>
+      <div class="lin"><span class="lb">Línea</span> Analítica<span class="prod">CEMS 5000 · Analítica en línea (línea Hobre) · HIFISC · TISOMIC</span></div>
+      <div class="dec"><div class="p"><span class="st">★</span><b>Andrés Martí</b> <span class="cg">Executive MBA UAI | Maintenance Manager in Grupo Metropol Chile</span> <a href="https://cl.linkedin.com/in/andr%C3%A9s-mart%C3%AD" target="_blank">in</a></div><div class="p"><span class="st">★</span><b>Carlos Gómez Vega</b> <span class="cg">Gerente de Proyectos</span> </div><div class="p"><span class="st">★</span><b>Edgar Hernandez</b> <span class="cg">Jefe de mantenimiento en Alimentadora del Pacifico</span> <a href="https://mx.linkedin.com/in/edgar-hernandez-a738702a" target="_blank">in</a></div><div class="p"><span class="st">★</span><b>Francisco Carvajal Palacios</b> <span class="cg">Gerente General</span> </div><div class="p"><span class="st">★</span><b>Juan Germany</b> <span class="cg">Director Gerente en Agar del Pacifico S.A.</span> <a href="https://cl.linkedin.com/in/juan-germany-06543689" target="_blank">in</a></div><div class="p"><span class="st">★</span><b>Macarena Herrera Sandoval</b> <span class="cg">Gerente de Seguridad y Salud Ocupacional</span> </div><div class="p"><span class="st">★</span><b>Makarina Orellana</b> <span class="cg">Gerente de Operaciones</span> </div><div class="p"><span class="st">★</span><b>Mauricio Gonzalez</b> <span class="cg">Encargado Departamento Mecánico Agar del Pacífico S.A.</span> <a href="https://cl.linkedin.com/in/mauricio-gonzalez-1104792a" target="_blank">in</a></div><div class="p"><span class="st">★</span><b>Patricio Alvarado Naranjo</b> <span class="cg">gerente de medio ambiente</span> <a href="https://cl.linkedin.com/in/pan-sustentabilidad-medioambiente-finanzas" target="_blank">in</a></div><div class="p"><span class="st">★</span><b>Paulina Andreoli</b> <span class="cg">Gerencia de Medio Ambiente y Cambio Climático</span> </div><div class="p"><span class="dt">·</span><b>Carlos Sepúlveda Vélez</b> <span class="cg">Gerente de Adm. y Finanzas</span> </div><div class="p"><span class="dt">·</span><b>Carolina Lomuscio Zamorano</b> <span class="cg">Gerente de Personas</span> </div><div class="p mas">+3 más</div></div>
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>MINERA CENTINELA</b>
+          <span class="sig">Verne SPA</span></div>
+        <div class="met"><span class="monto">US$171,595</span><span class="sub">ganado US$129,093 · 1 OC</span></div>
+        <div class="met"><span class="dolor">75,108.7 t</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">11</span><span class="sub">decisores</span></div>
+      </div>
+      <div class="lin"><span class="lb">Línea</span> Analítica · DCS · SIS<span class="prod">CEMS 5000 · Analítica en línea (línea Hobre) · HIFISC · TISOMIC · ECS-700</span></div>
+      <div class="dec"><div class="p"><span class="st">★</span><b>Alberto Portales</b> <span class="cg">Jefe de turno de Instrumentación en Minera Centinela</span> <a href="https://cl.linkedin.com/in/alberto-portales-2264b51b1" target="_blank">in</a></div><div class="p"><span class="st">★</span><b>Carlos Poblete Alvarez</b> <span class="cg">Gerente Mantenimiento Mina</span> <a href="https://cl.linkedin.com/in/carlos-poblete-alvarez-307825a1" target="_blank">in</a></div><div class="p"><span class="st">★</span><b>Crhistian Montaña</b> <span class="cg">Jefe de Turno Mantenimiento Eléctrico e Instrumentación Minera C</span> <a href="https://cl.linkedin.com/in/crhistian-monta%C3%B1a-abb77b88" target="_blank">in</a></div><div class="p"><span class="st">★</span><b>Francisca Diaz Hinojosa</b> <span class="cg">Gerente de Abastecimiento Minera Centinela en Antofagasta Minera</span> <a href="https://cl.linkedin.com/in/francisca-diaz-hinojosa-8334a239" target="_blank">in</a></div><div class="p"><span class="st">★</span><b>Jorge Calderon</b> <span class="cg">Technical Services Director | MBA</span> <a href="https://cl.linkedin.com/in/jorge-calderon-3611b012a" target="_blank">in</a></div><div class="p"><span class="st">★</span><b>Jose Caro</b> <span class="cg">Jefe Turno Mantenimiento Mecánico en Minera Centinela</span> <a href="https://cl.linkedin.com/in/jose-caro-62847a3a" target="_blank">in</a></div><div class="p"><span class="st">★</span><b>Jose Faustino Proboste Sepulveda</b> <span class="cg">Jefe de Turno Mantencion Eléctrica e Instrumentación</span> <a href="https://cl.linkedin.com/in/jfps987470481" target="_blank">in</a></div><div class="p"><span class="st">★</span><b>Jose Luis Aranda Donoso</b> <span class="cg">Jefe Turno Mantenimiento Eléctrico e Instrumentacion en Minera C</span> <a href="https://cl.linkedin.com/in/jlad1978" target="_blank">in</a></div><div class="p"><span class="st">★</span><b>Nicolas Rivera</b> <span class="cg">Gerente General Compañía Minera Centinela</span> <a href="https://cl.linkedin.com/in/nicolas-rivera-60693512" target="_blank">in</a></div><div class="p"><span class="st">★</span><b>Patricio Arce Valdebenito</b> <span class="cg">Gerente de Mantenimiento de Plantas</span> <a href="https://cl.linkedin.com/in/patricio-arce-valdebenito-71586850" target="_blank">in</a></div><div class="p"><span class="st">★</span><b>Sergio E. López Fuentes</b> <span class="cg">Ingeniero Civil en Mecánica</span> <a href="https://cl.linkedin.com/in/sergio-e-l%C3%B3pez-fuentes-96220826" target="_blank">in</a></div></div>
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>Pucobre</b>
+          <span class="sig">Pucobre</span></div>
+        <div class="met"><span class="monto">US$99,755</span><span class="sub">ganado US$75,384 · 5 OC</span></div>
+        <div class="met"><span class="gris">—</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">0</span><span class="sub">decisores</span></div>
+      </div>
+      
+      
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>Empresa Electrica Ventanas Spa</b>
+          <span class="sig">Ventana</span></div>
+        <div class="met"><span class="monto">US$58,984</span><span class="sub">ganado US$10,949 · 4 OC</span></div>
+        <div class="met"><span class="dolor">614.8 t</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">1</span><span class="sub">decisores</span></div>
+      </div>
+      <div class="lin"><span class="lb">Línea</span> Analítica · Instrumentación · SIS · Válvulas<span class="prod">CEMS 5000 · Analítica en línea (línea Hobre) · HIFISC · TISOMIC · SFE910 (caudal electromagnético)</span></div>
+      <div class="dec"><div class="p"><span class="st">★</span><b>Luis Fuentes Martinez</b> <span class="cg">Gerente de Explotación Sustentable, Puerto Ventanas S.A.</span> <a href="https://cl.linkedin.com/in/luis-fuentes-martinez-00747239" target="_blank">in</a></div></div>
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>SGS MINERALS S.A.</b>
+          <span class="sig">SGS</span></div>
+        <div class="met"><span class="monto">US$56,918</span><span class="sub">ganado US$56,918 · 1 OC</span></div>
+        <div class="met"><span class="dolor">6,647.0 t</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">0</span><span class="sub">decisores</span></div>
+      </div>
+      
+      
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>MINERA SPENCE S.A.</b>
+          </div>
+        <div class="met"><span class="gris">nunca cotizado</span></div>
+        <div class="met"><span class="dolor">69,779.6 t</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">0</span><span class="sub">decisores</span></div>
+      </div>
+      
+      
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>MINERA ESCONDIDA LIMITADA</b>
+          </div>
+        <div class="met"><span class="gris">nunca cotizado</span></div>
+        <div class="met"><span class="dolor">51,374.6 t</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">22</span><span class="sub">decisores</span></div>
+      </div>
+      <div class="lin"><span class="lb">Línea</span> Analítica · Instrumentación · DCS · Válvulas<span class="prod">CEMS 5000 · Analítica en línea (línea Hobre) · HIFISC · TISOMIC · SFE910 (caudal electromagnético)</span></div>
+      <div class="dec"><div class="p"><span class="st">★</span><b>Andres Santoro Flores</b> <span class="cg">Tecnico Instrumentista en Minera Escondida Limitada</span> <a href="https://cl.linkedin.com/in/andres-santoro-flores-64003970" target="_blank">in</a></div><div class="p"><span class="st">★</span><b>Arman Barha</b> <span class="cg">Vicepresidente Recursos, Planificación y Desarrollo</span> </div><div class="p"><span class="st">★</span><b>Claudia Loeza</b> <span class="cg">Engineer DCS Cathode &amp; Mine Minera Escondida Ltda</span> <a href="https://cl.linkedin.com/in/claudia-loeza-1711a7b1" target="_blank">in</a></div><div class="p"><span class="st">★</span><b>Claudio Muñoz</b> <span class="cg">Gerente General de Operaciones Concentradoras</span> </div><div class="p"><span class="st">★</span><b>Cristiana Moraes</b> <span class="cg">Vicepresidente de Finanzas</span> </div><div class="p"><span class="st">★</span><b>Eduardo Moreno</b> <span class="cg">Gerente Mantención Equipos Móviles en Minera Escondida Limitada</span> <a href="https://cl.linkedin.com/in/eduardo-moreno-4b95202b" target="_blank">in</a></div><div class="p"><span class="st">★</span><b>Jaime Rivera</b> <span class="cg">Gerente Operaciones Mina</span> </div><div class="p"><span class="st">★</span><b>James Whittaker</b> <span class="cg">Presidente de Minera Escondida</span> </div><div class="p"><span class="st">★</span><b>Johans Corrales</b> <span class="cg">Supervisor de mantenimiento en Minera Escondida Limitada</span> <a href="https://cl.linkedin.com/in/johans-corrales-9217ab130" target="_blank">in</a></div><div class="p"><span class="st">★</span><b>Jose Carlos Quiñones</b> <span class="cg">General Manager at Minera Escondida Limited</span> <a href="https://cl.linkedin.com/in/jose-carlos-qui%C3%B1ones-a52a2623" target="_blank">in</a></div><div class="p"><span class="st">★</span><b>JoséMiguel Saldías</b> <span class="cg">Gerente de RRHH Minera Escondida Ltada</span> <a href="https://cl.linkedin.com/in/jos%C3%A9miguel-sald%C3%ADas-045a075" target="_blank">in</a></div><div class="p"><span class="st">★</span><b>Juan Cristóbal Marshall</b> <span class="cg">Vicepresidente de Asuntos Corporativos</span> </div><div class="p mas">+10 más</div></div>
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>ANGLO AMERICAN SUR S.A.</b>
+          </div>
+        <div class="met"><span class="gris">nunca cotizado</span></div>
+        <div class="met"><span class="dolor">49,943.1 t</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">0</span><span class="sub">decisores</span></div>
+      </div>
+      <div class="lin"><span class="lb">Línea</span> Analítica · SIS<span class="prod">CEMS 5000 · Analítica en línea (línea Hobre) · HIFISC · TISOMIC · TCS-900</span></div>
+      
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>COMPANIA MINERA MANTOS DE ORO</b>
+          </div>
+        <div class="met"><span class="gris">nunca cotizado</span></div>
+        <div class="met"><span class="dolor">48,093.6 t</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">0</span><span class="sub">decisores</span></div>
+      </div>
+      
+      
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>COMPANIA MINERA TECK QUEBRADA BLANCA S.A.</b>
+          </div>
+        <div class="met"><span class="gris">nunca cotizado</span></div>
+        <div class="met"><span class="dolor">34,906.7 t</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">12</span><span class="sub">decisores</span></div>
+      </div>
+      <div class="lin"><span class="lb">Línea</span> Analítica · Instrumentación · DCS · Válvulas<span class="prod">CEMS 5000 · Analítica en línea (línea Hobre) · HIFISC · TISOMIC · SFE910 (caudal electromagnético)</span></div>
+      <div class="dec"><div class="p"><span class="st">★</span><b>Claudia Garcés</b> <span class="cg">Gerente Medio Ambiente</span> </div><div class="p"><span class="st">★</span><b>Cristian Soto araneda</b> <span class="cg">Gerente Seguridad , Salud y emergencias compañia minera teck que</span> <a href="https://cl.linkedin.com/in/cristian-soto-araneda-40062a34" target="_blank">in</a></div><div class="p"><span class="st">★</span><b>Enrique Castro</b> <span class="cg">Gerente General</span> </div><div class="p"><span class="st">★</span><b>Francisco Javier Escudero Pinto</b> <span class="cg">Jefe Área Mantencion Mina en Teck Quebrada Blanca</span> <a href="https://cl.linkedin.com/in/francisco-javier-escudero-pinto-50a67057" target="_blank">in</a></div><div class="p"><span class="st">★</span><b>Jaime Ferrada</b> <span class="cg">Gerente de Operaciones</span> </div><div class="p"><span class="st">★</span><b>José Miguel Ríos</b> <span class="cg">Gerente Mantenimiento</span> </div><div class="p"><span class="st">★</span><b>Juan Carlos Astorga</b> <span class="cg">Gerente Salud y Seguridad</span> </div><div class="p"><span class="st">★</span><b>Mario Ortiz</b> <span class="cg">General Manager, Quebrada Blanca</span> <a href="https://cl.linkedin.com/in/mario-ortiz-054a30128" target="_blank">in</a></div><div class="p"><span class="st">★</span><b>Patricio Muñoz Campos</b> <span class="cg">Gerencia de Operaciones Integradas Cía. Minera Teck Quebrada Bla</span> <a href="https://cl.linkedin.com/in/patricio-mu%C3%B1oz-campos-0bb26234" target="_blank">in</a></div><div class="p"><span class="st">★</span><b>Sandra B Henriquez</b> <span class="cg">Gerente Medio Ambiente y Recursos Hidricos Teck Quebrada Blanca</span> <a href="https://cl.linkedin.com/in/sandra-b-henriquez-77793b39" target="_blank">in</a></div><div class="p"><span class="dt">·</span><b>Cristian Rojas</b> <span class="cg">Gerente Servicios Técnicos</span> </div><div class="p"><span class="dt">·</span><b>Patricio Marabolí</b> <span class="cg">Gerente de Recursos Humanos</span> </div></div>
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>SIERRA GORDA S.C.M.</b>
+          </div>
+        <div class="met"><span class="gris">nunca cotizado</span></div>
+        <div class="met"><span class="dolor">24,933.1 t</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">0</span><span class="sub">decisores</span></div>
+      </div>
+      
+      
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>CIA MINERA DONA INES DE COLLAHUASI SCM</b>
+          </div>
+        <div class="met"><span class="gris">nunca cotizado</span></div>
+        <div class="met"><span class="dolor">22,024.0 t</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">0</span><span class="sub">decisores</span></div>
+      </div>
+      
+      
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>S Q M SALAR S A</b>
+          </div>
+        <div class="met"><span class="gris">nunca cotizado</span></div>
+        <div class="met"><span class="dolor">21,292.5 t</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">0</span><span class="sub">decisores</span></div>
+      </div>
+      
+      
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>SOC CONTRACTUAL MINERA EL ABRA</b>
+          </div>
+        <div class="met"><span class="gris">nunca cotizado</span></div>
+        <div class="met"><span class="dolor">20,012.9 t</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">0</span><span class="sub">decisores</span></div>
+      </div>
+      
+      
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>KOMATSU REMAN CENTER CHILE S.A.</b>
+          </div>
+        <div class="met"><span class="gris">nunca cotizado</span></div>
+        <div class="met"><span class="dolor">19,491.3 t</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">0</span><span class="sub">decisores</span></div>
+      </div>
+      
+      
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>MINERA MERIDIAN LIMITADA</b>
+          </div>
+        <div class="met"><span class="gris">nunca cotizado</span></div>
+        <div class="met"><span class="dolor">19,307.6 t</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">0</span><span class="sub">decisores</span></div>
+      </div>
+      
+      
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>MANTOVERDE S.A.</b>
+          </div>
+        <div class="met"><span class="gris">nunca cotizado</span></div>
+        <div class="met"><span class="dolor">18,729.2 t</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">3</span><span class="sub">decisores</span></div>
+      </div>
+      <div class="lin"><span class="lb">Línea</span> Analítica<span class="prod">CEMS 5000 · Analítica en línea (línea Hobre) · HIFISC · TISOMIC</span></div>
+      <div class="dec"><div class="p"><span class="st">★</span><b>Cristian Alejandro Gómez Aguilar</b> <span class="cg">Gerente Mantenimiento Mina y Plantas en Capstone Copper Chile - </span> <a href="https://cl.linkedin.com/in/cristian-alejandro-g%C3%B3mez-aguilar-b9129822" target="_blank">in</a></div><div class="p"><span class="st">★</span><b>Daniela Araya</b> <span class="cg">Asesora de Permisos Mantoverde S.A.</span> <a href="https://cl.linkedin.com/in/daniela-araya-348b7761" target="_blank">in</a></div><div class="p"><span class="st">★</span><b>Manuel CISTERNAS CORTÉS</b> <span class="cg">Jefe de Turno Mantenimiento Eléctrico e Instrumentación Mantover</span> <a href="https://cl.linkedin.com/in/manuel-cisternas-cort%C3%A9s-9914a91b8" target="_blank">in</a></div></div>
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>MANTOS COPPER  S.A.</b>
+          </div>
+        <div class="met"><span class="gris">nunca cotizado</span></div>
+        <div class="met"><span class="dolor">17,954.8 t</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">0</span><span class="sub">decisores</span></div>
+      </div>
+      
+      
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>EMPRESA NACIONAL DEL PETROLEO</b>
+          </div>
+        <div class="met"><span class="gris">nunca cotizado</span></div>
+        <div class="met"><span class="dolor">17,611.4 t</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">21</span><span class="sub">decisores</span></div>
+      </div>
+      <div class="lin"><span class="lb">Línea</span> Analítica · DCS<span class="prod">CEMS 5000 · Analítica en línea (línea Hobre) · HIFISC · TISOMIC · ECS-700</span></div>
+      <div class="dec"><div class="p"><span class="st">★</span><b>Aaron Vallejos</b> <span class="cg">Control e Instrunentación Empresa Nacional del Petroleo</span> <a href="https://cl.linkedin.com/in/aaron-vallejos-07504847" target="_blank">in</a></div><div class="p"><span class="st">★</span><b>Alejandro Varas</b> <span class="cg">Field Supervisor DCU &amp; Alkilation Division, Empresa Nacional</span> <a href="https://cl.linkedin.com/in/alejandro-varas-a4864446" target="_blank">in</a></div><div class="p"><span class="st">★</span><b>Christian Gonzalez</b> <span class="cg">Director Cumplimiento Ambiental en ENAP</span> <a href="https://cl.linkedin.com/in/christian-gonzalez-0923b636" target="_blank">in</a></div><div class="p"><span class="st">★</span><b>Cristián Apablaza R.</b> <span class="cg">Vicepresidente de Operaciones</span> </div><div class="p"><span class="st">★</span><b>Fabián Guerrero</b> <span class="cg">DIRECTOR DE GESTIÓN AMBIENTAL CORPORATIVO</span> <a href="https://cl.linkedin.com/in/faguerrero" target="_blank">in</a></div><div class="p"><span class="st">★</span><b>Franklin Camus</b> <span class="cg">Jefe División Proceso en Empresa Nacional del Petroleo ENAP</span> <a href="https://cl.linkedin.com/in/franklin-camus-826815bb" target="_blank">in</a></div><div class="p"><span class="st">★</span><b>Frederic Bellenger</b> <span class="cg">Ingeniero de mantenimiento en Empresa Nacional del Petroleo ENAP</span> <a href="https://cl.linkedin.com/in/frederic-bellenger-8b797968" target="_blank">in</a></div><div class="p"><span class="st">★</span><b>Iván Rubilar Seguel</b> <span class="cg">Jefe División Electricidad e Instrumentos en Empresa Nacional de</span> <a href="https://cl.linkedin.com/in/ivanrubilarseguel" target="_blank">in</a></div><div class="p"><span class="st">★</span><b>Jorge Jaque</b> <span class="cg">Gerente de Tecnologías de la Información (TI) at ENAP (Empresa N</span> <a href="https://cl.linkedin.com/in/jorge-jaque-gerente-ti" target="_blank">in</a></div><div class="p"><span class="st">★</span><b>Lorena Carvallo Alache</b> <span class="cg">Head of Renewable Environmental Management / Environmental Impac</span> <a href="https://cl.linkedin.com/in/lorena-carvallo-alache" target="_blank">in</a></div><div class="p"><span class="st">★</span><b>Marcelo Garces Vasquez</b> <span class="cg">Director de Mantenimiento Mayor en Empresa Nacional del Petroleo</span> <a href="https://cl.linkedin.com/in/marcelo-garces-vasquez-3061a360" target="_blank">in</a></div><div class="p"><span class="st">★</span><b>Mauricio Muñoz</b> <span class="cg">Jefe de Compras y Contratos</span> </div><div class="p mas">+9 más</div></div>
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>MOLYMETNOS S.A.</b>
+          </div>
+        <div class="met"><span class="gris">nunca cotizado</span></div>
+        <div class="met"><span class="dolor">16,789.4 t</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">0</span><span class="sub">decisores</span></div>
+      </div>
+      
+      
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>SOC QUIMICA Y MINERA DE CHILE S A</b>
+          </div>
+        <div class="met"><span class="gris">nunca cotizado</span></div>
+        <div class="met"><span class="dolor">13,512.1 t</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">0</span><span class="sub">decisores</span></div>
+      </div>
+      
+      
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>COMPANIA MINERA LOMAS BAYAS</b>
+          </div>
+        <div class="met"><span class="gris">nunca cotizado</span></div>
+        <div class="met"><span class="dolor">11,988.7 t</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">0</span><span class="sub">decisores</span></div>
+      </div>
+      
+      
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>ALBEMARLE LIMITADA</b>
+          </div>
+        <div class="met"><span class="gris">nunca cotizado</span></div>
+        <div class="met"><span class="dolor">10,315.5 t</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">0</span><span class="sub">decisores</span></div>
+      </div>
+      
+      
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>MINERA ANTUCOYA</b>
+          </div>
+        <div class="met"><span class="gris">nunca cotizado</span></div>
+        <div class="met"><span class="dolor">9,902.5 t</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">0</span><span class="sub">decisores</span></div>
+      </div>
+      
+      
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>MINERA FLORIDA LIMITADA</b>
+          </div>
+        <div class="met"><span class="gris">nunca cotizado</span></div>
+        <div class="met"><span class="dolor">9,778.4 t</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">0</span><span class="sub">decisores</span></div>
+      </div>
+      
+      
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>MINERA GOLD FIELDS SALARES NORTE SPA</b>
+          </div>
+        <div class="met"><span class="gris">nunca cotizado</span></div>
+        <div class="met"><span class="dolor">8,709.8 t</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">0</span><span class="sub">decisores</span></div>
+      </div>
+      
+      
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>SQM INDUSTRIAL S.A.</b>
+          </div>
+        <div class="met"><span class="gris">nunca cotizado</span></div>
+        <div class="met"><span class="dolor">8,107.9 t</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">0</span><span class="sub">decisores</span></div>
+      </div>
+      
+      
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>COMPANIA MINERA ZALDIVAR SPA</b>
+          </div>
+        <div class="met"><span class="gris">nunca cotizado</span></div>
+        <div class="met"><span class="dolor">7,747.5 t</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">0</span><span class="sub">decisores</span></div>
+      </div>
+      
+      
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>COMPANIA MINERA TECK CARMEN DE ANDACOLLO</b>
+          </div>
+        <div class="met"><span class="gris">nunca cotizado</span></div>
+        <div class="met"><span class="dolor">6,129.1 t</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">0</span><span class="sub">decisores</span></div>
+      </div>
+      
+      
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>SOC CONTRACTUAL MINERA CAROLA</b>
+          </div>
+        <div class="met"><span class="gris">nunca cotizado</span></div>
+        <div class="met"><span class="dolor">5,917.0 t</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">0</span><span class="sub">decisores</span></div>
+      </div>
+      
+      
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>MINERA HMC S.A.</b>
+          </div>
+        <div class="met"><span class="gris">nunca cotizado</span></div>
+        <div class="met"><span class="dolor">4,782.7 t</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">0</span><span class="sub">decisores</span></div>
+      </div>
+      
+      
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>SOCIEDAD CONTRACTUAL MINERA COSAYACH YODO</b>
+          </div>
+        <div class="met"><span class="gris">nunca cotizado</span></div>
+        <div class="met"><span class="dolor">4,700.0 t</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">0</span><span class="sub">decisores</span></div>
+      </div>
+      
+      
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>ALGORTA NORTE SA</b>
+          </div>
+        <div class="met"><span class="gris">nunca cotizado</span></div>
+        <div class="met"><span class="dolor">3,711.6 t</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">0</span><span class="sub">decisores</span></div>
+      </div>
+      
+      
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>MINERA LAS CENIZAS S A</b>
+          </div>
+        <div class="met"><span class="gris">nunca cotizado</span></div>
+        <div class="met"><span class="dolor">3,698.4 t</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">0</span><span class="sub">decisores</span></div>
+      </div>
+      
+      
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>WEIR MINERALS CHILE SA</b>
+          </div>
+        <div class="met"><span class="gris">nunca cotizado</span></div>
+        <div class="met"><span class="dolor">3,485.8 t</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">0</span><span class="sub">decisores</span></div>
+      </div>
+      
+      
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>SOC PUNTA DEL COBRE S A</b>
+          </div>
+        <div class="met"><span class="gris">nunca cotizado</span></div>
+        <div class="met"><span class="dolor">3,367.1 t</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">0</span><span class="sub">decisores</span></div>
+      </div>
+      
+      
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>ZUBLIN INTERNATIONAL GMBH CHILE SPA</b>
+          </div>
+        <div class="met"><span class="gris">nunca cotizado</span></div>
+        <div class="met"><span class="dolor">2,743.4 t</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">0</span><span class="sub">decisores</span></div>
+      </div>
+      
+      
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>SOCIEDAD PUNTA DE LOBOS S.A.</b>
+          </div>
+        <div class="met"><span class="gris">nunca cotizado</span></div>
+        <div class="met"><span class="dolor">2,563.7 t</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">0</span><span class="sub">decisores</span></div>
+      </div>
+      
+      
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>CIA CONTRACTUAL MINERA OJOS DEL SALADO</b>
+          </div>
+        <div class="met"><span class="gris">nunca cotizado</span></div>
+        <div class="met"><span class="dolor">2,423.9 t</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">0</span><span class="sub">decisores</span></div>
+      </div>
+      
+      
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>SOC DE SERVICIOS TECNICOS GEOLOGI  COS GEOTEC BOYLES            BROS S A</b>
+          </div>
+        <div class="met"><span class="gris">nunca cotizado</span></div>
+        <div class="met"><span class="dolor">2,336.2 t</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">0</span><span class="sub">decisores</span></div>
+      </div>
+      
+      
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>GUANACO COMPANIA MINERA SPA</b>
+          </div>
+        <div class="met"><span class="gris">nunca cotizado</span></div>
+        <div class="met"><span class="dolor">1,784.5 t</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">0</span><span class="sub">decisores</span></div>
+      </div>
+      
+      
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>LIEBHERR CHILE SPA</b>
+          </div>
+        <div class="met"><span class="gris">nunca cotizado</span></div>
+        <div class="met"><span class="dolor">1,708.3 t</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">0</span><span class="sub">decisores</span></div>
+      </div>
+      
+      
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>PAMPA CAMARONES SPA.</b>
+          </div>
+        <div class="met"><span class="gris">nunca cotizado</span></div>
+        <div class="met"><span class="dolor">1,495.2 t</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">0</span><span class="sub">decisores</span></div>
+      </div>
+      
+      
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>CALIDRA CHILE IMPORTACIONES MINERALES SPA</b>
+          </div>
+        <div class="met"><span class="gris">nunca cotizado</span></div>
+        <div class="met"><span class="dolor">1,453.2 t</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">0</span><span class="sub">decisores</span></div>
+      </div>
+      
+      
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>CIA MINERA SAN GERONIMO</b>
+          </div>
+        <div class="met"><span class="gris">nunca cotizado</span></div>
+        <div class="met"><span class="dolor">1,404.8 t</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">0</span><span class="sub">decisores</span></div>
+      </div>
+      
+      
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>MAS ERRAZURIZ MAQUINARIAS Y SERVICIOS LIMITADA</b>
+          </div>
+        <div class="met"><span class="gris">nunca cotizado</span></div>
+        <div class="met"><span class="dolor">1,322.4 t</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">0</span><span class="sub">decisores</span></div>
+      </div>
+      
+      
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>ACF MINERA S.A.</b>
+          </div>
+        <div class="met"><span class="gris">nunca cotizado</span></div>
+        <div class="met"><span class="dolor">1,307.7 t</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">0</span><span class="sub">decisores</span></div>
+      </div>
+      
+      
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>SOCIEDAD MINERA PACIFICO DEL SUR SPA</b>
+          </div>
+        <div class="met"><span class="gris">nunca cotizado</span></div>
+        <div class="met"><span class="dolor">1,283.4 t</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">14</span><span class="sub">decisores</span></div>
+      </div>
+      <div class="lin"><span class="lb">Línea</span> Analítica · PLC<span class="prod">CEMS 5000 · Analítica en línea (línea Hobre) · HIFISC · TISOMIC · G5Pro</span></div>
+      <div class="dec"><div class="p"><span class="st">★</span><b>Carlos Gómez Vega</b> <span class="cg">Gerente de Proyectos</span> </div><div class="p"><span class="st">★</span><b>Cristian Mena Basoalto</b> <span class="cg">Magister en ingeniería, Ingeniero civil industrial y Mecánica co</span> <a href="https://cl.linkedin.com/in/cristian-mena-basoalto-49653254" target="_blank">in</a></div><div class="p"><span class="st">★</span><b>Eduardo Morales Muñoz</b> <span class="cg">Jefe de Operaciones en Puerto Chacabuco para Minera Pacifico del</span> <a href="https://cl.linkedin.com/in/epmoralesm" target="_blank">in</a></div><div class="p"><span class="st">★</span><b>Francisco Carvajal Palacios</b> <span class="cg">Gerente General</span> </div><div class="p"><span class="st">★</span><b>Jose Quiroga Fica</b> <span class="cg">Gerente General en Sociedad Minera Pacifico del Sur</span> <a href="https://cl.linkedin.com/in/jose-quiroga-fica-92140950" target="_blank">in</a></div><div class="p"><span class="st">★</span><b>Luis Enrique Lavin Barrios</b> <span class="cg">Sociedad Minera Pacífico del Sur</span> <a href="https://cl.linkedin.com/in/luis-enrique-lavin-barrios-4335328b" target="_blank">in</a></div><div class="p"><span class="st">★</span><b>Macarena Herrera Sandoval</b> <span class="cg">Gerente de Seguridad y Salud Ocupacional</span> </div><div class="p"><span class="st">★</span><b>Makarina Orellana</b> <span class="cg">Gerente de Operaciones</span> </div><div class="p"><span class="st">★</span><b>Paulina Andreoli</b> <span class="cg">Gerencia de Medio Ambiente y Cambio Climático</span> </div><div class="p"><span class="dt">·</span><b>Carlos Sepúlveda Vélez</b> <span class="cg">Gerente de Adm. y Finanzas</span> </div><div class="p"><span class="dt">·</span><b>Carolina Lomuscio Zamorano</b> <span class="cg">Gerente de Personas</span> </div><div class="p"><span class="dt">·</span><b>Claudia Monreal</b> <span class="cg">Gerente de Planificación y Desarrollo</span> </div><div class="p mas">+2 más</div></div>
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>CIA MINERA CERRO NEGRO S A</b>
+          </div>
+        <div class="met"><span class="gris">nunca cotizado</span></div>
+        <div class="met"><span class="dolor">1,119.4 t</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">0</span><span class="sub">decisores</span></div>
+      </div>
+      
+      
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>COMPANIA  MANTOS DE LA LUNA S A</b>
+          </div>
+        <div class="met"><span class="gris">nunca cotizado</span></div>
+        <div class="met"><span class="dolor">1,114.6 t</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">0</span><span class="sub">decisores</span></div>
+      </div>
+      
+      
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>COMPANIA MINERA FLORIDA S.A</b>
+          </div>
+        <div class="met"><span class="gris">nunca cotizado</span></div>
+        <div class="met"><span class="dolor">1,107.0 t</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">0</span><span class="sub">decisores</span></div>
+      </div>
+      
+      
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>SOCIEDAD CONTRACTUAL MINERA FRANKE</b>
+          </div>
+        <div class="met"><span class="gris">nunca cotizado</span></div>
+        <div class="met"><span class="dolor">1,058.4 t</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">0</span><span class="sub">decisores</span></div>
+      </div>
+      
+      
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>SANDVIK CHILE S.A.</b>
+          </div>
+        <div class="met"><span class="gris">nunca cotizado</span></div>
+        <div class="met"><span class="dolor">1,033.5 t</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">0</span><span class="sub">decisores</span></div>
+      </div>
+      
+      
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>CRUSTACEOS SUR S.A.</b>
+          </div>
+        <div class="met"><span class="gris">nunca cotizado</span></div>
+        <div class="met"><span class="dolor">14.0 t</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">0</span><span class="sub">decisores</span></div>
+      </div>
+      <div class="lin"><span class="lb">Línea</span> Analítica · SIS<span class="prod">CEMS 5000 · Analítica en línea (línea Hobre) · HIFISC · TISOMIC · TCS-900</span></div>
+      
+      
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="nom"><b>CIA SIDERURGICA HUACHIPATO S.A.</b>
+          </div>
+        <div class="met"><span class="gris">nunca cotizado</span></div>
+        <div class="met"><span class="dolor">0.4 t</span><span class="sub">residuos peligrosos</span></div>
+        <div class="met"><span class="num">18</span><span class="sub">decisores</span></div>
+      </div>
+      <div class="lin"><span class="lb">Línea</span> SIS<span class="prod">TCS-900 · TCS-500 · HIPPS</span></div>
+      <div class="dec"><div class="p"><span class="st">★</span><b>Alvaro E. Letelier Guerrero</b> <span class="cg">Jefe de Operación Contratos en CAP Acero Compañia Siderurgica Hu</span> <a href="https://bh.linkedin.com/in/alvaro-e-letelier-guerrero-63915910" target="_blank">in</a></div><div class="p"><span class="st">★</span><b>Filippo Bustos Loyola</b> <span class="cg">Gerente de Abastecimientoy Logística</span> </div><div class="p"><span class="st">★</span><b>Hernán del Valle</b> <span class="cg">Gerente de Ingeniería</span> </div><div class="p"><span class="st">★</span><b>Jean Paul Sauré</b> <span class="cg">Gerente de Proyectos</span> </div><div class="p"><span class="st">★</span><b>José Luis Bustos Lagos</b> <span class="cg">Compañía Siderúrgica Huachipato S.A. Planificador de Mantenimien</span> <a href="https://cl.linkedin.com/in/jos%C3%A9-luis-bustos-lagos-339ab12bb" target="_blank">in</a></div><div class="p"><span class="st">★</span><b>Juan Carlos Ponti</b> <span class="cg">Gerente de Operaciones</span> </div><div class="p"><span class="st">★</span><b>Juan Carlos Ponti Cisternas</b> <span class="cg">Gerente de Operaciones en Compañía Siderúrgica Huachipato</span> <a href="https://cl.linkedin.com/in/juan-carlos-ponti-cisternas-6a56666a" target="_blank">in</a></div><div class="p"><span class="st">★</span><b>Juan Carlos Torres Torres</b> <span class="cg">Jefe de Turno Muelle en Cia. Siderúrgica Huachipato S.A.</span> <a href="https://cl.linkedin.com/in/juan-carlos-torres-torres-6a48b2ab" target="_blank">in</a></div><div class="p"><span class="st">★</span><b>Juan Martinez</b> <span class="cg">gerente de Medio Ambiente y Seguridad en Compañía Siderúrgica Hu</span> <a href="https://cl.linkedin.com/in/juan-martinez-53373728" target="_blank">in</a></div><div class="p"><span class="st">★</span><b>Luis Moena Zuñiga</b> <span class="cg">Jefe de sección Almacenamiento en Cía. Siderúrgica Huachipato S.</span> <a href="https://cl.linkedin.com/in/luis-moena-zu%C3%B1iga-56a16b50" target="_blank">in</a></div><div class="p"><span class="st">★</span><b>Pablo Pacheco Bastidas</b> <span class="cg">Gerente de Sustentabilidad y Personas</span> </div><div class="p"><span class="st">★</span><b>Rodrigo Briceño Carrasco</b> <span class="cg">Gerente General</span> </div><div class="p mas">+6 más</div></div>
+      
+    </div>
+
+<footer>
+  Fuentes: eCRM INECO 2023-2025 · RETC MMA (residuos peligrosos) ·
+  Direcmin + Transparencia Ley 20.285 + LinkedIn ·
+  <a href="buscador_decisores.html">buscador de decisores</a> ·
+  <a href="compradores_linkedin.html">compradores del eCRM</a> ·
+  <a href="../index.html">catálogo</a>.
+</footer>
+</div></body></html>
