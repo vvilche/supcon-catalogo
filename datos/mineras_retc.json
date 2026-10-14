@@ -1,0 +1,3905 @@
+{
+ "que_es": "Mineras del RETC con su dolor medido (residuos peligrosos declarados en la hoja 'Generador' de respeligrosos_2025). Recupera las que el cruce anterior perdió.",
+ "el_error_que_repara": "dolor_ambiental.py conservó solo la INTERSECCIÓN del RETC con el plan de contacto (370 empresas). Las mineras grandes no estaban en el plan y se cayeron todas, aunque SÍ están en el RETC. Se descubrió al cruzar la cuenta #1 del eCRM (MLP US$7,8M) y ver que no aparecía.",
+ "regla": "El universo se toma de la FUENTE, no de la intersección con otro catálogo. Filtrar por intersección pierde justo las empresas que no están del otro lado.",
+ "indices_verificados": "respeligrosos/Generador: [5] rut [6] razon_social [8] ciiu6 [12] rubro [19] cantidad [20] unidad [22] tipo [24] peligrosidad. Verificar la columna contra su NOMBRE, no por posición: el primer intento leyó el RUT como razón social y sumó una columna sin unidad (salían 2.200 millones de toneladas, absurdo).",
+ "fuente": "datos/retc/respeligrosos_2025.xlsx (hoja Generador) + riles_2024.xlsx (hoja Datos)",
+ "totales": {
+  "mineras": 220,
+  "con_riles": 9,
+  "respel_total_t": 2992581.12
+ },
+ "mineras": [
+  {
+   "empresa": "CORP NACIONAL DEL COBRE DE CHILE",
+   "rut": "61704000-K",
+   "rubro": "Minería",
+   "ciiu6": "Extracción y procesamiento de cobre",
+   "respel_t": 2210090.43,
+   "n_declaraciones": 142,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Envases y recipientes contaminados que hayan conte",
+    "Mezclas y emulsiones de aceite  y agua o hidrocarb",
+    "Residuos resultantes de la producción, preparación"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Corrosivo",
+    "Inflamable"
+   ]
+  },
+  {
+   "empresa": "MINERA CENTINELA",
+   "rut": "76727040-2",
+   "rubro": "Minería",
+   "ciiu6": "Extracción y procesamiento de cobre",
+   "respel_t": 75108.73,
+   "n_declaraciones": 40,
+   "en_riles": true,
+   "residuos_top": [
+    "Residuos resultantes de las operaciones de elimina",
+    "Aceites minerales residuales no aptos para el uso ",
+    "Envases y recipientes contaminados que hayan conte",
+    "Compuestos de Plomo"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Corrosivo",
+    "Inflamable"
+   ]
+  },
+  {
+   "empresa": "MINERA SPENCE S.A.",
+   "rut": "86542100-1",
+   "rubro": "Minería",
+   "ciiu6": "Extracción y procesamiento de cobre",
+   "respel_t": 69779.63,
+   "n_declaraciones": 7,
+   "en_riles": false,
+   "residuos_top": [
+    "Mezclas y emulsiones de aceite  y agua o hidrocarb",
+    "Residuos resultantes de la producción, preparación",
+    "Soluciones ácidas o ácidos en forma sólida.; Compu",
+    "Compuestos de Plomo"
+   ],
+   "peligrosidades": [
+    "Inflamable",
+    "Tóxico por lixiviación",
+    "Tóxico por lixiviación; Corros"
+   ]
+  },
+  {
+   "empresa": "MINERA ESCONDIDA LIMITADA",
+   "rut": "79587210-8",
+   "rubro": "Minería",
+   "ciiu6": "Extracción y procesamiento de cobre",
+   "respel_t": 51374.55,
+   "n_declaraciones": 20,
+   "en_riles": true,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Compuestos de Plomo",
+    "Residuos resultantes de la producción, preparación",
+    "Envases y recipientes contaminados que hayan conte"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Corrosivo",
+    "Tóxico crónico; Inflamable"
+   ]
+  },
+  {
+   "empresa": "ANGLO AMERICAN SUR S.A.",
+   "rut": "77762940-9",
+   "rubro": "Minería",
+   "ciiu6": "Extracción y procesamiento de cobre",
+   "respel_t": 49943.07,
+   "n_declaraciones": 31,
+   "en_riles": true,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Mezclas y emulsiones de aceite  y agua o hidrocarb",
+    "Envases y recipientes contaminados que hayan conte",
+    "Suelos o materiales resultantes de faenas de movim"
+   ],
+   "peligrosidades": [
+    "Tóxico por lixiviación",
+    "Tóxico crónico",
+    "Corrosivo"
+   ]
+  },
+  {
+   "empresa": "COMPANIA MINERA MANTOS DE ORO",
+   "rut": "78928380-K",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de oro y plata",
+   "respel_t": 48093.63,
+   "n_declaraciones": 13,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Compuestos de Mercurio; Compuestos de Plomo",
+    "Residuos resultantes de la producción, preparación",
+    "Compuestos de Plomo; Compuestos de Mercurio"
+   ],
+   "peligrosidades": [
+    "Tóxico por lixiviación",
+    "Tóxico agudo",
+    "Inflamable"
+   ]
+  },
+  {
+   "empresa": "COMPANIA MINERA TECK QUEBRADA BLANCA S.A.",
+   "rut": "96567040-8",
+   "rubro": "Minería",
+   "ciiu6": "Extracción y procesamiento de cobre",
+   "respel_t": 34906.7,
+   "n_declaraciones": 17,
+   "en_riles": true,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Envases y recipientes contaminados que hayan conte",
+    "Compuestos de Mercurio",
+    "Mezclas y emulsiones de aceite  y agua o hidrocarb"
+   ],
+   "peligrosidades": [
+    "Corrosivo",
+    "Tóxico por lixiviación",
+    "Inflamable"
+   ]
+  },
+  {
+   "empresa": "CIA CONTRACTUAL MINERA CANDELARIA",
+   "rut": "85272800-0",
+   "rubro": "Minería",
+   "ciiu6": "Extracción y procesamiento de cobre",
+   "respel_t": 26396.68,
+   "n_declaraciones": 18,
+   "en_riles": true,
+   "residuos_top": [
+    "Residuos resultantes de la producción, preparación",
+    "Envases y recipientes contaminados que hayan conte",
+    "Aceites minerales residuales no aptos para el uso ",
+    "Soluciones ácidas o ácidos en forma sólida."
+   ],
+   "peligrosidades": [
+    "Tóxico por lixiviación",
+    "Corrosivo",
+    "Inflamable"
+   ]
+  },
+  {
+   "empresa": "SIERRA GORDA S.C.M.",
+   "rut": "76081590-K",
+   "rubro": "Minería",
+   "ciiu6": "Extracción y procesamiento de cobre",
+   "respel_t": 24933.09,
+   "n_declaraciones": 7,
+   "en_riles": false,
+   "residuos_top": [
+    "Mezclas y emulsiones de aceite  y agua o hidrocarb",
+    "Suelos o materiales resultantes de faenas de movim",
+    "Compuestos de Plomo",
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Inflamable; Tóxico crónico",
+    "Corrosivo",
+    "Corrosivo; Inflamable; Tóxico "
+   ]
+  },
+  {
+   "empresa": "CIA MINERA DEL PACIFICO S.A.",
+   "rut": "94638000-8",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de minerales de hierro",
+   "respel_t": 23430.98,
+   "n_declaraciones": 65,
+   "en_riles": true,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Residuos resultantes de la producción, preparación",
+    "Envases y recipientes contaminados que hayan conte",
+    "Mezclas y emulsiones de aceite  y agua o hidrocarb"
+   ],
+   "peligrosidades": [
+    "Inflamable",
+    "Corrosivo",
+    "Inflamable; Tóxico por lixivia"
+   ]
+  },
+  {
+   "empresa": "CIA MINERA DONA INES DE COLLAHUASI SCM",
+   "rut": "89468900-5",
+   "rubro": "Minería",
+   "ciiu6": "Extracción y procesamiento de cobre",
+   "respel_t": 22023.96,
+   "n_declaraciones": 25,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Residuos resultantes de las operaciones de elimina",
+    "Residuos resultantes de la producción, preparación",
+    "Envases y recipientes contaminados que hayan conte"
+   ],
+   "peligrosidades": [
+    "Tóxico por lixiviación",
+    "Corrosivo",
+    "Inflamable"
+   ]
+  },
+  {
+   "empresa": "S Q M SALAR S A",
+   "rut": "79626800-K",
+   "rubro": "Minería",
+   "ciiu6": "Explotación de otras minas y canteras n.c.p.",
+   "respel_t": 21292.49,
+   "n_declaraciones": 25,
+   "en_riles": false,
+   "residuos_top": [
+    "Envases y recipientes contaminados que hayan conte",
+    "Sustancias químicas residuales, no identificadas o",
+    "Aceites minerales residuales no aptos para el uso ",
+    "Residuos resultantes de la producción, la preparac"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Inflamable",
+    "Corrosivo"
+   ]
+  },
+  {
+   "empresa": "SOC CONTRACTUAL MINERA EL ABRA",
+   "rut": "96701340-4",
+   "rubro": "Minería",
+   "ciiu6": "Extracción y procesamiento de cobre",
+   "respel_t": 20012.9,
+   "n_declaraciones": 17,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Residuos resultantes de la producción, preparación",
+    "Mezclas y emulsiones de aceite  y agua o hidrocarb",
+    "Residuos hospitalarios."
+   ],
+   "peligrosidades": [
+    "Tóxico por lixiviación",
+    "Tóxico crónico",
+    "Inflamable; Tóxico por lixivia"
+   ]
+  },
+  {
+   "empresa": "KOMATSU REMAN CENTER CHILE S.A.",
+   "rut": "76492400-2",
+   "rubro": "Otras industrias manufactureras",
+   "ciiu6": "Reparación de maquinaria metalúrgica, para la minería, extracción de petróleo y para la construcción",
+   "respel_t": 19491.34,
+   "n_declaraciones": 28,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Residuos resultantes de la producción, preparación",
+    "Compuestos de cromo hexavalente",
+    "Envases y recipientes contaminados que hayan conte"
+   ],
+   "peligrosidades": [
+    "Inflamable",
+    "Tóxico crónico",
+    "Corrosivo"
+   ]
+  },
+  {
+   "empresa": "MINERA MERIDIAN LIMITADA",
+   "rut": "96508670-6",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de otros minerales metalíferos no ferrosos n.c.p. (excepto zinc, plomo y manganeso)",
+   "respel_t": 19307.58,
+   "n_declaraciones": 8,
+   "en_riles": false,
+   "residuos_top": [
+    "Compuestos de Plomo",
+    "Cadmio, compuestos de Cadmio; Compuestos de cromo ",
+    "Compuestos de Mercurio",
+    "Cianuros inorgánicos"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Tóxico agudo"
+   ]
+  },
+  {
+   "empresa": "MANTOVERDE S.A.",
+   "rut": "77020457-7",
+   "rubro": "Minería",
+   "ciiu6": "Extracción y procesamiento de cobre",
+   "respel_t": 18729.2,
+   "n_declaraciones": 10,
+   "en_riles": false,
+   "residuos_top": [
+    "Residuos resultantes de la producción, la preparac",
+    "Compuestos de Mercurio",
+    "Residuos resultantes de la producción, preparación",
+    "Compuestos de Plomo; Soluciones ácidas o ácidos en"
+   ],
+   "peligrosidades": [
+    "Corrosivo",
+    "Tóxico crónico",
+    "Inflamable"
+   ]
+  },
+  {
+   "empresa": "MINERA LOS PELAMBRES",
+   "rut": "96790240-3",
+   "rubro": "Minería",
+   "ciiu6": "Extracción y procesamiento de cobre",
+   "respel_t": 18669.86,
+   "n_declaraciones": 15,
+   "en_riles": false,
+   "residuos_top": [
+    "Residuos resultantes de la producción, preparación",
+    "Envases y recipientes contaminados que hayan conte",
+    "Cadmio, compuestos de Cadmio",
+    "Medicamentos, drogas y productos farmacéuticos des"
+   ],
+   "peligrosidades": [
+    "Tóxico por lixiviación",
+    "Inflamable",
+    "Corrosivo"
+   ]
+  },
+  {
+   "empresa": "MANTOS COPPER  S.A.",
+   "rut": "77418580-1",
+   "rubro": "Minería",
+   "ciiu6": "Extracción y procesamiento de cobre",
+   "respel_t": 17954.82,
+   "n_declaraciones": 8,
+   "en_riles": false,
+   "residuos_top": [
+    "Residuos resultantes de las operaciones de elimina",
+    "Envases y recipientes contaminados que hayan conte",
+    "Soluciones ácidas o ácidos en forma sólida.; Compu",
+    "Mezclas y emulsiones de aceite  y agua o hidrocarb"
+   ],
+   "peligrosidades": [
+    "Corrosivo",
+    "Inflamable; Tóxico agudo",
+    "Tóxico agudo; Inflamable; Corr"
+   ]
+  },
+  {
+   "empresa": "EMPRESA NACIONAL DEL PETROLEO",
+   "rut": "92604000-6",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de gas natural",
+   "respel_t": 17611.42,
+   "n_declaraciones": 16,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Compuestos de Plomo",
+    "Compuestos de Mercurio",
+    "Envases y recipientes contaminados que hayan conte"
+   ],
+   "peligrosidades": [
+    "Tóxico por lixiviación",
+    "Tóxico crónico",
+    "Tóxico crónico; Inflamable"
+   ]
+  },
+  {
+   "empresa": "MOLYMETNOS S.A.",
+   "rut": "76107905-0",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de otros minerales metalíferos no ferrosos n.c.p. (excepto zinc, plomo y manganeso)",
+   "respel_t": 16789.4,
+   "n_declaraciones": 15,
+   "en_riles": false,
+   "residuos_top": [
+    "Soluciones ácidas o ácidos en forma sólida.",
+    "Soluciones básicas o bases en forma sólida.",
+    "Mezclas y emulsiones de aceite  y agua o hidrocarb",
+    "Selenio, compuestos de selenio"
+   ],
+   "peligrosidades": [
+    "Inflamable",
+    "Tóxico crónico",
+    "Corrosivo"
+   ]
+  },
+  {
+   "empresa": "SOC QUIMICA Y MINERA DE CHILE S A",
+   "rut": "93007000-9",
+   "rubro": "Industria química, de plástico y caucho",
+   "ciiu6": "Fabricación de otros productos químicos n.c.p.",
+   "respel_t": 13512.06,
+   "n_declaraciones": 13,
+   "en_riles": false,
+   "residuos_top": [
+    "Residuos resultantes de la producción, preparación",
+    "Envases y recipientes contaminados que hayan conte",
+    "Residuos resultantes de la producción, la preparac",
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Tóxico por lixiviación",
+    "Corrosivo"
+   ]
+  },
+  {
+   "empresa": "SCM MINERA LUMINA COPPER CHILE",
+   "rut": "99531960-8",
+   "rubro": "Minería",
+   "ciiu6": "Extracción y procesamiento de cobre",
+   "respel_t": 12867.9,
+   "n_declaraciones": 15,
+   "en_riles": false,
+   "residuos_top": [
+    "Mezclas y emulsiones de aceite  y agua o hidrocarb",
+    "Aceites minerales residuales no aptos para el uso ",
+    "Envases y recipientes contaminados que hayan conte",
+    "Arsénico, compuestos de arsénico; Cadmio, compuest"
+   ],
+   "peligrosidades": [
+    "Tóxico por lixiviación",
+    "Corrosivo",
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "COMPANIA MINERA LOMAS BAYAS",
+   "rut": "78512520-7",
+   "rubro": "Minería",
+   "ciiu6": "Extracción y procesamiento de cobre",
+   "respel_t": 11988.74,
+   "n_declaraciones": 8,
+   "en_riles": false,
+   "residuos_top": [
+    "Suelos o materiales resultantes de faenas de movim",
+    "Mezclas y emulsiones de aceite  y agua o hidrocarb",
+    "Residuos de carácter explosivo; Residuos resultant",
+    "Residuos resultantes de la producción, la preparac"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico; Inflamable",
+    "Tóxico crónico",
+    "Reactivo; Corrosivo; Tóxico cr"
+   ]
+  },
+  {
+   "empresa": "ALBEMARLE LIMITADA",
+   "rut": "85066600-8",
+   "rubro": "Minería",
+   "ciiu6": "Explotación de otras minas y canteras n.c.p.",
+   "respel_t": 10315.5,
+   "n_declaraciones": 45,
+   "en_riles": false,
+   "residuos_top": [
+    "Residuos resultantes de la producción, preparación",
+    "Mezclas y emulsiones de aceite  y agua o hidrocarb",
+    "Aceites minerales residuales no aptos para el uso ",
+    "Soluciones ácidas o ácidos en forma sólida."
+   ],
+   "peligrosidades": [
+    "Corrosivo",
+    "Tóxico crónico",
+    "Inflamable"
+   ]
+  },
+  {
+   "empresa": "MINERA ANTUCOYA",
+   "rut": "76079669-7",
+   "rubro": "Minería",
+   "ciiu6": "Extracción y procesamiento de cobre",
+   "respel_t": 9902.5,
+   "n_declaraciones": 13,
+   "en_riles": false,
+   "residuos_top": [
+    "Residuos resultantes de la producción, preparación",
+    "Compuestos de Plomo",
+    "Aceites minerales residuales no aptos para el uso ",
+    "Compuestos de Mercurio"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Inflamable",
+    "Tóxico crónico; Reactivo; Corr"
+   ]
+  },
+  {
+   "empresa": "MINERA FLORIDA LIMITADA",
+   "rut": "76591160-5",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de oro y plata",
+   "respel_t": 9778.39,
+   "n_declaraciones": 6,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Soluciones ácidas o ácidos en forma sólida.; Compu",
+    "Residuos resultantes de la producción, preparación",
+    "Envases y recipientes contaminados que hayan conte"
+   ],
+   "peligrosidades": [
+    "Tóxico por lixiviación",
+    "Tóxico crónico",
+    "Corrosivo"
+   ]
+  },
+  {
+   "empresa": "MINERA GOLD FIELDS SALARES NORTE SPA",
+   "rut": "76101725-K",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de oro y plata",
+   "respel_t": 8709.83,
+   "n_declaraciones": 12,
+   "en_riles": false,
+   "residuos_top": [
+    "Envases y recipientes contaminados que hayan conte",
+    "Mezclas y emulsiones de aceite  y agua o hidrocarb",
+    "Compuestos de Plomo; Soluciones ácidas o ácidos en",
+    "Cianuros orgánicos; Cianuros inorgánicos"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Tóxico agudo",
+    "Tóxico por lixiviación"
+   ]
+  },
+  {
+   "empresa": "SQM INDUSTRIAL S.A.",
+   "rut": "79947100-0",
+   "rubro": "Industria química, de plástico y caucho",
+   "ciiu6": "Fabricación de abonos y compuestos de nitrógeno",
+   "respel_t": 8107.89,
+   "n_declaraciones": 12,
+   "en_riles": false,
+   "residuos_top": [
+    "Envases y recipientes contaminados que hayan conte",
+    "Aceites minerales residuales no aptos para el uso ",
+    "Soluciones básicas o bases en forma sólida.",
+    "Compuestos de Mercurio"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Corrosivo",
+    "Tóxico por lixiviación"
+   ]
+  },
+  {
+   "empresa": "COMPANIA MINERA ZALDIVAR SPA",
+   "rut": "76485762-3",
+   "rubro": "Minería",
+   "ciiu6": "Extracción y procesamiento de cobre",
+   "respel_t": 7747.48,
+   "n_declaraciones": 10,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Suelos o materiales resultantes de faenas de movim",
+    "Solventes orgánicos, con exclusión de solventes ha",
+    "Compuestos de Plomo; Soluciones ácidas o ácidos en"
+   ],
+   "peligrosidades": [
+    "Tóxico por lixiviación",
+    "Inflamable",
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "SGS MINERALS S.A.",
+   "rut": "96801810-8",
+   "rubro": "Minería",
+   "ciiu6": "Actividades de apoyo para la explotación de otras minas y canteras prestados por empresas",
+   "respel_t": 6646.97,
+   "n_declaraciones": 33,
+   "en_riles": false,
+   "residuos_top": [
+    "Soluciones ácidas o ácidos en forma sólida.",
+    "Envases y recipientes contaminados que hayan conte",
+    "Residuos resultantes de las operaciones de elimina",
+    "Compuestos de Mercurio"
+   ],
+   "peligrosidades": [
+    "Corrosivo",
+    "Tóxico agudo",
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "COMPANIA MINERA TECK CARMEN DE ANDACOLLO",
+   "rut": "78126110-6",
+   "rubro": "Minería",
+   "ciiu6": "Extracción y procesamiento de cobre",
+   "respel_t": 6129.1,
+   "n_declaraciones": 19,
+   "en_riles": false,
+   "residuos_top": [
+    "Residuos resultantes de las operaciones de elimina",
+    "Envases y recipientes contaminados que hayan conte",
+    "Aceites minerales residuales no aptos para el uso ",
+    "Mezclas y emulsiones de aceite  y agua o hidrocarb"
+   ],
+   "peligrosidades": [
+    "Tóxico por lixiviación",
+    "Corrosivo",
+    "Inflamable"
+   ]
+  },
+  {
+   "empresa": "SOC CONTRACTUAL MINERA CAROLA",
+   "rut": "79664330-7",
+   "rubro": "Minería",
+   "ciiu6": "Extracción y procesamiento de cobre",
+   "respel_t": 5917.04,
+   "n_declaraciones": 21,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Residuos que procedan de la recolección selectiva ",
+    "Residuos resultantes de la producción, preparación",
+    "Envases y recipientes contaminados que hayan conte"
+   ],
+   "peligrosidades": [
+    "Inflamable",
+    "Tóxico crónico",
+    "Tóxico por lixiviación"
+   ]
+  },
+  {
+   "empresa": "MINERA HMC S.A.",
+   "rut": "76102677-1",
+   "rubro": "Minería",
+   "ciiu6": "Extracción y procesamiento de cobre",
+   "respel_t": 4782.7,
+   "n_declaraciones": 10,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Envases y recipientes contaminados que hayan conte",
+    "Mezclas y emulsiones de aceite  y agua o hidrocarb",
+    "Compuestos de Plomo"
+   ],
+   "peligrosidades": [
+    "Inflamable",
+    "Tóxico crónico",
+    "Tóxico agudo"
+   ]
+  },
+  {
+   "empresa": "SOCIEDAD CONTRACTUAL MINERA COSAYACH YODO",
+   "rut": "96625710-5",
+   "rubro": "Minería",
+   "ciiu6": "Explotación de otras minas y canteras n.c.p.",
+   "respel_t": 4700.0,
+   "n_declaraciones": 8,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Compuestos de Plomo",
+    "Residuos resultantes de la producción y preparació"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Corrosivo"
+   ]
+  },
+  {
+   "empresa": "ALGORTA NORTE SA",
+   "rut": "76000957-1",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de minerales para la fabricación de abonos y productos químicos n.c.p.",
+   "respel_t": 3711.6,
+   "n_declaraciones": 3,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Compuestos de Plomo; Soluciones ácidas o ácidos en"
+   ],
+   "peligrosidades": [
+    "Inflamable",
+    "Corrosivo"
+   ]
+  },
+  {
+   "empresa": "MINERA LAS CENIZAS S A",
+   "rut": "79963260-8",
+   "rubro": "Minería",
+   "ciiu6": "Extracción y procesamiento de cobre",
+   "respel_t": 3698.43,
+   "n_declaraciones": 30,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Mezclas y emulsiones de aceite  y agua o hidrocarb",
+    "Envases y recipientes contaminados que hayan conte",
+    "Residuos resultantes de la producción, preparación"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Corrosivo",
+    "Inflamable"
+   ]
+  },
+  {
+   "empresa": "WEIR MINERALS CHILE SA",
+   "rut": "91619000-K",
+   "rubro": "Industria química, de plástico y caucho",
+   "ciiu6": "Fabricación de otros productos de caucho",
+   "respel_t": 3485.85,
+   "n_declaraciones": 29,
+   "en_riles": false,
+   "residuos_top": [
+    "Residuos resultantes de la producción, la preparac",
+    "Residuos resultantes de la producción, preparación",
+    "Envases y recipientes contaminados que hayan conte",
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Inflamable",
+    "Tóxico crónico",
+    "Tóxico por lixiviación"
+   ]
+  },
+  {
+   "empresa": "SOC PUNTA DEL COBRE S A",
+   "rut": "96561560-1",
+   "rubro": "Minería",
+   "ciiu6": "Extracción y procesamiento de cobre",
+   "respel_t": 3367.06,
+   "n_declaraciones": 30,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Mezclas y emulsiones de aceite  y agua o hidrocarb",
+    "Suelos o materiales resultantes de faenas de movim",
+    "Envases y recipientes contaminados que hayan conte"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Tóxico por lixiviación",
+    "Inflamable"
+   ]
+  },
+  {
+   "empresa": "ZUBLIN INTERNATIONAL GMBH CHILE SPA",
+   "rut": "77555640-4",
+   "rubro": "Minería",
+   "ciiu6": "Actividades de apoyo para la explotación de otras minas y canteras prestados por empresas",
+   "respel_t": 2743.42,
+   "n_declaraciones": 12,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Residuos resultantes de la producción, preparación",
+    "Mezclas y emulsiones de aceite  y agua o hidrocarb",
+    "Compuestos de Mercurio"
+   ],
+   "peligrosidades": [
+    "Inflamable",
+    "Tóxico crónico",
+    "Tóxico crónico; Tóxico por lix"
+   ]
+  },
+  {
+   "empresa": "SOCIEDAD PUNTA DE LOBOS S.A.",
+   "rut": "76541630-2",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de sal",
+   "respel_t": 2563.7,
+   "n_declaraciones": 6,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Compuestos de Mercurio",
+    "Residuos resultantes de la producción y preparació",
+    "Soluciones ácidas o ácidos en forma sólida.; Soluc"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Inflamable",
+    "Corrosivo"
+   ]
+  },
+  {
+   "empresa": "CIA CONTRACTUAL MINERA OJOS DEL SALADO",
+   "rut": "96635170-5",
+   "rubro": "Minería",
+   "ciiu6": "Extracción y procesamiento de cobre",
+   "respel_t": 2423.91,
+   "n_declaraciones": 8,
+   "en_riles": false,
+   "residuos_top": [
+    "Residuos resultantes de la producción, preparación",
+    "Aceites minerales residuales no aptos para el uso ",
+    "Residuos hospitalarios.",
+    "Compuestos de Mercurio"
+   ],
+   "peligrosidades": [
+    "Tóxico por lixiviación",
+    "Infeccioso",
+    "Inflamable"
+   ]
+  },
+  {
+   "empresa": "SOC DE SERVICIOS TECNICOS GEOLOGI  COS GEOTEC BOYLES            BROS S A",
+   "rut": "93545000-4",
+   "rubro": "Minería",
+   "ciiu6": "Actividades de apoyo para la explotación de otras minas y canteras prestados por empresas",
+   "respel_t": 2336.21,
+   "n_declaraciones": 17,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Residuos resultantes de la producción, preparación",
+    "Soluciones ácidas o ácidos en forma sólida.; Compu",
+    "Mezclas y emulsiones de aceite  y agua o hidrocarb"
+   ],
+   "peligrosidades": [
+    "Inflamable",
+    "Tóxico crónico",
+    "Reactivo"
+   ]
+  },
+  {
+   "empresa": "GUANACO COMPANIA MINERA SPA",
+   "rut": "78097950-K",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de oro y plata",
+   "respel_t": 1784.5,
+   "n_declaraciones": 5,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Soluciones ácidas o ácidos en forma sólida.",
+    "Compuestos de Plomo; Soluciones ácidas o ácidos en",
+    "Cianuros orgánicos"
+   ],
+   "peligrosidades": [
+    "Corrosivo",
+    "Tóxico crónico",
+    "Tóxico agudo"
+   ]
+  },
+  {
+   "empresa": "LIEBHERR CHILE SPA",
+   "rut": "77461750-7",
+   "rubro": "Comercio mayorista",
+   "ciiu6": "Venta al por mayor de maquinaria metalúrgica, para la minería, extracción de petróleo y construcción",
+   "respel_t": 1708.3,
+   "n_declaraciones": 8,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Envases y recipientes contaminados que hayan conte",
+    "Residuos que procedan de la recolección selectiva ",
+    "Soluciones ácidas o ácidos en forma sólida.; Compu"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Inflamable",
+    "Corrosivo"
+   ]
+  },
+  {
+   "empresa": "PAMPA CAMARONES SPA.",
+   "rut": "76085153-1",
+   "rubro": "Minería",
+   "ciiu6": "Extracción y procesamiento de cobre",
+   "respel_t": 1495.2,
+   "n_declaraciones": 17,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Mezclas y emulsiones de aceite  y agua o hidrocarb",
+    "Residuos resultantes de la producción, la preparac",
+    "Suelos o materiales resultantes de faenas de movim"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Inflamable; Tóxico crónico",
+    "Inflamable; Corrosivo"
+   ]
+  },
+  {
+   "empresa": "CALIDRA CHILE IMPORTACIONES MINERALES SPA",
+   "rut": "76861280-3",
+   "rubro": "Producción de cemento, cal y yeso",
+   "ciiu6": "Fabricación de cemento, cal y yeso",
+   "respel_t": 1453.25,
+   "n_declaraciones": 13,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Envases y recipientes contaminados que hayan conte",
+    "Residuos resultantes de la producción, la preparac",
+    "Residuos resultantes de la producción, preparación"
+   ],
+   "peligrosidades": [
+    "Corrosivo",
+    "Inflamable",
+    "Tóxico agudo"
+   ]
+  },
+  {
+   "empresa": "CIA MINERA SAN GERONIMO",
+   "rut": "78801520-8",
+   "rubro": "Minería",
+   "ciiu6": "Extracción y procesamiento de cobre",
+   "respel_t": 1404.78,
+   "n_declaraciones": 20,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Residuos resultantes de la producción, preparación",
+    "Envases y recipientes contaminados que hayan conte",
+    "Soluciones básicas o bases en forma sólida.; Envas"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Corrosivo",
+    "Inflamable"
+   ]
+  },
+  {
+   "empresa": "MAS ERRAZURIZ MAQUINARIAS Y SERVICIOS LIMITADA",
+   "rut": "76206822-2",
+   "rubro": "Otras industrias manufactureras",
+   "ciiu6": "Reparación de maquinaria metalúrgica, para la minería, extracción de petróleo y para la construcción",
+   "respel_t": 1322.4,
+   "n_declaraciones": 5,
+   "en_riles": false,
+   "residuos_top": [
+    "Mezclas y emulsiones de aceite  y agua o hidrocarb",
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Inflamable"
+   ]
+  },
+  {
+   "empresa": "ACF MINERA S.A.",
+   "rut": "79728000-3",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de minerales para la fabricación de abonos y productos químicos n.c.p.",
+   "respel_t": 1307.69,
+   "n_declaraciones": 6,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Compuestos de Plomo"
+   ],
+   "peligrosidades": [
+    "Tóxico por lixiviación",
+    "Inflamable"
+   ]
+  },
+  {
+   "empresa": "SOCIEDAD MINERA PACIFICO DEL SUR SPA",
+   "rut": "77053711-8",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de minerales de hierro",
+   "respel_t": 1283.4,
+   "n_declaraciones": 6,
+   "en_riles": true,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Soluciones ácidas o ácidos en forma sólida.; Compu",
+    "Compuestos de Zinc",
+    "Compuestos de cobre"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Corrosivo"
+   ]
+  },
+  {
+   "empresa": "CIA MINERA CERRO NEGRO S A",
+   "rut": "91614000-2",
+   "rubro": "Minería",
+   "ciiu6": "Extracción y procesamiento de cobre",
+   "respel_t": 1119.36,
+   "n_declaraciones": 13,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Envases y recipientes contaminados que hayan conte",
+    "Compuestos de Mercurio",
+    "Compuestos de Plomo; Soluciones ácidas o ácidos en"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Corrosivo",
+    "Inflamable"
+   ]
+  },
+  {
+   "empresa": "COMPANIA  MANTOS DE LA LUNA S A",
+   "rut": "96939240-2",
+   "rubro": "Minería",
+   "ciiu6": "Extracción y procesamiento de cobre",
+   "respel_t": 1114.6,
+   "n_declaraciones": 4,
+   "en_riles": false,
+   "residuos_top": [
+    "Envases y recipientes contaminados que hayan conte",
+    "Arsénico, compuestos de arsénico",
+    "Compuestos de Plomo",
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Tóxico por lixiviación",
+    "Corrosivo"
+   ]
+  },
+  {
+   "empresa": "COMPANIA MINERA FLORIDA S.A",
+   "rut": "96571770-6",
+   "rubro": "Minería",
+   "ciiu6": "Extracción y procesamiento de cobre",
+   "respel_t": 1107.0,
+   "n_declaraciones": 5,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Residuos resultantes de la producción, preparación",
+    "Compuestos de Plomo; Soluciones ácidas o ácidos en",
+    "Mezclas y emulsiones de aceite  y agua o hidrocarb"
+   ],
+   "peligrosidades": [
+    "Corrosivo",
+    "Inflamable",
+    "Tóxico crónico; Inflamable"
+   ]
+  },
+  {
+   "empresa": "SOCIEDAD CONTRACTUAL MINERA FRANKE",
+   "rut": "76051610-4",
+   "rubro": "Minería",
+   "ciiu6": "Extracción y procesamiento de cobre",
+   "respel_t": 1058.36,
+   "n_declaraciones": 10,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Mezclas y emulsiones de aceite  y agua o hidrocarb",
+    "Arsénico, compuestos de arsénico",
+    "Soluciones ácidas o ácidos en forma sólida.; Compu"
+   ],
+   "peligrosidades": [
+    "Corrosivo",
+    "Inflamable",
+    "Infeccioso; Tóxico agudo"
+   ]
+  },
+  {
+   "empresa": "SANDVIK CHILE S.A.",
+   "rut": "94879000-9",
+   "rubro": "Minería",
+   "ciiu6": "Actividades de apoyo para la explotación de otras minas y canteras prestados por empresas",
+   "respel_t": 1033.5,
+   "n_declaraciones": 17,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Envases y recipientes contaminados que hayan conte",
+    "Residuos resultantes de la producción, preparación",
+    "Compuestos de Plomo; Aceites minerales residuales "
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Tóxico por lixiviación",
+    "Corrosivo"
+   ]
+  },
+  {
+   "empresa": "ATACAMA MINERALS CHILE S C M",
+   "rut": "78338570-8",
+   "rubro": "Minería",
+   "ciiu6": "Explotación de otras minas y canteras n.c.p.",
+   "respel_t": 988.6,
+   "n_declaraciones": 2,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Inflamable"
+   ]
+  },
+  {
+   "empresa": "MAXAM CHILE S.A.",
+   "rut": "77870140-5",
+   "rubro": "Minería",
+   "ciiu6": "Actividades de apoyo para la explotación de otras minas y canteras prestados por empresas",
+   "respel_t": 904.44,
+   "n_declaraciones": 2,
+   "en_riles": false,
+   "residuos_top": [
+    "Mezclas y emulsiones de aceite  y agua o hidrocarb",
+    "Envases y recipientes contaminados que hayan conte"
+   ],
+   "peligrosidades": [
+    "Tóxico agudo",
+    "Corrosivo"
+   ]
+  },
+  {
+   "empresa": "MINERA CEMIN-PULLALLI SPA",
+   "rut": "78200830-7",
+   "rubro": "Minería",
+   "ciiu6": "Extracción y procesamiento de cobre",
+   "respel_t": 848.9,
+   "n_declaraciones": 22,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Soluciones ácidas o ácidos en forma sólida.",
+    "Residuos resultantes de la producción, la preparac",
+    "Compuestos de Plomo"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Corrosivo",
+    "Tóxico por lixiviación"
+   ]
+  },
+  {
+   "empresa": "GREGORIO ENERGY FELL SPA",
+   "rut": "76129094-0",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de gas natural",
+   "respel_t": 795.46,
+   "n_declaraciones": 3,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Cadmio, compuestos de Cadmio"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "SOC CONTRACTUAL MINERA ATACAMA KOZAN LIMITADA",
+   "rut": "77134510-7",
+   "rubro": "Minería",
+   "ciiu6": "Explotación de otras minas y canteras n.c.p.",
+   "respel_t": 789.1,
+   "n_declaraciones": 6,
+   "en_riles": false,
+   "residuos_top": [
+    "Envases y recipientes contaminados que hayan conte",
+    "Aceites minerales residuales no aptos para el uso ",
+    "Residuos resultantes de la producción, preparación",
+    "Compuestos de Plomo; Soluciones ácidas o ácidos en"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Tóxico crónico; Corrosivo",
+    "Corrosivo; Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "MINERA VALLE CENTRAL S A",
+   "rut": "96595400-7",
+   "rubro": "Minería",
+   "ciiu6": "Extracción y procesamiento de cobre",
+   "respel_t": 714.9,
+   "n_declaraciones": 13,
+   "en_riles": false,
+   "residuos_top": [
+    "Envases y recipientes contaminados que hayan conte",
+    "Aceites minerales residuales no aptos para el uso ",
+    "Mezclas y emulsiones de aceite  y agua o hidrocarb",
+    "Soluciones ácidas o ácidos en forma sólida.; Compu"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Corrosivo",
+    "Inflamable"
+   ]
+  },
+  {
+   "empresa": "BOART LONGYEAR CHILE LIMITADA",
+   "rut": "76753520-1",
+   "rubro": "Otras industrias manufactureras",
+   "ciiu6": "Reparación de maquinaria metalúrgica, para la minería, extracción de petróleo y para la construcción",
+   "respel_t": 714.55,
+   "n_declaraciones": 6,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Cadmio, compuestos de Cadmio",
+    "Residuos resultantes de la producción, preparación",
+    "Residuos resultantes de la producción, la preparac"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Inflamable"
+   ]
+  },
+  {
+   "empresa": "FLSMIDTH S.A.",
+   "rut": "89664200-6",
+   "rubro": "Otras industrias manufactureras",
+   "ciiu6": "Fabricación de maquinaria para la explotación de minas y canteras y para obras de construcción",
+   "respel_t": 684.14,
+   "n_declaraciones": 13,
+   "en_riles": false,
+   "residuos_top": [
+    "Residuos resultantes del tratamiento de superficie",
+    "Residuos resultantes de la producción, preparación",
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Inflamable",
+    "Tóxico crónico",
+    "Corrosivo"
+   ]
+  },
+  {
+   "empresa": "CIA MINERA CERRO COLORADO LTDA",
+   "rut": "94621000-5",
+   "rubro": "Minería",
+   "ciiu6": "Extracción y procesamiento de cobre",
+   "respel_t": 620.5,
+   "n_declaraciones": 19,
+   "en_riles": false,
+   "residuos_top": [
+    "Envases y recipientes contaminados que hayan conte",
+    "Residuos hospitalarios.",
+    "Aceites minerales residuales no aptos para el uso ",
+    "Residuos resultantes de la producción, preparación"
+   ],
+   "peligrosidades": [
+    "Inflamable",
+    "Corrosivo",
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "EXPLORATION DRILL MASTERS CHILE S.A.",
+   "rut": "76011773-0",
+   "rubro": "Otras industrias manufactureras",
+   "ciiu6": "Fabricación de maquinaria para la explotación de minas y canteras y para obras de construcción",
+   "respel_t": 601.96,
+   "n_declaraciones": 3,
+   "en_riles": false,
+   "residuos_top": [
+    "Residuos resultantes del tratamiento de superficie",
+    "Aceites minerales residuales no aptos para el uso ",
+    "Mezclas y emulsiones de aceite  y agua o hidrocarb"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Corrosivo"
+   ]
+  },
+  {
+   "empresa": "MINERA BMR SPA",
+   "rut": "77294324-5",
+   "rubro": "Minería",
+   "ciiu6": "Extracción y procesamiento de cobre",
+   "respel_t": 587.51,
+   "n_declaraciones": 3,
+   "en_riles": false,
+   "residuos_top": [
+    "Mezclas y emulsiones de aceite  y agua o hidrocarb"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "AKD INTERNATIONAL CHILE S.A.",
+   "rut": "76206541-K",
+   "rubro": "Minería",
+   "ciiu6": "Actividades de apoyo para la explotación de otras minas y canteras prestados por empresas",
+   "respel_t": 580.73,
+   "n_declaraciones": 5,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Suelos o materiales resultantes de faenas de movim",
+    "Compuestos de cromo hexavalente"
+   ],
+   "peligrosidades": [
+    "Inflamable",
+    "Tóxico agudo",
+    "Tóxico por lixiviación"
+   ]
+  },
+  {
+   "empresa": "FOREST CENTER SPA",
+   "rut": "76359830-6",
+   "rubro": "Industria de la madera y silvicultura",
+   "ciiu6": "Extracción de madera",
+   "respel_t": 478.7,
+   "n_declaraciones": 4,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Compuestos de Plomo; Soluciones ácidas o ácidos en",
+    "Berilio, compuestos de berilio"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Corrosivo",
+    "Inflamable"
+   ]
+  },
+  {
+   "empresa": "HALLIBURTON SERVICIOS CHILE LIMITADA",
+   "rut": "86304000-0",
+   "rubro": "Minería",
+   "ciiu6": "Actividades de apoyo para la extracción de petróleo y gas natural prestados por empresas",
+   "respel_t": 465.63,
+   "n_declaraciones": 5,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Soluciones ácidas o ácidos en forma sólida.; Compu",
+    "Residuos resultantes de la producción, preparación",
+    "Mezclas y emulsiones de aceite  y agua o hidrocarb"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Corrosivo; Tóxico por lixiviac"
+   ]
+  },
+  {
+   "empresa": "COMPANIA MINERA CARMEN BAJO",
+   "rut": "81556700-5",
+   "rubro": "Minería",
+   "ciiu6": "Extracción y procesamiento de cobre",
+   "respel_t": 456.0,
+   "n_declaraciones": 8,
+   "en_riles": false,
+   "residuos_top": [
+    "Residuos resultantes de las operaciones de elimina",
+    "Aceites minerales residuales no aptos para el uso ",
+    "Mezclas y emulsiones de aceite  y agua o hidrocarb",
+    "Soluciones ácidas o ácidos en forma sólida.; Compu"
+   ],
+   "peligrosidades": [
+    "Inflamable; Tóxico crónico",
+    "Tóxico agudo",
+    "Tóxico crónico; Inflamable"
+   ]
+  },
+  {
+   "empresa": "EL ESPINO SPA",
+   "rut": "77875499-1",
+   "rubro": "Minería",
+   "ciiu6": "Extracción y procesamiento de cobre",
+   "respel_t": 409.82,
+   "n_declaraciones": 4,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Residuos resultantes de la producción, preparación",
+    "Soluciones ácidas o ácidos en forma sólida.; Compu"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Inflamable",
+    "Corrosivo"
+   ]
+  },
+  {
+   "empresa": "DAVID BROWN SANTASALO SOUTH AMERICA S.A.",
+   "rut": "76130276-0",
+   "rubro": "Otras industrias manufactureras",
+   "ciiu6": "Reparación de maquinaria metalúrgica, para la minería, extracción de petróleo y para la construcción",
+   "respel_t": 386.88,
+   "n_declaraciones": 7,
+   "en_riles": false,
+   "residuos_top": [
+    "Residuos resultantes de la producción, preparación",
+    "Aceites minerales residuales no aptos para el uso ",
+    "Residuos resultantes del tratamiento de superficie",
+    "Envases y recipientes contaminados que hayan conte"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico; Inflamable",
+    "Tóxico crónico",
+    "Inflamable"
+   ]
+  },
+  {
+   "empresa": "MINERA CRUZ LIMITADA",
+   "rut": "76118700-7",
+   "rubro": "Minería",
+   "ciiu6": "Explotación de otras minas y canteras n.c.p.",
+   "respel_t": 381.9,
+   "n_declaraciones": 12,
+   "en_riles": false,
+   "residuos_top": [
+    "Mezclas y emulsiones de aceite  y agua o hidrocarb",
+    "Aceites minerales residuales no aptos para el uso ",
+    "Compuestos de Plomo; Soluciones ácidas o ácidos en"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Tóxico crónico; Inflamable",
+    "Inflamable; Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "CIA MINERA SANTA LAURA LIMITADA",
+   "rut": "88117800-1",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de piedra, arena y arcilla",
+   "respel_t": 373.3,
+   "n_declaraciones": 3,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Soluciones ácidas o ácidos en forma sólida.; Compu"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Tóxico crónico; Corrosivo"
+   ]
+  },
+  {
+   "empresa": "COMPAÑIA MINERA CARMEN BAJO LIMITADA",
+   "rut": "83223700-0",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de otros minerales metalíferos no ferrosos n.c.p. (excepto zinc, plomo y manganeso)",
+   "respel_t": 371.3,
+   "n_declaraciones": 10,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Envases y recipientes contaminados que hayan conte",
+    "Soluciones ácidas o ácidos en forma sólida.; Compu",
+    "Mezclas y emulsiones de aceite  y agua o hidrocarb"
+   ],
+   "peligrosidades": [
+    "Tóxico agudo",
+    "Corrosivo"
+   ]
+  },
+  {
+   "empresa": "COMPANIA MINERA NEVADA SPA",
+   "rut": "85306000-3",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de oro y plata",
+   "respel_t": 349.54,
+   "n_declaraciones": 25,
+   "en_riles": true,
+   "residuos_top": [
+    "Envases y recipientes contaminados que hayan conte",
+    "Residuos que procedan de la recolección selectiva ",
+    "Aceites minerales residuales no aptos para el uso ",
+    "Suelos o materiales resultantes de faenas de movim"
+   ],
+   "peligrosidades": [
+    "Tóxico agudo",
+    "Inflamable",
+    "Corrosivo"
+   ]
+  },
+  {
+   "empresa": "INVERSIONES  NUTRAM SPA",
+   "rut": "76313270-6",
+   "rubro": "Minería",
+   "ciiu6": "Extracción y procesamiento de cobre",
+   "respel_t": 330.04,
+   "n_declaraciones": 5,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Mezclas y emulsiones de aceite  y agua o hidrocarb",
+    "Residuos resultantes de las operaciones de elimina",
+    "Envases y recipientes contaminados que hayan conte"
+   ],
+   "peligrosidades": [
+    "Inflamable",
+    "Corrosivo"
+   ]
+  },
+  {
+   "empresa": "COMPANIA MINERA CHIPANA S.A.",
+   "rut": "76011083-3",
+   "rubro": "Minería",
+   "ciiu6": "Explotación de otras minas y canteras n.c.p.",
+   "respel_t": 320.7,
+   "n_declaraciones": 7,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Envases y recipientes contaminados que hayan conte",
+    "Suelos o materiales resultantes de faenas de movim"
+   ],
+   "peligrosidades": [
+    "Tóxico agudo",
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "MAJOR DRILLING CHILE S A",
+   "rut": "96576440-2",
+   "rubro": "Minería",
+   "ciiu6": "Actividades de apoyo para la explotación de otras minas y canteras prestados por profesionales",
+   "respel_t": 319.0,
+   "n_declaraciones": 4,
+   "en_riles": false,
+   "residuos_top": [
+    "Mezclas y emulsiones de aceite  y agua o hidrocarb",
+    "Berilio, compuestos de berilio",
+    "Aceites minerales residuales no aptos para el uso ",
+    "Envases y recipientes contaminados que hayan conte"
+   ],
+   "peligrosidades": [
+    "Inflamable",
+    "Tóxico agudo"
+   ]
+  },
+  {
+   "empresa": "COMPAÑÍA MINERA CERRO BAYO SPA",
+   "rut": "78543580-K",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de oro y plata",
+   "respel_t": 305.8,
+   "n_declaraciones": 5,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Talio, compuestos de talio",
+    "Residuos resultantes de la producción, preparación",
+    "Residuos resultantes de las operaciones de elimina"
+   ],
+   "peligrosidades": [
+    "Inflamable",
+    "Tóxico crónico",
+    "Inflamable; Tóxico por lixivia"
+   ]
+  },
+  {
+   "empresa": "SOLETANCHE BACHY CHILE SPA",
+   "rut": "96505160-0",
+   "rubro": "Minería",
+   "ciiu6": "Actividades de apoyo para la explotación de otras minas y canteras prestados por empresas",
+   "respel_t": 297.97,
+   "n_declaraciones": 11,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Residuos resultantes de las operaciones de elimina",
+    "Envases y recipientes contaminados que hayan conte",
+    "Compuestos de Mercurio"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Inflamable",
+    "Tóxico por lixiviación"
+   ]
+  },
+  {
+   "empresa": "SOCIEDAD DE TRANSPORTES MINEROS S.A.",
+   "rut": "76698970-5",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de piedra, arena y arcilla",
+   "respel_t": 276.0,
+   "n_declaraciones": 2,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "COMPANIA MINERA MARICUNGA",
+   "rut": "76038806-8",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de oro y plata",
+   "respel_t": 268.65,
+   "n_declaraciones": 4,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Sustancias y artículos de desecho que contengan, o"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Inflamable"
+   ]
+  },
+  {
+   "empresa": "MINERIA Y CONSTRUCCIONES CERRO ALTO LIMITADA",
+   "rut": "77968340-0",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de piedra, arena y arcilla",
+   "respel_t": 253.62,
+   "n_declaraciones": 4,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Inflamable"
+   ]
+  },
+  {
+   "empresa": "COMPANIA MINERA ARQUEROS S.A.",
+   "rut": "76154249-4",
+   "rubro": "Minería",
+   "ciiu6": "Extracción y procesamiento de cobre",
+   "respel_t": 245.75,
+   "n_declaraciones": 5,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Mezclas y emulsiones de aceite  y agua o hidrocarb",
+    "Compuestos de Plomo",
+    "Residuos resultantes de la producción, preparación"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Corrosivo",
+    "Inflamable"
+   ]
+  },
+  {
+   "empresa": "TALLERES LUCAS SA",
+   "rut": "83156400-8",
+   "rubro": "Minería",
+   "ciiu6": "Actividades de apoyo para la explotación de otras minas y canteras prestados por empresas",
+   "respel_t": 243.2,
+   "n_declaraciones": 5,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Residuos que procedan de la recolección selectiva "
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Inflamable; Tóxico crónico",
+    "Inflamable"
+   ]
+  },
+  {
+   "empresa": "PESCA CHILE S.A.",
+   "rut": "96808510-7",
+   "rubro": "Pesca y acuicultura",
+   "ciiu6": "Recolección y extracción de productos marinos",
+   "respel_t": 214.5,
+   "n_declaraciones": 4,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Residuos resultantes de las operaciones de elimina",
+    "Mezclas y emulsiones de aceite  y agua o hidrocarb"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "CONCREMAG S.A",
+   "rut": "76301094-5",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de piedra, arena y arcilla",
+   "respel_t": 213.9,
+   "n_declaraciones": 8,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Residuos resultantes de las operaciones de elimina",
+    "Soluciones ácidas o ácidos en forma sólida.; Compu"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Inflamable",
+    "Corrosivo; Inflamable"
+   ]
+  },
+  {
+   "empresa": "SOC DE EXPLORACION Y DESARROLLO MINERO",
+   "rut": "79812520-6",
+   "rubro": "Minería",
+   "ciiu6": "Extracción y procesamiento de cobre",
+   "respel_t": 208.4,
+   "n_declaraciones": 4,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Compuestos de Plomo; Soluciones ácidas o ácidos en",
+    "Envases y recipientes contaminados que hayan conte"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Corrosivo"
+   ]
+  },
+  {
+   "empresa": "TEGA INDUSTRIES CHILE SPA",
+   "rut": "96574420-7",
+   "rubro": "Minería",
+   "ciiu6": "Actividades de apoyo para la explotación de otras minas y canteras prestados por empresas",
+   "respel_t": 205.1,
+   "n_declaraciones": 3,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Residuos que contengan cianuros, resultantes del t",
+    "Residuos resultantes del tratamiento de superficie"
+   ],
+   "peligrosidades": [
+    "Inflamable",
+    "Inflamable; Corrosivo; Tóxico ",
+    "Inflamable; Corrosivo; Reactiv"
+   ]
+  },
+  {
+   "empresa": "COMPAÑIA MINERA LA PATAGUA S.A.",
+   "rut": "84542800-K",
+   "rubro": "Minería",
+   "ciiu6": "Extracción y procesamiento de cobre",
+   "respel_t": 202.92,
+   "n_declaraciones": 6,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "MINERA SAN FIERRO CHILE LIMITADA",
+   "rut": "76068932-7",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de minerales de hierro",
+   "respel_t": 200.0,
+   "n_declaraciones": 1,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico por lixiviación; Inflam"
+   ]
+  },
+  {
+   "empresa": "SOC DE INGENIERIA Y MOVIMIENTOS DE TIERRA DEL PACIFICO LTDA",
+   "rut": "79807570-5",
+   "rubro": "Minería",
+   "ciiu6": "Actividades de apoyo para la explotación de otras minas y canteras prestados por empresas",
+   "respel_t": 197.0,
+   "n_declaraciones": 2,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "ACF BAQUEDANO S.A",
+   "rut": "77209907-K",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de minerales para la fabricación de abonos y productos químicos n.c.p.",
+   "respel_t": 196.99,
+   "n_declaraciones": 5,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Compuestos de Plomo; Soluciones ácidas o ácidos en",
+    "Envases y recipientes contaminados que hayan conte",
+    "Residuos que procedan de la recolección selectiva "
+   ],
+   "peligrosidades": [
+    "Inflamable",
+    "Corrosivo"
+   ]
+  },
+  {
+   "empresa": "SERVICIOS MINEROS DEL VALLE SPA",
+   "rut": "77570010-6",
+   "rubro": "Minería",
+   "ciiu6": "Extracción y procesamiento de cobre",
+   "respel_t": 190.4,
+   "n_declaraciones": 2,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "BOSCH REXROTH CHILE SPA.",
+   "rut": "76365959-3",
+   "rubro": "Otras industrias manufactureras",
+   "ciiu6": "Reparación de maquinaria metalúrgica, para la minería, extracción de petróleo y para la construcción",
+   "respel_t": 187.63,
+   "n_declaraciones": 7,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Mezclas y emulsiones de aceite  y agua o hidrocarb",
+    "Berilio, compuestos de berilio",
+    "Compuestos de Plomo; Soluciones ácidas o ácidos en"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Inflamable"
+   ]
+  },
+  {
+   "empresa": "INDUSTRIAL WEATHERFORD INTERNATIONAL DE CHILE S.A.",
+   "rut": "76026281-1",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de gas natural",
+   "respel_t": 184.18,
+   "n_declaraciones": 3,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Soluciones ácidas o ácidos en forma sólida.; Compu"
+   ],
+   "peligrosidades": [
+    "Inflamable",
+    "Corrosivo"
+   ]
+  },
+  {
+   "empresa": "TERRA SERVICE S.A.",
+   "rut": "96755590-8",
+   "rubro": "Minería",
+   "ciiu6": "Actividades de apoyo para la explotación de otras minas y canteras prestados por empresas",
+   "respel_t": 169.8,
+   "n_declaraciones": 5,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Residuos resultantes de las operaciones de elimina"
+   ],
+   "peligrosidades": [
+    "Tóxico agudo",
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "EMPRESA CONSTRUCTORA AGUA SANTA S A",
+   "rut": "78206080-5",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de piedra, arena y arcilla",
+   "respel_t": 169.7,
+   "n_declaraciones": 2,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "ANTOFAGASTA MINERALS S.A.",
+   "rut": "93920000-2",
+   "rubro": "Minería",
+   "ciiu6": "Extracción y procesamiento de cobre",
+   "respel_t": 166.0,
+   "n_declaraciones": 2,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Residuos resultantes de las operaciones de elimina"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "GHH CHILE SPA",
+   "rut": "76174334-1",
+   "rubro": "Comercio mayorista",
+   "ciiu6": "Venta al por mayor de maquinaria metalúrgica, para la minería, extracción de petróleo y construcción",
+   "respel_t": 165.2,
+   "n_declaraciones": 3,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Mezclas y emulsiones de aceite  y agua o hidrocarb"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "AJAY SQM CHILE SOCIEDAD ANONIMA",
+   "rut": "96592180-K",
+   "rubro": "Otras industrias manufactureras",
+   "ciiu6": "Fabricación de otros productos minerales no metálicos n.c.p.",
+   "respel_t": 162.89,
+   "n_declaraciones": 7,
+   "en_riles": false,
+   "residuos_top": [
+    "Residuos resultantes de la producción, preparación",
+    "Soluciones ácidas o ácidos en forma sólida.",
+    "Residuos resultantes de las operaciones de elimina",
+    "Envases y recipientes contaminados que hayan conte"
+   ],
+   "peligrosidades": [
+    "Corrosivo",
+    "Inflamable",
+    "Inflamable; Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "IKA MINERÍA S.A.",
+   "rut": "76361625-8",
+   "rubro": "Minería",
+   "ciiu6": "Actividades de apoyo para la explotación de otras minas y canteras prestados por empresas",
+   "respel_t": 162.22,
+   "n_declaraciones": 3,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Compuestos de Plomo; Soluciones ácidas o ácidos en"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Corrosivo"
+   ]
+  },
+  {
+   "empresa": "ORBIT GARANT CHILE S.A.",
+   "rut": "81503700-6",
+   "rubro": "Minería",
+   "ciiu6": "Actividades de apoyo para la explotación de otras minas y canteras prestados por empresas",
+   "respel_t": 156.64,
+   "n_declaraciones": 6,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Soluciones ácidas o ácidos en forma sólida.; Compu",
+    "Residuos resultantes de la producción, preparación",
+    "Mezclas y emulsiones de aceite  y agua o hidrocarb"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Corrosivo",
+    "Inflamable"
+   ]
+  },
+  {
+   "empresa": "FENIX GOLD LIMITADA",
+   "rut": "76041586-3",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de otros minerales metalíferos no ferrosos n.c.p. (excepto zinc, plomo y manganeso)",
+   "respel_t": 149.0,
+   "n_declaraciones": 3,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Suelos o materiales resultantes de faenas de movim"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico; Tóxico agudo",
+    "Inflamable; Tóxico agudo"
+   ]
+  },
+  {
+   "empresa": "COMPANIA EXPLOTADORA DE MINAS SPA",
+   "rut": "89274000-3",
+   "rubro": "Minería",
+   "ciiu6": "Extracción y procesamiento de cobre",
+   "respel_t": 148.7,
+   "n_declaraciones": 1,
+   "en_riles": false,
+   "residuos_top": [
+    "Arsénico, compuestos de arsénico"
+   ],
+   "peligrosidades": [
+    "Corrosivo"
+   ]
+  },
+  {
+   "empresa": "MINERA ZUPILOCOS LIMITADA",
+   "rut": "76966110-7",
+   "rubro": "Minería",
+   "ciiu6": "Extracción y procesamiento de cobre",
+   "respel_t": 148.0,
+   "n_declaraciones": 1,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "BIGNOTTI HERMANOS SOCIEDAD ANONIMA",
+   "rut": "80113000-3",
+   "rubro": "Otras industrias manufactureras",
+   "ciiu6": "Fabricación de maquinaria para la explotación de minas y canteras y para obras de construcción",
+   "respel_t": 147.51,
+   "n_declaraciones": 6,
+   "en_riles": false,
+   "residuos_top": [
+    "Mezclas y emulsiones de aceite  y agua o hidrocarb",
+    "Soluciones ácidas o ácidos en forma sólida.; Compu",
+    "Residuos resultantes de la producción, la preparac",
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Corrosivo",
+    "Inflamable"
+   ]
+  },
+  {
+   "empresa": "COMPANIA MINERA MINERALES COPIAPO LIMITADA",
+   "rut": "76046944-0",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de minerales de hierro",
+   "respel_t": 144.9,
+   "n_declaraciones": 3,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Suelos o materiales resultantes de faenas de movim"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "FLUITEK MARCO SPA",
+   "rut": "77860930-4",
+   "rubro": "Otras industrias manufactureras",
+   "ciiu6": "Reparación de maquinaria metalúrgica, para la minería, extracción de petróleo y para la construcción",
+   "respel_t": 140.5,
+   "n_declaraciones": 2,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "AC PERFORACIONES S.A.",
+   "rut": "76610230-1",
+   "rubro": "Minería",
+   "ciiu6": "Actividades de apoyo para la explotación de otras minas y canteras prestados por empresas",
+   "respel_t": 138.27,
+   "n_declaraciones": 5,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Residuos resultantes de las operaciones de elimina",
+    "Residuos que procedan de la recolección selectiva ",
+    "Mezclas y emulsiones de aceite  y agua o hidrocarb"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Tóxico agudo"
+   ]
+  },
+  {
+   "empresa": "SOC MINERA ROSARIO LTDA",
+   "rut": "78358080-2",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de piedra, arena y arcilla",
+   "respel_t": 137.28,
+   "n_declaraciones": 5,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Compuestos de Plomo; Soluciones ácidas o ácidos en"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Inflamable; Tóxico por lixivia",
+    "Inflamable"
+   ]
+  },
+  {
+   "empresa": "FORACO CHILE S.A.",
+   "rut": "96924960-K",
+   "rubro": "Minería",
+   "ciiu6": "Actividades de apoyo para la explotación de otras minas y canteras prestados por empresas",
+   "respel_t": 121.71,
+   "n_declaraciones": 3,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Envases y recipientes contaminados que hayan conte"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "MAESTRANZA DIESEL SOCIEDAD ANONIMA",
+   "rut": "92730000-1",
+   "rubro": "Otras industrias manufactureras",
+   "ciiu6": "Reparación de maquinaria metalúrgica, para la minería, extracción de petróleo y para la construcción",
+   "respel_t": 117.74,
+   "n_declaraciones": 7,
+   "en_riles": false,
+   "residuos_top": [
+    "Mezclas y emulsiones de aceite  y agua o hidrocarb",
+    "Aceites minerales residuales no aptos para el uso ",
+    "Residuos resultantes de la producción, preparación"
+   ],
+   "peligrosidades": [
+    "Inflamable; Tóxico agudo",
+    "Inflamable",
+    "Tóxico por lixiviación; Inflam"
+   ]
+  },
+  {
+   "empresa": "MELON ARIDOS LIMITADA",
+   "rut": "78465110-K",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de piedra, arena y arcilla",
+   "respel_t": 107.72,
+   "n_declaraciones": 6,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Residuos resultantes de las operaciones de elimina"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "DAVID VILLANUEVA PEREZ SERVICIOS DE PROSPECCION            GEOLOGICA Y COMPUTACIO",
+   "rut": "76637910-9",
+   "rubro": "Minería",
+   "ciiu6": "Actividades de apoyo para la explotación de otras minas y canteras prestados por profesionales",
+   "respel_t": 104.0,
+   "n_declaraciones": 2,
+   "en_riles": false,
+   "residuos_top": [
+    "Residuos resultantes de las operaciones de elimina",
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "PROCESADORA Y COMERCIAL DE MINERALES Y GRANOS INDUSTRIALES MIGRIN SA",
+   "rut": "99572740-4",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de piedra, arena y arcilla",
+   "respel_t": 101.82,
+   "n_declaraciones": 6,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Soluciones ácidas o ácidos en forma sólida.; Compu"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Tóxico por lixiviación"
+   ]
+  },
+  {
+   "empresa": "COMPANIA MINERA CORDILLERA CHILE SCM",
+   "rut": "76800800-0",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de sal",
+   "respel_t": 98.0,
+   "n_declaraciones": 5,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Compuestos de Mercurio"
+   ],
+   "peligrosidades": [
+    "Tóxico por lixiviación",
+    "Inflamable; Tóxico crónico; Tó",
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "ANDRES PIRAZZOLI Y COMPANIA LIMITADA",
+   "rut": "83226000-2",
+   "rubro": "Industria de la madera y silvicultura",
+   "ciiu6": "Extracción de madera",
+   "respel_t": 92.96,
+   "n_declaraciones": 6,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Residuos resultantes de las operaciones de elimina",
+    "Compuestos de Plomo; Soluciones ácidas o ácidos en"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Tóxico por lixiviación; Tóxico"
+   ]
+  },
+  {
+   "empresa": "SANTIAGO METALS PROYECTO DOS LIMITADA",
+   "rut": "76296369-8",
+   "rubro": "Minería",
+   "ciiu6": "Extracción y procesamiento de cobre",
+   "respel_t": 91.0,
+   "n_declaraciones": 3,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Compuestos de Plomo; Soluciones ácidas o ácidos en",
+    "Envases y recipientes contaminados que hayan conte"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Corrosivo",
+    "Inflamable"
+   ]
+  },
+  {
+   "empresa": "LEONIDAS POO ZENTENO Y CIA LTDA",
+   "rut": "78467180-1",
+   "rubro": "Industria de la madera y silvicultura",
+   "ciiu6": "Extracción de madera",
+   "respel_t": 88.3,
+   "n_declaraciones": 5,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Compuestos de Plomo; Soluciones ácidas o ácidos en",
+    "Residuos resultantes de la producción, preparación"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Corrosivo",
+    "Tóxico agudo"
+   ]
+  },
+  {
+   "empresa": "PATRICIO CARRASCO SCHLEEF Y CIA LTDA",
+   "rut": "77235170-4",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de piedra, arena y arcilla",
+   "respel_t": 80.2,
+   "n_declaraciones": 2,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Tóxico por lixiviación; Tóxico"
+   ]
+  },
+  {
+   "empresa": "DTS CHILE SPA",
+   "rut": "76175093-3",
+   "rubro": "Otras industrias manufactureras",
+   "ciiu6": "Reparación de maquinaria metalúrgica, para la minería, extracción de petróleo y para la construcción",
+   "respel_t": 79.65,
+   "n_declaraciones": 3,
+   "en_riles": false,
+   "residuos_top": [
+    "Residuos resultantes de la producción, la preparac",
+    "Residuos resultantes de la producción, preparación",
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Inflamable",
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "IMERYS MINERALES CHILE SPA",
+   "rut": "96717570-6",
+   "rubro": "Minería",
+   "ciiu6": "Explotación de otras minas y canteras n.c.p.",
+   "respel_t": 78.89,
+   "n_declaraciones": 12,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Soluciones ácidas o ácidos en forma sólida.; Compu",
+    "Residuos resultantes de la producción, preparación",
+    "Mezclas y emulsiones de aceite  y agua o hidrocarb"
+   ],
+   "peligrosidades": [
+    "Corrosivo",
+    "Tóxico crónico",
+    "Tóxico por lixiviación"
+   ]
+  },
+  {
+   "empresa": "SOCIEDAD CONTRACTUAL MINERA COPIAPO",
+   "rut": "96623750-3",
+   "rubro": "Minería",
+   "ciiu6": "Explotación de otras minas y canteras n.c.p.",
+   "respel_t": 77.0,
+   "n_declaraciones": 2,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "HRI S A",
+   "rut": "96690270-1",
+   "rubro": "Comercio mayorista",
+   "ciiu6": "Venta al por mayor de maquinaria metalúrgica, para la minería, extracción de petróleo y construcción",
+   "respel_t": 76.7,
+   "n_declaraciones": 3,
+   "en_riles": false,
+   "residuos_top": [
+    "Mezclas y emulsiones de aceite  y agua o hidrocarb",
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "FORESTAL GALVARINO LTDA",
+   "rut": "79940830-9",
+   "rubro": "Industria de la madera y silvicultura",
+   "ciiu6": "Extracción de madera",
+   "respel_t": 74.0,
+   "n_declaraciones": 4,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Residuos resultantes de la producción, preparación"
+   ],
+   "peligrosidades": [
+    "Inflamable"
+   ]
+  },
+  {
+   "empresa": "HORMIGONES Y ARIDOS SANTA NATALIA LIMITADA",
+   "rut": "77232490-1",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de piedra, arena y arcilla",
+   "respel_t": 72.25,
+   "n_declaraciones": 2,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "NUEVO COBRE S.A.",
+   "rut": "96801450-1",
+   "rubro": "Minería",
+   "ciiu6": "Actividades de apoyo para la explotación de otras minas y canteras prestados por empresas",
+   "respel_t": 72.02,
+   "n_declaraciones": 22,
+   "en_riles": false,
+   "residuos_top": [
+    "Solventes orgánicos, con exclusión de solventes ha",
+    "Envases y recipientes contaminados que hayan conte",
+    "Soluciones ácidas o ácidos en forma sólida.",
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico agudo",
+    "Inflamable",
+    "Corrosivo"
+   ]
+  },
+  {
+   "empresa": "SOC AGRICOLA Y FORESTAL HABERT HABERT LIMITADA",
+   "rut": "76010210-5",
+   "rubro": "Industria de la madera y silvicultura",
+   "ciiu6": "Extracción de madera",
+   "respel_t": 71.08,
+   "n_declaraciones": 3,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Mezclas y emulsiones de aceite  y agua o hidrocarb"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "DRILLCO TOOLS SPA",
+   "rut": "88859600-3",
+   "rubro": "Otras industrias manufactureras",
+   "ciiu6": "Fabricación de maquinaria para la explotación de minas y canteras y para obras de construcción",
+   "respel_t": 70.0,
+   "n_declaraciones": 3,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Residuos resultantes de las operaciones de elimina"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "IMPORTADORA TERMOMIN LIMITADA",
+   "rut": "86667200-8",
+   "rubro": "Minería",
+   "ciiu6": "Explotación de otras minas y canteras n.c.p.",
+   "respel_t": 69.58,
+   "n_declaraciones": 4,
+   "en_riles": false,
+   "residuos_top": [
+    "Residuos resultantes de la producción, preparación",
+    "Envases y recipientes contaminados que hayan conte"
+   ],
+   "peligrosidades": [
+    "Inflamable"
+   ]
+  },
+  {
+   "empresa": "EMPRESA NACIONAL DE MINERIA",
+   "rut": "61703000-4",
+   "rubro": "Minería",
+   "ciiu6": "Extracción y procesamiento de litio",
+   "respel_t": 69.3,
+   "n_declaraciones": 4,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Envases y recipientes contaminados que hayan conte"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "ARIDOS GUERRICO CHILE LIMITADA",
+   "rut": "76058720-6",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de piedra, arena y arcilla",
+   "respel_t": 68.7,
+   "n_declaraciones": 2,
+   "en_riles": false,
+   "residuos_top": [
+    "Residuos resultantes de las operaciones de elimina",
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "TALLERES LUCAS SUR SPA",
+   "rut": "96797560-5",
+   "rubro": "Minería",
+   "ciiu6": "Actividades de apoyo para la explotación de otras minas y canteras prestados por empresas",
+   "respel_t": 68.5,
+   "n_declaraciones": 3,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "PESCA CISNE S A",
+   "rut": "96531980-8",
+   "rubro": "Pesca y acuicultura",
+   "ciiu6": "Recolección y extracción de productos marinos",
+   "respel_t": 68.37,
+   "n_declaraciones": 7,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Envases y recipientes contaminados que hayan conte",
+    "Compuestos de Plomo",
+    "Residuos resultantes de la producción, preparación"
+   ],
+   "peligrosidades": [
+    "Inflamable; Tóxico crónico",
+    "Tóxico crónico; Corrosivo",
+    "Tóxico crónico; Inflamable"
+   ]
+  },
+  {
+   "empresa": "ARIDOS ACONCAGUA S.A.",
+   "rut": "76414510-0",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de piedra, arena y arcilla",
+   "respel_t": 68.08,
+   "n_declaraciones": 4,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "MINERA JILGUERO S.A.",
+   "rut": "76318530-3",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de piedra, arena y arcilla",
+   "respel_t": 67.4,
+   "n_declaraciones": 6,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Mezclas y emulsiones de aceite  y agua o hidrocarb"
+   ],
+   "peligrosidades": [
+    "Inflamable",
+    "Tóxico crónico; Inflamable"
+   ]
+  },
+  {
+   "empresa": "TALLERES LUCAS ATACAMA SPA",
+   "rut": "79702920-3",
+   "rubro": "Minería",
+   "ciiu6": "Actividades de apoyo para la explotación de otras minas y canteras prestados por empresas",
+   "respel_t": 67.3,
+   "n_declaraciones": 4,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Mezclas y emulsiones de aceite  y agua o hidrocarb"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Tóxico agudo",
+    "Inflamable"
+   ]
+  },
+  {
+   "empresa": "SERVICIOS FORESTALES Y CARGUIOS LOMA GRANDE LTDA",
+   "rut": "76666240-4",
+   "rubro": "Industria de la madera y silvicultura",
+   "ciiu6": "Extracción de madera",
+   "respel_t": 66.38,
+   "n_declaraciones": 2,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "DMC MINING SERVICES CHILE SPA",
+   "rut": "77014665-8",
+   "rubro": "Minería",
+   "ciiu6": "Actividades de apoyo para la explotación de otras minas y canteras prestados por empresas",
+   "respel_t": 65.2,
+   "n_declaraciones": 4,
+   "en_riles": false,
+   "residuos_top": [
+    "Residuos resultantes de la producción, preparación",
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Inflamable"
+   ]
+  },
+  {
+   "empresa": "SANTIAGO METALS PROYECTO CUATRO LIMITADA",
+   "rut": "76338497-7",
+   "rubro": "Minería",
+   "ciiu6": "Extracción y procesamiento de cobre",
+   "respel_t": 63.6,
+   "n_declaraciones": 2,
+   "en_riles": false,
+   "residuos_top": [
+    "Soluciones ácidas o ácidos en forma sólida.; Compu",
+    "Envases y recipientes contaminados que hayan conte"
+   ],
+   "peligrosidades": [
+    "Corrosivo",
+    "Tóxico agudo; Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "SOC FORESTAL CHUMULCO LTDA",
+   "rut": "86906900-0",
+   "rubro": "Industria de la madera y silvicultura",
+   "ciiu6": "Extracción de madera",
+   "respel_t": 63.4,
+   "n_declaraciones": 3,
+   "en_riles": false,
+   "residuos_top": [
+    "Residuos resultantes de la producción, preparación",
+    "Residuos que procedan de la recolección selectiva ",
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Inflamable",
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "ARIDOS LIVIO MAGGI LIMITADA",
+   "rut": "76069032-5",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de piedra, arena y arcilla",
+   "respel_t": 60.2,
+   "n_declaraciones": 2,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Corrosivo; Tóxico crónico",
+    "Corrosivo"
+   ]
+  },
+  {
+   "empresa": "CIA MINERA DELIRIO",
+   "rut": "77474540-8",
+   "rubro": "Minería",
+   "ciiu6": "Extracción y procesamiento de cobre",
+   "respel_t": 60.0,
+   "n_declaraciones": 1,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "NORTE ABIERTO SPA",
+   "rut": "77116500-1",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de oro y plata",
+   "respel_t": 58.0,
+   "n_declaraciones": 6,
+   "en_riles": false,
+   "residuos_top": [
+    "Solventes orgánicos, con exclusión de solventes ha",
+    "Compuestos de Mercurio",
+    "Suelos o materiales resultantes de faenas de movim",
+    "Envases y recipientes contaminados que hayan conte"
+   ],
+   "peligrosidades": [
+    "Tóxico por lixiviación",
+    "Tóxico crónico",
+    "Inflamable"
+   ]
+  },
+  {
+   "empresa": "INGENIERIA Y MOVIMIENTO DE TIERRAS TRANEX LIMITADA",
+   "rut": "79971430-2",
+   "rubro": "Minería",
+   "ciiu6": "Actividades de apoyo para la explotación de otras minas y canteras prestados por empresas",
+   "respel_t": 56.0,
+   "n_declaraciones": 2,
+   "en_riles": false,
+   "residuos_top": [
+    "Compuestos de Plomo; Soluciones ácidas o ácidos en",
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Corrosivo"
+   ]
+  },
+  {
+   "empresa": "SOC COMERCIAL ROBERTO MUNOZ LIMITADA",
+   "rut": "77850520-7",
+   "rubro": "Minería",
+   "ciiu6": "Actividades de apoyo para la explotación de otras minas y canteras prestados por empresas",
+   "respel_t": 56.0,
+   "n_declaraciones": 5,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Inflamable"
+   ]
+  },
+  {
+   "empresa": "SOCIEDAD ARIDOS Y ASFALTOS SERVITERRA LIMITADA",
+   "rut": "76400247-4",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de piedra, arena y arcilla",
+   "respel_t": 55.81,
+   "n_declaraciones": 2,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "HIDROMFD COPIAPO S.A.",
+   "rut": "78431740-4",
+   "rubro": "Otras industrias manufactureras",
+   "ciiu6": "Reparación de maquinaria metalúrgica, para la minería, extracción de petróleo y para la construcción",
+   "respel_t": 55.3,
+   "n_declaraciones": 7,
+   "en_riles": false,
+   "residuos_top": [
+    "Compuestos de cromo hexavalente",
+    "Aceites minerales residuales no aptos para el uso ",
+    "Polvo y/o fibras de asbesto, con exclusión de los ",
+    "Residuos resultantes de la producción, la preparac"
+   ],
+   "peligrosidades": [
+    "Inflamable",
+    "Tóxico crónico; Tóxico agudo; ",
+    "Tóxico agudo; Inflamable"
+   ]
+  },
+  {
+   "empresa": "FMA INDUSTRIAL(CHILE) S.A.",
+   "rut": "87801300-K",
+   "rubro": "Otras industrias manufactureras",
+   "ciiu6": "Fabricación de maquinaria para la explotación de minas y canteras y para obras de construcción",
+   "respel_t": 52.51,
+   "n_declaraciones": 7,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Residuos resultantes de la producción, preparación",
+    "Compuestos de Mercurio",
+    "Solventes orgánicos, con exclusión de solventes ha"
+   ],
+   "peligrosidades": [
+    "Tóxico por lixiviación",
+    "Tóxico crónico",
+    "Inflamable"
+   ]
+  },
+  {
+   "empresa": "CONSTRUCCIONES Y SERVICIOS AGUSTIN LUIS VILCA TICUNA E.I.R.L",
+   "rut": "52004362-4",
+   "rubro": "Minería",
+   "ciiu6": "Actividades de apoyo para la explotación de otras minas y canteras prestados por empresas",
+   "respel_t": 52.0,
+   "n_declaraciones": 3,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico agudo"
+   ]
+  },
+  {
+   "empresa": "ARIDOS TINGUIRIRICA SPA",
+   "rut": "76050818-7",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de piedra, arena y arcilla",
+   "respel_t": 47.1,
+   "n_declaraciones": 2,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Tóxico agudo"
+   ]
+  },
+  {
+   "empresa": "CHRISTENSEN CHILE S A",
+   "rut": "96515290-3",
+   "rubro": "Otras industrias manufactureras",
+   "ciiu6": "Fabricación de maquinaria para la explotación de minas y canteras y para obras de construcción",
+   "respel_t": 46.0,
+   "n_declaraciones": 2,
+   "en_riles": false,
+   "residuos_top": [
+    "Residuos resultantes de la producción, preparación",
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Corrosivo",
+    "Inflamable"
+   ]
+  },
+  {
+   "empresa": "DRILLING SERVICES AND SOLUTIONS SPA",
+   "rut": "77093724-8",
+   "rubro": "Minería",
+   "ciiu6": "Actividades de apoyo para la explotación de otras minas y canteras prestados por empresas",
+   "respel_t": 43.64,
+   "n_declaraciones": 2,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "MINERA SAN PEDRO S.A",
+   "rut": "85466200-7",
+   "rubro": "Minería",
+   "ciiu6": "Explotación de otras minas y canteras n.c.p.",
+   "respel_t": 40.5,
+   "n_declaraciones": 3,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "JOHN M. PHILLIPS SERVICIOS DE ENERGIA LIMITADA",
+   "rut": "76189684-9",
+   "rubro": "Minería",
+   "ciiu6": "Actividades de apoyo para la extracción de petróleo y gas natural prestados por empresas",
+   "respel_t": 35.39,
+   "n_declaraciones": 8,
+   "en_riles": false,
+   "residuos_top": [
+    "Mezclas y emulsiones de aceite  y agua o hidrocarb",
+    "Compuestos de Mercurio",
+    "Soluciones ácidas o ácidos en forma sólida.; Compu",
+    "Residuos resultantes de la producción y preparació"
+   ],
+   "peligrosidades": [
+    "Inflamable",
+    "Tóxico crónico",
+    "Inflamable; Corrosivo"
+   ]
+  },
+  {
+   "empresa": "SOC DE DESARROLLO URBANO VALDIVIA LIMITADA",
+   "rut": "83949400-9",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de piedra, arena y arcilla",
+   "respel_t": 35.05,
+   "n_declaraciones": 2,
+   "en_riles": false,
+   "residuos_top": [
+    "Residuos resultantes de las operaciones de elimina",
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Inflamable"
+   ]
+  },
+  {
+   "empresa": "SOCIEDAD CONTRACTUAL MINERA BUFALO",
+   "rut": "77114779-8",
+   "rubro": "Minería",
+   "ciiu6": "Actividades de apoyo para la explotación de otras minas y canteras prestados por empresas",
+   "respel_t": 33.53,
+   "n_declaraciones": 2,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "MINERA EL WAY S.A.",
+   "rut": "76314140-3",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de piedra, arena y arcilla",
+   "respel_t": 32.0,
+   "n_declaraciones": 1,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Inflamable"
+   ]
+  },
+  {
+   "empresa": "CESAR EMILIO COVILI",
+   "rut": "7029985-2",
+   "rubro": "Industria de la madera y silvicultura",
+   "ciiu6": "Extracción de madera",
+   "respel_t": 31.1,
+   "n_declaraciones": 2,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "SERVICIOS COMERCIALES PETROHUE LIMITADA",
+   "rut": "76293930-4",
+   "rubro": "Industria de la madera y silvicultura",
+   "ciiu6": "Extracción de madera",
+   "respel_t": 30.75,
+   "n_declaraciones": 3,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Tóxico por lixiviación"
+   ]
+  },
+  {
+   "empresa": "ABRATEC S A",
+   "rut": "96532510-7",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de piedra, arena y arcilla",
+   "respel_t": 30.35,
+   "n_declaraciones": 2,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico por lixiviación",
+    "Inflamable; Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "ARIDOS Y CONSTRUCTORA SAN VICENTE SPA",
+   "rut": "76012991-7",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de piedra, arena y arcilla",
+   "respel_t": 29.2,
+   "n_declaraciones": 1,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "RUSSELL MINERAL EQUIPMENT S A",
+   "rut": "99572320-4",
+   "rubro": "Otras industrias manufactureras",
+   "ciiu6": "Instalación de maquinaria y equipos industriales",
+   "respel_t": 29.1,
+   "n_declaraciones": 3,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Sustancias y artículos de desecho que contengan, o"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "ATEX VALERIANO SPA",
+   "rut": "77038712-4",
+   "rubro": "Minería",
+   "ciiu6": "Extracción y procesamiento de cobre",
+   "respel_t": 29.1,
+   "n_declaraciones": 1,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico por lixiviación"
+   ]
+  },
+  {
+   "empresa": "HILTI CHILE LIMITADA",
+   "rut": "84708300-K",
+   "rubro": "Comercio mayorista",
+   "ciiu6": "Venta al por mayor de maquinaria metalúrgica, para la minería, extracción de petróleo y construcción",
+   "respel_t": 28.8,
+   "n_declaraciones": 3,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Residuos resultantes de las operaciones de elimina",
+    "Mezclas y emulsiones de aceite  y agua o hidrocarb"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "SOC EXPLOTADORA DE ARIDOS ARIMIX LIMITADA",
+   "rut": "78892390-2",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de piedra, arena y arcilla",
+   "respel_t": 28.66,
+   "n_declaraciones": 2,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "CONSTRUCCION DE OBRAS,PRODUCCION Y VENTA DE ARIDOS JUAN LUIS GATICA AV",
+   "rut": "87789300-6",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de piedra, arena y arcilla",
+   "respel_t": 26.7,
+   "n_declaraciones": 1,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "NUEVA PUDAHUEL S A",
+   "rut": "99589380-0",
+   "rubro": "Minería",
+   "ciiu6": "Explotación de otras minas y canteras n.c.p.",
+   "respel_t": 26.3,
+   "n_declaraciones": 3,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Residuos resultantes de las operaciones de elimina"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "OBRAS CIVILES LGP S A",
+   "rut": "96701940-2",
+   "rubro": "Minería",
+   "ciiu6": "Actividades de apoyo para la explotación de otras minas y canteras prestados por empresas",
+   "respel_t": 25.5,
+   "n_declaraciones": 1,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Inflamable"
+   ]
+  },
+  {
+   "empresa": "MINERA MELON S.A.",
+   "rut": "76163321-K",
+   "rubro": "Minería",
+   "ciiu6": "Explotación de otras minas y canteras n.c.p.",
+   "respel_t": 24.21,
+   "n_declaraciones": 9,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Residuos resultantes de las operaciones de elimina",
+    "Residuos resultantes de la producción, la preparac",
+    "Compuestos de Mercurio"
+   ],
+   "peligrosidades": [
+    "Tóxico por lixiviación",
+    "Corrosivo",
+    "Inflamable; Tóxico agudo"
+   ]
+  },
+  {
+   "empresa": "EXPLOTACIÓN Y COMERCIALIZACIÓN DE MINERALES SERCAL SPA",
+   "rut": "76969342-4",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de minerales para la fabricación de abonos y productos químicos n.c.p.",
+   "respel_t": 23.9,
+   "n_declaraciones": 3,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Soluciones ácidas o ácidos en forma sólida.; Compu"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Corrosivo"
+   ]
+  },
+  {
+   "empresa": "SOC MINERA PETREOS QUILIN LIMITADA",
+   "rut": "88438300-5",
+   "rubro": "Otras industrias manufactureras",
+   "ciiu6": "Fabricación de otros productos minerales no metálicos n.c.p.",
+   "respel_t": 22.2,
+   "n_declaraciones": 2,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Residuos resultantes de las operaciones de elimina"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "SOC DE SERVICIOS GENERALES A LA MI NERIA HOLESTECK LIMITADA",
+   "rut": "78503810-K",
+   "rubro": "Minería",
+   "ciiu6": "Explotación de otras minas y canteras n.c.p.",
+   "respel_t": 21.08,
+   "n_declaraciones": 2,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Compuestos de Plomo; Soluciones ácidas o ácidos en"
+   ],
+   "peligrosidades": [
+    "Inflamable",
+    "Corrosivo"
+   ]
+  },
+  {
+   "empresa": "ZITRON CHILE SPA",
+   "rut": "76900150-6",
+   "rubro": "Otras industrias manufactureras",
+   "ciiu6": "Fabricación de maquinaria para la explotación de minas y canteras y para obras de construcción",
+   "respel_t": 20.85,
+   "n_declaraciones": 7,
+   "en_riles": false,
+   "residuos_top": [
+    "Residuos resultantes de la producción, preparación",
+    "Aceites minerales residuales no aptos para el uso ",
+    "Mezclas y emulsiones de aceite  y agua o hidrocarb",
+    "Soluciones ácidas o ácidos en forma sólida.; Compu"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Inflamable",
+    "Corrosivo"
+   ]
+  },
+  {
+   "empresa": "SEW-EURODRIVE CHILE SPA",
+   "rut": "78075630-6",
+   "rubro": "Otras industrias manufactureras",
+   "ciiu6": "Reparación de maquinaria metalúrgica, para la minería, extracción de petróleo y para la construcción",
+   "respel_t": 20.0,
+   "n_declaraciones": 1,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "CAL AUSTRAL SOCIEDAD ANONIMA",
+   "rut": "99529170-3",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de piedra, arena y arcilla",
+   "respel_t": 19.93,
+   "n_declaraciones": 3,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Compuestos de Plomo; Soluciones ácidas o ácidos en"
+   ],
+   "peligrosidades": [
+    "Corrosivo",
+    "Tóxico por lixiviación; Tóxico",
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "HCA MINERIA SPA",
+   "rut": "76504290-9",
+   "rubro": "Comercio mayorista",
+   "ciiu6": "Venta al por mayor de maquinaria metalúrgica, para la minería, extracción de petróleo y construcción",
+   "respel_t": 19.9,
+   "n_declaraciones": 6,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Envases y recipientes contaminados que hayan conte",
+    "Residuos resultantes de la producción, preparación",
+    "Mezclas y emulsiones de aceite  y agua o hidrocarb"
+   ],
+   "peligrosidades": [
+    "Inflamable",
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "ACTIVATION GEOLOGICAL SERVICES SPA",
+   "rut": "76547935-5",
+   "rubro": "Minería",
+   "ciiu6": "Actividades de apoyo para la explotación de otras minas y canteras prestados por empresas",
+   "respel_t": 18.48,
+   "n_declaraciones": 2,
+   "en_riles": false,
+   "residuos_top": [
+    "Envases y recipientes contaminados que hayan conte",
+    "Compuestos de Plomo"
+   ],
+   "peligrosidades": [
+    "Corrosivo",
+    "Tóxico por lixiviación"
+   ]
+  },
+  {
+   "empresa": "VISION PERFORACIONES SPA",
+   "rut": "76297762-1",
+   "rubro": "Minería",
+   "ciiu6": "Actividades de apoyo para la explotación de otras minas y canteras prestados por empresas",
+   "respel_t": 17.7,
+   "n_declaraciones": 6,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Inflamable",
+    "Tóxico agudo"
+   ]
+  },
+  {
+   "empresa": "MINERA CARRIZALILLO SPA",
+   "rut": "76915080-3",
+   "rubro": "Minería",
+   "ciiu6": "Extracción y procesamiento de cobre",
+   "respel_t": 16.0,
+   "n_declaraciones": 2,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Inflamable"
+   ]
+  },
+  {
+   "empresa": "SOCIEDAD MINERA EL AGUILA SPA",
+   "rut": "76032211-3",
+   "rubro": "Minería",
+   "ciiu6": "Extracción y procesamiento de cobre",
+   "respel_t": 15.0,
+   "n_declaraciones": 1,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "HUGO JOFRE E HIJOS S.A.",
+   "rut": "84414600-0",
+   "rubro": "Otras industrias manufactureras",
+   "ciiu6": "Fabricación de maquinaria para la explotación de minas y canteras y para obras de construcción",
+   "respel_t": 14.43,
+   "n_declaraciones": 6,
+   "en_riles": false,
+   "residuos_top": [
+    "Residuos resultantes del tratamiento de superficie",
+    "Aceites minerales residuales no aptos para el uso ",
+    "Envases y recipientes contaminados que hayan conte",
+    "Residuos que procedan de la recolección selectiva "
+   ],
+   "peligrosidades": [
+    "Inflamable",
+    "Tóxico agudo"
+   ]
+  },
+  {
+   "empresa": "CRUSTACEOS SUR S.A.",
+   "rut": "76143821-2",
+   "rubro": "Pesca y acuicultura",
+   "ciiu6": "Recolección y extracción de productos marinos",
+   "respel_t": 14.0,
+   "n_declaraciones": 1,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "SOC MINERA FORESTAL SAN ENRIQUE LIMITADA",
+   "rut": "79548210-5",
+   "rubro": "Industria de la madera y silvicultura",
+   "ciiu6": "Silvicultura y otras actividades forestales (excepto explotación de viveros forestales)",
+   "respel_t": 13.0,
+   "n_declaraciones": 1,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico agudo"
+   ]
+  },
+  {
+   "empresa": "TURISMO Y TRANSPORTES DE PASAJEROS Y CARGA SAN PEDRO LIMITADA",
+   "rut": "76043544-9",
+   "rubro": "Minería",
+   "ciiu6": "Actividades de apoyo para la explotación de otras minas y canteras prestados por empresas",
+   "respel_t": 13.0,
+   "n_declaraciones": 1,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico agudo"
+   ]
+  },
+  {
+   "empresa": "FORESTAL ERICA TORRES ZAMBRANO E.I.R.L.",
+   "rut": "76973731-6",
+   "rubro": "Industria de la madera y silvicultura",
+   "ciiu6": "Extracción de madera",
+   "respel_t": 12.95,
+   "n_declaraciones": 2,
+   "en_riles": false,
+   "residuos_top": [
+    "Envases y recipientes contaminados que hayan conte",
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "SOCIEDAD ARIDOS SAN VICENTE SPA",
+   "rut": "76173541-1",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de piedra, arena y arcilla",
+   "respel_t": 12.6,
+   "n_declaraciones": 1,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico agudo"
+   ]
+  },
+  {
+   "empresa": "MINERA LO VALDES LIMITADA",
+   "rut": "84707300-4",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de piedra, arena y arcilla",
+   "respel_t": 12.11,
+   "n_declaraciones": 6,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Envases y recipientes contaminados que hayan conte",
+    "Residuos resultantes de la producción, preparación",
+    "Compuestos de Mercurio"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Inflamable",
+    "Corrosivo"
+   ]
+  },
+  {
+   "empresa": "MOUNTAIN DRILLING SPA",
+   "rut": "76322002-8",
+   "rubro": "Minería",
+   "ciiu6": "Actividades de apoyo para la explotación de otras minas y canteras prestados por empresas",
+   "respel_t": 12.08,
+   "n_declaraciones": 2,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Inflamable"
+   ]
+  },
+  {
+   "empresa": "COMERCIAL TECNIPAK LIMITADA",
+   "rut": "77017510-0",
+   "rubro": "Otras industrias manufactureras",
+   "ciiu6": "Fabricación de maquinaria para la explotación de minas y canteras y para obras de construcción",
+   "respel_t": 11.75,
+   "n_declaraciones": 4,
+   "en_riles": false,
+   "residuos_top": [
+    "Residuos resultantes de la producción, preparación",
+    "Residuos resultantes de la producción, la preparac"
+   ],
+   "peligrosidades": [
+    "Inflamable",
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "ARIDOS PETROMIN S.A.",
+   "rut": "96889550-8",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de piedra, arena y arcilla",
+   "respel_t": 11.66,
+   "n_declaraciones": 3,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "TALLERES SERVMAQ LIMITADA",
+   "rut": "77158633-3",
+   "rubro": "Otras industrias manufactureras",
+   "ciiu6": "Reparación de maquinaria metalúrgica, para la minería, extracción de petróleo y para la construcción",
+   "respel_t": 10.8,
+   "n_declaraciones": 2,
+   "en_riles": false,
+   "residuos_top": [
+    "Soluciones ácidas o ácidos en forma sólida.; Compu",
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico agudo; Corrosivo; Tóxic",
+    "Inflamable"
+   ]
+  },
+  {
+   "empresa": "REFLEX INSTRUMENT SOUTH AMERICA SPA",
+   "rut": "77926920-5",
+   "rubro": "Minería",
+   "ciiu6": "Actividades de apoyo para la explotación de otras minas y canteras prestados por empresas",
+   "respel_t": 10.8,
+   "n_declaraciones": 3,
+   "en_riles": false,
+   "residuos_top": [
+    "Solventes orgánicos halogenados",
+    "Residuos resultantes de la producción preparación ",
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Inflamable"
+   ]
+  },
+  {
+   "empresa": "MINERA TRUCCO SPA.",
+   "rut": "78186160-K",
+   "rubro": "Minería",
+   "ciiu6": "Explotación de otras minas y canteras n.c.p.",
+   "respel_t": 10.8,
+   "n_declaraciones": 1,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "SERGIO CERVA S A",
+   "rut": "96534570-1",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de piedra, arena y arcilla",
+   "respel_t": 10.79,
+   "n_declaraciones": 2,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "SOCIEDAD COMERCIAL DE ARIDOS CRISTIAN ALFONSO CORDOVA URTUBIA E.I.R.L",
+   "rut": "76620780-4",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de piedra, arena y arcilla",
+   "respel_t": 10.16,
+   "n_declaraciones": 1,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico por lixiviación"
+   ]
+  },
+  {
+   "empresa": "ARIDOS E INVERSIONES SAN VICENTE SPA",
+   "rut": "77894100-7",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de piedra, arena y arcilla",
+   "respel_t": 9.9,
+   "n_declaraciones": 1,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "PRODUCTOS MARINOS PUERTO WILLIAMS LIMITADA",
+   "rut": "77733840-4",
+   "rubro": "Pesca y acuicultura",
+   "ciiu6": "Recolección y extracción de productos marinos",
+   "respel_t": 9.1,
+   "n_declaraciones": 2,
+   "en_riles": false,
+   "residuos_top": [
+    "Compuestos de Plomo; Soluciones ácidas o ácidos en",
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Corrosivo",
+    "Tóxico agudo"
+   ]
+  },
+  {
+   "empresa": "SOCIEDAD DE SERVICIOS FORESTALES SANTA JUANA LIMITADA",
+   "rut": "76406950-1",
+   "rubro": "Industria de la madera y silvicultura",
+   "ciiu6": "Extracción de madera",
+   "respel_t": 9.0,
+   "n_declaraciones": 3,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Tóxico por lixiviación",
+    "Inflamable"
+   ]
+  },
+  {
+   "empresa": "AGRICOLA LOS NOTROS PAILLACO LIMITADA",
+   "rut": "89874000-5",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de piedra, arena y arcilla",
+   "respel_t": 8.0,
+   "n_declaraciones": 1,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "SERVIALL SOCIEDAD ANONIMA",
+   "rut": "76035324-8",
+   "rubro": "Minería",
+   "ciiu6": "Actividades de apoyo para la explotación de otras minas y canteras prestados por empresas",
+   "respel_t": 7.1,
+   "n_declaraciones": 1,
+   "en_riles": false,
+   "residuos_top": [
+    "Solventes orgánicos, con exclusión de solventes ha"
+   ],
+   "peligrosidades": [
+    "Inflamable"
+   ]
+  },
+  {
+   "empresa": "QUIBORAX S.A.",
+   "rut": "79639570-2",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de minerales para la fabricación de abonos y productos químicos n.c.p.",
+   "respel_t": 6.85,
+   "n_declaraciones": 6,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Arsénico, compuestos de arsénico",
+    "Residuos resultantes de la producción, preparación",
+    "Compuestos de cromo hexavalente; Suelos o material"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Corrosivo",
+    "Tóxico por lixiviación"
+   ]
+  },
+  {
+   "empresa": "ERAL-CHILE S A",
+   "rut": "96533660-5",
+   "rubro": "Otras industrias manufactureras",
+   "ciiu6": "Fabricación de maquinaria para la explotación de minas y canteras y para obras de construcción",
+   "respel_t": 6.69,
+   "n_declaraciones": 1,
+   "en_riles": false,
+   "residuos_top": [
+    "Envases y recipientes contaminados que hayan conte"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "FORESTAL RUSSFIN LIMITADA",
+   "rut": "78102610-7",
+   "rubro": "Industria de la madera y silvicultura",
+   "ciiu6": "Extracción de madera",
+   "respel_t": 5.75,
+   "n_declaraciones": 2,
+   "en_riles": false,
+   "residuos_top": [
+    "Envases y recipientes contaminados que hayan conte",
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Inflamable; Tóxico crónico",
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "COMERCIALIZADORA PROTORQ S.A.",
+   "rut": "76220150-K",
+   "rubro": "Minería",
+   "ciiu6": "Actividades de apoyo para la explotación de otras minas y canteras prestados por empresas",
+   "respel_t": 5.57,
+   "n_declaraciones": 5,
+   "en_riles": false,
+   "residuos_top": [
+    "Residuos resultantes de la producción, preparación",
+    "Aceites minerales residuales no aptos para el uso ",
+    "Soluciones básicas o bases en forma sólida."
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Corrosivo",
+    "Inflamable"
+   ]
+  },
+  {
+   "empresa": "PRIME DRILLING SERVICES SPA",
+   "rut": "76203195-7",
+   "rubro": "Minería",
+   "ciiu6": "Actividades de apoyo para la extracción de petróleo y gas natural prestados por empresas",
+   "respel_t": 4.4,
+   "n_declaraciones": 3,
+   "en_riles": false,
+   "residuos_top": [
+    "Soluciones ácidas o ácidos en forma sólida.; Compu",
+    "Aceites minerales residuales no aptos para el uso ",
+    "Residuos que procedan de la recolección selectiva "
+   ],
+   "peligrosidades": [
+    "Inflamable",
+    "Corrosivo"
+   ]
+  },
+  {
+   "empresa": "INGENIERIA DE PROYECTOS DESARROLLO ESTUDIOS Y SERVICIOS            H I T LTDA",
+   "rut": "77292200-0",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de minerales para la fabricación de abonos y productos químicos n.c.p.",
+   "respel_t": 4.3,
+   "n_declaraciones": 1,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "VLADIMIR HERNAN MUNOZ CAVALLERA",
+   "rut": "5391183-8",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de piedra, arena y arcilla",
+   "respel_t": 4.23,
+   "n_declaraciones": 2,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "ECOVAL MINERALS S.A.",
+   "rut": "77444700-8",
+   "rubro": "Otras actividades",
+   "ciiu6": "Otros servicios de almacenamiento y depósito n.c.p.",
+   "respel_t": 4.0,
+   "n_declaraciones": 2,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico crónico; Tóxico por lix",
+    "Tóxico por lixiviación"
+   ]
+  },
+  {
+   "empresa": "AGRICOLA MANTOS VERDES LIMITADA",
+   "rut": "78226250-5",
+   "rubro": "Producción agropecuaria",
+   "ciiu6": "Cultivo de frutas de pepita y de hueso",
+   "respel_t": 4.0,
+   "n_declaraciones": 4,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Soluciones ácidas o ácidos en forma sólida.; Compu",
+    "Residuos resultantes de la producción preparación "
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Corrosivo"
+   ]
+  },
+  {
+   "empresa": "INVERSIONES TABOLANGO S.A.",
+   "rut": "76097965-1",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de piedra, arena y arcilla",
+   "respel_t": 3.81,
+   "n_declaraciones": 4,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso ",
+    "Residuos resultantes de las operaciones de elimina"
+   ],
+   "peligrosidades": [
+    "Tóxico crónico",
+    "Inflamable"
+   ]
+  },
+  {
+   "empresa": "COMERCIAL E INDUSTRIAL MINERA SANTA TERESA LTDA",
+   "rut": "78773050-7",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de piedra, arena y arcilla",
+   "respel_t": 3.52,
+   "n_declaraciones": 1,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "COMERCIAL Y SERVICIOS CANDELARIA LIMITADA",
+   "rut": "77084847-4",
+   "rubro": "Comercio minorista",
+   "ciiu6": "Venta al por menor de combustibles para vehículos automotores en comercios especializados",
+   "respel_t": 2.58,
+   "n_declaraciones": 1,
+   "en_riles": false,
+   "residuos_top": [
+    "Residuos resultantes de la producción, la preparac"
+   ],
+   "peligrosidades": [
+    "Inflamable"
+   ]
+  },
+  {
+   "empresa": "EMBOTELLADORA AGUA MINERAL PUYEHUE S A",
+   "rut": "96901670-2",
+   "rubro": "Otras industrias manufactureras",
+   "ciiu6": "Producción de aguas minerales y otras aguas embotelladas",
+   "respel_t": 2.37,
+   "n_declaraciones": 11,
+   "en_riles": false,
+   "residuos_top": [
+    "Residuos resultantes de la producción, preparación",
+    "Compuestos de Mercurio",
+    "Envases y recipientes contaminados que hayan conte",
+    "Soluciones ácidas o ácidos en forma sólida."
+   ],
+   "peligrosidades": [
+    "Inflamable",
+    "Corrosivo",
+    "Inflamable; Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "SOCIEDAD MEDICA SPENCER Y COMPANIA LIMITADA",
+   "rut": "76686188-1",
+   "rubro": "Otras actividades",
+   "ciiu6": "Actividades de laboratorios clínicos y bancos de sangre",
+   "respel_t": 1.75,
+   "n_declaraciones": 2,
+   "en_riles": false,
+   "residuos_top": [
+    "Residuos hospitalarios.; Medicamentos, drogas y pr",
+    "Residuos hospitalarios."
+   ],
+   "peligrosidades": [
+    "Corrosivo; Tóxico crónico; Inf",
+    "Tóxico crónico; Corrosivo; Inf"
+   ]
+  },
+  {
+   "empresa": "MINE TRUST SPA",
+   "rut": "76299786-K",
+   "rubro": "Otras industrias manufactureras",
+   "ciiu6": "Reparación de maquinaria metalúrgica, para la minería, extracción de petróleo y para la construcción",
+   "respel_t": 0.8,
+   "n_declaraciones": 1,
+   "en_riles": false,
+   "residuos_top": [
+    "Aceites minerales residuales no aptos para el uso "
+   ],
+   "peligrosidades": [
+    "Tóxico crónico"
+   ]
+  },
+  {
+   "empresa": "CIA SIDERURGICA HUACHIPATO S.A.",
+   "rut": "94637000-2",
+   "rubro": "Minería",
+   "ciiu6": "Extracción de piedra, arena y arcilla",
+   "respel_t": 0.37,
+   "n_declaraciones": 1,
+   "en_riles": false,
+   "residuos_top": [
+    "Residuos resultantes de la producción, preparación"
+   ],
+   "peligrosidades": [
+    "Inflamable"
+   ]
+  },
+  {
+   "empresa": "LABORATORIO QUIMICO SAN LORENZO LIMITADA",
+   "rut": "76023196-7",
+   "rubro": "Minería",
+   "ciiu6": "Actividades de apoyo para la explotación de otras minas y canteras prestados por empresas",
+   "respel_t": 0.11,
+   "n_declaraciones": 1,
+   "en_riles": false,
+   "residuos_top": [
+    "Compuestos de cromo hexavalente; Compuestos inorgá"
+   ],
+   "peligrosidades": [
+    "Tóxico agudo; Corrosivo"
+   ]
+  }
+ ]
+}
