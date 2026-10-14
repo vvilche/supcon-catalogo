@@ -5,7 +5,7 @@
   "Transparencia (empresas del Estado)",
   "Web search / LinkedIn"
  ],
- "total_empresas": 204,
+ "total_empresas": 214,
  "resultados": [
   {
    "empresa": "Guacolda Energia Spa",
@@ -9212,6 +9212,571 @@
    "notas": [],
    "n_decisores": 6,
    "n_relevantes": 6
+  },
+  {
+   "empresa": "Alimex S.A.",
+   "hallazgos": [
+    {
+     "nombre": "Javier Fernandez",
+     "cargo": "Gerente de unidad Alimex S.A.",
+     "linkedin": "https://cl.linkedin.com/in/javierfernandezk",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Ignacio DellOro",
+     "cargo": "Subgerente de Administración @ Alimex | Gestión · Procesos | Transformación · Proyectos",
+     "linkedin": "https://cl.linkedin.com/in/ignaciodelloro",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Roberto De La Jara Rojas",
+     "cargo": "Ingeniero Mecánico",
+     "linkedin": "https://cl.linkedin.com/in/roberto-de-la-jara-rojas-96492748",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Paul Nicolai Rammsy",
+     "cargo": "Gerente de Operaciones | Manager | Logística | Supply Chain | Manufactura",
+     "linkedin": "https://cl.linkedin.com/in/paul-nicolai",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "ALEJANDRO ARNADO",
+     "cargo": "Jefe de Bodega en Alimex S.A.",
+     "linkedin": "https://cl.linkedin.com/in/alejandro-arnado-2a3949112",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Michael Meints",
+     "cargo": "President at A Berger Inc. / Harvard Business School Alumni / 🏊🏼‍♂️🚴🏼‍♂️🏃",
+     "linkedin": "https://www.linkedin.com/in/michaelmeints1",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Jorge Contanzo Arenas",
+     "cargo": "Gerente de Personas en Alimex I Cultura I Desempeño I Diseño Organizacional I SST y MA",
+     "linkedin": "https://cl.linkedin.com/in/jorgecontanzoarenas",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Eduardo Bottinelli",
+     "cargo": "gerente de medio ambiente",
+     "linkedin": "https://cl.linkedin.com/in/ebottinelli",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    }
+   ],
+   "fuentes_usadas": [
+    "LinkedIn: 9"
+   ],
+   "notas": [],
+   "n_decisores": 8,
+   "n_relevantes": 8
+  },
+  {
+   "empresa": "Moly Cop Chile S A",
+   "hallazgos": [
+    {
+     "nombre": "Luis Armando L.",
+     "cargo": "Mantenimiento en Moly-Cop",
+     "linkedin": "https://mx.linkedin.com/in/luis-armando-l-982b1882",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "JOSE SEBASTIAN GALDAMES AHUMADA",
+     "cargo": "JEFE DE REMUNERACIONES Moly - Cop Chile S.A.",
+     "linkedin": "https://cl.linkedin.com/in/jose-sebastian-galdames-ahumada-1462069b",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Gustavo Alcázar",
+     "cargo": "Gerente General en Moly-Cop Chile S.A",
+     "linkedin": "https://cl.linkedin.com/in/gustavo-alc%C3%A1zar-9b3804106",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "HECTOR TORO",
+     "cargo": "GERENTE COMERCIAL en MOLY COP CHILE SA",
+     "linkedin": "https://cl.linkedin.com/in/hector-toro-14019249",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Marcelo Lorca Reitter",
+     "cargo": "Gerente Comercial en Moly-Cop | MBA en Administración de Empresas",
+     "linkedin": "https://cl.linkedin.com/in/marcelo-lorca-reitter-a8597141",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Sabino Ramirez",
+     "cargo": "Jefe de Mantención Eléctrica en Moly-Cop Chile",
+     "linkedin": "https://cl.linkedin.com/in/sabino-ramirez-82a74164",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Sandra Villalobos Pino",
+     "cargo": "Jefe de Seguridad y Gestión HSE Mejillones y Área Comercial Molycop Chile S.A. / Sernageom",
+     "linkedin": "https://cl.linkedin.com/in/sandra-villalobos-pino-013342172",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Daniel Torres",
+     "cargo": "Ingeniero de Proyectos en Moly-Cop Chile S.A.",
+     "linkedin": "https://cl.linkedin.com/in/daniel-torres-1287006a",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    }
+   ],
+   "fuentes_usadas": [
+    "LinkedIn: 8"
+   ],
+   "notas": [],
+   "n_decisores": 8,
+   "n_relevantes": 8
+  },
+  {
+   "empresa": "Salmonoil S A",
+   "hallazgos": [
+    {
+     "nombre": "Ricardo Araneda Ramos",
+     "cargo": "Jefe de turno y operaciones en Salmonoil",
+     "linkedin": "https://cl.linkedin.com/in/ricardo-araneda-ramos-4ba422124",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    }
+   ],
+   "fuentes_usadas": [
+    "LinkedIn: 2"
+   ],
+   "notas": [],
+   "n_decisores": 1,
+   "n_relevantes": 1
+  },
+  {
+   "empresa": "Procesadora Cailin Spa",
+   "hallazgos": [
+    {
+     "nombre": "Pablo Castillo",
+     "cargo": "gerente de mantenimiento",
+     "linkedin": "https://cl.linkedin.com/in/pablo-castillo-53a4a3159",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Elizabeth Susana Salazar Llancalahuen",
+     "cargo": "Analista administración de personas en Procesadora Cailin spa",
+     "linkedin": "https://www.linkedin.com/in/elizabeth-susana-salazar-llancalahuen-a968a4289",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Maria Rodriguez",
+     "cargo": "Jefe de operaciones en Procesadora Rengo Spa",
+     "linkedin": "https://tr.linkedin.com/in/maria-rodriguez-39169414b",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Lorena Gallardo-Rapco",
+     "cargo": "Jefe de finanzas y administración en Procesadora y Comercial rapco Spa",
+     "linkedin": "https://cl.linkedin.com/in/lorena-gallardo-rapco-6817b3157",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Almacén Procesadora",
+     "cargo": "Jefe de almacén en Procesadora Atlántico, C.A.",
+     "linkedin": "https://www.linkedin.com/in/almac%c3%a9n-procesadora-22a31119a",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Ana Laura Villalobos",
+     "cargo": "Jefe del Departamento del Medio Ambiente",
+     "linkedin": "https://mx.linkedin.com/in/ana-laura-villalobos-3b320a250",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Gisela Trujillo",
+     "cargo": "Coordinador de Seguridad y Medio Ambiente",
+     "linkedin": "https://pe.linkedin.com/in/gisela-trujillo",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Damián Canegallo",
+     "cargo": "Gerente / Manager en Procesadora Avícola del Medio S.A.",
+     "linkedin": "https://www.linkedin.com/in/dami%C3%A1n-canegallo-7a761b5",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    }
+   ],
+   "fuentes_usadas": [
+    "LinkedIn: 8"
+   ],
+   "notas": [],
+   "n_decisores": 8,
+   "n_relevantes": 8
+  },
+  {
+   "empresa": "Pesquera Y Conservera Tamai Ltda",
+   "hallazgos": [
+    {
+     "nombre": "Luis Ruiz",
+     "cargo": "gerente de mantenimiento",
+     "linkedin": "https://cl.linkedin.com/in/luis-ruiz-083052128",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Jimena Barrientos",
+     "cargo": "Tesorera en Cooke Aquaculture Chile S.A.",
+     "linkedin": "https://cl.linkedin.com/in/jimena-barrientos-44bb5969",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    }
+   ],
+   "fuentes_usadas": [
+    "LinkedIn: 2"
+   ],
+   "notas": [],
+   "n_decisores": 2,
+   "n_relevantes": 2
+  },
+  {
+   "empresa": "Marine Farms Limitada",
+   "hallazgos": [
+    {
+     "nombre": "Ruben Bravo",
+     "cargo": "Jefe de mantención AD Ingeniero en automatización y control industrial",
+     "linkedin": "https://cl.linkedin.com/in/ruben-bravo-86b908304",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Felipe Andrés Riquelme Niklitschek",
+     "cargo": "Gerente Planificación y Control de Gestión en Marine Farm",
+     "linkedin": "https://cl.linkedin.com/in/friquelmen",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Alejandro Cuevas Streeter",
+     "cargo": "Gerente Comercial en Marine Farm",
+     "linkedin": "https://cl.linkedin.com/in/alejandro-cuevas-streeter-a57b8428",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Victor Medina Cáceres",
+     "cargo": "Sub Gerente de Planta en Marine Farm",
+     "linkedin": "https://cl.linkedin.com/in/victor-medina-c%C3%A1ceres-aba13120",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Felipe Ludwig von Chrismar",
+     "cargo": "Operation and Project Manager",
+     "linkedin": "https://cl.linkedin.com/in/felipe-ludwig-von-chrismar-6118a286",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Marine Farge",
+     "cargo": "Lufavore 🍀",
+     "linkedin": "https://ca.linkedin.com/in/marinefarge",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Mark Marine",
+     "cargo": "Owner and Chef at Ox 'N' Bull BBQ Caterinf",
+     "linkedin": "https://www.linkedin.com/in/mark-marine-a9513188",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    }
+   ],
+   "fuentes_usadas": [
+    "LinkedIn: 7"
+   ],
+   "notas": [],
+   "n_decisores": 7,
+   "n_relevantes": 7
+  },
+  {
+   "empresa": "Chile Botanics Spa",
+   "hallazgos": [
+    {
+     "nombre": "Jessica Cantillano",
+     "cargo": "jefe de turno",
+     "linkedin": "https://cl.linkedin.com/in/jessica-cantillano-b7b4a3171",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    }
+   ],
+   "fuentes_usadas": [
+    "LinkedIn: 3"
+   ],
+   "notas": [],
+   "n_decisores": 1,
+   "n_relevantes": 1
+  },
+  {
+   "empresa": "Complejo Industrial Molynor S.A.",
+   "hallazgos": [
+    {
+     "nombre": "Rosa Delgado Sáez",
+     "cargo": "Superintendente de Control de Gestión y Contratos en Complejo Industrial Molynor S.A.",
+     "linkedin": "https://cl.linkedin.com/in/rosa-delgado-s%C3%A1ez-84180271",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Cristian Parra Gomez",
+     "cargo": "MBA/Magister en Eficiencia Energética/ Ingeniero Civil Eléctrico/ Gerente de Innovación, P",
+     "linkedin": "https://cl.linkedin.com/in/cristian-parra-gomez-41815a61",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Danny Duncan Rojas",
+     "cargo": "gerente de mantenimiento",
+     "linkedin": "https://cl.linkedin.com/in/danny-duncan-rojas-1442a415b",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Esteban Toledo",
+     "cargo": "gerente de mantenimiento",
+     "linkedin": "https://cl.linkedin.com/in/esteban-toledo-b3a92382",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Juan Guzman",
+     "cargo": "Ingeniero SSO Complejo Industrial Molynor",
+     "linkedin": "https://cl.linkedin.com/in/juan-guzman-676ab596",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    }
+   ],
+   "fuentes_usadas": [
+    "LinkedIn: 7"
+   ],
+   "notas": [],
+   "n_decisores": 5,
+   "n_relevantes": 5
+  },
+  {
+   "empresa": "Masisa S.A.",
+   "hallazgos": [
+    {
+     "nombre": "Marcelo Carrión González",
+     "cargo": "Subgerente de Mantenimiento y Sistemas Transversales - Plant Maintenance Manager Masisa",
+     "linkedin": "https://cl.linkedin.com/in/marcelo-carri%C3%B3n-gonz%C3%A1lez-45644051",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Miguel Angel Maldonado Oñate",
+     "cargo": "Jefe Planificacion Mantenimiento MASISA Planta Cabrero",
+     "linkedin": "https://www.linkedin.com/in/miguel-angel-maldonado-o%C3%B1ate-4164a43a",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Sven Brandt",
+     "cargo": "Gerente de Abastecimiento en Masisa S.A.",
+     "linkedin": "https://cl.linkedin.com/in/sven-brandt-93666a96",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Leandro Muñoz Cuevas",
+     "cargo": "Mantencion Mecanica en Masisa",
+     "linkedin": "https://cl.linkedin.com/in/leandro-mu%C3%B1oz-cuevas-4114a373",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Guillermo Torres",
+     "cargo": "Jefe de producción Tableros (MDF y PB) en Masisa",
+     "linkedin": "https://cl.linkedin.com/in/guillermo-torres-17360a42",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Jorge Moreno",
+     "cargo": "Jefe de Turno Masisa Cabrero Tableros",
+     "linkedin": "https://cl.linkedin.com/in/jorge-moreno-38298661",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Carlos Aranda",
+     "cargo": "Jefe de Planificación, Control Calidad y Logística en Masisa Componentes SpA",
+     "linkedin": "https://cl.linkedin.com/in/carlos-aranda-20400669",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Luis Quiroga",
+     "cargo": "Gerente de Operaciones en Masisa",
+     "linkedin": "https://cl.linkedin.com/in/luis-quiroga-cea",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Victor Perez Tejon",
+     "cargo": "Gerente Comercial y Marketing Corporate Masisa SA",
+     "linkedin": "https://cl.linkedin.com/in/victor-perez-tejon-0979631aa",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Juan Pablo Passi Valenzuela",
+     "cargo": "Gerente Corporativo de Gestión de Capital Humano at Masisa S.A",
+     "linkedin": "https://cl.linkedin.com/in/juan-pablo-passi-valenzuela-1a27433",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Alejandro Carrillo",
+     "cargo": "gerente de medio ambiente",
+     "linkedin": "https://cl.linkedin.com/in/alejandro-carrillo-escobar/en",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    }
+   ],
+   "fuentes_usadas": [
+    "LinkedIn: 14"
+   ],
+   "notas": [],
+   "n_decisores": 11,
+   "n_relevantes": 11
+  },
+  {
+   "empresa": "Universidad Catolica Del Norte",
+   "hallazgos": [
+    {
+     "nombre": "Santiago Sánchez",
+     "cargo": "Gerente de Proyecto at Universidad Católica del Norte",
+     "linkedin": "https://cl.linkedin.com/in/santiago-s%C3%A1nchez-6389675",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Andres Soccal",
+     "cargo": "JEFE DE MANTENIMIENTO en Pontificia Universidad Catolica de Chile",
+     "linkedin": "https://cl.linkedin.com/in/andres-soccal-a3466b21",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Willie Ayala Jara",
+     "cargo": "Gerente de Mantenimiento | Administrador de Contrato | Gestión de Activos & Mantenimiento",
+     "linkedin": "https://cl.linkedin.com/in/willie-ayala-jara/en",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Sergio Eduardo Zurita Espinoza",
+     "cargo": "Gerente Contratos de Mantenimiento",
+     "linkedin": "https://cl.linkedin.com/in/sergio-eduardo-zurita-espinoza-b76a6b47",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Carlos A. Monardes-Concha, Ph.D.",
+     "cargo": "Head of Research of the School of Engineering at Universidad Católica del Norte, Chile",
+     "linkedin": "https://cl.linkedin.com/in/carlos-a-monardes-concha-ph-d-0484b943",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Carlos Olivos",
+     "cargo": "Assistant Professor of Industrial Engineering at Universidad Católica del Norte",
+     "linkedin": "https://cl.linkedin.com/in/carlos-olivos-b6a965144",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Bernardo Sepúlveda",
+     "cargo": "técnico superior en Mecánica automotriz. técnico superior en instrumentación y control ind",
+     "linkedin": "https://cl.linkedin.com/in/bernardo-sep%C3%BAlveda-39739517b",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Carolain Miranda",
+     "cargo": "Ingenería Civil Industrial en Universidad Católica del Norte",
+     "linkedin": "https://cl.linkedin.com/in/carolain-miranda-936a01167",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Robert S.",
+     "cargo": "Especialista Senior de Area Instrumentación, Automatización y Comunicaciones en JRI Ingeni",
+     "linkedin": "https://cl.linkedin.com/in/robert-s-66b53429",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "carolina barraza alday",
+     "cargo": "Ingeniero en Prevencion de Riesgos y Medio ambiente",
+     "linkedin": "https://cl.linkedin.com/in/carolina-barraza-alday-1b1119a0",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "M. Viviana Zepeda Alfaro",
+     "cargo": "Ingeniero en Prevención de Riesgos y Medio Ambiente",
+     "linkedin": "https://cl.linkedin.com/in/viviana-zepeda-88220753/en",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Christian Hauser Hecker",
+     "cargo": "Gerente técnico en GLAUBEN Ecology",
+     "linkedin": "https://cl.linkedin.com/in/christian-hauser-hecker-36175a54",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Facultad de Ciencias del Mar",
+     "cargo": "Universidad Católica del Norte, Chile",
+     "linkedin": "https://cl.linkedin.com/in/facultad-de-ciencias-del-mar-61326511a",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    },
+    {
+     "nombre": "Karen Ledezma",
+     "cargo": "Estudiante en Universidad Catolica del Norte",
+     "linkedin": "https://cl.linkedin.com/in/karen-ledezma-87a1469b",
+     "fuente": "LinkedIn (AIsa, headline validado)",
+     "relevante": true
+    }
+   ],
+   "fuentes_usadas": [
+    "LinkedIn: 14"
+   ],
+   "notas": [],
+   "n_decisores": 14,
+   "n_relevantes": 14
   }
  ]
 }
