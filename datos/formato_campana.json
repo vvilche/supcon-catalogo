@@ -1,0 +1,813 @@
+{
+ "archivo": "Campaña de Detección Process.xlsx",
+ "hojas": [
+  {
+   "hoja": "Plan",
+   "filas": 3,
+   "columnas": 5,
+   "anchos": {},
+   "encabezados": [
+    {
+     "col": 2,
+     "letra": "B",
+     "titulo": "Planta",
+     "ancho": null,
+     "tipo": "texto"
+    },
+    {
+     "col": 3,
+     "letra": "C",
+     "titulo": "Industria",
+     "ancho": null,
+     "tipo": "texto"
+    },
+    {
+     "col": 4,
+     "letra": "D",
+     "titulo": "Ubicación",
+     "ancho": null,
+     "tipo": "texto"
+    },
+    {
+     "col": 5,
+     "letra": "E",
+     "titulo": "Prioridad",
+     "ancho": null,
+     "tipo": "texto"
+    }
+   ],
+   "valores_por_columna": {},
+   "ejemplos": [],
+   "fila_encabezado": 3
+  },
+  {
+   "hoja": "Targets",
+   "filas": 94,
+   "columnas": 14,
+   "anchos": {
+    "A": 38.3,
+    "B": 54.0,
+    "C": 33.6,
+    "D": 14.1,
+    "E": 9.1,
+    "F": 11.0,
+    "G": 9.1,
+    "L": 30.9,
+    "M": 22.9,
+    "N": 25.0,
+    "O": 9.1
+   },
+   "encabezados": [
+    {
+     "col": 1,
+     "letra": "A",
+     "titulo": "Dueño",
+     "ancho": 38.3,
+     "tipo": "texto",
+     "ejemplos": [
+      "ENEL GP",
+      "GPE",
+      "Statkraft",
+      "Electrica Puntilla / Canal del Maipo"
+     ]
+    },
+    {
+     "col": 2,
+     "letra": "B",
+     "titulo": "Planta/Cia",
+     "ancho": 54.0,
+     "tipo": "texto",
+     "ejemplos": [
+      "ENEL GREEN POWER",
+      "ALLIPEN",
+      "RUCATAYO",
+      "PARQUE EOLICO LEBU"
+     ]
+    },
+    {
+     "col": 3,
+     "letra": "C",
+     "titulo": "Región",
+     "ancho": 33.6,
+     "tipo": "texto",
+     "ejemplos": [
+      "Lautaro, Cautín, Araucania",
+      "Concón, Valparaiso",
+      "Antofagasta, Antofagasta",
+      "La Higuera, Coquimbo"
+     ]
+    },
+    {
+     "col": 4,
+     "letra": "D",
+     "titulo": "Industria",
+     "ancho": 14.1,
+     "tipo": "texto",
+     "ejemplos": [
+      "Generacion",
+      "Oil & Gas",
+      "Quimica",
+      "Desaladora"
+     ]
+    },
+    {
+     "col": 5,
+     "letra": "E",
+     "titulo": "BI",
+     "ancho": 9.1,
+     "tipo": "texto",
+     "valores_posibles": [
+      "Si",
+      "No"
+     ],
+     "ejemplos": [
+      "Si",
+      "No"
+     ]
+    },
+    {
+     "col": 6,
+     "letra": "F",
+     "titulo": "Prioridad",
+     "ancho": 11.0,
+     "tipo": "texto"
+    },
+    {
+     "col": 7,
+     "letra": "G",
+     "titulo": "SYS",
+     "ancho": 9.1,
+     "tipo": "texto",
+     "valores_posibles": [
+      "Sí",
+      "No",
+      "Si"
+     ],
+     "ejemplos": [
+      "No",
+      "Si",
+      "Sí"
+     ]
+    },
+    {
+     "col": 8,
+     "letra": "H",
+     "titulo": "FDS",
+     "ancho": null,
+     "tipo": "texto",
+     "valores_posibles": [
+      "Si",
+      "Sí",
+      "x",
+      "No"
+     ],
+     "ejemplos": [
+      "No",
+      "Si",
+      "Sí",
+      "x"
+     ]
+    },
+    {
+     "col": 9,
+     "letra": "I",
+     "titulo": "Valvulas",
+     "ancho": null,
+     "tipo": "texto",
+     "valores_posibles": [
+      "Sí",
+      "x",
+      "No",
+      "Si"
+     ],
+     "ejemplos": [
+      "No",
+      "Si",
+      "Sí",
+      "x"
+     ]
+    },
+    {
+     "col": 10,
+     "letra": "J",
+     "titulo": "Analitica",
+     "ancho": null,
+     "tipo": "texto"
+    },
+    {
+     "col": 11,
+     "letra": "K",
+     "titulo": "Scada",
+     "ancho": null,
+     "tipo": "texto",
+     "valores_posibles": [
+      "Sí"
+     ],
+     "ejemplos": [
+      "Sí"
+     ]
+    },
+    {
+     "col": 12,
+     "letra": "L",
+     "titulo": "Contacto",
+     "ancho": 30.9,
+     "tipo": "texto",
+     "ejemplos": [
+      "https://www.metlengroup.com/",
+      "Hector Saavedra\n56 9 5618 4629\nhsaavedra@comasageneracion.cl",
+      "Renzo Allende",
+      "Antonio perez"
+     ]
+    },
+    {
+     "col": 13,
+     "letra": "M",
+     "titulo": "(Quien lo Contacto)",
+     "ancho": 22.9,
+     "tipo": "texto",
+     "ejemplos": [
+      "Tienen 4 Parques",
+      "Victor",
+      "Ultimo: VB",
+      "MC"
+     ]
+    },
+    {
+     "col": 14,
+     "letra": "N",
+     "titulo": "Siguiente Paso",
+     "ancho": 25.0,
+     "tipo": "texto",
+     "ejemplos": [
+      "Tienen 4 Parques",
+      "VVD Le solicito info de PLC, instrumentación y piloto de Tier0",
+      "01Sept2026 | Buscar contactos [EQR]",
+      "visita semana del 19 de octubre"
+     ]
+    }
+   ],
+   "valores_por_columna": {},
+   "ejemplos": [
+    [
+     "ENEL GP",
+     "ENEL GREEN POWER",
+     "",
+     "Generacion",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "GPE",
+     "ALLIPEN",
+     "",
+     "Generacion",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Statkraft",
+     "RUCATAYO",
+     "",
+     "Generacion",
+     "Si",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "fila_encabezado": 3
+  },
+  {
+   "hoja": "Hoja1",
+   "filas": 1,
+   "columnas": 1,
+   "anchos": {},
+   "encabezados": [],
+   "valores_por_columna": {},
+   "ejemplos": []
+  },
+  {
+   "hoja": "Proyectos",
+   "filas": 935,
+   "columnas": 28,
+   "anchos": {
+    "A": 11.4,
+    "B": 45.1,
+    "C": 10.1,
+    "D": 27.7,
+    "E": 10.0,
+    "F": 8.3,
+    "G": 9.6,
+    "H": 11.4,
+    "I": 11.3,
+    "J": 19.6,
+    "K": 15.9,
+    "M": 10.4,
+    "N": 66.1,
+    "O": 10.7
+   },
+   "encabezados": [
+    {
+     "col": 2,
+     "letra": "B",
+     "titulo": "Nombre del Proyecto",
+     "ancho": 45.1,
+     "tipo": "texto",
+     "ejemplos": [
+      "Parque Fotovoltaico Semillero",
+      "Minera Michilla",
+      "Nueva Victoria Planta Yoduro",
+      "Parque Eólico Pemuco"
+     ]
+    },
+    {
+     "col": 3,
+     "letra": "C",
+     "titulo": "Fecha de",
+     "ancho": 10.1,
+     "tipo": "fecha",
+     "valores_posibles": [
+      "2025-10-25",
+      "2025-02-25",
+      "Ingreso",
+      "2025-11-25",
+      "2025-01-25"
+     ],
+     "ejemplos": [
+      "Ingreso",
+      "2025-11-25",
+      "2025-10-25",
+      "2025-01-25"
+     ]
+    },
+    {
+     "col": 4,
+     "letra": "D",
+     "titulo": "Dueño /cliente",
+     "ancho": 27.7,
+     "tipo": "texto",
+     "ejemplos": [
+      "Oenergy",
+      "HMC S.A",
+      "SQM",
+      "Engie Energía Chile"
+     ]
+    },
+    {
+     "col": 5,
+     "letra": "E",
+     "titulo": "Planta",
+     "ancho": 10.0,
+     "tipo": "texto",
+     "valores_posibles": [
+      "Chile",
+      "chile",
+      "Pais",
+      "Argentina"
+     ],
+     "ejemplos": [
+      "Pais",
+      "chile",
+      "Chile",
+      "Argentina"
+     ]
+    },
+    {
+     "col": 6,
+     "letra": "F",
+     "titulo": "Inv",
+     "ancho": 8.3,
+     "tipo": "texto",
+     "ejemplos": [
+      "US$",
+      "136M",
+      "235M",
+      "350M"
+     ]
+    },
+    {
+     "col": 7,
+     "letra": "G",
+     "titulo": "Estudio",
+     "ancho": 9.6,
+     "tipo": "texto",
+     "ejemplos": [
+      "WSP"
+     ]
+    },
+    {
+     "col": 8,
+     "letra": "H",
+     "titulo": "Area",
+     "ancho": 11.4,
+     "tipo": "texto",
+     "valores_posibles": [
+      "Mineria",
+      "Minero",
+      "Energia",
+      "Generacion",
+      "Industria",
+      "Transmision",
+      "Bateria",
+      "minero",
+      "Trasmision",
+      "trasmision",
+      "mineria"
+     ],
+     "ejemplos": [
+      "Generacion",
+      "Mineria",
+      "Energia",
+      "Industria"
+     ]
+    },
+    {
+     "col": 9,
+     "letra": "I",
+     "titulo": "Region",
+     "ancho": 11.3,
+     "tipo": "texto",
+     "valores_posibles": [
+      "Antofagasta",
+      "Tarapaca",
+      "Santiago",
+      "Atacama",
+      "Copiapo",
+      "Ñuble",
+      "Coquimbo",
+      "San Felipe",
+      "Salta"
+     ],
+     "ejemplos": [
+      "Antofagasta",
+      "Tarapaca",
+      "Ñuble",
+      "Santiago"
+     ]
+    },
+    {
+     "col": 10,
+     "letra": "J",
+     "titulo": "Estado",
+     "ancho": 19.6,
+     "tipo": "texto",
+     "valores_posibles": [
+      "Aprobado",
+      "Suspendido",
+      "EIA",
+      "En Calificación",
+      "Ing Basica - Detalles",
+      "Por iniciar Evaluación"
+     ],
+     "ejemplos": [
+      "Aprobado",
+      "EIA",
+      "En Calificación",
+      "Ing Basica - Detalles"
+     ]
+    },
+    {
+     "col": 11,
+     "letra": "K",
+     "titulo": "EPCM",
+     "ancho": 15.9,
+     "tipo": "texto",
+     "ejemplos": [
+      "WoodPlc"
+     ]
+    },
+    {
+     "col": 12,
+     "letra": "L",
+     "titulo": "Area",
+     "ancho": null,
+     "tipo": "texto",
+     "valores_posibles": [
+      "Process",
+      "Power"
+     ],
+     "ejemplos": [
+      "Power",
+      "Process"
+     ]
+    },
+    {
+     "col": 13,
+     "letra": "M",
+     "titulo": "Target?",
+     "ancho": 10.4,
+     "tipo": "texto",
+     "ejemplos": [
+      "Si"
+     ]
+    },
+    {
+     "col": 14,
+     "letra": "N",
+     "titulo": "Observaciones",
+     "ancho": 66.1,
+     "tipo": "texto",
+     "ejemplos": [
+      "https://www.revistaei.cl/oenergy-ingresa-proyecto-fotovoltaico-y-de-almacenamiento-bess-al-seia/",
+      "https://litoralpress.cl/sitio/Prensa_Texto?LPKey=E45YT6RIW6HC6YOXXHHUQIPLNVS5VKNW5LJBE3YROCKFRF3QOS7Q",
+      "https://www.mch.cl/negocios-industria/cartera-de-proyectos-mineros-hacia-donde-se-mueve-la-aguja-de-inversiones-2025/?utm_source=chatgpt.com",
+      "https://www.cdt.cl/engie-energia-chile-inicia-construccion-del-primer-parque-eolico-en-la-region-de-nuble/"
+     ]
+    }
+   ],
+   "valores_por_columna": {},
+   "ejemplos": [
+    [
+     "",
+     "",
+     "Ingreso",
+     "",
+     "Pais",
+     "US$",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "Parque Fotovoltaico Semillero",
+     "2025-11-25 00:00:00",
+     "Oenergy",
+     "chile",
+     "136M",
+     "",
+     "Generacion",
+     "Antofagasta",
+     "Aprobado",
+     "",
+     "Power",
+     "",
+     "https://www.revistaei.cl/oenergy-ingresa-proyecto-fotovoltaico-y-de-almacenamiento-bess-al-seia/",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "Minera Michilla",
+     "",
+     "HMC S.A",
+     "chile",
+     "235M",
+     "",
+     "Mineria",
+     "Antofagasta",
+     "Aprobado",
+     "",
+     "Process",
+     "",
+     "https://litoralpress.cl/sitio/Prensa_Texto?LPKey=E45YT6RIW6HC6YOXXHHUQIPLNVS5VKNW5LJBE3YROCKFRF3QOS7Q",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "Nueva Victoria Planta Yoduro",
+     "",
+     "SQM",
+     "chile",
+     "350M",
+     "",
+     "Mineria",
+     "Tarapaca",
+     "Aprobado",
+     "",
+     "Process",
+     "",
+     "https://www.mch.cl/negocios-industria/cartera-de-proyectos-mineros-hacia-donde-se-mueve-la-aguja-de-inversiones-2025/?utm_source=chatgpt.com",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "fila_encabezado": 1
+  },
+  {
+   "hoja": "Fuentes",
+   "filas": 5,
+   "columnas": 2,
+   "anchos": {
+    "A": 10.7,
+    "B": 67.0,
+    "C": 10.7
+   },
+   "encabezados": [],
+   "valores_por_columna": {},
+   "ejemplos": []
+  },
+  {
+   "hoja": "Actividades",
+   "filas": 20,
+   "columnas": 7,
+   "anchos": {
+    "A": 8.9,
+    "B": 10.1,
+    "C": 60.7,
+    "E": 64.3,
+    "F": 54.6
+   },
+   "encabezados": [
+    {
+     "col": 1,
+     "letra": "A",
+     "titulo": "Process",
+     "ancho": 8.9,
+     "tipo": "texto"
+    },
+    {
+     "col": 2,
+     "letra": "B",
+     "titulo": "Cliente",
+     "ancho": 10.1,
+     "tipo": "texto",
+     "ejemplos": [
+      "ENAMI",
+      "BHP",
+      "Marimaca",
+      "Ganfeng"
+     ]
+    },
+    {
+     "col": 3,
+     "letra": "C",
+     "titulo": "Proyectos",
+     "ancho": 60.7,
+     "tipo": "texto",
+     "ejemplos": [
+      "modernización de la Fundición Hernán Videla Lira",
+      "Optimización Operacional en Pila de Lixiviación de Sulfuros y Planta de Emulsión Matriz",
+      "Marimaca Copper",
+      "Pozuelos y Pastos Grandes Lithium"
+     ]
+    },
+    {
+     "col": 4,
+     "letra": "D",
+     "titulo": "Inversion",
+     "ancho": null,
+     "tipo": "texto",
+     "ejemplos": [
+      "1700M",
+      "1300M",
+      "500M",
+      "2000M"
+     ]
+    },
+    {
+     "col": 5,
+     "letra": "E",
+     "titulo": "Siguiente Actividad",
+     "ancho": 64.3,
+     "tipo": "texto",
+     "ejemplos": [
+      "Hacer presentación presencial en Paipote, traer a Supcon, Falta la respuesta de Viera",
+      "Ubicar Contacto de BHP y EPC de BHP",
+      "Tomar contacto con Alexis Muñoz",
+      "Ubicar la empresa de Ingeniería del Abra (Fluor o Hatch?)\nLa empresa WSP hizo el estudio ambiental - Walbo Bustos es Lead de Eduardo\nCarlos Zuñiga Santibañez - Ing. Senior Planificación Mina"
+     ]
+    },
+    {
+     "col": 6,
+     "letra": "F",
+     "titulo": "Quien",
+     "ancho": 54.6,
+     "tipo": "texto",
+     "valores_posibles": [
+      "CAO",
+      "FTM",
+      "EQR",
+      "Proxima Acción",
+      "CAO va a preparar material para Viera, se lo va a mandar a EQR"
+     ],
+     "ejemplos": [
+      "CAO",
+      "EQR",
+      "FTM",
+      "Proxima Acción"
+     ]
+    }
+   ],
+   "valores_por_columna": {},
+   "ejemplos": [
+    [
+     "",
+     "ENAMI",
+     "modernización de la Fundición Hernán Videla Lira",
+     "1700M",
+     "Hacer presentación presencial en Paipote, traer a Supcon, Falta la respuesta de Viera",
+     "",
+     ""
+    ],
+    [
+     "",
+     "BHP",
+     "Optimización Operacional en Pila de Lixiviación de Sulfuros y Planta de Emulsión Matriz",
+     "1300M",
+     "Ubicar Contacto de BHP y EPC de BHP",
+     "CAO",
+     ""
+    ],
+    [
+     "",
+     "Marimaca",
+     "Marimaca Copper",
+     "500M",
+     "Tomar contacto con Alexis Muñoz",
+     "CAO",
+     ""
+    ],
+    [
+     "",
+     "Ganfeng",
+     "Pozuelos y Pastos Grandes Lithium",
+     "2000M",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "fila_encabezado": 2
+  }
+ ]
+}

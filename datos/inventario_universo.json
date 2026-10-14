@@ -1,0 +1,100 @@
+{
+ "capas": {
+  "universo_retc": 3157,
+  "con_dolor": 370,
+  "mineras_retc": 220,
+  "plan_accion": 198,
+  "buscador_decisores": 488,
+  "campana_process": 75
+ },
+ "por_industria": [
+  {
+   "industria": "Industria manufacturera",
+   "empresas": 690,
+   "con_decisores": 27
+  },
+  {
+   "industria": "Industria agropecuaria y silvicultura",
+   "empresas": 592,
+   "con_decisores": 30
+  },
+  {
+   "industria": "Producción de alimentos",
+   "empresas": 441,
+   "con_decisores": 19
+  },
+  {
+   "industria": "Gestor de residuos",
+   "empresas": 360,
+   "con_decisores": 10
+  },
+  {
+   "industria": "Combustibles",
+   "empresas": 343,
+   "con_decisores": 16
+  },
+  {
+   "industria": "Pesca",
+   "empresas": 193,
+   "con_decisores": 79
+  },
+  {
+   "industria": "Extracción de minerales",
+   "empresas": 174,
+   "con_decisores": 103
+  },
+  {
+   "industria": "Generación de energía",
+   "empresas": 105,
+   "con_decisores": 16
+  },
+  {
+   "industria": "Producción química",
+   "empresas": 100,
+   "con_decisores": 4
+  },
+  {
+   "industria": "Papel y celulosa",
+   "empresas": 55,
+   "con_decisores": 4
+  },
+  {
+   "industria": "Producción de metal",
+   "empresas": 42,
+   "con_decisores": 9
+  },
+  {
+   "industria": "Suministro y tratamiento de aguas",
+   "empresas": 40,
+   "con_decisores": 3
+  },
+  {
+   "industria": "Transmision y distribucion de energía eléctrica",
+   "empresas": 22,
+   "con_decisores": 0
+  }
+ ],
+ "por_tier": {
+  "GRANDE": 286,
+  "MEDIANA": 293,
+  "PEQUEÑA": 2578
+ },
+ "por_region": {
+  "Metropolitana de Santiago": 1278,
+  "Biobío": 287,
+  "Los Lagos": 245,
+  "Valparaíso": 229,
+  "Libertador Gral. Bernardo O'Higgins": 211,
+  "Maule": 165,
+  "Araucanía": 133,
+  "Antofagasta": 102,
+  "Los Ríos": 94,
+  "Coquimbo": 89,
+  "Ñuble": 86,
+  "Atacama": 61,
+  "Aysén del Gral. Carlos Ibañez del Campo": 60,
+  "Magallanes y de la Antártica Chilena": 58,
+  "Tarapacá": 35,
+  "Arica y Parinacota": 24
+ }
+}
