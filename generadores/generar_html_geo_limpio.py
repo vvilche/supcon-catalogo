@@ -25,6 +25,13 @@ def n(v):
 plan = g["plan"]
 tot = g["totales"]
 
+# líneas de producto, para los chips de filtro
+import collections as _c
+_lineas = _c.Counter(c.get("linea") or "—" for p in plan for c in p["contactos"])
+chips_html = "".join(
+    f'<button class="chip" data-l="{esc(k)}" onclick="porLinea(this)">{esc(k)}<b>{v}</b></button>'
+    for k, v in _lineas.most_common())
+
 
 def guion(p, c):
     return (f"Hola, llamo de CONECTA. Busco a {c['nombre']}, {c['cargo']}, "
@@ -41,10 +48,16 @@ def bloque_emp(p):
         tipo = c.get("tipo", "")
         badge = ('<span class="bg">fuente</span>' if "garant" in tipo
                  else '<span class="bl">LI</span>')
+        linea = c.get("linea") or "—"
+        ofrecer = c.get("que_ofrecer") or ""
         gt = guion(p, c)
-        filas += (f'<div class="ct"><span class="nm">{esc(c["nombre"])}</span>'
-                  f'<span class="cg">{esc(c["cargo"][:50])}</span>{badge} {li}'
-                  f'<button class="cp" data-g="{esc(gt)}" onclick="copiar(this)">guion</button></div>')
+        filas += (f'<div class="ct">'
+                  f'<div class="cl1"><span class="nm">{esc(c["nombre"])}</span>'
+                  f'<span class="cg">{esc(c["cargo"][:56])}</span>{badge} {li}</div>'
+                  f'<div class="cl2"><span class="lin">{esc(linea)}</span>'
+                  f'<span class="ofr">{esc(ofrecer)}</span>'
+                  f'<button class="cp" data-g="{esc(gt)}" onclick="copiar(this)">guion</button></div>'
+                  f'</div>')
     # ALIAS DE BÚSQUEDA: sin esto, buscar "codelco" o "mlp" no encuentra nada porque la razón
     # social es otra ("CORP NACIONAL DEL COBRE DE CHILE", "MINERA LOS PELAMBRES").
     ALIAS = {
@@ -62,6 +75,12 @@ def bloque_emp(p):
         "minera florida": "yamana gold fields",
     }
     idx = (p["empresa"] + " " + (p.get("region") or "") + " " + (p.get("industria") or "")).lower()
+    # el buscador también filtra por CARGO, LÍNEA y "qué ofrecer" de cada contacto
+    for c in p["contactos"]:
+        idx += " " + (c.get("nombre") or "").lower()
+        idx += " " + (c.get("cargo") or "").lower()
+        idx += " " + (c.get("linea") or "").lower()
+        idx += " " + (c.get("que_ofrecer") or "").lower()
     ne = p["empresa"].lower()
     for k, a in ALIAS.items():
         if k in ne:
@@ -124,9 +143,18 @@ h1{{font-size:25px;font-weight:680;letter-spacing:-.4px;margin-bottom:4px}}
 .nct{{font-size:11.5px;font-weight:700;color:var(--vd)}}
 .tel{{margin-left:auto;font-family:ui-monospace,Menlo,monospace;font-size:11.5px;color:var(--vd)}}
 .notel{{margin-left:auto;font-size:11px;color:var(--am);font-style:italic}}
-.ct{{display:flex;gap:9px;align-items:baseline;padding:3px 0;font-size:13px;flex-wrap:wrap}}
-.nm{{font-weight:600;min-width:170px}}
-.cg{{color:var(--mu);flex:1;font-size:12.5px}}
+.ct{{padding:6px 0;border-bottom:1px solid #f9fafb}}
+.ct:last-child{{border-bottom:none}}
+.cl1{{display:flex;gap:9px;align-items:baseline;flex-wrap:wrap}}
+.cl2{{display:flex;gap:9px;align-items:baseline;margin-top:2px;padding-left:2px}}
+.nm{{font-weight:600;font-size:13px;min-width:165px}}
+.cg{{color:var(--mu);font-size:12.5px;flex:1}}
+.lin{{font-size:10.5px;font-weight:700;background:#eef2ff;color:#3730a3;border:1px solid #c7d2fe;border-radius:4px;padding:1px 7px;white-space:nowrap}}
+.ofr{{font-size:12px;color:#065f46;flex:1}}
+.chips{{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px}}
+.chip{{background:var(--cd);border:1px solid var(--bd);border-radius:14px;padding:4px 12px;font-size:12px;cursor:pointer}}
+.chip.on{{background:#3730a3;color:#fff;border-color:#3730a3}}
+.chip b{{margin-left:5px;opacity:.75;font-size:11px}}
 .bg{{font-size:9.5px;background:#f0fdf4;color:#065f46;border:1px solid #bbf7d0;border-radius:4px;padding:0 4px}}
 .bl{{font-size:9.5px;background:#eff6ff;color:#1e40af;border:1px solid #bfdbfe;border-radius:4px;padding:0 4px}}
 .cp{{font-size:10.5px;background:#f9fafb;border:1px solid var(--bd);border-radius:5px;padding:1px 7px;cursor:pointer}}
@@ -140,10 +168,10 @@ footer a{{color:var(--ac)}}
 </style></head><body><div class="wrap">
 
 <h1>Plan de acción por región e industria</h1>
-<p class="sub0"><b>{n(tot["contactos"])} contactos validados</b> en {tot["empresas"]} empresas.
-Cada persona fue verificada: o viene de una fuente que garantiza la pertenencia (Direcmin,
-Transparencia), o su headline de LinkedIn menciona la empresa. Se descartaron <b>339 contactos
-ajenos</b> y 21 de cargos que no compran.</p>
+<p class="sub0"><b>{n(tot["contactos"])} contactos validados</b> en {tot["empresas"]} empresas —
+<b>cada uno con la línea que le corresponde y qué ofrecerle</b>. Cada persona fue verificada: o viene
+de una fuente que garantiza la pertenencia (Direcmin, Transparencia), o su headline de LinkedIn
+menciona la empresa. Se descartaron <b>339 contactos ajenos</b> y 21 de cargos que no compran.</p>
 
 <div class="kpis">
   <div><b>{n(tot["empresas"])}</b>empresas</div>
@@ -153,20 +181,25 @@ ajenos</b> y 21 de cargos que no compran.</p>
   <div><b>{tot["industrias"]}</b>industrias</div>
 </div>
 
+<p class="sub0" style="margin-bottom:6px"><b>Filtrar por línea de producto:</b></p>
+<div class="chips">{chips_html}</div>
+
 <div class="vistas">
   <button class="vista on" onclick="cambiar('reg',this)">Por región</button>
   <button class="vista" onclick="cambiar('ind',this)">Por industria</button>
 </div>
 
-<input class="buscar" id="q" placeholder="Buscar empresa, cargo o persona (busca en todas las pestañas)..." oninput="filtrar()">
+<input class="buscar" id="q" placeholder="Buscar empresa, cargo, persona o línea (busca en todas las pestañas)..." oninput="filtrar()">
 
 <div id="vreg">{vista(g["por_region"], "reg")}</div>
 <div id="vind" style="display:none">{vista(g["por_industria"], "ind")}</div>
 
 <div class="aviso">
-  <b>Las etiquetas de cada contacto:</b> <span class="bg">fuente</span> = viene de Direcmin o
-  Transparencia (pertenencia garantizada por la fuente) · <span class="bl">LI</span> = de LinkedIn,
-  con el headline validado. El botón <b>guion</b> copia la primera frase con el dato real de la empresa.
+  <b>Cómo leer cada contacto:</b> el nombre y el cargo arriba; <b>abajo la etiqueta azul es la línea
+  de producto</b> y el texto verde es <b>qué ofrecerle concretamente</b>.
+  <span class="bg">fuente</span> = de Direcmin o Transparencia (pertenencia garantizada) ·
+  <span class="bl">LI</span> = de LinkedIn con headline validado.
+  El botón <b>guion</b> copia la primera frase con el dato real de la empresa.
 </div>
 
 <footer>
@@ -203,20 +236,40 @@ function ver(el, id){{
   filtrar();
 }}
 function filtrar(){{
-  const q = (document.getElementById('q').value||'').toLowerCase().trim();
+  const raw = (document.getElementById('q').value||'').trim();
+  // NORMALIZAR ACENTOS: "analitica" debe encontrar "Analítica".
+  const sinTilde = s => s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+  const palabras = sinTilde(raw).split(/\s+/).filter(Boolean);
+  const hay = (s) => {{
+    if(!palabras.length) return true;
+    const t = sinTilde(s);
+    return palabras.every(w => t.includes(w));
+  }};
+
   document.querySelectorAll('.panes').forEach(cont=>{{
     cont.querySelectorAll('.pane').forEach(p=>{{
-      let hits = 0;
+      let visibles = 0;
       p.querySelectorAll('.emp').forEach(e=>{{
-        // se busca en data-b (que incluye los ALIAS: codelco, mlp, cmpc...)
-        const ok = !q || (e.dataset.b||'').includes(q);
-        e.style.display = ok ? '' : 'none';
-        if(ok) hits++;
+        // 1) la empresa pasa el filtro? (data-b trae empresa, ALIAS, región, industria, cargos...)
+        if(!hay(e.dataset.b||'')) {{ e.style.display='none'; return; }}
+        // 2) dentro, mostrar los contactos que matchean por nombre/cargo/línea.
+        //    Si NINGUNO matchea (búsqueda por empresa o región), mostrar todos.
+        const cts = [...e.querySelectorAll('.ct')];
+        const marcas = cts.map(ct => hay(
+          (ct.querySelector('.nm')?.textContent||'') + ' ' +
+          (ct.querySelector('.cg')?.textContent||'') + ' ' +
+          (ct.querySelector('.lin')?.textContent||'') + ' ' +
+          (ct.querySelector('.ofr')?.textContent||'')));
+        const alguno = marcas.some(Boolean);
+        cts.forEach((ct, i) => {{
+          const mostrar = !palabras.length || !alguno || marcas[i];
+          ct.style.display = mostrar ? '' : 'none';
+          if(mostrar) visibles++;
+        }});
+        e.style.display = visibles > 0 ? '' : 'none';
       }});
-      // con filtro: se muestra el pane si tiene resultados. Sin filtro: solo el activo.
-      // display block EXPLICITO (con cadena vacia el CSS .pane display none lo tapa).
-      const mostrar = q ? hits > 0 : p.classList.contains('active');
-      p.style.display = mostrar ? 'block' : 'none';
+      // sin búsqueda: solo el panel activo. con búsqueda: los paneles con resultados.
+      p.style.display = (palabras.length ? visibles > 0 : p.classList.contains('active')) ? 'block' : 'none';
     }});
   }});
 }}
@@ -227,6 +280,16 @@ function filtrar(){{
   document.querySelectorAll('.panes .pane.active').forEach(p => p.style.display = 'block');
   filtrar();
 }})();
+// FILTRO POR LÍNEA: marca el chip y escribe la línea en el buscador (que ya indexa la línea de
+// cada contacto). Se usa el mismo camino que el texto libre para no duplicar la lógica.
+function porLinea(el){{
+  const on = el.classList.contains('on');
+  document.querySelectorAll('.chip').forEach(c=>c.classList.remove('on'));
+  if(on){{ document.getElementById('q').value=''; filtrar(); return; }}
+  el.classList.add('on');
+  document.getElementById('q').value = el.dataset.l;
+  filtrar();
+}}
 function copiar(b){{
   navigator.clipboard.writeText(b.dataset.g);
   const m = document.getElementById('msg');
