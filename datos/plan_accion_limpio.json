@@ -1,9 +1,10 @@
 {
- "que_es": "Plan de acción con SOLO las personas validadas (fuente garantizada o LinkedIn validado por headline). Se descartaron las ajenas, las de cargos que no compran y las que el parser guardó con el cargo como nombre.",
+ "que_es": "Plan de acción con SOLO las personas validadas (fuente garantizada o LinkedIn validado por headline). Se descartaron las ajenas, las de cargos que no compran y las que el parser guardó con el cargo como nombre. Los LinkedIn de Direcmin se buscaron por nombre y se validaron: se marca si la persona sigue en la empresa (43 ya no están) y si el perfil está confirmado.",
  "totales": {
   "empresas": 166,
   "contactos": 518,
-  "con_telefono": 110
+  "con_telefono": 110,
+  "con_linkedin": 479
  },
  "plan": [
   {
@@ -21,34 +22,39 @@
     {
      "nombre": "Alejandro Vásquez Montero",
      "cargo": "Gerente General",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/alejandro-v%C3%A1squez-montero-918373a1",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Julio Cuevas Ross",
      "cargo": "Gerente de Proyectos",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/julio-cuevas-ross",
      "linea": "Instrumentación + Válvulas",
      "que_ofrecer": "especificación de proyecto: entrar en las bases técnicas",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "se fue",
+     "nota": "su headline dice que está en otra empresa (CODELCO)"
     },
     {
      "nombre": "Ivo Andrés Fadic Gálvez",
      "cargo": "Gerente de Operaciones",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/jorge-fadic-galvez-6b725b46",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Guillermo Yáñez",
      "cargo": "Gerente de Mantenimiento",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/guilleyanez",
      "linea": "Válvulas + Instrumentación",
      "que_ofrecer": "válvulas de control, posicionador CVP2000, instrumentación de campo",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "sin confirmar"
     }
    ],
    "n_contactos": 4,
@@ -85,10 +91,11 @@
     {
      "nombre": "Christian Caviedes Núñez",
      "cargo": "Gerente General",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/christian-caviedes-n%C3%BA%C3%B1ez-33a35247",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     }
    ],
    "n_contactos": 1,
@@ -125,23 +132,26 @@
      "linkedin": "",
      "linea": "Analítica",
      "que_ofrecer": "CEMS/monitoreo de emisiones: la línea que resuelve el dolor del RETC",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "descartado"
     },
     {
      "nombre": "Samuel Mendoza",
      "cargo": "Gerente de Abastecimiento",
-     "linkedin": "",
+     "linkedin": "https://www.linkedin.com/in/samuel-colvin",
      "linea": "Todas las líneas",
      "que_ofrecer": "es el comprador: entra por acá todo el catálogo",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "sin confirmar"
     },
     {
      "nombre": "Gabriel Roberto Ocaranza Henríquez",
      "cargo": "Gerente General de Operaciones",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/gabriel-roberto-ocaranza-henriquez-3700a2138",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Luis Sánchez Rodríguez",
@@ -154,18 +164,21 @@
     {
      "nombre": "Karina Briño",
      "cargo": "Gerente General de Administración",
-     "linkedin": "",
+     "linkedin": "https://ca.linkedin.com/in/karina-bri%C3%B1o-57453424",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "sin confirmar"
     },
     {
      "nombre": "Carlos Aguilera",
      "cargo": "Gerente de Salud y Seguridad Ocupacional",
-     "linkedin": "",
+     "linkedin": "https://mx.linkedin.com/in/carlosaguilerap/en",
      "linea": "SIS",
      "que_ofrecer": "HIPPS/TCS-500: seguridad instrumentada",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "se fue",
+     "nota": "su headline dice que está en otra empresa (Newell Brands. Carlos is an ex)"
     }
    ],
    "n_contactos": 6,
@@ -197,18 +210,20 @@
     {
      "nombre": "Kiyoto Yamaguchi",
      "cargo": "Gerente Corporativo de Operaciones",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/tomoya-yamaguchi-4b01781aa",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "sin confirmar"
     },
     {
      "nombre": "Gonzalo Araujo Alonso",
      "cargo": "Gerente General de Operaciones (COO)",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/gonzalo-araujo-alonso-86033195",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Eugenio Puelles M",
@@ -265,26 +280,29 @@
     {
      "nombre": "Carlos Gómez Vega",
      "cargo": "Gerente de Proyectos",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/carlos-gomez-vega-71289b104",
      "linea": "Instrumentación + Válvulas",
      "que_ofrecer": "especificación de proyecto: entrar en las bases técnicas",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Makarina Orellana",
      "cargo": "Gerente de Operaciones",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/makarina-orellana",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Macarena Herrera Sandoval",
      "cargo": "Gerente de Seguridad y Salud Ocupacional",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/macarenaherrera",
      "linea": "SIS",
      "que_ofrecer": "HIPPS/TCS-500: seguridad instrumentada",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     }
    ],
    "n_contactos": 4,
@@ -365,26 +383,30 @@
     {
      "nombre": "Gonzalo Sánchez",
      "cargo": "Vicepresidente Comercial",
-     "linkedin": "",
+     "linkedin": "https://es.linkedin.com/in/gonzalomsanchez",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "sin confirmar"
     },
     {
      "nombre": "Francisco Walther",
      "cargo": "Vicepresidente de Proyectos",
-     "linkedin": "",
+     "linkedin": "https://ec.linkedin.com/in/francisco-walter-b9a42b205",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "se fue",
+     "nota": "su headline dice que está en otra empresa (Private Company Current role)"
     },
     {
      "nombre": "Andrónico Luksic L.",
      "cargo": "Vicepresidente de Desarrollo",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/andronico-luksic-052354110",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Leonardo González",
@@ -392,7 +414,8 @@
      "linkedin": "",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "descartado"
     }
    ],
    "n_contactos": 4,
@@ -416,34 +439,38 @@
     {
      "nombre": "Rodrigo Ramírez",
      "cargo": "Gerente General Mina",
-     "linkedin": "",
+     "linkedin": "https://au.linkedin.com/in/rodrigo-ramirez-m",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "sin confirmar"
     },
     {
      "nombre": "Eliana Calderón",
      "cargo": "Gerente General Planta",
-     "linkedin": "",
+     "linkedin": "https://ar.linkedin.com/in/eliana-calder%C3%B3n-4ab22731",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Simón Valdivia",
      "cargo": "Gerente de Mantenimiento Mina",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/simon-valdivia-3681b428",
      "linea": "Válvulas + Instrumentación",
      "que_ofrecer": "válvulas de control, posicionador CVP2000, instrumentación de campo",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Waldo Saavedra",
      "cargo": "Gerente de Mantenimiento Concentradora",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/waldo-saavedra-astudillo-6a20b738",
      "linea": "Válvulas + Instrumentación",
      "que_ofrecer": "válvulas de control, posicionador CVP2000, instrumentación de campo",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Sebastian Fehrmann",
@@ -488,10 +515,12 @@
     {
      "nombre": "Jaime Rivera",
      "cargo": "Gerente Operaciones Mina",
-     "linkedin": "",
+     "linkedin": "https://www.linkedin.com/in/jaime-rivera-82882239",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "se fue",
+     "nota": "su headline dice que está en otra empresa (Barrick Gold Corporation)"
     },
     {
      "nombre": "Juan Reinaga",
@@ -504,18 +533,22 @@
     {
      "nombre": "Juan Mardones",
      "cargo": "Vicepresidente de Proyectos",
-     "linkedin": "",
+     "linkedin": "https://uk.linkedin.com/in/mardones",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "se fue",
+     "nota": "su headline dice que está en otra empresa (University of Exeter Business )"
     },
     {
      "nombre": "James Whittaker",
      "cargo": "Presidente de Minera Escondida",
-     "linkedin": "",
+     "linkedin": "https://ca.linkedin.com/in/james-whittaker-7b4ab1a",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "se fue",
+     "nota": "su headline dice que está en otra empresa (Abacus Mining and Exploration )"
     }
    ],
    "n_contactos": 4,
@@ -549,18 +582,20 @@
     {
      "nombre": "Patricio Hidalgo",
      "cargo": "Presidente Ejecutivo",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/patricio-hidalgo-zapata",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Paulina Jaramillo",
      "cargo": "Gerente General El Soldado",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/paulina-jaramillo-osb%C3%A9n-66789650",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Benjamín Martinich",
@@ -608,10 +643,12 @@
     {
      "nombre": "Mario Irribarra Mendoza",
      "cargo": "Superintendente de Mantención",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/mario-irribarra-mendoza-380608146",
      "linea": "Válvulas + Instrumentación",
      "que_ofrecer": "válvulas de control, posicionador CVP2000, instrumentación de campo",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "se fue",
+     "nota": "su headline dice que está en otra empresa (Grace s.a)"
     }
    ],
    "n_contactos": 2,
@@ -647,34 +684,38 @@
     {
      "nombre": "Enrique Castro",
      "cargo": "Gerente General",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/enrique-castro-burrows-875a5515",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "José Miguel Ríos",
      "cargo": "Gerente Mantenimiento",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/jos%C3%A9-miguel-r%C3%ADos-h-9772b684",
      "linea": "Válvulas + Instrumentación",
      "que_ofrecer": "válvulas de control, posicionador CVP2000, instrumentación de campo",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "sin confirmar"
     },
     {
      "nombre": "Jaime Ferrada",
      "cargo": "Gerente de Operaciones",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/jaime-ferrada",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Claudia Garcés",
      "cargo": "Gerente Medio Ambiente",
-     "linkedin": "",
+     "linkedin": "https://www.linkedin.com/in/claudia-garces",
      "linea": "Analítica",
      "que_ofrecer": "CEMS/monitoreo de emisiones: la línea que resuelve el dolor del RETC",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "sin confirmar"
     }
    ],
    "n_contactos": 4,
@@ -698,26 +739,29 @@
     {
      "nombre": "Tomasz Piwowarczyk",
      "cargo": "Gerente General (i)",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/tomasz-piwowarczyk-chile/en",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Beata Choragwicka Majstrowicz",
      "cargo": "Vicepresidente de RR.HH.",
-     "linkedin": "",
+     "linkedin": "https://pl.linkedin.com/in/beatachoragwicka/en",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "sin confirmar"
     },
     {
      "nombre": "Eric Zepeda",
      "cargo": "Vicepresidente de Operaciones",
-     "linkedin": "",
+     "linkedin": "https://www.linkedin.com/in/eric-zepeda1",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "sin confirmar"
     },
     {
      "nombre": "Jose Gonzalez",
@@ -750,42 +794,47 @@
     {
      "nombre": "Jorge Gómez Díaz",
      "cargo": "Presidente Ejecutivo",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/jorge-g%C3%B3mez-d%C3%ADaz-ceo",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Marcos Márquez Delgado",
      "cargo": "Vicepresidente de Mina",
-     "linkedin": "",
+     "linkedin": "https://www.linkedin.com/in/marcos-marquez-835086131",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "sin confirmar"
     },
     {
      "nombre": "Marcos Guerrero Maluenda",
      "cargo": "Vicepresidente de Procesos",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/marcos-guerrero-maluenda-91478054",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Alejandro Verdugo P.",
      "cargo": "Vicepresidente de Proyectos",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/alejandro-verdugo-p-45b45718",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Dalibor Dragicevic Pizarro",
      "cargo": "Vicepresidente Ejecutivo Operaciones",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/pizarro-planta-28284bb3",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     }
    ],
    "n_contactos": 5,
@@ -809,10 +858,11 @@
     {
      "nombre": "Cristóbal García-Huidobro",
      "cargo": "Gerente General",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/cristobal-garcia-huidobro",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Andrés Lafuente D.",
@@ -820,7 +870,8 @@
      "linkedin": "",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "descartado"
     }
    ],
    "n_contactos": 2,
@@ -844,26 +895,29 @@
     {
      "nombre": "Boris Medina",
      "cargo": "Presidente",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/boris-medina-kirsten-0b34a399/es",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Aaron Draper",
      "cargo": "Gerente General",
-     "linkedin": "",
+     "linkedin": "https://www.linkedin.com/in/aaron-draper-284a6436",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Francisco Costabal",
      "cargo": "Vicepresidente de Desarrollo de Negocios para Sudamérica",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/francisco-costabal-17131a96",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Alfonso Gaete Rojas",
@@ -1058,10 +1112,12 @@
     {
      "nombre": "Mario Irribarra Mendoza",
      "cargo": "Superintendente de Mantención",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/mario-irribarra-mendoza-380608146",
      "linea": "Válvulas + Instrumentación",
      "que_ofrecer": "válvulas de control, posicionador CVP2000, instrumentación de campo",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "se fue",
+     "nota": "su headline dice que está en otra empresa (Grace s.a)"
     },
     {
      "nombre": "David Puga Gomez",
@@ -1121,18 +1177,21 @@
     {
      "nombre": "Mauricio Muñoz",
      "cargo": "Jefe de Compras y Contratos",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/mauricio-mu%C3%B1oz-alegr%C3%ADa",
      "linea": "Todas las líneas",
      "que_ofrecer": "es el comprador: entra por acá todo el catálogo",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "sin confirmar"
     },
     {
      "nombre": "Cristián Apablaza R.",
      "cargo": "Vicepresidente de Operaciones",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/cristian-apablaza-r-a0b96822",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "se fue",
+     "nota": "su headline dice que está en otra empresa (Pan American Silver Corp. Curr)"
     },
     {
      "nombre": "Yasna Ross Romero",
@@ -1265,34 +1324,38 @@
     {
      "nombre": "Cristian Oneto",
      "cargo": "Jefe de Proyectos",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/cristian-oneto-60255747",
      "linea": "Instrumentación + Válvulas",
      "que_ofrecer": "especificación de proyecto: entrar en las bases técnicas",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Pedro Medar Jacek",
      "cargo": "Gerente de Mantenimiento Mina",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/pedro-medar-jacek-78761630/en",
      "linea": "Válvulas + Instrumentación",
      "que_ofrecer": "válvulas de control, posicionador CVP2000, instrumentación de campo",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Luis Vargas Villalobos",
      "cargo": "Gerente de Mantenimiento Planta",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/luis-vargas-villalobos-8340292a",
      "linea": "Válvulas + Instrumentación",
      "que_ofrecer": "válvulas de control, posicionador CVP2000, instrumentación de campo",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Jorge Barbosa Pastén",
      "cargo": "Superintendente de Salud y Seguridad",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/jorge-barboza-pasten-hsec",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Juan Vasquez",
@@ -1334,10 +1397,11 @@
     {
      "nombre": "Ignacio Mehech",
      "cargo": "Vicepresidente de Asuntos Externos y Country Manager",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/ignacio-mehech-castell%C3%B3n",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Gonzalo C.",
@@ -1391,23 +1455,27 @@
      "linkedin": "",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "descartado"
     },
     {
      "nombre": "Patricio Mora Higueras",
      "cargo": "Gerente de Operaciones",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/sebastian-mora-61a873118",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Ricardo Cordero",
      "cargo": "Gerente de Mantenimiento",
-     "linkedin": "",
+     "linkedin": "https://www.linkedin.com/in/ricardo-cordero-97950265",
      "linea": "Válvulas + Instrumentación",
      "que_ofrecer": "válvulas de control, posicionador CVP2000, instrumentación de campo",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "se fue",
+     "nota": "su headline dice que está en otra empresa (Leidos Current role)"
     }
    ],
    "n_contactos": 3,
@@ -1431,18 +1499,21 @@
     {
      "nombre": "Luis González Zenteno",
      "cargo": "Superintendente Mantenimiento Planta",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/luis-gonzalez-zenteno-2b951564",
      "linea": "Válvulas + Instrumentación",
      "que_ofrecer": "válvulas de control, posicionador CVP2000, instrumentación de campo",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Fernando Arredondo",
      "cargo": "Jefe de Operaciones Planta de Procesos",
-     "linkedin": "",
+     "linkedin": "https://mx.linkedin.com/in/arredondo-fernando-3793b83a",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "se fue",
+     "nota": "su headline dice que está en otra empresa (Biotix)"
     }
    ],
    "n_contactos": 2,
@@ -1512,26 +1583,29 @@
     {
      "nombre": "Ricardo Ramos",
      "cargo": "Gerente General",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/ricardo-ramos-b365929a",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Carlos Díaz Ortiz",
      "cargo": "Vicepresidente Ejecutivo Litio",
-     "linkedin": "",
+     "linkedin": "https://www.linkedin.com/in/carlos-ortiz-mba",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "sin confirmar"
     },
     {
      "nombre": "Rodrigo Vera",
      "cargo": "Vicepresidente de Operaciones Mineras",
-     "linkedin": "",
+     "linkedin": "https://ch.linkedin.com/in/rodrigo-vera-4779203",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "sin confirmar"
     }
    ],
    "n_contactos": 3,
@@ -1555,50 +1629,56 @@
     {
      "nombre": "Julio César Castillo Cortez",
      "cargo": "Gerente General",
-     "linkedin": "",
+     "linkedin": "https://www.linkedin.com/in/juliocesarhernandezcuevas",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "sin confirmar"
     },
     {
      "nombre": "Jorge Etcheverry Castro",
      "cargo": "Gerente de Proyectos",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/jorge-etcheverry-21095a2a6",
      "linea": "Instrumentación + Válvulas",
      "que_ofrecer": "especificación de proyecto: entrar en las bases técnicas",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Iván Tobar Cabezas",
      "cargo": "Gerente de Mantenimiento",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/iv%C3%A1n-fernando-tobar-cabezas-05841a82",
      "linea": "Válvulas + Instrumentación",
      "que_ofrecer": "válvulas de control, posicionador CVP2000, instrumentación de campo",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Eduardo Urra Sánchez",
      "cargo": "Gerente de Medio Ambiente",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/eduardo-urra-a6a75442",
      "linea": "Analítica",
      "que_ofrecer": "CEMS/monitoreo de emisiones: la línea que resuelve el dolor del RETC",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Francisco Gálvez Campos",
      "cargo": "Gerente de Salud y Seguridad Ocupacional",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/franciscogalvezcampos334/en",
      "linea": "SIS",
      "que_ofrecer": "HIPPS/TCS-500: seguridad instrumentada",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "José Manuel Valenzuela Navarrete",
      "cargo": "Gerente de Operaciones (i) Mina y Plantas",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/jos%C3%A9-manuel-valenzuela-navarrete-83185440",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     }
    ],
    "n_contactos": 6,
@@ -1622,18 +1702,20 @@
     {
      "nombre": "Manuel Novoa",
      "cargo": "Gerente General",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/manuel-novoa-villegas",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Calos Olivares",
      "cargo": "Superintendente Salud y Seguridad",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/j-santiago-olivares-359a6973",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     }
    ],
    "n_contactos": 2,
@@ -1657,26 +1739,30 @@
     {
      "nombre": "Alejandro Moreno",
      "cargo": "Presidente",
-     "linkedin": "",
+     "linkedin": "https://br.linkedin.com/in/alejandro-moreno-cssm-cspo-po-pm-71081715",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "sin confirmar"
     },
     {
      "nombre": "Víctor Hugo Álvarez Avalos",
      "cargo": "Gerente General",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/victor-hugo-alvarez-avalos-691862a7",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "se fue",
+     "nota": "su headline dice que está en otra empresa (ENAMI Location)"
     },
     {
      "nombre": "Diego Gaínza Acevedo",
      "cargo": "Gerente de Abastecimiento y Contratos",
-     "linkedin": "",
+     "linkedin": "https://www.linkedin.com/in/diego-gaínza-acevedo-094bb889",
      "linea": "Todas las líneas",
      "que_ofrecer": "es el comprador: entra por acá todo el catálogo",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "EITHEL ALVAREZ CORTES",
@@ -1746,18 +1832,20 @@
     {
      "nombre": "Luis de Urruticoechea Sartorius",
      "cargo": "Presidente",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/luis-jos%C3%A9-de-urruticoechea-vial-7aa08a61",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Juan José Besa Prieto",
      "cargo": "Gerente General",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/jbesa",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "sin confirmar"
     },
     {
      "nombre": "Álvaro Jünemann Caballero",
@@ -1771,10 +1859,11 @@
     {
      "nombre": "Borja Urruticoechea",
      "cargo": "Jefe del Departamento Medio Ambiente y Salud",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/luis-jos%C3%A9-de-urruticoechea-vial-7aa08a61",
      "linea": "Analítica",
      "que_ofrecer": "CEMS/monitoreo de emisiones: la línea que resuelve el dolor del RETC",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "sin confirmar"
     },
     {
      "nombre": "Osvaldo Novoa Morales",
@@ -1807,10 +1896,11 @@
     {
      "nombre": "Cristian Argandoña León",
      "cargo": "Gerente General",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/cristian-argando%C3%B1a-le%C3%B3n-02311235",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Gabriel Lira",
@@ -1818,31 +1908,36 @@
      "linkedin": "",
      "linea": "Válvulas + Instrumentación",
      "que_ofrecer": "válvulas de control, posicionador CVP2000, instrumentación de campo",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "descartado"
     },
     {
      "nombre": "Raúl Silva Delgado",
      "cargo": "Gerente de Operaciones Taltal",
-     "linkedin": "",
+     "linkedin": "https://www.linkedin.com/in/raul-silva-delgado-16b4b52ba",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "se fue",
+     "nota": "su headline dice que está en otra empresa (MYER Current role)"
     },
     {
      "nombre": "Cristián Argandoña",
      "cargo": "Gerente General Eléctrica Cenizas",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/cristian-argando%C3%B1a-le%C3%B3n-02311235",
      "linea": "Instrumentación + DCS/PLC",
      "que_ofrecer": "transmisores, caudalímetros, y el sistema de control",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Hugo Adrián Flores",
      "cargo": "Gerente de Operaciones de Cabildo",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/hugo-adrian-46ab0343",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     }
    ],
    "n_contactos": 5,
@@ -1866,18 +1961,21 @@
     {
      "nombre": "Gonzalo Sánchez",
      "cargo": "Vicepresidente Comercial",
-     "linkedin": "",
+     "linkedin": "https://es.linkedin.com/in/gonzalo-sanchez-moya",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "sin confirmar"
     },
     {
      "nombre": "Francisco Walther",
      "cargo": "Vicepresidente de Proyectos",
-     "linkedin": "",
+     "linkedin": "https://ec.linkedin.com/in/francisco-walter-b9a42b205",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "se fue",
+     "nota": "su headline dice que está en otra empresa (Private Company Current role)"
     }
    ],
    "n_contactos": 2,
@@ -1901,26 +1999,30 @@
     {
      "nombre": "Christian Caviedes Núñez",
      "cargo": "Gerente General",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/christian-caviedes-n%C3%BA%C3%B1ez-33a35247",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "se fue",
+     "nota": "su headline dice que está en otra empresa (Mantos Blancos Capstone Copper)"
     },
     {
      "nombre": "Jorge Misle",
      "cargo": "Jefe de Proyectos",
-     "linkedin": "",
+     "linkedin": "https://es.linkedin.com/in/jorge-gomez-in/en",
      "linea": "Instrumentación + Válvulas",
      "que_ofrecer": "especificación de proyecto: entrar en las bases técnicas",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "sin confirmar"
     },
     {
      "nombre": "Rene Galleguillos",
      "cargo": "Gerente de Operaciones",
-     "linkedin": "",
+     "linkedin": "https://www.linkedin.com/in/galleguillosnicolas",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "sin confirmar"
     }
    ],
    "n_contactos": 3,
@@ -2082,10 +2184,11 @@
     {
      "nombre": "Carlos Pinto",
      "cargo": "Gerente General",
-     "linkedin": "",
+     "linkedin": "https://ca.linkedin.com/in/cpintoval",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "sin confirmar"
     },
     {
      "nombre": "Francisco Pavez",
@@ -2191,26 +2294,30 @@
     {
      "nombre": "Robert Mayne-Nicolls Secul",
      "cargo": "Gerente General",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/robert-mayne-nicholls-08620847",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Gonzalo Rojas Araya",
      "cargo": "Superintendente HSEC",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/gonzalo-a-rojas-a-416b5220",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Dagoberto Leaño Wong",
      "cargo": "Superintendente de Mantención y Servicios",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/dagoberto-lea%C3%B1o-wong-173aba104",
      "linea": "Válvulas + Instrumentación",
      "que_ofrecer": "válvulas de control, posicionador CVP2000, instrumentación de campo",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "se fue",
+     "nota": "su headline dice que está en otra empresa (Sociedad Contractual Minera Tr)"
     },
     {
      "nombre": "Guillermo Alexy Sarria Valdés",
@@ -2260,18 +2367,21 @@
     {
      "nombre": "Carlos Vásquez Riquelme",
      "cargo": "Gerente de Sustentabilidad",
-     "linkedin": "",
+     "linkedin": "https://www.linkedin.com/in/carlos-vasquez-ms-b7013016",
      "linea": "Analítica",
      "que_ofrecer": "CEMS/monitoreo de emisiones: la línea que resuelve el dolor del RETC",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "se fue",
+     "nota": "su headline dice que está en otra empresa (Current role)"
     },
     {
      "nombre": "Pedro Miguras Silva",
      "cargo": "Gerente de Abastecimiento y Comercialización",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/pedro-miguras-silva-ba268313b",
      "linea": "Todas las líneas",
      "que_ofrecer": "es el comprador: entra por acá todo el catálogo",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Mauricio de la Torre Izquierdo",
@@ -2332,18 +2442,20 @@
     {
      "nombre": "Luis de Urruticoechea Sartorius",
      "cargo": "Presidente",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/luis-urruticoechea-888a68a1",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Juan José Besa Prieto",
      "cargo": "Gerente General",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/jbesa",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "sin confirmar"
     },
     {
      "nombre": "Miguel Ahumada",
@@ -2394,26 +2506,30 @@
     {
      "nombre": "Carlos Gómez Vega",
      "cargo": "Gerente de Proyectos",
-     "linkedin": "",
+     "linkedin": "https://www.linkedin.com/in/carlos-gomez-62b19717",
      "linea": "Instrumentación + Válvulas",
      "que_ofrecer": "especificación de proyecto: entrar en las bases técnicas",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "se fue",
+     "nota": "su headline dice que está en otra empresa (ASSA ABLOY Entrance Systems Cu)"
     },
     {
      "nombre": "Makarina Orellana",
      "cargo": "Gerente de Operaciones",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/makarina-orellana",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Macarena Herrera Sandoval",
      "cargo": "Gerente de Seguridad y Salud Ocupacional",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/macarenaherrera",
      "linea": "SIS",
      "que_ofrecer": "HIPPS/TCS-500: seguridad instrumentada",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Jose Quiroga Fica",
@@ -2455,10 +2571,11 @@
     {
      "nombre": "Marcelo Bruit Gutiérrez",
      "cargo": "Presidente Ejecutivo",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/cristian-marcelo-bruit-guti%C3%A9rrez-1a323775",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Darío Olmos Vásquez",
@@ -2479,18 +2596,20 @@
     {
      "nombre": "Paola Caraballo Serrano",
      "cargo": "Jefe de Abastecimiento y Contratos",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/paola-coromoto-caraballo-serrano-mujer-en-miner%C3%ADa-rompiendo-mitos-y-creando-futuro-3aa572100",
      "linea": "Todas las líneas",
      "que_ofrecer": "es el comprador: entra por acá todo el catálogo",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Maritza Baeza Cervela",
      "cargo": "Gerente de Operaciones y Sustentabilidad",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/maritza-baeza-cervela-8465b9a8",
      "linea": "Analítica",
      "que_ofrecer": "CEMS/monitoreo de emisiones: la línea que resuelve el dolor del RETC",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Cia. Minera cerro negro sa",
@@ -2531,10 +2650,12 @@
     {
      "nombre": "Mario Irribarra Mendoza",
      "cargo": "Superintendente de Mantención",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/mario-irribarra-mendoza-380608146",
      "linea": "Válvulas + Instrumentación",
      "que_ofrecer": "válvulas de control, posicionador CVP2000, instrumentación de campo",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "se fue",
+     "nota": "su headline dice que está en otra empresa (Grace s.a)"
     },
     {
      "nombre": "Alejandro Sporer Mass",
@@ -2576,10 +2697,11 @@
     {
      "nombre": "Luis González Zenteno",
      "cargo": "Superintendente Mantenimiento Planta",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/luis-gonzalez-zenteno-2b951564",
      "linea": "Válvulas + Instrumentación",
      "que_ofrecer": "válvulas de control, posicionador CVP2000, instrumentación de campo",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Richard Andres Bugueño zamora",
@@ -2593,10 +2715,12 @@
     {
      "nombre": "Fernando Arredondo",
      "cargo": "Jefe de Operaciones Planta de Procesos",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/fernando-arredondo-gutierrez-76455723",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "se fue",
+     "nota": "su headline dice que está en otra empresa (Tratamiento de minerales de Or)"
     }
    ],
    "n_contactos": 3,
@@ -2620,10 +2744,11 @@
     {
      "nombre": "Ramón Neyra",
      "cargo": "Gerente General",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/ramon-neyra-13217b5b",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Leandro Castillo Tapia",
@@ -2696,7 +2821,8 @@
      "linkedin": "",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "descartado"
     },
     {
      "nombre": "Jose Bahamondes",
@@ -2811,18 +2937,22 @@
     {
      "nombre": "Alejandro Berenguela Zúñiga",
      "cargo": "Gerente General Catemu",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/alejandro-berenguela-73597b1b4",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "se fue",
+     "nota": "su headline dice que está en otra empresa (Guanaco Compañia Minera SpA Cu)"
     },
     {
      "nombre": "Patricio González Pérez",
      "cargo": "Gerente General Pullalli",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/patricio-gonzalez-perez",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "se fue",
+     "nota": "su headline dice que está en otra empresa (Transición. Current role)"
     },
     {
      "nombre": "Mauricio Alamos Elías",
@@ -2835,10 +2965,11 @@
     {
      "nombre": "Susan Henry Henry",
      "cargo": "Gerente Corporativo de Sustentabilidad",
-     "linkedin": "",
+     "linkedin": "https://www.linkedin.com/in/susan-henry199",
      "linea": "Analítica",
      "que_ofrecer": "CEMS/monitoreo de emisiones: la línea que resuelve el dolor del RETC",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "sin confirmar"
     }
    ],
    "n_contactos": 4,
@@ -2870,10 +3001,11 @@
     {
      "nombre": "Jorge Guerra Griferos",
      "cargo": "Subgerente General",
-     "linkedin": "",
+     "linkedin": "https://be.linkedin.com/in/jorgeaguerrach91/en",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "sin confirmar"
     },
     {
      "nombre": "Ryuichi Kawano",
@@ -2889,7 +3021,8 @@
      "linkedin": "",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "descartado"
     }
    ],
    "n_contactos": 4,
@@ -2913,26 +3046,29 @@
     {
      "nombre": "Christian Cáceres Meneses",
      "cargo": "Gerente General",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/christian-caceres-meneses-0609115b",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Simón Campos Rivera",
      "cargo": "Subgerente de Mantenimiento",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/sim%C3%B3n-campos-campos",
      "linea": "Válvulas + Instrumentación",
      "que_ofrecer": "válvulas de control, posicionador CVP2000, instrumentación de campo",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "sin confirmar"
     },
     {
      "nombre": "Francisco Reyes Jara",
      "cargo": "Subgerente de Sustentabilidad",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/francisco-javier-reyes-jara-513017200",
      "linea": "Analítica",
      "que_ofrecer": "CEMS/monitoreo de emisiones: la línea que resuelve el dolor del RETC",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Eugenio Espinosa Lynch",
@@ -2945,10 +3081,11 @@
     {
      "nombre": "Alfonso Burgos Quilamán",
      "cargo": "Subgerente de Operaciones Planta",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/alfonso-antonio-burgos-quilam%C3%A1n-55818272",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     }
    ],
    "n_contactos": 5,
@@ -3073,34 +3210,38 @@
     {
      "nombre": "Álvaro Lay",
      "cargo": "Superintendente HSE",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/alvaro-lay-mart%C3%ADnez",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Sergio López",
      "cargo": "Gerente de Mantención",
-     "linkedin": "",
+     "linkedin": "https://www.linkedin.com/in/sergio-lopez-7a86531a7",
      "linea": "Válvulas + Instrumentación",
      "que_ofrecer": "válvulas de control, posicionador CVP2000, instrumentación de campo",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Paula Tartari",
      "cargo": "Gerente de Ingeniería",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/paula-tartari-b90b8ab/en",
      "linea": "Instrumentación + Válvulas",
      "que_ofrecer": "especificación de proyecto: entrar en las bases técnicas",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Alejandro Heilbron Batista",
      "cargo": "Gerente General Cerro Colorado",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/alejandro-heilbron-batista-39947619/en",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Cesar Gaete Alvarado",
@@ -3262,18 +3403,22 @@
     {
      "nombre": "Manuel Novoa",
      "cargo": "Gerente General",
-     "linkedin": "",
+     "linkedin": "https://www.linkedin.com/in/manuel-novoa-06336b97",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "se fue",
+     "nota": "su headline dice que está en otra empresa (Venevisio Plus)"
     },
     {
      "nombre": "Calos Olivares",
      "cargo": "Superintendente Salud y Seguridad",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/carlos-olivares-7739592b",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "se fue",
+     "nota": "su headline dice que está en otra empresa (TRUCKMIN Mining Services)"
     },
     {
      "nombre": "Mario Valdés Braun",
@@ -3388,10 +3533,12 @@
     {
      "nombre": "Guillermo Rodríguez Luengo",
      "cargo": "Gerente de Operaciones Planta",
-     "linkedin": "",
+     "linkedin": "https://es.linkedin.com/in/guillermo-rodriguez-luengo-4aa46627",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "se fue",
+     "nota": "su headline dice que está en otra empresa (Quirónprevención Current role)"
     },
     {
      "nombre": "Iván Henríquez Sapunar",
@@ -3460,18 +3607,21 @@
     {
      "nombre": "Manuel Novoa",
      "cargo": "Gerente General",
-     "linkedin": "",
+     "linkedin": "https://www.linkedin.com/in/manuel-novoa-06336b97",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "se fue",
+     "nota": "su headline dice que está en otra empresa (Venevisio Plus)"
     },
     {
      "nombre": "Calos Olivares",
      "cargo": "Superintendente Salud y Seguridad",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/carlos-olivares-andrade-5266a251",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     }
    ],
    "n_contactos": 2,
@@ -3679,10 +3829,12 @@
     {
      "nombre": "Richard Tapia",
      "cargo": "Gerente General",
-     "linkedin": "",
+     "linkedin": "https://www.linkedin.com/in/richard-tapia-a95220113",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "se fue",
+     "nota": "su headline dice que está en otra empresa (San Jose Water Company Current)"
     },
     {
      "nombre": "Gonzalo Schneeberger",
@@ -3788,18 +3940,20 @@
     {
      "nombre": "Rodrigo Moscoso Restovic",
      "cargo": "Gerente General",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/rodrigo-moscoso-4a761122/es",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Alberto Opazo",
      "cargo": "Gerente de Operaciones",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/oscar-alberto-opazo-alvear-0b377034",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Héctor Loo Aguirre",
@@ -4188,10 +4342,11 @@
     {
      "nombre": "Luis Díaz González",
      "cargo": "Mantención de Planta",
-     "linkedin": "",
+     "linkedin": "https://es.linkedin.com/in/luis-diaz-gonzalez-6489806b",
      "linea": "Válvulas + Instrumentación",
      "que_ofrecer": "válvulas de control, posicionador CVP2000, instrumentación de campo",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "sin confirmar"
     }
    ],
    "n_contactos": 4,
@@ -4223,34 +4378,38 @@
     {
      "nombre": "Carlos Gómez Vega",
      "cargo": "Gerente de Proyectos",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/carlos-gomez-vega-71289b104",
      "linea": "Instrumentación + Válvulas",
      "que_ofrecer": "especificación de proyecto: entrar en las bases técnicas",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Makarina Orellana",
      "cargo": "Gerente de Operaciones",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/makarina-orellana",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Macarena Herrera Sandoval",
      "cargo": "Gerente de Seguridad y Salud Ocupacional",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/macarenaherrera",
      "linea": "SIS",
      "que_ofrecer": "HIPPS/TCS-500: seguridad instrumentada",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Paulina Andreoli",
      "cargo": "Gerencia de Medio Ambiente y Cambio Climático",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/paulina-andreoli-celis-251032174",
      "linea": "Analítica",
      "que_ofrecer": "CEMS/monitoreo de emisiones: la línea que resuelve el dolor del RETC",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     }
    ],
    "n_contactos": 5,
@@ -4274,18 +4433,20 @@
     {
      "nombre": "Luis de Urruticoechea Sartorius",
      "cargo": "Presidente",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/luis-urruticoechea-888a68a1",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Juan José Besa Prieto",
      "cargo": "Gerente General",
-     "linkedin": "",
+     "linkedin": "https://www.linkedin.com/in/juan-josé-besa-prieto-9a393929",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Jaime Besa Vergara",
@@ -4520,26 +4681,30 @@
     {
      "nombre": "Gonzalo Sánchez",
      "cargo": "Vicepresidente Comercial",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/gonzalo-sanchez-3a12894",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Francisco Walther",
      "cargo": "Vicepresidente de Proyectos",
-     "linkedin": "",
+     "linkedin": "https://ec.linkedin.com/in/francisco-walter-b9a42b205",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "se fue",
+     "nota": "su headline dice que está en otra empresa (Private Company Current role)"
     },
     {
      "nombre": "Andrónico Luksic L.",
      "cargo": "Vicepresidente de Desarrollo",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/andronico-luksic-052354110",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Leonardo González",
@@ -4547,7 +4712,8 @@
      "linkedin": "",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "descartado"
     }
    ],
    "n_contactos": 4,
@@ -4571,42 +4737,49 @@
     {
      "nombre": "Ricardo Ramos",
      "cargo": "Gerente General",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/ricardo-ramos-b365929a",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Carlos Díaz Ortiz",
      "cargo": "Vicepresidente Ejecutivo Litio",
-     "linkedin": "",
+     "linkedin": "https://www.linkedin.com/in/carlos-ortiz-gomez",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "se fue",
+     "nota": "su headline dice que está en otra empresa (Facebook Compartir en Twitter )"
     },
     {
      "nombre": "Rodrigo Vera",
      "cargo": "Vicepresidente de Operaciones Mineras",
-     "linkedin": "",
+     "linkedin": "https://ch.linkedin.com/in/rodrigo-vera-4779203",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "sin confirmar"
     },
     {
      "nombre": "Pablo Altimiras",
      "cargo": "Vicepresidente Ejecutivo Nitratos Yodo",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/pablo-altimiras-24371114",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Natalia Pizarro",
      "cargo": "Vicepresidente Senior de Personas y Desempeño",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/natalia-pizarro-guti%C3%A9rrez-46105218",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "se fue",
+     "nota": "su headline dice que está en otra empresa (SQM Current role)"
     }
    ],
    "n_contactos": 5,
@@ -4787,18 +4960,21 @@
     {
      "nombre": "Rubén Copa Limache",
      "cargo": "Jefe de Calidad",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/ruben-copa-482870a8",
      "linea": "Analítica",
      "que_ofrecer": "CEMS/monitoreo de emisiones: la línea que resuelve el dolor del RETC",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "se fue",
+     "nota": "su headline dice que está en otra empresa (Imerys Current role)"
     },
     {
      "nombre": "Raúl Muñoz Plaza",
      "cargo": "Gerente Operaciones",
-     "linkedin": "",
+     "linkedin": "https://www.linkedin.com/in/munozraul",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "sin confirmar"
     }
    ],
    "n_contactos": 2,
@@ -5034,18 +5210,20 @@
     {
      "nombre": "Matías Mohr",
      "cargo": "Gerente General",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/matthias-mohr-10b02538",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Luis San Martín Silva",
      "cargo": "Gerente de Operaciones",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/catalina-san-martin-silva",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Jaime Lagos Cepernic",
@@ -5161,18 +5339,20 @@
     {
      "nombre": "Rubén Copa Limache",
      "cargo": "Jefe de Calidad",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/ruben-copa-482870a8",
      "linea": "Analítica",
      "que_ofrecer": "CEMS/monitoreo de emisiones: la línea que resuelve el dolor del RETC",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Raúl Muñoz Plaza",
      "cargo": "Gerente Operaciones",
-     "linkedin": "",
+     "linkedin": "https://www.linkedin.com/in/munozraul",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "sin confirmar"
     }
    ],
    "n_contactos": 2,
@@ -5196,26 +5376,31 @@
     {
      "nombre": "Jorge Bravo",
      "cargo": "Gerente de Medio Ambiente",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/jorgebravorivera",
      "linea": "Analítica",
      "que_ofrecer": "CEMS/monitoreo de emisiones: la línea que resuelve el dolor del RETC",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "se fue",
+     "nota": "su headline dice que está en otra empresa (Lundin Mining Chile)"
     },
     {
      "nombre": "Samuel Mendoza",
      "cargo": "Gerente de Abastecimiento",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/samuel-mendoza-cifuentes-ba1373a5",
      "linea": "Todas las líneas",
      "que_ofrecer": "es el comprador: entra por acá todo el catálogo",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "se fue",
+     "nota": "su headline dice que está en otra empresa (Lundin Mining Corporation)"
     },
     {
      "nombre": "Gabriel Roberto Ocaranza Henríquez",
      "cargo": "Gerente General de Operaciones",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/gabriel-roberto-ocaranza-henriquez-3700a2138",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Luis Sánchez Rodríguez",
@@ -5228,18 +5413,21 @@
     {
      "nombre": "Karina Briño",
      "cargo": "Gerente General de Administración",
-     "linkedin": "",
+     "linkedin": "https://ca.linkedin.com/in/karina-bri%C3%B1o-57453424",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "sin confirmar"
     },
     {
      "nombre": "Carlos Aguilera",
      "cargo": "Gerente de Salud y Seguridad Ocupacional",
-     "linkedin": "",
+     "linkedin": "https://mx.linkedin.com/in/carlosaguilerap/en",
      "linea": "SIS",
      "que_ofrecer": "HIPPS/TCS-500: seguridad instrumentada",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "se fue",
+     "nota": "su headline dice que está en otra empresa (Newell Brands. Carlos is an ex)"
     }
    ],
    "n_contactos": 6,
@@ -6066,10 +6254,11 @@
     {
      "nombre": "Andrés Guerrero Marcó",
      "cargo": "Gerente General",
-     "linkedin": "",
+     "linkedin": "https://www.linkedin.com/in/andres-fernando-guerrero-88282432",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Patricio Astorga",
@@ -6130,42 +6319,50 @@
     {
      "nombre": "Jorge Bravo",
      "cargo": "Gerente de Medio Ambiente",
-     "linkedin": "",
+     "linkedin": "https://www.linkedin.com/in/jorge-bravo-639163212",
      "linea": "Analítica",
      "que_ofrecer": "CEMS/monitoreo de emisiones: la línea que resuelve el dolor del RETC",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "se fue",
+     "nota": "su headline dice que está en otra empresa (Keyera)"
     },
     {
      "nombre": "Samuel Mendoza",
      "cargo": "Gerente de Abastecimiento",
-     "linkedin": "",
+     "linkedin": "https://www.linkedin.com/in/samuel-mendoza-4a8962104",
      "linea": "Todas las líneas",
      "que_ofrecer": "es el comprador: entra por acá todo el catálogo",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "se fue",
+     "nota": "su headline dice que está en otra empresa (Granite Construction Current r)"
     },
     {
      "nombre": "Gabriel Roberto Ocaranza Henríquez",
      "cargo": "Gerente General de Operaciones",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/gabriel-roberto-ocaranza-henriquez-3700a2138",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Luis Sánchez Rodríguez",
      "cargo": "Presidente y Director Ejecutivo",
-     "linkedin": "",
+     "linkedin": "https://www.linkedin.com/in/luis-sanchez-7144a9152",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "se fue",
+     "nota": "su headline dice que está en otra empresa (Self-employed)"
     },
     {
      "nombre": "Karina Briño",
      "cargo": "Gerente General de Administración",
-     "linkedin": "",
+     "linkedin": "https://ca.linkedin.com/in/karina-bri%C3%B1o-57453424",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "sin confirmar"
     }
    ],
    "n_contactos": 5,
@@ -7158,31 +7355,36 @@
      "linkedin": "",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "descartado"
     },
     {
      "nombre": "Alan Fosk",
      "cargo": "Gerente General",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/allan-fosk-496750118",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Raúl Miranda",
      "cargo": "Subgerente General",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/ra%C3%BAl-miranda-6a824666",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Rodrigo Díaz Q.",
      "cargo": "Jefe de Operaciones Minas",
-     "linkedin": "",
+     "linkedin": "https://uk.linkedin.com/in/rodrigo-d%C3%ADaz-0411469",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "se fue",
+     "nota": "su headline dice que está en otra empresa (The Luminari Cl)"
     },
     {
      "nombre": "Rafael Fernandez",
@@ -7390,18 +7592,21 @@
     {
      "nombre": "Gonzalo Sánchez",
      "cargo": "Vicepresidente Comercial",
-     "linkedin": "",
+     "linkedin": "https://www.linkedin.com/in/gonzalo-sanchez-jr72699102",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "sin confirmar"
     },
     {
      "nombre": "Francisco Walther",
      "cargo": "Vicepresidente de Proyectos",
-     "linkedin": "",
+     "linkedin": "https://ec.linkedin.com/in/francisco-walter-b9a42b205",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "se fue",
+     "nota": "su headline dice que está en otra empresa (Private Company Current role)"
     },
     {
      "nombre": "Andrónico Luksic L.",
@@ -7417,7 +7622,8 @@
      "linkedin": "",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "descartado"
     }
    ],
    "n_contactos": 4,
@@ -7441,18 +7647,20 @@
     {
      "nombre": "Gonzalo Diestre Flaño",
      "cargo": "Gerente General",
-     "linkedin": "",
+     "linkedin": "https://www.linkedin.com/in/gonzalodeelizalde",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "sin confirmar"
     },
     {
      "nombre": "Mario Irribarra Mendoza",
      "cargo": "Superintendente de Mantención",
-     "linkedin": "",
+     "linkedin": "https://www.linkedin.com/in/mario-mendoza-4048908a",
      "linea": "Válvulas + Instrumentación",
      "que_ofrecer": "válvulas de control, posicionador CVP2000, instrumentación de campo",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "sin confirmar"
     },
     {
      "nombre": "Germán de la Maza Merino",
@@ -7485,18 +7693,22 @@
     {
      "nombre": "Jorge Bravo",
      "cargo": "Gerente de Medio Ambiente",
-     "linkedin": "",
+     "linkedin": "https://www.linkedin.com/in/jorge-bravo-2b31398",
      "linea": "Analítica",
      "que_ofrecer": "CEMS/monitoreo de emisiones: la línea que resuelve el dolor del RETC",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "se fue",
+     "nota": "su headline dice que está en otra empresa (PepsiCo)"
     },
     {
      "nombre": "Samuel Mendoza",
      "cargo": "Gerente de Abastecimiento",
-     "linkedin": "",
+     "linkedin": "https://www.linkedin.com/in/samuel-mendoza-406797155",
      "linea": "Todas las líneas",
      "que_ofrecer": "es el comprador: entra por acá todo el catálogo",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "se fue",
+     "nota": "su headline dice que está en otra empresa (Mendoza enterprises Current ro)"
     },
     {
      "nombre": "Gabriel Roberto Ocaranza Henríquez",
@@ -7509,18 +7721,20 @@
     {
      "nombre": "Luis Sánchez Rodríguez",
      "cargo": "Presidente y Director Ejecutivo",
-     "linkedin": "",
+     "linkedin": "https://co.linkedin.com/in/luis-francisco-sanchez-rodriguez",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "sin confirmar"
     },
     {
      "nombre": "Karina Briño",
      "cargo": "Gerente General de Administración",
-     "linkedin": "",
+     "linkedin": "https://ca.linkedin.com/in/karina-bri%C3%B1o-57453424",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "sin confirmar"
     }
    ],
    "n_contactos": 5,
@@ -7572,34 +7786,39 @@
     {
      "nombre": "Rodrigo Ramírez",
      "cargo": "Gerente General Mina",
-     "linkedin": "",
+     "linkedin": "https://www.linkedin.com/in/rodrigo-ramirez-tx",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "sin confirmar"
     },
     {
      "nombre": "Eliana Calderón",
      "cargo": "Gerente General Planta",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/eliana-calder%C3%B3n-fern%C3%A1ndez-9b800124",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Simón Valdivia",
      "cargo": "Gerente de Mantenimiento Mina",
-     "linkedin": "",
+     "linkedin": "https://www.linkedin.com/in/simonmittal",
      "linea": "Válvulas + Instrumentación",
      "que_ofrecer": "válvulas de control, posicionador CVP2000, instrumentación de campo",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Waldo Saavedra",
      "cargo": "Gerente de Mantenimiento Concentradora",
-     "linkedin": "",
+     "linkedin": "https://mx.linkedin.com/in/waldo-saavedra-83a03a57",
      "linea": "Válvulas + Instrumentación",
      "que_ofrecer": "válvulas de control, posicionador CVP2000, instrumentación de campo",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "se fue",
+     "nota": "su headline dice que está en otra empresa (GRUPO CUPRUM)"
     }
    ],
    "n_contactos": 4,
@@ -7666,42 +7885,48 @@
     {
      "nombre": "Rodrigo Briceño Carrasco",
      "cargo": "Gerente General",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/rodrigo-briceno-carrasco",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "se fue",
+     "nota": "su headline dice que está en otra empresa (PROTERM S.A.)"
     },
     {
      "nombre": "Jean Paul Sauré",
      "cargo": "Gerente de Proyectos",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/jean-paul-saur%C3%A9-53167328",
      "linea": "Instrumentación + Válvulas",
      "que_ofrecer": "especificación de proyecto: entrar en las bases técnicas",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Hernán del Valle",
      "cargo": "Gerente de Ingeniería",
-     "linkedin": "",
+     "linkedin": "https://nl.linkedin.com/in/hernandelvalle",
      "linea": "Instrumentación + Válvulas",
      "que_ofrecer": "especificación de proyecto: entrar en las bases técnicas",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Juan Carlos Ponti",
      "cargo": "Gerente de Operaciones",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/juan-carlos-ponti-cisternas-6a56666a",
      "linea": "Software y plataforma",
      "que_ofrecer": "SolisSCADA/InPlant: historizar y reportar las señales que ya existen",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     },
     {
      "nombre": "Filippo Bustos Loyola",
      "cargo": "Gerente de Abastecimientoy Logística",
-     "linkedin": "",
+     "linkedin": "https://cl.linkedin.com/in/filippo-bustos-loyola-7013a035",
      "linea": "Todas las líneas",
      "que_ofrecer": "es el comprador: entra por acá todo el catálogo",
-     "tipo": "garantizada"
+     "tipo": "garantizada",
+     "linkedin_estado": "confirmado"
     }
    ],
    "n_contactos": 5,

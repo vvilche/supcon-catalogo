@@ -51,8 +51,17 @@ def bloque_emp(p):
            if p.get("telefono_central") else '<span class="notel">sin teléfono</span>')
     filas = ""
     for c in p["contactos"]:
-        li = (f'<a href="{esc(c["linkedin"])}" target="_blank">in</a>' if c.get("linkedin")
-              else '<span class="noli">sin LinkedIn</span>')
+        est = c.get("linkedin_estado", "")
+        if est == "se fue":
+            li = (f'<a href="{esc(c["linkedin"])}" target="_blank" class="li-sefue">in</a>'
+                  f'<span class="aviso-fue">ya no está en la empresa</span>')
+        elif est == "sin confirmar":
+            li = (f'<a href="{esc(c["linkedin"])}" target="_blank" class="li-dud">in</a>'
+                  f'<span class="dud">sin confirmar</span>')
+        elif c.get("linkedin"):
+            li = f'<a href="{esc(c["linkedin"])}" target="_blank">in</a>'
+        else:
+            li = '<span class="noli">sin LinkedIn</span>'
         badge = ('<span class="bg">fuente</span>' if "garant" in c.get("tipo", "")
                  else '<span class="bl">LI</span>')
         gt = (f"Hola, llamo de CONECTA. Busco a {c['nombre']}, {c['cargo']}, por "
@@ -125,6 +134,10 @@ h1{{font-size:25px;font-weight:680;letter-spacing:-.4px;margin-bottom:4px}}
 .bg{{font-size:9.5px;background:#f0fdf4;color:#065f46;border:1px solid #bbf7d0;border-radius:4px;padding:0 4px}}
 .bl{{font-size:9.5px;background:#eff6ff;color:#1e40af;border:1px solid #bfdbfe;border-radius:4px;padding:0 4px}}
 .noli{{font-size:10px;color:var(--am);font-style:italic}}
+.li-sefue{{color:#b91c1c;text-decoration:line-through}}
+.aviso-fue{{font-size:9.5px;background:#fef2f2;color:#b91c1c;border:1px solid #fecaca;border-radius:4px;padding:0 4px}}
+.li-dud{{color:#6b7280}}
+.dud{{font-size:9.5px;background:#f9fafb;color:#6b7280;border:1px solid #e5e7eb;border-radius:4px;padding:0 4px}}
 .cp{{font-size:10.5px;background:#f9fafb;border:1px solid var(--bd);border-radius:5px;padding:1px 7px;cursor:pointer}}
 .cp:hover{{background:#111827;color:#fff}}
 a{{color:var(--ac);font-size:11.5px;text-decoration:none}}
@@ -162,10 +175,11 @@ headline de LinkedIn menciona la empresa. <b>Se descartaron 366 contactos del li
   <span class="bl">LI</span> = de LinkedIn validado por headline.
   El botón <b>guion</b> copia la primera frase.
   <br><br>
-  <b>Sobre el LinkedIn:</b> <b>{n(n_ct - con_li)} de los {n(n_ct)} contactos no lo traen</b>, y son
-  justamente <b>los de Direcmin</b> — ese directorio publica nombre y cargo, no el perfil. No es que
-  falte el dato: la fuente no lo tiene. Para esos, la vía es el <b>teléfono de la central</b> (que sí
-  figura) pidiendo a la persona por su nombre y cargo.
+  <b>Sobre el LinkedIn:</b> de los {n(n_ct)} contactos, <b>{n(n_ct - con_li)} no tienen perfil
+  propio</b> (Direcmin publica nombre y cargo, no el link). Se buscaron por nombre: <b>se
+  recuperaron 171</b>, y de ésos <b>43 resultaron de personas que YA NO están en la empresa</b>
+  (aparecen marcadas en rojo, su headline dice otra compañía). Los que quedan sin link, la vía es el
+  <b>teléfono de la central</b> pidiendo a la persona por nombre y cargo.
 </div>
 
 <footer>
