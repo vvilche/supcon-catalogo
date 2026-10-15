@@ -212,9 +212,9 @@
    "n_empresas": 5,
    "contactos": 16,
    "empresas": [
+    "MINERA VALLE CENTRAL S A",
     "ARIDOS GUERRICO CHILE LIMITADA",
     "DMC MINING SERVICES CHILE SPA",
-    "MINERA VALLE CENTRAL S A",
     "SOC MINERA FORESTAL SAN ENRIQUE LIMITADA",
     "SOCIEDAD ARIDOS SAN VICENTE SPA"
    ]
@@ -893,7 +893,7 @@
    "n_contactos": 4,
    "tipo_empresa": "proveedor_minero",
    "via": "llamado + LinkedIn",
-   "region": "Metropolitana de Santiago",
+   "region": "Metropolitana",
    "industria": "Minería"
   },
   {
@@ -1286,7 +1286,7 @@
    "n_contactos": 5,
    "tipo_empresa": "operador",
    "via": "llamado + LinkedIn",
-   "region": "Metropolitana de Santiago",
+   "region": "Metropolitana",
    "industria": "Minería"
   },
   {
@@ -1437,7 +1437,7 @@
    "n_contactos": 5,
    "tipo_empresa": "proveedor_minero",
    "via": "llamado + LinkedIn",
-   "region": "Magallanes y de la Antártica Chilena",
+   "region": "Magallanes",
    "industria": "Manufactura"
   },
   {
@@ -1660,7 +1660,7 @@
    "n_contactos": 6,
    "tipo_empresa": "operador",
    "via": "llamado + LinkedIn",
-   "region": "Magallanes y de la Antártica Chilena",
+   "region": "Magallanes",
    "industria": "Combustibles y gas"
   },
   {
@@ -1706,7 +1706,7 @@
    "n_contactos": 3,
    "tipo_empresa": "operador",
    "via": "llamado + LinkedIn",
-   "region": "Metropolitana de Santiago",
+   "region": "Metropolitana",
    "industria": "Minería"
   },
   {
@@ -1943,7 +1943,7 @@
    "n_contactos": 2,
    "tipo_empresa": "operador",
    "via": "LinkedIn (sin teléfono de central)",
-   "region": "Metropolitana de Santiago",
+   "region": "Metropolitana",
    "industria": "Minería"
   },
   {
@@ -2378,7 +2378,7 @@
    "n_contactos": 2,
    "tipo_empresa": "proveedor_minero",
    "via": "llamado + LinkedIn",
-   "region": "Metropolitana de Santiago",
+   "region": "Metropolitana",
    "industria": "Minería"
   },
   {
@@ -2458,7 +2458,7 @@
    "n_contactos": 2,
    "tipo_empresa": "proveedor_minero",
    "via": "LinkedIn (sin teléfono de central)",
-   "region": "Metropolitana de Santiago",
+   "region": "Metropolitana",
    "industria": "Minería"
   },
   {
@@ -2729,7 +2729,7 @@
    "n_contactos": 5,
    "tipo_empresa": "operador",
    "via": "LinkedIn (sin teléfono de central)",
-   "region": "Arica y Parinacota",
+   "region": "Arica",
    "industria": "Minería"
   },
   {
@@ -2809,7 +2809,7 @@
    "n_contactos": 1,
    "tipo_empresa": "proveedor_minero",
    "via": "llamado + LinkedIn",
-   "region": "Metropolitana de Santiago",
+   "region": "Metropolitana",
    "industria": "Gestión de residuos"
   },
   {
@@ -2932,7 +2932,7 @@
    "n_contactos": 6,
    "tipo_empresa": "operador",
    "via": "llamado + LinkedIn",
-   "region": "Aysén del General Carlos Ibáñez del Campo",
+   "region": "Aysén",
    "industria": "Minería"
   },
   {
@@ -3170,7 +3170,7 @@
    "n_contactos": 2,
    "tipo_empresa": "proveedor_minero",
    "via": "llamado + LinkedIn",
-   "region": "Metropolitana de Santiago",
+   "region": "Metropolitana",
    "industria": "Minería"
   },
   {
@@ -3449,7 +3449,7 @@
    "n_contactos": 5,
    "tipo_empresa": "operador",
    "via": "llamado + LinkedIn",
-   "region": "Libertador Gral. Bernardo O'Higgins",
+   "region": "O'Higgins",
    "industria": "Minería"
   },
   {
@@ -3486,7 +3486,7 @@
    "n_contactos": 2,
    "tipo_empresa": "proveedor_minero",
    "via": "llamado + LinkedIn",
-   "region": "Metropolitana de Santiago",
+   "region": "Metropolitana",
    "industria": "Minería"
   },
   {
@@ -3739,7 +3739,7 @@
    "n_contactos": 4,
    "tipo_empresa": "proveedor_minero",
    "via": "llamado + LinkedIn",
-   "region": "Magallanes y de la Antártica Chilena",
+   "region": "Magallanes",
    "industria": "Minería"
   },
   {
@@ -3857,7 +3857,7 @@
    "n_contactos": 1,
    "tipo_empresa": "proveedor_minero",
    "via": "llamado + LinkedIn",
-   "region": "Metropolitana de Santiago",
+   "region": "Metropolitana",
    "industria": "Minería"
   },
   {
@@ -3937,7 +3937,7 @@
    "n_contactos": 2,
    "tipo_empresa": "operador",
    "via": "llamado + LinkedIn",
-   "region": "Metropolitana de Santiago",
+   "region": "Metropolitana",
    "industria": "Minería"
   },
   {
@@ -4219,7 +4219,7 @@
    "n_contactos": 5,
    "tipo_empresa": "operador",
    "via": "LinkedIn (sin teléfono de central)",
-   "region": "Aysén del General Carlos Ibáñez del Campo",
+   "region": "Aysén",
    "industria": "Minería"
   },
   {
@@ -4265,7 +4265,7 @@
    "n_contactos": 3,
    "tipo_empresa": "proveedor_minero",
    "via": "LinkedIn (sin teléfono de central)",
-   "region": "Metropolitana de Santiago",
+   "region": "Metropolitana",
    "industria": "Minería"
   },
   {
@@ -4474,7 +4474,7 @@
    "n_contactos": 4,
    "tipo_empresa": "proveedor_minero",
    "via": "LinkedIn (sin teléfono de central)",
-   "region": "Metropolitana de Santiago",
+   "region": "Metropolitana",
    "industria": "Minería"
   },
   {
@@ -4529,7 +4529,7 @@
    "n_contactos": 4,
    "tipo_empresa": "operador",
    "via": "llamado + LinkedIn",
-   "region": "Magallanes y de la Antártica Chilena",
+   "region": "Magallanes",
    "industria": "Pesca y acuicultura"
   },
   {
@@ -4575,7 +4575,7 @@
    "n_contactos": 3,
    "tipo_empresa": "operador",
    "via": "llamado + LinkedIn",
-   "region": "Magallanes y de la Antártica Chilena",
+   "region": "Magallanes",
    "industria": "Minería"
   },
   {
@@ -4640,7 +4640,7 @@
    "n_contactos": 2,
    "tipo_empresa": "proveedor_minero",
    "via": "LinkedIn (sin teléfono de central)",
-   "region": "Metropolitana de Santiago",
+   "region": "Metropolitana",
    "industria": "Manufactura"
   },
   {
@@ -4905,7 +4905,7 @@
    "n_contactos": 4,
    "tipo_empresa": "proveedor_minero",
    "via": "LinkedIn (sin teléfono de central)",
-   "region": "Metropolitana de Santiago",
+   "region": "Metropolitana",
    "industria": "Manufactura"
   },
   {
@@ -4997,7 +4997,7 @@
    "n_contactos": 5,
    "tipo_empresa": "operador",
    "via": "llamado + LinkedIn",
-   "region": "Metropolitana de Santiago",
+   "region": "Metropolitana",
    "industria": "Manufactura"
   },
   {
@@ -5107,7 +5107,7 @@
    "n_contactos": 5,
    "tipo_empresa": "operador",
    "via": "llamado + LinkedIn",
-   "region": "Metropolitana de Santiago",
+   "region": "Metropolitana",
    "industria": "Química"
   },
   {
@@ -5144,7 +5144,7 @@
    "n_contactos": 2,
    "tipo_empresa": "proveedor_minero",
    "via": "llamado + LinkedIn",
-   "region": "Metropolitana de Santiago",
+   "region": "Metropolitana",
    "industria": "Minería"
   },
   {
@@ -5199,7 +5199,7 @@
    "n_contactos": 4,
    "tipo_empresa": "proveedor_minero",
    "via": "llamado + LinkedIn",
-   "region": "Metropolitana de Santiago",
+   "region": "Metropolitana",
    "industria": "Minería"
   },
   {
@@ -5264,7 +5264,7 @@
    "n_contactos": 2,
    "tipo_empresa": "operador",
    "via": "llamado + LinkedIn",
-   "region": "Metropolitana de Santiago",
+   "region": "Metropolitana",
    "industria": "Manufactura"
   },
   {
@@ -5327,7 +5327,7 @@
    "n_contactos": 1,
    "tipo_empresa": "proveedor_minero",
    "via": "LinkedIn (sin teléfono de central)",
-   "region": "Metropolitana de Santiago",
+   "region": "Metropolitana",
    "industria": "Minería"
   },
   {
@@ -5392,7 +5392,7 @@
    "n_contactos": 1,
    "tipo_empresa": "operador",
    "via": "llamado + LinkedIn",
-   "region": "Metropolitana de Santiago",
+   "region": "Metropolitana",
    "industria": "Minería"
   },
   {
@@ -5447,7 +5447,7 @@
    "n_contactos": 4,
    "tipo_empresa": "proveedor_minero",
    "via": "llamado + LinkedIn",
-   "region": "Metropolitana de Santiago",
+   "region": "Metropolitana",
    "industria": "Minería"
   },
   {
@@ -5673,7 +5673,7 @@
    "n_contactos": 2,
    "tipo_empresa": "operador",
    "via": "LinkedIn (sin teléfono de central)",
-   "region": "Arica y Parinacota",
+   "region": "Arica",
    "industria": "Minería"
   },
   {
@@ -5777,7 +5777,7 @@
    "n_contactos": 2,
    "tipo_empresa": "operador",
    "via": "llamado + LinkedIn",
-   "region": "Metropolitana de Santiago",
+   "region": "Metropolitana",
    "industria": "Minería"
   },
   {
@@ -5897,7 +5897,7 @@
    "n_contactos": 3,
    "tipo_empresa": "operador",
    "via": "LinkedIn (sin teléfono de central)",
-   "region": "Metropolitana de Santiago",
+   "region": "Metropolitana",
    "industria": "Manufactura"
   },
   {
@@ -5980,7 +5980,7 @@
    "n_contactos": 3,
    "tipo_empresa": "operador",
    "via": "llamado + LinkedIn",
-   "region": "Libertador Gral. Bernardo O'Higgins",
+   "region": "O'Higgins",
    "industria": "Minería"
   },
   {
@@ -6081,7 +6081,7 @@
    "n_contactos": 3,
    "tipo_empresa": "operador",
    "via": "llamado + LinkedIn",
-   "region": "Magallanes y de la Antártica Chilena",
+   "region": "Magallanes",
    "industria": "Pesca y acuicultura"
   },
   {
@@ -6118,7 +6118,7 @@
    "n_contactos": 2,
    "tipo_empresa": "operador",
    "via": "llamado + LinkedIn",
-   "region": "Metropolitana de Santiago",
+   "region": "Metropolitana",
    "industria": "Agro y forestal"
   },
   {
@@ -6201,7 +6201,7 @@
    "n_contactos": 2,
    "tipo_empresa": "proveedor_minero",
    "via": "LinkedIn (sin teléfono de central)",
-   "region": "Libertador General Bernardo O'Higgins",
+   "region": "O'Higgins",
    "industria": "Minería"
   },
   {
@@ -6303,7 +6303,7 @@
    "n_contactos": 1,
    "tipo_empresa": "proveedor_minero",
    "via": "llamado + LinkedIn",
-   "region": "Metropolitana de Santiago",
+   "region": "Metropolitana",
    "industria": "Minería"
   },
   {
@@ -6451,7 +6451,7 @@
    "n_contactos": 2,
    "tipo_empresa": "operador",
    "via": "llamado + LinkedIn",
-   "region": "Metropolitana de Santiago",
+   "region": "Metropolitana",
    "industria": "Agro y forestal"
   },
   {
@@ -6543,7 +6543,7 @@
    "n_contactos": 4,
    "tipo_empresa": "operador",
    "via": "llamado + LinkedIn",
-   "region": "Metropolitana de Santiago",
+   "region": "Metropolitana",
    "industria": "Manufactura"
   },
   {
@@ -6579,7 +6579,7 @@
    "n_contactos": 2,
    "tipo_empresa": "operador",
    "via": "llamado + LinkedIn",
-   "region": "Metropolitana de Santiago",
+   "region": "Metropolitana",
    "industria": "Minería"
   },
   {
@@ -6607,7 +6607,7 @@
    "n_contactos": 1,
    "tipo_empresa": "proveedor_minero",
    "via": "llamado + LinkedIn",
-   "region": "Magallanes y de la Antártica Chilena",
+   "region": "Magallanes",
    "industria": "Minería"
   },
   {
@@ -6666,7 +6666,7 @@
    "n_contactos": 5,
    "tipo_empresa": "proveedor_minero",
    "via": "llamado + LinkedIn",
-   "region": "Metropolitana de Santiago",
+   "region": "Metropolitana",
    "industria": "Minería"
   },
   {
@@ -6759,7 +6759,7 @@
    "n_contactos": 1,
    "tipo_empresa": "operador",
    "via": "LinkedIn (sin teléfono de central)",
-   "region": "La Araucanía",
+   "region": "Araucanía",
    "industria": "Manufactura"
   },
   {
@@ -6823,7 +6823,7 @@
    "n_contactos": 5,
    "tipo_empresa": "operador",
    "via": "llamado + LinkedIn",
-   "region": "Metropolitana de Santiago",
+   "region": "Metropolitana",
    "industria": "Minería"
   },
   {
@@ -6915,7 +6915,7 @@
    "n_contactos": 5,
    "tipo_empresa": "operador",
    "via": "llamado + LinkedIn",
-   "region": "Metropolitana de Santiago",
+   "region": "Metropolitana",
    "industria": "Minería"
   },
   {
@@ -7017,7 +7017,7 @@
    "n_contactos": 1,
    "tipo_empresa": "operador",
    "via": "llamado + LinkedIn",
-   "region": "Metropolitana de Santiago",
+   "region": "Metropolitana",
    "industria": "Combustibles y gas"
   },
   {
@@ -7063,7 +7063,7 @@
    "n_contactos": 3,
    "tipo_empresa": "operador",
    "via": "LinkedIn (sin teléfono de central)",
-   "region": "Metropolitana de Santiago",
+   "region": "Metropolitana",
    "industria": "Manufactura"
   },
   {
@@ -7109,7 +7109,7 @@
    "n_contactos": 3,
    "tipo_empresa": "proveedor_minero",
    "via": "LinkedIn (sin teléfono de central)",
-   "region": "Metropolitana de Santiago",
+   "region": "Metropolitana",
    "industria": "Minería"
   },
   {
@@ -7146,7 +7146,7 @@
    "n_contactos": 2,
    "tipo_empresa": "operador",
    "via": "LinkedIn (sin teléfono de central)",
-   "region": "Metropolitana de Santiago",
+   "region": "Metropolitana",
    "industria": "Minería"
   },
   {
@@ -7257,7 +7257,7 @@
    "n_contactos": 2,
    "tipo_empresa": "operador",
    "via": "llamado + LinkedIn",
-   "region": "Libertador General Bernardo O'Higgins",
+   "region": "O'Higgins",
    "industria": "Agro y forestal"
   },
   {
@@ -7357,7 +7357,7 @@
    "n_contactos": 4,
    "tipo_empresa": "operador",
    "via": "llamado + LinkedIn",
-   "region": "Libertador General Bernardo O'Higgins",
+   "region": "O'Higgins",
    "industria": "Minería"
   },
   {
@@ -7431,7 +7431,7 @@
    "n_contactos": 2,
    "tipo_empresa": "operador",
    "via": "LinkedIn (sin teléfono de central)",
-   "region": "Metropolitana de Santiago",
+   "region": "Metropolitana",
    "industria": "Pesca y acuicultura"
   },
   {
@@ -7506,7 +7506,7 @@
    "n_contactos": 1,
    "tipo_empresa": "proveedor_minero",
    "via": "LinkedIn (sin teléfono de central)",
-   "region": "Metropolitana de Santiago",
+   "region": "Metropolitana",
    "industria": "Minería"
   },
   {
@@ -7542,7 +7542,7 @@
    "n_contactos": 2,
    "tipo_empresa": "operador",
    "via": "LinkedIn (sin teléfono de central)",
-   "region": "Metropolitana de Santiago",
+   "region": "Metropolitana",
    "industria": "Minería"
   },
   {
@@ -7632,7 +7632,7 @@
    "n_contactos": 4,
    "tipo_empresa": "operador",
    "via": "LinkedIn (sin teléfono de central)",
-   "region": "Magallanes y de la Antártica Chilena",
+   "region": "Magallanes",
    "industria": "Pesca y acuicultura"
   },
   {
@@ -7747,7 +7747,7 @@
    "n_contactos": 4,
    "tipo_empresa": "operador",
    "via": "llamado + LinkedIn",
-   "region": "Metropolitana de Santiago",
+   "region": "Metropolitana",
    "industria": "Manufactura"
   },
   {
@@ -7784,7 +7784,7 @@
    "n_contactos": 2,
    "tipo_empresa": "operador",
    "via": "LinkedIn (sin teléfono de central)",
-   "region": "Magallanes y de la Antártica Chilena",
+   "region": "Magallanes",
    "industria": "Agro y forestal"
   },
   {
@@ -7812,7 +7812,7 @@
    "n_contactos": 1,
    "tipo_empresa": "proveedor_minero",
    "via": "LinkedIn (sin teléfono de central)",
-   "region": "Magallanes y de la Antártica Chilena",
+   "region": "Magallanes",
    "industria": "Minería"
   },
   {
@@ -8137,7 +8137,7 @@
    "n_contactos": 2,
    "tipo_empresa": "proveedor_minero",
    "via": "LinkedIn (sin teléfono de central)",
-   "region": "Metropolitana de Santiago",
+   "region": "Metropolitana",
    "industria": "Minería"
   },
   {
@@ -8202,7 +8202,7 @@
    "n_contactos": 5,
    "tipo_empresa": "operador",
    "via": "llamado + LinkedIn",
-   "region": "Magallanes y de la Antártica Chilena",
+   "region": "Magallanes",
    "industria": "Minería / metalurgia"
   },
   {

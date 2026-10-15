@@ -45,7 +45,28 @@ def bloque_emp(p):
         filas += (f'<div class="ct"><span class="nm">{esc(c["nombre"])}</span>'
                   f'<span class="cg">{esc(c["cargo"][:50])}</span>{badge} {li}'
                   f'<button class="cp" data-g="{esc(gt)}" onclick="copiar(this)">guion</button></div>')
-    return f'''<div class="emp">
+    # ALIAS DE BÚSQUEDA: sin esto, buscar "codelco" o "mlp" no encuentra nada porque la razón
+    # social es otra ("CORP NACIONAL DEL COBRE DE CHILE", "MINERA LOS PELAMBRES").
+    ALIAS = {
+        "corp nacional del cobre": "codelco cobre chuquicamata andina teniente salvador",
+        "minera los pelambres": "mlp pelambres",
+        "minera escondida": "escondida bhp",
+        "cia minera del pacifico": "cmp cap acero huachipato cmpc",
+        "empresa nacional del petroleo": "enap",
+        "empresa nacional de mineria": "enami",
+        "soc quimica y minera": "sqm",
+        "comp a minera do a in s": "collahuasi",
+        "minera spence": "spence",
+        "anglo american sur": "anglo",
+        "minera cemin": "cemin",
+        "minera florida": "yamana gold fields",
+    }
+    idx = (p["empresa"] + " " + (p.get("region") or "") + " " + (p.get("industria") or "")).lower()
+    ne = p["empresa"].lower()
+    for k, a in ALIAS.items():
+        if k in ne:
+            idx += " " + a
+    return f'''<div class="emp" data-b="{esc(idx)}">
       <div class="eh"><b>{esc(p["empresa"])}</b>
         <span class="com">{esc(p.get("region") or "—")}</span>
         <span class="ind">{esc(p.get("industria") or "—")}</span>
@@ -59,11 +80,16 @@ def vista(dic, titulo):
     tabs, panes = "", ""
     for i, (k, v) in enumerate(items):
         on = " active" if i == 0 else ""
-        tabs += (f'<button class="tab{on}" onclick="ver(this,\'g{i}\')">'
+        # OJO: el id lleva el PREFIJO de la vista. Sin él, las dos vistas generan g0..g15 y los ids
+        # se REPITEN en el documento: al hacer clic, querySelector('#g0') devuelve siempre el de la
+        # primera vista, así que el panel que cambia es el de la vista que no se está mirando
+        # (síntoma: "hago clic en la pestaña y no pasa nada").
+        pid = f'{titulo}-{i}'
+        tabs += (f'<button class="tab{on}" onclick="ver(this,\'{pid}\')">'
                  f'{esc(k)}<span class="tb">{v["contactos"]}</span></button>')
         emps = [p for p in plan if (p.get("region") if titulo == "reg" else p.get("industria")) == k]
         emps.sort(key=lambda p: -len(p["contactos"]))
-        panes += (f'<div class="pane{on}" id="g{i}">'
+        panes += (f'<div class="pane{on}" id="{pid}">'
                   + "".join(bloque_emp(p) for p in emps) + '</div>')
     return f'<div class="grupo" data-v="{titulo}">{tabs}</div><div class="panes">{panes}</div>'
 
@@ -88,7 +114,8 @@ h1{{font-size:25px;font-weight:680;letter-spacing:-.4px;margin-bottom:4px}}
 .tab{{background:var(--cd);border:1px solid var(--bd);border-radius:7px;padding:5px 11px;font-size:12.5px;cursor:pointer;font-weight:500}}
 .tab.on{{background:#111827;color:#fff;border-color:#111827}}
 .tb{{display:inline-block;margin-left:6px;font-size:10.5px;opacity:.7}}
-.pane{{display:none}} .pane.active{{display:block}}
+/* el JS controla el display de cada pane (filtro + pestaña activa); el CSS solo da la base */
+.pane{{display:none}}
 .emp{{background:var(--cd);border:1px solid var(--bd);border-radius:11px;padding:12px 15px;margin-bottom:8px}}
 .eh{{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap;padding-bottom:7px;margin-bottom:7px;border-bottom:1px solid #f3f4f6}}
 .eh b{{font-size:14px}}
@@ -159,13 +186,20 @@ function cambiar(v, el){{
   filtrar();
 }}
 function ver(el, id){{
-  const grupo = el.parentElement;
+  // el grupo de tabs y el contenedor de panes son HERMANOS dentro de la vista
+  const grupo = el.closest('.grupo');
+  const panes = grupo.nextElementSibling;
   grupo.querySelectorAll('.tab').forEach(t=>t.classList.remove('on'));
   el.classList.add('on');
-  const panes = grupo.nextElementSibling;
-  panes.querySelectorAll('.pane').forEach(p=>p.classList.remove('active'));
-  const p = panes.querySelector('#'+id);
-  if(p) p.classList.add('active');
+  // OJO: hay que poner display='block' EXPLÍCITO. Con display='' el pane vuelve al valor del CSS
+  // (.pane{{display:none}}) y no se ve nada: la pestaña se marca pero el contenido no aparece
+  // (síntoma reportado: "hago clic y no sale nada").
+  panes.querySelectorAll('.pane').forEach(p=>{{
+    p.classList.remove('active');
+    p.style.display = 'none';
+  }});
+  const p = panes.querySelector('#'+CSS.escape(id));
+  if(p){{ p.classList.add('active'); p.style.display = 'block'; }}
   filtrar();
 }}
 function filtrar(){{
@@ -174,18 +208,25 @@ function filtrar(){{
     cont.querySelectorAll('.pane').forEach(p=>{{
       let hits = 0;
       p.querySelectorAll('.emp').forEach(e=>{{
-        const ok = !q || e.textContent.toLowerCase().includes(q);
+        // se busca en data-b (que incluye los ALIAS: codelco, mlp, cmpc...)
+        const ok = !q || (e.dataset.b||'').includes(q);
         e.style.display = ok ? '' : 'none';
         if(ok) hits++;
       }});
-      if(q){{
-        p.style.display = hits ? '' : 'none';
-      }} else {{
-        p.style.display = p.classList.contains('active') ? '' : 'none';
-      }}
+      // con filtro: se muestra el pane si tiene resultados. Sin filtro: solo el activo.
+      // display block EXPLICITO (con cadena vacia el CSS .pane display none lo tapa).
+      const mostrar = q ? hits > 0 : p.classList.contains('active');
+      p.style.display = mostrar ? 'block' : 'none';
     }});
   }});
 }}
+// al cargar, mostrar el panel activo de cada vista (sin esto la pagina aparece VACIA hasta
+// que el usuario hace clic en una pestana). Va en IIFE sin esperar DOMContentLoaded: el script
+// esta al final del body, asi que el DOM ya existe y el evento ya paso.
+(function init(){{
+  document.querySelectorAll('.panes .pane.active').forEach(p => p.style.display = 'block');
+  filtrar();
+}})();
 function copiar(b){{
   navigator.clipboard.writeText(b.dataset.g);
   const m = document.getElementById('msg');
