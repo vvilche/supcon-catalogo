@@ -1,0 +1,210 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ITL 2026: postulación por desafío y como sistema</title><style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#f7f8fa;--cd:#fff;--bd:#e5e7eb;--tx:#111827;--mu:#6b7280;--ac:#1d4ed8;--vd:#047857;--am:#b45309;--ro:#b91c1c}
+body{background:var(--bg);color:var(--tx);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;font-size:14.5px;line-height:1.6;padding:24px 16px 70px}
+.wrap{max-width:1150px;margin:0 auto}
+h1{font-size:27px;font-weight:680;letter-spacing:-.4px;margin-bottom:5px}
+.sub0{color:var(--mu);font-size:14px;margin-bottom:20px;max-width:950px}
+h2{font-size:20px;font-weight:660;margin:32px 0 12px;letter-spacing:-.2px}
+h3{font-size:17px;font-weight:660}
+h4{font-size:12.5px;font-weight:700;text-transform:uppercase;letter-spacing:.4px;color:var(--mu);margin:14px 0 7px}
+.card{background:var(--cd);border:1px solid var(--bd);border-radius:12px;padding:16px 19px;margin-bottom:13px}
+.datos{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:9px;margin-bottom:16px}
+.dd{background:var(--cd);border:1px solid var(--bd);border-left:4px solid var(--ac);border-radius:10px;padding:10px 14px}
+.dd b{font-size:11px;color:var(--mu);text-transform:uppercase;letter-spacing:.4px;display:block}
+.dd .v{font-size:16px;font-weight:700;display:block;margin:2px 0}
+.dd .n{font-size:11.5px;color:var(--mu)}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+th{text-align:left;font-size:10.5px;text-transform:uppercase;letter-spacing:.4px;color:var(--mu);font-weight:700;padding:8px;border-bottom:2px solid var(--bd)}
+td{padding:8px;border-bottom:1px solid #f3f4f6;vertical-align:top}
+tr:last-child td{border-bottom:none}
+.cod{font-family:ui-monospace,Menlo,monospace;font-weight:700;color:var(--ac);font-size:14px}
+.sub2{font-size:12.5px;color:#4b5563}
+.gris{color:var(--mu);font-style:italic}
+.chip{font-size:10.5px;font-weight:700;border-radius:5px;padding:2px 8px;white-space:nowrap}
+.chip.ok{background:#f0fdf4;color:#065f46;border:1px solid #bbf7d0}
+.chip.no{background:#f9fafb;color:#9ca3af;border:1px solid #e5e7eb}
+.chip.mid{background:#fffbeb;color:#92400e;border:1px solid #fde68a}
+tr.no{opacity:.55}
+.ficha{background:var(--cd);border:1px solid var(--bd);border-radius:12px;padding:17px 20px;margin-bottom:14px}
+.fh{display:flex;gap:12px;align-items:baseline;flex-wrap:wrap;padding-bottom:9px;border-bottom:1px solid #f3f4f6;margin-bottom:10px}
+.fh h3{flex:1}
+.macro{font-size:11px;background:#f3f4f6;border-radius:5px;padding:2px 9px;color:#374151}
+.py{font-size:13.5px;color:#1f2937;margin-bottom:11px}
+.dato{font-size:13.5px;background:#f9fafb;border-radius:8px;padding:9px 13px;margin-bottom:6px}
+.lb{font-size:10.5px;font-weight:700;letter-spacing:.5px;color:var(--mu);margin-right:7px}
+.porq{font-size:12.5px;background:#fffbeb;border-left:3px solid var(--am);border-radius:6px;padding:8px 13px;margin-bottom:11px;color:#78350f}
+.porq b{color:#92400e}
+.col2{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.col2 ul{margin-left:17px} .col2 li{font-size:12.5px;margin-bottom:4px}
+.ofs{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:9px}
+.of{background:#f9fafb;border-radius:9px;padding:10px 13px}
+.of b{font-size:13px;color:#065f46}
+.of p{font-size:12.5px;color:#374151;margin-top:2px}
+table.titl{font-size:12.5px}
+.niv{font-weight:700;color:var(--vd);text-align:right;white-space:nowrap}
+.pie{font-size:12.5px;color:var(--mu);margin-top:11px;padding-top:9px;border-top:1px solid #f3f4f6}
+.capa{display:flex;gap:13px;align-items:baseline;background:var(--cd);border:1px solid var(--bd);border-left:4px solid var(--vd);border-radius:10px;padding:11px 16px;margin-bottom:7px;flex-wrap:wrap}
+.cn{font-size:13px;font-weight:700;color:var(--vd);min-width:150px}
+.capa p{font-size:13px;flex:1;min-width:260px}
+.cd{font-size:11.5px;color:var(--mu);width:100%;padding-left:163px}
+.ven,.rie{background:var(--cd);border:1px solid var(--bd);border-radius:10px;padding:11px 16px;margin-bottom:8px}
+.ven b{font-size:13.5px;color:#065f46}
+.rie b{font-size:13.5px;color:#92400e}
+.ven p,.rie p{font-size:12.5px;color:#374151;margin-top:3px}
+.rie{border-left:4px solid var(--am)}
+.ven{border-left:4px solid var(--vd)}
+footer{margin-top:30px;padding-top:15px;border-top:1px solid var(--bd);font-size:12.5px;color:var(--mu)}
+footer a{color:var(--ac)}
+code{background:#f3f4f6;padding:1px 5px;border-radius:4px;font-size:12.5px}
+</style></head><body><div class="wrap">
+
+<h1>ITL 2026: la postulación, por desafío y como sistema</h1>
+<p class="sub0">Segundo Llamado de Innovación Abierta del <b>Instituto de Tecnologías Limpias</b>
+(Antofagasta, Corfo–SQM). Acá está el mapa de los 8 desafíos, la ficha de los tres que le calzan a
+CONECTA, y la jugada de presentarlos como <b>una sola arquitectura</b>.</p>
+
+<h2>1. Los datos duros (antes de escribir nada)</h2>
+<div class="datos">
+  <div class="dd"><b>Cierre</b><span class="v">31 de julio de 2026, 23:59 h</span><span class="n">Quedan ~2 semanas hábiles</span></div><div class="dd"><b>Etapa</b><span class="v">RFI (Request for Information)</span><span class="n">Exploratoria: NO adjudica dinero, recopila capacidades</span></div><div class="dd"><b>Quién postula</b><span class="v">Persona jurídica (no natural)</span><span class="n">Empresa, EBT, startup, universidad, centro. Nacional o internacional</span></div><div class="dd"><b>TRL de entrada</b><span class="v">mínimo 4, máximo 8</span><span class="n">Se piden antecedentes que lo acrediten</span></div><div class="dd"><b>TRL objetivo</b><span class="v">mínimo 5, máximo 9</span><span class="n"></span></div><div class="dd"><b>Coinversión ITL</b><span class="v">hasta 50%</span><span class="n">La contraparte puede ser pecuniaria o VALORIZADA (bienes, servicios, know-how)</span></div><div class="dd"><b>Escala de referencia</b><span class="v">8 proyectos y ~US$50M en el primer llamado</span><span class="n">No es un ejercicio académico</span></div><div class="dd"><b>Formulario</b><span class="v">14 secciones (Anexo 1 de las bases)</span><span class="n">Anexos: cartas de interés + certificado de vigencia (&lt;90 días) + declaración jurada</span></div>
+</div>
+
+<h2>2. Los 8 desafíos: a cuáles sí y a cuáles no</h2>
+<div class="card">
+  <table><thead><tr><th>#</th><th>Desafío</th><th>Encaje</th><th>Por qué</th></tr></thead>
+  <tbody>
+  <tr class="no">
+    <td class="cod">A1</td>
+    <td><b>Valorización de salmueras, ZLD</b></td>
+    <td><span class="chip no">no</span></td>
+    <td class="sub2">Química de membranas y cristalización. No es la capa de datos.<br><span class="gris">Pide caracterización fisicoquímica y planta piloto de proceso.</span></td>
+  </tr>
+  <tr class="no">
+    <td class="cod">A2</td>
+    <td><b>Pérdida por evaporación en grandes superficies</b></td>
+    <td><span class="chip no">no</span></td>
+    <td class="sub2">Coberturas flotantes, sombreaderos, capas monomoleculares.<br><span class="gris">Es obra física y materiales, no digitalización.</span></td>
+  </tr>
+  <tr class="si">
+    <td class="cod">A3</td>
+    <td><b>Eficiencia y monitoreo predictivo en impulsión de agua y relaves</b></td>
+    <td><span class="chip ok">POSTULAR</span></td>
+    <td class="sub2">Monitoreo predictivo, cavitación/fugas/desgaste en tiempo real, gemelo digital.<br><span class="gris">EL MÁS FUERTE. Excluye reemplazar infraestructura de bombeo: solo la capa encima.</span></td>
+  </tr>
+  <tr class="si">
+    <td class="cod">A4</td>
+    <td><b>Gestión hídrica inteligente: digitalización y decisión en tiempo real</b></td>
+    <td><span class="chip ok">POSTULAR</span></td>
+    <td class="sub2">Interoperabilidad OT/IT, dashboards georreferenciados, gemelo digital del ciclo del agua.<br><span class="gris">El más obvio y por eso el MÁS COMPETIDO. Todos los integradores postulan acá.</span></td>
+  </tr>
+  <tr class="no">
+    <td class="cod">E1</td>
+    <td><b>Reciclaje de paneles solares y palas (Ley REP)</b></td>
+    <td><span class="chip no">no</span></td>
+    <td class="sub2">Planta de valorización física de residuos.<br><span class="gris">Requiere infraestructura de reciclaje, no es nuestro negocio.</span></td>
+  </tr>
+  <tr class="parcial">
+    <td class="cod">E2</td>
+    <td><b>Suministro para industrias aisladas</b></td>
+    <td><span class="chip mid">solo con socio</span></td>
+    <td class="sub2">Microredes renovables + almacenamiento para zonas fuera del SEN.<br><span class="gris">Solo con un socio de energía. La capa de control y monitoreo sí es nuestra.</span></td>
+  </tr>
+  <tr class="no">
+    <td class="cod">L1</td>
+    <td><b>Materiales catódicos y anódicos de litio</b></td>
+    <td><span class="chip no">no</span></td>
+    <td class="sub2">Laboratorio de baterías, escalamiento de materiales.<br><span class="gris">Cero relación.</span></td>
+  </tr>
+  <tr class="si">
+    <td class="cod">M1</td>
+    <td><b>Optimización de flotación y lixiviación</b></td>
+    <td><span class="chip ok">POSTULAR</span></td>
+    <td class="sub2">Sistemas de CONTROL EN LÍNEA, recuperación metalúrgica, menos insumos.<br><span class="gris">EL SLEEPER: casi todos los postulantes son metalurgistas. El que traiga la capa de control se diferencia solo.</span></td>
+  </tr></tbody></table>
+</div>
+
+<h2>3. La jugada de sistema: una arquitectura, tres desafíos</h2>
+<div class="card">
+  <h3>Una arquitectura, tres desafíos</h3>
+  <p class="py" style="margin-top:7px">A3, A4 y M1 no son tres proyectos: son el MISMO stack aplicado a tres activos distintos. Sensores → integración OT/IT → capa de datos con histórico (UNS) → analítica → decisión y control en línea. Cambia el activo (bombas / ciclo del agua / flotación), no la plataforma.</p>
+  <p class="porq"><b>Por qué conviene:</b> Postular a uno solo es competir en el desafío más poblado. Postular a los tres con la MISMA arquitectura posiciona a CONECTA como &#x27;el que tiene la capa de integración&#x27; — que es lo que los tres piden y ninguno de los competidores va a traer. El RFI es gratis y exploratorio: no compromete a tres proyectos, compromete UNA capacidad.</p>
+  <h4>Las 5 capas (las mismas para los tres)</h4>
+  <div class="capa"><span class="cn">1. Sensórica</span><p>Instrumentación de campo + analítica de proceso. Es donde la medición hace la diferencia entre controlar y estimar.</p><span class="cd">dónde juega: A3 (vibración, caudal, presión) · A4 (calidad de agua) · M1 (ley, densidad, pH)</span></div><div class="capa"><span class="cn">2. Integración OT/IT</span><p>Puente desde el SCADA y los PLC que YA existen (OPC UA / Modbus) hacia un árbol de datos unificado, con ciberseguridad industrial.</p><span class="cd">dónde juega: A3 y A4 lo piden explícito · M1 lo necesita para el control</span></div><div class="capa"><span class="cn">3. Capa de datos (UNS)</span><p>Un solo árbol de datos con histórico por variable. El KPI de &#x27;latencia de decisión&#x27; y el de &#x27;tiempo de respuesta&#x27; se responden acá.</p><span class="cd">dónde juega: Los tres: latencia (A4), tiempo de respuesta (A3), estabilidad (M1)</span></div><div class="capa"><span class="cn">4. Analítica y diagnóstico</span><p>Tendencias, firmas de vibración, detección temprana. El &#x27;prototipo de diagnóstico en tiempo real&#x27; que A3 pide.</p><span class="cd">dónde juega: A3 (cavitación, fugas, desgaste) · A4 (eventos fuera de especificación)</span></div><div class="capa"><span class="cn">5. Decisión y control</span><p>Dashboards georreferenciados, gemelo digital y lazo cerrado.</p><span class="cd">dónde juega: A4 (dashboards + gemelo) · M1 (control en línea) · A3 (gemelo de impulsión)</span></div>
+  <h4>Por qué presentarlo así</h4>
+  <div class="ven"><b>La misma inversión sirve tres veces</b><p>La arquitectura se construye una vez y se instancia en tres activos. El esfuerzo de ingeniería no se triplica.</p></div><div class="ven"><b>El asiento en el ecosistema</b><p>El ITL marcó &#x27;Muy alto&#x27; querer ser el testbed de sensores y el articulador OT/IT. Ese rol se gana presentando la CAPA COMÚN, no un piloto suelto.</p></div><div class="ven"><b>Menos competencia por diseño</b><p>En A3 y M1 el postulante típico es de proceso/hidráulica. En A4 son integradores. Presentar los tres con la misma plataforma cubre ambos frentes con un solo mensaje.</p></div><div class="ven"><b>El piloto sale de la cartera propia</b><p>La lista de cuentas con decisores mapeados (nombre, cargo, LinkedIn) permite nombrar la faena en el formulario en vez de postular en abstracto.</p></div>
+</div>
+
+<h2>4. Ficha por desafío</h2>
+
+  <div class="ficha">
+    <div class="fh"><span class="cod">A3</span>
+      <h3>Eficiencia Energética y de Monitoreo en Sistemas de Transporte e Impulsión</h3>
+      <span class="macro">Agua</span></div>
+    <p class="py">Es el desafío donde CONECTA encaja con MÁS ventaja y MENOS competencia: pide exactamente instrumentación + diagnóstico predictivo + tiempo real, que es la línea de producto.</p>
+    
+        <div class="dato"><span class="lb">EXCLUYE</span> Reemplazo masivo de infraestructura de bombeo · Rediseño de redes u obras civiles</div>
+        <div class="porq"><b>Por qué importa:</b> El freno comercial más grande (convencer al cliente de cambiar sus bombas) desaparece: el desafío pide una CAPA ENCIMA de lo instalado.</div>
+    <div class="dato"><span class="lb">INCLUYE</span></div>
+    <div class="col2">
+      <div><h4>Qué piden</h4><ul><li>Prototipo de diagnóstico en TIEMPO REAL que detecte cavitación, fugas o desgaste prematuro ANTES de la falla</li><li>Integración de digitalización y herramientas de monitoreo predictivo en el piloto</li><li>Gemelo digital del sistema de impulsión (KPI: % de error respecto a mediciones reales)</li><li>Programa de entrenamiento para operadores</li></ul></div>
+      <div><h4>Los KPI de la ficha</h4><ul><li>Consumo energético específico de impulsión (kWh/m³) — se mide con caudalímetros + analizadores de potencia</li><li>Disponibilidad operacional de los activos de bombeo (%)</li><li>MTBF — tiempo medio entre fallas (horas) — sale del histórico de vibración</li><li>Tiempo de respuesta del sistema de monitoreo predictivo (minutos) — es el KPI de la capa UNS</li><li>Precisión del gemelo digital vs mediciones reales (% error)</li></ul></div>
+    </div>
+    <h4>Qué ofrece CONECTA para este desafío</h4>
+    <div class="ofs"><div class="of"><b>Sensórica de proceso</b><p>Instrumentación de campo: caudalímetros, transmisores de presión y temperatura, sensores de vibración. Resuelve cavitación y transientes con medición, no con estimación.</p></div><div class="of"><b>Analítica de calidad de agua</b><p>La línea que resuelve el problema que CAUSA la cavitación: sólidos, pH, conductividad. Sin calidad medida, el diagnóstico predictivo adivina.</p></div><div class="of"><b>Capa UNS + histórico</b><p>Los datos de vibración y proceso a un árbol de datos con histórico. El KPI de &#x27;tiempo de respuesta&#x27; se responde con arquitectura, no con promesa.</p></div><div class="of"><b>Diagnóstico predictivo</b><p>Detección temprana por tendencia de vibración y firma espectral. Es el &#x27;prototipo de diagnóstico en tiempo real&#x27; que el desafío pide.</p></div><div class="of"><b>Gemelo digital</b><p>Modelo del sistema de impulsión alimentado por datos reales. El KPI de &#x27;% de error&#x27; es directamente medible.</p></div></div>
+    <h4>Qué quiere el ITL para sí mismo</h4>
+    <table class="titl"><tbody><tr><td>Capacidad de monitoreo predictivo instalada en el ITL como base de servicios al sector</td><td class="niv">Sí</td></tr><tr><td>Gemelos digitales de sistemas de impulsión, replicables en distintas configuraciones</td><td class="niv">Muy Alta</td></tr><tr><td>Laboratorio hidráulico con curvas de desempeño de bombas</td><td class="niv">Alta</td></tr><tr><td>Protocolos de mantenimiento predictivo como servicio</td><td class="niv">Sí</td></tr></tbody></table>
+    <div class="pie"><b>Industrias:</b> Minería metálica/no metálica, Empresas Sanitarias, Operadores de desalinización &nbsp;·&nbsp;
+      <b>KPI que ya medimos:</b> Consumo específico (kWh/m³) · tiempo de respuesta del sistema · precisión del gemelo</div>
+  </div>
+  <div class="ficha">
+    <div class="fh"><span class="cod">A4</span>
+      <h3>Gestión Hídrica Inteligente: de la Digitalización a la Toma de Decisiones en Tiempo Real</h3>
+      <span class="macro">Agua</span></div>
+    <p class="py">El problema que declara es TEXTUALMENTE nuestro argumento: &#x27;fragmentación de datos y altas latencias en la toma de decisiones&#x27;. Se responde con arquitectura de datos, que es lo que ya se vende.</p>
+    
+        <div class="dato"><span class="lb">EXCLUYE</span> Reemplazo de sistemas SCADA o de control existentes · Obras civiles o modificaciones de infraestructura hídrica</div>
+        <div class="porq"><b>Por qué importa:</b> Igual que en A3: el desafío pide la capa de integración ENCIMA del SCADA, no su reemplazo. Es la venta sin el obstáculo.</div>
+    <div class="dato"><span class="lb">INCLUYE</span></div>
+    <div class="col2">
+      <div><h4>Qué piden</h4><ul><li>Plataforma operativa de datos hídricos con gobernanza, interoperabilidad y CIBERSEGURIDAD validados en un piloto</li><li>Reducción DEMOSTRABLE de la latencia en la toma de decisiones (con métricas vs línea base)</li><li>Tableros de control con visualización GEORREFERENCIADA del ciclo completo (captación, proceso, relave, retorno)</li><li>Gemelos digitales del ciclo del agua para simular escasez, fallas de impulsión y cambios de calidad</li><li>Ruta de despliegue multi-sitio a partir del piloto</li></ul></div>
+      <div><h4>Los KPI de la ficha</h4><ul><li>Latencia en la toma de decisiones operacionales (minutos) — el KPI central, y es de arquitectura</li><li>Reducción del consumo de agua de reposición — make-up (%)</li><li>Frecuencia de eventos fuera de especificación de calidad (N°/mes) — se mide con analítica en línea</li><li>Eficiencia de recirculación del agua recuperada</li><li>Consumo energético específico del sistema (kWh/m³)</li></ul></div>
+    </div>
+    <h4>Qué ofrece CONECTA para este desafío</h4>
+    <div class="ofs"><div class="of"><b>Capa de interoperabilidad OT/IT</b><p>El puente que el desafío pide: OPC UA / Modbus desde el SCADA que YA existe hacia un árbol de datos unificado. Con ciberseguridad industrial (segmentación, puertos por red de planta, nunca expuestos).</p></div><div class="of"><b>UNS con histórico</b><p>El argumento directo del KPI de latencia: el dato llega al que decide, no en una planilla días después. Histórico activable por variable.</p></div><div class="of"><b>Dashboards georreferenciados</b><p>El alcance los pide explícitamente: visualización del ciclo completo (captación → proceso → relave → retorno) sobre el plano de la faena.</p></div><div class="of"><b>Gemelo digital del ciclo</b><p>Simulación de escasez, falla de impulsión y cambio de calidad para planificación preventiva.</p></div><div class="of"><b>Analítica de calidad en línea</b><p>Reemplaza el laboratorio externo que el problema declara faltante: eventos fuera de especificación detectados en el momento, no en el informe.</p></div></div>
+    <h4>Qué quiere el ITL para sí mismo</h4>
+    <table class="titl"><tbody><tr><td>Testbed de sensores y tecnologías de medición en tiempo real en el ITL</td><td class="niv">Muy alto</td></tr><tr><td>Rol articulador entre operadores, proveedores OT/IT y reguladores, con metodología TRL→IRL</td><td class="niv">Muy alto</td></tr><tr><td>Metodologías y protocolos de gobernanza de datos hídricos estandarizados</td><td class="niv">Sí</td></tr><tr><td>Estándares de interoperabilidad y ciberseguridad OT como referencia regional</td><td class="niv">Sí</td></tr></tbody></table>
+    <div class="pie"><b>Industrias:</b> Empresas mineras, Empresas Agrícolas, Municipalidades, Industrias en general &nbsp;·&nbsp;
+      <b>KPI que ya medimos:</b> Latencia de decisión · eventos fuera de especificación · eficiencia de recirculación</div>
+  </div>
+  <div class="ficha">
+    <div class="fh"><span class="cod">M1</span>
+      <h3>Optimización de Flotación y Lixiviación para Reducir Residuos e Insumos</h3>
+      <span class="macro">Minería con menos residuos</span></div>
+    <p class="py">Es el desafío con MENOS competencia y el encaje técnico más subestimado: pide &#x27;sistemas de control en línea&#x27; y la estabilidad del control como KPI. Los postulantes van a ser metalurgistas hablando de reactivos.</p>
+    
+    <div class="dato"><span class="lb">INCLUYE</span></div>
+    <div class="col2">
+      <div><h4>Qué piden</h4><ul><li>Diseñar sistemas de CONTROL EN LÍNEA para optimizar condiciones operacionales en tiempo real</li><li>Validar reactivos selectivos y formulaciones de bajo impacto (los metalurgistas cubren esto)</li><li>Pilotos que midan eficiencia técnica, hídrica, energética y ambiental</li><li>Lineamientos técnicos y protocolos de operación para adoptar la plataforma en faenas</li></ul></div>
+      <div><h4>Los KPI de la ficha</h4><ul><li>Mejora en recuperación metalúrgica (%)</li><li>Reducción de residuos por tonelada procesada (%)</li><li>Reducción de consumo de agua, energía y reactivos (%)</li><li>Precisión y ESTABILIDAD del sistema de control en línea (% del tiempo en condiciones óptimas) — el KPI que es nuestro</li></ul></div>
+    </div>
+    <h4>Qué ofrece CONECTA para este desafío</h4>
+    <div class="ofs"><div class="of"><b>Analítica de proceso en línea</b><p>El habilitante que el desafío no nombra pero necesita: medir la variable que se quiere controlar (ley, densidad, granulometría, pH) sin esperar al laboratorio.</p></div><div class="of"><b>Control en línea</b><p>El KPI #4 es literalmente &#x27;precisión y estabilidad del sistema de control&#x27;. Se responde con lazo cerrado sobre medición en línea, no con receta fija.</p></div><div class="of"><b>Control avanzado / APC</b><p>Optimización multivariable de la recuperación. Es la capa donde el proceso mejora sin cambiar el mineral.</p></div><div class="of"><b>UNS + histórico</b><p>La base para que el control tenga dato confiable y para medir la mejora contra línea base.</p></div><div class="of"><b>Válvulas de control e instrumentación</b><p>El actuador: sin válvula que responda, no hay control en línea que valga.</p></div></div>
+    <h4>Qué quiere el ITL para sí mismo</h4>
+    <table class="titl"><tbody><tr><td>Infraestructura para pruebas piloto de flotación y lixiviación optimizada</td><td class="niv">—</td></tr><tr><td>Protocolos de validación y certificación tecnológica en eficiencia metalúrgica</td><td class="niv">—</td></tr><tr><td>Capacidades en integración de control en línea</td><td class="niv">—</td></tr></tbody></table>
+    <div class="pie"><b>Industrias:</b> Minería (cobre y no metálica) &nbsp;·&nbsp;
+      <b>KPI que ya medimos:</b> Estabilidad y precisión del control en línea · reducción de insumos</div>
+  </div>
+
+<h2>5. Los riesgos, derecho</h2>
+<div class="rie"><b>El TRL 4 exige acreditar TECNOLOGÍA, no servicio</b><p>Un &#x27;hacemos integración a medida&#x27; se clasifica bajo. El expediente tiene que presentar la capa de integración como MÉTODO PROPIO con PI (que es como ya se vende: metodología, no producto de tercero). Si el TRL no se puede acreditar, la postulación no avanza por más que el encaje técnico sea bueno.</p></div><div class="rie"><b>Es un RFI: no adjudica plata</b><p>El valor real está en quedar dentro del ecosistema del ITL antes del llamado que sí adjudica. El primer llamado movió ~US$50M. No invertir semanas de ingeniería en esta fase: pide un formulario.</p></div><div class="rie"><b>La cuenta piloto hay que comprometerla antes de escribir</b><p>El formulario pide &#x27;compromisos formales o conversaciones avanzadas&#x27;. Hay que definir QUÉ cuenta concreta se pone como piloto ANTES de redactar, no después.</p></div><div class="rie"><b>El certificado de vigencia tiene vencimiento</b><p>90 días de antigüedad máxima. Verificarlo vigente al momento de POSTULAR, no al de redactar.</p></div>
+
+<footer>
+  Fuente: <a href="https://itlchile.com/desafios/">itlchile.com/desafios</a> · las 8 fichas técnicas (PDF) ·
+  Bases RFI 2026 (Anexo 1: formulario de 14 secciones).
+  Postulación: <code>desafiosdeinnovacionitl.vform.io</code> — cierra el <b>31-jul-2026 23:59</b>.<br>
+  Lo que hay que resolver ANTES de escribir: <b>qué cuenta concreta se pone como piloto</b>, y
+  <b>cómo se acredita el TRL 4</b> (tecnología propia, no servicio).
+</footer>
+</div></body></html>
