@@ -200,10 +200,24 @@ SISTEMA = {
 }
 
 RIESGO = [
-    ("El TRL 4 exige acreditar TECNOLOGÍA, no servicio",
-     "Un 'hacemos integración a medida' se clasifica bajo. El expediente tiene que presentar la capa de "
-     "integración como MÉTODO PROPIO con PI (que es como ya se vende: metodología, no producto de tercero). "
-     "Si el TRL no se puede acreditar, la postulación no avanza por más que el encaje técnico sea bueno."),
+    ("El TRL 4 se acredita con la CAPA DE INTEGRACIÓN, no con los equipos",
+     "CONECTA es partner de TODOS los fabricantes (SUPCON, NovaTech, Vizimax, Belden/Hirschmann), y eso "
+     "NO es un problema: el ITL nunca pidió que el postulante fabrique el instrumento — de hecho quiere "
+     "ser el TESTBED de proveedores. El TRL se le asigna a la SOLUCIÓN que se postula, no al sensor. "
+     "Entonces la PI no está en el equipo: está en el método de integración, modelado y validación."),
+    ("Qué se escribe y qué NO",
+     "NO: 'integramos sensores de terceros' (se lee como servicio y baja el TRL). "
+     "SÍ: 'desarrollamos y validamos un MÉTODO propio de integración de datos industriales, que se "
+     "instancia sobre hardware de fabricantes representados, y que queda disponible para el ITL como "
+     "protocolo transferible'. La diferencia no es cosmética: la primera es una empresa de servicios, "
+     "la segunda es un desarrollo con know-how y PI derivada."),
+    ("La evidencia del método ya existe",
+     "COMASA Lautaro: 945 señales modeladas en 10 direcciones (99% menos direcciones) con las señales "
+     "como campos y verificación de CERO pérdidas. Eso es arquitectura propia documentada, no un "
+     "trabajo a medida. Es el activo con el que se acredita el TRL."),
+    ("Y hay un bonus que el ITL ya marcó 'Muy alto'",
+     "El ITL quiere el ROL ARTICULADOR entre operadores, proveedores OT/IT y reguladores. Ser partner "
+     "de todos los fabricantes ES ese rol: no hay que disimularlo, es exactamente lo que buscan."),
     ("Es un RFI: no adjudica plata",
      "El valor real está en quedar dentro del ecosistema del ITL antes del llamado que sí adjudica. El "
      "primer llamado movió ~US$50M. No invertir semanas de ingeniería en esta fase: pide un formulario."),
@@ -213,6 +227,22 @@ RIESGO = [
     ("El certificado de vigencia tiene vencimiento",
      "90 días de antigüedad máxima. Verificarlo vigente al momento de POSTULAR, no al de redactar."),
 ]
+
+# ---------------------------------------------------------------- partners y PI
+PARTNERS = [
+    ("SUPCON", "DCS/SIS, instrumentación, válvulas, analítica, diagnóstico predictivo (PRIDE) y la plataforma de datos (supOS/Tier0). Es el corazón técnico de la propuesta.",
+     "A3 (vibración, instrumentación, PRIDE) · A4 (datos, supOS) · M1 (control, analítica, válvulas)"),
+    ("NovaTech", "RTU Orion, sincronización Kronos, medición Bitronics. Da la capa de adquisición y tiempo.",
+     "A3 y A4: el dato de campo con marca de tiempo confiable"),
+    ("Vizimax", "PMU, AMU (IEC 61850), RightWON. Medición de alta precisión y sincronización.",
+     "A3: transientes y firma eléctrica de las bombas"),
+    ("Belden / Hirschmann", "Switches industriales IEC 61850-3. Es la red OT y su ciberseguridad.",
+     "A3 y A4: la interoperabilidad OT/IT con ciberseguridad industrial que el desafío exige"),
+]
+
+filas_partners = "".join(
+    f'<div class="of"><b>{esc(p[0])}</b><p>{esc(p[1])}</p><span class="cd">dónde juega: {esc(p[2])}</span></div>'
+    for p in PARTNERS)
 
 
 def chip(v):
@@ -368,7 +398,46 @@ CONECTA, y la jugada de presentarlos como <b>una sola arquitectura</b>.</p>
 <h2>4. Ficha por desafío</h2>
 {fichas_html}
 
-<h2>5. Los riesgos, derecho</h2>
+<h2>5. Los partners y de dónde sale la PI (la pregunta que decide)</h2>
+<div class="card">
+  <div class="porq" style="margin-bottom:12px">
+    <b>El punto clave:</b> CONECTA es partner de <b>todos</b> los fabricantes. Eso <b>no debilita la
+    postulación</b>: el ITL nunca pidió que el postulante fabrique el instrumento — al contrario, marcó
+    <b>"Muy alto"</b> querer ser el <b>testbed de sensores de proveedores</b>. El TRL se le asigna a
+    <b>la solución que se postula</b>, no al equipo. La PI entonces <b>no está en el sensor</b>: está en
+    <b>el método de integración y validación</b>.
+  </div>
+  <h4>Los fabricantes representados y dónde juega cada uno</h4>
+  <div class="ofs">{filas_partners}</div>
+  <h4>Qué se escribe (y qué NO)</h4>
+  <div class="col2">
+    <div class="of" style="background:#fef2f2"><b style="color:#b91c1c">✗ NO</b>
+      <p>"Integramos sensores de terceros y armamos tableros." — se lee como <b>servicio</b> y el TRL
+      cae.</p></div>
+    <div class="of"><b>✓ SÍ</b>
+      <p>"Desarrollamos y validamos un <b>método propio</b> de integración de datos industriales, que se
+      instancia sobre hardware de fabricantes representados, y que queda <b>disponible para el ITL</b>
+      como protocolo transferible."</p></div>
+  </div>
+  <h4>La evidencia con la que se acredita el TRL</h4>
+  <div class="ofs">
+    <div class="of"><b>Método de modelado de datos</b>
+      <p>COMASA Lautaro: <b>945 señales → 10 direcciones</b> (99% menos direcciones), con las señales
+      como campos y <b>verificación de cero pérdidas</b>. Arquitectura propia documentada, no trabajo
+      a medida.</p></div>
+    <div class="of"><b>Protocolo de validación</b>
+      <p>La verificación por conjuntos (no por totales) que garantiza que no se pierde una señal. Es
+      transferible y es justo el tipo de protocolo que el ITL quiere como referencia.</p></div>
+    <div class="of"><b>Modelo del ciclo hídrico</b>
+      <p>La lógica del gemelo digital del agua, con sus variables y relaciones. Es desarrollo propio
+      sobre datos del cliente.</p></div>
+    <div class="of"><b>El rol articulador</b>
+      <p>Ser partner de todos los fabricantes <b>es</b> el rol que el ITL marcó "Muy alto" (articular
+      operadores, proveedores OT/IT y reguladores). No hay que disimular la posición: es lo que buscan.</p></div>
+  </div>
+</div>
+
+<h2>6. Los riesgos, derecho</h2>
 {riesgos}
 
 <footer>
