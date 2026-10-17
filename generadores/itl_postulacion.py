@@ -228,7 +228,47 @@ RIESGO = [
      "90 días de antigüedad máxima. Verificarlo vigente al momento de POSTULAR, no al de redactar."),
 ]
 
-# ---------------------------------------------------------------- partners y PI
+# ---------------------------------------------------------------- universidades
+UNIS = [
+    ("Universidad Católica del Norte (UCN)", "Antofagasta",
+     "SOCIA CONSTITUYENTE DEL ITL. Participó en el convenio Corfo–ITL (jun-2025): el consorcio tiene "
+     "24 socios, entre ellos 11 casas de estudios, y la UCN es una. Tiene Facultad de Ingeniería y "
+     "Ciencias Geológicas (minas, ambiental) en la misma ciudad del ITL.",
+     "Es la puerta de entrada al ITL. No es una carta de apoyo: es un socio que ya está adentro."),
+    ("Pontificia Universidad Católica de Valparaíso (PUCV)", "Valparaíso",
+     "Universidad con Vicerrectoría de Investigación, Creación e Innovación (VINCI) y tradición en "
+     "ingeniería. Aporta el eje Valparaíso–Coquimbo, donde están las faenas de la zona central "
+     "(Los Pelambres, Andina, El Soldado).",
+     "No es socia del ITL: aporta capilaridad territorial y el vínculo con las faenas del centro."),
+]
+
+filas_unis = "".join(f'''
+  <div class="uni">
+    <div class="uh"><b>{esc(u[0])}</b><span class="uc">{esc(u[1])}</span></div>
+    <p>{esc(u[2])}</p>
+    <div class="ud"><b>Qué aporta:</b> {esc(u[3])}</div>
+  </div>''' for u in UNIS)
+
+SIN_FAENA = {
+    "problema": ("No hay faena piloto comprometida. El formulario, en la sección 3 (Relevancia), pide "
+                 "'interés real de la industria... compromisos formales, conversaciones avanzadas con "
+                 "potenciales clientes'. Si se deja vacío o se escribe 'no tenemos cliente', la "
+                 "postulación pierde."),
+    "clave": ("El campo dice 'SI EXISTEN': no es un requisito de admisibilidad. Y en un RFI "
+              "exploratorio es normal no tener faena — la mayoría está buscando con quién pilotear."),
+    "solucion": ("Convertir el hueco en el rol que el ITL quiere tener. No se escribe 'no tenemos "
+                 "cliente'; se escribe el INTERÉS DE INDUSTRIA MEDIDO y se propone que el piloto se "
+                 "seleccione CON el ITL como articulador — que es exactamente el rol que el ITL marcó "
+                 "'Muy alto'."),
+    "evidencia": ("Levantamiento propio: 3.157 empresas industriales de la Macrozona, 579 grandes y "
+                  "medianas, 477 decisores técnicos identificados por nombre y cargo en 166 empresas "
+                  "—incluidas las faenas donde el desafío aplica (impulsión de agua, relave, flotación). "
+                  "Eso no es 'conversación avanzada', pero es interés de industria verificable, y le "
+                  "dice al ITL algo que le sirve: ya hay a quién poner en el piloto."),
+    "cartas": ("El único anexo obligatorio que se complica son las CARTAS DE INTERÉS. Sin faena, las "
+               "cartas salen de las universidades (UCN, PUCV) como socias tecnológicas — no como "
+               "clientes. Eso es legítimo y es lo que el formulario espera de un consorcio."),
+}
 PARTNERS = [
     ("SUPCON", "DCS/SIS, instrumentación, válvulas, analítica, diagnóstico predictivo (PRIDE) y la plataforma de datos (supOS/Tier0). Es el corazón técnico de la propuesta.",
      "A3 (vibración, instrumentación, PRIDE) · A4 (datos, supOS) · M1 (control, analítica, válvulas)"),
@@ -357,7 +397,14 @@ table.titl{{font-size:12.5px}}
 .cn{{font-size:13px;font-weight:700;color:var(--vd);min-width:150px}}
 .capa p{{font-size:13px;flex:1;min-width:260px}}
 .cd{{font-size:11.5px;color:var(--mu);width:100%;padding-left:163px}}
-.ven,.rie{{background:var(--cd);border:1px solid var(--bd);border-radius:10px;padding:11px 16px;margin-bottom:8px}}
+.ven,.rie,.uni{{background:var(--cd);border:1px solid var(--bd);border-radius:10px;padding:11px 16px;margin-bottom:8px}}
+.uni{{border-left:4px solid var(--ac)}}
+.uh{{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap;margin-bottom:4px}}
+.uh b{{font-size:14px}}
+.uc{{font-size:11px;background:#eff6ff;color:#1e40af;border-radius:4px;padding:1px 7px}}
+.uni p{{font-size:12.5px;color:#374151}}
+.ud{{font-size:12.5px;margin-top:5px;color:#065f46}}
+.ud b{{color:#047857}}
 .ven b{{font-size:13.5px;color:#065f46}}
 .rie b{{font-size:13.5px;color:#92400e}}
 .ven p,.rie p{{font-size:12.5px;color:#374151;margin-top:3px}}
@@ -398,7 +445,51 @@ CONECTA, y la jugada de presentarlos como <b>una sola arquitectura</b>.</p>
 <h2>4. Ficha por desafío</h2>
 {fichas_html}
 
-<h2>5. Los partners y de dónde sale la PI (la pregunta que decide)</h2>
+<h2>5. Las universidades: la puerta que ya está abierta</h2>
+<div class="card">
+  <div class="porq" style="margin-bottom:12px">
+    <b>El hallazgo:</b> la UCN <b>no es un socio que hay que conseguir</b> — es <b>socia constituyente
+    del ITL</b>. El consorcio tiene <b>24 socios, entre ellos 11 casas de estudios</b>, y la UCN
+    participó del convenio Corfo–ITL firmado en Antofagasta (jun-2025).
+  </div>
+  {filas_unis}
+  <div class="porq" style="margin-top:11px">
+    <b>Y el dato que define la estrategia:</b> la UCN <b>ya tiene un desafío ganado</b> del ITL.
+    Eso <b>no es competencia para CONECTA</b>: es el camino recorrido. Ellos saben cómo se arma un
+    expediente que gana, quién evalúa y qué miró el comité. <b>Entrar por ahí es más rápido que abrir
+    el canal desde cero.</b>
+  </div>
+  <h4>Cómo se usa (con la relación en conversaciones iniciales, sin nada formal)</h4>
+  <div class="ofs">
+    <div class="of"><b>1. No se pide una carta todavía</b>
+      <p>Con conversaciones iniciales, pedir una carta de interés formal es pedir demasiado y quema la
+      relación. Primero el café técnico: qué desafío ganaron, con quién, cómo fue el proceso.</p></div>
+    <div class="of"><b>2. Se entra por lo que ellos NO tienen</b>
+      <p>La UCN aporta la academia y el método; no aporta la capa OT/IT industrial ni los fabricantes.
+      Ahí está CONECTA — y ahí está el complemento exacto, no la competencia.</p></div>
+    <div class="of"><b>3. La UCN va como co-proponente, no como carta</b>
+      <p>El formulario tiene un campo de "entidades asociadas". Sumar a la UCN ahí es mucho más fuerte
+      que una carta de apoyo: es un consorcio, que es lo que el ITL premia.</p></div>
+    <div class="of"><b>4. La PUCV aporta el otro eje</b>
+      <p>No es socia del ITL, pero cubre Valparaíso–Coquimbo, donde están Los Pelambres, Andina y El
+      Soldado. Y da la carta de interés si la UCN no la puede dar a tiempo.</p></div>
+  </div>
+</div>
+
+<h2>6. Sin faena piloto: cómo se resuelve</h2>
+<div class="card">
+  <div class="porq" style="border-left-color:#b91c1c;background:#fef2f2;color:#7f1d1d">
+    <b>El problema:</b> {esc(SIN_FAENA["problema"])}
+  </div>
+  <p class="py"><b>La clave:</b> {esc(SIN_FAENA["clave"])}</p>
+  <p class="py"><b>La solución:</b> {esc(SIN_FAENA["solucion"])}</p>
+  <div class="of" style="margin-bottom:9px"><b>La evidencia que sí se puede poner</b>
+    <p>{esc(SIN_FAENA["evidencia"])}</p></div>
+  <div class="of"><b>Las cartas de interés, sin faena</b>
+    <p>{esc(SIN_FAENA["cartas"])}</p></div>
+</div>
+
+<h2>7. Los partners y de dónde sale la PI (la pregunta que decide)</h2>
 <div class="card">
   <div class="porq" style="margin-bottom:12px">
     <b>El punto clave:</b> CONECTA es partner de <b>todos</b> los fabricantes. Eso <b>no debilita la
@@ -437,7 +528,7 @@ CONECTA, y la jugada de presentarlos como <b>una sola arquitectura</b>.</p>
   </div>
 </div>
 
-<h2>6. Los riesgos, derecho</h2>
+<h2>8. Los riesgos, derecho</h2>
 {riesgos}
 
 <footer>
