@@ -29,19 +29,21 @@ SLIDES = [
         "Vengo a hablarles de dos cosas: del mundo al que van a entrar cuando se titulen,",
         "y de qué buscamos nosotros en la gente que va a entrar con nosotros.",
     ], "Sin diapositiva de logos. Solo el nombre y el año: 2026→2046."),
-    (2, "Reencuadre: su carrera no termina en 2031, termina en 2066", 0.6, [
-        "Ustedes se titulan, si todo va bien, alrededor de 2031.",
-        "Y van a trabajar hasta cerca de 2066. Cuarenta años.",
-        "Entonces la pregunta no es '¿qué trabajo hay hoy?'. La pregunta es",
-        "¿qué va a estar pasando en Chile durante esos cuarenta años, y dónde quiero estar parado?",
-    ], "Esta slide cambia el marco: no es una charla de empresa, es una charla de horizonte."),
+    (2, "La práctica no es el primer empleo: es la primera decisión de carrera", 0.6, [
+        "Varios de ustedes están a punto de titularse. La práctica y el primer trabajo",
+        "son las próximas decisiones grandes que van a tomar.",
+        "Y esa decisión no la define solo el primer sueldo: la define dónde van a estar parados",
+        "en diez o veinte años. Porque les quedan cuarenta años de carrera.",
+        "Entonces la pregunta no es '¿hay trabajo hoy?'. La pregunta es",
+        "¿dónde está el trabajo que va a seguir existiendo en 2046?",
+    ], "Decirlo mirando a los que están por titularse. Esta slide cambia el marco: no es una charla de empresa."),
     (3, "Tendencia 1: la demanda eléctrica se duplica (2035-2043)", 1.2, [
         "Según el Coordinador Eléctrico Nacional, en el escenario medio la demanda pasa a",
         "106 TWh al 2035. En el escenario alto, 117. Y si el hidrógeno verde despega: 149 TWh.",
         "Es prácticamente el doble de lo que consumimos hoy.",
         "Duplicar la demanda eléctrica de un país no se hace con más cables solamente:",
         "se hace con más generación, más subestaciones, más control, y gente que sepa operarlo.",
-        "Cada TWh nuevo necesita ingenieros detrás.",
+        "Y esos TWh no los opera un algoritmo: los opera gente que sabe. Gente que se titula ahora.",
     ], "Cifra dura del Coordinador. Es la tendencia madre: las otras dos cuelgan de esta."),
     (4, "Tendencia 2: US$104.549 millones en minería a 2034", 1.2, [
         "Cochilco proyecta la cartera minera 2025-2034 en 104.549 millones de dólares.",
@@ -57,8 +59,9 @@ SLIDES = [
         "operadores de equipos móviles y operadores de equipos fijos.",
         "O sea: falta gente exactamente en lo que ustedes están estudiando.",
         "El 88% de esa demanda NO son proyectos nuevos: es reemplazo por gente que se jubila.",
-        "Hay trabajo ahí, y hay trabajo para rato.",
-    ], "Tercera tendencia. Esta es la que les habla directo. Subrayar 'mantenedores eléctricos'."),
+        "Y ojo con la fecha: esa demanda no empieza en 2034. Corre desde ahora.",
+        "Los que se jubilan se jubilan este año. El reemplazo se contrata antes.",
+    ], "Tercera tendencia. Esta les habla HOY: el reemplazo se contrata antes de que el anterior se jubile."),
     (6, "Y la tendencia que falta nombrar: el ingeniero que ya no trabaja solo", 0.4, [
         "Hay una cuarta, que no está en ningún informe oficial y es la más importante para ustedes:",
         "el trabajo del ingeniero cambió. Antes el dato estaba en un tablero y en un papel.",
@@ -98,7 +101,7 @@ SLIDES = [
         "Eso no lo enseña la universidad y no se aprende leyendo.",
     ], "Hablar de terreno real. Mencionar clientes por tipo (mineras, generadoras, transmisoras)."),
     (11, "Cómo crecemos: acelerado, y por eso los necesitamos", 1.0, [
-        "Nosotros estamos en una etapa de crecimiento acelerado.",
+        "Nosotros estamos en una etapa de crecimiento acelerado, hoy.",
         "Eso tiene una consecuencia concreta para ustedes: la gente que entra ahora",
         "no entra a un puesto que ya existe: entra a construir el puesto que va a existir.",
         "En una empresa grande llegan a un organigrama. En una que crece, el organigrama",
@@ -132,8 +135,10 @@ SLIDES = [
         "Así que la invitación es simple: hagan la práctica acá.",
         "No para que se queden para siempre: para que sepan lo que es la ingeniería de verdad,",
         "con el equipo delante y el cliente esperando.",
-        "Y si les gusta, acá hay trabajo por muchos años, en dos áreas distintas,",
-        "en un país que va a necesitar miles de ingenieros como ustedes en los próximos veinte.",
+        "Varios de ustedes están a punto de titularse. Esta es la semana en que pueden elegir",
+        "dónde empezar, y no es lo mismo empezar en un lugar que en otro.",
+        "Acá hay trabajo para muchos años, en dos áreas distintas, en un país que necesita",
+        "miles de ingenieros como ustedes en los próximos veinte.",
         "En el MatchUp los espero con un desafío real. Gracias.",
     ], "CTA: práctica / MatchUp. Nada de 'postulen a nuestra oferta laboral'."),
 ]
@@ -338,7 +343,11 @@ literal. No leerlos: decirlos. Las notas en ámbar son de escena.</p>
   <div class="nota" style="margin-bottom:8px"><b>Riesgo 3 · Prometer de más.</b> No decir cifras de
   sueldos que no se van a cumplir ni "crecemos 300% al año". Decir "crecimiento acelerado" y que lo
   demás lo deduzcan.</div>
-  <div class="nota"><b>Riesgo 4 · Pasarse de los 15 minutos.</b> Con 15 slides y ~1,5 min cada una
+  <div class="nota" style="margin-bottom:8px"><b>Riesgo 4 · Hablarles como si recién empiezan.</b>
+  Están <b>a punto de titularse</b>: la práctica y el primer empleo son decisiones inminentes, no
+  futuras. Nada de "cuando sean ingenieros" ni de proyectar su titulación a 2031.
+  Todas las cifras de tendencia se conectan con <b>el trabajo que van a buscar este año</b>.</div>
+  <div class="nota"><b>Riesgo 5 · Pasarse de los 15 minutos.</b> Con 15 slides y ~1,5 min cada una
   no hay margen. Si el reloj aprieta, lo que se recorta es la slide 10 (lo que se aprende) y la 14
   (por qué CONECTA) — nunca las de tendencias ni las de actitud.</div>
 </div>
