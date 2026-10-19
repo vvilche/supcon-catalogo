@@ -24,8 +24,10 @@
 | Texto secundario oscuro | `#94A3B8` | Cuerpo en slides oscuras |
 | Texto sobre claro | `#0F172A` | Títulos en slides claras |
 | Texto secundario claro | `#475569` | Cuerpo en slides claras |
+| Verde de marca (logo) | `#0A8439` | El color real del logo CONECTA |
 | Acento verde | `#10B981` | Solo línea PROCESOS |
 | Acento naranja | `#F26522` | Solo Ventas Técnicas |
+| Acento morado | `#7C3AED` | Solo Cumplimiento Normativo |
 | Bordes | `#1E293B` / `#E2E8F0` | Separadores suaves |
 
 ## A.2 Tipografía
@@ -38,8 +40,12 @@
 ## A.3 Estructura de slide
 
 - Márgenes: **64 px arriba/abajo, 76 px izquierda/derecha**. Nada toca el borde.
-- **Marca** arriba a la izquierda en TODAS las slides: un **punto azul de 8 px** +
-  `CONECTA` (mayúscula, bold, 20 px) + `S.A.` (16 px, gris `#94A3B8`, 55% opacidad).
+- **Marca:** en TODAS las slides, arriba a la izquierda, el **archivo de logo CONECTA**
+  que se sube en Theme → Logo. Es un badge rectangular de esquinas redondeadas, verde y blanco:
+  "CON" en blanco sobre bloque verde a la izquierda, "ECTA" en verde sobre blanco a la derecha,
+  y debajo el descriptor "Electrical Automation Solutions" en verde.
+  **Nombre de la empresa: CONECTA INGENIERÍA S.A.** (no "CONECTA S.A.").
+  Alto recomendado: 50-60 px. No agrandarlo más: si ocupa media slide, se ve amateur.
 - Kicker debajo de la marca (18 px de aire). Luego título. Luego contenido.
 - Fuente de datos al pie, 12.5 px, gris. Numeración de slide al pie.
 
@@ -75,7 +81,7 @@ body,p,li{font-family:'Inter',sans-serif;line-height:1.55}
 
 # SECCIÓN B — CONTENIDO (pegar en "Paste in text")
 
-Crea una presentación de **17 slides** en **español de Chile** (tuteo, no voseo) para una
+Crea una presentación de **18 slides** en **español de Chile** (tuteo, no voseo) para una
 exposición de **15 minutos** en la **Facultad de Ingeniería de la Pontificia Universidad Católica
 de Valparaíso**, en el **Workshop ConectaTalento 2026** (feria de práctica profesional y primer
 empleo).
@@ -240,7 +246,17 @@ Cuatro tarjetas:
 - **Cumple** — Si dijiste a las 8, a las 7:50 estás. El liderazgo es que tu palabra valga.
 - **Le importa** — Anotar el dato que te pidieron aunque nadie te esté mirando.
 
-## Slide 17 — Cierre
+## Slide 17 — Por qué CONECTA
+Kicker: POR QUÉ CONECTA (en azul)
+Título: **Hacemos la pega completa**
+Cuatro pasos en fila (cada uno con su etiqueta en mayúscula y una línea de texto):
+- **Vendemos** — Elegimos la tecnología.
+- **Diseñamos** — Calculamos e ingenierizamos.
+- **Instalamos** — Ponemos el equipo en terreno.
+- **Ponemos en marcha** — Y respondemos por el resultado.
+Cita destacada al pie: *No tercerizamos el problema.*
+
+## Slide 18 — Cierre
 Kicker: LA INVITACIÓN
 Título: **Hagan la práctica acá**
 Subtítulo: No para quedarse para siempre. Para saber lo que es la ingeniería de verdad.
@@ -261,6 +277,6 @@ Incluir la línea: Vendemos · Diseñamos · Instalamos · Ponemos en marcha. No
 - **Nada en inglés** salvo siglas técnicas del rubro (DCS, SIS, SCADA, RTU, CEMS, HMI).
 - **No usar fotos de personas sonriendo en oficinas.** Si Gamma requiere imágenes, preferir
   abstractas geométricas o ninguna.
-- Mantener **exactamente 17 slides**.
+- Mantener **exactamente 18 slides**.
 - **VENTAS TÉCNICAS no es un área menor**: va como slide propia (la 12), con el mismo peso
   visual que POWER y PROCESOS.
