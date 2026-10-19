@@ -98,8 +98,8 @@ El presentador es Víctor Vilche, ingeniero eléctrico, CEO de CONECTA.
 
 **Estructura narrativa obligatoria:**
 1. Primero el MUNDO (qué va a pasar en Chile en los próximos 20 años).
-2. Después la EMPRESA, con **TRES caminos**: dos técnicos (POWER y PROCESOS) y uno comercial
-   (**VENTAS TÉCNICAS**).
+2. Después la EMPRESA, con **CUATRO caminos**: dos técnicos (POWER y PROCESOS), uno de
+   cumplimiento (**CUMPLIMIENTO NORMATIVO**) y uno comercial (**VENTAS TÉCNICAS**).
 3. Al final, lo más importante: **la ACTITUD y el LIDERAZGO** con que se hacen las cosas.
 4. Cierre con invitación concreta: hacer la práctica en CONECTA.
 
