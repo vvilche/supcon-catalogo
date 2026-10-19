@@ -295,6 +295,18 @@ padding:3px 8px;border-radius:7px;transition:.15s}}
 min-width:52px;text-align:center;font-variant-numeric:tabular-nums}}
 .prog{{position:fixed;top:0;left:0;height:2.5px;background:var(--blue);transition:width .3s;
 z-index:70;box-shadow:0 0 10px var(--blue)}}
+
+/* ===== IMPRESION / PDF: una slide por pagina, apiladas ===== */
+@page{{size:1280px 720px;margin:0}}
+@media print{{
+  html,body{{overflow:visible;background:#fff;height:auto}}
+  #stage{{position:static;inset:auto;display:block;transform:none!important}}
+  .slide{{position:relative!important;opacity:1!important;visibility:visible!important;
+    transform:none!important;width:1280px;height:720px;page-break-after:always;
+    break-after:page;display:flex!important}}
+  .slide:last-child{{page-break-after:auto;break-after:auto}}
+  .nav,.prog{{display:none!important}}
+}}
 </style></head><body>
 <div class="prog" id="prog"></div>
 <div id="stage">{slides_html}</div>
