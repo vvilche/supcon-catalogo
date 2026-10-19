@@ -94,6 +94,27 @@ color:var(--tx3);font-weight:700;margin-bottom:4px}
 background:#eff6ff;color:#1e3a8a;font-style:italic}
 .ac-green .note{background:#ecfdf5;color:#065f46}
 
+.s-arq{background:var(--bg);color:var(--tx)}
+.arq-cadena{display:flex;gap:7px;margin-bottom:16px;align-items:stretch}
+.an{flex:1;background:#fff;border:1px solid var(--bd);border-top:3px solid var(--blue);
+border-radius:10px;padding:11px 12px;display:flex;flex-direction:column;gap:3px}
+.ann{background:var(--blue);color:#fff;font-size:10px;width:17px;height:17px;border-radius:50%;
+display:inline-flex;align-items:center;justify-content:center;font-weight:700;margin-bottom:2px}
+.an b{font-family:'Outfit',sans-serif;font-size:15.5px;font-weight:700;line-height:1.2}
+.ans{font-size:11.5px;color:#64748B;line-height:1.35}
+.arq-bandas{background:var(--navy);border-radius:12px;padding:14px 16px;
+display:grid;grid-template-columns:repeat(4,1fr);gap:9px}
+.arq-ttl{grid-column:1/-1;font-family:'Outfit',sans-serif;font-size:10px;font-weight:700;
+letter-spacing:1.5px;text-transform:uppercase;color:#60A5FA;margin-bottom:2px}
+.ab{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);
+border-left:3px solid var(--gr);border-radius:8px;padding:8px 10px}
+.ab b{display:block;font-family:'Outfit',sans-serif;font-size:13.5px;color:#F1F5F9;margin-bottom:2px}
+.ab span{font-size:11.5px;color:#B6C2D1;line-height:1.35;display:block}
+.arq-ley{display:flex;gap:22px;font-size:11.5px;color:var(--tx2);margin-top:11px}
+.arq-ley span{display:flex;align-items:center;gap:7px}
+.aky{width:11px;height:11px;border-radius:3px;background:var(--blue);display:inline-block}
+.akg{width:11px;height:11px;border-radius:3px;background:var(--gr);display:inline-block}
+
 /* quote */
 .qgrid{display:grid;grid-template-columns:1fr 1fr;gap:15px}
 .qi{background:#fff;border:1px solid var(--bd);border-radius:13px;padding:19px 22px}
@@ -137,13 +158,18 @@ z-index:70;box-shadow:0 0 10px var(--blue)}
 <section class="slide s-dark"><img class="logo" src="img/conecta_logo.png" alt="CONECTA Ingeniería S.A."><div class="kicker">Tres caminos</div><h1>En CONECTA hay tres formas<br>de ser ingeniero</h1><div class="pairs"><div class="pair"><b>POWER</b><p>La red, la subestación y la protección. El sistema eléctrico.</p></div><div class="pair"><b>PROCESOS</b><p>El interior de la planta. El proceso industrial.</p></div><div class="pair"><b>VENTAS TÉCNICAS</b><p>El ingeniero que entiende al cliente y sabe qué venderle.</p></div></div><div class="foot">No es el mismo trabajo. Conviene saber a cuál apuntar.</div><div class="num"></div></section>
 <section class="slide s-split ac-blue"><img class="logo" src="img/conecta_logo_claro.png" alt="CONECTA Ingeniería S.A."><div class="kicker">Línea POWER</div><h1>La red, la subestación,<br>la protección</h1>
           <div class="splitbox">
-            <div class="scol"><ul class="icheck"><li>Subestaciones eléctricas</li><li>Protecciones y ajustes</li><li>RTU y SCADA</li><li>Calidad de energía</li><li>Sincronización por satélite</li><li>Comunicaciones industriales</li></ul></div>
+            <div class="scol"><ul class="icheck"><li>Subestaciones eléctricas</li><li>Protecciones y ajustes</li><li>SISTEMAS SCADA: sala de control, HMI, histórico, alarmas</li><li>RTU y gateways (OrionLX+)</li><li>Calidad de energía y medición</li><li>Sincronización por satélite</li><li>Red OT y ciberseguridad IEC 62443</li></ul></div>
             <div class="scol meta">
-              <div class="mi"><b>Representamos</b><span>NovaTech · Vizimax · Belden / Hirschmann</span></div>
-              <div class="mi"><b>Perfiles que entran</b><span>Eléctrica · Electrónica · Control</span></div>
-              <div class="note ac-blue">Un ajuste mal puesto apaga media ciudad.</div>
+              <div class="mi"><b>Representamos</b><span>NovaTech (Orion SCADA, RTU, Kronos) · Vizimax · Belden / Hirschmann</span></div>
+              <div class="mi"><b>Perfiles que entran</b><span>Eléctrica · Electrónica · Control · Informática</span></div>
+              <div class="note ac-blue">El SCADA es el que ve TODO. Si no está bien hecho, el operador trabaja a ciegas — y ahí nace el apagón.</div>
             </div>
           </div><div class="num"></div></section>
+<section class="slide s-arq"><img class="logo" src="img/conecta_logo_claro.png" alt="CONECTA Ingeniería S.A."><div class="kicker">Línea POWER · dónde vendemos</div><h1>La cadena completa: de la central al cliente</h1>
+          <div class="arq-cadena"><div class="an"><span class="ann">1</span><b>Generación</b><span class="ans">Hidro · solar · eólica · térmica</span></div><div class="an"><span class="ann">2</span><b>Transmisión</b><span class="ans">Alta tensión y SE primarias</span></div><div class="an"><span class="ann">3</span><b>Subestación</b><span class="ans">El nodo donde todo se conecta</span></div><div class="an"><span class="ann">4</span><b>Distribución</b><span class="ans">Media tensión y clientes libres</span></div><div class="an"><span class="ann">5</span><b>Consumo</b><span class="ans">Minas · plantas · puertos</span></div></div>
+          <div class="arq-bandas"><div class="arq-ttl">Transversal a todos los eslabones</div><div class="ab"><b>Sala de control / SCADA</b><span>HMI, histórico, alarmas, reportes</span></div><div class="ab"><b>Comunicaciones OT</b><span>Switches IEC 61850-3, ciber IEC 62443</span></div><div class="ab"><b>Protección y medición</b><span>Relés, ajustes, TC/TP, calidad de energía</span></div><div class="ab"><b>Sincronización</b><span>Reloj GPS: sin esto los fasores no sirven</span></div></div>
+          <div class="arq-ley"><span><i class="aky"></i>CONECTA vende e integra</span>
+          <span><i class="akg"></i>Transversal: aplica en todos lados</span></div><div class="num"></div></section>
 <section class="slide s-split ac-green"><img class="logo" src="img/conecta_logo_claro.png" alt="CONECTA Ingeniería S.A."><div class="kicker">Línea PROCESOS</div><h1>El interior de la planta,<br>con SUPCON</h1>
           <div class="splitbox">
             <div class="scol"><ul class="icheck"><li>DCS ECS-700 y SIS TCS-500</li><li>Instrumentación</li><li>Válvulas y posicionadores</li><li>Analizadores y CEMS</li><li>Optimización avanzada</li><li>Predictivo y capa de datos</li></ul></div>
@@ -172,7 +198,7 @@ z-index:70;box-shadow:0 0 10px var(--blue)}
           <div class="coverfoot">Los espero en el MatchUp con un desafío real.<br><b>Víctor Vilche · CEO · CONECTA</b></div><div class="num"></div></section></div>
 <div class="nav">
   <button onclick="mv(-1)" aria-label="anterior">←</button>
-  <span class="ctr" id="ctr">1 / 16</span>
+  <span class="ctr" id="ctr">1 / 17</span>
   <button onclick="mv(1)" aria-label="siguiente">→</button>
 </div>
 <script>

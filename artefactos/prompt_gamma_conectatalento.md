@@ -75,7 +75,7 @@ body,p,li{font-family:'Inter',sans-serif;line-height:1.55}
 
 # SECCIÓN B — CONTENIDO (pegar en "Paste in text")
 
-Crea una presentación de **15 slides** en **español de Chile** (tuteo, no voseo) para una
+Crea una presentación de **16 slides** en **español de Chile** (tuteo, no voseo) para una
 exposición de **15 minutos** en la **Facultad de Ingeniería de la Pontificia Universidad Católica
 de Valparaíso**, en el **Workshop ConectaTalento 2026** (feria de práctica profesional y primer
 empleo).
@@ -152,13 +152,30 @@ Pie: No es el mismo trabajo. Conviene saber a cuál apuntar.
 ## Slide 8 — Línea POWER
 Kicker: LÍNEA POWER (en azul #2563EB)
 Título: **La red, la subestación, la protección**
-Lista: Subestaciones eléctricas · Protecciones y ajustes · RTU y SCADA · Calidad de energía · Sincronización por satélite · Comunicaciones industriales
+Lista (7 ítems): Subestaciones eléctricas · Protecciones y ajustes · **SISTEMAS SCADA: sala de control, HMI, histórico, alarmas** · RTU y gateways (OrionLX+) · Calidad de energía y medición · Sincronización por satélite · Red OT y ciberseguridad IEC 62443
 Tarjetas laterales:
-- **Representamos:** NovaTech · Vizimax · Belden / Hirschmann
-- **Perfiles que entran:** Eléctrica · Electrónica · Control
-- Destacado en cursiva: *Un ajuste mal puesto apaga media ciudad.*
+- **Representamos:** NovaTech (Orion SCADA, RTU, Kronos) · Vizimax · Belden / Hirschmann
+- **Perfiles que entran:** Eléctrica · Electrónica · Control · Informática
+- Destacado en cursiva: *El SCADA es el que ve TODO. Si no está bien hecho, el operador trabaja a ciegas — y ahí nace el apagón.*
 
-## Slide 9 — Línea PROCESOS
+## Slide 9 — Arquitectura: dónde vendemos
+Kicker: LÍNEA POWER · DÓNDE VENDEMOS (azul)
+Título: **La cadena completa: de la central al cliente**
+Diseño: cadena horizontal de CINCO bloques numerados, cada uno con nombre y subtítulo:
+1. **Generación** — Hidro · solar · eólica · térmica
+2. **Transmisión** — Alta tensión y SE primarias
+3. **Subestación** — El nodo donde todo se conecta
+4. **Distribución** — Media tensión y clientes libres
+5. **Consumo** — Minas · plantas · puertos
+Debajo, una BANDA OSCURA (#0A1628) de ancho completo titulada "TRANSVERSAL A TODOS LOS ESLABONES" con cuatro cajas (borde verde #10B981):
+- **Sala de control / SCADA** — HMI, histórico, alarmas, reportes
+- **Comunicaciones OT** — Switches IEC 61850-3, ciber IEC 62443
+- **Protección y medición** — Relés, ajustes, TC/TP, calidad de energía
+- **Sincronización** — Reloj GPS: sin esto los fasores no sirven
+Leyenda al pie: cuadro azul "CONECTA vende e integra" · cuadro verde "Transversal: aplica en todos lados".
+IMPORTANTE: la banda transversal NO es una etapa más de la cadena, es una capa que aplica a todas. Debe verse visualmente distinta (oscura, ancho completo, sin flechas que la conecten).
+
+## Slide 10 — Línea PROCESOS
 Kicker: LÍNEA PROCESOS (en verde #10B981)
 Título: **El interior de la planta, con SUPCON**
 Lista: DCS ECS-700 y SIS TCS-500 · Instrumentación · Válvulas y posicionadores · Analizadores y CEMS · Optimización avanzada · Predictivo y capa de datos
@@ -167,7 +184,7 @@ Tarjetas laterales:
 - **Perfiles que entran:** Mecánica · Química · Electrónica · Eléctrica
 - Destacado en cursiva: *Se aprende la planta, no el equipo. Por qué se rompe, no solo que se rompió.*
 
-## Slide 10 — Ventas Técnicas
+## Slide 11 — Ventas Técnicas
 Kicker: VENTAS TÉCNICAS (en naranja #F26522)
 Título: **El ingeniero que vende no deja de ser ingeniero**
 Párrafo de entrada: Acá un vendedor no es alguien que repite un discurso. Es un ingeniero que entiende el problema del cliente, aterriza la solución y responde por ella cuando se pone en marcha.
@@ -176,7 +193,7 @@ Dos columnas:
 - **Lo que tiene que saber** — El equipo que vende · El proceso del cliente · Costos y márgenes · Leer un plano y una hoja de datos · Hablar con un jefe de planta y con un comprador
 Destacado: *Se vende lo que se entiende. Sin base técnica, la venta es de intermediario.*
 
-## Slide 11 — Dónde se aprende
+## Slide 12 — Dónde se aprende
 Kicker: DÓNDE SE APRENDE
 Título: **En terreno, no en un PowerPoint**
 - **A la minera** — Con el ruido, el polvo y el turno de noche.
@@ -184,21 +201,21 @@ Título: **En terreno, no en un PowerPoint**
 - **A la planta** — Cuando algo falla y hay que resolverlo ahora.
 Cita: *Eso no lo enseña la universidad. Y no se aprende leyendo.*
 
-## Slide 12 — Cómo crecemos
+## Slide 13 — Cómo crecemos
 Kicker: CÓMO CRECEMOS
 Título: **No se entra a un puesto: se construye uno**
 - **En una empresa grande** — Hay un organigrama y un lugar reservado.
 - **Acá** — El organigrama se escribe con los que llegan.
 Cita: *Es más difícil. Y es la mejor escuela que hay.*
 
-## Slide 13 — Lo que buscamos
+## Slide 14 — Lo que buscamos
 Kicker: LO QUE BUSCAMOS
 Título: **No buscamos el mejor promedio**
 - **El promedio** — Dice que alguien sabe memorizar.
 - **Lo que miramos** — Que le importe hacer bien las cosas, que pregunte cuando no entiende y que se haga cargo.
 Cita grande y destacada: **En diez años, el que se destacó no fue el que sabía más. Fue el que se hizo cargo.**
 
-## Slide 14 — Actitud y liderazgo
+## Slide 15 — Actitud y liderazgo
 Kicker: ACTITUD Y LIDERAZGO
 Título: **El liderazgo empieza el primer día**
 Cuatro tarjetas:
@@ -207,7 +224,7 @@ Cuatro tarjetas:
 - **Cumple** — Si dijiste a las 8, a las 7:50 estás. El liderazgo es que tu palabra valga.
 - **Le importa** — Anotar el dato que te pidieron aunque nadie te esté mirando.
 
-## Slide 15 — Cierre
+## Slide 16 — Cierre
 Kicker: LA INVITACIÓN
 Título: **Hagan la práctica acá**
 Subtítulo: No para quedarse para siempre. Para saber lo que es la ingeniería de verdad.
@@ -228,6 +245,6 @@ Incluir la línea: Vendemos · Diseñamos · Instalamos · Ponemos en marcha. No
 - **Nada en inglés** salvo siglas técnicas del rubro (DCS, SIS, SCADA, RTU, CEMS, HMI).
 - **No usar fotos de personas sonriendo en oficinas.** Si Gamma requiere imágenes, preferir
   abstractas geométricas o ninguna.
-- Mantener **exactamente 15 slides**.
-- **VENTAS TÉCNICAS no es un área menor**: va como slide propia (la 10), con el mismo peso
+- Mantener **exactamente 16 slides**.
+- **VENTAS TÉCNICAS no es un área menor**: va como slide propia (la 11), con el mismo peso
   visual que POWER y PROCESOS.

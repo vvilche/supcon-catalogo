@@ -82,11 +82,24 @@ S.append(dict(tipo="dark", kicker="Tres caminos",
 S.append(dict(tipo="split", kicker="Línea POWER", acento="blue",
               h1="La red, la subestación,<br>la protección",
               items=["Subestaciones eléctricas", "Protecciones y ajustes",
-                     "RTU y SCADA", "Calidad de energía", "Sincronización por satélite",
-                     "Comunicaciones industriales"],
-              rep="NovaTech · Vizimax · Belden / Hirschmann",
-              perfil="Eléctrica · Electrónica · Control",
-              nota="Un ajuste mal puesto apaga media ciudad."))
+                     "SISTEMAS SCADA: sala de control, HMI, histórico, alarmas",
+                     "RTU y gateways (OrionLX+)", "Calidad de energía y medición",
+                     "Sincronización por satélite", "Red OT y ciberseguridad IEC 62443"],
+              rep="NovaTech (Orion SCADA, RTU, Kronos) · Vizimax · Belden / Hirschmann",
+              perfil="Eléctrica · Electrónica · Control · Informática",
+              nota="El SCADA es el que ve TODO. Si no está bien hecho, el operador trabaja a ciegas — y ahí nace el apagón."))
+
+S.append(dict(tipo="arq", kicker="Línea POWER · dónde vendemos", acento="blue",
+              h1="La cadena completa: de la central al cliente",
+              cadena=[("Generación", "Hidro · solar · eólica · térmica"),
+                      ("Transmisión", "Alta tensión y SE primarias"),
+                      ("Subestación", "El nodo donde todo se conecta"),
+                      ("Distribución", "Media tensión y clientes libres"),
+                      ("Consumo", "Minas · plantas · puertos")],
+              bandas=[("Sala de control / SCADA", "HMI, histórico, alarmas, reportes"),
+                      ("Comunicaciones OT", "Switches IEC 61850-3, ciber IEC 62443"),
+                      ("Protección y medición", "Relés, ajustes, TC/TP, calidad de energía"),
+                      ("Sincronización", "Reloj GPS: sin esto los fasores no sirven")]))
 
 S.append(dict(tipo="split", kicker="Línea PROCESOS", acento="green",
               h1="El interior de la planta,<br>con SUPCON",
@@ -182,6 +195,19 @@ def render(s):
               <div class="note ac-{s["acento"]}">{esc(s["nota"])}</div>
             </div>
           </div>'''
+
+    elif t == "arq":
+        nodos = "".join(
+            f'<div class="an"><span class="ann">{i+1}</span><b>{esc(n)}</b>'
+            f'<span class="ans">{esc(sub)}</span></div>'
+            for i, (n, sub) in enumerate(s["cadena"]))
+        bandas = "".join(f'<div class="ab"><b>{esc(b)}</b><span>{esc(f)}</span></div>'
+                         for b, f in s["bandas"])
+        inner = f'''{logo(False)}{kick}{h1}
+          <div class="arq-cadena">{nodos}</div>
+          <div class="arq-bandas"><div class="arq-ttl">Transversal a todos los eslabones</div>{bandas}</div>
+          <div class="arq-ley"><span><i class="aky"></i>CONECTA vende e integra</span>
+          <span><i class="akg"></i>Transversal: aplica en todos lados</span></div>'''
 
     elif t == "quote":
         items = "".join(
@@ -294,6 +320,27 @@ color:var(--tx3);font-weight:700;margin-bottom:4px}}
 .note{{font-size:15px;line-height:1.55;border-radius:11px;padding:16px 19px;margin-top:6px;
 background:#eff6ff;color:#1e3a8a;font-style:italic}}
 .ac-green .note{{background:#ecfdf5;color:#065f46}}
+
+.s-arq{{background:var(--bg);color:var(--tx)}}
+.arq-cadena{{display:flex;gap:7px;margin-bottom:16px;align-items:stretch}}
+.an{{flex:1;background:#fff;border:1px solid var(--bd);border-top:3px solid var(--blue);
+border-radius:10px;padding:11px 12px;display:flex;flex-direction:column;gap:3px}}
+.ann{{background:var(--blue);color:#fff;font-size:10px;width:17px;height:17px;border-radius:50%;
+display:inline-flex;align-items:center;justify-content:center;font-weight:700;margin-bottom:2px}}
+.an b{{font-family:'Outfit',sans-serif;font-size:15.5px;font-weight:700;line-height:1.2}}
+.ans{{font-size:11.5px;color:#64748B;line-height:1.35}}
+.arq-bandas{{background:var(--navy);border-radius:12px;padding:14px 16px;
+display:grid;grid-template-columns:repeat(4,1fr);gap:9px}}
+.arq-ttl{{grid-column:1/-1;font-family:'Outfit',sans-serif;font-size:10px;font-weight:700;
+letter-spacing:1.5px;text-transform:uppercase;color:#60A5FA;margin-bottom:2px}}
+.ab{{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);
+border-left:3px solid var(--gr);border-radius:8px;padding:8px 10px}}
+.ab b{{display:block;font-family:'Outfit',sans-serif;font-size:13.5px;color:#F1F5F9;margin-bottom:2px}}
+.ab span{{font-size:11.5px;color:#B6C2D1;line-height:1.35;display:block}}
+.arq-ley{{display:flex;gap:22px;font-size:11.5px;color:var(--tx2);margin-top:11px}}
+.arq-ley span{{display:flex;align-items:center;gap:7px}}
+.aky{{width:11px;height:11px;border-radius:3px;background:var(--blue);display:inline-block}}
+.akg{{width:11px;height:11px;border-radius:3px;background:var(--gr);display:inline-block}}
 
 /* quote */
 .qgrid{{display:grid;grid-template-columns:1fr 1fr;gap:15px}}
