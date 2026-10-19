@@ -75,7 +75,7 @@ body,p,li{font-family:'Inter',sans-serif;line-height:1.55}
 
 # SECCIÓN B — CONTENIDO (pegar en "Paste in text")
 
-Crea una presentación de **16 slides** en **español de Chile** (tuteo, no voseo) para una
+Crea una presentación de **17 slides** en **español de Chile** (tuteo, no voseo) para una
 exposición de **15 minutos** en la **Facultad de Ingeniería de la Pontificia Universidad Católica
 de Valparaíso**, en el **Workshop ConectaTalento 2026** (feria de práctica profesional y primer
 empleo).
@@ -142,10 +142,11 @@ Dos bloques:
 Cita destacada: *La diferencia entre un ingeniero bueno y uno muy bueno ya no es calcular. Es saber qué dato importa.*
 
 ## Slide 7 — Bisagra
-Kicker: TRES CAMINOS
-Título: **En CONECTA hay tres formas de ser ingeniero**
+Kicker: CUATRO CAMINOS
+Título: **En CONECTA hay cuatro formas de ser ingeniero**
 - **POWER** — La red, la subestación y la protección. El sistema eléctrico.
 - **PROCESOS** — El interior de la planta. El proceso industrial.
+- **CUMPLIMIENTO NORMATIVO** — El ingeniero que sabe demostrarle al Coordinador que la planta cumple.
 - **VENTAS TÉCNICAS** — El ingeniero que entiende al cliente y sabe qué venderle.
 Pie: No es el mismo trabajo. Conviene saber a cuál apuntar.
 
@@ -175,7 +176,22 @@ Debajo, una BANDA OSCURA (#0A1628) de ancho completo titulada "TRANSVERSAL A TOD
 Leyenda al pie: cuadro azul "CONECTA vende e integra" · cuadro verde "Transversal: aplica en todos lados".
 IMPORTANTE: la banda transversal NO es una etapa más de la cadena, es una capa que aplica a todas. Debe verse visualmente distinta (oscura, ancho completo, sin flechas que la conecten).
 
-## Slide 10 — Línea PROCESOS
+## Slide 10 — Cumplimiento normativo
+Kicker: CUMPLIMIENTO NORMATIVO (en morado #7C3AED)
+Título: **La planta que no lo demuestra, no cobra**
+Lista (6 ítems, viñetas moradas):
+1. **SSCC: los 4 servicios complementarios (CPF, CSF, CTF, CT)**
+2. **EDAC / EDAG y ROCOF: respuesta ante perturbaciones**
+3. **Informes de conexión y puesta en servicio**
+4. **Reportes periódicos al Coordinador Eléctrico**
+5. **Verificación IBR Grid-Forming (nuevo 2026)**
+6. **Ciberseguridad: Ley 21.663**
+Tarjetas laterales:
+- **Normativa:** NTSyCS · protocolo CPF · guía IBR GFM v0 (mayo 2026)
+- **Perfiles que entran:** Eléctrica · Electrónica · Control — y saber leer una norma
+- Destacado en cursiva sobre fondo lila: *Si el dato no llega en el formato que el Coordinador exige, la planta genera energía y NO cobra ese servicio. La plata está en demostrar, no solo en operar.*
+
+## Slide 11 — Línea PROCESOS
 Kicker: LÍNEA PROCESOS (en verde #10B981)
 Título: **El interior de la planta, con SUPCON**
 Lista: DCS ECS-700 y SIS TCS-500 · Instrumentación · Válvulas y posicionadores · Analizadores y CEMS · Optimización avanzada · Predictivo y capa de datos
@@ -184,7 +200,7 @@ Tarjetas laterales:
 - **Perfiles que entran:** Mecánica · Química · Electrónica · Eléctrica
 - Destacado en cursiva: *Se aprende la planta, no el equipo. Por qué se rompe, no solo que se rompió.*
 
-## Slide 11 — Ventas Técnicas
+## Slide 12 — Ventas Técnicas
 Kicker: VENTAS TÉCNICAS (en naranja #F26522)
 Título: **El ingeniero que vende no deja de ser ingeniero**
 Párrafo de entrada: Acá un vendedor no es alguien que repite un discurso. Es un ingeniero que entiende el problema del cliente, aterriza la solución y responde por ella cuando se pone en marcha.
@@ -193,7 +209,7 @@ Dos columnas:
 - **Lo que tiene que saber** — El equipo que vende · El proceso del cliente · Costos y márgenes · Leer un plano y una hoja de datos · Hablar con un jefe de planta y con un comprador
 Destacado: *Se vende lo que se entiende. Sin base técnica, la venta es de intermediario.*
 
-## Slide 12 — Dónde se aprende
+## Slide 13 — Dónde se aprende
 Kicker: DÓNDE SE APRENDE
 Título: **En terreno, no en un PowerPoint**
 - **A la minera** — Con el ruido, el polvo y el turno de noche.
@@ -201,21 +217,21 @@ Título: **En terreno, no en un PowerPoint**
 - **A la planta** — Cuando algo falla y hay que resolverlo ahora.
 Cita: *Eso no lo enseña la universidad. Y no se aprende leyendo.*
 
-## Slide 13 — Cómo crecemos
+## Slide 14 — Cómo crecemos
 Kicker: CÓMO CRECEMOS
 Título: **No se entra a un puesto: se construye uno**
 - **En una empresa grande** — Hay un organigrama y un lugar reservado.
 - **Acá** — El organigrama se escribe con los que llegan.
 Cita: *Es más difícil. Y es la mejor escuela que hay.*
 
-## Slide 14 — Lo que buscamos
+## Slide 15 — Lo que buscamos
 Kicker: LO QUE BUSCAMOS
 Título: **No buscamos el mejor promedio**
 - **El promedio** — Dice que alguien sabe memorizar.
 - **Lo que miramos** — Que le importe hacer bien las cosas, que pregunte cuando no entiende y que se haga cargo.
 Cita grande y destacada: **En diez años, el que se destacó no fue el que sabía más. Fue el que se hizo cargo.**
 
-## Slide 15 — Actitud y liderazgo
+## Slide 16 — Actitud y liderazgo
 Kicker: ACTITUD Y LIDERAZGO
 Título: **El liderazgo empieza el primer día**
 Cuatro tarjetas:
@@ -224,7 +240,7 @@ Cuatro tarjetas:
 - **Cumple** — Si dijiste a las 8, a las 7:50 estás. El liderazgo es que tu palabra valga.
 - **Le importa** — Anotar el dato que te pidieron aunque nadie te esté mirando.
 
-## Slide 16 — Cierre
+## Slide 17 — Cierre
 Kicker: LA INVITACIÓN
 Título: **Hagan la práctica acá**
 Subtítulo: No para quedarse para siempre. Para saber lo que es la ingeniería de verdad.
@@ -245,6 +261,6 @@ Incluir la línea: Vendemos · Diseñamos · Instalamos · Ponemos en marcha. No
 - **Nada en inglés** salvo siglas técnicas del rubro (DCS, SIS, SCADA, RTU, CEMS, HMI).
 - **No usar fotos de personas sonriendo en oficinas.** Si Gamma requiere imágenes, preferir
   abstractas geométricas o ninguna.
-- Mantener **exactamente 16 slides**.
-- **VENTAS TÉCNICAS no es un área menor**: va como slide propia (la 11), con el mismo peso
+- Mantener **exactamente 17 slides**.
+- **VENTAS TÉCNICAS no es un área menor**: va como slide propia (la 12), con el mismo peso
   visual que POWER y PROCESOS.

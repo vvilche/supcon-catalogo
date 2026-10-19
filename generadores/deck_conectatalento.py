@@ -72,10 +72,11 @@ S.append(dict(tipo="light", kicker="Tendencia 4 · El oficio",
                     ("Hoy", "Hay miles de señales por planta que nadie ocupa. Decide el que sabe qué preguntar.")],
               pull="La diferencia entre un ingeniero bueno y uno muy bueno ya no es calcular. Es saber qué dato importa."))
 
-S.append(dict(tipo="dark", kicker="Tres caminos",
-              h1="En CONECTA hay tres formas<br>de ser ingeniero",
+S.append(dict(tipo="dark", kicker="Cuatro caminos",
+              h1="En CONECTA hay cuatro formas<br>de ser ingeniero",
               body=[("POWER", "La red, la subestación y la protección. El sistema eléctrico."),
                     ("PROCESOS", "El interior de la planta. El proceso industrial."),
+                    ("CUMPLIMIENTO NORMATIVO", "El ingeniero que sabe demostrarle al Coordinador que la planta cumple."),
                     ("VENTAS TÉCNICAS", "El ingeniero que entiende al cliente y sabe qué venderle.")],
               foot="No es el mismo trabajo. Conviene saber a cuál apuntar."))
 
@@ -100,6 +101,18 @@ S.append(dict(tipo="arq", kicker="Línea POWER · dónde vendemos", acento="blue
                       ("Comunicaciones OT", "Switches IEC 61850-3, ciber IEC 62443"),
                       ("Protección y medición", "Relés, ajustes, TC/TP, calidad de energía"),
                       ("Sincronización", "Reloj GPS: sin esto los fasores no sirven")]))
+
+S.append(dict(tipo="split", kicker="Cumplimiento normativo", acento="purple",
+              h1="La planta que no lo<br>demuestra, no cobra",
+              items=["SSCC: los 4 servicios complementarios (CPF, CSF, CTF, CT)",
+                     "EDAC / EDAG y ROCOF: respuesta ante perturbaciones",
+                     "Informes de conexión y puesta en servicio",
+                     "Reportes periódicos al Coordinador Eléctrico",
+                     "Verificación IBR Grid-Forming (nuevo 2026)",
+                     "Ciberseguridad: Ley 21.663"],
+              rep="Normativa: NTSyCS · protocolo CPF · guía IBR GFM v0 (mayo 2026)",
+              perfil="Eléctrica · Eléctrónica · Control — y saber leer una norma",
+              nota="Si el dato no llega en el formato que el Coordinador exige, la planta genera energía y NO cobra ese servicio. La plata está en demostrar, no solo en operar."))
 
 S.append(dict(tipo="split", kicker="Línea PROCESOS", acento="green",
               h1="El interior de la planta,<br>con SUPCON",
@@ -259,6 +272,9 @@ text-transform:uppercase;color:var(--blue);margin-bottom:18px}}
 .s-dark .kicker,.s-cover .kicker{{color:#60a5fa}}
 .ac-green .kicker{{color:var(--green)}}
 .ac-orange .kicker{{color:var(--orange)}}
+.ac-purple .kicker{{color:#7C3AED}}
+.ac-purple .icheck li:before{{background:#7C3AED}}
+.ac-purple .note{{background:#f5f3ff;color:#5b21b6}}
 .ac-orange .icheck li:before{{background:var(--orange)}}
 .ac-orange .note{{background:#fff7ed;color:#9a3412}}
 
