@@ -20,7 +20,12 @@ def esc(x):
     return html.escape(str(x))
 
 
-LOGO = '<span class="logo"><i class="dot"></i>CONECTA<span class="sa">S.A.</span></span>'
+def logo(on_dark=True):
+    """Logo real CONECTA (verde #0A8439), extraido de 'Logo Conecta.pdf'.
+    Dos archivos: transparente para fondo oscuro, sobre-blanco para fondo claro."""
+    f = "img/conecta_logo.png" if on_dark else "img/conecta_logo_claro.png"
+    return f'<img class="logo" src="{f}" alt="CONECTA Ingeniería S.A.">'
+
 
 # ============================================================ SLIDES
 # tipo: cover | light | dark | stats | split | quote
@@ -67,11 +72,12 @@ S.append(dict(tipo="light", kicker="Tendencia 4 · El oficio",
                     ("Hoy", "Hay miles de señales por planta que nadie ocupa. Decide el que sabe qué preguntar.")],
               pull="La diferencia entre un ingeniero bueno y uno muy bueno ya no es calcular. Es saber qué dato importa."))
 
-S.append(dict(tipo="dark", kicker="Dos caminos",
-              h1="En CONECTA hay dos ingenierías distintas",
+S.append(dict(tipo="dark", kicker="Tres caminos",
+              h1="En CONECTA hay tres formas<br>de ser ingeniero",
               body=[("POWER", "La red, la subestación y la protección. El sistema eléctrico."),
-                    ("PROCESOS", "El interior de la planta. El proceso industrial.")],
-              foot="Son hermanas, pero no es el mismo trabajo. Conviene saber a cuál apuntar."))
+                    ("PROCESOS", "El interior de la planta. El proceso industrial."),
+                    ("VENTAS TÉCNICAS", "El ingeniero que entiende al cliente y sabe qué venderle.")],
+              foot="No es el mismo trabajo. Conviene saber a cuál apuntar."))
 
 S.append(dict(tipo="split", kicker="Línea POWER", acento="blue",
               h1="La red, la subestación,<br>la protección",
@@ -89,6 +95,16 @@ S.append(dict(tipo="split", kicker="Línea PROCESOS", acento="green",
               rep="SUPCON",
               perfil="Mecánica · Química · Electrónica · Eléctrica",
               nota="Se aprende la planta, no el equipo. Por qué se rompe, no solo que se rompió."))
+
+S.append(dict(tipo="split", kicker="Ventas Técnicas", acento="orange",
+              h1="El ingeniero que vende<br>no deja de ser ingeniero",
+              items=["Visitar plantas y subestaciones", "Levantar el requerimiento real",
+                     "Armar la propuesta técnica y económica", "Cotizar y sustentar el precio",
+                     "Acompañar la puesta en marcha"],
+              rep="Lo que tiene que saber: el equipo, el proceso del cliente, costos y márgenes",
+              perfil="Eléctrica · Mecánica · Química · cualquier especialidad con base técnica",
+              nota="Se vende lo que se entiende. Sin base técnica, la venta es de intermediario."))
+
 
 S.append(dict(tipo="light", kicker="Dónde se aprende",
               h1="En terreno, no en un PowerPoint",
@@ -135,7 +151,7 @@ def render(s):
     h1 = f'<h1>{s["h1"]}</h1>' if s.get("h1") else ""
 
     if t == "cover":
-        inner = f'''{LOGO}<div class="coverbox">{kick}{h1}
+        inner = f'''{logo(True)}<div class="coverbox">{kick}{h1}
           <div class="sub">{s.get("sub","")}</div></div>
           <div class="coverfoot">{s.get("foot","")}</div>'''
 
@@ -153,11 +169,11 @@ def render(s):
         if s.get("pull"):
             cuerpo += f'<div class="pull">{s["pull"]}</div>'
         foot = f'<div class="foot">{s.get("foot","")}</div>' if s.get("foot") else ""
-        inner = f'{LOGO}{kick}{h1}{cuerpo}{foot}'
+        inner = f'{logo(t == "dark")}{kick}{h1}{cuerpo}{foot}'
 
     elif t == "split":
         items = "".join(f"<li>{esc(x)}</li>" for x in s["items"])
-        inner = f'''{LOGO}{kick}{h1}
+        inner = f'''{logo(False)}{kick}{h1}
           <div class="splitbox">
             <div class="scol"><ul class="icheck">{items}</ul></div>
             <div class="scol meta">
@@ -170,10 +186,10 @@ def render(s):
     elif t == "quote":
         items = "".join(
             f'<div class="qi"><b>{esc(a)}</b><p>{esc(b)}</p></div>' for a, b in s["items"])
-        inner = f'{LOGO}{kick}{h1}<div class="qgrid">{items}</div>'
+        inner = f'{logo(False)}{kick}{h1}<div class="qgrid">{items}</div>'
 
     else:
-        inner = LOGO
+        inner = logo(False)
 
     cls = f"slide s-{t}"
     if t == "split":
@@ -206,17 +222,19 @@ display:flex;flex-direction:column;overflow:hidden}}
 .s-quote{{background:var(--bg3);color:var(--tx)}}
 
 /* logo */
-.logo{{display:inline-flex;align-items:center;gap:8px;font-family:'Outfit',sans-serif;
-font-size:20px;font-weight:800;letter-spacing:-.4px;margin-bottom:auto}}
-.logo .dot{{width:8px;height:8px;border-radius:50%;background:var(--blue);display:inline-block}}
-.logo .sa{{font-weight:500;opacity:.55;margin-left:4px;font-size:16px}}
-.s-light .logo,.s-split .logo,.s-quote .logo{{color:var(--navy)}}
-.s-dark .logo,.s-cover .logo{{color:#fff}}
+img.logo{{display:block!important;height:62px!important;width:auto!important;
+max-width:260px!important;margin-bottom:auto!important;align-self:flex-start!important;
+flex:0 0 auto!important;object-fit:contain!important}}
+.s-split img.logo,.s-quote img.logo{{height:56px!important}}
+/* en slides claras el logo positivo (verde+blanco) ya funciona: no invertir */
 
 .kicker{{font-family:'Outfit',sans-serif;font-size:13px;font-weight:700;letter-spacing:1.6px;
 text-transform:uppercase;color:var(--blue);margin-bottom:18px}}
 .s-dark .kicker,.s-cover .kicker{{color:#60a5fa}}
 .ac-green .kicker{{color:var(--green)}}
+.ac-orange .kicker{{color:var(--orange)}}
+.ac-orange .icheck li:before{{background:var(--orange)}}
+.ac-orange .note{{background:#fff7ed;color:#9a3412}}
 
 h1{{font-family:'Outfit',sans-serif;font-size:52px;font-weight:700;line-height:1.1;
 letter-spacing:-1.4px;margin-bottom:34px}}
